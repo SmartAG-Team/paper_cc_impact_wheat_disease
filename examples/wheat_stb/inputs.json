@@ -1,0 +1,25 @@
+{
+  "forcing_status": "synthetic seasonal weather; no field observations",
+  "source_fit_status": "sign-only timing fit on original 28 fields; ecological rates weakly identified; conditional on initial source=1 and time step=0.25",
+  "stage_status": "stage-only calibrated thresholds; weak identification and explicit spacing scenario",
+  "synthetic_weather_formula": {
+    "tmean_c": "10 + 8 sin(2 pi (day_of_year - 105)/365)",
+    "tmax_c": "tmean_c + 5",
+    "rh_mean_pct": "82 + 10 cos(2 pi (day_of_year - 105)/365)",
+    "precipitation_mm": "3 on example indices mod 8 in {0,1}; zero otherwise"
+  },
+  "imported_pressure": "explicit selected constant; relative source units, not spore count",
+  "no_field_yield_observations": true,
+  "source_sha256": {
+    "configurations/wheat_stb/tpv_calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "configurations/wheat_stb/calibrated_stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540"
+  },
+  "input_sha256": {
+    "configuration.json": "7c5d30f571ae50748cb26c3d95cd564744d31d50896fa55d133cd217066e8019",
+    "configuration_standardized_had.json": "71b8f5de30c78f81ec336e7c1de5df6c19528644b715c30421d7ff9f5d88185f",
+    "weather.csv": "4051ba8995c5486ea81816ea935267752d5278cf65c7174eb453a27e401402a7"
+  },
+  "detection_fraction": 0.001,
+  "detection_fraction_status": "fixed observation assumption matching the registered primary 0.001 operator; not estimated"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "wheel_members": 32,
+  "days": 376,
+  "restart_exact": true,
+  "wheel_sha256": "0515517169fd4ae90ddb6f488064f4dc9209f22728d254f4e7e5e166d9c7d7fc",
+  "runtime_only_payload": true
+}

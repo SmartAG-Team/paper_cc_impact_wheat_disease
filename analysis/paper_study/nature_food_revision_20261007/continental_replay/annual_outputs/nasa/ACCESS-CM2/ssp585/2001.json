@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "provider": "nasa",
+  "model": "ACCESS-CM2",
+  "scenario": "ssp585",
+  "harvest_year": 2001,
+  "all_registered_cells": 14941,
+  "eligible_calendar_cells": 14932,
+  "full_domain_census": true,
+  "chunk_size": 256,
+  "configuration_sha256": "4a504b2185987ec0bdeb323667a3c9b6925c5d15ad29a6cbdb64173e8da8e3e2",
+  "source_forcing": [
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2000.parquet",
+      "sha256": "31fbceac55bf357e7290d89c5512ba6faf13c03bffe029d26c551f2cbab2a37a"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2001.parquet",
+      "sha256": "a47b8aa747cdc941481191cd01f1657441569f206b0dcaf50c7f0cdbe5ba80fe"
+    }
+  ],
+  "alignment_sha256": "ba1699f4a28d8a02e11fb27f0d32454ab57059164de5b1b46a0a49635ea67bea",
+  "output_sha256": "eace9235f63ee2f2f4b7c433cf80cc2dd6a4ca90df8594086303b8ecd6ed5ac4",
+  "status_counts": {
+    "complete": 14772,
+    "soft_dough_not_reached": 160,
+    "missing_calendar": 9
+  },
+  "maximum_mass_error": 5.551115123125783e-16,
+  "wall_seconds": 122.65223533299286,
+  "crop_area_ha": 54405001.12262583,
+  "complete_crop_area_ha": 54385814.65839587,
+  "inference_scope": "unchanged frozen-model spatial extension; not new epidemic or yield validation",
+  "completed_utc": "2026-10-07T07:02:05.367338+00:00"
+}

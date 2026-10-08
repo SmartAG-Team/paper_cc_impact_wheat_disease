@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "Savary2019",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Savary",
+        "given": "Serge"
+      },
+      {
+        "family": "Willocquet",
+        "given": "Laetitia"
+      },
+      {
+        "family": "Pethybridge",
+        "given": "Sarah Jane"
+      },
+      {
+        "family": "Esker",
+        "given": "Paul"
+      },
+      {
+        "family": "McRoberts",
+        "given": "Neil"
+      },
+      {
+        "family": "Nelson",
+        "given": "Andy"
+      }
+    ],
+    "title": "The global burden of pathogens and pests on major food crops",
+    "DOI": "10.1038/s41559-018-0793-y",
+    "URL": "https://doi.org/10.1038/s41559-018-0793-y",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          4
+        ]
+      ]
+    },
+    "container-title": "Nature Ecology & Evolution",
+    "volume": "3",
+    "issue": "3",
+    "page": "430-439"
+  },
+  {
+    "id": "Chaloner2021",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Chaloner",
+        "given": "Thomas M."
+      },
+      {
+        "family": "Gurr",
+        "given": "Sarah J."
+      },
+      {
+        "family": "Bebber",
+        "given": "Daniel P."
+      }
+    ],
+    "title": "Plant pathogen infection risk tracks global crop yields under climate change",
+    "DOI": "10.1038/s41558-021-01104-8",
+    "URL": "https://doi.org/10.1038/s41558-021-01104-8",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8
+        ]
+      ]
+    },
+    "container-title": "Nature Climate Change",
+    "volume": "11",
+    "issue": "8",
+    "page": "710-715"
+  },
+  {
+    "id": "SuffertSache2011",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Suffert",
+        "given": "F."
+      },
+      {
+        "family": "Sache",
+        "given": "I."
+      }
+    ],
+    "title": "Relative importance of different types of inoculum to the establishment of <i>Mycosphaerella graminicola</i> in wheat crops in north‐west Europe",
+    "DOI": "10.1111/j.1365-3059.2011.02455.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.2011.02455.x",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          24
+        ]
+      ]
+    },
+    "container-title": "Plant Pathology",
+    "volume": "60",
+    "issue": "5",
+    "page": "878-889"
+  },
+  {
+    "id": "Shaw1990",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Shaw",
+        "given": "M. W."
+      }
+    ],
+    "title": "Effects of temperature, leaf wetness and cultivar on the latent period of <i>Mycosphaerella graminicola</i> on winter wheat",
+    "DOI": "10.1111/j.1365-3059.1990.tb02501.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.1990.tb02501.x",
+    "issued": {
+      "date-parts": [
+        [
+          1990,
+          6
+        ]
+      ]
+    },
+    "container-title": "Plant Pathology",
+    "volume": "39",
+    "issue": "2",
+    "page": "255-268"
+  },
+  {
+    "id": "Lovell2004",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Lovell",
+        "given": "D. J."
+      },
+      {
+        "family": "Hunter",
+        "given": "T."
+      },
+      {
+        "family": "Powers",
+        "given": "S. J."
+      },
+      {
+        "family": "Parker",
+        "given": "S. R."
+      },
+      {
+        "family": "van den Bosch",
+        "given": "F."
+      }
+    ],
+    "title": "Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions",
+    "DOI": "10.1111/j.0032-0862.2004.00983.x",
+    "URL": "https://doi.org/10.1111/j.0032-0862.2004.00983.x",
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          4
+        ]
+      ]
+    },
+    "container-title": "Plant Pathology",
+    "volume": "53",
+    "issue": "2",
+    "page": "170-181"
+  },
+  {
+    "id": "Pietravalle2003",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Pietravalle",
+        "given": "S."
+      },
+      {
+        "family": "Shaw",
+        "given": "M. W."
+      },
+      {
+        "family": "Parker",
+        "given": "S. R."
+      },
+      {
+        "family": "van den Bosch",
+        "given": "F."
+      }
+    ],
+    "title": "Modeling of relationships between weather and Septoria tritici epidemics on winter wheat: A critical approach",
+    "DOI": "10.1094/PHYTO.2003.93.10.1329",
+    "URL": "https://doi.org/10.1094/PHYTO.2003.93.10.1329",
+    "issued": {
+      "date-parts": [
+        [
+          2003,
+          10
+        ]
+      ]
+    },
+    "container-title": "Phytopathology",
+    "volume": "93",
+    "issue": "10",
+    "page": "1329-1339"
+  },
+  {
+    "id": "Gouache2013",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Gouache",
+        "given": "David"
+      },
+      {
+        "family": "Bensadoun",
+        "given": "Arnaud"
+      },
+      {
+        "family": "Brun",
+        "given": "François"
+      },
+      {
+        "family": "Pagé",
+        "given": "Christian"
+      },
+      {
+        "family": "Makowski",
+        "given": "David"
+      },
+      {
+        "family": "Wallach",
+        "given": "Daniel"
+      }
+    ],
+    "title": "Modelling climate change impact on Septoria tritici blotch (STB) in France: Accounting for climate model and disease model uncertainty",
+    "DOI": "10.1016/j.agrformet.2012.04.019",
+    "URL": "https://doi.org/10.1016/j.agrformet.2012.04.019",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          3
+        ]
+      ]
+    },
+    "container-title": "Agricultural and Forest Meteorology",
+    "volume": "170",
+    "page": "242-252"
+  },
+  {
+    "id": "Holst2022BASF",
+    "type": "dataset",
+    "title": "Data from 56 fungicide trials in wheat fields across Europe 2017–2019",
+    "author": [
+      {
+        "family": "Holst",
+        "given": "N."
+      }
+    ],
+    "publisher": "Zenodo",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.6521175",
+    "URL": "https://doi.org/10.5281/zenodo.6521175",
+    "version": "1.0"
+  },
+  {
+    "id": "HolstDonner2022Corteva",
+    "type": "dataset",
+    "title": "Data from 168 fungicide trials in wheat fields across Europe 2014–2018",
+    "author": [
+      {
+        "family": "Holst",
+        "given": "N."
+      },
+      {
+        "family": "Donner",
+        "given": "M."
+      }
+    ],
+    "publisher": "Zenodo",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.6352615",
+    "URL": "https://doi.org/10.5281/zenodo.6352615",
+    "version": "1.0"
+  },
+  {
+    "id": "ERA5",
+    "type": "dataset",
+    "title": "ERA5 hourly data on single levels",
+    "author": [
+      {
+        "literal": "Copernicus Climate Change Service"
+      }
+    ],
+    "publisher": "Copernicus Climate Data Store",
+    "DOI": "10.24381/cds.adbb2d47",
+    "URL": "https://doi.org/10.24381/cds.adbb2d47"
+  },
+  {
+    "id": "OpenMeteo",
+    "type": "webpage",
+    "title": "Historical Weather API documentation",
+    "author": [
+      {
+        "literal": "Open-Meteo"
+      }
+    ],
+    "publisher": "Open-Meteo",
+    "URL": "https://open-meteo.com/en/docs/historical-weather-api",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "GGCMIPhase32021",
+    "type": "dataset",
+    "title": "GGCMI Phase 3 crop calendar",
+    "author": [
+      {
+        "family": "Jägermeyr",
+        "given": "J."
+      },
+      {
+        "family": "Müller",
+        "given": "C."
+      },
+      {
+        "family": "Minoli",
+        "given": "S."
+      },
+      {
+        "family": "Ray",
+        "given": "D."
+      },
+      {
+        "family": "Siebert",
+        "given": "S."
+      }
+    ],
+    "publisher": "Zenodo",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.5062513",
+    "URL": "https://doi.org/10.5281/zenodo.5062513",
+    "version": "1.01"
+  },
+  {
+    "id": "SPAM2020",
+    "type": "dataset",
+    "title": "Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2",
+    "author": [
+      {
+        "literal": "International Food Policy Research Institute"
+      }
+    ],
+    "publisher": "Harvard Dataverse",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.7910/DVN/SWPENT",
+    "URL": "https://doi.org/10.7910/DVN/SWPENT",
+    "version": "6"
+  },
+  {
+    "id": "NEXGDDPCmip6V2",
+    "type": "report",
+    "title": "NEX-GDDP-CMIP6 version 2 technical note",
+    "author": [
+      {
+        "literal": "NASA Center for Climate Simulation"
+      }
+    ],
+    "publisher": "NASA",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "URL": "https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf"
+  },
+  {
+    "id": "Minoli2022",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Minoli",
+        "given": "Sara"
+      },
+      {
+        "family": "Jägermeyr",
+        "given": "Jonas"
+      },
+      {
+        "family": "Asseng",
+        "given": "Senthold"
+      },
+      {
+        "family": "Urfels",
+        "given": "Anton"
+      },
+      {
+        "family": "Müller",
+        "given": "Christoph"
+      }
+    ],
+    "title": "Global crop yields can be lifted by timely adaptation of growing periods to climate change",
+    "DOI": "10.1038/s41467-022-34411-5",
+    "URL": "https://doi.org/10.1038/s41467-022-34411-5",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          18
+        ]
+      ]
+    },
+    "container-title": "Nature Communications",
+    "volume": "13",
+    "issue": "1",
+    "page": "7079"
+  },
+  {
+    "id": "Wang2017",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Enli"
+      },
+      {
+        "family": "Martre",
+        "given": "Pierre"
+      },
+      {
+        "family": "Zhao",
+        "given": "Zhigan"
+      },
+      {
+        "family": "Ewert",
+        "given": "Frank"
+      },
+      {
+        "family": "Maiorano",
+        "given": "Andrea"
+      },
+      {
+        "family": "Rötter",
+        "given": "Reimund P."
+      },
+      {
+        "family": "Kimball",
+        "given": "Bruce A."
+      },
+      {
+        "family": "Ottman",
+        "given": "Michael J."
+      },
+      {
+        "family": "Wall",
+        "given": "Gerard W."
+      },
+      {
+        "family": "White",
+        "given": "Jeffrey W."
+      },
+      {
+        "family": "Reynolds",
+        "given": "Matthew P."
+      },
+      {
+        "family": "Alderman",
+        "given": "Phillip D."
+      },
+      {
+        "family": "Aggarwal",
+        "given": "Pramod K."
+      },
+      {
+        "family": "Anothai",
+        "given": "Jakarat"
+      },
+      {
+        "family": "Basso",
+        "given": "Bruno"
+      },
+      {
+        "family": "Biernath",
+        "given": "Christian"
+      },
+      {
+        "family": "Cammarano",
+        "given": "Davide"
+      },
+      {
+        "family": "Challinor",
+        "given": "Andrew J."
+      },
+      {
+        "family": "De Sanctis",
+        "given": "Giacomo"
+      },
+      {
+        "family": "Doltra",
+        "given": "Jordi"
+      },
+      {
+        "family": "Dumont",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Fereres",
+        "given": "Elias"
+      },
+      {
+        "family": "Garcia-Vila",
+        "given": "Margarita"
+      },
+      {
+        "family": "Gayler",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Hoogenboom",
+        "given": "Gerrit"
+      },
+      {
+        "family": "Hunt",
+        "given": "Leslie A."
+      },
+      {
+        "family": "Izaurralde",
+        "given": "Roberto C."
+      },
+      {
+        "family": "Jabloun",
+        "given": "Mohamed"
+      },
+      {
+        "family": "Jones",
+        "given": "Curtis D."
+      },
+      {
+        "family": "Kersebaum",
+        "given": "Kurt C."
+      },
+      {
+        "family": "Koehler",
+        "given": "Ann-Kristin"
+      },
+      {
+        "family": "Liu",
+        "given": "Leilei"
+      },
+      {
+        "family": "Müller",
+        "given": "Christoph"
+      },
+      {
+        "family": "Naresh Kumar",
+        "given": "Soora"
+      },
+      {
+        "family": "Nendel",
+        "given": "Claas"
+      },
+      {
+        "family": "O'Leary",
+        "given": "Garry"
+      },
+      {
+        "family": "Olesen",
+        "given": "Jørgen E."
+      },
+      {
+        "family": "Palosuo",
+        "given": "Taru"
+      },
+      {
+        "family": "Priesack",
+        "given": "Eckart"
+      },
+      {
+        "family": "Eyshi Rezaei",
+        "given": "Ehsan"
+      },
+      {
+        "family": "Ripoche",
+        "given": "Dominique"
+      },
+      {
+        "family": "Ruane",
+        "given": "Alex C."
+      },
+      {
+        "family": "Semenov",
+        "given": "Mikhail A."
+      },
+      {
+        "family": "Shcherbak",
+        "given": "Iurii"
+      },
+      {
+        "family": "Stöckle",
+        "given": "Claudio"
+      },
+      {
+        "family": "Stratonovitch",
+        "given": "Pierre"
+      },
+      {
+        "family": "Streck",
+        "given": "Thilo"
+      },
+      {
+        "family": "Supit",
+        "given": "Iwan"
+      },
+      {
+        "family": "Tao",
+        "given": "Fulu"
+      },
+      {
+        "family": "Thorburn",
+        "given": "Peter"
+      },
+      {
+        "family": "Waha",
+        "given": "Katharina"
+      },
+      {
+        "family": "Wallach",
+        "given": "Daniel"
+      },
+      {
+        "family": "Wang",
+        "given": "Zhimin"
+      },
+      {
+        "family": "Wolf",
+        "given": "Joost"
+      },
+      {
+        "family": "Zhu",
+        "given": "Yan"
+      },
+      {
+        "family": "Asseng",
+        "given": "Senthold"
+      }
+    ],
+    "title": "The uncertainty of crop yield projections is reduced by improved temperature response functions",
+    "DOI": "10.1038/nplants.2017.102",
+    "URL": "https://doi.org/10.1038/nplants.2017.102",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          17
+        ]
+      ]
+    },
+    "container-title": "Nature Plants",
+    "volume": "3",
+    "issue": "8",
+    "page": "17102"
+  },
+  {
+    "id": "Parker2004",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Parker",
+        "given": "S. R."
+      },
+      {
+        "family": "Welham",
+        "given": "S."
+      },
+      {
+        "family": "Paveley",
+        "given": "N. D."
+      },
+      {
+        "family": "Foulkes",
+        "given": "J."
+      },
+      {
+        "family": "Scott",
+        "given": "R. K."
+      }
+    ],
+    "title": "Tolerance of septoria leaf blotch in winter wheat",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1365-3059.2004.00951.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.2004.00951.x",
+    "volume": "53",
+    "issue": "1",
+    "page": "1-10"
+  },
+  {
+    "id": "Bancal2015",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Bancal",
+        "given": "Pierre"
+      },
+      {
+        "family": "Bancal",
+        "given": "Marie-Odile"
+      },
+      {
+        "family": "Collin",
+        "given": "François"
+      },
+      {
+        "family": "Gouache",
+        "given": "David"
+      }
+    ],
+    "title": "Identifying traits leading to tolerance of wheat to <i>Septoria tritici</i> blotch",
+    "container-title": "Field Crops Research",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.fcr.2015.05.006",
+    "URL": "https://doi.org/10.1016/j.fcr.2015.05.006",
+    "volume": "180",
+    "page": "176-185"
+  },
+  {
+    "id": "Foulkes2006",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Foulkes",
+        "given": "M. J."
+      },
+      {
+        "family": "Paveley",
+        "given": "N. D."
+      },
+      {
+        "family": "Worland",
+        "given": "A."
+      },
+      {
+        "family": "Welham",
+        "given": "S. J."
+      },
+      {
+        "family": "Thomas",
+        "given": "J."
+      },
+      {
+        "family": "Snape",
+        "given": "J. W."
+      }
+    ],
+    "title": "Major genetic changes in wheat with potential to affect disease tolerance",
+    "container-title": "Phytopathology",
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1094/phyto-96-0680",
+    "URL": "https://doi.org/10.1094/phyto-96-0680",
+    "volume": "96",
+    "issue": "7",
+    "page": "680-688"
+  },
+  {
+    "id": "vanDenBerg2017",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "van den Berg",
+        "given": "F."
+      },
+      {
+        "family": "Paveley",
+        "given": "N. D."
+      },
+      {
+        "family": "Bingham",
+        "given": "I. J."
+      },
+      {
+        "family": "van den Bosch",
+        "given": "F."
+      }
+    ],
+    "title": "Physiological traits determining yield tolerance of wheat to foliar diseases",
+    "container-title": "Phytopathology",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1094/phyto-07-16-0283-r",
+    "URL": "https://doi.org/10.1094/phyto-07-16-0283-r",
+    "volume": "107",
+    "issue": "12",
+    "page": "1468-1478"
+  },
+  {
+    "id": "Karisto2018",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Karisto",
+        "given": "Petteri"
+      },
+      {
+        "family": "Hund",
+        "given": "Andreas"
+      },
+      {
+        "family": "Yu",
+        "given": "Kang"
+      },
+      {
+        "family": "Anderegg",
+        "given": "Jonas"
+      },
+      {
+        "family": "Walter",
+        "given": "Achim"
+      },
+      {
+        "family": "Mascher",
+        "given": "Fabio"
+      },
+      {
+        "family": "McDonald",
+        "given": "Bruce A."
+      },
+      {
+        "family": "Mikaberidze",
+        "given": "Alexey"
+      }
+    ],
+    "title": "Ranking quantitative resistance to <i>Septoria tritici</i> blotch in elite wheat cultivars using automated image analysis",
+    "container-title": "Phytopathology",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1094/phyto-04-17-0163-r",
+    "URL": "https://doi.org/10.1094/phyto-04-17-0163-r",
+    "volume": "108",
+    "issue": "5",
+    "page": "568-581"
+  },
+  {
+    "id": "LovellCanopy2004",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Lovell",
+        "given": "D. J."
+      },
+      {
+        "family": "Parker",
+        "given": "S. R."
+      },
+      {
+        "family": "Hunter",
+        "given": "T."
+      },
+      {
+        "family": "Welham",
+        "given": "S. J."
+      },
+      {
+        "family": "Nichols",
+        "given": "A. R."
+      }
+    ],
+    "title": "Position of inoculum in the canopy affects the risk of septoria tritici blotch epidemics in winter wheat",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1046/j.1365-3059.2003.00939.x",
+    "URL": "https://doi.org/10.1046/j.1365-3059.2003.00939.x",
+    "volume": "53",
+    "issue": "1",
+    "page": "11-21"
+  },
+  {
+    "id": "Jamieson1995",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Jamieson",
+        "given": "P.D."
+      },
+      {
+        "family": "Brooking",
+        "given": "I.R."
+      },
+      {
+        "family": "Porter",
+        "given": "J.R."
+      },
+      {
+        "family": "Wilson",
+        "given": "D.R."
+      }
+    ],
+    "title": "Prediction of leaf appearance in wheat: a question of temperature",
+    "container-title": "Field Crops Research",
+    "issued": {
+      "date-parts": [
+        [
+          1995,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/0378-4290(94)00102-i",
+    "URL": "https://doi.org/10.1016/0378-4290(94)00102-i",
+    "volume": "41",
+    "issue": "1",
+    "page": "35-44"
+  },
+  {
+    "id": "Abichou2018",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Abichou",
+        "given": "Mariem"
+      },
+      {
+        "family": "Fournier",
+        "given": "Christian"
+      },
+      {
+        "family": "Dornbusch",
+        "given": "Tino"
+      },
+      {
+        "family": "Chambon",
+        "given": "Camille"
+      },
+      {
+        "family": "de Solan",
+        "given": "Benoit"
+      },
+      {
+        "family": "Gouache",
+        "given": "David"
+      },
+      {
+        "family": "Andrieu",
+        "given": "Bruno"
+      }
+    ],
+    "title": "Parameterising wheat leaf and tiller dynamics for faithful reconstruction of wheat plants by structural plant models",
+    "container-title": "Field Crops Research",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.fcr.2018.01.010",
+    "URL": "https://doi.org/10.1016/j.fcr.2018.01.010",
+    "volume": "218",
+    "page": "213-230"
+  },
+  {
+    "id": "ShawRoyle1989",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Shaw",
+        "given": "M. W."
+      },
+      {
+        "family": "Royle",
+        "given": "D. J."
+      }
+    ],
+    "title": "Airborne inoculum as a major source of <i>Septoria tritici</i> (<i>Mycosphaerella graminicola</i>) infections in winter wheat crops in the UK",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          1989,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1365-3059.1989.tb01425.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.1989.tb01425.x",
+    "volume": "38",
+    "issue": "1",
+    "page": "35-43"
+  },
+  {
+    "id": "ShawRoyle1993",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Shaw",
+        "given": "M. W."
+      },
+      {
+        "family": "Royle",
+        "given": "D. J."
+      }
+    ],
+    "title": "Factors determining the severity of epidemics of <i>Mycosphaerella graminicola (Septoria tritici)</i> on winter wheat in the UK",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          1993,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1365-3059.1993.tb02674.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.1993.tb02674.x",
+    "volume": "42",
+    "issue": "6",
+    "page": "882-899"
+  },
+  {
+    "id": "Baccar2011",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Baccar",
+        "given": "Rim"
+      },
+      {
+        "family": "Fournier",
+        "given": "Christian"
+      },
+      {
+        "family": "Dornbusch",
+        "given": "Tino"
+      },
+      {
+        "family": "Andrieu",
+        "given": "Bruno"
+      },
+      {
+        "family": "Gouache",
+        "given": "David"
+      },
+      {
+        "family": "Robert",
+        "given": "Corinne"
+      }
+    ],
+    "title": "Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model",
+    "container-title": "Annals of Botany",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1093/aob/mcr126",
+    "URL": "https://doi.org/10.1093/aob/mcr126",
+    "volume": "108",
+    "issue": "6",
+    "page": "1179-1194"
+  },
+  {
+    "id": "APSIMModelDesign",
+    "type": "webpage",
+    "author": [
+      {
+        "literal": "APSIM Initiative"
+      }
+    ],
+    "title": "Model design",
+    "publisher": "APSIM Docs",
+    "URL": "https://docs.apsim.info/docs/development/software/modeldesign",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PCSEReferenceGuide",
+    "type": "webpage",
+    "author": [
+      {
+        "literal": "Python Crop Simulation Environment"
+      }
+    ],
+    "title": "Reference guide",
+    "publisher": "PCSE 6.0 documentation",
+    "version": "6.0",
+    "URL": "https://pcse.readthedocs.io/en/stable/reference_guide.html",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "MIRCAOS2026",
+    "type": "dataset",
+    "title": "Irrigated and rainfed crop areas and cropping calendars",
+    "author": [
+      {
+        "literal": "MIRCA-OS"
+      }
+    ],
+    "publisher": "HydroShare",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "URL": "https://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/",
+    "version": "2"
+  }
+]

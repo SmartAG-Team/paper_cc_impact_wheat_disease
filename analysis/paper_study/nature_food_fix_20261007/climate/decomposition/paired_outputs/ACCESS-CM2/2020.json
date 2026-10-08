@@ -1,0 +1,32 @@
+{
+  "model": "ACCESS-CM2",
+  "reference_year": 2020,
+  "rows": 256,
+  "seconds": 2.8699902499793097,
+  "checks": {
+    "Wfuture_Hreference": {
+      "active_target_days": 18419,
+      "unavailable_active_weather_days": 0,
+      "alignment": "elapsed calendar days from actual sowing; each active source day consumed once",
+      "source_date_origin": "2099-01-01",
+      "target_date_origin": "2019-01-01",
+      "source_forcing_days": 730,
+      "target_forcing_days": 731,
+      "mass_error": 4.440892098500626e-16,
+      "disease_weather_meanT_above40_active_days": 2
+    },
+    "Wreference_Hfuture": {
+      "active_target_days": 15336,
+      "unavailable_active_weather_days": 0,
+      "alignment": "elapsed calendar days from actual sowing; each active source day consumed once",
+      "source_date_origin": "2019-01-01",
+      "target_date_origin": "2099-01-01",
+      "source_forcing_days": 731,
+      "target_forcing_days": 730,
+      "mass_error": 4.440892098500626e-16,
+      "disease_weather_meanT_above40_active_days": 0
+    }
+  },
+  "output_sha256": "3822f0318414c173d061699a23c76fe266d3bca98a7364ab6fc2817ebf7a51c4",
+  "registration_sha256": "506f6b86a1ece65bf5aa14bc191e58d9cda068dce019f4932f601e37a9e5a267"
+}

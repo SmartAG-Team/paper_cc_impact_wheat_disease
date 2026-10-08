@@ -1,0 +1,43 @@
+{
+  "id": "Silva2026",
+  "type": "article-journal",
+  "title": "Agronomic management drives the wheat yield plateau in high-yielding environments of northwest Europe",
+  "author": [
+    {
+      "family": "Silva",
+      "given": "João Vasco"
+    },
+    {
+      "family": "Rijk",
+      "given": "Bert"
+    },
+    {
+      "family": "Berghuijs",
+      "given": "Herman N. C."
+    },
+    {
+      "family": "de Wit",
+      "given": "Allard J. W."
+    },
+    {
+      "family": "Reidsma",
+      "given": "Pytrik"
+    },
+    {
+      "family": "van Ittersum",
+      "given": "Martin K."
+    }
+  ],
+  "container-title": "Nature Food",
+  "container-title-short": "Nat. Food",
+  "volume": "7",
+  "page": "45-54",
+  "DOI": "10.1038/s43016-025-01286-w",
+  "issued": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  }
+}

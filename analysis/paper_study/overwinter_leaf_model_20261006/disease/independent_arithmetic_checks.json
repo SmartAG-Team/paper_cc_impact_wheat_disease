@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "bracket_rows_checked": 17043,
+  "positive_magnitude_invariant": true,
+  "physically_isolated_inner_training": true,
+  "redacted_prediction_targets": true,
+  "fits_frozen_before_reused_scoring": true,
+  "stage_fit_outside_inner_disease_folds_disclosed": true
+}

@@ -1,0 +1,19 @@
+References
+
+Abichou, M., Fournier, C., Dornbusch, T., Chambon, C., de Solan, B., Gouache, D., & Andrieu, B. (2018). Parameterising wheat leaf and tiller dynamics for faithful reconstruction of wheat plants by structural plant models. Field Crops Research, 218, 213–230. https://doi.org/10.1016/j.fcr.2018.01.010
+
+Baccar, R., Fournier, C., Dornbusch, T., Andrieu, B., Gouache, D., & Robert, C. (2011). Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model. Annals of Botany, 108(6), 1179–1194. https://doi.org/10.1093/aob/mcr126
+
+Jamieson, P. D., Brooking, I. R., Porter, J. R., & Wilson, D. R. (1995). Prediction of leaf appearance in wheat: a question of temperature. Field Crops Research, 41(1), 35–44. https://doi.org/10.1016/0378-4290(94)00102-i
+
+Lovell, D. J., Hunter, T., Powers, S. J., Parker, S. R., & van den Bosch, F. (2004). Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions. Plant Pathology, 53(2), 170–181. https://doi.org/10.1111/j.0032-0862.2004.00983.x
+
+Lovell, D. J., Parker, S. R., Hunter, T., Welham, S. J., & Nichols, A. R. (2004). Position of inoculum in the canopy affects the risk of septoria tritici blotch epidemics in winter wheat. Plant Pathology, 53(1), 11–21. https://doi.org/10.1046/j.1365-3059.2003.00939.x
+
+Shaw, M. W. (1990). Effects of temperature, leaf wetness and cultivar on the latent period of Mycosphaerella graminicola on winter wheat. Plant Pathology, 39(2), 255–268. https://doi.org/10.1111/j.1365-3059.1990.tb02501.x
+
+Shaw, M. W., & Royle, D. J. (1989). Airborne inoculum as a major source of Septoria tritici (Mycosphaerella graminicola) infections in winter wheat crops in the UK. Plant Pathology, 38(1), 35–43. https://doi.org/10.1111/j.1365-3059.1989.tb01425.x
+
+Shaw, M. W., & Royle, D. J. (1993). Factors determining the severity of epidemics of Mycosphaerella graminicola (Septoria tritici) on winter wheat in the UK. Plant Pathology, 42(6), 882–899. https://doi.org/10.1111/j.1365-3059.1993.tb02674.x
+
+Suffert, F., & Sache, I. (2011). Relative importance of different types of inoculum to the establishment of Mycosphaerella graminicola in wheat crops in north‐west Europe. Plant Pathology, 60(5), 878–889. https://doi.org/10.1111/j.1365-3059.2011.02455.x

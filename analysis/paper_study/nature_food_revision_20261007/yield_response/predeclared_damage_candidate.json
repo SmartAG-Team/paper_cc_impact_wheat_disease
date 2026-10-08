@@ -1,0 +1,19 @@
+{
+  "declaration_date": "2026-10-07",
+  "analysis_order": "Declared after seeing and retaining the failed linear prototype, before fitting this additional candidate. This is an exploratory conditional-structure comparison, not a previously untouched external validation",
+  "conditional_assumption": "A multiplicative photosynthetic-damage hypothesis assumes log(Y_U/Y_C) = -sum_j beta_j*(D_Uj-D_Cj), beta_j>=0. This biological interpretation is not verified by these registry means",
+  "fit_response": "log(Y_C/Y_U); both observed matched grain yields positive",
+  "reported_prediction_target": "Signed R = 1-Y_U/Y_C",
+  "prediction": "R_hat = 1-exp(-sum_j beta_j*delta_D_j)",
+  "signed_inputs": "All measured negative disease reductions and negative yield responses retained; no clipping",
+  "asymptotic_bound": "For finite linear score, R_hat<1 analytically; floating-point saturation at1 is labelled if it occurs. Negative scores give negative responses",
+  "cohorts": ["Primary endpoint67/five trials", "Primary common-date integral50/five trials", "Secondary positive-STB endpoint52/four trials", "Secondary positive-STB common-date integral38/four trials", "Complete-case four-disease131/eight trials"],
+  "cohort_mutation": "None; exact saved memberships and disease inputs from the linear analysis",
+  "fit": "Origin-constrained nonnegative weighted least squares in log yield-ratio space, signed covariates, equal training trial total weights",
+  "baseline": "Unchanged: original-scale signed R mean from training trials only, equal total trial weights",
+  "evaluation": "Same whole-trial folds and equal-trial metrics on original-scale R; one fixed candidate specification, no feature, penalty or hyperparameter selection",
+  "ridge_penalty": 0,
+  "temporal_challenge": "The 2020-2021 Informer to2022 Pondus predictions are the same stored leave-Pondus-out fold in the52/38 cohorts; not a second independent validation",
+  "diagnostics": "Identically zero columns, matrix rank, signed differences, sparse co-pathogen signals and response saturation are retained",
+  "biological_limits": "No measured healthy-area duration, disease-free counterfactual, absolute yield-loss identification or Europe/climate transfer validation is supplied"
+}

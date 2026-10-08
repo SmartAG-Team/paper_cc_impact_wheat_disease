@@ -1,0 +1,15 @@
+source,treatment,metric,method,raw_rows,fields,field_treatment_codes,assessment_groups,grain_fields,non_grain_fields,minimum,maximum,units_confirmed,fully_protected_status_confirmed
+BASF,TreatmentA,ERTRNE,MCALCR,54,54,54,54,54,0,94.57128,160.482808,False,False
+BASF,TreatmentA,ERTRNE,MWCGS,54,54,54,54,54,0,28.501388,1114.513081,False,False
+BASF,TreatmentB,ERTRNE,MCALCR,3,3,3,3,3,0,101.815913,130.586465,False,False
+BASF,TreatmentB,ERTRNE,MWCGS,3,3,3,3,3,0,67.412384,100.255902,False,False
+BASF,TreatmentC,ERTRNE,MCALCR,25,25,25,25,25,0,100.797092,133.498742,False,False
+BASF,TreatmentC,ERTRNE,MWCGS,25,25,25,25,25,0,62.593714,127.407562,False,False
+BASF,TreatmentD,ERTRNE,MCALCR,5,5,5,5,5,0,114.556136,123.579717,False,False
+BASF,TreatmentD,ERTRNE,MWCGS,5,5,5,5,5,0,90.767863,103.983401,False,False
+BASF,Untreated,ERTRNE,MCALCR,71,71,71,71,71,0,100.0,100.0,False,False
+BASF,Untreated,ERTRNE,MWCGS,71,71,71,71,71,0,18.990215,1045.042442,False,False
+Corteva,Treated,YIELD,unreported,3118,75,75,102,74,1,-0.8,8078.3,False,False
+Corteva,Treated,YIELD_STD,unreported,1941,63,63,86,63,0,-0.1,290.71,False,False
+Corteva,Untreated,YIELD,unreported,585,71,71,75,70,1,0.0,6446.2,False,False
+Corteva,Untreated,YIELD_STD,unreported,402,60,60,62,60,0,-0.25,102.8,False,False

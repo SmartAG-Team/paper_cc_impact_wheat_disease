@@ -1,0 +1,179 @@
+{
+  "model": "phenology_only",
+  "selected_candidate": {
+    "name": "phenology_s80_L20",
+    "rank_spacing_units": 80.0,
+    "delay_reference_days": 20.0
+  },
+  "selected_score": {
+    "candidate": "phenology_s80_L20",
+    "candidate_order": 0,
+    "primary_distance_days": 0.16666666666666666,
+    "primary_brackets": 8,
+    "primary_fields": 6,
+    "primary_compatibility": 0.8333333333333333,
+    "balanced_assessment_error": 0.2598578273505616,
+    "assessment_detection": {
+      "n": 178,
+      "positive_count": 162,
+      "negative_count": 16,
+      "true_positive": 143,
+      "false_positive": 6,
+      "true_negative": 10,
+      "false_negative": 19,
+      "sensitivity": 0.8940774487471526,
+      "specificity": 0.5862068965517241,
+      "balanced_accuracy": 0.7401421726494384,
+      "weighted_accuracy": 0.8750000000000002,
+      "specificity_identifiable": true
+    }
+  },
+  "candidate_scores": [
+    {
+      "candidate": "phenology_s80_L20",
+      "candidate_order": 0,
+      "primary_distance_days": 0.16666666666666666,
+      "primary_brackets": 8,
+      "primary_fields": 6,
+      "primary_compatibility": 0.8333333333333333,
+      "balanced_assessment_error": 0.2598578273505616,
+      "assessment_detection": {
+        "n": 178,
+        "positive_count": 162,
+        "negative_count": 16,
+        "true_positive": 143,
+        "false_positive": 6,
+        "true_negative": 10,
+        "false_negative": 19,
+        "sensitivity": 0.8940774487471526,
+        "specificity": 0.5862068965517241,
+        "balanced_accuracy": 0.7401421726494384,
+        "weighted_accuracy": 0.8750000000000002,
+        "specificity_identifiable": true
+      }
+    },
+    {
+      "candidate": "phenology_s80_L30",
+      "candidate_order": 1,
+      "primary_distance_days": 3.833333333333333,
+      "primary_brackets": 8,
+      "primary_fields": 6,
+      "primary_compatibility": 0.3333333333333333,
+      "balanced_assessment_error": 0.15464221192365102,
+      "assessment_detection": {
+        "n": 178,
+        "positive_count": 162,
+        "negative_count": 16,
+        "true_positive": 114,
+        "false_positive": 1,
+        "true_negative": 15,
+        "false_negative": 48,
+        "sensitivity": 0.7596810933940773,
+        "specificity": 0.9310344827586207,
+        "balanced_accuracy": 0.845357788076349,
+        "weighted_accuracy": 0.7702991452991454,
+        "specificity_identifiable": true
+      }
+    },
+    {
+      "candidate": "phenology_s120_L20",
+      "candidate_order": 2,
+      "primary_distance_days": 0.6666666666666666,
+      "primary_brackets": 8,
+      "primary_fields": 6,
+      "primary_compatibility": 0.8333333333333333,
+      "balanced_assessment_error": 0.2348008797423613,
+      "assessment_detection": {
+        "n": 178,
+        "positive_count": 162,
+        "negative_count": 16,
+        "true_positive": 151,
+        "false_positive": 6,
+        "true_negative": 10,
+        "false_negative": 11,
+        "sensitivity": 0.9441913439635534,
+        "specificity": 0.5862068965517241,
+        "balanced_accuracy": 0.7651991202576387,
+        "weighted_accuracy": 0.9220085470085471,
+        "specificity_identifiable": true
+      }
+    },
+    {
+      "candidate": "phenology_s120_L30",
+      "candidate_order": 3,
+      "primary_distance_days": 2.5,
+      "primary_brackets": 8,
+      "primary_fields": 6,
+      "primary_compatibility": 0.41666666666666663,
+      "balanced_assessment_error": 0.16036642840311055,
+      "assessment_detection": {
+        "n": 178,
+        "positive_count": 162,
+        "negative_count": 16,
+        "true_positive": 126,
+        "false_positive": 2,
+        "true_negative": 14,
+        "false_negative": 36,
+        "sensitivity": 0.8171981776765375,
+        "specificity": 0.8620689655172414,
+        "balanced_accuracy": 0.8396335715968894,
+        "weighted_accuracy": 0.8199786324786327,
+        "specificity_identifiable": true
+      }
+    },
+    {
+      "candidate": "phenology_s160_L20",
+      "candidate_order": 4,
+      "primary_distance_days": 2.833333333333333,
+      "primary_brackets": 8,
+      "primary_fields": 6,
+      "primary_compatibility": 0.5,
+      "balanced_assessment_error": 0.30912732699709367,
+      "assessment_detection": {
+        "n": 178,
+        "positive_count": 162,
+        "negative_count": 16,
+        "true_positive": 158,
+        "false_positive": 9,
+        "true_negative": 7,
+        "false_negative": 4,
+        "sensitivity": 0.9851936218678816,
+        "specificity": 0.396551724137931,
+        "balanced_accuracy": 0.6908726730029063,
+        "weighted_accuracy": 0.9487179487179489,
+        "specificity_identifiable": true
+      }
+    },
+    {
+      "candidate": "phenology_s160_L30",
+      "candidate_order": 5,
+      "primary_distance_days": 1.75,
+      "primary_brackets": 8,
+      "primary_fields": 6,
+      "primary_compatibility": 0.5833333333333333,
+      "balanced_assessment_error": 0.13103841017987583,
+      "assessment_detection": {
+        "n": 178,
+        "positive_count": 162,
+        "negative_count": 16,
+        "true_positive": 139,
+        "false_positive": 2,
+        "true_negative": 14,
+        "false_negative": 23,
+        "sensitivity": 0.8758542141230068,
+        "specificity": 0.8620689655172414,
+        "balanced_accuracy": 0.8689615898201242,
+        "weighted_accuracy": 0.8750000000000002,
+        "specificity_identifiable": true
+      }
+    }
+  ],
+  "exact_primary_minimum_ties": 1,
+  "all_stage_and_weather_nuisance_fits_inside_inner_training": true,
+  "original_candidate": "phenology_s80_L20",
+  "original_pooled_selection_distance_days": 0.16666666666666666,
+  "original_nuisance_stage_fit_outside_disease_inner_folds": true,
+  "reused_validation_outcomes_used": false,
+  "untouched_validation": false,
+  "diagnostic_only": true
+}

@@ -1,0 +1,698 @@
+{
+  "id": "https://openalex.org/W826170140",
+  "doi": "https://doi.org/10.1016/j.fcr.2015.05.006",
+  "title": "Identifying traits leading to tolerance of wheat to Septoria tritici blotch",
+  "display_name": "Identifying traits leading to tolerance of wheat to Septoria tritici blotch",
+  "publication_year": 2015,
+  "publication_date": "2015-06-24",
+  "ids": {
+    "openalex": "https://openalex.org/W826170140",
+    "doi": "https://doi.org/10.1016/j.fcr.2015.05.006",
+    "mag": "826170140"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.fcr.2015.05.006",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.fcr.2015.05.006",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S148071443",
+      "display_name": "Field Crops Research",
+      "issn_l": "0378-4290",
+      "issn": [
+        "0378-4290",
+        "1872-6852"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-2",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Field Crops Research",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5091763450",
+        "display_name": "Pierre Bancal",
+        "orcid": "https://orcid.org/0000-0002-3247-8071",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3247-8071"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210108708",
+          "display_name": "\u00c9cologie Fonctionnelle et \u00c9cotoxicologie des Agro\u00e9cosyst\u00e8mes",
+          "ror": "https://ror.org/01z6yh944",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I22248866",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I4210088668",
+            "https://openalex.org/I4210108708"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4387154544",
+          "display_name": "Institut National de la Recherche Agronomique",
+          "ror": "https://ror.org/01x3gbx83",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210088668",
+            "https://openalex.org/I4387154544"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Bancal Pierre",
+      "raw_affiliation_strings": [
+        "INRA, UMR 1402 ECOSYS, F-78850 Thiverval-Grignon, France",
+        "INRA, UMR 1402 ECOSYS, F-78850 Thiverval Grignon, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "INRA, UMR 1402 ECOSYS, F-78850 Thiverval-Grignon, France",
+          "institution_ids": [
+            "https://openalex.org/I4210108708",
+            "https://openalex.org/I4387154544"
+          ]
+        },
+        {
+          "raw_affiliation_string": "INRA, UMR 1402 ECOSYS, F-78850 Thiverval Grignon, France",
+          "institution_ids": [
+            "https://openalex.org/I4210108708",
+            "https://openalex.org/I4387154544"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5106021648",
+        "display_name": "Bancal Marie-Odile",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I22248866",
+          "display_name": "AgroParisTech",
+          "ror": "https://ror.org/02kbmgc12",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I22248866",
+            "https://openalex.org/I277688954"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210108708",
+          "display_name": "\u00c9cologie Fonctionnelle et \u00c9cotoxicologie des Agro\u00e9cosyst\u00e8mes",
+          "ror": "https://ror.org/01z6yh944",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I22248866",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I4210088668",
+            "https://openalex.org/I4210108708"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bancal Marie-Odile",
+      "raw_affiliation_strings": [
+        "AgroParisTech, UMR 1402 ECOSYS, F-78850 Thiverval-Grignon, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "AgroParisTech, UMR 1402 ECOSYS, F-78850 Thiverval-Grignon, France",
+          "institution_ids": [
+            "https://openalex.org/I22248866",
+            "https://openalex.org/I4210108708"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083598039",
+        "display_name": "Fran\u00e7ois Collin",
+        "orcid": "https://orcid.org/0000-0003-0524-5755",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0524-5755"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I22248866",
+          "display_name": "AgroParisTech",
+          "ror": "https://ror.org/02kbmgc12",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I22248866",
+            "https://openalex.org/I277688954"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210108708",
+          "display_name": "\u00c9cologie Fonctionnelle et \u00c9cotoxicologie des Agro\u00e9cosyst\u00e8mes",
+          "ror": "https://ror.org/01z6yh944",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I22248866",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I4210088668",
+            "https://openalex.org/I4210108708"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Collin Fran\u00e7ois",
+      "raw_affiliation_strings": [
+        "AgroParisTech, UMR 1402 ECOSYS, F-78850 Thiverval-Grignon, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "AgroParisTech, UMR 1402 ECOSYS, F-78850 Thiverval-Grignon, France",
+          "institution_ids": [
+            "https://openalex.org/I22248866",
+            "https://openalex.org/I4210108708"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5086149711",
+        "display_name": "Gouache David",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210113983",
+          "display_name": "Arvalis - Institut du V\u00e9g\u00e9tal",
+          "ror": "https://ror.org/0318myr61",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210113983"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gouache David",
+      "raw_affiliation_strings": [
+        "Arvalis-Institut du V\u00e9g\u00e9tal, Station Exp\u00e9rimentale, F-91720 Boigneville, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Arvalis-Institut du V\u00e9g\u00e9tal, Station Exp\u00e9rimentale, F-91720 Boigneville, France",
+          "institution_ids": [
+            "https://openalex.org/I4210113983"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5091763450"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210108708",
+    "https://openalex.org/I4387154544"
+  ],
+  "apc_list": {
+    "value": 3680,
+    "currency": "USD",
+    "value_usd": 3680
+  },
+  "apc_paid": null,
+  "fwci": 2.2703,
+  "has_fulltext": false,
+  "cited_by_count": 17,
+  "citation_normalized_percentile": {
+    "value": 0.8725063,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "180",
+    "issue": null,
+    "first_page": "176",
+    "last_page": "185"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10733",
+    "display_name": "Wheat and Barley Genetics and Pathology",
+    "score": 0.9970999956130981,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1110",
+      "display_name": "Plant Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10733",
+      "display_name": "Wheat and Barley Genetics and Pathology",
+      "score": 0.9970999956130981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11229",
+      "display_name": "Genetics and Plant Breeding",
+      "score": 0.0007999999797903001,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12858",
+      "display_name": "Plant Disease Resistance and Genetics",
+      "score": 0.0006000000284984708,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/septoria-tritici-blotch",
+      "display_name": "Septoria tritici blotch",
+      "score": 0.9810000061988831
+    },
+    {
+      "id": "https://openalex.org/keywords/wheat",
+      "display_name": "wheat",
+      "score": 0.9340000152587891
+    },
+    {
+      "id": "https://openalex.org/keywords/leaf-senescence",
+      "display_name": "leaf senescence",
+      "score": 0.8579999804496765
+    },
+    {
+      "id": "https://openalex.org/keywords/leaf-area-index",
+      "display_name": "leaf area index",
+      "score": 0.9580000042915344
+    },
+    {
+      "id": "https://openalex.org/keywords/grain-number",
+      "display_name": "grain number",
+      "score": 0.6069999933242798
+    },
+    {
+      "id": "https://openalex.org/keywords/grain-weight",
+      "display_name": "grain weight",
+      "score": 0.9919999837875366
+    },
+    {
+      "id": "https://openalex.org/keywords/ear-density",
+      "display_name": "ear density",
+      "score": 0.7720000147819519
+    },
+    {
+      "id": "https://openalex.org/keywords/fungicide-use",
+      "display_name": "fungicide application",
+      "score": 0.722000002861023
+    },
+    {
+      "id": "https://openalex.org/keywords/yield-loss",
+      "display_name": "yield loss",
+      "score": 0.546999990940094
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776008901",
+      "wikidata": "https://www.wikidata.org/wiki/Q310475",
+      "display_name": "Septoria",
+      "level": 2,
+      "score": 0.8621907234191895
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.6879752278327942
+    },
+    {
+      "id": "https://openalex.org/C137580998",
+      "wikidata": "https://www.wikidata.org/wiki/Q235352",
+      "display_name": "Crop",
+      "level": 2,
+      "score": 0.5831068754196167
+    },
+    {
+      "id": "https://openalex.org/C6557445",
+      "wikidata": "https://www.wikidata.org/wiki/Q173113",
+      "display_name": "Agronomy",
+      "level": 1,
+      "score": 0.5715762972831726
+    },
+    {
+      "id": "https://openalex.org/C134121241",
+      "wikidata": "https://www.wikidata.org/wiki/Q899301",
+      "display_name": "Yield (engineering)",
+      "level": 2,
+      "score": 0.5561147332191467
+    },
+    {
+      "id": "https://openalex.org/C74600772",
+      "wikidata": "https://www.wikidata.org/wiki/Q193237",
+      "display_name": "Fungicide",
+      "level": 2,
+      "score": 0.527534008026123
+    },
+    {
+      "id": "https://openalex.org/C126343540",
+      "wikidata": "https://www.wikidata.org/wiki/Q889514",
+      "display_name": "Crop yield",
+      "level": 2,
+      "score": 0.4187428951263428
+    },
+    {
+      "id": "https://openalex.org/C144027150",
+      "wikidata": "https://www.wikidata.org/wiki/Q48803",
+      "display_name": "Horticulture",
+      "level": 1,
+      "score": 0.3332412838935852
+    },
+    {
+      "id": "https://openalex.org/C191897082",
+      "wikidata": "https://www.wikidata.org/wiki/Q11467",
+      "display_name": "Metallurgy",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.fcr.2015.05.006",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.fcr.2015.05.006",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S148071443",
+        "display_name": "Field Crops Research",
+        "issn_l": "0378-4290",
+        "issn": [
+          "0378-4290",
+          "1872-6852"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Field Crops Research",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:HAL:hal-01535231v1",
+      "is_oa": false,
+      "landing_page_url": "https://hal.science/hal-01535231",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Field Crops Research, 2015, 180, pp.176-185. &#x27E8;10.1016/j.fcr.2015.05.006&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/2",
+      "score": 1.0,
+      "display_name": "Zero hunger"
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.7900000214576721,
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320323910",
+      "display_name": "Institut National de la Recherche Agronomique",
+      "ror": "https://ror.org/01x3gbx83"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 40,
+  "referenced_works": [
+    "https://openalex.org/W248245162",
+    "https://openalex.org/W1579328379",
+    "https://openalex.org/W1940174779",
+    "https://openalex.org/W1973741302",
+    "https://openalex.org/W1982279727",
+    "https://openalex.org/W1986027003",
+    "https://openalex.org/W1988416537",
+    "https://openalex.org/W1996452610",
+    "https://openalex.org/W2001181045",
+    "https://openalex.org/W2012802990",
+    "https://openalex.org/W2018661134",
+    "https://openalex.org/W2025147662",
+    "https://openalex.org/W2027758966",
+    "https://openalex.org/W2028179176",
+    "https://openalex.org/W2057106128",
+    "https://openalex.org/W2057577246",
+    "https://openalex.org/W2063427034",
+    "https://openalex.org/W2072867227",
+    "https://openalex.org/W2074158589",
+    "https://openalex.org/W2076505761",
+    "https://openalex.org/W2080037843",
+    "https://openalex.org/W2080344679",
+    "https://openalex.org/W2081151958",
+    "https://openalex.org/W2091586127",
+    "https://openalex.org/W2098876172",
+    "https://openalex.org/W2102744334",
+    "https://openalex.org/W2104850520",
+    "https://openalex.org/W2116209999",
+    "https://openalex.org/W2133380656",
+    "https://openalex.org/W2140089912",
+    "https://openalex.org/W2152302532",
+    "https://openalex.org/W2153780680",
+    "https://openalex.org/W2155270011",
+    "https://openalex.org/W2180373448",
+    "https://openalex.org/W2189096917",
+    "https://openalex.org/W2620616292",
+    "https://openalex.org/W4298167802",
+    "https://openalex.org/W6634986806",
+    "https://openalex.org/W6687522097",
+    "https://openalex.org/W6843581895"
+  ],
+  "related_works": [
+    "https://openalex.org/W4386478740",
+    "https://openalex.org/W2975760417",
+    "https://openalex.org/W1992348910",
+    "https://openalex.org/W2018149064",
+    "https://openalex.org/W1987089763",
+    "https://openalex.org/W2985080412",
+    "https://openalex.org/W3006201793",
+    "https://openalex.org/W4378566980",
+    "https://openalex.org/W139018289",
+    "https://openalex.org/W2065828020"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-09-27T08:07:27.782135",
+  "created_date": "2016-06-24T00:00:00"
+}

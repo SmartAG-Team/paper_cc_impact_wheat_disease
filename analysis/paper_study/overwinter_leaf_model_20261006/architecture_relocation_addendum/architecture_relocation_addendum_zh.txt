@@ -1,0 +1,7 @@
+　　模型目录仅包含参数化过程模拟。参数估计、交叉验证、观测数据转换、目标加权、症状时间区间构建及统计评分位于 calibration/primary_secondary 与 calibration/seasonal_septoria。冠层模拟、感染事件模拟和气候参数应用保留在 model/seasonal_septoria；同名校准模块负责相应的参数估计与观测评估。
+
+　　原有拟合配置位于 configurations/wheat_stb/legacy，两个 JSON 文件的 SHA-256 与迁移前一致。五份实验协议文档位于对应校准包的 docs 目录，文件内容逐字节保留。十二个完整模块迁移、三个混合模块拆分及全部活动调用路径的对应关系见 architecture_relocation_manifest.json。
+
+　　模拟函数的抽象语法树保持一致，十组冠层状态、感染和症状日期、初侵染状态及气候修正数组逐位一致。105 项针对性回归测试及 280 项完整测试全部通过。七条现有警告来自 process_model/sowing.py 中 NumPy 时间单位的弃用提示。模型 Python 文件不存在对 calibration、analysis、scipy.optimize 或 sklearn 的导入，也不存在 fit_ 参数估计函数。
+
+　　原有田间校准与验证存档的来源快照、参数、输出及收据保留历史路径和文件身份。84 个原始来源与输出散列通过核验；活动源文件的新旧身份单独记录于本补充存档。

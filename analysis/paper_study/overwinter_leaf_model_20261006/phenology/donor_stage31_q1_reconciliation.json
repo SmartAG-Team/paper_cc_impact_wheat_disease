@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "fields": 28,
+  "retuned_q": false,
+  "donor_threshold": 542.3,
+  "reconciled_before_new_threshold_fit": true
+}

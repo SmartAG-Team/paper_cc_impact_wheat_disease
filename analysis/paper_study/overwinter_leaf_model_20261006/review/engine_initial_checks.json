@@ -1,0 +1,9 @@
+{
+  "late_start_accepted": true,
+  "full_end_tpv": 100.0,
+  "omitted_3_days_end_tpv": 70.0,
+  "checkpoint_with_tpv_above_tpp_accepted": true,
+  "bad_checkpoint_tpv": 1000.0,
+  "bad_checkpoint_tpp": 50.0,
+  "recorded_output_end_tpv": 100.0
+}

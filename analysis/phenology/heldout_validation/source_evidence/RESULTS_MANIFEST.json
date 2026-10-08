@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "updated_at": "2026-09-28T14:41:44.352619+00:00",
+  "models": [
+    "GDD",
+    "T-P",
+    "T-P-V"
+  ],
+  "neural_results_present": false,
+  "protocol": "whole-season-sowing-onward-v2",
+  "calibration": "frozen training-only parameters",
+  "artifacts": {
+    "FINAL_DELIVERY.md": "8dfb28841fdf93e53d8c77bdaa66cf6a94b791580b300bebfdc0cde8a67dd6fc",
+    "FINAL_DELIVERY_FILES.txt": "dd82c74d66fec6070c05e8887225a0efe3eb42e49b6d5fb5fb8ca2e95d27c514",
+    "configs/calibrated_data_manifest.json": "b6db0c0fa62f55b0323ec88745c59fb703077dd6be8f978390b3f5b252508cb3",
+    "configs/calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "configs/evaluation_sites.json": "ed9f5a5d775847de5d790b5631da28d6c2b0320748b270384081e007b2282f39",
+    "configs/gdd_config.csv": "986e21ebf3957f0aed9a1aa44d8995efe53508d745772d6b31188d1af0fd7030",
+    "configs/station_split.json": "7d3965debafbaa9459fb2b6bf8684bc6242ab0089338a63fa7572158a3394956",
+    "evaluation_source/seasonal_evaluation.py": "22c0cceaea86391fa61476b60037ef214bb1c7740d5e6e7e1c2eb5a21909efc2",
+    "evaluation_source/verify_results.py": "1144d265aa7e100e2f76d602d519cffaaee44137a2e1f8e31561b92692ea6aa6",
+    "process_models/calibration/coverage.json": "351ea5a14e5052d44d72bd23ad3f24ecc9b168095cfffc5440a7b571b4de4a6a",
+    "process_models/calibration/event_dates.csv": "9128b24d263473230ee9940b365a5cade4c7b41bf09d6b4a936ea398068b8331",
+    "process_models/calibration/manifest.json": "4791b7f529ab9b5340c0bbd6571805dd87d40a37c210ab7018d0d966b30804b7",
+    "process_models/calibration/manifest.sha256": "a0823b0d9727b6b034b22163511c133f6cb2af57536b6a24e50c625c088e6415",
+    "process_models/calibration/metrics.json": "e192dc19cec8918bf2b665b942c535d0819ac31e71547e34afd013db77ea5700",
+    "process_models/seasonal_preflight.json": "de8d3b486723e6f26549b9e3f99f1dee14317f1db9b2326180cc5ff733a27863",
+    "process_models/summary.csv": "4d350607d9827d5b21dc4612091a660fa60d1977930248cb065599dd166def24",
+    "process_models/testing/coverage.json": "8facf9c2e5e5a37b66c751d707900f3abb31ffaf36032425c9a3f7d7ad4d279b",
+    "process_models/testing/event_dates.csv": "dbdc06b5fbe4180cbbfa965d06bd5e504049162c46737e2fca4b04d804f3b181",
+    "process_models/testing/manifest.json": "adffb8ac7ddb112fe1d3755a360bbad745279d649841d1192286eef6b0466b3e",
+    "process_models/testing/manifest.sha256": "84c274284a492b8d08ac3eefb696cae3549f08d68fd32d9d222e0bd6ccd09553",
+    "process_models/testing/metrics.json": "85f07d365a6271e2ce1f10c533d39f03e74c35eabf021e4bc47544838b5e5785",
+    "process_models/validation/coverage.json": "5be245090718779f288540294e0cde80410844cd9e066ba9937cc4a96959a8b8",
+    "process_models/validation/event_dates.csv": "c201a02776439b9cbe2a00ace8094cd5cf5377bbf468906d45aebdfca83877d1",
+    "process_models/validation/manifest.json": "55f6ab1e3f077c8d4578991b531c297f284322dc5bd5a3942fee27e654c7a885",
+    "process_models/validation/manifest.sha256": "0db7b29c3aaadb4daecd49456e9d6aa7d60634c9735d939c2b2bf0070495cc32",
+    "process_models/validation/metrics.json": "af4e7cb35797ff1cfddaca8c5e3845ba7e7bf959af6e51489c65d1bec1bfdecc",
+    "process_models/validation.json": "2296a9a821d1ea72644e18cde6e25365ca71ec9bea5874d266877567705168d2"
+  }
+}

@@ -1,0 +1,47 @@
+Primary–secondary model implementation plan
+
+Goal: develop a reproducible mechanistic model, calibrate on declared development data, test independent process and field data, and build a publication supported by the resulting evidence.
+Architecture: model/primary_secondary contains the state simulator, input preparation, calibration and validation. analysis/primary_secondary contains frozen evaluation settings and generated evidence. Original collected files remain immutable.
+Spec: model/primary_secondary/SPEC.txt
+Technology: Python3.12, NumPy, SciPy, pandas, PyArrow, Numba, pytest and Matplotlib.
+
+Global constraints
+Original bytes and source identities remain authoritative. Future disease values never initialize a test trajectory. Realized weather before each target date is permitted for retrospective evaluation. Source endpoints and independent biological units remain distinct. Calibration failure, weak identifiability or poor transfer are reported directly. No acceptance or publication-readiness claim follows solely from passing software tests.
+
+Review focus
+Future canopy records must not change earlier initial conditions.
+Missing weather, duplicated disease keys and invalid percentages must fail with an explicit error.
+Zero secondary inoculum must not create secondary infection, and zero external hazard must not create externally labeled infections.
+Attribution must preserve initially unresolved infection rather than relabeling it.
+Removed tissue must remain visible while ceasing to transmit.
+
+Task1: simulator and mechanism tests
+Files: model/primary_secondary/core.py and tests/test_primary_secondary.py.
+Interfaces: simulate(initial_visible, temperature, humidity_hours, rain, Parameters, initial_latent=0) returns state trajectories, damage and pycnidial proxies and origin-specific infection fluxes. Arrays are episodes by days by leaf ranks; weather is episode by day.
+Steps: write behavioral tests for mass, no disease without all sources, external-only establishment, secondary rain response, latent observation exclusion, initial-origin attribution and timestep convergence; run RED; implement bounded flows; run GREEN.
+
+Task2: chronological input preparation
+Files: model/primary_secondary/field_data.py and its tests.
+Interfaces: prepare_basf(root) returns episode metadata, targets and forcing; canopy_snapshot(records, trial, cutoff, ranks) returns only historically available visible states.
+Steps: write future-perturbation, date-boundary, duplicate and missing-forcing tests; run RED; implement source selection and weather joins; run GREEN.
+
+Task3: calibration and transfer evidence
+Files: model/primary_secondary/calibrate.py and analysis/primary_secondary/evaluation_contract.json.
+Interfaces: train parameters on train episodes only; predict heldout episodes; serialize parameter vectors, source hashes, per-target predictions, hierarchical scores and coordinate-cluster uncertainty. Baselines have the same target conditioning observations.
+Steps: verify group splits and loss weighting; fit frozen model variants and declared baselines; compare forward and spatial transfers without choosing models on test errors; profile primary/secondary coefficients; generate origin-aware results and numerical receipts.
+
+Task4: independent process and field validation
+Files: analysis/primary_secondary/laboratory, external_french and primary_evidence.
+Steps: preserve source definitions and independent units; fit process constraints on declared process-training data; test independent assays and field cases; assess observation-domain mismatch and change calibration only with explicit development designation.
+
+Task5: manuscript and continental evidence
+Files: publication/ and continental pipeline.
+Steps: synthesize verified actual results, figures and allowed references; evaluate publication gates; finish unsupported model components and Europe application before completion. Climate extension remains conditional.
+
+Execution ledger
+The workspace has no Git repository. Additive model and evidence directories provide isolation without copying or mutating original inputs. User authorization covers continuing model development and calibration without repeated design approval.
+
+2026-10-05 crop-protection evaluation
+The main research target is applied wheat protection, with upper-leaf forecasting, useful lead time and missed-disease/false-warning tradeoffs. Independent quantitative source attribution is a distinct claim requirement. Current v2 results remain a development benchmark; forward and external performance do not meet competitive regional application evidence.
+Completed additions: nine common data partitions; four new immutable workbooks with common process measurements and complete supplementary raw-cell rectangles; corrected source isolate/organ metadata; frozen v2 state/parameter replay; independent record audit; complete retrospective inner-selection replay; upper-leaf/horizon/growth-stage diagnostics; field-error map and formal Methods/Results excerpt. All original calibration scores and raw source measurements are retained.
+Remaining goal work: improve field prediction and conditional state estimation, evaluate uncertainty and prospective weather information, obtain genuinely independent final field-transfer evidence after model development, complete supported European wheat application, and finish the full submission manuscript. Climate impact remains conditional. No publication-readiness or goal-completion claim follows from software or replay checks.

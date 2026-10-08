@@ -1,0 +1,32 @@
+European wheat full-grid climate-impact manuscript
+
+Document regeneration uses Python 3.12, the existing project dependencies and
+the bundled citeproc-js renderer. Required Python packages include numpy,
+pandas, pyarrow, matplotlib, geopandas, python-docx, openpyxl, Pillow, reportlab
+and PyMuPDF. The scientific runtime additionally uses the frozen project
+dependencies and the external daily climate forcing and bias-alignment files.
+
+From the extracted archive root:
+
+python -m analysis.paper_study.nature_food_impact_20261008.build --output publication/european_wheat_stb_regenerated --documents-only
+python -m analysis.paper_study.nature_food_impact_20261008.verify --output publication/european_wheat_stb_regenerated
+
+The full-grid paired summaries and completion receipt provide completed
+numerical evidence for document regeneration. Pooled evaluation is recomputed
+from the included fixed predictions; calibration records remain excluded.
+Published canopy–yield evidence retains disease exposure, leaf scope and
+aggregate-treatment-mean status. The main climate maps use all land-use cells,
+whereas the weather–crop decomposition and structural sensitivity retain their
+separate 64-draw diagnostic sample.
+
+A forcing-based rerun requires the local raw NEX-GDDP-CMIP6v2 forcing products,
+SPAM land-use registry, GGCMI calendars and scenario-specific alignment files
+identified by the recorded paths and checksums. Those raw climate files and
+all annual output Parquets are external to the publication archive. The
+simulation runtime and its source configuration remain unchanged.
+
+The supplied supplementary model specification contains 29 numbered equations.
+Parameter_inventory.csv contains 84 fixed, fitted and scenario quantities.
+The numerical checks verify calculations, bookkeeping, reporting and archive
+integrity; they do not independently validate biological predictions or absolute
+field yields.

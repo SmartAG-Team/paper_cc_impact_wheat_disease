@@ -1,0 +1,63 @@
+{
+  "latitude": 51.5,
+  "sowing_date": "2026-10-01",
+  "phenology": {
+    "photoperiod_onset_gdd": 142.01,
+    "photoperiod_stop_gdd": 1426.78,
+    "vernalization_onset_tpp": 142.01,
+    "vernalization_stop_tpp": 582.8
+  },
+  "leaf": {
+    "stage_thresholds": {
+      "10": 142.01,
+      "31": 542.3,
+      "32": 633.39175,
+      "33": 664.4962499999999,
+      "37": 702.266,
+      "39": 807.799125,
+      "51": 986.65,
+      "65": 1165.925558,
+      "85": 1760.39
+    },
+    "rank_spacing_units": 120.0,
+    "threshold_source_sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+    "threshold_status": "stage-only calibrated thresholds; weak identification and explicit spacing scenario",
+    "juvenile_policy": "handover_31_39"
+  },
+  "disease": {
+    "primary_scale": 0.001,
+    "secondary_scale": 10.0,
+    "latent_reference_days": 20.0,
+    "latent_stages": 3,
+    "nonsporulating_reference_days": 3.0,
+    "infectious_reference_days": 21.0,
+    "residue_maturation_reference_days": 30.0,
+    "residue_decay_reference_days": 90.0,
+    "initial_ready_fraction": 0.5,
+    "rank_distance_scale": 2.0,
+    "rain_scale_mm": 2.0,
+    "local_airborne_fraction": 0.1,
+    "contact_fraction": 0.2
+  },
+  "yield_model": {
+    "mode": "disabled",
+    "coefficients_t_ha_per_glai_day": [
+      0.0141,
+      0.018,
+      0.0207
+    ],
+    "reference_yield_t_ha": null,
+    "standardized_upper3_lai": 1.0
+  },
+  "field_id": "synthetic_example",
+  "crop_end_date": "2027-09-30",
+  "vernalization_required": true,
+  "rain_rate_mm_hour": 0.45,
+  "initial_local_source": 1.0,
+  "background_imported_pressure": 0.1,
+  "detection_fraction": 0.001,
+  "time_step": 0.25,
+  "disease_fit_source_sha256": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+  "parameter_status": "sign-only timing fit on original 28 fields; ecological rates weakly identified; conditional on initial source=1 and time step=0.25",
+  "schema_version": 1
+}

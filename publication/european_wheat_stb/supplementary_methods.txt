@@ -1,0 +1,33 @@
+Supplementary Methods
+
+Numerical scope and outcome definitions
+
+Full-grid impact results retain 14,941 fixed wheat land-use cells and 14,932 eligible crop calendars. Disease occurrence, timing, damage severity, HAD deficit and conditional yield products use their respective paired valid populations. Invalid seasons retain unavailable outcomes. The full-grid reference registry includes SPAM dominant-country assignment and independent EEA centroid-region assignment; unassigned and outside-region cells remain explicit.
+
+The symptom-frequency indicator equals one for a detectable flag-leaf symptom before soft dough and zero for a symptom-free complete season. The canopy-severity proxy is the flowering-to-soft-dough HAD deficit divided by reference HAD, expressed as a percentage. It integrates reference-area-weighted functional loss and does not reproduce an observed lesion-area percentage. Mean timing conditions on detected symptoms, whereas frequency includes complete symptom-free seasons.
+
+Aggregation and coverage
+
+Grid paired means use corresponding harvest-year indices within each climate model and SSP. Domain means divide the exact harvested-area-weighted paired-change numerator by the valid area-time denominator. Reference and future means are computed on the same support. Model ranges span three independently aggregated domain estimates. Exact area weights remove spatial sampling error from the full-grid census; sampled diagnostic decompositions retain their separate Monte Carlo uncertainty.
+
+Pooled crop and disease evaluation
+
+The pooled evaluation contains only the existing noncalibration disease partitions and the geographically eligible external observations. Record membership and source conventions remain recoverable in the accompanying data. The original source labels are retained for traceability while evaluation tables and figures combine their eligible records. Calibration and evaluation share no field identifiers. Coordinate-year identities remain geographic grouping keys, so overlapping keys would not create independent replicates.
+
+For each endpoint, the evaluation weight is the reciprocal of the number of coordinate-years, multiplied by the reciprocals of fields, source leaves and records within each parent group. RMSE is the square root of the resulting weighted mean squared error. Paired bootstrap resampling draws entire coordinate-year groups, retaining both predictions and all field, leaf and date records. Twenty thousand resamples with seed 20261008 give 95% percentile intervals. These intervals exclude parameter-selection uncertainty and independently unverified biological-site identity.
+
+Upper-leaf onset comparisons retain genuine two-sided histories and predefined missing-positive penalties. Field developmental-stage evaluation retains two-sided observation intervals; their centers locate displayed symbols and are not used as exact observed dates. Calibration profiles and fully nested selection remain separate from pooled evaluation. Public station data evaluate the retained phenology formulation, while added upper-leaf stages and soft dough have limited informative field evidence.
+
+Conditional canopy–yield interpretation
+
+Published protected and unprotected canopy and yield means retain their leaf scope, integration window, cultivar and disease exposure. Eight means across five backgrounds remain in the top-five-canopy holdout; two are STB-specific, two yellow-rust-specific and four have mixed exposure. The absolute and relative response scores evaluate aggregate treatment means with shared published model fitting. No raw plots, covariance or unreported functional-area trajectories are reconstructed.
+
+The full-grid yield index is a deterministic conversion of HAD deficit under a nominal upper-three-leaf reference LAI. The three fixed coefficients and GS31–85 versus GS65–85 windows quantify scenario dependence. They are not confidence bounds or a validated estimate of total disease-related production loss.
+
+Diagnostic weather–crop contributions
+
+The four-corner weather–crop decomposition retains the existing sampled trajectories and their common valid-pair mask. Twenty unsupported hybrid-temperature pairs are excluded before the latest HAD decomposition. Weather and crop contributions include one half of the interaction each and sum to the supported net. Crop offsets use identical numerator and denominator populations. Regional decomposition outputs from the prior sampled analysis remain archived for provenance and are not substituted for full-grid regional impact statistics.
+
+Reporting populations
+
+The main climate figures summarize completed full-grid runs. The decomposition and structural sensitivity figures summarize the frozen 64-draw diagnostic sample. Pooled evaluation figures summarize reused retrospective field observations, and published yield figures summarize aggregate treatment contrasts. These populations evaluate distinct quantities; their counts and accuracy scores are not combined into an overall model-performance percentage.

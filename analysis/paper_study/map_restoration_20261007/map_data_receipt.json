@@ -1,0 +1,26 @@
+{
+  "status": "verified",
+  "full_reference_wheat_grid_cells": 14941,
+  "current_model_unique_sampled_cells": 62,
+  "trial_field_seasons": 216,
+  "maps_interpolated": false,
+  "duplicate_draws_preserved_in_regional_statistics": true,
+  "current_maps_full_domain_census": false,
+  "archived_model_maps_labelled_separately": true,
+  "source_sha256": {
+    "data/paper_study/wheat_area/europe_wheat_cells_025.parquet": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/original_input_membership.csv": "40a3e2eea7ef5c87f871f41610d98f7a80de0971a942de30a86c0430fdd70ade",
+    "data/paper_study/regional_parameter_uncertainty/spatial_draws.csv": "85ef36385df2bd52b3e161b432d52ce360698227fa7db049c806f6872d3f21f6",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/draw_period_moments.csv": "5c8d9ef30262a7d25d8e32ec5a1c7c0b835aff85e7ad989ee90eafa14c543a42",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/paired_draw_period_moments.csv": "feb5f57a6f9f8418bf9683b125d421f8f4a93b9b2968287d8f86edf66a3f37aa",
+    "data/geography/ne_110m_admin_0_countries.zip": "0f243aeac8ac6cf26f0417285b0bd33ac47f1b5bdb719fd3e0df37d03ea37110",
+    "analysis/paper_study/map_restoration_20261007/prepare.py": "d896a35e2b226286f4acc2bb6d57dd603ec0f21b03892b038e24729ad83056f5"
+  },
+  "table_sha256": {
+    "map_field_locations.csv": "ef7c4374a6f99ec80ef19739fed0485d665cad9a5d8a319051fcabd749d892c1",
+    "map_draw_values.csv": "faa4ead0ccb161e68ed422fc65b03ab1703e32f4cfa639f7e5294ad4a168814f",
+    "map_ensemble_values.csv": "d08fa311efad9df422d205fd44c649bb64caecdd44c7b1bca60de1f00543ae6c",
+    "map_metric_coverage.csv": "3068102ef61e2512139a65e5804b70bb077dbbc016fc24ce54d89f2c6e05e444",
+    "map_wheat_domain.csv": "d343769dd18ac5f1c712f664381479f0f7315e1f43703ef268c8ae8d942fd479"
+  }
+}

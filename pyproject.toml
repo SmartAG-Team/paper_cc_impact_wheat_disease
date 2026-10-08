@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wheat-stb-model"
+version = "0.1.0"
+description = "Daily wheat phenology, canopy and Septoria source-process simulation"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "numba>=0.59", "scipy>=1.10"]
+
+[project.scripts]
+wheat-stb = "model.wheat_stb.cli:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["model*"]
+exclude = ["*.tests*", "*.__pycache__*"]
+namespaces = true

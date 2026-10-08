@@ -1,0 +1,46 @@
+{
+  "fraction": 0.24619999999999997,
+  "threshold_65": 1177.144788,
+  "minimum_loss_days": 2.0,
+  "exact_minimum_count": 4,
+  "loss_tolerance_sets": [
+    {
+      "loss_tolerance_days": 0.0,
+      "n_grid_values": 4,
+      "fraction_low": 0.2433,
+      "fraction_high": 0.2723,
+      "threshold_low": 1174.900942,
+      "threshold_high": 1197.339402,
+      "interpretation": "grid loss tolerance set; not a confidence interval"
+    },
+    {
+      "loss_tolerance_days": 1.0,
+      "n_grid_values": 93,
+      "fraction_low": 0.0925,
+      "fraction_high": 0.3593,
+      "threshold_low": 1058.22095,
+      "threshold_high": 1264.654782,
+      "interpretation": "grid loss tolerance set; not a confidence interval"
+    },
+    {
+      "loss_tolerance_days": 2.0,
+      "n_grid_values": 135,
+      "fraction_low": 0.02,
+      "fraction_high": 0.40859999999999996,
+      "threshold_low": 1002.1247999999999,
+      "threshold_high": 1302.800164,
+      "interpretation": "grid loss tolerance set; not a confidence interval"
+    }
+  ],
+  "n_constrained_fields": 17,
+  "n_bracketed_fields": 14,
+  "calibration_compatibility": 0.47058823529411764,
+  "poorly_identified": true,
+  "primary_interpretation": "stage-calibrated flowering proxy",
+  "q": 1.0,
+  "c51": 986.65,
+  "c85": 1760.39,
+  "selected_from": "original BASF 2017-2018 stage bounds only",
+  "tie_break": "grid minimizer closest to median minimizing fraction, then smaller fraction",
+  "numeric_bbch_interpolation": false
+}

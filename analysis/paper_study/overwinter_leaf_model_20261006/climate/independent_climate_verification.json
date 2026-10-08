@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "source_hashes_checked": 26,
+  "output_hashes_checked": 1640,
+  "draw_season_rows": 51840,
+  "invalid_cases_are_missing": 27,
+  "leaf_overlap_rows_checked": 155439,
+  "independent_period_ratios_and_mcse": 1566,
+  "independent_paired_ratios_and_mcse": 1044,
+  "independent_shared_draw_ensemble_rows": 870,
+  "annual_area_mean_rows_checked": 810,
+  "maximum_statistical_discrepancy": 1.9895196601282805e-13,
+  "real_climate_prefix_and_endpoint_checks": true,
+  "real_climate_residue_conservation_check": true,
+  "duplicate_draw_ids_retained": true,
+  "no_absolute_yield_or_reference_yield_invented": true
+}

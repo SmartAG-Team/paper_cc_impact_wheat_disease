@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "post_relocation_batch_disease_equal_to_frozen_source": true,
+  "post_relocation_OO_leaf_equal_to_batch": true,
+  "fitted_fixture_days": 200,
+  "archived_output_hashes_preserved": true,
+  "original_source_snapshots_match_receipt": true,
+  "calibration_namespace_boundary_changed_math": false
+}

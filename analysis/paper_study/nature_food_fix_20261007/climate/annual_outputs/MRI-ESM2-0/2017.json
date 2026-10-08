@@ -1,0 +1,11 @@
+{
+  "model": "MRI-ESM2-0",
+  "year": 2017,
+  "settings": 14,
+  "rows": 896,
+  "maximum_mass_error": 4.440892098500626e-16,
+  "seconds": 10.029434000025503,
+  "output_sha256": "f723429553fff22090d0f72992c6569935c219dd5dbce9d5214fc2cb9300a308",
+  "baseline_daily_sha256": "7aae04f664440332f4f027f17ff2008ede21b25aadf60cbf3ecdd62561d6f967",
+  "registration_sha256": "75497723efa0c324f0bb4a859476f0ece917220e583c66846d1f98e5f2538de2"
+}

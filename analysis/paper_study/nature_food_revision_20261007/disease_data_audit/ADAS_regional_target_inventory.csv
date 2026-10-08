@@ -1,0 +1,9 @@
+source,metric,total_region_year_rows,valid_numeric_rows,zero_rows,negative_placeholder_rows,valid_first_year,valid_last_year,grain,assessment_calendar_dates_available,within_season_epidemic_trajectories_available,treatment_identity_available
+ADAS regional wheat survey,L1_Zymoseptoria_tritici_Disease_Severity,463,454,30,9,1971,2025,region_year_summary,False,False,False
+ADAS regional wheat survey,L1_Yellow_rust_Disease_Severity,463,454,217,9,1971,2025,region_year_summary,False,False,False
+ADAS regional wheat survey,L1_Zymoseptoria_tritici_Crop_Incidence,463,454,30,9,1971,2025,region_year_summary,False,False,False
+ADAS regional wheat survey,L1_Yellow_rust_Crop_Incidence,463,454,213,9,1971,2025,region_year_summary,False,False,False
+ADAS regional wheat survey,L2_Zymoseptoria_tritici_Disease_Severity,463,454,12,9,1971,2025,region_year_summary,False,False,False
+ADAS regional wheat survey,L2_Yellow_rust_Disease_Severity,463,454,213,9,1971,2025,region_year_summary,False,False,False
+ADAS regional wheat survey,L2_Zymoseptoria_tritici_Crop_Incidence,463,454,12,9,1971,2025,region_year_summary,False,False,False
+ADAS regional wheat survey,L2_Yellow_rust_Crop_Incidence,463,454,207,9,1971,2025,region_year_summary,False,False,False

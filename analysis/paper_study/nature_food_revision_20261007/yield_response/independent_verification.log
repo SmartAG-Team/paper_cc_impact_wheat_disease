@@ -1,0 +1,9 @@
+{
+  "status": "All independent arithmetic and provenance checks passed",
+  "source_hashes_verified": 29,
+  "raw_HTML_numeric_cells_verified": 1572,
+  "fold_coefficients_or_NNLS_KKT_verified": 26,
+  "training_trial_total_weight_checks": 120,
+  "paired_integrals_reconstructed": 50,
+  "verification_method": "CSV decimal values, standard-library sums, per-trial mean losses, analytic single slopes, NNLS KKT gradients, separate source HTML cell reader; no imports from response_estimator or run_prototype"
+}

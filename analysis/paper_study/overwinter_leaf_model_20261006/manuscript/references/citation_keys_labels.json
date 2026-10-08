@@ -1,0 +1,182 @@
+{
+  "Savary2019": {
+    "parenthetical": "(Savary et al., 2019)",
+    "author_date": "Savary et al., 2019",
+    "source_url": "https://doi.org/10.1038/s41559-018-0793-y",
+    "scope": "main"
+  },
+  "Chaloner2021": {
+    "parenthetical": "(Chaloner et al., 2021)",
+    "author_date": "Chaloner et al., 2021",
+    "source_url": "https://doi.org/10.1038/s41558-021-01104-8",
+    "scope": "main"
+  },
+  "SuffertSache2011": {
+    "parenthetical": "(Suffert & Sache, 2011)",
+    "author_date": "Suffert & Sache, 2011",
+    "source_url": "https://doi.org/10.1111/j.1365-3059.2011.02455.x",
+    "scope": "main"
+  },
+  "Shaw1990": {
+    "parenthetical": "(Shaw, 1990)",
+    "author_date": "Shaw, 1990",
+    "source_url": "https://doi.org/10.1111/j.1365-3059.1990.tb02501.x",
+    "scope": "main"
+  },
+  "Lovell2004": {
+    "parenthetical": "(Lovell, Hunter, et al., 2004)",
+    "author_date": "Lovell, Hunter, et al., 2004",
+    "source_url": "https://doi.org/10.1111/j.0032-0862.2004.00983.x",
+    "scope": "main"
+  },
+  "Pietravalle2003": {
+    "parenthetical": "(Pietravalle et al., 2003)",
+    "author_date": "Pietravalle et al., 2003",
+    "source_url": "https://doi.org/10.1094/PHYTO.2003.93.10.1329",
+    "scope": "main"
+  },
+  "Gouache2013": {
+    "parenthetical": "(Gouache et al., 2013)",
+    "author_date": "Gouache et al., 2013",
+    "source_url": "https://doi.org/10.1016/j.agrformet.2012.04.019",
+    "scope": "main"
+  },
+  "Holst2022BASF": {
+    "parenthetical": "(Holst, 2022)",
+    "author_date": "Holst, 2022",
+    "source_url": "https://doi.org/10.5281/zenodo.6521175",
+    "scope": "main"
+  },
+  "HolstDonner2022Corteva": {
+    "parenthetical": "(Holst & Donner, 2022)",
+    "author_date": "Holst & Donner, 2022",
+    "source_url": "https://doi.org/10.5281/zenodo.6352615",
+    "scope": "main"
+  },
+  "ERA5": {
+    "parenthetical": "(Copernicus Climate Change Service, n.d.)",
+    "author_date": "Copernicus Climate Change Service, n.d.",
+    "source_url": "https://doi.org/10.24381/cds.adbb2d47",
+    "scope": "main"
+  },
+  "OpenMeteo": {
+    "parenthetical": "(Open-Meteo, n.d.)",
+    "author_date": "Open-Meteo, n.d.",
+    "source_url": "https://open-meteo.com/en/docs/historical-weather-api",
+    "scope": "main"
+  },
+  "GGCMIPhase32021": {
+    "parenthetical": "(Jägermeyr et al., 2021)",
+    "author_date": "Jägermeyr et al., 2021",
+    "source_url": "https://doi.org/10.5281/zenodo.5062513",
+    "scope": "main"
+  },
+  "SPAM2020": {
+    "parenthetical": "(International Food Policy Research Institute, 2026)",
+    "author_date": "International Food Policy Research Institute, 2026",
+    "source_url": "https://doi.org/10.7910/DVN/SWPENT",
+    "scope": "main"
+  },
+  "NEXGDDPCmip6V2": {
+    "parenthetical": "(NASA Center for Climate Simulation, 2025)",
+    "author_date": "NASA Center for Climate Simulation, 2025",
+    "source_url": "https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf",
+    "scope": "main"
+  },
+  "Minoli2022": {
+    "parenthetical": "(Minoli et al., 2022)",
+    "author_date": "Minoli et al., 2022",
+    "source_url": "https://doi.org/10.1038/s41467-022-34411-5",
+    "scope": "main"
+  },
+  "Wang2017": {
+    "parenthetical": "(Wang et al., 2017)",
+    "author_date": "Wang et al., 2017",
+    "source_url": "https://doi.org/10.1038/nplants.2017.102",
+    "scope": "main"
+  },
+  "Parker2004": {
+    "parenthetical": "(Parker et al., 2004)",
+    "author_date": "Parker et al., 2004",
+    "source_url": "https://doi.org/10.1111/j.1365-3059.2004.00951.x",
+    "scope": "main"
+  },
+  "Bancal2015": {
+    "parenthetical": "(Bancal et al., 2015)",
+    "author_date": "Bancal et al., 2015",
+    "source_url": "https://doi.org/10.1016/j.fcr.2015.05.006",
+    "scope": "main"
+  },
+  "Foulkes2006": {
+    "parenthetical": "(Foulkes et al., 2006)",
+    "author_date": "Foulkes et al., 2006",
+    "source_url": "https://doi.org/10.1094/phyto-96-0680",
+    "scope": "main"
+  },
+  "vanDenBerg2017": {
+    "parenthetical": "(van den Berg et al., 2017)",
+    "author_date": "van den Berg et al., 2017",
+    "source_url": "https://doi.org/10.1094/phyto-07-16-0283-r",
+    "scope": "main"
+  },
+  "Karisto2018": {
+    "parenthetical": "(Karisto et al., 2018)",
+    "author_date": "Karisto et al., 2018",
+    "source_url": "https://doi.org/10.1094/phyto-04-17-0163-r",
+    "scope": "main"
+  },
+  "LovellCanopy2004": {
+    "parenthetical": "(Lovell, Parker, et al., 2004)",
+    "author_date": "Lovell, Parker, et al., 2004",
+    "source_url": "https://doi.org/10.1046/j.1365-3059.2003.00939.x",
+    "scope": "main"
+  },
+  "Jamieson1995": {
+    "parenthetical": "(Jamieson et al., 1995)",
+    "author_date": "Jamieson et al., 1995",
+    "source_url": "https://doi.org/10.1016/0378-4290(94)00102-i",
+    "scope": "main"
+  },
+  "Abichou2018": {
+    "parenthetical": "(Abichou et al., 2018)",
+    "author_date": "Abichou et al., 2018",
+    "source_url": "https://doi.org/10.1016/j.fcr.2018.01.010",
+    "scope": "main"
+  },
+  "ShawRoyle1989": {
+    "parenthetical": "(Shaw & Royle, 1989)",
+    "author_date": "Shaw & Royle, 1989",
+    "source_url": "https://doi.org/10.1111/j.1365-3059.1989.tb01425.x",
+    "scope": "main"
+  },
+  "ShawRoyle1993": {
+    "parenthetical": "(Shaw & Royle, 1993)",
+    "author_date": "Shaw & Royle, 1993",
+    "source_url": "https://doi.org/10.1111/j.1365-3059.1993.tb02674.x",
+    "scope": "main"
+  },
+  "Baccar2011": {
+    "parenthetical": "(Baccar et al., 2011)",
+    "author_date": "Baccar et al., 2011",
+    "source_url": "https://doi.org/10.1093/aob/mcr126",
+    "scope": "main"
+  },
+  "APSIMModelDesign": {
+    "parenthetical": "(APSIM Initiative, n.d.)",
+    "author_date": "APSIM Initiative, n.d.",
+    "source_url": "https://docs.apsim.info/docs/development/software/modeldesign",
+    "scope": "main; software architecture only"
+  },
+  "PCSEReferenceGuide": {
+    "parenthetical": "(Python Crop Simulation Environment, n.d.)",
+    "author_date": "Python Crop Simulation Environment, n.d.",
+    "source_url": "https://pcse.readthedocs.io/en/stable/reference_guide.html",
+    "scope": "main; software architecture only"
+  },
+  "MIRCAOS2026": {
+    "parenthetical": "(MIRCA-OS, 2026)",
+    "author_date": "MIRCA-OS, 2026",
+    "source_url": "https://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/",
+    "scope": "optional legacy supplementary calendar allocation only"
+  }
+}

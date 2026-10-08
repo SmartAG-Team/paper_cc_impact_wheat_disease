@@ -1,0 +1,214 @@
+Climate change redistributes simulated Septoria damage in European wheat
+
+Gang Zhao*
+
+College of Soil and Water Conservation Science and Engineering (Institute of Soil and Water Conservation), Northwest A&F University, Yangling, Shaanxi, China
+
+*Correspondence: gang.zhao@nwafu.edu.cn
+
+Abstract
+
+Climate-driven crop disease threatens the stability of European wheat production. The spatial consequences of changing disease–crop timing for canopy damage remain poorly quantified. We coupled wheat and Septoria simulations across 14,932 land-use grids with fixed winter-wheat calendars, three climate models and three emissions pathways. Under SSP5–8.5 in 2071–2100 relative to 1991–2020, the European healthy-area-duration deficit changed by +2.66 days per reference leaf area. Regional changes ranged from -1.40 in the Mediterranean region to +7.84 days in the Boreal region. Mean canopy damage changed by +8.04 percentage points, with a conditional yield change of -47.8 kg ha⁻¹ per reference leaf area. A diagnostic decomposition attributed a 71% offset of the disease-weather contribution to crop development. Yield consequences remained conditional on canopy–yield conversion, and disease prediction skill remained limited. These regional contrasts support joint evaluation of crop calendars, disease resistance and canopy function for resilient wheat production.
+
+Securing wheat production under climate change requires distinguishing changes in crop potential from the biotic stresses that prevent that potential being realized. European evidence links wheat yield trends to interacting genetic, climatic and agronomic drivers, while pathogens and pests account for substantial losses across major food crops. These production pathways are connected: a developmental shift that changes the crop’s exposure to weather also changes the timing of disease damage relative to grain filling. [1, 2]
+
+Climate-based assessments of pathogen exposure and coupled crop–disease simulations demonstrate the relevance of infection to future crop production. Their interpretation depends on both disease-favouring weather and host development. The same future weather can accelerate crop development, alter the leaves available to disease and move grain filling into a different part of the season. The magnitude of a disease-related production effect therefore cannot be inferred from favourable infection conditions alone. [3, 4]
+
+Septoria tritici blotch, caused by Zymoseptoria tritici, provides a relevant foliar-disease case for European wheat. Seasonal disease reflects local and imported sources, weather-dependent establishment, leaf appearance and transfer within the canopy. Temperature affects development of the crop and disease; humidity and precipitation affect exposure. Host architecture and developmental timing determine which leaves become available and when upper-canopy damage occurs. [5, 6, 7, 8, 9]
+
+Healthy-area duration integrates the amount and persistence of functional green canopy. It is closer to the physiological link to grain production than a disease percentage integrated over time, but its relationship with yield depends on genotype, leaf scope and the integration window. Crop-calendar and genotype choices can consequently change both exposure and the production consequence of disease. Compatible observations of development, leaf function and harvest response are needed to evaluate those choices. [10, 11, 12, 13]
+
+The central hypothesis is that climate-driven wheat development modifies the timing and magnitude of disease-related canopy damage, producing spatially contrasting production consequences. A full-grid European analysis quantifies changes in symptom occurrence, disease–crop timing and canopy damage under three emissions pathways. Environmental-region and country summaries connect the spatial responses to wheat-growing areas, while a weather–crop decomposition examines their modeled drivers. Pooled field evaluation and independent canopy–yield evidence constrain the interpretation of conditional yield responses.
+
+Results
+
+Spatially divergent climate impacts on wheat canopy damage
+
+Projected Septoria-related canopy damage varied across European wheat-growing grids and emissions pathways (Fig. 1). By 2071–2100, the harvested-area-weighted healthy-area-duration (HAD) deficit changed by +1.45, +1.55 and +2.66 days per unit reference leaf area under SSP1–2.6, SSP2–4.5 and SSP5–8.5, respectively, relative to 1991–2020. The corresponding mid-century changes were +1.11, +0.77 and +1.53 days. These averages combine areas with increasing and decreasing simulated damage rather than a uniform continental response (Supplementary Table S9).
+
+Under late-century SSP5–8.5, the European HAD deficit changed from 6.30 to 8.95 days per reference leaf area; the three-climate-model change range was +1.23 to +4.57 days. A positive ensemble change covered 77.3% of the available reference wheat area. All three models agreed on greater damage across 65.2% of area and less damage across 14.9%; mixed signs occupied 20.0%. The full-grid comparison therefore distinguishes the magnitude of the continental mean from the spatial extent of consistent change (Supplementary Fig. S19; Supplementary Table S15).
+
+Changes in disease occurrence, timing and severity
+
+Symptom occurrence and disease magnitude responded differently to future climate (Fig. 2). The area-weighted frequency of flag-leaf symptoms before soft dough was 99.731% in the reference and 99.332% under late-century SSP5–8.5, a change of -0.400 percentage points. Occurrence remained close to saturation, whereas symptom timing and canopy damage showed spatial contrasts. Mean reference-area-weighted canopy damage during grain filling changed from 18.03% to 26.07%, or +8.04 percentage points, with a climate-model range of +4.08 to +13.53 points. This functional-loss measure represents simulated damage severity across the grain-fill window (Supplementary Tables S9 and S13b).
+
+Flag-leaf symptoms shifted 3.46 days earlier relative to flowering, with model-specific changes of -6.02 to -1.57 days. Onset measured from the fixed sowing date advanced by 30.78 days, spanning -45.39 to -18.74 days across climate models (Fig. 2b, d). Flag-leaf symptoms occupied 97.37% of grain-fill days in the reference and 97.42% in the future. Symptomatic grain-fill duration changed by +0.24 days, alongside a +0.25-day change in the crop window. Earlier calendar onset and greater canopy damage therefore coexisted with a modest change in grain-fill duration. Timing estimates condition on detectable symptoms in both paired seasons; occurrence estimates include symptom-free complete seasons (Supplementary Figs. S12 and S14).
+
+Environmental-region and country contrasts
+
+Environmental-region averages resolved strong contrasts within the continental response (Fig. 3a; Table 1). Under late-century SSP5–8.5, HAD-deficit changes were +4.85 days in the Atlantic region, +3.45 days in the Continental region, +7.84 days in the Boreal region, -1.40 days in the Mediterranean region, and +0.37 days in the Steppic region. Among the eight named environmental regions, the largest mean increase occurred in the Boreal region and the smallest response in the Mediterranean region. The Boreal change spanned +5.06 to +12.52 days across climate models, compared with -1.88 to -1.13 days in the Mediterranean region. Alpine, Pannonian and Black Sea cells were included alongside the five larger domains (Supplementary Tables S13a–c and S16).
+
+Country aggregation likewise retained contrasting outcomes. Among the twelve country groups with the largest reference wheat area, late-century SSP5–8.5 HAD changes ranged from -2.02 days in Italy to +10.43 days in Lithuania. Their conditional yield responses differed in both sign and magnitude (Fig. 3b). The full set of country means and climate-model ranges includes all country-assigned wheat cells within the study domain, with calendar eligibility and valid-season coverage retained for each group (Supplementary Table S14).
+
+Conditional disease-related yield response
+
+The reference canopy–yield coefficient translated the late-century SSP5–8.5 HAD change into a conditional yield change of -47.8 kg ha⁻¹ per unit reference upper-canopy leaf area. The three-climate-model range was -82.3 to -22.2 kg ha⁻¹ per reference LAI. At coefficients of 0.0141–0.0207 t ha⁻¹ per GLAI-day, the same canopy response produced a conversion range of -55.0 to -37.4 kg ha⁻¹ per reference LAI. These quantities express the disease-related yield-loss index under alternative physiological conversion assumptions (Fig. 3b; Supplementary Fig. S13).
+
+Published canopy–yield evidence demonstrated substantial transfer limitations. Eight treatment-mean contrasts across five genetic backgrounds gave leave-one-background-out relative-yield RMSE of 5.16 percentage points and R² of 0.247, but absolute-yield RMSE of 0.617 t ha⁻¹ and R² of −0.432. Only two contrasts had STB-specific exposure; the remaining six had yellow rust or mixed disease exposure. Severity-based treatment-response models also exceeded their training-mean benchmark errors. The conditional grid yield indices consequently express canopy-conversion sensitivity rather than validated field-yield forecasts or national production tonnages (Supplementary Figs. S9–S11; Supplementary Tables S5–S8). [10, 11]
+
+Crop development counteracts the disease-weather contribution
+
+The diagnostic weather–crop decomposition identified opposing contributions to the late-century SSP5–8.5 canopy response (Fig. 4). On 5,731 supported paired seasons from 64 spatial draws at 62 cells, the disease-weather contribution was +9.00 HAD days per reference LAI and the crop-development contribution −6.36 days, leaving a net +2.64-day change. Crop development offset 70.6% of the weather contribution; the model-specific fractions ranged from 63.6% to 80.3%. All three models retained a positive weather contribution and a negative crop-development contribution. These diagnostic estimates retain the sampled population and its spatial Monte Carlo error, separately from the full-grid impact statistics (Supplementary Tables S12a, b).
+
+In that diagnostic sample, flowering and soft dough advanced by 26.77 and 26.64 days after sowing, while mean grain-fill duration changed little. The compensating crop-development term therefore combined altered leaf availability with earlier crop-window placement. A −2.78-day weather–crop interaction was allocated equally between the two Shapley contributions. The excluded 20 finite pairs had hybrid active-day weather outside the supported temperature range; all retained contributions shared the same paired support (Supplementary Fig. S16).
+
+Sensitivity and empirical support
+
+Fourteen structural, detection and canopy-conversion settings retained earlier symptoms and increased HAD deficit in all three climate models under late-century SSP5–8.5. In this diagnostic sample, mean symptom shifts spanned −5.46 to −1.54 days and HAD increases 0.63–2.80 days per reference LAI. This consistency concerned the selected model and prespecified settings rather than comprehensive future-epidemic uncertainty (Supplementary Fig. S15; Supplementary Table S10).
+
+Pooled field evaluation gave symptom-onset interval-excess error of 5.32 days versus 2.79 days for the phenology benchmark across 136 histories. The paired difference was +2.54 days (95% grouped-bootstrap interval 1.15–3.93). Across 2,033 disease assessments from 188 field seasons, severity RMSE was 31.19 versus 29.83 percentage points, with model bias -17.56 points. The paired RMSE difference was +1.36 points (95% interval -0.20–2.82). Retained crop-stage predictions had station-held-out MAE of 8.02 days across 40,878 events. These evaluations support explicit separation of simulated climate responses from empirically demonstrated epidemic and yield prediction skill (Supplementary Figs. S18 and S20; Supplementary Tables S1–S4).
+
+Discussion
+
+Climate change produced contrasting disease-related canopy responses across the European wheat domain. Grid-level simulation resolved where a positive continental average combined increasing and decreasing damage, while environmental and country summaries connected those responses to wheat-growing areas. Disease occurrence was close to saturated under the specified model, so additional presence alone carried little information about crop consequences. The more informative changes concerned symptom timing relative to flowering, functional-canopy loss and exposure during grain filling.
+
+The opposing weather and crop-development contributions provide an explanation within the coupled model for this spatial complexity. Crop development changes the availability of leaves and the seasonal weather encountered during the productive canopy window. The diagnostic decomposition indicates that a substantial compensating crop term can accompany more favorable disease weather. Earlier crop development under warming therefore need not imply a proportional change in disease-related grain loss. Climate–pathogen and crop–disease assessments establish the relevance of this interaction, while European yield research emphasizes the joint contribution of climate, genetics and agronomic management. [1, 3, 4]
+
+The geographic contrasts support environmental stratification of adaptation evaluation. Regions with greater simulated damage require joint assessment of crop-calendar adjustment, resistance and tolerance; regions with declining damage require equivalent scrutiny of the crop and disease timing that generates that decline. Country summaries help define the spatial scope of monitoring, but their values depend on the fixed wheat mask, imposed winter-wheat calendar and source-country grid assignment. National intervention rankings additionally require compatible cultivar, management, canopy and harvest observations.
+
+The conditional yield calculation exposes a critical measurement gap. Functional-canopy loss and disease percentage have different physiological meanings, while the HAD–yield relationship varies with genotype, leaf scope and integration window. The available published contrasts provide evidence for a canopy–yield relationship, but their absolute-yield transfer performs poorly and their disease exposures are mixed. Reference leaf area and fixed transfer coefficients consequently remain scenario assumptions. Simulated disease-related yield indices identify a pathway requiring evaluation rather than a quantified change in wheat tonnage. [10, 11, 12]
+
+The pooled evaluation also limits confidence in future epidemic magnitudes. The current model has greater symptom-onset error than the phenology benchmark, and quantitative severity predictions have a substantial negative bias. The occurrence comparison indicates high sensitivity with poorer specificity, consistent with near-saturated simulated symptom occurrence. Added developmental stages have sparse two-sided observations, including limited evidence for the grain-fill endpoint. Climate-model agreement and numerical completeness cannot resolve these empirical limitations. Parameter identification, humidity reconstruction, cultivar resistance, changing source abundance and future pathogen adaptation remain additional sources of uncertainty.
+
+For agricultural policy, the evidence supports coordinated crop-development, disease, functional-canopy and harvest monitoring across contrasting environmental regions. Cultivar and calendar trials need shared canopy-area definitions and compatible observation windows to distinguish exposure avoidance, resistance and yield tolerance. Connecting these observations to harvested wheat area would improve the production relevance of future disease assessments. Such coordinated evaluation is consistent with European objectives for resilient and sustainable agriculture; the present simulations do not measure the effectiveness of any specific intervention. [13, 14]
+
+Methods
+
+Study domain and climate forcing
+
+The study domain contains every positive-wheat-harvested-area cell in the European SPAM2020 registry at 0.25° resolution: 14,941 cells. A fixed GGCMI winter-wheat rainfed calendar is available for 14,932 cells; the remaining nine retain unavailable outcomes. The all-wheat area mask and imposed calendar define a management scenario, rather than an observed distribution of winter-wheat management. SPAM2020 harvested area supplies fixed weights throughout the analysis. The study-area and observation-location maps are provided in Supplementary Fig. S21. [15, 16]
+
+Daily NEX-GDDP-CMIP6v2 forcing covers ACCESS-CM2, MPI-ESM1-2-HR and MRI-ESM2-0 under SSP1–2.6, SSP2–4.5 and SSP5–8.5. Harvest periods are 1991–2020, 2031–2060 and 2071–2100. All 810 annual model–scenario–year combinations simulate the entire land-use mask, corresponding to 12,094,920 calendar-eligible grid-seasons. Forcing uses the existing local alignment coefficients, with separate historical alignment for each SSP continuation. Daily series include the preceding calendar year for overwintering crop seasons. Source files, alignment coefficients and runtime configurations retain their checksums. [17]
+
+Disease-weather exposure uses daily temperature, humidity and rainfall with the retained synthetic intraday humidity reconstruction. This reconstruction approximates exposure from daily forcing and does not represent measured leaf wetness. The observation-supported temperature range and missing-weather criteria retain their existing definitions in the model specification.
+
+Crop development and disease representation
+
+The retained temperature–photoperiod–vernalization model determines wheat development from sowing through soft dough. Additional ordered thresholds represent upper-leaf appearance and unfolding, and a calibrated flowering proxy defines the grain-fill window. Leaf availability, development and seasonal exposure connect daily weather to the existing Septoria source, establishment, progression and symptom states. Disease-related functional loss is gated by symptom detection in the climate reporting operator. Model equations, parameter provenance and observation definitions are provided in the supplementary model specification and the 84-entry parameter inventory. [5, 6, 7, 8, 9]
+
+Models retain their existing calibrated parameters. The reference upper-three-leaf LAI is nominally one, divided equally among final leaf ranks and scaled by unfolding. No cultivar-specific canopy area, future resistance change or local absolute-yield calibration is inferred. Predicted soft dough defines season completion; missing calendars, unsupported forcing and unreached endpoints remain explicit statuses. Invalid outcomes are unavailable values rather than zero disease or zero loss.
+
+Disease and canopy outcomes
+
+Occurrence is the indicator of detectable flag-leaf symptoms before soft dough. Its multi-year mean is the frequency of symptomatic simulated grid-seasons. First-symptom timing is measured relative to flowering and is unavailable when symptoms are not detected. Symptomatic grain-fill days count days with detectable flag-leaf symptoms within the flowering-to-soft-dough window. These endpoints describe model states rather than observed infection dates or future disease probabilities.
+
+HAD deficit integrates daily reference green canopy area multiplied by the assumed functional-loss fraction across the flag leaf and two leaves below it. The main window is flowering to soft dough (GS65–85); GS31–85 provides a wider-window sensitivity. The mean functional-loss fraction is lost HAD divided by reference HAD and represents reference-area-weighted canopy damage severity. This integrated canopy quantity differs from instantaneous lesion percentage and retains the model’s damage-to-function assumptions.
+
+Paired grid and spatial aggregation
+
+Each future harvest year is paired with the reference year at the corresponding index of the same 30-year period, climate model and SSP. A metric-specific pair is retained only if both outcomes are finite. For grid i, x_i is the mean valid paired difference with unavailable pairs contributing zero to the numerator, and z_i is the fraction of valid pairs among 30 years. The grid estimate is x_i/z_i. Reference and future means share the same valid pairs. Timing, occurrence and canopy outcomes therefore have their own documented support.
+
+For a domain indicator I_i and fixed harvested area w_i, the aggregate paired change is Σw_i I_i x_i / Σw_i I_i z_i. Estimates are calculated separately for each climate model before their three-model mean and range are reported. EEA 2016 boundaries assign environmental regions by wheat-cell centroid intersection, retaining unassigned and outside-region categories. Country groups use each cell’s dominant SPAM source-country label; cross-border cells are not divided among countries. Country estimates refer only to the represented study domain. All eight named environmental regions and all country groups remain in Source Data. [18]
+
+Maps display complete three-climate-model estimates at native 0.25° pixels, with no interpolation or missing-value filling. Sign-area shares use the exact fixed harvested-area weights over cells with complete estimates. Three-model ranges describe deterministic scenario spread. A full land-use census has no spatial-sampling Monte Carlo error; climate-model choice, biological parameters, observation error and canopy–yield conversion remain separate uncertainties. The twelve country groups shown in Fig. 3 are selected by reference wheat area before considering projected effects.
+
+Conditional yield response
+
+Conditional disease-related yield change is −b times the paired HAD-deficit change. The reference coefficient is 0.018 t ha⁻¹ per GLAI-day, with 0.0141 and 0.0207 used as fixed conversion alternatives from the published top-three-canopy study. Reported kg ha⁻¹ values multiply the t ha⁻¹ result by 1,000 and retain the nominal reference LAI denominator. The coefficients span cultivar predictions rather than a probability interval. Actual field-yield percentage changes and national production tonnages require compatible canopy area and grain-yield validation and are not identified by this operator. [10, 11]
+
+Diagnostic decomposition and sensitivity
+
+The weather–crop decomposition and fourteen-setting sensitivity analysis retain the prespecified 64 area-proportional draws at 62 unique cells. Four trajectories combine reference or future disease weather with reference or future crop-development trajectories. Shapley contributions share the weather–crop interaction equally and sum to the common-support net. The supported decomposition excludes 20 of 5,751 finite pairs with an active hybrid forcing day outside the supported temperature range, leaving 5,731 pairs. Its spatial Monte Carlo standard errors describe the sampled diagnostic population and are distinct from full-grid impact estimates.
+
+The crop-development offset is −100 times the crop Shapley contribution divided by the weather contribution on identical support. The ensemble percentage uses the ratio of three-model mean contributions. Sensitivity settings vary structural, detection, reference-canopy and functional-conversion assumptions within the selected model. These comparisons evaluate model-response dependence and do not estimate the efficacy of a management intervention.
+
+Pooled field evaluation
+
+Evaluation records from the two public field archives are pooled after the existing calibration and geographic eligibility restrictions. Calibration records retain their separate cohort. Evaluation contains 2,033 numerical assessments from 188 field seasons in 140 coordinate-years and 136 two-sided source-leaf-1–3 onset histories from 78 field seasons in 62 coordinate-years. Source identities, units, assessment conventions and leaf semantics remain in the evidence files. Source-defined percentages retain their original denominators, and source leaf numbers do not establish a universal final-rank mapping. [19, 20]
+
+Scores give equal weight to coordinate-years, fields within coordinate-years, source leaves within fields and assessments within leaves. Symptom-onset error is distance outside the genuine two-sided observed interval, retaining the predefined missed-positive penalty. Disease magnitude is evaluated against the existing calibration-leaf-mean benchmark; symptom timing and detection use the calibration-selected phenology benchmark. Fixed model and benchmark predictions are paired on identical records. Bootstrap intervals use 20,000 intact coordinate-year resamples and describe uncertainty conditional on the fitted predictions and reused retrospective data. Duplicate coordinate-year identities are grouped together across archives.
+
+The retained crop-development formulation is evaluated on 40,878 matched German station-held-out events at BBCH 10, 31, 51 and 85. Added stages use pooled field observation intervals and separate calibration evidence. Published canopy–yield evaluation retains all eight treatment-mean contrasts across five genetic backgrounds, including STB, yellow-rust and mixed exposures; leave-one-background-out fitting gives backgrounds equal evaluation weight. Severity-based yield transfer retains its independent trial or year splits and training-mean comparators. [11]
+
+Reproducibility
+
+Each annual output retains its forcing identities, frozen-runtime configuration, land-use-cell order, numerical checks and output checksum. Aggregation records source hashes, metric-specific pair counts and domain coverage. Independent checks recompute pooled evaluation and selected full-grid domain ratios from the underlying records. Source Data contains the values displayed in figures and tables. The accompanying software archive regenerates the manuscript from completed numerical evidence; climate-forcing-based simulation additionally requires the external raw climate products.
+
+Data availability
+
+Public field disease archives, NEX-GDDP-CMIP6v2 forcing, GGCMI calendars, SPAM2020 wheat area and EEA environmental boundaries are identified by dataset references. Source_Data.xlsx contains the completed full-grid climate summaries, environmental and country statistics, exact sign-area shares, pooled evaluation populations and published canopy–yield evidence. Source labels and assessment conventions remain in the underlying records. [15, 16, 17, 18, 19, 20]
+
+The software archive contains grid-level paired summaries, completion receipts, output hashes and numerical evidence required for publication regeneration. Raw daily climate products and all annual simulation outputs remain external because of their size; forcing-based reproduction requires the recorded source products and alignment files. Unavailable raw plot observations and functional-canopy measurements remain unavailable.
+
+Code availability
+
+Software_and_Evidence.zip contains the simulation and reporting source code, pooled-statistics code, document-generation code and evidence manifests. REPRODUCIBILITY.txt distinguishes document regeneration from forcing-based runtime execution. The supplementary model specification contains 29 numbered equations, and Parameter_inventory.csv records 84 fixed, fitted and scenario quantities.
+
+References
+
+1. Silva, J. V. et al. Agronomic management drives the wheat yield plateau in high-yielding environments of northwest Europe. Nat. Food 7, 45–54 (2026).
+
+2. Savary, S. et al. The global burden of pathogens and pests on major food crops. Nature Ecology & Evolution 3, 430–439 (2019).
+
+3. Chaloner, T. M., Gurr, S. J. & Bebber, D. P. Plant pathogen infection risk tracks global crop yields under climate change. Nature Climate Change 11, 710–715 (2021).
+
+4. Pequeno, D. N. L. et al. Production vulnerability to wheat blast disease under climate change. Nat. Clim. Change 14, 178–183 (2024).
+
+5. Suffert, F. & Sache, I. Relative importance of different types of inoculum to the establishment of Mycosphaerella graminicola in wheat crops in north‐west Europe. Plant Pathology 60, 878–889 (2011).
+
+6. Shaw, M. W. & Royle, D. J. Airborne inoculum as a major source of Septoria tritici (Mycosphaerella graminicola) infections in winter wheat crops in the UK. Plant Pathology 38, 35–43 (1989).
+
+7. Lovell, D. J., Parker, S. R., Hunter, T., Welham, S. J. & Nichols, A. R. Position of inoculum in the canopy affects the risk of septoria tritici blotch epidemics in winter wheat. Plant Pathology 53, 11–21 (2004).
+
+8. Baccar, R. et al. Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model. Annals of Botany 108, 1179–1194 (2011).
+
+9. Lovell, D. J., Hunter, T., Powers, S. J., Parker, S. R. & van den Bosch, F. Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions. Plant Pathology 53, 170–181 (2004).
+
+10. Parker, S. R., Welham, S., Paveley, N. D., Foulkes, J. & Scott, R. K. Tolerance of septoria leaf blotch in winter wheat. Plant Pathology 53, 1–10 (2004).
+
+11. Foulkes, M. J. et al. Major genetic changes in wheat with potential to affect disease tolerance. Phytopathology 96, 680–688 (2006).
+
+12. van den Berg, F., Paveley, N. D., Bingham, I. J. & van den Bosch, F. Physiological traits determining yield tolerance of wheat to foliar diseases. Phytopathology 107, 1468–1478 (2017).
+
+13. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
+
+14. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
+
+15. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
+
+16. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
+
+17. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
+
+18. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
+
+19. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+
+20. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
+
+Author contributions
+
+G.Z. takes responsibility for the design, analysis, interpretation and reporting of the study.
+
+Funding
+
+This study received no external funding.
+
+Competing interests
+
+The author declares no competing interests.
+
+Tables
+
+Table 1 | Late-century climate impacts across European wheat environmental regions. Values are harvested-area-weighted three-climate-model mean paired changes under SSP5–8.5 in 2071–2100 relative to 1991–2020. Positive HAD and canopy-damage changes indicate greater simulated functional loss; negative timing changes indicate earlier symptoms relative to flowering. Conditional yield change uses the fixed coefficient 0.018 t ha⁻¹ per GLAI-day and a nominal upper-three-leaf reference LAI of one. The yield column reports a disease-related index, not validated harvested yield. Model ranges, exact regional areas and valid-season coverage are supplied in Supplementary Table S13.
+
+Environmental region	Δ HAD deficit (days / LAI)	Δ symptom timing (days)	Δ mean canopy damage (pp)	Conditional Δ yield (kg ha⁻¹ / LAI)
+Europe	+2.66	-3.46	+8.04	-47.8
+Atlantic	+4.85	-3.23	+15.35	-87.3
+Continental	+3.45	-4.41	+10.49	-62.2
+Boreal	+7.84	-7.43	+23.99	-141.1
+Mediterranean	-1.40	+3.86	-4.00	+25.2
+Steppic	+0.37	-3.02	+0.59	-6.6
+Pannonian	+3.34	-3.11	+9.89	-60.0
+Alpine	+2.28	-2.47	+8.54	-41.0
+Black Sea	-0.62	-0.84	-3.30	+11.2
+
+Figure legends
+
+Figure 1 | Projected changes in Septoria-related canopy damage across European wheat grids. (a–f) Mean changes across three climate models in upper-three-leaf healthy-area-duration (HAD) deficit for two future harvest periods relative to 1991–2020. Each 0.25° pixel represents an independently simulated wheat land-use cell. All panels share discrete symmetric color intervals that retain the full range; positive values indicate greater simulated canopy damage. Changes pair corresponding reference and future harvest-year indices within each climate model and emissions pathway. The fixed SPAM2020 all-wheat mask contains 14,941 cells; 14,932 have the imposed winter-wheat rainfed calendar. Gray wheat pixels have unavailable estimates, and missing seasons remain excluded. Reference leaf area index (LAI) is one for the nominal upper-three-leaf canopy. Spatial aggregation uses fixed harvested-area weights. Climate-model sign agreement and numerical coverage are reported in Supplementary Fig. S19 and Tables S15–S16.
+
+Figure 2 | Climate effects on disease occurrence, timing and canopy damage. Panels show three-climate-model mean changes under SSP5–8.5 in 2071–2100 relative to 1991–2020. (a) Area-independent grid-season frequency of flag-leaf symptoms before soft dough, expressed as a percentage-point change. (b) First flag-leaf symptom date relative to flowering; negative values indicate earlier disease relative to the crop. (c) Mean simulated functional-canopy loss during grain filling, weighted by daily reference canopy area; this severity proxy differs from observed lesion percentage. (d) First flag-leaf symptoms measured in days after the fixed sowing date; negative changes indicate earlier onset. Each panel has its own labeled symmetric discrete color scale. Timing is conditional on symptom detection in both paired seasons. Gray wheat pixels have unavailable three-model estimates. These quantities describe model responses under fixed management rather than observed disease incidence or validated leaf-level severity.
+
+Figure 3 | Environmental-region and country-level differences in climate impacts. (a) Harvested-area-weighted changes in grain-fill HAD deficit within eight EEA biogeographical regions. (b) Conditional yield changes for the twelve country groups with the largest reference wheat area, selected independently of projected response. Both panels compare 2071–2100 with the corresponding 1991–2020 reference under three emissions pathways. Markers show three-climate-model means and whiskers span the model-specific estimates; these ranges are not confidence intervals. Country assignment follows each cell’s dominant SPAM source-country label and is restricted to the study domain. Conditional yield change equals −0.018 times the HAD-deficit change, converted to kg ha⁻¹ per unit reference LAI; negative values indicate a larger disease-related yield-loss index. Actual yields and country production tonnages are not estimated. All country groups and their coverage remain in Source Data.
+
+Figure 4 | Crop development counteracts the simulated disease-weather contribution. (a) Weather and crop-development Shapley contributions to grain-fill HAD deficit, and their sum, under late-century SSP5–8.5. Gray segments span three climate-model means; colored whiskers indicate one spatial Monte Carlo standard error. The decomposition uses 64 area-proportional spatial draws at 62 cells and 5,731 supported paired seasons; its population differs from the full-grid impact census. The weather–crop interaction is shared equally between contributions and is shown separately in Supplementary Fig. S16. (b) Model-specific percentages of the positive weather contribution offset by crop development. The dashed line marks the ratio of ensemble contributions, 70.6%. These within-model contributions characterize crop–disease alignment and do not quantify the efficacy of a sowing-date or cultivar intervention.

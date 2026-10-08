@@ -1,0 +1,14 @@
+{
+  "models": {
+    "overwinter_source_model": {
+      "path": "overwinter_source_model/frozen_selected_fit.json",
+      "sha256": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540"
+    },
+    "phenology_only": {
+      "path": "phenology_only/frozen_selected_fit.json",
+      "sha256": "58e3f7f1bcc03dedffbb55862e26e88f05815193586018e3488033864fcd3834"
+    }
+  },
+  "validation_labels_scored": false,
+  "prior_outcome_exposure": true
+}

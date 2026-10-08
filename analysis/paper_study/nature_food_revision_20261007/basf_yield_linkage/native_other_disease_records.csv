@@ -1,0 +1,763 @@
+source_row,TrialId,season_year,date,Treatment,NumSprays,Organism,PlantPart,Parameter,Method,Clarifier,SampleUnit,GsFrom,GsTo,Value,source_file,zero_is_recorded,record_is_not_imputed
+34,3,2017,2017-06-13,Untreated,0,PUCCRT,LEAF,INFECT,P%INF,BEFALL,TPLOT,61.0,61.0,0.75,data/basf-wheat-diseases.txt,False,True
+1164,3,2017,2017-06-13,TreatmentA,1,PUCCRT,LEAF,INFECT,P%INF,BEFALL,TPLOT,61.0,61.0,0.0,data/basf-wheat-diseases.txt,True,True
+68,5,2017,2017-05-19,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,1.0,data/basf-wheat-diseases.txt,False,True
+69,5,2017,2017-05-19,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,1.25,data/basf-wheat-diseases.txt,False,True
+70,5,2017,2017-05-19,Untreated,0,PUCCRE,"LEAF, 4TH",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+75,5,2017,2017-05-30,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,0.5,data/basf-wheat-diseases.txt,False,True
+76,5,2017,2017-05-30,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,2.0,data/basf-wheat-diseases.txt,False,True
+77,5,2017,2017-05-30,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,4.0,data/basf-wheat-diseases.txt,False,True
+78,5,2017,2017-05-30,Untreated,0,PUCCRE,"LEAF, 4TH",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,0.0,data/basf-wheat-diseases.txt,True,True
+82,5,2017,2017-06-09,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,30.0,data/basf-wheat-diseases.txt,False,True
+83,5,2017,2017-06-09,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,30.0,data/basf-wheat-diseases.txt,False,True
+84,5,2017,2017-06-09,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,25.0,data/basf-wheat-diseases.txt,False,True
+86,5,2017,2017-06-28,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,70.0,data/basf-wheat-diseases.txt,False,True
+1176,5,2017,2017-05-19,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1177,5,2017,2017-05-19,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1178,5,2017,2017-05-19,TreatmentA,1,PUCCRE,"LEAF, 4TH",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1183,5,2017,2017-05-30,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,0.0,data/basf-wheat-diseases.txt,True,True
+1184,5,2017,2017-05-30,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,1.0,data/basf-wheat-diseases.txt,False,True
+1185,5,2017,2017-05-30,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,1.0,data/basf-wheat-diseases.txt,False,True
+1186,5,2017,2017-05-30,TreatmentA,1,PUCCRE,"LEAF, 4TH",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,0.0,data/basf-wheat-diseases.txt,True,True
+1190,5,2017,2017-06-09,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,15.0,data/basf-wheat-diseases.txt,False,True
+1191,5,2017,2017-06-09,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,15.0,data/basf-wheat-diseases.txt,False,True
+1192,5,2017,2017-06-09,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,5.0,data/basf-wheat-diseases.txt,False,True
+1194,5,2017,2017-06-28,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,70.0,data/basf-wheat-diseases.txt,False,True
+203,16,2017,2017-05-16,Untreated,0,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,32.0,33.0,1.5,data/basf-wheat-diseases.txt,False,True
+206,16,2017,2017-05-26,Untreated,0,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,37.0,39.0,4.5,data/basf-wheat-diseases.txt,False,True
+207,16,2017,2017-05-26,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,37.0,39.0,2.375,data/basf-wheat-diseases.txt,False,True
+209,16,2017,2017-06-08,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,2.75,data/basf-wheat-diseases.txt,False,True
+210,16,2017,2017-06-08,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,2.25,data/basf-wheat-diseases.txt,False,True
+211,16,2017,2017-06-08,Untreated,0,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,1.875,data/basf-wheat-diseases.txt,False,True
+213,16,2017,2017-06-20,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,2.875,data/basf-wheat-diseases.txt,False,True
+214,16,2017,2017-06-20,Untreated,0,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,2.125,data/basf-wheat-diseases.txt,False,True
+215,16,2017,2017-06-20,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,2.625,data/basf-wheat-diseases.txt,False,True
+217,16,2017,2017-06-20,Untreated,0,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,75.0,1.875,data/basf-wheat-diseases.txt,False,True
+218,16,2017,2017-06-20,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,75.0,5.25,data/basf-wheat-diseases.txt,False,True
+220,16,2017,2017-06-26,Untreated,0,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,2.125,data/basf-wheat-diseases.txt,False,True
+221,16,2017,2017-06-26,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,5.5,data/basf-wheat-diseases.txt,False,True
+222,16,2017,2017-06-26,Untreated,0,ERYSGT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,2.0,data/basf-wheat-diseases.txt,False,True
+223,16,2017,2017-06-26,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,2.25,data/basf-wheat-diseases.txt,False,True
+224,16,2017,2017-06-26,Untreated,0,RHIZSP,"HAULM, TILLER",INFECT,P%INF,,UNIT,75.0,75.0,1.5,data/basf-wheat-diseases.txt,False,True
+225,16,2017,2017-06-26,Untreated,0,FUSASP,"HAULM, TILLER",INFECT,P%INF,,UNIT,75.0,75.0,47.5,data/basf-wheat-diseases.txt,False,True
+1221,16,2017,2017-05-16,TreatmentA,1,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,32.0,33.0,0.25,data/basf-wheat-diseases.txt,False,True
+1224,16,2017,2017-05-26,TreatmentA,1,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,37.0,39.0,0.4375,data/basf-wheat-diseases.txt,False,True
+1225,16,2017,2017-05-26,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,37.0,39.0,0.1875,data/basf-wheat-diseases.txt,False,True
+1227,16,2017,2017-06-08,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,0.5625,data/basf-wheat-diseases.txt,False,True
+1228,16,2017,2017-06-08,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,0.0,data/basf-wheat-diseases.txt,True,True
+1229,16,2017,2017-06-08,TreatmentA,1,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,0.375,data/basf-wheat-diseases.txt,False,True
+1231,16,2017,2017-06-20,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,0.5625,data/basf-wheat-diseases.txt,False,True
+1232,16,2017,2017-06-20,TreatmentA,1,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,0.875,data/basf-wheat-diseases.txt,False,True
+1233,16,2017,2017-06-20,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,0.8125,data/basf-wheat-diseases.txt,False,True
+1235,16,2017,2017-06-20,TreatmentA,1,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,75.0,0.875,data/basf-wheat-diseases.txt,False,True
+1236,16,2017,2017-06-20,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,75.0,0.875,data/basf-wheat-diseases.txt,False,True
+1238,16,2017,2017-06-26,TreatmentA,1,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,0.9375,data/basf-wheat-diseases.txt,False,True
+1239,16,2017,2017-06-26,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,0.875,data/basf-wheat-diseases.txt,False,True
+1240,16,2017,2017-06-26,TreatmentA,1,ERYSGT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,1.0,data/basf-wheat-diseases.txt,False,True
+1241,16,2017,2017-06-26,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,0.375,data/basf-wheat-diseases.txt,False,True
+1242,16,2017,2017-06-26,TreatmentA,1,RHIZSP,"HAULM, TILLER",INFECT,P%INF,,UNIT,75.0,75.0,0.25,data/basf-wheat-diseases.txt,False,True
+1243,16,2017,2017-06-26,TreatmentA,1,FUSASP,"HAULM, TILLER",INFECT,P%INF,,UNIT,75.0,75.0,13.0,data/basf-wheat-diseases.txt,False,True
+288,20,2017,2017-04-29,Untreated,0,PUCCSI,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,32.0,33.0,0.0,data/basf-wheat-diseases.txt,True,True
+289,20,2017,2017-04-29,Untreated,0,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,32.0,33.0,0.0,data/basf-wheat-diseases.txt,True,True
+290,20,2017,2017-04-29,Untreated,0,PUCCSI,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,32.0,33.0,7.0,data/basf-wheat-diseases.txt,False,True
+295,20,2017,2017-05-19,Untreated,0,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+296,20,2017,2017-05-19,Untreated,0,PUCCSI,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.25,data/basf-wheat-diseases.txt,False,True
+297,20,2017,2017-05-19,Untreated,0,PUCCSI,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,4.0,data/basf-wheat-diseases.txt,False,True
+298,20,2017,2017-05-19,Untreated,0,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,17.25,data/basf-wheat-diseases.txt,False,True
+303,20,2017,2017-06-01,Untreated,0,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,2.25,data/basf-wheat-diseases.txt,False,True
+304,20,2017,2017-06-01,Untreated,0,PUCCSI,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,5.0,data/basf-wheat-diseases.txt,False,True
+305,20,2017,2017-06-01,Untreated,0,PUCCSI,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,9.0,data/basf-wheat-diseases.txt,False,True
+306,20,2017,2017-06-01,Untreated,0,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,23.0,data/basf-wheat-diseases.txt,False,True
+311,20,2017,2017-06-09,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,11.0,data/basf-wheat-diseases.txt,False,True
+312,20,2017,2017-06-09,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,13.5,data/basf-wheat-diseases.txt,False,True
+313,20,2017,2017-06-09,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,15.25,data/basf-wheat-diseases.txt,False,True
+314,20,2017,2017-06-09,Untreated,0,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,25.5,data/basf-wheat-diseases.txt,False,True
+1250,20,2017,2017-05-19,TreatmentA,1,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1251,20,2017,2017-05-19,TreatmentA,1,PUCCSI,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1252,20,2017,2017-05-19,TreatmentA,1,PUCCSI,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.75,data/basf-wheat-diseases.txt,False,True
+1253,20,2017,2017-05-19,TreatmentA,1,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,9.0,data/basf-wheat-diseases.txt,False,True
+1258,20,2017,2017-06-01,TreatmentA,1,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1259,20,2017,2017-06-01,TreatmentA,1,PUCCSI,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1260,20,2017,2017-06-01,TreatmentA,1,PUCCSI,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,4.0,data/basf-wheat-diseases.txt,False,True
+1261,20,2017,2017-06-01,TreatmentA,1,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,11.75,data/basf-wheat-diseases.txt,False,True
+1266,20,2017,2017-06-09,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,0.0,data/basf-wheat-diseases.txt,True,True
+1267,20,2017,2017-06-09,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,1.5,data/basf-wheat-diseases.txt,False,True
+1268,20,2017,2017-06-09,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,9.75,data/basf-wheat-diseases.txt,False,True
+1269,20,2017,2017-06-09,TreatmentA,1,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,15.5,data/basf-wheat-diseases.txt,False,True
+343,24,2018,2018-06-20,Untreated,0,PUCCRE,LEAF,INFECT,P%INF,INFECT/INFEST.,TPLOT,,,4.25,data/basf-wheat-diseases.txt,False,True
+349,24,2018,2018-07-04,Untreated,0,PUCCRE,LEAF,INFECT,P%INF,INFECT/INFEST.,TPLOT,,,31.25,data/basf-wheat-diseases.txt,False,True
+1289,24,2018,2018-06-20,TreatmentA,1,PUCCRE,LEAF,INFECT,P%INF,INFECT/INFEST.,TPLOT,,,0.0,data/basf-wheat-diseases.txt,True,True
+1295,24,2018,2018-07-04,TreatmentA,1,PUCCRE,LEAF,INFECT,P%INF,INFECT/INFEST.,TPLOT,,,3.0,data/basf-wheat-diseases.txt,False,True
+360,25,2018,2018-06-01,Untreated,0,PUCCRE,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,39.0,41.0,2.0,data/basf-wheat-diseases.txt,False,True
+361,25,2018,2018-06-01,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,39.0,41.0,3.0,data/basf-wheat-diseases.txt,False,True
+362,25,2018,2018-06-01,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,39.0,41.0,4.0,data/basf-wheat-diseases.txt,False,True
+363,25,2018,2018-06-01,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,39.0,41.0,2.0,data/basf-wheat-diseases.txt,False,True
+366,25,2018,2018-06-15,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,57.5,data/basf-wheat-diseases.txt,False,True
+367,25,2018,2018-06-15,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,40.0,data/basf-wheat-diseases.txt,False,True
+1304,25,2018,2018-06-01,TreatmentA,1,PUCCRE,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,39.0,41.0,1.0,data/basf-wheat-diseases.txt,False,True
+1305,25,2018,2018-06-01,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,39.0,41.0,1.5,data/basf-wheat-diseases.txt,False,True
+1306,25,2018,2018-06-01,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,39.0,41.0,1.0,data/basf-wheat-diseases.txt,False,True
+1307,25,2018,2018-06-01,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,39.0,41.0,1.0,data/basf-wheat-diseases.txt,False,True
+1310,25,2018,2018-06-15,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,25.0,data/basf-wheat-diseases.txt,False,True
+1311,25,2018,2018-06-15,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,20.0,data/basf-wheat-diseases.txt,False,True
+371,26,2018,2018-05-16,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,,TPLOT,37.0,37.0,5.0,data/basf-wheat-diseases.txt,False,True
+372,26,2018,2018-05-16,Untreated,0,ERYSGR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,37.0,37.0,4.0,data/basf-wheat-diseases.txt,False,True
+373,26,2018,2018-05-16,Untreated,0,PUCCRE,"LEAF, 4TH",INFECT,P%INF,,TPLOT,37.0,37.0,1.5,data/basf-wheat-diseases.txt,False,True
+374,26,2018,2018-05-16,Untreated,0,PYRNTR,LEAF,INFECT,P%INF,,TPLOT,37.0,37.0,0.0,data/basf-wheat-diseases.txt,True,True
+377,26,2018,2018-05-26,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,55.0,55.0,10.0,data/basf-wheat-diseases.txt,False,True
+378,26,2018,2018-05-26,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,55.0,55.0,3.25,data/basf-wheat-diseases.txt,False,True
+379,26,2018,2018-05-26,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,55.0,55.0,7.7,data/basf-wheat-diseases.txt,False,True
+380,26,2018,2018-05-26,Untreated,0,ERYSGR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,55.0,55.0,9.65,data/basf-wheat-diseases.txt,False,True
+381,26,2018,2018-05-26,Untreated,0,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,55.0,55.0,5.15,data/basf-wheat-diseases.txt,False,True
+382,26,2018,2018-05-26,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,55.0,55.0,10.8,data/basf-wheat-diseases.txt,False,True
+385,26,2018,2018-06-05,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,65.0,8.25,data/basf-wheat-diseases.txt,False,True
+386,26,2018,2018-06-05,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,65.0,4.85,data/basf-wheat-diseases.txt,False,True
+387,26,2018,2018-06-05,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,65.0,65.0,8.15,data/basf-wheat-diseases.txt,False,True
+388,26,2018,2018-06-05,Untreated,0,ERYSGR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,65.0,10.5,data/basf-wheat-diseases.txt,False,True
+389,26,2018,2018-06-05,Untreated,0,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,65.0,9.25,data/basf-wheat-diseases.txt,False,True
+390,26,2018,2018-06-05,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,65.0,10.35,data/basf-wheat-diseases.txt,False,True
+391,26,2018,2018-06-05,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,65.0,8.95,data/basf-wheat-diseases.txt,False,True
+392,26,2018,2018-06-05,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,65.0,65.0,6.4,data/basf-wheat-diseases.txt,False,True
+393,26,2018,2018-06-05,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,65.0,5.0,data/basf-wheat-diseases.txt,False,True
+396,26,2018,2018-06-15,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,4.1,data/basf-wheat-diseases.txt,False,True
+397,26,2018,2018-06-15,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,7.0,data/basf-wheat-diseases.txt,False,True
+398,26,2018,2018-06-15,Untreated,0,ERYSGA,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,5.05,data/basf-wheat-diseases.txt,False,True
+399,26,2018,2018-06-15,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,20.0,data/basf-wheat-diseases.txt,False,True
+400,26,2018,2018-06-15,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,11.75,data/basf-wheat-diseases.txt,False,True
+401,26,2018,2018-06-15,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,12.75,data/basf-wheat-diseases.txt,False,True
+402,26,2018,2018-06-15,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,13.0,data/basf-wheat-diseases.txt,False,True
+1316,26,2018,2018-05-26,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,55.0,55.0,1.05,data/basf-wheat-diseases.txt,False,True
+1317,26,2018,2018-05-26,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,55.0,55.0,1.0,data/basf-wheat-diseases.txt,False,True
+1318,26,2018,2018-05-26,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,55.0,55.0,0.0,data/basf-wheat-diseases.txt,True,True
+1319,26,2018,2018-05-26,TreatmentA,1,ERYSGR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,55.0,55.0,2.7,data/basf-wheat-diseases.txt,False,True
+1320,26,2018,2018-05-26,TreatmentA,1,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,55.0,55.0,0.75,data/basf-wheat-diseases.txt,False,True
+1321,26,2018,2018-05-26,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,55.0,55.0,2.9,data/basf-wheat-diseases.txt,False,True
+1324,26,2018,2018-06-05,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1325,26,2018,2018-06-05,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1326,26,2018,2018-06-05,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1327,26,2018,2018-06-05,TreatmentA,1,ERYSGR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,65.0,4.8,data/basf-wheat-diseases.txt,False,True
+1328,26,2018,2018-06-05,TreatmentA,1,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,65.0,2.0,data/basf-wheat-diseases.txt,False,True
+1329,26,2018,2018-06-05,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,65.0,4.0,data/basf-wheat-diseases.txt,False,True
+1330,26,2018,2018-06-05,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,65.0,1.05,data/basf-wheat-diseases.txt,False,True
+1331,26,2018,2018-06-05,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,65.0,65.0,0.15,data/basf-wheat-diseases.txt,False,True
+1332,26,2018,2018-06-05,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,65.0,0.6,data/basf-wheat-diseases.txt,False,True
+1335,26,2018,2018-06-15,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,0.25,data/basf-wheat-diseases.txt,False,True
+1336,26,2018,2018-06-15,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,0.1,data/basf-wheat-diseases.txt,False,True
+1337,26,2018,2018-06-15,TreatmentA,1,ERYSGA,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+1338,26,2018,2018-06-15,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,5.5,data/basf-wheat-diseases.txt,False,True
+1339,26,2018,2018-06-15,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,3.95,data/basf-wheat-diseases.txt,False,True
+1340,26,2018,2018-06-15,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,6.0,data/basf-wheat-diseases.txt,False,True
+1341,26,2018,2018-06-15,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,4.85,data/basf-wheat-diseases.txt,False,True
+436,29,2018,2018-05-01,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,31.0,32.0,20.0,data/basf-wheat-diseases.txt,False,True
+437,29,2018,2018-05-01,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,31.0,32.0,15.0,data/basf-wheat-diseases.txt,False,True
+438,29,2018,2018-05-01,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,31.0,32.0,2.0,data/basf-wheat-diseases.txt,False,True
+441,29,2018,2018-05-11,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,37.0,39.0,40.0,data/basf-wheat-diseases.txt,False,True
+442,29,2018,2018-05-11,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,37.0,39.0,18.75,data/basf-wheat-diseases.txt,False,True
+445,29,2018,2018-05-22,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,52.5,data/basf-wheat-diseases.txt,False,True
+446,29,2018,2018-05-22,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,35.0,data/basf-wheat-diseases.txt,False,True
+447,29,2018,2018-05-22,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,20.0,data/basf-wheat-diseases.txt,False,True
+450,29,2018,2018-05-31,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,41.0,49.0,42.5,data/basf-wheat-diseases.txt,False,True
+451,29,2018,2018-05-31,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,41.0,32.0,25.0,data/basf-wheat-diseases.txt,False,True
+1367,29,2018,2018-05-11,TreatmentA,1,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,37.0,39.0,2.75,data/basf-wheat-diseases.txt,False,True
+1368,29,2018,2018-05-11,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,37.0,39.0,1.25,data/basf-wheat-diseases.txt,False,True
+1369,29,2018,2018-05-22,TreatmentA,1,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,1.25,data/basf-wheat-diseases.txt,False,True
+1370,29,2018,2018-05-22,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.75,data/basf-wheat-diseases.txt,False,True
+1371,29,2018,2018-05-22,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,1.0,data/basf-wheat-diseases.txt,False,True
+1374,29,2018,2018-05-31,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,41.0,49.0,8.0,data/basf-wheat-diseases.txt,False,True
+1375,29,2018,2018-05-31,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,41.0,32.0,4.0,data/basf-wheat-diseases.txt,False,True
+455,30,2018,2018-06-01,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,39.0,45.0,3.0,data/basf-wheat-diseases.txt,False,True
+456,30,2018,2018-06-01,Untreated,0,PUCCRE,"PLANT,TOTAL",INFECT,P%INF,INFECT % NR,TPLOT,39.0,45.0,1.0,data/basf-wheat-diseases.txt,False,True
+459,30,2018,2018-06-13,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,61.0,61.0,2.0,data/basf-wheat-diseases.txt,False,True
+462,30,2018,2018-06-20,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,69.0,69.0,3.0,data/basf-wheat-diseases.txt,False,True
+463,30,2018,2018-06-20,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,69.0,69.0,6.75,data/basf-wheat-diseases.txt,False,True
+466,30,2018,2018-06-27,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,71.0,71.0,3.25,data/basf-wheat-diseases.txt,False,True
+467,30,2018,2018-06-27,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,71.0,71.0,8.0,data/basf-wheat-diseases.txt,False,True
+468,30,2018,2018-07-05,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,27.5,data/basf-wheat-diseases.txt,False,True
+1380,30,2018,2018-06-20,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,69.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1381,30,2018,2018-06-20,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,69.0,69.0,1.25,data/basf-wheat-diseases.txt,False,True
+1384,30,2018,2018-06-27,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,71.0,71.0,0.75,data/basf-wheat-diseases.txt,False,True
+1385,30,2018,2018-06-27,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,71.0,71.0,3.5,data/basf-wheat-diseases.txt,False,True
+1386,30,2018,2018-07-05,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,13.75,data/basf-wheat-diseases.txt,False,True
+478,31,2019,2019-06-01,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,72.0,1.0,data/basf-wheat-diseases.txt,False,True
+481,31,2019,2019-06-07,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,5.0,data/basf-wheat-diseases.txt,False,True
+484,31,2019,2019-06-11,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,77.0,7.5,data/basf-wheat-diseases.txt,False,True
+1396,31,2019,2019-06-01,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,72.0,0.0,data/basf-wheat-diseases.txt,True,True
+1399,31,2019,2019-06-07,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,0.0,data/basf-wheat-diseases.txt,True,True
+1402,31,2019,2019-06-11,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,77.0,0.0,data/basf-wheat-diseases.txt,True,True
+494,32,2019,2019-06-01,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,72.0,0.5,data/basf-wheat-diseases.txt,False,True
+497,32,2019,2019-06-07,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,4.0,data/basf-wheat-diseases.txt,False,True
+499,32,2019,2019-06-10,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,5.0,data/basf-wheat-diseases.txt,False,True
+1412,32,2019,2019-06-01,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,72.0,0.0,data/basf-wheat-diseases.txt,True,True
+1415,32,2019,2019-06-07,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,0.0,data/basf-wheat-diseases.txt,True,True
+1417,32,2019,2019-06-10,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,0.0,data/basf-wheat-diseases.txt,True,True
+507,33,2019,2019-05-25,Untreated,0,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,66.0,69.0,17.5,data/basf-wheat-diseases.txt,False,True
+508,33,2019,2019-05-25,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,66.0,69.0,10.0,data/basf-wheat-diseases.txt,False,True
+509,33,2019,2019-05-25,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,66.0,69.0,7.5,data/basf-wheat-diseases.txt,False,True
+512,33,2019,2019-06-04,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,69.0,72.0,13.75,data/basf-wheat-diseases.txt,False,True
+513,33,2019,2019-06-04,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,72.0,5.0,data/basf-wheat-diseases.txt,False,True
+516,33,2019,2019-06-11,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,74.0,76.0,17.5,data/basf-wheat-diseases.txt,False,True
+517,33,2019,2019-06-11,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,7.5,data/basf-wheat-diseases.txt,False,True
+1425,33,2019,2019-05-25,TreatmentA,1,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,66.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1426,33,2019,2019-05-25,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,66.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1427,33,2019,2019-05-25,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,66.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1430,33,2019,2019-06-04,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,69.0,72.0,1.0,data/basf-wheat-diseases.txt,False,True
+1431,33,2019,2019-06-04,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,72.0,0.0,data/basf-wheat-diseases.txt,True,True
+1434,33,2019,2019-06-11,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,74.0,76.0,3.0,data/basf-wheat-diseases.txt,False,True
+1435,33,2019,2019-06-11,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,0.0,data/basf-wheat-diseases.txt,True,True
+525,34,2019,2019-05-25,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,66.0,69.0,7.5,data/basf-wheat-diseases.txt,False,True
+526,34,2019,2019-05-25,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,66.0,69.0,4.0,data/basf-wheat-diseases.txt,False,True
+530,34,2019,2019-06-04,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,69.0,72.0,13.75,data/basf-wheat-diseases.txt,False,True
+531,34,2019,2019-06-04,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,69.0,72.0,8.75,data/basf-wheat-diseases.txt,False,True
+532,34,2019,2019-06-04,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,72.0,5.0,data/basf-wheat-diseases.txt,False,True
+535,34,2019,2019-06-11,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,74.0,76.0,13.75,data/basf-wheat-diseases.txt,False,True
+536,34,2019,2019-06-11,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,7.5,data/basf-wheat-diseases.txt,False,True
+1443,34,2019,2019-05-25,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,66.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1444,34,2019,2019-05-25,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,66.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1448,34,2019,2019-06-04,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,69.0,72.0,0.0,data/basf-wheat-diseases.txt,True,True
+1449,34,2019,2019-06-04,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,69.0,72.0,0.0,data/basf-wheat-diseases.txt,True,True
+1450,34,2019,2019-06-04,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,72.0,0.0,data/basf-wheat-diseases.txt,True,True
+1453,34,2019,2019-06-11,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,74.0,76.0,1.0,data/basf-wheat-diseases.txt,False,True
+1454,34,2019,2019-06-11,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,74.0,76.0,0.25,data/basf-wheat-diseases.txt,False,True
+542,35,2019,2019-05-17,Untreated,0,ERYSGT,"LEAF, 4TH",INFECT,P%INF,,TPLOT,37.0,39.0,2.0,data/basf-wheat-diseases.txt,False,True
+543,35,2019,2019-05-17,Untreated,0,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,37.0,39.0,0.5,data/basf-wheat-diseases.txt,False,True
+544,35,2019,2019-05-17,Untreated,0,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+545,35,2019,2019-05-17,Untreated,0,PUCCRE,"LEAF, 4TH",INFECT,P%INF,,TPLOT,37.0,39.0,1.0,data/basf-wheat-diseases.txt,False,True
+546,35,2019,2019-05-17,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,37.0,39.0,0.5,data/basf-wheat-diseases.txt,False,True
+547,35,2019,2019-05-17,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+551,35,2019,2019-05-27,Untreated,0,ERYSGT,"LEAF, 4TH",INFECT,P%INF,,TPLOT,43.0,51.0,6.0,data/basf-wheat-diseases.txt,False,True
+552,35,2019,2019-05-27,Untreated,0,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,43.0,51.0,3.5,data/basf-wheat-diseases.txt,False,True
+553,35,2019,2019-05-27,Untreated,0,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,43.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+554,35,2019,2019-05-27,Untreated,0,PUCCRE,"LEAF, 4TH",INFECT,P%INF,,TPLOT,43.0,51.0,2.0,data/basf-wheat-diseases.txt,False,True
+555,35,2019,2019-05-27,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,43.0,51.0,1.0,data/basf-wheat-diseases.txt,False,True
+556,35,2019,2019-05-27,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,43.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+560,35,2019,2019-06-06,Untreated,0,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,67.0,4.25,data/basf-wheat-diseases.txt,False,True
+561,35,2019,2019-06-06,Untreated,0,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,67.0,1.0,data/basf-wheat-diseases.txt,False,True
+562,35,2019,2019-06-06,Untreated,0,ERYSGT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,65.0,67.0,0.0,data/basf-wheat-diseases.txt,True,True
+563,35,2019,2019-06-06,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,67.0,3.25,data/basf-wheat-diseases.txt,False,True
+564,35,2019,2019-06-06,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,67.0,2.25,data/basf-wheat-diseases.txt,False,True
+565,35,2019,2019-06-06,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,65.0,67.0,1.0,data/basf-wheat-diseases.txt,False,True
+568,35,2019,2019-06-14,Untreated,0,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,73.0,2.25,data/basf-wheat-diseases.txt,False,True
+569,35,2019,2019-06-14,Untreated,0,ERYSGT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,71.0,73.0,0.0,data/basf-wheat-diseases.txt,True,True
+570,35,2019,2019-06-14,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,73.0,5.25,data/basf-wheat-diseases.txt,False,True
+571,35,2019,2019-06-14,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,71.0,73.0,2.5,data/basf-wheat-diseases.txt,False,True
+574,35,2019,2019-06-24,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,22.5,data/basf-wheat-diseases.txt,False,True
+575,35,2019,2019-06-24,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,46.25,data/basf-wheat-diseases.txt,False,True
+1460,35,2019,2019-05-27,TreatmentA,1,ERYSGT,"LEAF, 4TH",INFECT,P%INF,,TPLOT,43.0,51.0,1.0,data/basf-wheat-diseases.txt,False,True
+1461,35,2019,2019-05-27,TreatmentA,1,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,43.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+1462,35,2019,2019-05-27,TreatmentA,1,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,43.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+1463,35,2019,2019-05-27,TreatmentA,1,PUCCRE,"LEAF, 4TH",INFECT,P%INF,,TPLOT,43.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+1464,35,2019,2019-05-27,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,43.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+1465,35,2019,2019-05-27,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,43.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+1469,35,2019,2019-06-06,TreatmentA,1,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,67.0,2.0,data/basf-wheat-diseases.txt,False,True
+1470,35,2019,2019-06-06,TreatmentA,1,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,67.0,0.0,data/basf-wheat-diseases.txt,True,True
+1471,35,2019,2019-06-06,TreatmentA,1,ERYSGT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,65.0,67.0,0.0,data/basf-wheat-diseases.txt,True,True
+1472,35,2019,2019-06-06,TreatmentA,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,,TPLOT,65.0,67.0,1.0,data/basf-wheat-diseases.txt,False,True
+1473,35,2019,2019-06-06,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,67.0,0.0,data/basf-wheat-diseases.txt,True,True
+1474,35,2019,2019-06-06,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,65.0,67.0,0.0,data/basf-wheat-diseases.txt,True,True
+1477,35,2019,2019-06-14,TreatmentA,1,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,73.0,0.75,data/basf-wheat-diseases.txt,False,True
+1478,35,2019,2019-06-14,TreatmentA,1,ERYSGT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,71.0,73.0,0.0,data/basf-wheat-diseases.txt,True,True
+1479,35,2019,2019-06-14,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,73.0,1.0,data/basf-wheat-diseases.txt,False,True
+1480,35,2019,2019-06-14,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,71.0,73.0,1.0,data/basf-wheat-diseases.txt,False,True
+1483,35,2019,2019-06-24,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,2.5,data/basf-wheat-diseases.txt,False,True
+1484,35,2019,2019-06-24,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,17.5,data/basf-wheat-diseases.txt,False,True
+578,36,2019,2019-05-16,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,,39.0,41.0,1.0,data/basf-wheat-diseases.txt,False,True
+579,36,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,61.0,61.0,6.5,data/basf-wheat-diseases.txt,False,True
+580,36,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,,61.0,61.0,15.5,data/basf-wheat-diseases.txt,False,True
+581,36,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,,61.0,61.0,17.5,data/basf-wheat-diseases.txt,False,True
+582,36,2019,2019-06-10,Untreated,0,ERYSGT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,,61.0,61.0,11.25,data/basf-wheat-diseases.txt,False,True
+584,36,2019,2019-06-19,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,69.0,71.0,60.0,data/basf-wheat-diseases.txt,False,True
+585,36,2019,2019-06-19,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,,69.0,71.0,60.0,data/basf-wheat-diseases.txt,False,True
+588,36,2019,2019-06-19,Untreated,0,ERYSGR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,69.0,71.0,12.25,data/basf-wheat-diseases.txt,False,True
+589,36,2019,2019-06-28,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,75.0,75.0,72.5,data/basf-wheat-diseases.txt,False,True
+591,36,2019,2019-06-28,Untreated,0,ERYSGA,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,75.0,75.0,10.5,data/basf-wheat-diseases.txt,False,True
+1487,36,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,61.0,61.0,2.25,data/basf-wheat-diseases.txt,False,True
+1488,36,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,,61.0,61.0,1.75,data/basf-wheat-diseases.txt,False,True
+1489,36,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,,61.0,61.0,1.0,data/basf-wheat-diseases.txt,False,True
+1490,36,2019,2019-06-10,TreatmentA,1,ERYSGT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,,61.0,61.0,2.5,data/basf-wheat-diseases.txt,False,True
+1492,36,2019,2019-06-19,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,69.0,71.0,17.75,data/basf-wheat-diseases.txt,False,True
+1493,36,2019,2019-06-19,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,,69.0,71.0,18.75,data/basf-wheat-diseases.txt,False,True
+1496,36,2019,2019-06-19,TreatmentA,1,ERYSGR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,69.0,71.0,1.25,data/basf-wheat-diseases.txt,False,True
+1497,36,2019,2019-06-28,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,75.0,75.0,45.0,data/basf-wheat-diseases.txt,False,True
+1499,36,2019,2019-06-28,TreatmentA,1,ERYSGA,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,,75.0,75.0,1.25,data/basf-wheat-diseases.txt,False,True
+598,37,2019,2019-05-17,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+599,37,2019,2019-05-17,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+600,37,2019,2019-05-17,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,37.0,39.0,2.0,data/basf-wheat-diseases.txt,False,True
+601,37,2019,2019-05-17,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,37.0,39.0,2.5,data/basf-wheat-diseases.txt,False,True
+605,37,2019,2019-06-05,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,10.75,data/basf-wheat-diseases.txt,False,True
+606,37,2019,2019-06-05,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,9.0,data/basf-wheat-diseases.txt,False,True
+607,37,2019,2019-06-05,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,8.5,data/basf-wheat-diseases.txt,False,True
+608,37,2019,2019-06-05,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,1.75,data/basf-wheat-diseases.txt,False,True
+609,37,2019,2019-06-05,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,5.5,data/basf-wheat-diseases.txt,False,True
+610,37,2019,2019-06-05,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,3.5,data/basf-wheat-diseases.txt,False,True
+614,37,2019,2019-06-24,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,21.25,data/basf-wheat-diseases.txt,False,True
+615,37,2019,2019-06-24,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,17.5,data/basf-wheat-diseases.txt,False,True
+616,37,2019,2019-06-24,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,16.25,data/basf-wheat-diseases.txt,False,True
+617,37,2019,2019-06-24,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,12.5,data/basf-wheat-diseases.txt,False,True
+618,37,2019,2019-06-24,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,10.75,data/basf-wheat-diseases.txt,False,True
+619,37,2019,2019-06-24,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,6.75,data/basf-wheat-diseases.txt,False,True
+1505,37,2019,2019-06-05,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,1.5,data/basf-wheat-diseases.txt,False,True
+1506,37,2019,2019-06-05,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,1.25,data/basf-wheat-diseases.txt,False,True
+1507,37,2019,2019-06-05,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,0.5,data/basf-wheat-diseases.txt,False,True
+1508,37,2019,2019-06-05,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,2.25,data/basf-wheat-diseases.txt,False,True
+1509,37,2019,2019-06-05,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1510,37,2019,2019-06-05,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,65.0,65.0,0.5,data/basf-wheat-diseases.txt,False,True
+1514,37,2019,2019-06-24,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,2.75,data/basf-wheat-diseases.txt,False,True
+1515,37,2019,2019-06-24,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,2.0,data/basf-wheat-diseases.txt,False,True
+1516,37,2019,2019-06-24,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,1.0,data/basf-wheat-diseases.txt,False,True
+1517,37,2019,2019-06-24,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,3.5,data/basf-wheat-diseases.txt,False,True
+1518,37,2019,2019-06-24,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,2.75,data/basf-wheat-diseases.txt,False,True
+1519,37,2019,2019-06-24,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,75.0,0.5,data/basf-wheat-diseases.txt,False,True
+622,38,2019,2019-05-24,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,49.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+623,38,2019,2019-05-24,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,49.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+624,38,2019,2019-05-24,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,49.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+625,38,2019,2019-05-24,Untreated,0,PYRNTR,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,49.0,51.0,2.25,data/basf-wheat-diseases.txt,False,True
+630,38,2019,2019-06-11,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,69.0,70.0,1.5,data/basf-wheat-diseases.txt,False,True
+631,38,2019,2019-06-11,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,69.0,70.0,7.0,data/basf-wheat-diseases.txt,False,True
+632,38,2019,2019-06-11,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,69.0,70.0,6.25,data/basf-wheat-diseases.txt,False,True
+636,38,2019,2019-06-17,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,70.0,72.0,8.75,data/basf-wheat-diseases.txt,False,True
+637,38,2019,2019-06-17,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,70.0,72.0,19.75,data/basf-wheat-diseases.txt,False,True
+640,38,2019,2019-06-24,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,85.0,85.0,47.5,data/basf-wheat-diseases.txt,False,True
+1522,38,2019,2019-06-11,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,69.0,70.0,0.0,data/basf-wheat-diseases.txt,True,True
+1523,38,2019,2019-06-11,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,69.0,70.0,1.75,data/basf-wheat-diseases.txt,False,True
+1524,38,2019,2019-06-11,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,69.0,70.0,2.75,data/basf-wheat-diseases.txt,False,True
+1528,38,2019,2019-06-17,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,70.0,72.0,2.75,data/basf-wheat-diseases.txt,False,True
+1529,38,2019,2019-06-17,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,70.0,72.0,7.0,data/basf-wheat-diseases.txt,False,True
+1532,38,2019,2019-06-24,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,85.0,85.0,20.25,data/basf-wheat-diseases.txt,False,True
+643,39,2019,2019-05-31,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,49.0,51.0,0.5,data/basf-wheat-diseases.txt,False,True
+644,39,2019,2019-05-31,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,49.0,51.0,1.0,data/basf-wheat-diseases.txt,False,True
+645,39,2019,2019-05-31,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,49.0,51.0,1.5,data/basf-wheat-diseases.txt,False,True
+646,39,2019,2019-06-20,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,1.0,data/basf-wheat-diseases.txt,False,True
+647,39,2019,2019-06-20,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,3.25,data/basf-wheat-diseases.txt,False,True
+648,39,2019,2019-06-20,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,7.25,data/basf-wheat-diseases.txt,False,True
+649,39,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,4.75,data/basf-wheat-diseases.txt,False,True
+650,39,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,7.25,data/basf-wheat-diseases.txt,False,True
+651,39,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,3.0,data/basf-wheat-diseases.txt,False,True
+655,39,2019,2019-06-20,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,1.0,data/basf-wheat-diseases.txt,False,True
+656,39,2019,2019-06-20,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,1.0,data/basf-wheat-diseases.txt,False,True
+657,39,2019,2019-06-20,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,1.0,data/basf-wheat-diseases.txt,False,True
+658,39,2019,2019-07-01,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,37.5,data/basf-wheat-diseases.txt,False,True
+659,39,2019,2019-07-01,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,62.5,data/basf-wheat-diseases.txt,False,True
+660,39,2019,2019-07-01,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,29.5,data/basf-wheat-diseases.txt,False,True
+661,39,2019,2019-07-01,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,31.25,data/basf-wheat-diseases.txt,False,True
+1535,39,2019,2019-06-20,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,1.0,data/basf-wheat-diseases.txt,False,True
+1536,39,2019,2019-06-20,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,1.25,data/basf-wheat-diseases.txt,False,True
+1537,39,2019,2019-06-20,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,3.0,data/basf-wheat-diseases.txt,False,True
+1538,39,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,2.25,data/basf-wheat-diseases.txt,False,True
+1539,39,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,1.75,data/basf-wheat-diseases.txt,False,True
+1540,39,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,1.0,data/basf-wheat-diseases.txt,False,True
+1544,39,2019,2019-06-20,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,0.0,data/basf-wheat-diseases.txt,True,True
+1545,39,2019,2019-06-20,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,0.0,data/basf-wheat-diseases.txt,True,True
+1546,39,2019,2019-06-20,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,69.0,71.0,0.0,data/basf-wheat-diseases.txt,True,True
+1547,39,2019,2019-07-01,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,8.5,data/basf-wheat-diseases.txt,False,True
+1548,39,2019,2019-07-01,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,15.75,data/basf-wheat-diseases.txt,False,True
+1549,39,2019,2019-07-01,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,14.25,data/basf-wheat-diseases.txt,False,True
+1550,39,2019,2019-07-01,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,11.0,data/basf-wheat-diseases.txt,False,True
+737,48,2019,2019-05-16,Untreated,0,PUCCRT,LEAF,INFECT,P%INF,,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+742,48,2019,2019-05-27,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,,TPLOT,39.0,47.0,3.75,data/basf-wheat-diseases.txt,False,True
+743,48,2019,2019-05-27,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,39.0,47.0,3.0,data/basf-wheat-diseases.txt,False,True
+744,48,2019,2019-05-27,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,39.0,47.0,3.0,data/basf-wheat-diseases.txt,False,True
+745,48,2019,2019-05-27,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,39.0,47.0,2.0,data/basf-wheat-diseases.txt,False,True
+749,48,2019,2019-06-07,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,64.0,66.0,25.0,data/basf-wheat-diseases.txt,False,True
+750,48,2019,2019-06-07,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,64.0,66.0,30.0,data/basf-wheat-diseases.txt,False,True
+751,48,2019,2019-06-07,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,64.0,66.0,20.0,data/basf-wheat-diseases.txt,False,True
+754,48,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,50.0,data/basf-wheat-diseases.txt,False,True
+755,48,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,50.0,data/basf-wheat-diseases.txt,False,True
+1606,48,2019,2019-05-27,TreatmentA,1,PUCCRT,"LEAF, 4TH",INFECT,P%INF,,TPLOT,39.0,47.0,2.0,data/basf-wheat-diseases.txt,False,True
+1607,48,2019,2019-05-27,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,39.0,47.0,3.0,data/basf-wheat-diseases.txt,False,True
+1608,48,2019,2019-05-27,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,39.0,47.0,2.0,data/basf-wheat-diseases.txt,False,True
+1609,48,2019,2019-05-27,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,39.0,47.0,1.0,data/basf-wheat-diseases.txt,False,True
+1613,48,2019,2019-06-07,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,64.0,66.0,5.5,data/basf-wheat-diseases.txt,False,True
+1614,48,2019,2019-06-07,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,64.0,66.0,5.0,data/basf-wheat-diseases.txt,False,True
+1615,48,2019,2019-06-07,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,64.0,66.0,3.0,data/basf-wheat-diseases.txt,False,True
+1618,48,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,36.25,data/basf-wheat-diseases.txt,False,True
+1619,48,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,45.0,data/basf-wheat-diseases.txt,False,True
+762,49,2019,2019-06-06,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,61.0,63.0,9.0,data/basf-wheat-diseases.txt,False,True
+765,49,2019,2019-06-17,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,67.0,71.0,20.25,data/basf-wheat-diseases.txt,False,True
+766,49,2019,2019-06-17,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,67.0,71.0,9.25,data/basf-wheat-diseases.txt,False,True
+767,49,2019,2019-06-17,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,67.0,71.0,7.75,data/basf-wheat-diseases.txt,False,True
+770,49,2019,2019-06-21,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,77.0,40.0,data/basf-wheat-diseases.txt,False,True
+771,49,2019,2019-06-21,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,77.0,29.0,data/basf-wheat-diseases.txt,False,True
+1625,49,2019,2019-06-06,TreatmentA,1,PUCCRT,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,61.0,63.0,0.0,data/basf-wheat-diseases.txt,True,True
+1628,49,2019,2019-06-17,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,67.0,71.0,12.75,data/basf-wheat-diseases.txt,False,True
+1629,49,2019,2019-06-17,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,67.0,71.0,6.25,data/basf-wheat-diseases.txt,False,True
+1630,49,2019,2019-06-17,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,67.0,71.0,5.25,data/basf-wheat-diseases.txt,False,True
+1633,49,2019,2019-06-21,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,77.0,12.0,data/basf-wheat-diseases.txt,False,True
+1634,49,2019,2019-06-21,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,77.0,10.0,data/basf-wheat-diseases.txt,False,True
+774,50,2019,2019-05-24,Untreated,0,PYRNTR,"PLANT,TOTAL",INFECT,P%INF,,TPLOT,41.0,41.0,3.0,data/basf-wheat-diseases.txt,False,True
+776,50,2019,2019-06-03,Untreated,0,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,65.0,65.0,13.0,data/basf-wheat-diseases.txt,False,True
+1637,50,2019,2019-06-03,TreatmentA,1,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,65.0,65.0,2.5,data/basf-wheat-diseases.txt,False,True
+781,51,2019,2019-06-03,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,,TPLOT,51.0,55.0,5.0,data/basf-wheat-diseases.txt,False,True
+782,51,2019,2019-06-03,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,51.0,55.0,2.6,data/basf-wheat-diseases.txt,False,True
+783,51,2019,2019-06-03,Untreated,0,ERYSGR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,51.0,55.0,14.25,data/basf-wheat-diseases.txt,False,True
+784,51,2019,2019-06-03,Untreated,0,ERYSGR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,51.0,55.0,6.05,data/basf-wheat-diseases.txt,False,True
+785,51,2019,2019-06-03,Untreated,0,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,51.0,55.0,4.8,data/basf-wheat-diseases.txt,False,True
+788,51,2019,2019-06-13,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,67.0,71.0,1.2,data/basf-wheat-diseases.txt,False,True
+789,51,2019,2019-06-13,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,67.0,71.0,0.3,data/basf-wheat-diseases.txt,False,True
+790,51,2019,2019-06-13,Untreated,0,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,67.0,71.0,6.55,data/basf-wheat-diseases.txt,False,True
+791,51,2019,2019-06-13,Untreated,0,ERYSGR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,67.0,71.0,1.0,data/basf-wheat-diseases.txt,False,True
+794,51,2019,2019-06-23,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,13.1,data/basf-wheat-diseases.txt,False,True
+795,51,2019,2019-06-23,Untreated,0,ERYSGR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,2.05,data/basf-wheat-diseases.txt,False,True
+1642,51,2019,2019-06-03,TreatmentA,1,PUCCRT,"LEAF, 4TH",INFECT,P%INF,,TPLOT,51.0,55.0,0.55,data/basf-wheat-diseases.txt,False,True
+1643,51,2019,2019-06-03,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,51.0,55.0,0.2,data/basf-wheat-diseases.txt,False,True
+1644,51,2019,2019-06-03,TreatmentA,1,ERYSGR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,51.0,55.0,4.65,data/basf-wheat-diseases.txt,False,True
+1645,51,2019,2019-06-03,TreatmentA,1,ERYSGR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,51.0,55.0,3.1,data/basf-wheat-diseases.txt,False,True
+1646,51,2019,2019-06-03,TreatmentA,1,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,51.0,55.0,0.3,data/basf-wheat-diseases.txt,False,True
+1649,51,2019,2019-06-13,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,67.0,71.0,0.0,data/basf-wheat-diseases.txt,True,True
+1650,51,2019,2019-06-13,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,67.0,71.0,0.0,data/basf-wheat-diseases.txt,True,True
+1651,51,2019,2019-06-13,TreatmentA,1,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,67.0,71.0,0.3,data/basf-wheat-diseases.txt,False,True
+1652,51,2019,2019-06-13,TreatmentA,1,ERYSGR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,67.0,71.0,0.0,data/basf-wheat-diseases.txt,True,True
+1655,51,2019,2019-06-23,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,2.0,data/basf-wheat-diseases.txt,False,True
+1656,51,2019,2019-06-23,TreatmentA,1,ERYSGR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+799,52,2019,2019-05-21,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,"B1, ... , B5",PLANT,55.0,59.0,0.2675,data/basf-wheat-diseases.txt,False,True
+801,52,2019,2019-05-31,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,"B1, ... , B5",PLANT,61.0,69.0,1.525,data/basf-wheat-diseases.txt,False,True
+802,52,2019,2019-05-31,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",PLANT,61.0,69.0,0.5125,data/basf-wheat-diseases.txt,False,True
+805,52,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",PLANT,71.0,73.0,4.3825,data/basf-wheat-diseases.txt,False,True
+806,52,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,"B1, ... , B5",PLANT,71.0,73.0,5.545,data/basf-wheat-diseases.txt,False,True
+809,52,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,"B1, ... , B5",PLANT,75.0,77.0,7.385,data/basf-wheat-diseases.txt,False,True
+810,52,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",PLANT,75.0,77.0,2.54,data/basf-wheat-diseases.txt,False,True
+1660,52,2019,2019-05-21,TreatmentA,1,PUCCRT,"LEAF, 4TH",INFECT,P%INF,"B1, ... , B5",PLANT,55.0,59.0,0.235,data/basf-wheat-diseases.txt,False,True
+1662,52,2019,2019-05-31,TreatmentA,1,PUCCRT,"LEAF, 4TH",INFECT,P%INF,"B1, ... , B5",PLANT,61.0,69.0,0.35,data/basf-wheat-diseases.txt,False,True
+1663,52,2019,2019-05-31,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",PLANT,61.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1666,52,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",PLANT,71.0,73.0,0.2525,data/basf-wheat-diseases.txt,False,True
+1667,52,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,"B1, ... , B5",PLANT,71.0,73.0,0.2975,data/basf-wheat-diseases.txt,False,True
+1670,52,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,"B1, ... , B5",PLANT,75.0,77.0,2.4925,data/basf-wheat-diseases.txt,False,True
+1671,52,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",PLANT,75.0,77.0,0.597,data/basf-wheat-diseases.txt,False,True
+815,53,2019,2019-05-30,Untreated,0,PYRNTR,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,47.0,49.0,0.375,data/basf-wheat-diseases.txt,False,True
+817,53,2019,2019-05-30,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,47.0,49.0,0.6,data/basf-wheat-diseases.txt,False,True
+818,53,2019,2019-06-10,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,2.75,data/basf-wheat-diseases.txt,False,True
+820,53,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,2.775,data/basf-wheat-diseases.txt,False,True
+821,53,2019,2019-06-10,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,5.4,data/basf-wheat-diseases.txt,False,True
+822,53,2019,2019-06-20,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,3.125,data/basf-wheat-diseases.txt,False,True
+824,53,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,7.325,data/basf-wheat-diseases.txt,False,True
+825,53,2019,2019-06-20,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,1.025,data/basf-wheat-diseases.txt,False,True
+1676,53,2019,2019-06-10,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,0.2,data/basf-wheat-diseases.txt,False,True
+1678,53,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,0.125,data/basf-wheat-diseases.txt,False,True
+1679,53,2019,2019-06-10,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,0.125,data/basf-wheat-diseases.txt,False,True
+1680,53,2019,2019-06-20,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,0.15,data/basf-wheat-diseases.txt,False,True
+1682,53,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,0.15,data/basf-wheat-diseases.txt,False,True
+1683,53,2019,2019-06-20,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,0.025,data/basf-wheat-diseases.txt,False,True
+828,54,2019,2019-05-24,Untreated,0,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,55.0,57.0,0.0,data/basf-wheat-diseases.txt,True,True
+829,54,2019,2019-05-24,Untreated,0,PUCCSI,"LEAF, 2ND",INFECT,P%INF,,TPLOT,55.0,57.0,0.0,data/basf-wheat-diseases.txt,True,True
+830,54,2019,2019-05-24,Untreated,0,PUCCSI,"LEAF, 3RD",INFECT,P%INF,,TPLOT,55.0,57.0,0.0,data/basf-wheat-diseases.txt,True,True
+831,54,2019,2019-06-03,Untreated,0,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,61.0,63.0,0.75,data/basf-wheat-diseases.txt,False,True
+832,54,2019,2019-06-03,Untreated,0,PUCCSI,"LEAF, 2ND",INFECT,P%INF,,TPLOT,61.0,63.0,2.0,data/basf-wheat-diseases.txt,False,True
+833,54,2019,2019-06-13,Untreated,0,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,71.0,6.25,data/basf-wheat-diseases.txt,False,True
+834,54,2019,2019-06-13,Untreated,0,PUCCSI,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,72.0,4.5,data/basf-wheat-diseases.txt,False,True
+837,54,2019,2019-06-24,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,71.0,72.0,10.0,data/basf-wheat-diseases.txt,False,True
+838,54,2019,2019-06-24,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,77.0,79.0,5.0,data/basf-wheat-diseases.txt,False,True
+1686,54,2019,2019-06-03,TreatmentA,1,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,61.0,63.0,0.0,data/basf-wheat-diseases.txt,True,True
+1687,54,2019,2019-06-03,TreatmentA,1,PUCCSI,"LEAF, 2ND",INFECT,P%INF,,TPLOT,61.0,63.0,0.0,data/basf-wheat-diseases.txt,True,True
+1688,54,2019,2019-06-13,TreatmentA,1,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,71.0,0.0,data/basf-wheat-diseases.txt,True,True
+1689,54,2019,2019-06-13,TreatmentA,1,PUCCSI,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,72.0,0.0,data/basf-wheat-diseases.txt,True,True
+1692,54,2019,2019-06-24,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,71.0,72.0,0.0,data/basf-wheat-diseases.txt,True,True
+1693,54,2019,2019-06-24,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,77.0,79.0,0.0,data/basf-wheat-diseases.txt,True,True
+849,56,2019,2019-05-30,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,49.0,49.0,1.25,data/basf-wheat-diseases.txt,False,True
+850,56,2019,2019-05-30,Untreated,0,ERYSGR,"LEAF, 2ND",INFECT,P%INF,,TPLOT,49.0,49.0,1.5,data/basf-wheat-diseases.txt,False,True
+851,56,2019,2019-05-30,Untreated,0,ERYSGR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,49.0,49.0,2.0,data/basf-wheat-diseases.txt,False,True
+852,56,2019,2019-05-30,Untreated,0,ERYSGR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,49.0,49.0,2.0,data/basf-wheat-diseases.txt,False,True
+854,56,2019,2019-06-09,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,61.0,61.0,5.5,data/basf-wheat-diseases.txt,False,True
+855,56,2019,2019-06-09,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,61.0,61.0,2.15,data/basf-wheat-diseases.txt,False,True
+858,56,2019,2019-06-19,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,69.0,10.0,data/basf-wheat-diseases.txt,False,True
+859,56,2019,2019-06-19,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,69.0,69.0,3.35,data/basf-wheat-diseases.txt,False,True
+863,56,2019,2019-06-28,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,14.25,data/basf-wheat-diseases.txt,False,True
+864,56,2019,2019-06-28,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,7.25,data/basf-wheat-diseases.txt,False,True
+1703,56,2019,2019-06-09,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,61.0,61.0,0.0,data/basf-wheat-diseases.txt,True,True
+1704,56,2019,2019-06-09,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,61.0,61.0,0.0,data/basf-wheat-diseases.txt,True,True
+1707,56,2019,2019-06-19,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,69.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1708,56,2019,2019-06-19,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,69.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+1712,56,2019,2019-06-28,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,2.05,data/basf-wheat-diseases.txt,False,True
+1713,56,2019,2019-06-28,TreatmentA,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+867,57,2019,2019-05-30,Untreated,0,PYRNTR,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,47.0,49.0,0.35,data/basf-wheat-diseases.txt,False,True
+869,57,2019,2019-05-30,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,INFECT/INFEST.,TPLOT,47.0,49.0,0.5,data/basf-wheat-diseases.txt,False,True
+870,57,2019,2019-06-10,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,2.2,data/basf-wheat-diseases.txt,False,True
+872,57,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,2.375,data/basf-wheat-diseases.txt,False,True
+873,57,2019,2019-06-10,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,5.9,data/basf-wheat-diseases.txt,False,True
+874,57,2019,2019-06-20,Untreated,0,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,2.6,data/basf-wheat-diseases.txt,False,True
+876,57,2019,2019-06-20,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,6.875,data/basf-wheat-diseases.txt,False,True
+877,57,2019,2019-06-20,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,0.975,data/basf-wheat-diseases.txt,False,True
+1716,57,2019,2019-06-10,TreatmentA,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,0.175,data/basf-wheat-diseases.txt,False,True
+1718,57,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,0.125,data/basf-wheat-diseases.txt,False,True
+1719,57,2019,2019-06-10,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INFECT/INFEST.,TPLOT,59.0,65.0,0.15,data/basf-wheat-diseases.txt,False,True
+1720,57,2019,2019-06-20,TreatmentA,1,PYRNTR,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,0.175,data/basf-wheat-diseases.txt,False,True
+1722,57,2019,2019-06-20,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,0.125,data/basf-wheat-diseases.txt,False,True
+1723,57,2019,2019-06-20,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,71.0,75.0,0.075,data/basf-wheat-diseases.txt,False,True
+893,59,2019,2019-06-03,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,65.0,3.125,data/basf-wheat-diseases.txt,False,True
+895,59,2019,2019-06-13,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,13.0,data/basf-wheat-diseases.txt,False,True
+1737,59,2019,2019-06-03,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1739,59,2019,2019-06-13,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,1.5,data/basf-wheat-diseases.txt,False,True
+902,60,2019,2019-05-04,Untreated,0,ERYSGR,INTERNODE 1,INFECT,P%INF,,TPLOT,49.0,51.0,5.25,data/basf-wheat-diseases.txt,False,True
+903,60,2019,2019-05-04,Untreated,0,ERYSGR,INTERNODE 2,INFECT,P%INF,,TPLOT,49.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+907,60,2019,2019-05-14,Untreated,0,ERYSGR,INTERNODE 1,INFECT,P%INF,,TPLOT,61.0,63.0,13.875,data/basf-wheat-diseases.txt,False,True
+908,60,2019,2019-05-14,Untreated,0,ERYSGR,INTERNODE 2,INFECT,P%INF,,TPLOT,61.0,63.0,4.375,data/basf-wheat-diseases.txt,False,True
+912,60,2019,2019-05-24,Untreated,0,ERYSGR,INTERNODE 1,INFECT,P%INF,,TPLOT,67.0,69.0,18.4375,data/basf-wheat-diseases.txt,False,True
+913,60,2019,2019-05-24,Untreated,0,ERYSGR,INTERNODE 2,INFECT,P%INF,,TPLOT,67.0,69.0,15.375,data/basf-wheat-diseases.txt,False,True
+916,60,2019,2019-06-03,Untreated,0,ERYSGR,INTERNODE 1,INFECT,P%INF,,TPLOT,75.0,75.0,20.5,data/basf-wheat-diseases.txt,False,True
+917,60,2019,2019-06-03,Untreated,0,ERYSGR,INTERNODE 2,INFECT,P%INF,,TPLOT,75.0,75.0,18.875,data/basf-wheat-diseases.txt,False,True
+1746,60,2019,2019-05-04,TreatmentA,1,ERYSGR,INTERNODE 1,INFECT,P%INF,,TPLOT,49.0,51.0,5.0,data/basf-wheat-diseases.txt,False,True
+1747,60,2019,2019-05-04,TreatmentA,1,ERYSGR,INTERNODE 2,INFECT,P%INF,,TPLOT,49.0,51.0,0.0,data/basf-wheat-diseases.txt,True,True
+1751,60,2019,2019-05-14,TreatmentA,1,ERYSGR,INTERNODE 1,INFECT,P%INF,,TPLOT,61.0,63.0,8.5,data/basf-wheat-diseases.txt,False,True
+1752,60,2019,2019-05-14,TreatmentA,1,ERYSGR,INTERNODE 2,INFECT,P%INF,,TPLOT,61.0,63.0,0.0,data/basf-wheat-diseases.txt,True,True
+1756,60,2019,2019-05-24,TreatmentA,1,ERYSGR,INTERNODE 1,INFECT,P%INF,,TPLOT,67.0,69.0,9.25,data/basf-wheat-diseases.txt,False,True
+1757,60,2019,2019-05-24,TreatmentA,1,ERYSGR,INTERNODE 2,INFECT,P%INF,,TPLOT,67.0,69.0,4.5,data/basf-wheat-diseases.txt,False,True
+1760,60,2019,2019-06-03,TreatmentA,1,ERYSGR,INTERNODE 1,INFECT,P%INF,,TPLOT,75.0,75.0,11.375,data/basf-wheat-diseases.txt,False,True
+1761,60,2019,2019-06-03,TreatmentA,1,ERYSGR,INTERNODE 2,INFECT,P%INF,,TPLOT,75.0,75.0,6.5,data/basf-wheat-diseases.txt,False,True
+924,61,2019,2019-05-15,Untreated,0,ZZYYFF,"PLANT,TOTAL",INFECT,P%INF,,TPLOT,53.0,55.0,0.0,data/basf-wheat-diseases.txt,True,True
+928,61,2019,2019-05-25,Untreated,0,ZZYYFF,"PLANT,TOTAL",INFECT,P%INF,,TPLOT,63.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+932,61,2019,2019-06-05,Untreated,0,ZZYYFF,"PLANT,TOTAL",INFECT,P%INF,,TPLOT,71.0,73.0,0.0,data/basf-wheat-diseases.txt,True,True
+935,61,2019,2019-06-11,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,CROP INJURY,TPLOT,75.0,75.0,7.5,data/basf-wheat-diseases.txt,False,True
+936,61,2019,2019-06-11,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,CROP INJURY,TPLOT,75.0,75.0,44.525,data/basf-wheat-diseases.txt,False,True
+1768,61,2019,2019-05-15,TreatmentA,1,ZZYYFF,"PLANT,TOTAL",INFECT,P%INF,,TPLOT,53.0,55.0,0.0,data/basf-wheat-diseases.txt,True,True
+1772,61,2019,2019-05-25,TreatmentA,1,ZZYYFF,"PLANT,TOTAL",INFECT,P%INF,,TPLOT,63.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1776,61,2019,2019-06-05,TreatmentA,1,ZZYYFF,"PLANT,TOTAL",INFECT,P%INF,,TPLOT,71.0,73.0,0.0,data/basf-wheat-diseases.txt,True,True
+1779,61,2019,2019-06-11,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,CROP INJURY,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+1780,61,2019,2019-06-11,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,CROP INJURY,TPLOT,75.0,75.0,6.825,data/basf-wheat-diseases.txt,False,True
+959,64,2019,2019-06-16,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,72.0,74.0,1.5,data/basf-wheat-diseases.txt,False,True
+962,64,2019,2019-06-24,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,77.0,8.125,data/basf-wheat-diseases.txt,False,True
+963,64,2019,2019-06-24,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,77.0,17.1875,data/basf-wheat-diseases.txt,False,True
+1800,64,2019,2019-06-16,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,72.0,74.0,0.0,data/basf-wheat-diseases.txt,True,True
+1803,64,2019,2019-06-24,TreatmentA,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,77.0,0.9375,data/basf-wheat-diseases.txt,False,True
+1804,64,2019,2019-06-24,TreatmentA,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,75.0,77.0,0.25,data/basf-wheat-diseases.txt,False,True
+980,66,2019,2019-05-30,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,51.0,59.0,0.0,data/basf-wheat-diseases.txt,True,True
+981,66,2019,2019-05-30,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,51.0,59.0,0.25,data/basf-wheat-diseases.txt,False,True
+982,66,2019,2019-05-30,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,51.0,59.0,2.25,data/basf-wheat-diseases.txt,False,True
+983,66,2019,2019-05-30,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,INFECT % NR,TPLOT,51.0,59.0,2.75,data/basf-wheat-diseases.txt,False,True
+988,66,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,65.0,71.0,2.25,data/basf-wheat-diseases.txt,False,True
+989,66,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,71.0,5.5,data/basf-wheat-diseases.txt,False,True
+990,66,2019,2019-06-10,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,65.0,71.0,10.5,data/basf-wheat-diseases.txt,False,True
+994,66,2019,2019-06-21,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,69.0,75.0,57.5,data/basf-wheat-diseases.txt,False,True
+995,66,2019,2019-06-21,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,69.0,75.0,67.5,data/basf-wheat-diseases.txt,False,True
+1819,66,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,65.0,71.0,0.5,data/basf-wheat-diseases.txt,False,True
+1820,66,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,71.0,1.0,data/basf-wheat-diseases.txt,False,True
+1821,66,2019,2019-06-10,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,65.0,71.0,1.75,data/basf-wheat-diseases.txt,False,True
+1824,66,2019,2019-06-21,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,69.0,75.0,13.75,data/basf-wheat-diseases.txt,False,True
+1825,66,2019,2019-06-21,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,69.0,75.0,20.0,data/basf-wheat-diseases.txt,False,True
+1001,67,2019,2019-05-21,Untreated,0,PUCCRT,"LEAF, 5TH",INFECT,P%INF,INFECT % NR,TPLOT,39.0,45.0,10.0,data/basf-wheat-diseases.txt,False,True
+1002,67,2019,2019-05-21,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,INFECT % NR,TPLOT,39.0,45.0,3.0,data/basf-wheat-diseases.txt,False,True
+1003,67,2019,2019-05-31,Untreated,0,PUCCRT,"LEAF, 4TH",INFECT,P%INF,INFECT % NR,TPLOT,45.0,51.0,52.5,data/basf-wheat-diseases.txt,False,True
+1004,67,2019,2019-05-31,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,45.0,51.0,32.5,data/basf-wheat-diseases.txt,False,True
+1005,67,2019,2019-05-31,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,45.0,51.0,16.25,data/basf-wheat-diseases.txt,False,True
+1006,67,2019,2019-06-11,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,55.0,61.0,60.0,data/basf-wheat-diseases.txt,False,True
+1007,67,2019,2019-06-11,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,55.0,61.0,32.5,data/basf-wheat-diseases.txt,False,True
+1009,67,2019,2019-06-21,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,80.0,data/basf-wheat-diseases.txt,False,True
+1010,67,2019,2019-06-21,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,60.0,data/basf-wheat-diseases.txt,False,True
+1012,67,2019,2019-07-02,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,73.0,76.0,100.0,data/basf-wheat-diseases.txt,False,True
+1013,67,2019,2019-07-02,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,73.0,76.0,100.0,data/basf-wheat-diseases.txt,False,True
+1831,67,2019,2019-05-31,TreatmentA,1,PUCCRT,"LEAF, 4TH",INFECT,P%INF,INFECT % NR,TPLOT,45.0,51.0,11.25,data/basf-wheat-diseases.txt,False,True
+1832,67,2019,2019-05-31,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,45.0,51.0,5.25,data/basf-wheat-diseases.txt,False,True
+1833,67,2019,2019-05-31,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,45.0,51.0,2.0,data/basf-wheat-diseases.txt,False,True
+1834,67,2019,2019-06-11,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,55.0,61.0,20.0,data/basf-wheat-diseases.txt,False,True
+1835,67,2019,2019-06-11,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,55.0,61.0,10.5,data/basf-wheat-diseases.txt,False,True
+1837,67,2019,2019-06-21,TreatmentA,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,35.0,data/basf-wheat-diseases.txt,False,True
+1838,67,2019,2019-06-21,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,17.5,data/basf-wheat-diseases.txt,False,True
+1840,67,2019,2019-07-02,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,73.0,76.0,82.5,data/basf-wheat-diseases.txt,False,True
+1841,67,2019,2019-07-02,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,73.0,76.0,47.5,data/basf-wheat-diseases.txt,False,True
+1018,68,2019,2019-06-04,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,49.0,49.0,0.0,data/basf-wheat-diseases.txt,True,True
+1020,68,2019,2019-06-14,Untreated,0,PUCCRT,"PLANT,TOTAL",INFECT,P%INF,INFECT % NR,TPLOT,66.0,66.0,0.0,data/basf-wheat-diseases.txt,True,True
+1022,68,2019,2019-06-24,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,66.0,66.0,2.75,data/basf-wheat-diseases.txt,False,True
+1024,68,2019,2019-06-24,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,66.0,66.0,2.5,data/basf-wheat-diseases.txt,False,True
+1026,68,2019,2019-07-03,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,5.6875,data/basf-wheat-diseases.txt,False,True
+1028,68,2019,2019-07-03,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,5.0,data/basf-wheat-diseases.txt,False,True
+1846,68,2019,2019-06-24,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,66.0,66.0,0.75,data/basf-wheat-diseases.txt,False,True
+1848,68,2019,2019-06-24,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,66.0,66.0,0.5625,data/basf-wheat-diseases.txt,False,True
+1850,68,2019,2019-07-03,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,2.5,data/basf-wheat-diseases.txt,False,True
+1852,68,2019,2019-07-03,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,2.1875,data/basf-wheat-diseases.txt,False,True
+1032,69,2019,2019-05-02,Untreated,0,PUCCST,"LEAF, 6ST",INFECT,P%INF,INF % NR,TPLOT,31.0,32.0,20.0,data/basf-wheat-diseases.txt,False,True
+1033,69,2019,2019-05-02,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,31.0,32.0,35.0,data/basf-wheat-diseases.txt,False,True
+1034,69,2019,2019-05-02,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,31.0,32.0,10.0,data/basf-wheat-diseases.txt,False,True
+1038,69,2019,2019-05-10,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,32.0,33.0,5.75,data/basf-wheat-diseases.txt,False,True
+1039,69,2019,2019-05-10,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,32.0,33.0,23.75,data/basf-wheat-diseases.txt,False,True
+1042,69,2019,2019-05-24,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,41.25,data/basf-wheat-diseases.txt,False,True
+1043,69,2019,2019-05-24,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,58.75,data/basf-wheat-diseases.txt,False,True
+1044,69,2019,2019-05-24,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,65.0,data/basf-wheat-diseases.txt,False,True
+1045,69,2019,2019-05-24,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,40.0,data/basf-wheat-diseases.txt,False,True
+1048,69,2019,2019-05-31,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,45.0,51.0,30.0,data/basf-wheat-diseases.txt,False,True
+1049,69,2019,2019-05-31,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,45.0,51.0,83.75,data/basf-wheat-diseases.txt,False,True
+1050,69,2019,2019-05-31,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,45.0,51.0,72.5,data/basf-wheat-diseases.txt,False,True
+1051,69,2019,2019-05-31,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,45.0,51.0,21.25,data/basf-wheat-diseases.txt,False,True
+1856,69,2019,2019-05-24,TreatmentA,1,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1857,69,2019,2019-05-24,TreatmentA,1,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,3.75,data/basf-wheat-diseases.txt,False,True
+1858,69,2019,2019-05-24,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,25.0,data/basf-wheat-diseases.txt,False,True
+1859,69,2019,2019-05-24,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,16.25,data/basf-wheat-diseases.txt,False,True
+1862,69,2019,2019-05-31,TreatmentA,1,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,45.0,51.0,13.75,data/basf-wheat-diseases.txt,False,True
+1863,69,2019,2019-05-31,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,45.0,51.0,11.25,data/basf-wheat-diseases.txt,False,True
+1864,69,2019,2019-05-31,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,45.0,51.0,41.25,data/basf-wheat-diseases.txt,False,True
+1865,69,2019,2019-05-31,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,45.0,51.0,5.0,data/basf-wheat-diseases.txt,False,True
+1073,71,2019,2019-04-30,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,33.0,33.0,7.5,data/basf-wheat-diseases.txt,False,True
+1076,71,2019,2019-05-09,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,37.0,37.0,10.0,data/basf-wheat-diseases.txt,False,True
+1077,71,2019,2019-05-09,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,37.0,37.0,2.5,data/basf-wheat-diseases.txt,False,True
+1078,71,2019,2019-05-22,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,41.0,47.0,10.0,data/basf-wheat-diseases.txt,False,True
+1079,71,2019,2019-05-22,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,41.0,47.0,19.25,data/basf-wheat-diseases.txt,False,True
+1081,71,2019,2019-05-31,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,59.0,61.0,8.0,data/basf-wheat-diseases.txt,False,True
+1082,71,2019,2019-05-31,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,59.0,61.0,14.75,data/basf-wheat-diseases.txt,False,True
+1083,71,2019,2019-05-31,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,59.0,61.0,23.75,data/basf-wheat-diseases.txt,False,True
+1086,71,2019,2019-06-07,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,61.0,65.0,9.25,data/basf-wheat-diseases.txt,False,True
+1087,71,2019,2019-06-07,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,61.0,65.0,16.25,data/basf-wheat-diseases.txt,False,True
+1088,71,2019,2019-06-07,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,61.0,65.0,100.0,data/basf-wheat-diseases.txt,False,True
+1878,71,2019,2019-05-22,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,41.0,47.0,0.0,data/basf-wheat-diseases.txt,True,True
+1879,71,2019,2019-05-22,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,41.0,47.0,0.0,data/basf-wheat-diseases.txt,True,True
+1881,71,2019,2019-05-31,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,59.0,61.0,0.75,data/basf-wheat-diseases.txt,False,True
+1882,71,2019,2019-05-31,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,59.0,61.0,0.0,data/basf-wheat-diseases.txt,True,True
+1883,71,2019,2019-05-31,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,59.0,61.0,1.25,data/basf-wheat-diseases.txt,False,True
+1886,71,2019,2019-06-07,TreatmentA,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,61.0,65.0,0.75,data/basf-wheat-diseases.txt,False,True
+1887,71,2019,2019-06-07,TreatmentA,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,61.0,65.0,0.5,data/basf-wheat-diseases.txt,False,True
+1888,71,2019,2019-06-07,TreatmentA,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,61.0,65.0,1.75,data/basf-wheat-diseases.txt,False,True
+1157,76,2017,2017-06-22,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,7.0,data/basf-wheat-diseases.txt,False,True
+1158,76,2017,2017-06-22,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,3.0,data/basf-wheat-diseases.txt,False,True
+1159,76,2017,2017-07-04,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,70.0,data/basf-wheat-diseases.txt,False,True
+1894,76,2017,2017-06-22,TreatmentA,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,0.625,data/basf-wheat-diseases.txt,False,True
+1895,76,2017,2017-06-22,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,0.5,data/basf-wheat-diseases.txt,False,True
+1896,76,2017,2017-07-04,TreatmentA,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,70.0,data/basf-wheat-diseases.txt,False,True
+1901,3,2017,2017-06-13,TreatmentB,1,PUCCRT,LEAF,INFECT,P%INF,BEFALL,TPLOT,61.0,61.0,0.0,data/basf-wheat-diseases.txt,True,True
+1947,3,2017,2017-06-13,TreatmentC,1,PUCCRT,LEAF,INFECT,P%INF,BEFALL,TPLOT,61.0,61.0,0.0,data/basf-wheat-diseases.txt,True,True
+48,4,2017,2017-06-06,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,65.0,65.0,0.5,data/basf-wheat-diseases.txt,False,True
+49,4,2017,2017-06-06,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,65.0,65.0,0.25,data/basf-wheat-diseases.txt,False,True
+50,4,2017,2017-06-06,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+54,4,2017,2017-06-16,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,73.0,65.0,1.5,data/basf-wheat-diseases.txt,False,True
+55,4,2017,2017-06-16,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,73.0,65.0,1.5,data/basf-wheat-diseases.txt,False,True
+56,4,2017,2017-06-16,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,73.0,65.0,0.5,data/basf-wheat-diseases.txt,False,True
+1958,4,2017,2017-06-06,TreatmentC,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1959,4,2017,2017-06-06,TreatmentC,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1960,4,2017,2017-06-06,TreatmentC,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1964,4,2017,2017-06-16,TreatmentC,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,73.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1965,4,2017,2017-06-16,TreatmentC,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,73.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1966,4,2017,2017-06-16,TreatmentC,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,73.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+1976,5,2017,2017-05-19,TreatmentC,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1977,5,2017,2017-05-19,TreatmentC,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1978,5,2017,2017-05-19,TreatmentC,1,PUCCRE,"LEAF, 4TH",INFECT,P%INF,BEFALL,TPLOT,37.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+1983,5,2017,2017-05-30,TreatmentC,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,0.0,data/basf-wheat-diseases.txt,True,True
+1984,5,2017,2017-05-30,TreatmentC,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,1.0,data/basf-wheat-diseases.txt,False,True
+1985,5,2017,2017-05-30,TreatmentC,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,1.0,data/basf-wheat-diseases.txt,False,True
+1986,5,2017,2017-05-30,TreatmentC,1,PUCCRE,"LEAF, 4TH",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,0.0,data/basf-wheat-diseases.txt,True,True
+1990,5,2017,2017-06-09,TreatmentC,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,7.25,data/basf-wheat-diseases.txt,False,True
+1991,5,2017,2017-06-09,TreatmentC,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,8.25,data/basf-wheat-diseases.txt,False,True
+1992,5,2017,2017-06-09,TreatmentC,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,BEFALL,TPLOT,55.0,59.0,5.0,data/basf-wheat-diseases.txt,False,True
+1994,5,2017,2017-06-28,TreatmentC,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,BEFALL,TPLOT,75.0,75.0,70.0,data/basf-wheat-diseases.txt,False,True
+160,12,2017,2017-06-12,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,63.0,65.0,1.0,data/basf-wheat-diseases.txt,False,True
+161,12,2017,2017-06-12,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,63.0,65.0,0.5,data/basf-wheat-diseases.txt,False,True
+164,12,2017,2017-06-21,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,73.0,75.0,2.25,data/basf-wheat-diseases.txt,False,True
+165,12,2017,2017-06-21,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,73.0,75.0,1.75,data/basf-wheat-diseases.txt,False,True
+166,12,2017,2017-06-21,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,73.0,75.0,2.0,data/basf-wheat-diseases.txt,False,True
+167,12,2017,2017-06-21,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,73.0,75.0,2.25,data/basf-wheat-diseases.txt,False,True
+2045,12,2017,2017-06-12,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,63.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+2046,12,2017,2017-06-12,TreatmentC,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,63.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+2049,12,2017,2017-06-21,TreatmentC,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,73.0,75.0,1.0,data/basf-wheat-diseases.txt,False,True
+2050,12,2017,2017-06-21,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,73.0,75.0,0.5,data/basf-wheat-diseases.txt,False,True
+2051,12,2017,2017-06-21,TreatmentC,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INFECT/INFEST.,TPLOT,73.0,75.0,1.0,data/basf-wheat-diseases.txt,False,True
+2052,12,2017,2017-06-21,TreatmentC,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT/INFEST.,TPLOT,73.0,75.0,0.5,data/basf-wheat-diseases.txt,False,True
+179,14,2017,2017-06-11,Untreated,0,PYRNTR,"LEAF, 4TH",INFECT,P%INF,"B1, ... , B5",PLANT,59.0,59.0,22.5,data/basf-wheat-diseases.txt,False,True
+180,14,2017,2017-06-11,Untreated,0,PUCCRE,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",PLANT,59.0,59.0,5.25,data/basf-wheat-diseases.txt,False,True
+182,14,2017,2017-06-21,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",PLANT,73.0,75.0,25.0,data/basf-wheat-diseases.txt,False,True
+183,14,2017,2017-06-21,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,"B1, ... , B5",PLANT,73.0,75.0,7.25,data/basf-wheat-diseases.txt,False,True
+184,14,2017,2017-07-01,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",PLANT,75.0,77.0,17.5,data/basf-wheat-diseases.txt,False,True
+185,14,2017,2017-07-01,Untreated,0,PUCCRE,"LEAF, 2ND",INFECT,P%INF,"B1, ... , B5",PLANT,75.0,77.0,8.5,data/basf-wheat-diseases.txt,False,True
+186,14,2017,2017-07-10,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",PLANT,85.0,85.0,22.5,data/basf-wheat-diseases.txt,False,True
+187,14,2017,2017-07-10,Untreated,0,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,85.0,85.0,12.5,data/basf-wheat-diseases.txt,False,True
+2062,14,2017,2017-06-11,TreatmentC,1,PYRNTR,"LEAF, 4TH",INFECT,P%INF,"B1, ... , B5",PLANT,59.0,59.0,5.25,data/basf-wheat-diseases.txt,False,True
+2063,14,2017,2017-06-11,TreatmentC,1,PUCCRE,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",PLANT,59.0,59.0,1.0,data/basf-wheat-diseases.txt,False,True
+2065,14,2017,2017-06-21,TreatmentC,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",PLANT,73.0,75.0,5.0,data/basf-wheat-diseases.txt,False,True
+2066,14,2017,2017-06-21,TreatmentC,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,"B1, ... , B5",PLANT,73.0,75.0,0.75,data/basf-wheat-diseases.txt,False,True
+2067,14,2017,2017-07-01,TreatmentC,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",PLANT,75.0,77.0,1.5,data/basf-wheat-diseases.txt,False,True
+2068,14,2017,2017-07-01,TreatmentC,1,PUCCRE,"LEAF, 2ND",INFECT,P%INF,"B1, ... , B5",PLANT,75.0,77.0,0.25,data/basf-wheat-diseases.txt,False,True
+2069,14,2017,2017-07-10,TreatmentC,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",PLANT,85.0,85.0,6.25,data/basf-wheat-diseases.txt,False,True
+2070,14,2017,2017-07-10,TreatmentC,1,PUCCRE,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,85.0,85.0,0.5,data/basf-wheat-diseases.txt,False,True
+190,15,2017,2017-06-14,Untreated,0,PYRNTR,"LEAF, 3RD",INFECT,P%INF,"B1, ... , B5",TPLOT,55.0,55.0,1.25,data/basf-wheat-diseases.txt,False,True
+191,15,2017,2017-07-03,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,71.0,73.0,1.0,data/basf-wheat-diseases.txt,False,True
+192,15,2017,2017-07-03,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,71.0,73.0,3.25,data/basf-wheat-diseases.txt,False,True
+194,15,2017,2017-07-03,Untreated,0,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,71.0,73.0,0.25,data/basf-wheat-diseases.txt,False,True
+195,15,2017,2017-07-13,Untreated,0,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,77.0,77.0,9.75,data/basf-wheat-diseases.txt,False,True
+197,15,2017,2017-07-13,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,77.0,77.0,6.5,data/basf-wheat-diseases.txt,False,True
+198,15,2017,2017-07-13,Untreated,0,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,77.0,77.0,1.0,data/basf-wheat-diseases.txt,False,True
+2073,15,2017,2017-07-03,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,71.0,73.0,0.25,data/basf-wheat-diseases.txt,False,True
+2074,15,2017,2017-07-03,TreatmentC,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,71.0,73.0,0.5,data/basf-wheat-diseases.txt,False,True
+2076,15,2017,2017-07-03,TreatmentC,1,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,71.0,73.0,0.0,data/basf-wheat-diseases.txt,True,True
+2077,15,2017,2017-07-13,TreatmentC,1,PYRNTR,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,77.0,77.0,3.75,data/basf-wheat-diseases.txt,False,True
+2079,15,2017,2017-07-13,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,77.0,77.0,0.25,data/basf-wheat-diseases.txt,False,True
+2080,15,2017,2017-07-13,TreatmentC,1,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,"B1, ... , B5",TPLOT,77.0,77.0,0.0,data/basf-wheat-diseases.txt,True,True
+2084,16,2017,2017-05-16,TreatmentC,1,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,32.0,33.0,0.125,data/basf-wheat-diseases.txt,False,True
+2087,16,2017,2017-05-26,TreatmentC,1,PYRNTR,"LEAF, 4TH",INFECT,P%INF,,TPLOT,37.0,39.0,0.375,data/basf-wheat-diseases.txt,False,True
+2088,16,2017,2017-05-26,TreatmentC,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,37.0,39.0,0.1875,data/basf-wheat-diseases.txt,False,True
+2090,16,2017,2017-06-08,TreatmentC,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,0.1875,data/basf-wheat-diseases.txt,False,True
+2091,16,2017,2017-06-08,TreatmentC,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,0.0,data/basf-wheat-diseases.txt,True,True
+2092,16,2017,2017-06-08,TreatmentC,1,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,61.0,63.0,0.375,data/basf-wheat-diseases.txt,False,True
+2094,16,2017,2017-06-20,TreatmentC,1,PYRNTR,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,0.1875,data/basf-wheat-diseases.txt,False,True
+2095,16,2017,2017-06-20,TreatmentC,1,ERYSGT,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,0.4375,data/basf-wheat-diseases.txt,False,True
+2096,16,2017,2017-06-20,TreatmentC,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,,TPLOT,71.0,75.0,0.125,data/basf-wheat-diseases.txt,False,True
+2098,16,2017,2017-06-20,TreatmentC,1,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,75.0,0.5625,data/basf-wheat-diseases.txt,False,True
+2099,16,2017,2017-06-20,TreatmentC,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,71.0,75.0,0.25,data/basf-wheat-diseases.txt,False,True
+2101,16,2017,2017-06-26,TreatmentC,1,ERYSGT,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,0.625,data/basf-wheat-diseases.txt,False,True
+2102,16,2017,2017-06-26,TreatmentC,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,,TPLOT,75.0,75.0,0.25,data/basf-wheat-diseases.txt,False,True
+2103,16,2017,2017-06-26,TreatmentC,1,ERYSGT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,0.375,data/basf-wheat-diseases.txt,False,True
+2104,16,2017,2017-06-26,TreatmentC,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,,TPLOT,75.0,75.0,0.25,data/basf-wheat-diseases.txt,False,True
+2105,16,2017,2017-06-26,TreatmentC,1,RHIZSP,"HAULM, TILLER",INFECT,P%INF,,UNIT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+2106,16,2017,2017-06-26,TreatmentC,1,FUSASP,"HAULM, TILLER",INFECT,P%INF,,UNIT,75.0,75.0,11.0,data/basf-wheat-diseases.txt,False,True
+228,17,2017,2017-05-18,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,3.0,data/basf-wheat-diseases.txt,False,True
+229,17,2017,2017-05-18,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,3.0,data/basf-wheat-diseases.txt,False,True
+230,17,2017,2017-05-30,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,57.0,57.0,8.25,data/basf-wheat-diseases.txt,False,True
+231,17,2017,2017-06-10,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,65.0,65.0,2.5,data/basf-wheat-diseases.txt,False,True
+232,17,2017,2017-06-10,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,65.0,3.5,data/basf-wheat-diseases.txt,False,True
+233,17,2017,2017-06-10,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,65.0,65.0,4.5,data/basf-wheat-diseases.txt,False,True
+235,17,2017,2017-06-20,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,20.0,data/basf-wheat-diseases.txt,False,True
+236,17,2017,2017-06-20,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,32.5,data/basf-wheat-diseases.txt,False,True
+237,17,2017,2017-06-20,Untreated,0,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,45.0,data/basf-wheat-diseases.txt,False,True
+2109,17,2017,2017-05-30,TreatmentC,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,57.0,57.0,1.5,data/basf-wheat-diseases.txt,False,True
+2110,17,2017,2017-06-10,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+2111,17,2017,2017-06-10,TreatmentC,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+2112,17,2017,2017-06-10,TreatmentC,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,65.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+2114,17,2017,2017-06-20,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+2115,17,2017,2017-06-20,TreatmentC,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+2116,17,2017,2017-06-20,TreatmentC,1,PUCCRT,"LEAF, 3RD",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+2117,17,2017,2017-07-05,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,83.0,85.0,2.5,data/basf-wheat-diseases.txt,False,True
+2118,17,2017,2017-07-05,TreatmentC,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,83.0,85.0,2.5,data/basf-wheat-diseases.txt,False,True
+249,18,2017,2017-06-21,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,72.0,73.0,6.0,data/basf-wheat-diseases.txt,False,True
+250,18,2017,2017-06-21,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,72.0,73.0,3.0,data/basf-wheat-diseases.txt,False,True
+253,18,2017,2017-07-04,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,40.0,data/basf-wheat-diseases.txt,False,True
+254,18,2017,2017-07-04,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,30.0,data/basf-wheat-diseases.txt,False,True
+2123,18,2017,2017-06-21,TreatmentC,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,72.0,73.0,0.0,data/basf-wheat-diseases.txt,True,True
+2124,18,2017,2017-06-21,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,72.0,73.0,0.0,data/basf-wheat-diseases.txt,True,True
+2127,18,2017,2017-07-04,TreatmentC,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+2128,18,2017,2017-07-04,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+260,19,2017,2017-04-21,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,31.0,32.0,3.0,data/basf-wheat-diseases.txt,False,True
+261,19,2017,2017-04-21,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,31.0,32.0,4.0,data/basf-wheat-diseases.txt,False,True
+265,19,2017,2017-04-29,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,32.0,33.0,3.0,data/basf-wheat-diseases.txt,False,True
+266,19,2017,2017-05-12,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,33.0,37.0,3.25,data/basf-wheat-diseases.txt,False,True
+269,19,2017,2017-05-22,Untreated,0,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,39.0,45.0,4.75,data/basf-wheat-diseases.txt,False,True
+272,19,2017,2017-05-31,Untreated,0,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,51.0,59.0,6.25,data/basf-wheat-diseases.txt,False,True
+273,19,2017,2017-05-31,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,51.0,59.0,6.25,data/basf-wheat-diseases.txt,False,True
+274,19,2017,2017-05-31,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,51.0,59.0,6.25,data/basf-wheat-diseases.txt,False,True
+276,19,2017,2017-06-08,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,61.0,69.0,40.0,data/basf-wheat-diseases.txt,False,True
+277,19,2017,2017-06-08,Untreated,0,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,61.0,69.0,28.75,data/basf-wheat-diseases.txt,False,True
+282,19,2017,2017-06-29,Untreated,0,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,75.0,79.0,26.25,data/basf-wheat-diseases.txt,False,True
+2131,19,2017,2017-05-12,TreatmentC,1,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,33.0,37.0,0.0,data/basf-wheat-diseases.txt,True,True
+2134,19,2017,2017-05-22,TreatmentC,1,PUCCST,"LEAF, 5TH",INFECT,P%INF,INF % NR,TPLOT,39.0,45.0,0.0,data/basf-wheat-diseases.txt,True,True
+2137,19,2017,2017-05-31,TreatmentC,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,51.0,59.0,0.5,data/basf-wheat-diseases.txt,False,True
+2138,19,2017,2017-05-31,TreatmentC,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,51.0,59.0,0.0,data/basf-wheat-diseases.txt,True,True
+2139,19,2017,2017-05-31,TreatmentC,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,51.0,59.0,0.0,data/basf-wheat-diseases.txt,True,True
+2141,19,2017,2017-06-08,TreatmentC,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,61.0,69.0,18.75,data/basf-wheat-diseases.txt,False,True
+2142,19,2017,2017-06-08,TreatmentC,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,61.0,69.0,6.5,data/basf-wheat-diseases.txt,False,True
+2147,19,2017,2017-06-29,TreatmentC,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,75.0,79.0,6.0,data/basf-wheat-diseases.txt,False,True
+2154,20,2017,2017-05-19,TreatmentC,1,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+2155,20,2017,2017-05-19,TreatmentC,1,PUCCSI,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.0,data/basf-wheat-diseases.txt,True,True
+2156,20,2017,2017-05-19,TreatmentC,1,PUCCSI,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,0.25,data/basf-wheat-diseases.txt,False,True
+2157,20,2017,2017-05-19,TreatmentC,1,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,5.25,data/basf-wheat-diseases.txt,False,True
+2162,20,2017,2017-06-01,TreatmentC,1,PUCCSI,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+2163,20,2017,2017-06-01,TreatmentC,1,PUCCSI,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,0.0,data/basf-wheat-diseases.txt,True,True
+2164,20,2017,2017-06-01,TreatmentC,1,PUCCSI,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,59.0,65.0,2.25,data/basf-wheat-diseases.txt,False,True
+2165,20,2017,2017-06-01,TreatmentC,1,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,8.5,data/basf-wheat-diseases.txt,False,True
+2170,20,2017,2017-06-09,TreatmentC,1,PUCCST,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,0.0,data/basf-wheat-diseases.txt,True,True
+2171,20,2017,2017-06-09,TreatmentC,1,PUCCST,"LEAF, 2ND",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,0.0,data/basf-wheat-diseases.txt,True,True
+2172,20,2017,2017-06-09,TreatmentC,1,PUCCST,"LEAF, 3RD",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,3.5,data/basf-wheat-diseases.txt,False,True
+2173,20,2017,2017-06-09,TreatmentC,1,PUCCSI,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,61.0,66.0,9.5,data/basf-wheat-diseases.txt,False,True
+1108,73,2019,2019-05-17,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,39.0,3.0,data/basf-wheat-diseases.txt,False,True
+1112,73,2019,2019-05-24,Untreated,0,PUCCST,"LEAF, 4TH",INFECT,P%INF,INF % NR,TPLOT,39.0,45.0,5.0,data/basf-wheat-diseases.txt,False,True
+1123,73,2019,2019-07-02,Untreated,0,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,20.0,data/basf-wheat-diseases.txt,False,True
+1124,73,2019,2019-07-02,Untreated,0,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,15.0,data/basf-wheat-diseases.txt,False,True
+2201,73,2019,2019-07-02,TreatmentC,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+2202,73,2019,2019-07-02,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+2222,76,2017,2017-06-22,TreatmentC,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+2223,76,2017,2017-06-22,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,0.0,data/basf-wheat-diseases.txt,True,True
+2224,76,2017,2017-07-04,TreatmentC,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True
+2252,73,2019,2019-07-02,TreatmentD,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,1.5,data/basf-wheat-diseases.txt,False,True
+2253,73,2019,2019-07-02,TreatmentD,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,2.75,data/basf-wheat-diseases.txt,False,True
+2273,76,2017,2017-06-22,TreatmentD,1,PUCCRT,"LEAF, 2ND",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,0.15,data/basf-wheat-diseases.txt,False,True
+2274,76,2017,2017-06-22,TreatmentD,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,65.0,69.0,0.15,data/basf-wheat-diseases.txt,False,True
+2275,76,2017,2017-07-04,TreatmentD,1,PUCCRT,"LEAF, 1ST / FLAG LEAF",INFECT,P%INF,INFECT % NR,TPLOT,75.0,75.0,0.0,data/basf-wheat-diseases.txt,True,True

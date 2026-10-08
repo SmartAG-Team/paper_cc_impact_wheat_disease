@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "stage_score_rows_checked": 940,
+  "maximum_distance_error_days": 0.0,
+  "selected_objective_recomputed": 0.12037037037037036,
+  "donor_q1_preserved": true,
+  "leaf_spacing_not_calibrated": true,
+  "actual_absolute_leaf_count_not_invented": true,
+  "selection_frozen_before_reused_evaluation": true
+}

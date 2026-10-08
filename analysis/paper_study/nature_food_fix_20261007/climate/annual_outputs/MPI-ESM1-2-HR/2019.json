@@ -1,0 +1,11 @@
+{
+  "model": "MPI-ESM1-2-HR",
+  "year": 2019,
+  "settings": 14,
+  "rows": 896,
+  "maximum_mass_error": 4.440892098500626e-16,
+  "seconds": 9.792601541965269,
+  "output_sha256": "7617e0776bbe90a7606514bb6528394aa1de9ac66188a1236bd95b430e6ad206",
+  "baseline_daily_sha256": "f3d991a7e6a0598a03ad1a0562c4e913af5989d9215728b1ee9cf9095a7ee843",
+  "registration_sha256": "75497723efa0c324f0bb4a859476f0ece917220e583c66846d1f98e5f2538de2"
+}

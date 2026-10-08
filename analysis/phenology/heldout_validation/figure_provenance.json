@@ -1,0 +1,34 @@
+{
+  "source_file": "heldout_test_figure_data.csv",
+  "source_sha256": "a03ddb58da3c2e002261224febe65d104ee4b593abbc6870322f35f6cb4dbc6f",
+  "rows": 12,
+  "units": "calendar days",
+  "denominator": "three-model shared matched events",
+  "stages": [
+    10,
+    31,
+    51,
+    85
+  ],
+  "shared_matched_by_stage": {
+    "10": 13471,
+    "31": 12109,
+    "51": 12541,
+    "85": 2757
+  },
+  "holdout": "station; no year holdout",
+  "BBCH85": "soft dough",
+  "png_pixels": [
+    5040,
+    2520
+  ],
+  "pdf_inches": [
+    8.4,
+    4.2
+  ],
+  "artifacts": {
+    "german_station_heldout_validation.png": "a507e8f0e2a7638cb46a41957653635aed23994ed27511d50fe129dcf60f4394",
+    "german_station_heldout_validation.pdf": "85d9942e2f0c50949b20a3d3adbc77e2897127648954367bfc361d1adce47a65"
+  },
+  "note": "Point error metrics; no uncertainty intervals or significance claims."
+}

@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "model": "stage-anchored final leaf rank scenarios",
+  "threshold_selection_sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+  "original_field_counts": {
+    "calibration": 28,
+    "reused_BASF2019": 45,
+    "reused_strict_external": 143
+  },
+  "disease_values_used": false,
+  "true_leaf_counts_observed": false,
+  "rank_spacing_calibrated": false,
+  "untouched_validation": false,
+  "prior_stage_outcome_exposure": true,
+  "source_sha256": {
+    "analysis/paper_study/seasonal_calibration_v1/basf_source_assessments_snapshot.csv": "5f39b98003e650e4a4e7ab509a73b34d98311fb4d2f66f8b44599e2ff164d286",
+    "analysis/paper_study/seasonal_calibration_v1/field_season_membership.csv": "ba5692f7da331680875358ae151d1973729e0b870218800de7ae8094a581dff2",
+    "data/paper_study/observations/corteva_external_assessments.csv": "36ae506c4c0be1a1f97b94ddfa7ff841308334cd693a5c2c1db2717b96e8b7cd",
+    "analysis/paper_study/corteva_external_seasonal_v1/external_input_membership.csv": "dfd972dfe2fc839f0931e13d2352587404ed15046709160f51467eb803785206",
+    "data/paper_study/observations/corteva_location_disjoint_external_units.csv": "ee8bb033fb2d52403c34e85ee74dfec643a30309189fd910d45250bd6986b249",
+    "data/paper_study/field_weather_completed/daily_weather.parquet": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+    "process_model/parameters/calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "model/seasonal_septoria/infection_priority_model.json": "67dd371567959888b3349e50bd633ff14b72006ccc41c717ebc76165ff06c795",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/original_field_input_membership.csv": "40a3e2eea7ef5c87f871f41610d98f7a80de0971a942de30a86c0430fdd70ade",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/frozen_event_predictions.csv": "0bdbd700bce99f9087a334de24fcc76309101ba40862ec11ccfcf66df1ad08d6",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/calibration_development_inputs.npz": "24ef6691bd07a9597ce83fc3d656e2520ec1efa44b77f2ff27625096fbd9169c",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/reused_development_2019_development_inputs.npz": "d9dde294e5f3b641b27d75a4e864d354a46258edb813373a2f51ecd641b7fdd1",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/reused_external_strict_development_inputs.npz": "20ca7d8c84af4d39ea9da13d432502f4b6a3e1018ebaa4add40a121ffb308ccd",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/run.py": "7b78e36d1a01e2c777b46bc0e034b7486d249b184f269d92b671bd3376fa62ed",
+    "model/seasonal_septoria/leaf_phenology.py": "236690309dd396a46ffb5d30776b592bf114bc9ed0bb406f1b5529d580620ff3",
+    "tests/test_leaf_phenology.py": "765c769a06b1d916a35a374f70fea86b75805964b810862f04776958c0795da6",
+    "analysis/paper_study/infection_priority_20261006/anthesis_clock/run.py": "582fe9976b81403f5a340a4a9f92c220a249548b714300ebcca0c59e9aa18673",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/run.py": "e00c8490adc5e129b84739942b61bc8e1e5940cec693ed326e92069234c3ec3b"
+  },
+  "output_sha256": {
+    "calibration_stage_constraints_before_fitting.csv": "15558dfccb6756e035b72217a65bf9d25f36c7854450f6ed9705289a60fdb20a",
+    "calibrated_stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+    "ordered_threshold_joint_profiles.csv": "6795dc8c25325911d1881cb0dade95365631ffb2078960f5084f814b04c77e0b",
+    "original_input_membership.csv": "40a3e2eea7ef5c87f871f41610d98f7a80de0971a942de30a86c0430fdd70ade",
+    "stage_censoring_scores.csv": "93973a7e111cbb43b5f09b2d637c3e59241188aac05fd30f9c5b35c97c405293",
+    "predicted_stage_dates.csv": "b4e0b4b8477970f19509546dcd32da867aea431c7107c69801bff1f6993da552",
+    "rejected_stage_rows.csv": "49abceb5d933e78b61d0dcd8ad4e65663623976c63354ddf5172698e7f86f3f9",
+    "stage_observation_coverage.csv": "8f550f09ee1ddd7ae4d77b34a61e655d01539e894c1329c0932b8c88c776fd20",
+    "modeled_final_leaf_ranks_at_stages.csv": "b27e2684331a3f313fe34129e63ef5824e289b240b2d2b6c9692c09d3faadf95",
+    "donor_stage31_q1_reconciliation.json": "91548d5da6a31d6fbf166b6e477effd566914504430508dd2636e4b4c800d433",
+    "verification.json": "8fbf7f817e6ea8985b665ca4bdc97286587a438ba6bb25547e67e86114d3aba5",
+    "excluded_stage_rows.csv": "94cd309c74623acb7fec8191aeb088b374e357904f7a8c6f5a5fa18bdf7389d8",
+    "normalized_stage_dates.csv": "478408ee008055fde01bd623c6c1aecb90b9cca365df26f0ebcef6e5ff94cda4",
+    "configuration_before_fitting.json": "c44ebbb9293be0baece4f947e52a15af002e784a147d3948884a8ceb2ec2b704",
+    "stage_censoring_metrics.csv": "88501c2466150086815e97f83eb384e1773eca2e4efa1b0b82329e7122451590"
+  }
+}

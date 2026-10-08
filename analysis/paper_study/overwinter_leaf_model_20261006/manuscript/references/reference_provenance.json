@@ -1,0 +1,575 @@
+{
+  "retrieved_date": "2026-10-06",
+  "style_title": "American Psychological Association 7th edition",
+  "processor_version": "1.4.61",
+  "prior_main_records": 21,
+  "mechanistic_input_records": 9,
+  "deduplicated_overlap_count": 3,
+  "scientific_and_data_records": 27,
+  "architecture_web_records": 2,
+  "main_reference_count": 29,
+  "including_optional_supplement_count": 30,
+  "duplicate_records": [
+    {
+      "incoming_key": "SuffertSache2011",
+      "retained_key": "SuffertSache2011",
+      "DOI": "10.1111/j.1365-3059.2011.02455.x",
+      "incoming_source": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "nonidentity_metadata_differences": {
+        "issued": {
+          "retained": {
+            "date-parts": [
+              [
+                2011,
+                3,
+                24
+              ]
+            ]
+          },
+          "incoming": {
+            "date-parts": [
+              [
+                2011,
+                10
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "incoming_key": "Lovell2004",
+      "retained_key": "Lovell2004",
+      "DOI": "10.1111/j.0032-0862.2004.00983.x",
+      "incoming_source": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "nonidentity_metadata_differences": {
+        "author": {
+          "retained": [
+            {
+              "family": "Lovell",
+              "given": "D. J."
+            },
+            {
+              "family": "Hunter",
+              "given": "T."
+            },
+            {
+              "family": "Powers",
+              "given": "S. J."
+            },
+            {
+              "family": "Parker",
+              "given": "S. R."
+            },
+            {
+              "family": "van den Bosch",
+              "given": "F."
+            }
+          ],
+          "incoming": [
+            {
+              "family": "Lovell",
+              "given": "D. J."
+            },
+            {
+              "family": "Hunter",
+              "given": "T."
+            },
+            {
+              "family": "Powers",
+              "given": "S. J."
+            },
+            {
+              "family": "Parker",
+              "given": "S. R."
+            },
+            {
+              "family": "van den Bosch",
+              "given": "F."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "incoming_key": "Shaw1990",
+      "retained_key": "Shaw1990",
+      "DOI": "10.1111/j.1365-3059.1990.tb02501.x",
+      "incoming_source": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "nonidentity_metadata_differences": {}
+    }
+  ],
+  "stable_prior_keys_preserved": true,
+  "source_csl_sha256": {
+    "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json": "c08402bfc0b1ad22b5978241cb6c7d46e1f8904281a9238912eddf15d696bcd5",
+    "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json": "0413a37c6b6282509d701132d08fb23ad17d355a9551228e3402fabb9b0ed6e9",
+    "analysis/paper_study/manuscript_infection_yield_20261006/references/references_optional_supplement.csl.json": "a8896d8a76af4882edd1c9685ff9f95037f11f941918f3e22bd18bf34efe8c7c"
+  },
+  "source_provenance": {
+    "Savary2019": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1038/s41559-018-0793-y",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-01",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1038/s41559-018-0793-y",
+        "scope": "main"
+      }
+    },
+    "Chaloner2021": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1038/s41558-021-01104-8",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-02",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1038/s41558-021-01104-8",
+        "scope": "main"
+      }
+    },
+    "SuffertSache2011": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1111/j.1365-3059.2011.02455.x",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-03",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1111/j.1365-3059.2011.02455.x",
+        "scope": "main"
+      },
+      "additional_verified_source": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json"
+    },
+    "Shaw1990": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1111/j.1365-3059.1990.tb02501.x",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-04",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1111/j.1365-3059.1990.tb02501.x",
+        "scope": "main"
+      },
+      "additional_verified_source": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json"
+    },
+    "Lovell2004": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1111/j.0032-0862.2004.00983.x",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-05",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1111/j.0032-0862.2004.00983.x",
+        "scope": "main"
+      },
+      "additional_verified_source": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json"
+    },
+    "Pietravalle2003": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1094/PHYTO.2003.93.10.1329",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-06",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1094/PHYTO.2003.93.10.1329",
+        "scope": "main"
+      }
+    },
+    "Gouache2013": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1016/j.agrformet.2012.04.019",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-07",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1016/j.agrformet.2012.04.019",
+        "scope": "main"
+      }
+    },
+    "Holst2022BASF": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.5281/zenodo.6521175",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-08",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.5281/zenodo.6521175",
+        "scope": "main"
+      }
+    },
+    "HolstDonner2022Corteva": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.5281/zenodo.6352615",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-09",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.5281/zenodo.6352615",
+        "scope": "main"
+      }
+    },
+    "ERA5": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.24381/cds.adbb2d47",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-10",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.24381/cds.adbb2d47",
+        "scope": "main"
+      }
+    },
+    "OpenMeteo": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-11",
+        "original_metadata_reused": true,
+        "source_url": "https://open-meteo.com/en/docs/historical-weather-api",
+        "scope": "main"
+      }
+    },
+    "GGCMIPhase32021": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.5281/zenodo.5062513",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-12",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.5281/zenodo.5062513",
+        "scope": "main"
+      }
+    },
+    "SPAM2020": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.7910/DVN/SWPENT",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-13",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.7910/DVN/SWPENT",
+        "scope": "main"
+      }
+    },
+    "NEXGDDPCmip6V2": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-14",
+        "original_metadata_reused": true,
+        "source_url": "https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf",
+        "scope": "main"
+      }
+    },
+    "Minoli2022": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1038/s41467-022-34411-5",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-17",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1038/s41467-022-34411-5",
+        "scope": "main"
+      }
+    },
+    "Wang2017": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1038/nplants.2017.102",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "publication/european_wheat_stb/references.csl.json",
+        "source_original_id": "ref-18",
+        "original_metadata_reused": true,
+        "source_url": "https://doi.org/10.1038/nplants.2017.102",
+        "scope": "main"
+      }
+    },
+    "Parker2004": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1111/j.1365-3059.2004.00951.x",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "Parker2004_crossref.json",
+        "crossref_api_url": "https://api.crossref.org/works/10.1111/j.1365-3059.2004.00951.x",
+        "primary_publisher_url": "https://bsppjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-3059.2004.00951.x",
+        "retrieved_date": "2026-10-06",
+        "scope": "main",
+        "title_formatting": "APA sentence case; scientific binomial italics where present; factual wording unchanged."
+      }
+    },
+    "Bancal2015": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1016/j.fcr.2015.05.006",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "Bancal2015_crossref.json",
+        "crossref_api_url": "https://api.crossref.org/works/10.1016/j.fcr.2015.05.006",
+        "primary_publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378429015001628",
+        "retrieved_date": "2026-10-06",
+        "scope": "main",
+        "title_formatting": "APA sentence case; scientific binomial italics where present; factual wording unchanged.",
+        "author_correction": "Crossref-deposited family/given fields are reversed for all four authors. Corrected using primary HAL API record hal-01535231.",
+        "author_correction_source": "Bancal2015_hal.json",
+        "author_correction_api_url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-01535231&fl=authLastName_s,authFirstName_s&wt=json"
+      }
+    },
+    "Foulkes2006": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1094/phyto-96-0680",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "Foulkes2006_crossref.json",
+        "crossref_api_url": "https://api.crossref.org/works/10.1094/phyto-96-0680",
+        "primary_publisher_url": "https://apsjournals.apsnet.org/doi/10.1094/PHYTO-96-0680",
+        "retrieved_date": "2026-10-06",
+        "scope": "main",
+        "title_formatting": "APA sentence case; scientific binomial italics where present; factual wording unchanged."
+      }
+    },
+    "vanDenBerg2017": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1094/phyto-07-16-0283-r",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "vanDenBerg2017_crossref.json",
+        "crossref_api_url": "https://api.crossref.org/works/10.1094/phyto-07-16-0283-r",
+        "primary_publisher_url": "https://apsjournals.apsnet.org/doi/10.1094/PHYTO-07-16-0283-R",
+        "retrieved_date": "2026-10-06",
+        "scope": "main",
+        "title_formatting": "APA sentence case; scientific binomial italics where present; factual wording unchanged."
+      }
+    },
+    "Karisto2018": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references.csl.json",
+      "source_url": "https://doi.org/10.1094/phyto-04-17-0163-r",
+      "scope": "main",
+      "prior_verified_metadata_provenance": {
+        "metadata_source": "Karisto2018_crossref.json",
+        "crossref_api_url": "https://api.crossref.org/works/10.1094/phyto-04-17-0163-r",
+        "primary_publisher_url": "https://apsjournals.apsnet.org/doi/10.1094/PHYTO-04-17-0163-R",
+        "retrieved_date": "2026-10-06",
+        "scope": "main",
+        "title_formatting": "APA sentence case; scientific binomial italics where present; factual wording unchanged."
+      }
+    },
+    "LovellCanopy2004": {
+      "merged_from": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "source_url": "https://doi.org/10.1046/j.1365-3059.2003.00939.x",
+      "scope": "main",
+      "primary_evidence": {
+        "source_type": "Primary canopy/inoculum-proximity experiment; official publisher-deposited Crossref abstract.",
+        "verified_locations": [
+          "Crossref abstract deposited by Wiley; Plant Pathology53:11–21"
+        ],
+        "direct_findings": [
+          "Final-three-leaf infection could occur without splashy rainfall.",
+          "Proximity of new leaves to older diseased leaves and crop architecture changed upper-leaf risk."
+        ],
+        "supports": [
+          "Weather plus existing inoculum plus exposed leaf area; rain-only event gates can miss favorable wet-contact pathways.",
+          "Cultivar and stem-elongation effects on vertical source-target connectivity."
+        ],
+        "does_not_establish": [
+          "Any universal maximum transfer distance, rainfall cutoff or leaf-number-to-node mapping."
+        ],
+        "APA_note": "Same first author and year as Lovell2004; citeproc expands author groups.",
+        "DOI": "10.1046/j.1365-3059.2003.00939.x",
+        "URL": "https://doi.org/10.1046/j.1365-3059.2003.00939.x",
+        "citation_label": "(Lovell, Parker, et al., 2004)"
+      }
+    },
+    "Jamieson1995": {
+      "merged_from": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "source_url": "https://doi.org/10.1016/0378-4290(94)00102-i",
+      "scope": "main",
+      "primary_evidence": {
+        "source_type": "Primary field-crop leaf-appearance modelling article.",
+        "verified_locations": [
+          "ScienceDirect publisher abstract; Field Crops Research41:35–44"
+        ],
+        "direct_findings": [
+          "Leaf appearance was predicted using apical-meristem temperature and leaf number.",
+          "Near-surface temperature before stem extension and canopy temperature thereafter were more suitable than unqualified air-temperature thermal sums."
+        ],
+        "supports": [
+          "A leaf-appearance clock distinguished from stage-only anthesis phenology.",
+          "Temperature-based phyllochron units need a defined temperature source and local phenological observations."
+        ],
+        "does_not_establish": [
+          "A phyllochron in TPV units, whose photoperiod/vernalisation multipliers change the coordinate.",
+          "Universal total leaf count or node-stage-to-flag-rank equivalence."
+        ],
+        "DOI": "10.1016/0378-4290(94)00102-i",
+        "URL": "https://doi.org/10.1016/0378-4290(94)00102-i",
+        "citation_label": "(Jamieson et al., 1995)"
+      }
+    },
+    "Abichou2018": {
+      "merged_from": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "source_url": "https://doi.org/10.1016/j.fcr.2018.01.010",
+      "scope": "main",
+      "primary_evidence": {
+        "source_type": "Primary architecture dataset:55situations,11seasons,13commercial cultivars.",
+        "verified_locations": [
+          "ScienceDirect abstract and Introduction; Field Crops Research218:213–230"
+        ],
+        "direct_findings": [
+          "Leaf-stage progress was linear or bilinear even within a genotype.",
+          "Changes in phyllochron could coincide with flag-leaf initiation.",
+          "Final leaf number, tiller emergence and tiller cessation varied with cultivar and environment."
+        ],
+        "supports": [
+          "Variable or phased leaf-appearance descriptions and uncertainty in effective upper-leaf spacing.",
+          "Separate tip emergence, leaf unfolding and flag-relative ordinal identity."
+        ],
+        "does_not_establish": [
+          "A universal TPV-index spacing or default numerical range in that index.",
+          "A fixed whole-season leaf count from BBCH31/32."
+        ],
+        "DOI": "10.1016/j.fcr.2018.01.010",
+        "URL": "https://doi.org/10.1016/j.fcr.2018.01.010",
+        "citation_label": "(Abichou et al., 2018)"
+      }
+    },
+    "ShawRoyle1989": {
+      "merged_from": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "source_url": "https://doi.org/10.1111/j.1365-3059.1989.tb01425.x",
+      "scope": "main",
+      "primary_evidence": {
+        "source_type": "Primary three-year field comparison; original publisher abstract.",
+        "verified_locations": [
+          "Publisher abstract; Plant Pathology38:35–43"
+        ],
+        "direct_findings": [
+          "Primary infection was broadly airborne and distributed across sites; crop/seed history and soil treatment did not explain lesions as strongly as excluding airborne inoculum.",
+          "Exposure in autumn and sometimes winter/spring produced infections even away from wheat residue sources."
+        ],
+        "supports": [
+          "An external airborne background source independent of assumed local residue availability.",
+          "Separation of residue on soil surface from an autonomous soil-borne infection mechanism."
+        ],
+        "does_not_establish": [
+          "Zero local residue contribution in all climates or modern fields.",
+          "A numerical external background forcing for the present European grid."
+        ],
+        "DOI": "10.1111/j.1365-3059.1989.tb01425.x",
+        "URL": "https://doi.org/10.1111/j.1365-3059.1989.tb01425.x",
+        "citation_label": "(Shaw & Royle, 1989)"
+      }
+    },
+    "ShawRoyle1993": {
+      "merged_from": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "source_url": "https://doi.org/10.1111/j.1365-3059.1993.tb02674.x",
+      "scope": "main",
+      "primary_evidence": {
+        "source_type": "Primary observational epidemics in11winter-wheat crops over4years; cv.Longbow.",
+        "verified_locations": [
+          "Publisher abstract; Plant Pathology42:882–899"
+        ],
+        "direct_findings": [
+          "Upper two leaves suffered infection from lower crop layers near their emergence, followed by within-layer secondary cycles.",
+          "Relative timing of inoculum arrival and leaf emergence mattered more than weather infection suitability alone.",
+          "Early upper-leaf infection left more time for subsequent cycles before senescence."
+        ],
+        "supports": [
+          "Leaf-stage-aware exposure gates and explicit linkage from earlier lower-leaf infections to later upper-leaf risk.",
+          "Retained infection cohorts and phenology-specific epidemic opportunity."
+        ],
+        "does_not_establish": [
+          "A stage below which any infection is impossible.",
+          "Universal cycle counts or modern-cultivar coefficients."
+        ],
+        "DOI": "10.1111/j.1365-3059.1993.tb02674.x",
+        "URL": "https://doi.org/10.1111/j.1365-3059.1993.tb02674.x",
+        "citation_label": "(Shaw & Royle, 1993)"
+      }
+    },
+    "Baccar2011": {
+      "merged_from": "analysis/paper_study/overwinter_leaf_model_20261006/literature/references.csl.json",
+      "source_url": "https://doi.org/10.1093/aob/mcr126",
+      "scope": "main",
+      "primary_evidence": {
+        "source_type": "Primary coupled virtual-plant/epidemic model evaluated against a winter-wheat density experiment.",
+        "verified_locations": [
+          "Oxford Academic original abstract; Annals of Botany108:1179–1194"
+        ],
+        "direct_findings": [
+          "Vertical disease progression and dynamic canopy architecture were coupled.",
+          "Representing plant developmental variability improved correspondence with field epidemics relative to an identical-average-plant canopy."
+        ],
+        "supports": [
+          "Dynamic source-target leaf topology and uncertainty from among-plant stage variation."
+        ],
+        "does_not_establish": [
+          "Validation of the present two-dimensional regional reservoir coefficients or exact TPV leaf-rank thresholds."
+        ],
+        "DOI": "10.1093/aob/mcr126",
+        "URL": "https://doi.org/10.1093/aob/mcr126",
+        "citation_label": "(Baccar et al., 2011)"
+      }
+    },
+    "APSIMModelDesign": {
+      "metadata_source": "Official documentation web page read2026-10-06",
+      "source_url": "https://docs.apsim.info/docs/development/software/modeldesign",
+      "scope": "main; software architecture only",
+      "issued_date": "No page publication date verified; n.d. used. Copyright and document-generation timestamps are not treated as publication dates.",
+      "author_basis": "Visible official project/organization attribution. No named page byline was supplied.",
+      "journal_filter": "Nonjournal official technical documentation; scientific-journal eligibility restriction does not apply."
+    },
+    "PCSEReferenceGuide": {
+      "metadata_source": "Official documentation web page read2026-10-06",
+      "source_url": "https://pcse.readthedocs.io/en/stable/reference_guide.html",
+      "scope": "main; software architecture only",
+      "issued_date": "No page publication date verified; n.d. used. Copyright and document-generation timestamps are not treated as publication dates.",
+      "author_basis": "Visible official project/organization attribution. No named page byline was supplied.",
+      "journal_filter": "Nonjournal official technical documentation; scientific-journal eligibility restriction does not apply."
+    },
+    "MIRCAOS2026": {
+      "merged_from": "analysis/paper_study/manuscript_infection_yield_20261006/references/references_optional_supplement.csl.json",
+      "source_url": "https://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/",
+      "scope": "optional legacy supplementary calendar allocation only"
+    }
+  },
+  "disambiguated_citation_examples": {
+    "Lovell_pair": "(Lovell, Hunter, et al., 2004; Lovell, Parker, et al., 2004)",
+    "Holst_pair": "(Holst, 2022; Holst & Donner, 2022)",
+    "architecture_pair": "(APSIM Initiative, n.d.; Python Crop Simulation Environment, n.d.)"
+  },
+  "journal_rule": "Only previously verified eligible primary specialist/Nature-family journal records retained; official datasets and technical docs are separate nonjournal categories. MDPI/Frontiers absent.",
+  "original_archives_modified": false,
+  "Bancal_author_correction_preserved": [
+    {
+      "family": "Bancal",
+      "given": "Pierre"
+    },
+    {
+      "family": "Bancal",
+      "given": "Marie-Odile"
+    },
+    {
+      "family": "Collin",
+      "given": "François"
+    },
+    {
+      "family": "Gouache",
+      "given": "David"
+    }
+  ]
+}

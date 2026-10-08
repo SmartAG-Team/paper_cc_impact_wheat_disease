@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-06",
+  "status": "accepted; no open material scientific findings",
+  "open_material_findings": [],
+  "reviewed_publication": "publication/european_wheat_stb_oop_staging_20261006",
+  "title": "Leaf development and seasonal inoculum continuity shape conditional Septoria timing and yield exposure in winter wheat",
+  "final_manuscript_txt_sha256": "9cada533a74471da57b466cfe76f768a93be21cd166494aa8609366e8df07f6d",
+  "artifact_sha256": {
+    "Manuscript.txt": "9cada533a74471da57b466cfe76f768a93be21cd166494aa8609366e8df07f6d",
+    "Manuscript.docx": "7710e8b65a2cf10aab1b40e48da707918a9999d4093b019e95d3889303453836",
+    "Manuscript.pdf": "5a610a496408ccec8637c1179e23c4994cd78df8647a845b292a89ac335334eb",
+    "Source_Data.xlsx": "2c0471ec7e0beb1d4a45bff1deb601ef418ff5eeb3a0ff2b60616769debcf894",
+    "references.csl.json": "97c226dbe597e153314e98e4bef32c272823cc9e14397deaafe0ff7d74f45ae0",
+    "references_author_date.txt": "3f4d393b3870cede93b6edb9ee482ff6ade294cc0ba592ca4a7a842c09b88bf5",
+    "document_build_receipt.json": "9e154760fed36a906ab0b4dda4d1efc7647926bfb47e4b61a90eba54e9e39f29"
+  },
+  "build_source_identity_matches": {
+    "analysis/paper_study/overwinter_leaf_model_20261006/manuscript/build.py": true,
+    "analysis/paper_study/overwinter_leaf_model_20261006/manuscript/sections.py": true,
+    "analysis/paper_study/overwinter_leaf_model_20261006/manuscript/figures.py": true,
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/receipt.json": true,
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/receipt.json": true,
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/receipt.json": true
+  },
+  "reference_audit": {
+    "total_cited_references": 26,
+    "eligible_journal_articles": 17,
+    "official_dataset_documentation_architecture_references": 9,
+    "journal_counts": {
+      "Field Crops Research": 3,
+      "Annals of Botany": 1,
+      "Nature Climate Change": 1,
+      "Phytopathology": 3,
+      "Agricultural and Forest Meteorology": 1,
+      "Plant Pathology": 7,
+      "Nature Ecology & Evolution": 1
+    },
+    "new_excluded_journal_citations": 0,
+    "unrendered_keys": false,
+    "APA7_rendering": "existing citeproc-js APA7 pipeline",
+    "Lovell2004_disambiguation_in_TXT_DOCX_PDF": true,
+    "existing_archives_mutated_by_review": false
+  },
+  "closed_precision_findings": [
+    {
+      "id": "MS-001",
+      "status": "resolved",
+      "initial": "Preregistered grid could imply external/public study preregistration.",
+      "final": "Finite grid is fixed and archived before fitting."
+    },
+    {
+      "id": "MS-002",
+      "status": "resolved",
+      "initial": "Generic affected-fraction proxy could imply latent tissue after the API affected_fraction update.",
+      "final": "Discussion names symptomatic and retained-damage fraction, consistent with the implemented visible-compartment operator."
+    },
+    {
+      "id": "MS-003",
+      "status": "resolved by parent quantitative review",
+      "initial": "Future mean on common paired coverage needed distinction from all-valid future mean.",
+      "final": "Common-coverage future scenario0.16416; paired increment0.04710; reference0.11706."
+    }
+  ],
+  "scientific_claim_checks": [
+    {
+      "topic": "Overwinter ecology",
+      "assessment": "supported and appropriately conditional",
+      "primary_keys": [
+        "SuffertSache2011",
+        "ShawRoyle1989"
+      ],
+      "description": "Residue and living canopy are distinguished from autonomous soil stock. Local and external airborne inputs are separate; source maturity/aging parameters remain effective hypotheses."
+    },
+    {
+      "topic": "Leaf development",
+      "assessment": "supported model interpretation",
+      "primary_keys": [
+        "Jamieson1995",
+        "Abichou2018",
+        "Baccar2011"
+      ],
+      "description": "Node stages31/32 are distinct from flag37/39. Effective TPV spacing, clipped ranks and juvenile handover are declared scenarios; true final leaf counts are unobserved."
+    },
+    {
+      "topic": "Identification",
+      "assessment": "limitations fully disclosed",
+      "description": "Added stages have sparse two-sided intervals and weak identification. Disease selection has8 bracketing histories in6 original fields, a secondary scale at the grid boundary and unidentified source contributions."
+    },
+    {
+      "topic": "Field predictive performance",
+      "assessment": "benchmark disadvantage clearly disclosed",
+      "description": "Both reused validation sets have worse symptom timing and balanced detection than the independently selected phenology benchmark. Sensitivity gains coexist with reduced specificity. Early assessment zeros do not establish disease-free seasons."
+    },
+    {
+      "topic": "Yield transfer",
+      "assessment": "conditional only",
+      "primary_keys": [
+        "Parker2004",
+        "Bancal2015",
+        "Foulkes2006",
+        "vanDenBerg2017"
+      ],
+      "description": "Healthy area and matched yields are absent. Named symptomatic/retained-damage proxy excludes latent compartments by definition. Unit LAI allocation is declared; Parker TOP3 GS31-start trapezoidal relation and adapted65-to85 rectangular window are distinguished. Foulkes TOP5 slopes are not substituted; cultivar range is not CI."
+    },
+    {
+      "topic": "Climate",
+      "assessment": "model-response interpretation qualified",
+      "description": "Near-saturated occurrence under imposed inoculum is not a field probability. Common paired coverage, climate spread and spatial MCSE are separate. Host, management, functional-conversion and ecological uncertainty remain additional."
+    },
+    {
+      "topic": "Software",
+      "assessment": "supported by independent review and installed-runtime receipt",
+      "evidence": [
+        "engine_review.json",
+        "../installed_runtime_verification.json"
+      ],
+      "description": "Pure runtime/calibration boundary, numerical batch/daily identity, state ownership/rollback/checkpoint tests and model-only installed wheel are supported. APSIM/PCSE architectural similarity does not claim equal maturity or physiological scope."
+    }
+  ],
+  "figures_tables_and_source_data": {
+    "main_figures": 5,
+    "native_DOCX_tables": 3,
+    "PDF_pages": 17,
+    "figures_visually_reviewed": [
+      1,
+      4,
+      5
+    ],
+    "all_five_legends_scientifically_reviewed": true,
+    "all_three_tables_scientifically_reviewed": true,
+    "source_workbook_sheets": 17,
+    "registered_source_table_hashes_and_row_counts_all_match": true,
+    "source_table_checks_artifact": "manuscript_source_checks.json"
+  },
+  "primary_evidence_reused": [
+    "literature/overwinter_leaf_evidence.json",
+    "../infection_priority_20261006/literature/yield_loss_primary_evidence.json"
+  ],
+  "no_manuscript_or_shared_source_edits_by_reviewer": true
+}

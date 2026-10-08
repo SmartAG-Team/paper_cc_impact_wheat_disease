@@ -1,0 +1,182 @@
+{
+  "thresholds": {
+    "32": 633.39175,
+    "33": 664.4962499999999,
+    "37": 702.266,
+    "39": 807.799125
+  },
+  "minimum_loss_days": 0.12037037037037036,
+  "grid_points": 399,
+  "grid_low": 543.4108749999999,
+  "grid_high": 985.539125,
+  "exact_joint_ordering": true,
+  "diagnostics": [
+    {
+      "event": 32,
+      "selected_threshold": 633.39175,
+      "constrained_fields": 27,
+      "genuine_two_sided_fields": 1,
+      "left_bounds": 26,
+      "right_bounds": 0,
+      "joint_profile_loss_tolerance_sets": [
+        {
+          "joint_loss_tolerance_days": 0.0,
+          "threshold_low": 596.7328749999999,
+          "threshold_high": 671.1614999999999,
+          "n_grid_values": 68,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 1.0,
+          "threshold_low": 543.4108749999999,
+          "threshold_high": 772.251125,
+          "n_grid_values": 207,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 2.0,
+          "threshold_low": 543.4108749999999,
+          "threshold_high": 830.016625,
+          "n_grid_values": 259,
+          "confidence_interval": false
+        }
+      ],
+      "poorly_identified": true
+    },
+    {
+      "event": 33,
+      "selected_threshold": 664.4962499999999,
+      "constrained_fields": 27,
+      "genuine_two_sided_fields": 5,
+      "left_bounds": 22,
+      "right_bounds": 0,
+      "joint_profile_loss_tolerance_sets": [
+        {
+          "joint_loss_tolerance_days": 0.0,
+          "threshold_low": 627.837375,
+          "threshold_high": 702.266,
+          "n_grid_values": 68,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 1.0,
+          "threshold_low": 544.52175,
+          "threshold_high": 834.460125,
+          "n_grid_values": 262,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 2.0,
+          "threshold_low": 544.52175,
+          "threshold_high": 896.6691249999999,
+          "n_grid_values": 318,
+          "confidence_interval": false
+        }
+      ],
+      "poorly_identified": true
+    },
+    {
+      "event": 37,
+      "selected_threshold": 702.266,
+      "constrained_fields": 27,
+      "genuine_two_sided_fields": 6,
+      "left_bounds": 21,
+      "right_bounds": 0,
+      "joint_profile_loss_tolerance_sets": [
+        {
+          "joint_loss_tolerance_days": 0.0,
+          "threshold_low": 701.155125,
+          "threshold_high": 703.3768749999999,
+          "n_grid_values": 3,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 1.0,
+          "threshold_low": 568.961,
+          "threshold_high": 907.777875,
+          "n_grid_values": 306,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 2.0,
+          "threshold_low": 545.632625,
+          "threshold_high": 979.98475,
+          "n_grid_values": 392,
+          "confidence_interval": false
+        }
+      ],
+      "poorly_identified": true
+    },
+    {
+      "event": 39,
+      "selected_threshold": 807.799125,
+      "constrained_fields": 27,
+      "genuine_two_sided_fields": 9,
+      "left_bounds": 18,
+      "right_bounds": 0,
+      "joint_profile_loss_tolerance_sets": [
+        {
+          "joint_loss_tolerance_days": 0.0,
+          "threshold_low": 805.577375,
+          "threshold_high": 811.13175,
+          "n_grid_values": 6,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 1.0,
+          "threshold_low": 635.6134999999999,
+          "threshold_high": 985.539125,
+          "n_grid_values": 316,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 2.0,
+          "threshold_low": 585.6241249999999,
+          "threshold_high": 985.539125,
+          "n_grid_values": 361,
+          "confidence_interval": false
+        }
+      ],
+      "poorly_identified": true
+    }
+  ],
+  "q": 1.0,
+  "numeric_bbch_interpolation": false,
+  "calibration_rule": "equal fields, equal constrained events within field; open lower and closed upper dates",
+  "tie_rule": "minimum joint interval loss, then squared distance to joint-profile minimizing plateau centers",
+  "disease_labels_used": false,
+  "evaluation_stage_values_used_for_selection": false,
+  "leaf_rank_spacing_calibrated": false,
+  "true_final_leaf_number_estimated": false,
+  "all_stage_thresholds": {
+    "10": 142.01,
+    "31": 542.3,
+    "32": 633.39175,
+    "33": 664.4962499999999,
+    "37": 702.266,
+    "39": 807.799125,
+    "51": 986.65,
+    "65": 1165.925558,
+    "85": 1760.39
+  },
+  "source_sha256": {
+    "analysis/paper_study/seasonal_calibration_v1/basf_source_assessments_snapshot.csv": "5f39b98003e650e4a4e7ab509a73b34d98311fb4d2f66f8b44599e2ff164d286",
+    "analysis/paper_study/seasonal_calibration_v1/field_season_membership.csv": "ba5692f7da331680875358ae151d1973729e0b870218800de7ae8094a581dff2",
+    "data/paper_study/observations/corteva_external_assessments.csv": "36ae506c4c0be1a1f97b94ddfa7ff841308334cd693a5c2c1db2717b96e8b7cd",
+    "analysis/paper_study/corteva_external_seasonal_v1/external_input_membership.csv": "dfd972dfe2fc839f0931e13d2352587404ed15046709160f51467eb803785206",
+    "data/paper_study/observations/corteva_location_disjoint_external_units.csv": "ee8bb033fb2d52403c34e85ee74dfec643a30309189fd910d45250bd6986b249",
+    "data/paper_study/field_weather_completed/daily_weather.parquet": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+    "process_model/parameters/calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "model/seasonal_septoria/infection_priority_model.json": "67dd371567959888b3349e50bd633ff14b72006ccc41c717ebc76165ff06c795",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/original_field_input_membership.csv": "40a3e2eea7ef5c87f871f41610d98f7a80de0971a942de30a86c0430fdd70ade",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/frozen_event_predictions.csv": "0bdbd700bce99f9087a334de24fcc76309101ba40862ec11ccfcf66df1ad08d6",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/calibration_development_inputs.npz": "24ef6691bd07a9597ce83fc3d656e2520ec1efa44b77f2ff27625096fbd9169c",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/reused_development_2019_development_inputs.npz": "d9dde294e5f3b641b27d75a4e864d354a46258edb813373a2f51ecd641b7fdd1",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/reused_external_strict_development_inputs.npz": "20ca7d8c84af4d39ea9da13d432502f4b6a3e1018ebaa4add40a121ffb308ccd",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/run.py": "7b78e36d1a01e2c777b46bc0e034b7486d249b184f269d92b671bd3376fa62ed",
+    "model/seasonal_septoria/leaf_phenology.py": "236690309dd396a46ffb5d30776b592bf114bc9ed0bb406f1b5529d580620ff3",
+    "tests/test_leaf_phenology.py": "765c769a06b1d916a35a374f70fea86b75805964b810862f04776958c0795da6",
+    "analysis/paper_study/infection_priority_20261006/anthesis_clock/run.py": "582fe9976b81403f5a340a4a9f92c220a249548b714300ebcca0c59e9aa18673",
+    "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/run.py": "e00c8490adc5e129b84739942b61bc8e1e5940cec693ed326e92069234c3ec3b"
+  }
+}

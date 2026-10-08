@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "main_map_figure": "fig6_european_spatial_results",
+  "supplementary_map_figures": [
+    "figS13_spatial_symptom_changes",
+    "figS14_spatial_yield_transfers",
+    "figS15_archived_domain",
+    "figS16_archived_era5_baseline",
+    "figS17_archived_climate_maps",
+    "figS18_archived_production_exposure",
+    "figS19_full_grid_example_2001"
+  ],
+  "historical_design_regression": "Earlier proposed two-map layout consolidated into one four-panel main figure.",
+  "all_original_map_images_unchanged": true,
+  "current_sample_points": 62,
+  "completed_full_grid_example_year": 2001,
+  "current_full_period_census_complete": false
+}

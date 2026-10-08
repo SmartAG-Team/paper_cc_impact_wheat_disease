@@ -1,0 +1,19 @@
+{
+  "model/seasonal_septoria/structural.py": {
+    "CanopyParameters": "1d2b856c62b83d6e27a9a98caffc65c33852f00ffa75a899b55ef36ee29058c3",
+    "CanopyTrajectory": "c53658d4cb7ce241b6fd5cdfd63b0d850bcef148fc1bc9b450c69e1c115703e2",
+    "canopy_host": "50e0ff4b698f7de9f950e6d37c64b54406f0b0ce95a93b199f13ed7425e506b7",
+    "_canopy_integrate": "7cb2a8cebbf76cd86b7be1cec8a82b8a72419125f029cce7a1050b2a58a45fa2",
+    "simulate_canopy": "3dc492a19b0c1b9a78bddeae5f303b28ec21a08f73a539ad209569a8ffbd23c5"
+  },
+  "model/seasonal_septoria/infection_events.py": {
+    "EventParameters": "206f743b051677c5f3a0fdc98918acab751905ec3e16928af5c8588810e5221a",
+    "EventTrajectory": "74dedeb19617af9d5a729e46962590e10f499265c89dd5df304d5bd7bde7ba65",
+    "_event_dates": "1c09ccc3f4a63e9cdafc81a03d18b1af432a57f94856ad138885ade61ee4aa6f",
+    "simulate_events": "b09497945b883709fb1a77e940851a5de7fbdd2818d3119e3c221876dcdd4344"
+  },
+  "model/seasonal_septoria/climate_alignment.py": {
+    "_forcing": "c7aaa7fe3b256b3ec2f33f8d839429a240eaf5671728a70ea18019c2627a49ac",
+    "apply_monthly_alignment": "87f9367b00b21c0c881263560d1fc7bb3b05dfe9993cbbcdad94980439e43da0"
+  }
+}

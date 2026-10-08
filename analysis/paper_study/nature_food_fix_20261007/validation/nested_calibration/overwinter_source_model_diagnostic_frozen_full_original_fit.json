@@ -1,0 +1,37 @@
+{
+  "status": "fit_complete",
+  "fitted": {
+    "name": "a0.001_b10_L20_s120_i0.1",
+    "parameters": {
+      "primary_scale": 0.001,
+      "secondary_scale": 10.0,
+      "latent_reference_days": 20.0,
+      "latent_stages": 3,
+      "nonsporulating_reference_days": 3.0,
+      "infectious_reference_days": 21.0,
+      "residue_maturation_reference_days": 30.0,
+      "residue_decay_reference_days": 90.0,
+      "initial_ready_fraction": 0.5,
+      "rank_distance_scale": 2.0,
+      "rain_scale_mm": 2.0,
+      "local_airborne_fraction": 0.1,
+      "contact_fraction": 0.2
+    },
+    "rank_spacing_units": 120.0,
+    "constant_imported_pressure": 0.1,
+    "juvenile_policy": "handover_31_39",
+    "weather_preprocessing": {
+      "weather_operator": "duration_proxy",
+      "rain_rate_mm_hour": 0.45,
+      "unique_training_location_dates": 6432,
+      "eligible_positive_rain_days": 2695,
+      "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+      "meteorology_only": true
+    }
+  },
+  "stage_fit": "full_original_stage_fit.json",
+  "flowering_fit": "full_original_flowering_fit.json",
+  "untouched_validation": false,
+  "reused_validation_outcomes_scored": false,
+  "diagnostic_only": true
+}

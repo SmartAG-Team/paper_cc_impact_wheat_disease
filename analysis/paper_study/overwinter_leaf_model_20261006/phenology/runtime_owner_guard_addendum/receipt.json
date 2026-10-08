@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "reason": "OO rates now bound to one instance and invalidated by restore",
+  "old_module_sha256": "236690309dd396a46ffb5d30776b592bf114bc9ed0bb406f1b5529d580620ff3",
+  "new_module_sha256": "f99ad9055a10556e8f4f2bf7c4c073b9b397751c6b625995bfa1154cad24166b",
+  "old_stage_fit_archive_and_receipt_preserved": true,
+  "stage_thresholds_or_fitting_code_changed": false,
+  "batch_host_numerical_outputs_unchanged": true,
+  "spacing_scenarios_checked": [
+    80,
+    120,
+    160
+  ],
+  "focused_leaf_tests": 9,
+  "original_fit_receipt_sha256": "715ac4c8db2c8ee5868823ea588cb720cb2d47457c5cad3e060dc8a49269862b",
+  "output_sha256": {
+    "owner_guard.patch": "8429f2b0bb06612829745a56429b328dfb4f1a1a172bc13f7206deed252e9dc3",
+    "updated_leaf_phenology.py": "f99ad9055a10556e8f4f2bf7c4c073b9b397751c6b625995bfa1154cad24166b",
+    "updated_test_leaf_phenology.py": "cf10db103a5e5e5c8d2c0e6d961dd791047d5bb4315742e92e08028b2cf66e1c"
+  }
+}

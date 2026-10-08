@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "source": "Individual frozen seasons and original supported four-corner trajectories",
+  "GCM_domain_ratios_checked": 594,
+  "ensemble_domain_means_and_MCSE_checked": 198,
+  "sampled_cell_map_values_and_signs_checked": 1116,
+  "design_weighted_area_sign_shares_checked": 24,
+  "supported_regional_decomposition_components_checked": 99,
+  "supported_draw_year_pairs": 5731,
+  "unsampled_regions_unestimated": true,
+  "sparse_region_MCSE_withheld": true
+}

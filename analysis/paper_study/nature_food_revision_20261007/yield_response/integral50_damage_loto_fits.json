@@ -1,0 +1,152 @@
+[
+  {
+    "features": [
+      "delta_stb_percentage_days"
+    ],
+    "coefficients": [
+      0.0001276274272154381
+    ],
+    "baseline": 0.04006229585826315,
+    "training_trials": [
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_65793",
+      "nfts_68027"
+    ],
+    "training_rows": 38,
+    "training_trial_count": 4,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_percentage_days": 0
+    },
+    "negative_responses": 4,
+    "weighted_design_rank": 1,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 1,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "family": "damage",
+    "fitted_response": "log(Y_C/Y_U); equivalent residual objective to log(Y_U/Y_C)=-X*beta",
+    "held_out_trial": "nfts_57698"
+  },
+  {
+    "features": [
+      "delta_stb_percentage_days"
+    ],
+    "coefficients": [
+      8.87612732776387e-05
+    ],
+    "baseline": 0.026673057689439818,
+    "training_trials": [
+      "nfts_57698",
+      "nfts_62768",
+      "nfts_65793",
+      "nfts_68027"
+    ],
+    "training_rows": 38,
+    "training_trial_count": 4,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_percentage_days": 0
+    },
+    "negative_responses": 5,
+    "weighted_design_rank": 1,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 1,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "family": "damage",
+    "fitted_response": "log(Y_C/Y_U); equivalent residual objective to log(Y_U/Y_C)=-X*beta",
+    "held_out_trial": "nfts_62693"
+  },
+  {
+    "features": [
+      "delta_stb_percentage_days"
+    ],
+    "coefficients": [
+      0.0002673714676566701
+    ],
+    "baseline": 0.04649630558164685,
+    "training_trials": [
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_65793",
+      "nfts_68027"
+    ],
+    "training_rows": 39,
+    "training_trial_count": 4,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_percentage_days": 0
+    },
+    "negative_responses": 2,
+    "weighted_design_rank": 1,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 1,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "family": "damage",
+    "fitted_response": "log(Y_C/Y_U); equivalent residual objective to log(Y_U/Y_C)=-X*beta",
+    "held_out_trial": "nfts_62768"
+  },
+  {
+    "features": [
+      "delta_stb_percentage_days"
+    ],
+    "coefficients": [
+      9.357245849383412e-05
+    ],
+    "baseline": 0.03776232601016965,
+    "training_trials": [
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_68027"
+    ],
+    "training_rows": 38,
+    "training_trial_count": 4,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_percentage_days": 0
+    },
+    "negative_responses": 5,
+    "weighted_design_rank": 1,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 1,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "family": "damage",
+    "fitted_response": "log(Y_C/Y_U); equivalent residual objective to log(Y_U/Y_C)=-X*beta",
+    "held_out_trial": "nfts_65793"
+  },
+  {
+    "features": [
+      "delta_stb_percentage_days"
+    ],
+    "coefficients": [
+      0.0001390076905639356
+    ],
+    "baseline": 0.04337672099671671,
+    "training_trials": [
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_65793"
+    ],
+    "training_rows": 47,
+    "training_trial_count": 4,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_percentage_days": 0
+    },
+    "negative_responses": 4,
+    "weighted_design_rank": 1,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 1,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "family": "damage",
+    "fitted_response": "log(Y_C/Y_U); equivalent residual objective to log(Y_U/Y_C)=-X*beta",
+    "held_out_trial": "nfts_68027"
+  }
+]

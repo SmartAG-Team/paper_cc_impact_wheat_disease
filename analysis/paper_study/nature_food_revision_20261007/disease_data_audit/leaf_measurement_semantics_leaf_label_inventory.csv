@@ -1,0 +1,15 @@
+source,source_leaf_label,source_ordinal_leaf_number,groups,raw_source_rows,fields,same_date_stage_groups,semantic_definition,biological_leaf_reidentification_across_dates_documented,numbering_direction_explicitly_documented
+BASF,"LEAF, 1ST / FLAG LEAF",1,229,229,66,226,explicit flag-leaf name at rank1; other labels not independently defined,False,True
+BASF,"LEAF, 2ND",2,286,286,70,283,explicit flag-leaf name at rank1; other labels not independently defined,False,False
+BASF,"LEAF, 3RD",3,236,236,69,234,explicit flag-leaf name at rank1; other labels not independently defined,False,False
+BASF,"LEAF, 4TH",4,156,156,58,156,explicit flag-leaf name at rank1; other labels not independently defined,False,False
+BASF,"LEAF, 5TH",5,51,51,27,51,explicit flag-leaf name at rank1; other labels not independently defined,False,False
+BASF,"LEAF, 6ST",6,10,10,7,10,explicit flag-leaf name at rank1; other labels not independently defined,False,False
+BASF,"LEAF, 7ST",7,1,1,1,1,explicit flag-leaf name at rank1; other labels not independently defined,False,False
+Corteva,LEAF 1,1,611,2843,151,402,ordinal source label; absolute/current rank unspecified,False,False
+Corteva,LEAF 2,2,639,2948,151,402,ordinal source label; absolute/current rank unspecified,False,False
+Corteva,LEAF 3,3,530,2315,146,302,ordinal source label; absolute/current rank unspecified,False,False
+Corteva,LEAF 4,4,312,1253,124,158,ordinal source label; absolute/current rank unspecified,False,False
+Corteva,LEAF 5,5,132,515,75,56,ordinal source label; absolute/current rank unspecified,False,False
+Corteva,LEAF 6,6,30,117,26,7,ordinal source label; absolute/current rank unspecified,False,False
+Corteva,LEAF 7,7,7,28,4,3,ordinal source label; absolute/current rank unspecified,False,False

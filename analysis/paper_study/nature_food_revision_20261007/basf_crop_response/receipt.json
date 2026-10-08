@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "protocol_sha256": "072e00430ce194d210cb4e214792364a354eecfd2771868ddb229f2fa5147cd3",
+  "source_sha256": {
+    "basf_yield_linkage/source_yield_contrasts.csv": "8f31108a1212459d96cd550b12b9c00ce9d87a28069385b2ec10f6fba4a5c71c",
+    "basf_yield_linkage/paired_STB_leaf_window_integrals.csv": "50070e2b9c4bf23aaaf16a9d0c12cf089e7f002b52e5b2ae798962b6d9972015",
+    "basf_crop_response/run.py": "6c50e00f33720bd24a084a468258afc9325013e72fb96903d5cef26d447748c0"
+  },
+  "independently_reproduced_coefficients": true,
+  "all_predeclared_candidates_reported": true,
+  "assumptions": {
+    "target": "1 minus untreated/treated measured relative harvest yield",
+    "source": "BASF documented MCALCR ratios; no mass units inferred",
+    "training_years": [
+      2017,
+      2018
+    ],
+    "evaluation_years": [
+      2019
+    ],
+    "domains": {
+      "leaf1_integral": [
+        1
+      ],
+      "leaf2_integral": [
+        2
+      ],
+      "leaf3_integral": [
+        3
+      ],
+      "all_three_separate_windows": [
+        1,
+        2,
+        3
+      ]
+    },
+    "functions": [
+      "linear origin-constrained",
+      "exponential log-yield-ratio"
+    ],
+    "candidate_selection": "No evaluation-driven model or leaf selection; report all predeclared domains",
+    "missing_leaves": "Require every leaf in the declared domain; do not fill missing with zero",
+    "observation_windows": "Common measured dates within each source leaf; all-three windows can differ",
+    "predictor_units": "fraction-days of recorded severity contrast; not HAD or absolute healthy area",
+    "target_is_disease_free_yield_loss": false,
+    "existing_epidemic_data_reuse": true
+  }
+}

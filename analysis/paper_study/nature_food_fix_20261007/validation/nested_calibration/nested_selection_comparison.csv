@@ -1,0 +1,3 @@
+model,nested_selected_candidate,nested_pooled_distance_days,nested_primary_ties,nested_pooled_balanced_assessment_error,original_candidate,original_pooled_distance_days,top3_two_sided_histories,top3_two_sided_fields
+overwinter_source_model,a0.001_b10_L20_s120_i0.1,1.0,3,0.2291061189223157,a0.001_b10_L20_s120_i0.1,1.0,8,6
+phenology_only,phenology_s80_L20,0.16666666666666666,1,0.2598578273505616,phenology_s80_L20,0.16666666666666666,8,6

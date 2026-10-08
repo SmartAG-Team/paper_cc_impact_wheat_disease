@@ -1,0 +1,387 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        4
+      ]
+    ],
+    "date-time": "2025-11-04T22:46:46Z",
+    "timestamp": 1762296406527
+  },
+  "reference-count": 34,
+  "publisher": "Elsevier BV",
+  "issue": "1-3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            1997,
+            9,
+            1
+          ]
+        ],
+        "date-time": "1997-09-01T00:00:00Z",
+        "timestamp": 873072000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "European Journal of Agronomy"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1997,
+        9
+      ]
+    ]
+  },
+  "DOI": "10.1016/s1161-0301(97)00025-7",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2002,
+        7,
+        25
+      ]
+    ],
+    "date-time": "2002-07-25T17:44:34Z",
+    "timestamp": 1027619074000
+  },
+  "page": "53-62",
+  "source": "Crossref",
+  "is-referenced-by-count": 52,
+  "title": [
+    "Use of in-field measurements of green leaf area and incident radiation to estimate the effects of yellow rust epidemics on the yield of winter wheat"
+  ],
+  "prefix": "10.1016",
+  "volume": "7",
+  "author": [
+    {
+      "given": "R.J",
+      "family": "Bryson",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "N.D",
+      "family": "Paveley",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "W.S",
+      "family": "Clark",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "R",
+      "family": "Sylvester-Bradley",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "R.K",
+      "family": "Scott",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB1",
+      "unstructured": "Anonymous, 1976. Manual of plant growth stage and disease assessment keys. Ministry of Agriculture Fisheries and Food, Harpenden."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Asrar, G., Fuchs, M., Kanemasu, E.T. and Hatfield, J.I., 1984. Estimating absorbed photosynthetic radiation and leaf area index from spectral reflectance in wheat. Agron. J., 76: 300–306.",
+      "DOI": "10.2134/agronj1984.00021962007600020029x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bhan, V.M. and Pande, H.K., 1966. Measurement of leaf area of rice. Agron. J., 58: 454.",
+      "DOI": "10.2134/agronj1966.00021962005800040029x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB4",
+      "unstructured": "Bryson, R.J., Sylvester-Bradley, R., Scott, R.K. and Paveley, N.D., 1995. Reconciling the effects of yellow rust on yield of winter wheat through measurements of green leaf area and radiation interception. Aspects Appl. Biol., 42: 9–18."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Campbell, G.S., 1986. Extinction coefficients for radiation in plant canopies calculated using an ellipsoidal inclination angle distribution. Agric. For. Meteorol., 36: 317–321.",
+      "DOI": "10.1016/0168-1923(86)90010-9"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB6",
+      "unstructured": "Campbell, C.G. and Madden, L.V., 1990. Temporal analysis of epidemics I: Description and comparison of disease progress curves. In: C.G. Campbell and L.V. Madden (Editors), Introduction to Plant Disease Epidemiology. Wiley, New York."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB7",
+      "unstructured": "Evans, L.T. and Wardlaw, I.F., 1996. Wheat. Chapter 22:501–518. In: E. Zamski and A.A. Schaffer (Editors), Photoassimilate Distribution in Plants and Crops: Source:Sink Relationships. Marcel Dekker, New York, 905 pp."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB8",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Fry, W.E., 1975. Integrated effects of polygenic resistance and a protective fungicide on development of potato late blight. Phytopathology, 65: 908–911.",
+      "DOI": "10.1094/Phyto-65-908"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gale, M.D. and Youssefian, S., 1985. Dwarfing genes in wheat. In: G.E. Russell (Editor), Progress in Plant Breeding, Vol. 1. Butterworths, Oxford.",
+      "DOI": "10.1016/B978-0-407-00780-2.50005-9"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB10",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hansen, J.G., 1991. Use of multispectral radiometry in wheat yellow rust experiments. Bulletin OEPP/EPPO 21, 651–658.",
+      "DOI": "10.1111/j.1365-2338.1991.tb01299.x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "James, W.C., 1974. Assessment of plant diseases and losses. Annu. Rev. Phytopathol., 12: 27–48.",
+      "DOI": "10.1146/annurev.py.12.090174.000331"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB12",
+      "unstructured": "James, W.C. and Teng, P.S., 1979. The quantification of production constraints associated with plant diseases. Appl. Biol., 4: 201–267."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB13",
+      "unstructured": "Johnson, K.B., 1987. Defoliation, Disease, and Growth: A Reply. Phytopathology, 77: 1495–1497."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jones, D.G. and Odebunmi, K., 1971. The epidemiology of Septoria tritici and S. nodorum IV: The effect of inoculation at different growth stages and on different plant parts. Trans. Br. Mycol. Soc., 56: 281–288.",
+      "DOI": "10.1016/S0007-1536(71)80040-2"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB15",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Large, E.C., 1952. The interpretation of progress curves for potato blight and other plant diseases. Plant Pathol., 1: 109–117.",
+      "DOI": "10.1111/j.1365-3059.1952.tb00044.x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Lim, L.G. and Gaunt, R.E., 1981. Leaf area as a factor in disease assessment. J. Agric. Sci., 97: 481–483.",
+      "DOI": "10.1017/S0021859600040971"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Madden, L.V., Pennypacker, S.P., Antle and C.E., Kingsolver, C.H., 1981. A loss model for crops. Phytopathology, 17: 685–689.",
+      "DOI": "10.1111/j.1439-0434.1981.tb03340.x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Monteith, J.L., 1977. Climate and the efficiency of crop production in Britain. Philos. Trans. R. Soc. London Ser. B, 281: 277–294.",
+      "DOI": "10.1098/rstb.1977.0140"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB19",
+      "unstructured": "Monteith, J.L. and Unsworth, M.H., 1990. Principles of Environmental Physics. Edward Arnold, London."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB20",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Murray, G.M., Ellison, P.J., Watson, A. and Cullis, B.R. 1994. The relationship between wheat yield and stripe rust as affected by length of epidemic and temperature at the grain development stage of crop growth. Plant Pathol., 43: 397–405.",
+      "DOI": "10.1111/j.1365-3059.1994.tb02701.x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB21",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Owen, P.C., 1968. A measuring scale for areas of cereal leaves. Exp. Agric., 4: 275–278.",
+      "DOI": "10.1017/S0014479700009637"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Parker, S.R., Shaw, M.W. and Royle, D.J., 1995. The reliability of visual estimates of disease severity on cereal leaves. Plant Pathol., 44: 856–864.",
+      "DOI": "10.1111/j.1365-3059.1995.tb02745.x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB23",
+      "unstructured": "Ross, G.J.S., 1987. Maximum Likelihood Program. Release 3.08. Numerical Algorithms Group, Oxford."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shaner, G. and Finney, R.E., 1977. The effect of nitrogen fertilisation on the expression of slow-mildewing resistance in Knox wheat. Phytopathology, 67: 1051–1056.",
+      "DOI": "10.1094/Phyto-67-1051"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB25",
+      "unstructured": "Sylvester-Bradley, R., Stokes, D.T. and Scott, R.K., 1990. A physiological analysis of the diminishing response of winter wheat to applied nitrogen – I. Theory. Aspects Appl. Biol., 25: 277–287."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB26",
+      "unstructured": "Sylvester-Bradley, R., Goodlass, G., Paveley, N.D., Clare, R.W. and Scott, R.K., 1995. Optimising the use of fertiliser N on cereals and parallels for the development of fungicide use. In: H.G. Hewitt, D. Tyson, D.W. Hollomon, J.M. Smith, W.P. Davies and K.R. Dixon (Editors), A Vital Role for Fungicides in Cereal Production. Bios, Oxford, pp 43–56."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Teng, P.S., 1983. Estimating and interpreting disease intensity and loss in commercial fields. Phytopathology, 73: 1587–1590.",
+      "DOI": "10.1094/Phyto-73-1587"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB28",
+      "unstructured": "Teng, P.S., 1985. Construction of predictive models II. Forecasting crop losses. In: C.A. Gilligan (Editor), Mathematical Modelling of Crop Diseases, Academic Press, London, pp. 179–206."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tottman, D.R., 1987. The decimal code for the growth stages of cereals with illustrations. Ann. Appl. Biol., 110: 441–454.",
+      "DOI": "10.1111/j.1744-7348.1987.tb03275.x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB30",
+      "unstructured": "Waggoner, P.E., 1977. Simulation of modeling of plant physiological processes to predict crop yields. In: J.J. Landsberg and C.V. Cutting (Editors), Environmental Effects on Crop Physiology. Academic Press, New York, pp. 351–363."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB31",
+      "unstructured": "Waggoner, P.E. and Berger, R.D., 1987. Defoliation, disease and growth. Phytopathology, 77: 393–398."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB32",
+      "unstructured": "Webster, J.P.G., 1987. Decision theory and the economics of crop protection measures. In: K.J. Brent and R.K. Austin (Editors), Rational Pesticide Use. Proceedings of the 9th Long Ashton Symposium. Cambridge University Press, Cambridge, 348 pp."
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB33",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Welles, J.M. and Norman, J.M., 1991. Instrument for indirect measurement of canopy architecture. Agron. J., 83: 818–825.",
+      "DOI": "10.2134/agronj1991.00021962008300050009x"
+    },
+    {
+      "key": "10.1016/S1161-0301(97)00025-7_BIB34",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Whelan, H.G. and Gaunt, R.E., 1990. Yield loss:disease relationships in barley crops with different yield potentials. Proceedings of the 43rd NZ Weed and Pest Control Conference 1990, pp. 159–162.",
+      "DOI": "10.30843/nzpp.1990.43.10926"
+    }
+  ],
+  "container-title": [
+    "European Journal of Agronomy"
+  ],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S1161030197000257?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S1161030197000257?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2020,
+        1,
+        14
+      ]
+    ],
+    "date-time": "2020-01-14T17:51:58Z",
+    "timestamp": 1579024318000
+  },
+  "score": 84.014824,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1161030197000257"
+    }
+  },
+  "issued": {
+    "date-parts": [
+      [
+        1997,
+        9
+      ]
+    ]
+  },
+  "references-count": 34,
+  "journal-issue": {
+    "issue": "1-3",
+    "published-print": {
+      "date-parts": [
+        [
+          1997,
+          9
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "S1161030197000257"
+  ],
+  "URL": "https://doi.org/10.1016/s1161-0301(97)00025-7",
+  "ISSN": [
+    "1161-0301"
+  ],
+  "issn-type": [
+    {
+      "value": "1161-0301",
+      "type": "print"
+    }
+  ],
+  "published": {
+    "date-parts": [
+      [
+        1997,
+        9
+      ]
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "pilot_runs": [
+    {
+      "model": "ACCESS-CM2",
+      "year": 1991,
+      "draws": 64,
+      "simulation_seconds": 12.247834875015542,
+      "total_seconds": 12.454347457969561,
+      "complete_count": 64
+    },
+    {
+      "model": "ACCESS-CM2",
+      "year": 2071,
+      "draws": 64,
+      "simulation_seconds": 0.5836169589310884,
+      "total_seconds": 0.7106119580566883,
+      "complete_count": 64
+    },
+    {
+      "model": "MPI-ESM1-2-HR",
+      "year": 1991,
+      "draws": 64,
+      "simulation_seconds": 0.9044208750128746,
+      "total_seconds": 0.981417957926169,
+      "complete_count": 64
+    },
+    {
+      "model": "MRI-ESM2-0",
+      "year": 2071,
+      "draws": 64,
+      "simulation_seconds": 0.6071342920185998,
+      "total_seconds": 0.6985908329952508,
+      "complete_count": 64
+    }
+  ],
+  "planned_trajectory_batches": 1260,
+  "median_warm_simulation_seconds": 0.6071342920185998,
+  "estimate_serial_seconds": 895.3710671514273,
+  "source": "baseline batches; no alternative outputs used to select settings"
+}

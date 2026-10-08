@@ -1,0 +1,22 @@
+{
+  "status": "generated",
+  "title": "Climate change redistributes simulated Septoria damage in European wheat",
+  "abstract_words": 145,
+  "main_text_words_excluding_methods": 1923,
+  "main_figures": 4,
+  "main_tables": 1,
+  "display_items": 5,
+  "references": 20,
+  "supplementary_figures": 21,
+  "supplementary_tables": 24,
+  "source_workbook_sheets": 40,
+  "files": {
+    "Manuscript.docx": "41a779f31165689e0ca2c25ed4a64062b088cb7c322df321a09c4bee53fe51c1",
+    "Manuscript.pdf": "62bad0758654564628e9a4075b5082a24ce999e2d0afd586c51d83cc01b93b7a",
+    "Manuscript.txt": "3de687daedd408dc71ce639d336ffd6b0ab443962dcb4ac293770ace568689d8",
+    "Supplementary_Information.docx": "61771d318f8652ad7cb4718f460b5e6e044a287b03b5e014d8a7098b87d9a489",
+    "Supplementary_Information.pdf": "e7c47d11f0b12c92fed8cbcd706d7c9c194833e7998716c973f324c35eb05645",
+    "Source_Data.xlsx": "4722e49163e47d29502526f4b4617c178ab1511ce9a90c3a59d2e5779a8e76e9",
+    "Software_and_Evidence.zip": "cd4af87031c8c9f86b55401d55fd725ee9cfaf9438ed5c813d8bad784ea888e1"
+  }
+}

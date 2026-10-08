@@ -1,0 +1,50 @@
+{
+  "declaration_date": "2026-10-07",
+  "status": "Declared before estimator implementation and before any fitted predictions",
+  "data_source": "Verified public Nordic Field Trial System treatment means only",
+  "prediction_target": "R = 1 - untreated_grain_yield / disease_control_grain_yield",
+  "target_interpretation": "Signed relative treatment-associated grain response against the measured disease-control arm; disease-free absolute yield loss and an STB causal effect are not identified",
+  "yield_units": "Native dt/ha or hkg/ha, 100 kg/ha; t/ha = native value * 0.1. Ratios use matched grain yields with the same moisture basis",
+  "negative_observations": "Retain all signed R and all signed measured disease reductions; neither outcomes, predictors nor predictions are clipped",
+  "endpoint_cohort": {
+    "expected_rows": 52,
+    "expected_trials": 4,
+    "eligibility": "Both arms have measured final STB and measured zero yellow rust, brown rust, mildew and non-STB leaf spot at the same date and reported leaf scope; no positive co-pathogen value in either arm at any recorded date within that scope",
+    "feature": "Final STB percent coverage untreated minus disease-control, percentage points",
+    "scope": "Registry scope 0, leaf rank unspecified; no conversion to top-three leaf area"
+  },
+  "integral_cohort": {
+    "expected_rows": 38,
+    "expected_trials": 4,
+    "eligibility": "Endpoint cohort with at least two dates having numerical STB severity in both arms at the same reported leaf scope",
+    "feature": "Trapezoidal integral of untreated minus disease-control severity on their common dates only, percentage-days",
+    "window": "First to last common observed date; actual day spacing; no extrapolation or unmatched knots; windows retained individually",
+    "interpretation": "Paired common-date severity integral; healthy-area duration is not measured"
+  },
+  "four_disease_cohort": {
+    "eligibility": "Both arms have numerical STB, yellow rust, brown rust and mildew percent coverage on the final untreated STB date and the same reported leaf scope; missing is never zero; no yield-response selection",
+    "expected_rows_after_file_verification": 131,
+    "expected_trials_after_file_verification": 8,
+    "features": ["delta_stb_pp", "delta_yellow_rust_pp", "delta_brown_rust_pp", "delta_mildew_pp"],
+    "non_STB_leaf_spot": "Retain measured values as co-occurrence provenance; not a fifth predictor",
+    "scope": "All eligible source columns use unspecified leaf rank, percent coverage"
+  },
+  "estimators": {
+    "single_feature": "Origin-constrained weighted least squares with beta >= 0; beta = max(0, sum(w*x*R)/sum(w*x*x)), zero beta and a null-predictor flag if denominator is zero",
+    "four_disease": "Origin-constrained nonnegative weighted least squares; signed covariate matrix; identically zero columns receive beta=0 and explicit null flags",
+    "intercept": false,
+    "ridge_penalty": 0,
+    "model_selection": "No model or hyperparameter selection; no ridge penalty is evaluated",
+    "baseline": "Calibration-only mean R, each training trial contributing equal total weight"
+  },
+  "evaluation": {
+    "primary": "Leave one entire trial out. All cultivars and treatment arms from that trial, including arms sharing an untreated control, remain in the same fold",
+    "fit_weight": "Within each training set, each row receives 1 / number_of_rows_in_its_trial; each trial total equals one",
+    "evaluation_weight": "Each withheld trial contributes equal total weight; pooled mean loss is the arithmetic mean of trial mean losses",
+    "metrics": ["RMSE", "MAE", "bias (prediction minus observed)", "MSE skill = 1 - model_MSE / calibration_mean_baseline_MSE"],
+    "temporal_challenge": "Fit only 2020-2021 Informer trials 62693, 62768, 65793; test 2022 Pondus trial 68027, separately for the endpoint and integral domains",
+    "uncertainty": "No confidence intervals reconstructed from separate treatment-mean bounds; no independent-plot claim"
+  },
+  "audit_outputs": ["Input source hashes", "Exact cohort rows and exclusions", "Common-date integration knots", "Fold memberships and weights", "Training fits and null predictors", "Every held-out prediction and baseline", "Separately reconstructed arithmetic metrics", "Red and green behavioral tests"],
+  "transfer_limitations": "Only four environments identify the strict-domain validation. Treatment-associated response with residual disease requires paired treated/untreated disease input. Different observed windows, unknown leaf ranks, genotype/year shifts and broad epidemic-to-climate transfer are not independently validated. Absolute grain loss is not promoted."
+}

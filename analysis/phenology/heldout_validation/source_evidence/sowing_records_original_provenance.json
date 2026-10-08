@@ -1,0 +1,8 @@
+{
+  "source": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dataset/data_cleaned.csv",
+  "source_event": "CODE == 0 sowing observation",
+  "availability_contract": "User confirmed sowing date is known when sowing occurs",
+  "records": 35977,
+  "stations": 2632,
+  "output_sha256": "3c189bc7d6d0ba46f00e1a2b83c3c4f9a81f0ad72b6406ae15f140739a4007ca"
+}

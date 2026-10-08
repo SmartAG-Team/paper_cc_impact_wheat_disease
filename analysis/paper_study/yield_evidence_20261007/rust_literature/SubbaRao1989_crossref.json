@@ -1,0 +1,129 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2022,
+        11,
+        9
+      ]
+    ],
+    "date-time": "2022-11-09T05:26:38Z",
+    "timestamp": 1667971598923
+  },
+  "reference-count": 0,
+  "publisher": "Scientific Societies",
+  "issue": "11",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Phytopathology"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1989
+      ]
+    ]
+  },
+  "DOI": "10.1094/phyto-79-1233",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        9,
+        26
+      ]
+    ],
+    "date-time": "2007-09-26T00:40:47Z",
+    "timestamp": 1190767247000
+  },
+  "page": "1233",
+  "source": "Crossref",
+  "is-referenced-by-count": 3,
+  "title": [
+    "A Multiple Regression Model to Estimate the Contributions of Leaves and the Effects of Leaf Rust on Yield of Winter Wheat"
+  ],
+  "prefix": "10.1094",
+  "volume": "79",
+  "author": [
+    {
+      "given": "K. V.",
+      "family": "Subba Rao",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "1665",
+  "container-title": [
+    "Phytopathology"
+  ],
+  "link": [
+    {
+      "URL": "http://www.apsnet.org/publications/phytopathology/backissues/Documents/1989Abstracts/Phyto79_1233.htm",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        11,
+        8
+      ]
+    ],
+    "date-time": "2022-11-08T20:14:07Z",
+    "timestamp": 1667938447000
+  },
+  "score": 77.38884,
+  "resource": {
+    "primary": {
+      "URL": "http://www.apsnet.org/publications/phytopathology/backissues/Documents/1989Abstracts/Phyto79_1233.htm"
+    }
+  },
+  "issued": {
+    "date-parts": [
+      [
+        1989
+      ]
+    ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+    "issue": "11",
+    "published-print": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1094/phyto-79-1233",
+  "ISSN": [
+    "0031-949X"
+  ],
+  "issn-type": [
+    {
+      "value": "0031-949X",
+      "type": "print"
+    }
+  ],
+  "published": {
+    "date-parts": [
+      [
+        1989
+      ]
+    ]
+  }
+}

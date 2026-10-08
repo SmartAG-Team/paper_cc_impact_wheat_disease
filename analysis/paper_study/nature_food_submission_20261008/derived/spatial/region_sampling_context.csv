@@ -1,0 +1,12 @@
+environment_region,eligible_wheat_cells,reference_harvested_area_ha,reference_area_share_percent,sample_draws,unique_sampled_cells,sample_design_area_share_percent,display_group
+Europe,14932,54401151.57442145,100.0,64,62,99.99999999999976,All-domain or sparse/unrepresented
+Alpine,828,995879.268107994,1.8306216675314655,0,0,0.0,All-domain or sparse/unrepresented
+Atlantic,1455,5962528.478931824,10.960298277463872,9,8,10.44148612361302,Main regional comparison
+Black Sea,24,118715.90368723862,0.2182231446421383,0,0,0.0,All-domain or sparse/unrepresented
+Boreal,2914,3317002.818681987,6.097302580340208,14,13,6.250718727600922,Main regional comparison
+Continental,5057,23097113.57883981,42.4570306149543,18,18,44.66199491949992,Main regional comparison
+Mediterranean,1535,3663288.9430908523,6.733844481360707,9,9,6.89175129434331,Main regional comparison
+Outside EEA regions,76,84571.30658250517,0.155458669779831,0,0,0.0,All-domain or sparse/unrepresented
+Pannonian,285,1765576.9011852592,3.245477071877657,1,1,3.30229379164085,All-domain or sparse/unrepresented
+Steppic,2105,14930604.917226624,27.445383939715637,12,12,28.447131114360552,Main regional comparison
+Unassigned,653,465869.45808736584,0.8563595523342014,1,1,0.004624028941183567,All-domain or sparse/unrepresented

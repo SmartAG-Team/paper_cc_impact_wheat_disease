@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "source_sha256": "be824a8d5817d9b96a3f5ea8245282972d1fb5f8c547eef866c62da70c123ad9",
+  "numbered_display_equations": 29,
+  "native_word_math_objects": 155,
+  "inline_math_objects": 126,
+  "pdf_pages": 7,
+  "raw_latex_commands_in_visible_docx": false,
+  "raw_latex_commands_in_pdf_text": false,
+  "missing_equation_numbers": [],
+  "content_bounds_violations": [],
+  "superscript_units": "Native Word superscript runs and PDF superscript text; unsupported U+207B glyph avoided.",
+  "word_equations": "Native Office Math (OMML), editable in Microsoft Word.",
+  "pdf_equations": "MathJax SVG rasterized at 576 dpi; shared mathematical source with native Word export.",
+  "minimum_display_equation_font_pt": 11.5,
+  "output_sha256": {
+    "Supplementary_Model_Specification.docx": "f80b87a3cdc85bb9a98a2f2ba2cd7a1ca503f87732175a916d9bd93a3e708169",
+    "Supplementary_Model_Specification.pdf": "f92f2daa11a491d0fc4a03b61d93b5a2f2a5e7249c6a670804e22091e138265d"
+  },
+  "conversion_dependencies": {
+    "mathjax-full": "3.2.2",
+    "mathml2omml": "0.0.2",
+    "resvg-py": "0.5.0"
+  },
+  "conversion_script_sha256": "2fc865faf03f4942e29a9c53484a3b9742967a49772da4cb5ca84e3b6e84c59c",
+  "math_renderer_sha256": "e73eae716e22577983b660f5e03df28628cde6fcfcaaeceb61c325a175349915",
+  "limitation": "DOCX native mathematics has structural checks; Microsoft Word layout was not rendered in this environment."
+}

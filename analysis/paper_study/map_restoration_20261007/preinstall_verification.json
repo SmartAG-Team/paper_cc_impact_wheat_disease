@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "scope": "Restored spatial evidence, all prior validation, and completed crop-response diagnostics",
+  "main_figures": 6,
+  "main_tables": 0,
+  "main_body_words": 2952,
+  "abstract_words": 135,
+  "reference_count": 27,
+  "supplementary_figures": 19,
+  "supplementary_tables": 33,
+  "source_workbook_sheets": 56,
+  "prior_data_sheets_retained": 42,
+  "pdf_pages": {
+    "Manuscript": 18,
+    "Supplementary_Information": 39
+  },
+  "numerical_sample_map_records": 8640,
+  "unique_spatial_map_records": 2790,
+  "archived_map_figures_retained": 4,
+  "all_map_image_hashes_verified": true,
+  "current_full_grid_example": {
+    "year": 2001,
+    "registered": 14941,
+    "complete": 14772
+  },
+  "original_model_calibration_and_frozen_evidence_unchanged": true,
+  "original_publication_archive_unchanged": true,
+  "all_prior_validation_retained": true,
+  "all_original_main_tables_retained_in_supplement": true,
+  "new_yield_analysis_targeted_tests": 13,
+  "original_repository_tests": 305,
+  "original_repository_test_run_repeated": false,
+  "predictive_chain_validated": false,
+  "actual_grain_loss_estimates_identified": false,
+  "map_presence": {
+    "status": "passed",
+    "main_map_figure": "fig6_european_spatial_results",
+    "supplementary_map_figures": [
+      "figS13_spatial_symptom_changes",
+      "figS14_spatial_yield_transfers",
+      "figS15_archived_domain",
+      "figS16_archived_era5_baseline",
+      "figS17_archived_climate_maps",
+      "figS18_archived_production_exposure",
+      "figS19_full_grid_example_2001"
+    ],
+    "historical_design_regression": "Earlier proposed two-map layout consolidated into one four-panel main figure.",
+    "all_original_map_images_unchanged": true,
+    "current_sample_points": 62,
+    "completed_full_grid_example_year": 2001,
+    "current_full_period_census_complete": false
+  }
+}

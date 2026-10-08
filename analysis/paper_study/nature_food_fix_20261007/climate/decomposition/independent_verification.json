@@ -1,0 +1,17 @@
+{
+  "status": "verified",
+  "verified_utc": "2026-10-07T14:24:47.684844+00:00",
+  "independent_GCM_component_checks": 198,
+  "diagonal_numerical_values_identical": 126510,
+  "maximum_mean_or_coverage_error": 3.552713678800501e-15,
+  "maximum_spatial_mcse_error": 1.1102230246251565e-16,
+  "maximum_alternate_formula_additivity_error": 1.4210854715202004e-14,
+  "paired_receipts_checked": 90,
+  "hybrid_active_disease_weather_days": 3158738,
+  "hybrid_disease_weather_meanT_above40_days": 42,
+  "unavailable_active_source_weather_days": 0,
+  "order_invariant_weather_host_attribution": true,
+  "source_and_output_sha256_verified": true,
+  "code_sha256": "84b2fe6af56f0beea57992b31e3484c7cb4c55ae76f17828db1cb9f80839ca0b",
+  "registration_sha256": "506f6b86a1ece65bf5aa14bc191e58d9cda068dce019f4932f601e37a9e5a267"
+}

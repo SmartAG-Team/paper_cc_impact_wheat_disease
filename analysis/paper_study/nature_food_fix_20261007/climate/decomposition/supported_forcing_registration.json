@@ -1,0 +1,29 @@
+{
+  "registered_utc": "2026-10-07T14:38:51.254846+00:00",
+  "metric": "GS65_85_lost_had3",
+  "components": [
+    "weather_shapley",
+    "host_shapley",
+    "total_change",
+    "interaction"
+  ],
+  "exclusion": "Any original draw/GCM/relative-year pair with mean disease-weather temperature strictly above40C on any active day of either hybrid corner.",
+  "population": "Supported-forcing common: original finite-four-corner HAD population intersected with no above40C active hybrid forcing day.",
+  "forcing": "Exact existing crop-day alignment, existing verified baseline crop masks and cached source forcing; no interpolation/clipping.",
+  "kinetic_outputs": "Reaggregate original four-corner outputs unchanged; no disease or host kinetics rerun.",
+  "mcse": "Original stratified ratio residuals and shared-draw GCM covariance retained.",
+  "source_sha256": {
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/supported_forcing_sensitivity.py": "d24ff0935e064394f40487298a8cd2f522a378338f789aa141bfa7d2bf139d9c",
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/run.py": "d1f360b814787ea2db2138db30eadc71f08b69756136d5c382c8290f6e917a9f",
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/registration_before_decomposition_results.json": "506f6b86a1ece65bf5aa14bc191e58d9cda068dce019f4932f601e37a9e5a267",
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/independent_verification.json": "34531f1d2636486bbf3846b3e3111ad89206b8845e7c68adb113245f91c6493c",
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/four_corner_draw_year_outputs.parquet": "22884025a30400c2070308b443028c7aea2b4e733faf358d525eff4d7a581876",
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/ensemble_decomposition.csv": "db6b393b9224be92a8d6594b1018e5416482d51214763ea2ec48663450544165",
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/decomposition_by_gcm.csv": "8c0b67b81a3bb9d37076baebb6a3e6287bbba13fe47a5ace3b8b88e8859fda0d",
+    "data/paper_study/regional_parameter_uncertainty/spatial_draws.csv": "85ef36385df2bd52b3e161b432d52ce360698227fa7db049c806f6872d3f21f6",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/weather_cache_receipt.json": "28880a15ccc143da1b92b44b30d1382c862b8cdb607b7a2a09c656bf33c1cb31",
+    "analysis/paper_study/regional_v1/bias_alignment/ACCESS-CM2/ssp585/coefficients.parquet": "ba1699f4a28d8a02e11fb27f0d32454ab57059164de5b1b46a0a49635ea67bea",
+    "analysis/paper_study/regional_v1/bias_alignment/MPI-ESM1-2-HR/ssp585/coefficients.parquet": "5e4ba148aa0307592131fd16a8130f81bffa18c430dd693d7aa380029fd6663a",
+    "analysis/paper_study/regional_v1/bias_alignment/MRI-ESM2-0/ssp585/coefficients.parquet": "85b2927b3066ded6ef13a2888e9144e9ed712363d3bbbbece8ccab258b50f1fc"
+  }
+}

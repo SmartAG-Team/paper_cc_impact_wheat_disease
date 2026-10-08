@@ -1,0 +1,32 @@
+{
+  "model": "MRI-ESM2-0",
+  "reference_year": 1995,
+  "rows": 256,
+  "seconds": 2.6573045420227572,
+  "checks": {
+    "Wfuture_Hreference": {
+      "active_target_days": 19020,
+      "unavailable_active_weather_days": 0,
+      "alignment": "elapsed calendar days from actual sowing; each active source day consumed once",
+      "source_date_origin": "2074-01-01",
+      "target_date_origin": "1994-01-01",
+      "source_forcing_days": 730,
+      "target_forcing_days": 730,
+      "mass_error": 4.440892098500626e-16,
+      "disease_weather_meanT_above40_active_days": 0
+    },
+    "Wreference_Hfuture": {
+      "active_target_days": 17316,
+      "unavailable_active_weather_days": 0,
+      "alignment": "elapsed calendar days from actual sowing; each active source day consumed once",
+      "source_date_origin": "1994-01-01",
+      "target_date_origin": "2074-01-01",
+      "source_forcing_days": 730,
+      "target_forcing_days": 730,
+      "mass_error": 4.440892098500626e-16,
+      "disease_weather_meanT_above40_active_days": 0
+    }
+  },
+  "output_sha256": "07a8a0b48da642163c134cbb58821a80522dd0d7f9f58f0921f999b52b445d36",
+  "registration_sha256": "506f6b86a1ece65bf5aa14bc191e58d9cda068dce019f4932f601e37a9e5a267"
+}

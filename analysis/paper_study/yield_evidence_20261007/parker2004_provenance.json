@@ -1,0 +1,21 @@
+{
+  "status": "extracted",
+  "source_url": "https://bsppjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-3059.2004.00951.x",
+  "source_doi": "10.1111/j.1365-3059.2004.00951.x",
+  "table4": {
+    "cultivars": 25,
+    "site_years": 6,
+    "reported_contrasts": 117,
+    "negative_contrasts_retained": 5,
+    "missing_not_imputed": true
+  },
+  "table5": {
+    "cultivars": 25,
+    "published_random_and_fixed_slopes": true,
+    "prediction_error_variance_is_for_BLUP_not_total_population_slope": true
+  },
+  "primary_source_units_verified": true,
+  "source_window": "GS31 onward, trapezoidal observed assessments; exact terminal assessment unavailable",
+  "interpretation": "Published treatment contrast and fitted-response evidence; not current-model field-yield validation",
+  "fitted_correlations_are_not_heldout_scores": true
+}

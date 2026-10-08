@@ -1,0 +1,28 @@
+{
+  "seed": 20261005,
+  "sampling": "four independent area-proportional draws with replacement per nonempty geographical stratum",
+  "latitude_breaks": [
+    34,
+    43,
+    51,
+    59,
+    68
+  ],
+  "longitude_breaks": [
+    -10,
+    8,
+    25,
+    42,
+    60
+  ],
+  "draws": 64,
+  "unique_cells": 62,
+  "strata": 16,
+  "eligible_harvested_ha": 54401151.57442145,
+  "source_area_sha256": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+  "calendar_sha256": "0a876eb6725dc141877a3d23f98e040fa8c6afb1046065bec624aff08207283b",
+  "genetic_wheat_type_known": false,
+  "spatial_sampling_error_requires_separate_reporting": true,
+  "full_region_point_maps_from_sample": false,
+  "draw_sha256": "85ef36385df2bd52b3e161b432d52ce360698227fa7db049c806f6872d3f21f6"
+}

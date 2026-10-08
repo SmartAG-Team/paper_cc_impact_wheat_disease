@@ -1,0 +1,324 @@
+[
+  {
+    "features": [
+      "delta_stb_pp",
+      "delta_yellow_rust_pp",
+      "delta_brown_rust_pp",
+      "delta_mildew_pp"
+    ],
+    "coefficients": [
+      0.003273708146853292,
+      0.002387846404191179,
+      0.0018091755184083708,
+      0.007421344974676999
+    ],
+    "baseline": 0.04607529800633761,
+    "training_trials": [
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_65793",
+      "nfts_67111",
+      "nfts_68027",
+      "nfts_71966"
+    ],
+    "training_rows": 122,
+    "training_trial_count": 7,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_pp": 6,
+      "delta_yellow_rust_pp": 1,
+      "delta_brown_rust_pp": 0,
+      "delta_mildew_pp": 1
+    },
+    "negative_responses": 11,
+    "weighted_design_rank": 4,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 4,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "held_out_trial": "nfts_54942"
+  },
+  {
+    "features": [
+      "delta_stb_pp",
+      "delta_yellow_rust_pp",
+      "delta_brown_rust_pp",
+      "delta_mildew_pp"
+    ],
+    "coefficients": [
+      0.005410220519659871,
+      0.010323463788901331,
+      0.0,
+      0.007551341929075103
+    ],
+    "baseline": 0.06795768356295798,
+    "training_trials": [
+      "nfts_54942",
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_65793",
+      "nfts_67111",
+      "nfts_68027",
+      "nfts_71966"
+    ],
+    "training_rows": 116,
+    "training_trial_count": 7,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_pp": 6,
+      "delta_yellow_rust_pp": 1,
+      "delta_brown_rust_pp": 0,
+      "delta_mildew_pp": 1
+    },
+    "negative_responses": 9,
+    "weighted_design_rank": 4,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 4,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "held_out_trial": "nfts_57698"
+  },
+  {
+    "features": [
+      "delta_stb_pp",
+      "delta_yellow_rust_pp",
+      "delta_brown_rust_pp",
+      "delta_mildew_pp"
+    ],
+    "coefficients": [
+      0.0051532032543071355,
+      0.009368828231876876,
+      0.0,
+      0.007652707397902662
+    ],
+    "baseline": 0.06041972861873211,
+    "training_trials": [
+      "nfts_54942",
+      "nfts_57698",
+      "nfts_62768",
+      "nfts_65793",
+      "nfts_67111",
+      "nfts_68027",
+      "nfts_71966"
+    ],
+    "training_rows": 116,
+    "training_trial_count": 7,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_pp": 6,
+      "delta_yellow_rust_pp": 1,
+      "delta_brown_rust_pp": 0,
+      "delta_mildew_pp": 1
+    },
+    "negative_responses": 11,
+    "weighted_design_rank": 4,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 4,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "held_out_trial": "nfts_62693"
+  },
+  {
+    "features": [
+      "delta_stb_pp",
+      "delta_yellow_rust_pp",
+      "delta_brown_rust_pp",
+      "delta_mildew_pp"
+    ],
+    "coefficients": [
+      0.0054869601082727145,
+      0.010608496546606156,
+      0.0,
+      0.007521076474469554
+    ],
+    "baseline": 0.071251518713185,
+    "training_trials": [
+      "nfts_54942",
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_65793",
+      "nfts_67111",
+      "nfts_68027",
+      "nfts_71966"
+    ],
+    "training_rows": 117,
+    "training_trial_count": 7,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_pp": 6,
+      "delta_yellow_rust_pp": 1,
+      "delta_brown_rust_pp": 0,
+      "delta_mildew_pp": 1
+    },
+    "negative_responses": 7,
+    "weighted_design_rank": 4,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 4,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "held_out_trial": "nfts_62768"
+  },
+  {
+    "features": [
+      "delta_stb_pp",
+      "delta_yellow_rust_pp",
+      "delta_brown_rust_pp",
+      "delta_mildew_pp"
+    ],
+    "coefficients": [
+      0.005373126450036586,
+      0.010185685816014829,
+      0.0,
+      0.007565971521188021
+    ],
+    "baseline": 0.06561397771612174,
+    "training_trials": [
+      "nfts_54942",
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_67111",
+      "nfts_68027",
+      "nfts_71966"
+    ],
+    "training_rows": 116,
+    "training_trial_count": 7,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_pp": 6,
+      "delta_yellow_rust_pp": 1,
+      "delta_brown_rust_pp": 0,
+      "delta_mildew_pp": 1
+    },
+    "negative_responses": 11,
+    "weighted_design_rank": 4,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 4,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "held_out_trial": "nfts_65793"
+  },
+  {
+    "features": [
+      "delta_stb_pp",
+      "delta_yellow_rust_pp",
+      "delta_brown_rust_pp",
+      "delta_mildew_pp"
+    ],
+    "coefficients": [
+      0.005124475547012489,
+      0.0,
+      0.0,
+      1.0989575880185285
+    ],
+    "baseline": 0.061469385357734226,
+    "training_trials": [
+      "nfts_54942",
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_65793",
+      "nfts_68027",
+      "nfts_71966"
+    ],
+    "training_rows": 90,
+    "training_trial_count": 7,
+    "null_predictors": [
+      "delta_yellow_rust_pp"
+    ],
+    "negative_feature_values": {
+      "delta_stb_pp": 0,
+      "delta_yellow_rust_pp": 0,
+      "delta_brown_rust_pp": 0,
+      "delta_mildew_pp": 0
+    },
+    "negative_responses": 10,
+    "weighted_design_rank": 3,
+    "rank_deficient": true,
+    "nonzero_predictor_count": 3,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "held_out_trial": "nfts_67111"
+  },
+  {
+    "features": [
+      "delta_stb_pp",
+      "delta_yellow_rust_pp",
+      "delta_brown_rust_pp",
+      "delta_mildew_pp"
+    ],
+    "coefficients": [
+      0.00550066908718233,
+      0.01065941561112762,
+      0.0,
+      0.007515669767365999
+    ],
+    "baseline": 0.0706165802992062,
+    "training_trials": [
+      "nfts_54942",
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_65793",
+      "nfts_67111",
+      "nfts_71966"
+    ],
+    "training_rows": 118,
+    "training_trial_count": 7,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_pp": 6,
+      "delta_yellow_rust_pp": 1,
+      "delta_brown_rust_pp": 0,
+      "delta_mildew_pp": 1
+    },
+    "negative_responses": 7,
+    "weighted_design_rank": 4,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 4,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "held_out_trial": "nfts_68027"
+  },
+  {
+    "features": [
+      "delta_stb_pp",
+      "delta_yellow_rust_pp",
+      "delta_brown_rust_pp",
+      "delta_mildew_pp"
+    ],
+    "coefficients": [
+      0.005651691142963145,
+      0.011220354675456337,
+      0.0,
+      0.007456107926388067
+    ],
+    "baseline": 0.06497394237669833,
+    "training_trials": [
+      "nfts_54942",
+      "nfts_57698",
+      "nfts_62693",
+      "nfts_62768",
+      "nfts_65793",
+      "nfts_67111",
+      "nfts_68027"
+    ],
+    "training_rows": 122,
+    "training_trial_count": 7,
+    "null_predictors": [],
+    "negative_feature_values": {
+      "delta_stb_pp": 6,
+      "delta_yellow_rust_pp": 1,
+      "delta_brown_rust_pp": 0,
+      "delta_mildew_pp": 1
+    },
+    "negative_responses": 11,
+    "weighted_design_rank": 4,
+    "rank_deficient": false,
+    "nonzero_predictor_count": 4,
+    "origin_constrained": true,
+    "ridge_penalty": 0,
+    "held_out_trial": "nfts_71966"
+  }
+]

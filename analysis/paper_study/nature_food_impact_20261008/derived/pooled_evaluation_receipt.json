@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "model_refitted": false,
+  "source_identifiers_retained": true,
+  "calibration_excluded_from_evaluation": true,
+  "weighting": "Equal coordinate-year, field, source leaf and assessment within its parent",
+  "pooling_scope": "Fixed retrospective evaluation predictions; source percentage scoring conventions retained",
+  "source_sha256": {
+    "analysis/paper_study/nature_food_fix_20261007/validation/paired_onset_membership.csv": "70ea9e35345f9d9434eda1a969788cbd7e9533831ff6b3f68eb473b10c6728f8",
+    "analysis/paper_study/nature_food_fix_20261007/validation/source_stage_and_prediction_membership.csv": "5bfdd66859f21751e666633d21275feff830f4c7a42c2deadfb7bb3268f01a27",
+    "analysis/paper_study/full_validation_20261007/field_stage_scores_all.csv": "e54dc4c25262ab4129da44e3f934d466710919480f6230886922a225bb26241c"
+  }
+}

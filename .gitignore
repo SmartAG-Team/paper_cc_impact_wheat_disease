@@ -1,0 +1,62 @@
+# Local environments, caches and credentials
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+*.egg-info/
+/build/
+/dist/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+client_secret*.json
+node_modules/
+
+# Raw inputs remain local; selected archived inputs are explicitly tracked.
+/data/
+
+# Only the current submission is retained as publication output.
+/publication/*
+!/publication/european_wheat_stb/
+
+# Analysis outputs are tracked selectively; source files remain discoverable.
+/analysis/**
+!/analysis/**/
+!/analysis/**/*.py
+!/analysis/**/*.js
+!/analysis/**/*.cjs
+!/analysis/**/*.sh
+!/analysis/**/*.R
+!/analysis/**/*.md
+!/analysis/**/*.csl
+!/analysis/**/*.bib
+!/analysis/**/README*
+!/analysis/**/requirements*.txt
+!/analysis/**/package.json
+!/analysis/**/package-lock.json
+
+# Local copies, previous submissions and visual inspection exports
+**/before*/
+**/pre_review/
+**/backups/
+**/clean_reproduction/
+**/midcentury_evidence/
+**/reviewed_publication/
+**/final_publication/
+**/checked_publication/
+**/visual_review*/
+**/publication_build_before*/
+/analysis/septoria-report/
+**/annual_outputs/
+*.log
+*.tmp
+
+# These exclusions take precedence over analysis source-file exceptions.
+**/node_modules/
+**/__pycache__/

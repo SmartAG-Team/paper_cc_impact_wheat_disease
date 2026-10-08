@@ -1,0 +1,75 @@
+{
+  "numerical_characterization": {
+    "canopy_state": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "canopy_external": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "canopy_expansion": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "event_infection": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "event_symptom": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "primary_state": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "climate_tmean_c": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "climate_tmax_c": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "climate_rh_mean_pct": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "climate_precipitation_mm": {
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "runtime_definition_AST_unchanged": {
+    "model/seasonal_septoria/structural.py": true,
+    "model/seasonal_septoria/infection_events.py": true,
+    "model/seasonal_septoria/climate_alignment.py": true
+  },
+  "remaining_model_AST_findings": [],
+  "new_configuration_hashes": {
+    "configurations/wheat_stb/legacy/infection_priority_model.json": "67dd371567959888b3349e50bd633ff14b72006ccc41c717ebc76165ff06c795",
+    "configurations/wheat_stb/legacy/publication_model.json": "41d657b61e8ccb17b85f27185c94ab923943137ab8044dc28993fa548010d333"
+  },
+  "regression_tests": {
+    "focused_regression": {
+      "passed": 105,
+      "elapsed_seconds": 11.61
+    },
+    "full_regression": {
+      "passed": 280,
+      "warnings": 7,
+      "elapsed_seconds": 83.45,
+      "command": "PYTHONDONTWRITEBYTECODE=1 NUMBA_CACHE_DIR=<addendum>/numba_cache .venv/bin/python -m pytest -q -p no:cacheprovider",
+      "warning": "Existing NumPy generic timedelta deprecation in process_model/sowing.py:30"
+    },
+    "runtime_characterization_arrays_equal": 10,
+    "runtime_definition_AST_unchanged": true,
+    "forbidden_model_dependencies": 0
+  },
+  "frozen_archive_identity_audit": {
+    "all_verified": true,
+    "checked_entries": 84,
+    "artifact": "frozen_archive_identity_audit.json"
+  }
+}

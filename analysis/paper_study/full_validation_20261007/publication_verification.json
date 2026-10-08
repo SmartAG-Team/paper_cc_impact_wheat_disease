@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "scope": "all prior validation datasets and stages, Figure 1 workflow, Figure 2 and citations",
+  "german_event_metrics_independently_recomputed": 270,
+  "german_main_figure_records": 79011,
+  "field_scores_independently_reconciled": 4440,
+  "field_stage_registry": [
+    10,
+    31,
+    32,
+    33,
+    37,
+    39,
+    51,
+    65,
+    85
+  ],
+  "field_main_figure_records": 259,
+  "soft_dough_intervals": {
+    "n": 5,
+    "compatible": 0,
+    "mean_excess_days": 9.0
+  },
+  "main_figures": 5,
+  "main_tables": 3,
+  "supplementary_figures": 4,
+  "supplementary_tables": 20,
+  "pdf_pages": {
+    "Manuscript": 18,
+    "Supplementary_Information": 14
+  },
+  "source_workbook_sheets": 31,
+  "reference_count": 25,
+  "undated_in_text_citations": 0,
+  "workflow_text_within_nodes": true,
+  "native_word_images_match_exports": true,
+  "manuscript_climate_yield_and_disease_metrics_unchanged": true,
+  "previous_publication_archive_unchanged": true,
+  "fresh_repository_test_run": false,
+  "model_tests_inherited_from_unchanged_runtime": true,
+  "runtime_calibration_and_frozen_scientific_sources_unchanged": true
+}

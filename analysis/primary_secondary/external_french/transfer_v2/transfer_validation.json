@@ -1,0 +1,13 @@
+{
+  "BASF_fit_sha256": "3dad684bdbcd1d2d0ed79b27e099435c147ae77f0d14079bc6a4c65d7492f788",
+  "BASF_fit_path": "analysis/primary_secondary/calibration_v2_age/all_development_fit.json",
+  "simulator_sha256": "097cb6fad2e5080bd94ef42dfedc15287dde6a1c6dc4b42c7e915d1b142a1fb2",
+  "French_targets_fitted": false,
+  "observation_mapping": "I+R, not BASF damage N+I+R",
+  "natural_field_onset_validation": false,
+  "independent_stations": 1,
+  "station_years": 2,
+  "claim_scope": "external observation-domain transfer with realized ERA5 and initial pycnidial conditioning",
+  "max_mass_error": 8.881784197001252e-16,
+  "minimum_state": 0.0
+}

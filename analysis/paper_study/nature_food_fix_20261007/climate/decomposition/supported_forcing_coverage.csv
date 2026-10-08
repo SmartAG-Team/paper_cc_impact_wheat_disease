@@ -1,0 +1,4 @@
+model,original_draw_year_pairs,original_finite_corner_pairs,all_above40C_flagged_pairs,excluded_from_original_finite_pairs,supported_forcing_pairs,original_finite_area_time_coverage,excluded_finite_area_time_weight,supported_forcing_area_time_coverage
+ACCESS-CM2,1920,1918,9,9,1909,0.9999470336213132,0.00783396157764972,0.9921130720436635
+MPI-ESM1-2-HR,1920,1920,10,10,1910,0.9999999999999976,0.007950098349144267,0.9920499016508533
+MRI-ESM2-0,1920,1913,1,1,1912,0.9997192882679895,0.0010767473306807465,0.9986425409373088

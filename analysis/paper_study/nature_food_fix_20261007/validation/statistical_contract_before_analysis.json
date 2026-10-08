@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-07T12:54:26.820898+00:00",
+  "input_sha256": {
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/all_first_onset_bracket_predictions.parquet": "315a1d5193600f49843119981564cb7424458e474ba21796a8364f3ffb8ec6b6",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/all_assessment_sign_predictions.parquet": "d7c80cfb24dec356b650ffcd27de9016dfacf07dde5618efe70a26f12c2ab571",
+    "analysis/paper_study/nature_food_revision_20261007/epidemic_evaluation/observed_vs_frozen_assessments.parquet": "faee81916884d5e80a740676b78580be27622fa2f1577299329cf1748a1dfeba",
+    "analysis/paper_study/nature_food_revision_20261007/disease_data_audit/leaf_measurement_semantics_assessments.csv": "5408f339e33653208a3b819a07ee411ee17110e04a3d3f4c3c76794537afaa95",
+    "analysis/paper_study/nature_food_revision_20261007/disease_data_audit/leaf_measurement_semantics_receipt.json": "fb7091609defa2b2ad8acb48d6cfb674c9887744bd7b3f4b520f1dc4744991e9",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/phenology_only/frozen_selected_fit.json": "58e3f7f1bcc03dedffbb55862e26e88f05815193586018e3488033864fcd3834",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/calibrated_stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4"
+  },
+  "seed": 20261007,
+  "bootstrap_draws": 20000,
+  "independent_resampling_unit": "rounded coordinate-year",
+  "biological_site_identity_independently_verified": false,
+  "weighting": "equal coordinate-year, equal field within coordinate-year, equal source leaf within field, equal assessment within leaf",
+  "pairing": "identical complete coordinate-year/field/source-leaf/date membership for model and comparator",
+  "interval": "95% percentile interval conditional on fixed fitted predictions and each stated record population",
+  "unquantified": "fitting/model-selection uncertainty, independent biological site identity, leaf mapping, stage ambiguity and prior outcome exposure",
+  "validation_status": "retrospective reused development evidence; no untouched test",
+  "preflag_exclusion": "sensitivity excludes zero source-leaf-1 assessments only when ordered same-day observed upper stage is <37 or <39; placeholder status unverified",
+  "Corteva_source_number_to_final_flag_mapping_inferred": false
+}

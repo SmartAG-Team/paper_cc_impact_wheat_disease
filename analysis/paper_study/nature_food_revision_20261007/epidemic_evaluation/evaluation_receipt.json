@@ -1,0 +1,108 @@
+{
+  "created_utc": "2026-10-07T07:06:30.295651+00:00",
+  "model": "current frozen overwinter_source_model",
+  "biological_parameters_refitted": false,
+  "observation_mapping_refitted": false,
+  "baseline_training_numeric_original28_only": true,
+  "ordinal_Corteva_mapping_resolved": false,
+  "prior_validation_outcomes_reused": true,
+  "independent_biological_site_identity_confirmed": false,
+  "confidence_intervals_reported": false,
+  "archived_positive_and_symptom_day_predictions_reproduced_exactly": true,
+  "checks": [
+    {
+      "partition": "calibration",
+      "redacted_fields": 28,
+      "assessments": 254,
+      "maximum_tissue_mass_error": 4.440892098500626e-16
+    },
+    {
+      "partition": "reused_BASF2019",
+      "redacted_fields": 45,
+      "assessments": 330,
+      "maximum_tissue_mass_error": 4.440892098500626e-16
+    },
+    {
+      "partition": "reused_strict_Corteva",
+      "redacted_fields": 143,
+      "assessments": 1703,
+      "maximum_tissue_mass_error": 4.440892098500626e-16
+    }
+  ],
+  "source_sha256": {
+    "analysis/paper_study/nature_food_revision_20261007/epidemic_evaluation/evaluate_frozen_trajectories.py": "609f58b1c5356c2d3a85a472c9e82e54639cf0ba3d144f3b7805d8446b3fbc11",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/calibrated_stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/original_sign_only_target_membership.parquet": "f083ef67458caf8ade8cf9cd6dfc2ce31e7a52734320fd502aceb95c6d65c291",
+    "analysis/paper_study/seasonal_calibration_v1/basf_source_assessments_snapshot.csv": "5f39b98003e650e4a4e7ab509a73b34d98311fb4d2f66f8b44599e2ff164d286",
+    "data/paper_study/observations/corteva_external_assessments.csv": "36ae506c4c0be1a1f97b94ddfa7ff841308334cd693a5c2c1db2717b96e8b7cd",
+    "data/paper_study/field_weather_completed/daily_weather.parquet": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+    "data/paper_study/wheat_area/trial_point_calendar_scenarios.csv": "7aaeba9ce5f03c47a4d1394d1c3fd4d5d97669f63453a8cf0c22e9ef5dc939fc",
+    "process_model/parameters/calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "model/seasonal_septoria/overwinter.py": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7",
+    "model/seasonal_septoria/leaf_phenology.py": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+    "model/seasonal_septoria/wetness.py": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/run.py": "6a5d5272e6eba62342f2145a2b46d7b504da1cb79db72db9b4cf2f61e8569880",
+    "data/basf-wheat-diseases.txt": "7f3325fdf31261740e4988bbda8581ff3f2381e6c38d46947d374fad4b6af67a",
+    "data/paper_study/observations/new_sources/corteva-2014-2018/corteva-wheat-diseases.txt": "d58a4a66639a4cdee2560ca53c38288cc4958b7b5d030370dbb403a91e4465f8"
+  },
+  "artifact_rows": {
+    "observed_vs_frozen_assessments.csv": 2287,
+    "final_observed_leaf_endpoints.csv": 897,
+    "consecutive_severity_increments.csv": 1390,
+    "observed_window_severity_integrals.csv": 648,
+    "severity_trajectory_metrics.csv": 120,
+    "continuous_severity_onset_brackets.csv": 3588,
+    "severity_timing_metrics.csv": 72,
+    "representative_daily_predictions.csv": 465
+  },
+  "elapsed_seconds": 62.054432708071545,
+  "metric_denominators": "coordinate-year/field/source-numbered leaf hierarchy within each stated population",
+  "baseline": "observed-stage/time comparator is retrospective measurement-time information; no future stage interpolation",
+  "publication_figure_claim": "plot selection uses counts/span/lexical keys only; no prediction fit selection",
+  "independent_checks": {
+    "all2287source_scores_recomputed_from_original_raw_rows": true,
+    "every_raw_target_untreated_zero_spray_SEPTTR": true,
+    "hierarchical_RMSE_recomputed_by_nested_group_means": [
+      {
+        "partition": "calibration",
+        "independently_recomputed_rmse": 29.116895588769776,
+        "recorded_rmse": 29.11689558876978
+      },
+      {
+        "partition": "reused_BASF2019",
+        "independently_recomputed_rmse": 26.62729794545479,
+        "recorded_rmse": 26.627297945454785
+      },
+      {
+        "partition": "reused_strict_Corteva",
+        "independently_recomputed_rmse": 32.62547547701155,
+        "recorded_rmse": 32.62547547701155
+      }
+    ],
+    "representative_selection_uses_no_severity_or_predictions": true,
+    "figure_tables_verified": true,
+    "confidence_intervals_invented": false,
+    "plots_visually_inspected": true
+  },
+  "artifact_sha256": {
+    "brief_findings.txt": "19dcb6fb7fa62b77cb2fd4fe458733cef9839fef39cb2d70ce3ef33e804611ff",
+    "consecutive_severity_increments.csv": "2a059d5bf2a48610e356066a3243d1c2f09766ba5bb60705a773cf7cb641b9e3",
+    "continuous_severity_onset_brackets.csv": "8cada85e751c876b826e017a2a2165ca2a11bad4de7ba61da8ab5fca8a5a1803",
+    "evaluate_frozen_trajectories.py": "609f58b1c5356c2d3a85a472c9e82e54639cf0ba3d144f3b7805d8446b3fbc11",
+    "final_observed_leaf_endpoints.csv": "2101fac7de7cdaa078a982499f7359e1150598f10dc7f4ffe4c6200bbde01f5d",
+    "observed_predicted_severity.pdf": "f1480988a1739cff279e7f163bba6ea782a125ad7234118b657b34821060fb4f",
+    "observed_predicted_severity.png": "29b07f71ec93defb0c8250638ad3e1351798c3097f1619c3874d40710bd3ce51",
+    "observed_vs_frozen_assessments.csv": "c2dd2cf7935abc63883b83f649eb54f1639b3e4d6861a49e8d7f1a99d2a3c33f",
+    "observed_vs_frozen_assessments.parquet": "faee81916884d5e80a740676b78580be27622fa2f1577299329cf1748a1dfeba",
+    "observed_window_severity_integrals.csv": "8627fb06b61869c480d7501ca022ea6887e46514559b77045d118f9429d91fe4",
+    "polish_trajectory_plot.py": "b1dce9cbb03dafcfb658b3fd89f90c988f3f37897d13ef377bd0bdaefe2e1393",
+    "primary_metrics_all_source_numbered_leaves.csv": "2ca0cb5fab89392d1ce3668b7725ec4d3f0651da1298ed48d2dcb9054d994657",
+    "representative_daily_predictions.csv": "bfb39bb320e871043caee2913c278bc86d5d2c90d22a0d556734f209865c31a3",
+    "representative_series_selection_before_predictions.csv": "677a9b79d8116508df4de6b08ef3f0e790843b12a9c36bd4a9d29829882f31a4",
+    "representative_trajectories.pdf": "99d69f02b4d86780d0d34b11fb61c54f05986825fe215b6cae893c4a51e781df",
+    "representative_trajectories.png": "a8ac675f0f136784eac084dc59f8c184373d37d03054dc26822593e165950130",
+    "severity_timing_metrics.csv": "9d88d2d4b0ad423f2a6863b92a7f396000afe500783e510dcedb7cd0f8666db5",
+    "severity_trajectory_metrics.csv": "9d2e0194a282b1a37f2fbc5a1e7d1175efa13365e5c52505917472f19122789a"
+  }
+}

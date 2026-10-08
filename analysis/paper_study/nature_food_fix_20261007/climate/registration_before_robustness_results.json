@@ -1,0 +1,593 @@
+{
+  "registered_utc": "2026-10-07T12:50:07.153074+00:00",
+  "models": [
+    "ACCESS-CM2",
+    "MPI-ESM1-2-HR",
+    "MRI-ESM2-0"
+  ],
+  "scenario": "ssp585",
+  "periods": {
+    "1991-2020": [
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "2071-2100": [
+      2071,
+      2072,
+      2073,
+      2074,
+      2075,
+      2076,
+      2077,
+      2078,
+      2079,
+      2080,
+      2081,
+      2082,
+      2083,
+      2084,
+      2085,
+      2086,
+      2087,
+      2088,
+      2089,
+      2090,
+      2091,
+      2092,
+      2093,
+      2094,
+      2095,
+      2096,
+      2097,
+      2098,
+      2099,
+      2100
+    ]
+  },
+  "draws": 64,
+  "unique_cells": 62,
+  "strata": 16,
+  "draws_per_stratum": 4,
+  "expected_batches": 180,
+  "trajectory_settings": 7,
+  "expected_mechanism_trajectory_batches": 1260,
+  "reported_settings": 14,
+  "expected_draw_season_rows": 161280,
+  "worker_count": 3,
+  "settings": {
+    "baseline": {
+      "kind": "mechanism",
+      "fitted": {
+        "name": "a0.001_b10_L20_s120_i0.1",
+        "parameters": {
+          "primary_scale": 0.001,
+          "secondary_scale": 10.0,
+          "latent_reference_days": 20.0,
+          "latent_stages": 3,
+          "nonsporulating_reference_days": 3.0,
+          "infectious_reference_days": 21.0,
+          "residue_maturation_reference_days": 30.0,
+          "residue_decay_reference_days": 90.0,
+          "initial_ready_fraction": 0.5,
+          "rank_distance_scale": 2.0,
+          "rain_scale_mm": 2.0,
+          "local_airborne_fraction": 0.1,
+          "contact_fraction": 0.2
+        },
+        "rank_spacing_units": 120.0,
+        "constant_imported_pressure": 0.1,
+        "juvenile_policy": "handover_31_39",
+        "weather_preprocessing": {
+          "weather_operator": "duration_proxy",
+          "rain_rate_mm_hour": 0.45,
+          "unique_training_location_dates": 6432,
+          "eligible_positive_rain_days": 2695,
+          "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+          "meteorology_only": true
+        }
+      },
+      "initial_local_source": 1.0,
+      "thresholds": {
+        "10": 142.01,
+        "31": 542.3,
+        "32": 633.39175,
+        "33": 664.4962499999999,
+        "37": 702.266,
+        "39": 807.799125,
+        "51": 986.65,
+        "65": 1165.925558,
+        "85": 1760.39
+      },
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "primary_objective_tied_runnerup": {
+      "kind": "mechanism",
+      "fitted": {
+        "name": "a0.001_b10_L20_s160_i0",
+        "parameters": {
+          "primary_scale": 0.001,
+          "secondary_scale": 10.0,
+          "latent_reference_days": 20.0,
+          "latent_stages": 3,
+          "nonsporulating_reference_days": 3.0,
+          "infectious_reference_days": 21.0,
+          "residue_maturation_reference_days": 30.0,
+          "residue_decay_reference_days": 90.0,
+          "initial_ready_fraction": 0.5,
+          "rank_distance_scale": 2.0,
+          "rain_scale_mm": 2.0,
+          "local_airborne_fraction": 0.1,
+          "contact_fraction": 0.2
+        },
+        "rank_spacing_units": 160.0,
+        "constant_imported_pressure": 0.0,
+        "juvenile_policy": "handover_31_39",
+        "weather_preprocessing": {
+          "weather_operator": "duration_proxy",
+          "rain_rate_mm_hour": 0.45,
+          "unique_training_location_dates": 6432,
+          "eligible_positive_rain_days": 2695,
+          "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+          "meteorology_only": true
+        }
+      },
+      "initial_local_source": 1.0,
+      "thresholds": {
+        "10": 142.01,
+        "31": 542.3,
+        "32": 633.39175,
+        "33": 664.4962499999999,
+        "37": 702.266,
+        "39": 807.799125,
+        "51": 986.65,
+        "65": 1165.925558,
+        "85": 1760.39
+      },
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "local_source_off": {
+      "kind": "mechanism",
+      "fitted": {
+        "name": "a0.001_b10_L20_s120_i0.1",
+        "parameters": {
+          "primary_scale": 0.001,
+          "secondary_scale": 10.0,
+          "latent_reference_days": 20.0,
+          "latent_stages": 3,
+          "nonsporulating_reference_days": 3.0,
+          "infectious_reference_days": 21.0,
+          "residue_maturation_reference_days": 30.0,
+          "residue_decay_reference_days": 90.0,
+          "initial_ready_fraction": 0.5,
+          "rank_distance_scale": 2.0,
+          "rain_scale_mm": 2.0,
+          "local_airborne_fraction": 0.1,
+          "contact_fraction": 0.2
+        },
+        "rank_spacing_units": 120.0,
+        "constant_imported_pressure": 0.1,
+        "juvenile_policy": "handover_31_39",
+        "weather_preprocessing": {
+          "weather_operator": "duration_proxy",
+          "rain_rate_mm_hour": 0.45,
+          "unique_training_location_dates": 6432,
+          "eligible_positive_rain_days": 2695,
+          "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+          "meteorology_only": true
+        }
+      },
+      "initial_local_source": 0.0,
+      "thresholds": {
+        "10": 142.01,
+        "31": 542.3,
+        "32": 633.39175,
+        "33": 664.4962499999999,
+        "37": 702.266,
+        "39": 807.799125,
+        "51": 986.65,
+        "65": 1165.925558,
+        "85": 1760.39
+      },
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "rank_spacing80": {
+      "kind": "mechanism",
+      "fitted": {
+        "name": "a0.001_b10_L20_s120_i0.1",
+        "parameters": {
+          "primary_scale": 0.001,
+          "secondary_scale": 10.0,
+          "latent_reference_days": 20.0,
+          "latent_stages": 3,
+          "nonsporulating_reference_days": 3.0,
+          "infectious_reference_days": 21.0,
+          "residue_maturation_reference_days": 30.0,
+          "residue_decay_reference_days": 90.0,
+          "initial_ready_fraction": 0.5,
+          "rank_distance_scale": 2.0,
+          "rain_scale_mm": 2.0,
+          "local_airborne_fraction": 0.1,
+          "contact_fraction": 0.2
+        },
+        "rank_spacing_units": 80.0,
+        "constant_imported_pressure": 0.1,
+        "juvenile_policy": "handover_31_39",
+        "weather_preprocessing": {
+          "weather_operator": "duration_proxy",
+          "rain_rate_mm_hour": 0.45,
+          "unique_training_location_dates": 6432,
+          "eligible_positive_rain_days": 2695,
+          "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+          "meteorology_only": true
+        }
+      },
+      "initial_local_source": 1.0,
+      "thresholds": {
+        "10": 142.01,
+        "31": 542.3,
+        "32": 633.39175,
+        "33": 664.4962499999999,
+        "37": 702.266,
+        "39": 807.799125,
+        "51": 986.65,
+        "65": 1165.925558,
+        "85": 1760.39
+      },
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "rank_spacing160": {
+      "kind": "mechanism",
+      "fitted": {
+        "name": "a0.001_b10_L20_s120_i0.1",
+        "parameters": {
+          "primary_scale": 0.001,
+          "secondary_scale": 10.0,
+          "latent_reference_days": 20.0,
+          "latent_stages": 3,
+          "nonsporulating_reference_days": 3.0,
+          "infectious_reference_days": 21.0,
+          "residue_maturation_reference_days": 30.0,
+          "residue_decay_reference_days": 90.0,
+          "initial_ready_fraction": 0.5,
+          "rank_distance_scale": 2.0,
+          "rain_scale_mm": 2.0,
+          "local_airborne_fraction": 0.1,
+          "contact_fraction": 0.2
+        },
+        "rank_spacing_units": 160.0,
+        "constant_imported_pressure": 0.1,
+        "juvenile_policy": "handover_31_39",
+        "weather_preprocessing": {
+          "weather_operator": "duration_proxy",
+          "rain_rate_mm_hour": 0.45,
+          "unique_training_location_dates": 6432,
+          "eligible_positive_rain_days": 2695,
+          "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+          "meteorology_only": true
+        }
+      },
+      "initial_local_source": 1.0,
+      "thresholds": {
+        "10": 142.01,
+        "31": 542.3,
+        "32": 633.39175,
+        "33": 664.4962499999999,
+        "37": 702.266,
+        "39": 807.799125,
+        "51": 986.65,
+        "65": 1165.925558,
+        "85": 1760.39
+      },
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "stage_profile_early37": {
+      "kind": "mechanism",
+      "fitted": {
+        "name": "a0.001_b10_L20_s120_i0.1",
+        "parameters": {
+          "primary_scale": 0.001,
+          "secondary_scale": 10.0,
+          "latent_reference_days": 20.0,
+          "latent_stages": 3,
+          "nonsporulating_reference_days": 3.0,
+          "infectious_reference_days": 21.0,
+          "residue_maturation_reference_days": 30.0,
+          "residue_decay_reference_days": 90.0,
+          "initial_ready_fraction": 0.5,
+          "rank_distance_scale": 2.0,
+          "rain_scale_mm": 2.0,
+          "local_airborne_fraction": 0.1,
+          "contact_fraction": 0.2
+        },
+        "rank_spacing_units": 120.0,
+        "constant_imported_pressure": 0.1,
+        "juvenile_policy": "handover_31_39",
+        "weather_preprocessing": {
+          "weather_operator": "duration_proxy",
+          "rain_rate_mm_hour": 0.45,
+          "unique_training_location_dates": 6432,
+          "eligible_positive_rain_days": 2695,
+          "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+          "meteorology_only": true
+        }
+      },
+      "initial_local_source": 1.0,
+      "thresholds": {
+        "10": 142.01,
+        "31": 542.3,
+        "32": 558.963125,
+        "33": 567.8501249999999,
+        "37": 568.961,
+        "39": 805.577375,
+        "51": 986.65,
+        "65": 1165.925558,
+        "85": 1760.39
+      },
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "stage_profile_late37": {
+      "kind": "mechanism",
+      "fitted": {
+        "name": "a0.001_b10_L20_s120_i0.1",
+        "parameters": {
+          "primary_scale": 0.001,
+          "secondary_scale": 10.0,
+          "latent_reference_days": 20.0,
+          "latent_stages": 3,
+          "nonsporulating_reference_days": 3.0,
+          "infectious_reference_days": 21.0,
+          "residue_maturation_reference_days": 30.0,
+          "residue_decay_reference_days": 90.0,
+          "initial_ready_fraction": 0.5,
+          "rank_distance_scale": 2.0,
+          "rain_scale_mm": 2.0,
+          "local_airborne_fraction": 0.1,
+          "contact_fraction": 0.2
+        },
+        "rank_spacing_units": 120.0,
+        "constant_imported_pressure": 0.1,
+        "juvenile_policy": "handover_31_39",
+        "weather_preprocessing": {
+          "weather_operator": "duration_proxy",
+          "rain_rate_mm_hour": 0.45,
+          "unique_training_location_dates": 6432,
+          "eligible_positive_rain_days": 2695,
+          "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+          "meteorology_only": true
+        }
+      },
+      "initial_local_source": 1.0,
+      "thresholds": {
+        "10": 142.01,
+        "31": 542.3,
+        "32": 596.7328749999999,
+        "33": 627.837375,
+        "37": 907.777875,
+        "39": 908.88875,
+        "51": 986.65,
+        "65": 1165.925558,
+        "85": 1760.39
+      },
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "detection0p0001": {
+      "kind": "daily_detection",
+      "detection_fraction": 0.0001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "detection0p01": {
+      "kind": "daily_detection",
+      "detection_fraction": 0.01,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 1.0
+    },
+    "reference_decline_end0p5": {
+      "kind": "daily_had_transfer",
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 0.5,
+      "functional_conversion": 1.0
+    },
+    "reference_decline_end0": {
+      "kind": "daily_had_transfer",
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 0.0,
+      "functional_conversion": 1.0
+    },
+    "functional_conversion0p5": {
+      "kind": "daily_had_transfer",
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 0.5
+    },
+    "functional_conversion0p75": {
+      "kind": "daily_had_transfer",
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 1.0,
+      "functional_conversion": 0.75
+    },
+    "decline_end0_conversion0p5": {
+      "kind": "daily_had_transfer",
+      "detection_fraction": 0.001,
+      "reference_decline_end_factor": 0.0,
+      "functional_conversion": 0.5
+    }
+  },
+  "stage_profile_construction": {
+    "stage_profile_early37": {
+      "thresholds": {
+        "32": 558.963125,
+        "33": 567.8501249999999,
+        "37": 568.961,
+        "39": 805.577375
+      },
+      "joint_loss_days": 1.1203703703703702,
+      "minimum_loss_days": 0.12037037037037036,
+      "tolerance_days": 1.0,
+      "selection": "extreme admissible C37, then exact minimum ordered component-loss path",
+      "confidence_interval": false,
+      "validation_used": false,
+      "disease_labels_used": false
+    },
+    "stage_profile_late37": {
+      "thresholds": {
+        "32": 596.7328749999999,
+        "33": 627.837375,
+        "37": 907.777875,
+        "39": 908.88875
+      },
+      "joint_loss_days": 1.1203703703703702,
+      "minimum_loss_days": 0.12037037037037036,
+      "tolerance_days": 1.0,
+      "selection": "extreme admissible C37, then exact minimum ordered component-loss path",
+      "confidence_interval": false,
+      "validation_used": false,
+      "disease_labels_used": false
+    }
+  },
+  "tied_runnerup": {
+    "selected_score": {
+      "candidate": "a0.001_b10_L20_s120_i0.1",
+      "candidate_order": 63,
+      "primary_distance_days": 1.0,
+      "primary_brackets": 8,
+      "primary_fields": 6,
+      "primary_compatibility": 0.6666666666666666,
+      "balanced_assessment_error": 0.2222724059382608,
+      "assessment_detection": {
+        "n": 178,
+        "positive_count": 162,
+        "negative_count": 16,
+        "true_positive": 153,
+        "false_positive": 6,
+        "true_negative": 10,
+        "false_negative": 9,
+        "sensitivity": 0.9692482915717541,
+        "specificity": 0.5862068965517242,
+        "balanced_accuracy": 0.7777275940617392,
+        "weighted_accuracy": 0.9455128205128205,
+        "specificity_identifiable": true
+      }
+    },
+    "runnerup_score": {
+      "candidate": "a0.001_b10_L20_s160_i0",
+      "candidate_order": 64,
+      "primary_distance_days": 0.9999999999999999,
+      "primary_brackets": 8,
+      "primary_fields": 6,
+      "primary_compatibility": 0.6666666666666666,
+      "balanced_assessment_error": 0.2239808341842745,
+      "assessment_detection": {
+        "n": 178,
+        "positive_count": 162,
+        "negative_count": 16,
+        "true_positive": 152,
+        "false_positive": 6,
+        "true_negative": 10,
+        "false_negative": 10,
+        "sensitivity": 0.9658314350797268,
+        "specificity": 0.5862068965517242,
+        "balanced_accuracy": 0.7760191658157255,
+        "weighted_accuracy": 0.9423076923076923,
+        "specificity_identifiable": true
+      }
+    },
+    "complete_selection_score_tie": false,
+    "note": "Equal primary calibration objective; runner-up loses the prespecified balanced-error tie-break. No validation tuning."
+  },
+  "frozen_spatial_design": "Original with-replacement 16 strata \u00d7 4 draws; duplicate cell IDs retained by unique draw IDs.",
+  "randomness": "No new stochastic draws, no bootstrap, no RNG; all original draw weights and pairings retained.",
+  "climate_pairing": "Same spatial_draw_id and GCM; 1991+i paired to 2071+i for i=0..29.",
+  "metric_populations": [
+    "within-setting finite historical/future pairs",
+    "intersection of those pairs across all settings for the same metric and GCM"
+  ],
+  "ratio_estimator": "Weighted area-time mean on common paired coverage; mean over years for each draw, then weighted ratio.",
+  "mcse": "Four independent draws per stratum, ratio residual linearization; average GCM influence vectors before variance (shared-draw covariance).",
+  "uncertainty_limits": "MCSE is spatial Monte Carlo error, not parameter uncertainty; GCM range is not a confidence interval; settings are declared scenarios, not validated plausibility distributions.",
+  "reference_decline": "Postprocessing reference weight: 1 before GS65, linearly declining in elapsed calendar days from GS65 to endpoint factor at GS85, multiplied by modeled unfolding area. Disease dynamics unchanged.",
+  "functional_conversion": "Scalar c \u00d7 symptom-gated modeled damage \u00d7 reference area; c in {0.5,0.75,1}. Declared transfer sensitivity, not an observed damage-function calibration.",
+  "primary_outcomes": "Modeled upper-leaf event timing relative to anthesis and normalized upper-three-leaf HAD proxy loss, GS65\u201385.",
+  "broader_window": "GS31\u201385 also computed in every setting; avoids presenting a selected window alone.",
+  "yield_transfer": "Diagnostic only: HAD proxy \u00d7 fixed .0141/.018/.0207; conditional t/ha per unit nominal upper-three reference LAI. No European tonnage, absolute yield or policy benefit.",
+  "limitations": [
+    "Retrospective disease discrimination is poor on stricter validation.",
+    "Disease magnitude, source-route attribution and reference senescence are unvalidated.",
+    "Winter-wheat/rainfed calendar scenario applied to all-wheat area; no cultivar, sowing adaptation or management benefits estimated.",
+    "Fixed positive sources tend to saturate event occurrence; conditional timing and burden are the modeled outputs."
+  ],
+  "full_domain_census": false,
+  "source_sha256": {
+    "analysis/paper_study/nature_food_fix_20261007/climate/run.py": "55bac884a5433221e5fb31a79c2f118823f7e69d9d34607db914f322abc2290b",
+    "analysis/paper_study/nature_food_fix_20261007/climate/simulation.py": "5aa29cffa696c98aa9cf82e64ed754b3c4d7cf4f3b09b673be047bebca949f33",
+    "analysis/paper_study/nature_food_fix_20261007/climate/test_robustness.py": "e9152cad6db7d6c07d3c2a187c496578bf938f993b8af392ac6dc3273a26fdbf",
+    "analysis/paper_study/nature_food_fix_20261007/climate/pilot_cost.json": "9470f6bd1dc2a5f6e4c52c14c2bb896aa3816d690a548f79e1af304ce521c99c",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/calibrated_stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/ordered_threshold_joint_profiles.csv": "6795dc8c25325911d1881cb0dade95365631ffb2078960f5084f814b04c77e0b",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/full_calibration_training.json": "94051e536a7087e9f956a7faa858f37ceb46f81818f21a25a50383ebdb83e1f5",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/spatial_0_training.json": "7795067f86e61de000138cf3af07e6a14172be61ced68ccaae610bf5ebce5113",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/selection.json": "2ba044a200e39829d258392d25c3932a596d45fad8908c07695b6e86724015b4",
+    "data/paper_study/regional_parameter_uncertainty/spatial_draws.csv": "85ef36385df2bd52b3e161b432d52ce360698227fa7db049c806f6872d3f21f6",
+    "data/paper_study/regional_parameter_uncertainty/sampling_receipt.json": "c729765def5399482afc24ec47b3c518c6e9cdee5229d34b61d220ae827d5d41",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/run.py": "c6eaf52ae1131225eae5afdbccf85e75604b4387fa48f18c5d6dd0f005d9ca78",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/cache_weather.py": "b959d0fb188f748914a4aa2a56b51f612a0f50a094c2366b0ca849b268f8dcf2",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/weather_cache_receipt.json": "28880a15ccc143da1b92b44b30d1382c862b8cdb607b7a2a09c656bf33c1cb31",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/draw_season_outputs.parquet": "66f6e9399ca946347263fec8d6b77033c9594032ecc1f8b559596ddcda82f38b",
+    "process_model/parameters/calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "model/seasonal_septoria/overwinter.py": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7",
+    "model/seasonal_septoria/leaf_phenology.py": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+    "model/seasonal_septoria/regional.py": "c5538812bcb2b8a45c3ec639b78b2e89a7e20b07fce7261575946897368c5a62",
+    "model/seasonal_septoria/host.py": "0be889d8b8e871169db0570df240da5a1be9613abe4c288ef91c3561875ed8ea",
+    "model/seasonal_septoria/wetness.py": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6",
+    "model/seasonal_septoria/climate_alignment.py": "efaeaeebb2a156a9352e9bb97b0069818362e0aca042f2f4c2416f0529ba0e9a",
+    "analysis/paper_study/regional_v1/bias_alignment/ACCESS-CM2/ssp585/coefficients.parquet": "ba1699f4a28d8a02e11fb27f0d32454ab57059164de5b1b46a0a49635ea67bea",
+    "analysis/paper_study/regional_v1/bias_alignment/MPI-ESM1-2-HR/ssp585/coefficients.parquet": "5e4ba148aa0307592131fd16a8130f81bffa18c430dd693d7aa380029fd6663a",
+    "analysis/paper_study/regional_v1/bias_alignment/MRI-ESM2-0/ssp585/coefficients.parquet": "85b2927b3066ded6ef13a2888e9144e9ed712363d3bbbbece8ccab258b50f1fc"
+  },
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6"
+}

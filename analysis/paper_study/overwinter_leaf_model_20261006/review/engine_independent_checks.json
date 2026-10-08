@@ -1,0 +1,241 @@
+{
+  "status": "passed",
+  "controlled_batch_restart_cases": [
+    {
+      "latent_stages": 1,
+      "requested_step": 0.1,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 1,
+      "requested_step": 0.1,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 1,
+      "requested_step": 0.25,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 1,
+      "requested_step": 0.25,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 1,
+      "requested_step": 0.3,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 1,
+      "requested_step": 0.3,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 1,
+      "requested_step": 1.0,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 1,
+      "requested_step": 1.0,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 3,
+      "requested_step": 0.1,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 3,
+      "requested_step": 0.1,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 3,
+      "requested_step": 0.25,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 3,
+      "requested_step": 0.25,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 3,
+      "requested_step": 0.3,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 3,
+      "requested_step": 0.3,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 3,
+      "requested_step": 1.0,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 3,
+      "requested_step": 1.0,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 6,
+      "requested_step": 0.1,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 6,
+      "requested_step": 0.1,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 6,
+      "requested_step": 0.25,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 6,
+      "requested_step": 0.25,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 6,
+      "requested_step": 0.3,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 6,
+      "requested_step": 0.3,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 6,
+      "requested_step": 1.0,
+      "juvenile_policy": "handover_31_39",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    },
+    {
+      "latent_stages": 6,
+      "requested_step": 1.0,
+      "juvenile_policy": "persistent",
+      "batch_state_and_flow_equal": true,
+      "event_dates_equal": true,
+      "restart_daily_equal": true
+    }
+  ],
+  "source_free_secondary_infection_zero": true,
+  "cold_zero_base_progression_frozen": true,
+  "erlang_numerical_convergence": [
+    {
+      "requested_step": 1.0,
+      "symptomatic_at_20_days": 0.5413194034846571,
+      "continuous_erlang_cdf": 0.5768099188731565,
+      "absolute_difference": 0.035490515388499344
+    },
+    {
+      "requested_step": 0.25,
+      "symptomatic_at_20_days": 0.5682935916521611,
+      "continuous_erlang_cdf": 0.5768099188731565,
+      "absolute_difference": 0.008516327220995379
+    },
+    {
+      "requested_step": 0.05,
+      "symptomatic_at_20_days": 0.5751250465841612,
+      "continuous_erlang_cdf": 0.5768099188731565,
+      "absolute_difference": 0.001684872288995276
+    },
+    {
+      "requested_step": 0.01,
+      "symptomatic_at_20_days": 0.5764736740646836,
+      "continuous_erlang_cdf": 0.5768099188731565,
+      "absolute_difference": 0.0003362448084728298
+    }
+  ],
+  "remaining_model_AST_findings": [],
+  "reviewed_source_sha256": {
+    "model/wheat_stb/config.py": "15b48d4ac1005535cbc56c01a6616e34a49e4ed4942e1d38ec40dfa69fafae0b",
+    "model/wheat_stb/_version.py": "20c8e430ededc2143396e553a3c67aac4ec483ef54efdfcb18a31cb162ca0646",
+    "model/wheat_stb/leaf.py": "130d2097cb9b4efd8d216250767c0e57787588873ec8cbb7bda04cf667c79b9d",
+    "model/wheat_stb/phenology.py": "09d3456b8dd38b127657964c32994eca070f8a9f5a0e13f3a5c94976184d121b",
+    "model/wheat_stb/weather.py": "cd6b0a29f88d50ee4c08415036b94b41cdb0a2a0842b044a58e9ed7d3175fd32",
+    "model/wheat_stb/__init__.py": "ae14c1cdd656f24ecdab047b0680e85bd3cb0c1a9d56a74a07537af6dcfeda6a",
+    "model/wheat_stb/engine.py": "a76cb656a077382d001ee3cecdcbf8d30a8de58f252f592fc85a20de23447c57",
+    "model/wheat_stb/cli.py": "6441243a602ce556c41cbe8e628f540738bc422cdf971c7bba57bb456e44e4bd",
+    "model/wheat_stb/yield_model.py": "1592e091d4319b548744e529e52977ecf7f211dc1a813026365b7285ab87401c",
+    "model/wheat_stb/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "calibration/wheat_stb/configuration.py": "dbc8ef4c771dd70baedcdf58c3e123b713225b491588b8c5583b718c8273a58e",
+    "model/seasonal_septoria/overwinter.py": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7",
+    "model/seasonal_septoria/leaf_phenology.py": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f"
+  }
+}

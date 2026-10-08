@@ -1,0 +1,51 @@
+Methods
+
+Study domain and climate forcing
+
+The study domain contains every positive-wheat-harvested-area cell in the European SPAM2020 registry at 0.25° resolution: 14,941 cells. A fixed GGCMI winter-wheat rainfed calendar is available for 14,932 cells; the remaining nine retain unavailable outcomes. The all-wheat area mask and imposed calendar define a management scenario, rather than an observed distribution of winter-wheat management. SPAM2020 harvested area supplies fixed weights throughout the analysis. The study-area and observation-location maps are provided in Supplementary Fig. S21. [15, 16]
+
+Daily NEX-GDDP-CMIP6v2 forcing covers ACCESS-CM2, MPI-ESM1-2-HR and MRI-ESM2-0 under SSP1–2.6, SSP2–4.5 and SSP5–8.5. Harvest periods are 1991–2020, 2031–2060 and 2071–2100. All 810 annual model–scenario–year combinations simulate the entire land-use mask, corresponding to 12,094,920 calendar-eligible grid-seasons. Forcing uses the existing local alignment coefficients, with separate historical alignment for each SSP continuation. Daily series include the preceding calendar year for overwintering crop seasons. Source files, alignment coefficients and runtime configurations retain their checksums. [17]
+
+Disease-weather exposure uses daily temperature, humidity and rainfall with the retained synthetic intraday humidity reconstruction. This reconstruction approximates exposure from daily forcing and does not represent measured leaf wetness. The observation-supported temperature range and missing-weather criteria retain their existing definitions in the model specification.
+
+Crop development and disease representation
+
+The retained temperature–photoperiod–vernalization model determines wheat development from sowing through soft dough. Additional ordered thresholds represent upper-leaf appearance and unfolding, and a calibrated flowering proxy defines the grain-fill window. Leaf availability, development and seasonal exposure connect daily weather to the existing Septoria source, establishment, progression and symptom states. Disease-related functional loss is gated by symptom detection in the climate reporting operator. Model equations, parameter provenance and observation definitions are provided in the supplementary model specification and the 84-entry parameter inventory. [5, 6, 7, 8, 9]
+
+Models retain their existing calibrated parameters. The reference upper-three-leaf LAI is nominally one, divided equally among final leaf ranks and scaled by unfolding. No cultivar-specific canopy area, future resistance change or local absolute-yield calibration is inferred. Predicted soft dough defines season completion; missing calendars, unsupported forcing and unreached endpoints remain explicit statuses. Invalid outcomes are unavailable values rather than zero disease or zero loss.
+
+Disease and canopy outcomes
+
+Occurrence is the indicator of detectable flag-leaf symptoms before soft dough. Its multi-year mean is the frequency of symptomatic simulated grid-seasons. First-symptom timing is measured relative to flowering and is unavailable when symptoms are not detected. Symptomatic grain-fill days count days with detectable flag-leaf symptoms within the flowering-to-soft-dough window. These endpoints describe model states rather than observed infection dates or future disease probabilities.
+
+HAD deficit integrates daily reference green canopy area multiplied by the assumed functional-loss fraction across the flag leaf and two leaves below it. The main window is flowering to soft dough (GS65–85); GS31–85 provides a wider-window sensitivity. The mean functional-loss fraction is lost HAD divided by reference HAD and represents reference-area-weighted canopy damage severity. This integrated canopy quantity differs from instantaneous lesion percentage and retains the model’s damage-to-function assumptions.
+
+Paired grid and spatial aggregation
+
+Each future harvest year is paired with the reference year at the corresponding index of the same 30-year period, climate model and SSP. A metric-specific pair is retained only if both outcomes are finite. For grid i, x_i is the mean valid paired difference with unavailable pairs contributing zero to the numerator, and z_i is the fraction of valid pairs among 30 years. The grid estimate is x_i/z_i. Reference and future means share the same valid pairs. Timing, occurrence and canopy outcomes therefore have their own documented support.
+
+For a domain indicator I_i and fixed harvested area w_i, the aggregate paired change is Σw_i I_i x_i / Σw_i I_i z_i. Estimates are calculated separately for each climate model before their three-model mean and range are reported. EEA 2016 boundaries assign environmental regions by wheat-cell centroid intersection, retaining unassigned and outside-region categories. Country groups use each cell’s dominant SPAM source-country label; cross-border cells are not divided among countries. Country estimates refer only to the represented study domain. All eight named environmental regions and all country groups remain in Source Data. [18]
+
+Maps display complete three-climate-model estimates at native 0.25° pixels, with no interpolation or missing-value filling. Sign-area shares use the exact fixed harvested-area weights over cells with complete estimates. Three-model ranges describe deterministic scenario spread. A full land-use census has no spatial-sampling Monte Carlo error; climate-model choice, biological parameters, observation error and canopy–yield conversion remain separate uncertainties. The twelve country groups shown in Fig. 3 are selected by reference wheat area before considering projected effects.
+
+Conditional yield response
+
+Conditional disease-related yield change is −b times the paired HAD-deficit change. The reference coefficient is 0.018 t ha⁻¹ per GLAI-day, with 0.0141 and 0.0207 used as fixed conversion alternatives from the published top-three-canopy study. Reported kg ha⁻¹ values multiply the t ha⁻¹ result by 1,000 and retain the nominal reference LAI denominator. The coefficients span cultivar predictions rather than a probability interval. Actual field-yield percentage changes and national production tonnages require compatible canopy area and grain-yield validation and are not identified by this operator. [10, 11]
+
+Diagnostic decomposition and sensitivity
+
+The weather–crop decomposition and fourteen-setting sensitivity analysis retain the prespecified 64 area-proportional draws at 62 unique cells. Four trajectories combine reference or future disease weather with reference or future crop-development trajectories. Shapley contributions share the weather–crop interaction equally and sum to the common-support net. The supported decomposition excludes 20 of 5,751 finite pairs with an active hybrid forcing day outside the supported temperature range, leaving 5,731 pairs. Its spatial Monte Carlo standard errors describe the sampled diagnostic population and are distinct from full-grid impact estimates.
+
+The crop-development offset is −100 times the crop Shapley contribution divided by the weather contribution on identical support. The ensemble percentage uses the ratio of three-model mean contributions. Sensitivity settings vary structural, detection, reference-canopy and functional-conversion assumptions within the selected model. These comparisons evaluate model-response dependence and do not estimate the efficacy of a management intervention.
+
+Pooled field evaluation
+
+Evaluation records from the two public field archives are pooled after the existing calibration and geographic eligibility restrictions. Calibration records retain their separate cohort. Evaluation contains 2,033 numerical assessments from 188 field seasons in 140 coordinate-years and 136 two-sided source-leaf-1–3 onset histories from 78 field seasons in 62 coordinate-years. Source identities, units, assessment conventions and leaf semantics remain in the evidence files. Source-defined percentages retain their original denominators, and source leaf numbers do not establish a universal final-rank mapping. [19, 20]
+
+Scores give equal weight to coordinate-years, fields within coordinate-years, source leaves within fields and assessments within leaves. Symptom-onset error is distance outside the genuine two-sided observed interval, retaining the predefined missed-positive penalty. Disease magnitude is evaluated against the existing calibration-leaf-mean benchmark; symptom timing and detection use the calibration-selected phenology benchmark. Fixed model and benchmark predictions are paired on identical records. Bootstrap intervals use 20,000 intact coordinate-year resamples and describe uncertainty conditional on the fitted predictions and reused retrospective data. Duplicate coordinate-year identities are grouped together across archives.
+
+The retained crop-development formulation is evaluated on 40,878 matched German station-held-out events at BBCH 10, 31, 51 and 85. Added stages use pooled field observation intervals and separate calibration evidence. Published canopy–yield evaluation retains all eight treatment-mean contrasts across five genetic backgrounds, including STB, yellow-rust and mixed exposures; leave-one-background-out fitting gives backgrounds equal evaluation weight. Severity-based yield transfer retains its independent trial or year splits and training-mean comparators. [11]
+
+Reproducibility
+
+Each annual output retains its forcing identities, frozen-runtime configuration, land-use-cell order, numerical checks and output checksum. Aggregation records source hashes, metric-specific pair counts and domain coverage. Independent checks recompute pooled evaluation and selected full-grid domain ratios from the underlying records. Source Data contains the values displayed in figures and tables. The accompanying software archive regenerates the manuscript from completed numerical evidence; climate-forcing-based simulation additionally requires the external raw climate products.

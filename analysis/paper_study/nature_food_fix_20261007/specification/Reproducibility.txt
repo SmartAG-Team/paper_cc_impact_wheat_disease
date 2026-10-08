@@ -1,0 +1,17 @@
+Current-model reproduction
+
+The publication entry point is:
+
+python -m analysis.paper_study.nature_food_fix_20261007.build --output <new-directory>
+
+Execution from the repository root with the supplied Python environment regenerates the six main figures, complete Supplementary Information, Source_Data.xlsx and the versioned code/evidence archive from completed evidence. The output directory must be new. Regenerating the publication from archived numerical evidence is distinct from rerunning daily forcing through the model. PACKAGE_MANIFEST.json records included files and their SHA-256 identities; source_manifest.json and Parameter_inventory.csv identify the mathematical specification and frozen parameters.
+
+The current daily runtime is model.wheat_stb version 0.1.0, coupled to model/seasonal_septoria/overwinter.py, leaf_phenology.py and wetness.py. The selected source/tissue disease fit is analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json (SHA-256 6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540). Ordered stage thresholds have SHA-256 9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4; the retained donor TPV calibration has SHA-256 71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a. Earlier seasonal_calibration_v1 severity results and infection_and_upper3_yield_v1_20261006 event results retain distinct archived model identities. Their parameter ensembles, severity maps and uncertainty intervals do not apply to the current source/tissue model.
+
+The source/evidence archive supplies runtime and analysis code, explicit external configurations, synthetic example forcing, frozen fits, available field forcing and assessments, the spatial draw registry, completed draw-season evidence and reporting tables. The model-only wheel supplies runtime code and dependencies; it contains no field observations or calibration archive. Full climate reruns and forcing-based climate sensitivities additionally require the externally retained checksum-identified sampled-weather cache or registered NEX-GDDP-CMIP6 inputs, historical alignment coefficients and area/calendar registries. Those climate forcing products are not reconstructed from publication tables and are not bundled merely by including their download receipts. The source hashes and annual cache receipt define their required identities.
+
+The separately supplied standalone example uses the same runtime entry point:
+
+python -m model.wheat_stb --config examples/wheat_stb/configuration_standardized_had.json --weather examples/wheat_stb/weather.csv --output <new-runtime-directory>
+
+Its weather is synthetic and contains no field observations. Output includes daily states, event summaries, effective configuration, checkpoint, provenance and an output-hash receipt. The public daily standardized HAD proxy and field full-season replay retain all modeled symptomatic/damage fractions; the published climate replay sets their functional-loss contribution to zero until the corresponding 0.001 symptom-detection event. This distinction is part of the reporting identity. Conditional HAD products do not constitute actual yield predictions.

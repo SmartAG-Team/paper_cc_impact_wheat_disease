@@ -1,0 +1,326 @@
+[
+  {
+    "id": "SuffertSache2011",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Suffert",
+        "given": "F."
+      },
+      {
+        "family": "Sache",
+        "given": "I."
+      }
+    ],
+    "title": "Relative importance of different types of inoculum to the establishment of <i>Mycosphaerella graminicola</i> in wheat crops in north‐west Europe",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1365-3059.2011.02455.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.2011.02455.x",
+    "volume": "60",
+    "issue": "5",
+    "page": "878-889"
+  },
+  {
+    "id": "LovellCanopy2004",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Lovell",
+        "given": "D. J."
+      },
+      {
+        "family": "Parker",
+        "given": "S. R."
+      },
+      {
+        "family": "Hunter",
+        "given": "T."
+      },
+      {
+        "family": "Welham",
+        "given": "S. J."
+      },
+      {
+        "family": "Nichols",
+        "given": "A. R."
+      }
+    ],
+    "title": "Position of inoculum in the canopy affects the risk of septoria tritici blotch epidemics in winter wheat",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1046/j.1365-3059.2003.00939.x",
+    "URL": "https://doi.org/10.1046/j.1365-3059.2003.00939.x",
+    "volume": "53",
+    "issue": "1",
+    "page": "11-21"
+  },
+  {
+    "id": "Lovell2004",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Lovell",
+        "given": "D. J."
+      },
+      {
+        "family": "Hunter",
+        "given": "T."
+      },
+      {
+        "family": "Powers",
+        "given": "S. J."
+      },
+      {
+        "family": "Parker",
+        "given": "S. R."
+      },
+      {
+        "family": "van den Bosch",
+        "given": "F."
+      }
+    ],
+    "title": "Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.0032-0862.2004.00983.x",
+    "URL": "https://doi.org/10.1111/j.0032-0862.2004.00983.x",
+    "volume": "53",
+    "issue": "2",
+    "page": "170-181"
+  },
+  {
+    "id": "Shaw1990",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Shaw",
+        "given": "M. W."
+      }
+    ],
+    "title": "Effects of temperature, leaf wetness and cultivar on the latent period of <i>Mycosphaerella graminicola</i> on winter wheat",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          1990,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1365-3059.1990.tb02501.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.1990.tb02501.x",
+    "volume": "39",
+    "issue": "2",
+    "page": "255-268"
+  },
+  {
+    "id": "Jamieson1995",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Jamieson",
+        "given": "P.D."
+      },
+      {
+        "family": "Brooking",
+        "given": "I.R."
+      },
+      {
+        "family": "Porter",
+        "given": "J.R."
+      },
+      {
+        "family": "Wilson",
+        "given": "D.R."
+      }
+    ],
+    "title": "Prediction of leaf appearance in wheat: a question of temperature",
+    "container-title": "Field Crops Research",
+    "issued": {
+      "date-parts": [
+        [
+          1995,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/0378-4290(94)00102-i",
+    "URL": "https://doi.org/10.1016/0378-4290(94)00102-i",
+    "volume": "41",
+    "issue": "1",
+    "page": "35-44"
+  },
+  {
+    "id": "Abichou2018",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Abichou",
+        "given": "Mariem"
+      },
+      {
+        "family": "Fournier",
+        "given": "Christian"
+      },
+      {
+        "family": "Dornbusch",
+        "given": "Tino"
+      },
+      {
+        "family": "Chambon",
+        "given": "Camille"
+      },
+      {
+        "family": "de Solan",
+        "given": "Benoit"
+      },
+      {
+        "family": "Gouache",
+        "given": "David"
+      },
+      {
+        "family": "Andrieu",
+        "given": "Bruno"
+      }
+    ],
+    "title": "Parameterising wheat leaf and tiller dynamics for faithful reconstruction of wheat plants by structural plant models",
+    "container-title": "Field Crops Research",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.fcr.2018.01.010",
+    "URL": "https://doi.org/10.1016/j.fcr.2018.01.010",
+    "volume": "218",
+    "page": "213-230"
+  },
+  {
+    "id": "ShawRoyle1989",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Shaw",
+        "given": "M. W."
+      },
+      {
+        "family": "Royle",
+        "given": "D. J."
+      }
+    ],
+    "title": "Airborne inoculum as a major source of <i>Septoria tritici</i> (<i>Mycosphaerella graminicola</i>) infections in winter wheat crops in the UK",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          1989,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1365-3059.1989.tb01425.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.1989.tb01425.x",
+    "volume": "38",
+    "issue": "1",
+    "page": "35-43"
+  },
+  {
+    "id": "ShawRoyle1993",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Shaw",
+        "given": "M. W."
+      },
+      {
+        "family": "Royle",
+        "given": "D. J."
+      }
+    ],
+    "title": "Factors determining the severity of epidemics of <i>Mycosphaerella graminicola (Septoria tritici)</i> on winter wheat in the UK",
+    "container-title": "Plant Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          1993,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1365-3059.1993.tb02674.x",
+    "URL": "https://doi.org/10.1111/j.1365-3059.1993.tb02674.x",
+    "volume": "42",
+    "issue": "6",
+    "page": "882-899"
+  },
+  {
+    "id": "Baccar2011",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Baccar",
+        "given": "Rim"
+      },
+      {
+        "family": "Fournier",
+        "given": "Christian"
+      },
+      {
+        "family": "Dornbusch",
+        "given": "Tino"
+      },
+      {
+        "family": "Andrieu",
+        "given": "Bruno"
+      },
+      {
+        "family": "Gouache",
+        "given": "David"
+      },
+      {
+        "family": "Robert",
+        "given": "Corinne"
+      }
+    ],
+    "title": "Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model",
+    "container-title": "Annals of Botany",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1093/aob/mcr126",
+    "URL": "https://doi.org/10.1093/aob/mcr126",
+    "volume": "108",
+    "issue": "6",
+    "page": "1179-1194"
+  }
+]

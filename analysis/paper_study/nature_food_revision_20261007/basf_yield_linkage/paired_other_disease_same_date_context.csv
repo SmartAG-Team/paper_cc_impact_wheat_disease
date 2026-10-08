@@ -1,0 +1,447 @@
+contrast_id,TrialId,season_year,date,source_leaf_label,leaf_rank,other_source_code,untreated_other_score,treated_other_score,untreated_other_source_row,treated_other_source_row,untreated_record_present,treated_record_present,source_organ_scope,missing_disease_record_is_zero
+BASF|5|2017|TreatmentA,5,2017,2017-05-03,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-05-10,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-05-19,"LEAF, 2ND",2,PUCCRE,1.0,0.0,68,1176,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-05-19,"LEAF, 3RD",3,PUCCRE,1.25,0.0,69,1177,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-05-30,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,0.5,0.0,75,1183,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-05-30,"LEAF, 2ND",2,PUCCRE,2.0,1.0,76,1184,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-05-30,"LEAF, 3RD",3,PUCCRE,4.0,1.0,77,1185,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-06-09,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,30.0,15.0,82,1190,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-06-09,"LEAF, 2ND",2,PUCCRE,30.0,15.0,83,1191,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-06-09,"LEAF, 3RD",3,PUCCRE,25.0,5.0,84,1192,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentA,5,2017,2017-06-28,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,70.0,70.0,86,1194,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-05-26,"LEAF, 3RD",3,ERYSGT,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-05-26,"LEAF, 3RD",3,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-05-26,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-05-26,"LEAF, 3RD",3,PYRNTR,2.375,0.1875,207,1225,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-05-26,"LEAF, 3RD",3,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-08,"LEAF, 3RD",3,ERYSGT,1.875,0.375,211,1229,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-08,"LEAF, 3RD",3,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-08,"LEAF, 3RD",3,PUCCST,2.25,0.0,210,1228,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-08,"LEAF, 3RD",3,PYRNTR,2.75,0.5625,209,1227,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-08,"LEAF, 3RD",3,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 2ND",2,ERYSGT,1.875,0.875,217,1235,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 2ND",2,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 2ND",2,PUCCST,5.25,0.875,218,1236,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 2ND",2,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 2ND",2,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 3RD",3,ERYSGT,2.125,0.875,214,1232,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 3RD",3,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 3RD",3,PUCCST,2.625,0.8125,215,1233,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 3RD",3,PYRNTR,2.875,0.5625,213,1231,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-20,"LEAF, 3RD",3,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-26,"LEAF, 2ND",2,ERYSGT,2.125,0.9375,220,1238,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-26,"LEAF, 2ND",2,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-26,"LEAF, 2ND",2,PUCCST,5.5,0.875,221,1239,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-26,"LEAF, 2ND",2,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentA,16,2017,2017-06-26,"LEAF, 2ND",2,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-05-19,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,0.0,0.0,295,1250,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-05-19,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-05-19,"LEAF, 2ND",2,PUCCSI,0.25,0.0,296,1251,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-05-19,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-05-19,"LEAF, 3RD",3,PUCCSI,4.0,0.75,297,1252,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-05-19,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-01,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,2.25,0.0,303,1258,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-01,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-01,"LEAF, 2ND",2,PUCCSI,5.0,0.0,304,1259,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-01,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-01,"LEAF, 3RD",3,PUCCSI,9.0,4.0,305,1260,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-01,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-09,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-09,"LEAF, 1ST / FLAG LEAF",1,PUCCST,11.0,0.0,311,1266,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-09,"LEAF, 2ND",2,PUCCSI,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-09,"LEAF, 2ND",2,PUCCST,13.5,1.5,312,1267,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-09,"LEAF, 3RD",3,PUCCSI,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentA,20,2017,2017-06-09,"LEAF, 3RD",3,PUCCST,15.25,9.75,313,1268,True,True,exact same leaf and actual date,False
+BASF|24|2018|TreatmentA,24,2018,2018-06-11,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|24|2018|TreatmentA,24,2018,2018-06-11,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|24|2018|TreatmentA,24,2018,2018-06-11,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|24|2018|TreatmentA,24,2018,2018-06-20,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|24|2018|TreatmentA,24,2018,2018-06-20,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|24|2018|TreatmentA,24,2018,2018-06-20,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|24|2018|TreatmentA,24,2018,2018-07-04,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|24|2018|TreatmentA,24,2018,2018-07-04,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|25|2018|TreatmentA,25,2018,2018-05-24,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|25|2018|TreatmentA,25,2018,2018-06-01,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,2.0,1.0,363,1307,True,True,exact same leaf and actual date,False
+BASF|25|2018|TreatmentA,25,2018,2018-06-01,"LEAF, 2ND",2,PUCCRE,4.0,1.0,362,1306,True,True,exact same leaf and actual date,False
+BASF|25|2018|TreatmentA,25,2018,2018-06-01,"LEAF, 3RD",3,PUCCRE,3.0,1.5,361,1305,True,True,exact same leaf and actual date,False
+BASF|25|2018|TreatmentA,25,2018,2018-06-15,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,40.0,20.0,367,1311,True,True,exact same leaf and actual date,False
+BASF|25|2018|TreatmentA,25,2018,2018-06-15,"LEAF, 2ND",2,PUCCRE,57.5,25.0,366,1310,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 2ND",2,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 2ND",2,ERYSGR,5.15,0.75,381,1320,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 2ND",2,PUCCST,3.25,1.0,378,1317,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 2ND",2,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 3RD",3,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 3RD",3,ERYSGR,9.65,2.7,380,1319,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 3RD",3,PUCCRE,10.8,2.9,382,1321,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 3RD",3,PUCCST,10.0,1.05,377,1316,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-05-26,"LEAF, 3RD",3,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 2ND",2,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 2ND",2,ERYSGR,9.25,2.0,389,1328,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 2ND",2,PUCCRE,8.95,1.05,391,1330,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 2ND",2,PUCCST,4.85,0.0,386,1325,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 2ND",2,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 3RD",3,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 3RD",3,ERYSGR,10.5,4.8,388,1327,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 3RD",3,PUCCRE,10.35,4.0,390,1329,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 3RD",3,PUCCST,8.25,0.0,385,1324,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-05,"LEAF, 3RD",3,PYRNTR,5.0,0.6,393,1332,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 1ST / FLAG LEAF",1,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,13.0,4.85,402,1341,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 1ST / FLAG LEAF",1,PUCCST,7.0,0.1,397,1336,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,11.75,3.95,400,1339,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 2ND",2,ERYSGA,5.05,0.0,398,1337,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 2ND",2,PUCCRE,12.75,6.0,401,1340,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 2ND",2,PUCCST,4.1,0.25,396,1335,True,True,exact same leaf and actual date,False
+BASF|26|2018|TreatmentA,26,2018,2018-06-15,"LEAF, 2ND",2,PYRNTR,20.0,5.5,399,1338,True,True,exact same leaf and actual date,False
+BASF|29|2018|TreatmentA,29,2018,2018-05-22,"LEAF, 3RD",3,PUCCST,35.0,0.75,446,1370,True,True,exact same leaf and actual date,False
+BASF|30|2018|TreatmentA,30,2018,2018-06-20,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|30|2018|TreatmentA,30,2018,2018-06-20,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|30|2018|TreatmentA,30,2018,2018-06-20,"LEAF, 2ND",2,PUCCRE,3.0,0.0,462,1380,True,True,exact same leaf and actual date,False
+BASF|30|2018|TreatmentA,30,2018,2018-06-20,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|30|2018|TreatmentA,30,2018,2018-06-27,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,3.25,0.75,466,1384,True,True,exact same leaf and actual date,False
+BASF|30|2018|TreatmentA,30,2018,2018-06-27,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|30|2018|TreatmentA,30,2018,2018-06-27,"LEAF, 2ND",2,PUCCRE,8.0,3.5,467,1385,True,True,exact same leaf and actual date,False
+BASF|30|2018|TreatmentA,30,2018,2018-06-27,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|31|2019|TreatmentA,31,2019,2019-05-22,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|31|2019|TreatmentA,31,2019,2019-06-01,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|31|2019|TreatmentA,31,2019,2019-06-01,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|31|2019|TreatmentA,31,2019,2019-06-07,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,5.0,0.0,481,1399,True,True,exact same leaf and actual date,False
+BASF|31|2019|TreatmentA,31,2019,2019-06-07,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|31|2019|TreatmentA,31,2019,2019-06-11,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,7.5,0.0,484,1402,True,True,exact same leaf and actual date,False
+BASF|31|2019|TreatmentA,31,2019,2019-06-11,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|32|2019|TreatmentA,32,2019,2019-05-22,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|32|2019|TreatmentA,32,2019,2019-06-01,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|32|2019|TreatmentA,32,2019,2019-06-01,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|32|2019|TreatmentA,32,2019,2019-06-07,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,4.0,0.0,497,1415,True,True,exact same leaf and actual date,False
+BASF|32|2019|TreatmentA,32,2019,2019-06-07,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|32|2019|TreatmentA,32,2019,2019-06-10,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,5.0,0.0,499,1417,True,True,exact same leaf and actual date,False
+BASF|33|2019|TreatmentA,33,2019,2019-05-15,"LEAF, 3RD",3,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|33|2019|TreatmentA,33,2019,2019-05-25,"LEAF, 2ND",2,PYRNTR,7.5,0.0,509,1427,True,True,exact same leaf and actual date,False
+BASF|33|2019|TreatmentA,33,2019,2019-05-25,"LEAF, 3RD",3,PYRNTR,10.0,0.0,508,1426,True,True,exact same leaf and actual date,False
+BASF|33|2019|TreatmentA,33,2019,2019-06-04,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,5.0,0.0,513,1431,True,True,exact same leaf and actual date,False
+BASF|33|2019|TreatmentA,33,2019,2019-06-04,"LEAF, 2ND",2,PYRNTR,13.75,1.0,512,1430,True,True,exact same leaf and actual date,False
+BASF|33|2019|TreatmentA,33,2019,2019-06-11,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,7.5,0.0,517,1435,True,True,exact same leaf and actual date,False
+BASF|33|2019|TreatmentA,33,2019,2019-06-11,"LEAF, 2ND",2,PYRNTR,17.5,3.0,516,1434,True,True,exact same leaf and actual date,False
+BASF|34|2019|TreatmentA,34,2019,2019-05-15,"LEAF, 3RD",3,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|34|2019|TreatmentA,34,2019,2019-05-25,"LEAF, 2ND",2,PYRNTR,4.0,0.0,526,1444,True,True,exact same leaf and actual date,False
+BASF|34|2019|TreatmentA,34,2019,2019-05-25,"LEAF, 3RD",3,PYRNTR,7.5,0.0,525,1443,True,True,exact same leaf and actual date,False
+BASF|34|2019|TreatmentA,34,2019,2019-06-04,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,5.0,0.0,532,1450,True,True,exact same leaf and actual date,False
+BASF|34|2019|TreatmentA,34,2019,2019-06-04,"LEAF, 2ND",2,PYRNTR,8.75,0.0,531,1449,True,True,exact same leaf and actual date,False
+BASF|34|2019|TreatmentA,34,2019,2019-06-04,"LEAF, 3RD",3,PYRNTR,13.75,0.0,530,1448,True,True,exact same leaf and actual date,False
+BASF|34|2019|TreatmentA,34,2019,2019-06-11,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,7.5,0.25,536,1454,True,True,exact same leaf and actual date,False
+BASF|34|2019|TreatmentA,34,2019,2019-06-11,"LEAF, 2ND",2,PYRNTR,13.75,1.0,535,1453,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-05-27,"LEAF, 2ND",2,ERYSGT,0.0,0.0,553,1462,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-05-27,"LEAF, 2ND",2,PUCCRE,0.0,0.0,556,1465,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-05-27,"LEAF, 3RD",3,ERYSGT,3.5,0.0,552,1461,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-05-27,"LEAF, 3RD",3,PUCCRE,1.0,0.0,555,1464,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-06,"LEAF, 1ST / FLAG LEAF",1,ERYSGT,0.0,0.0,562,1471,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-06,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,1.0,0.0,565,1474,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-06,"LEAF, 2ND",2,ERYSGT,1.0,0.0,561,1470,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-06,"LEAF, 2ND",2,PUCCRE,2.25,0.0,564,1473,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-06,"LEAF, 3RD",3,ERYSGT,4.25,2.0,560,1469,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-06,"LEAF, 3RD",3,PUCCRE,3.25,1.0,563,1472,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-14,"LEAF, 1ST / FLAG LEAF",1,ERYSGT,0.0,0.0,569,1478,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-14,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,2.5,1.0,571,1480,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-14,"LEAF, 2ND",2,ERYSGT,2.25,0.75,568,1477,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-14,"LEAF, 2ND",2,PUCCRE,5.25,1.0,570,1479,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-24,"LEAF, 1ST / FLAG LEAF",1,ERYSGT,,,,,False,False,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-24,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,46.25,17.5,575,1484,True,True,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-24,"LEAF, 2ND",2,ERYSGT,,,,,False,False,exact same leaf and actual date,False
+BASF|35|2019|TreatmentA,35,2019,2019-06-24,"LEAF, 2ND",2,PUCCRE,22.5,2.5,574,1483,True,True,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-10,"LEAF, 3RD",3,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-10,"LEAF, 3RD",3,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-10,"LEAF, 3RD",3,ERYSGT,11.25,2.5,582,1490,True,True,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-10,"LEAF, 3RD",3,PUCCRT,17.5,1.0,581,1489,True,True,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-10,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 2ND",2,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 2ND",2,ERYSGT,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 2ND",2,PUCCRT,60.0,18.75,585,1493,True,True,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 3RD",3,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 3RD",3,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 3RD",3,ERYSGT,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-19,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-28,"LEAF, 2ND",2,ERYSGA,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-28,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-28,"LEAF, 2ND",2,ERYSGT,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-28,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|36|2019|TreatmentA,36,2019,2019-06-28,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-05,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,1.75,2.25,608,1508,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-05,"LEAF, 1ST / FLAG LEAF",1,PUCCST,10.75,1.5,605,1505,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-05,"LEAF, 2ND",2,PUCCRT,5.5,0.0,609,1509,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-05,"LEAF, 2ND",2,PUCCST,9.0,1.25,606,1506,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-05,"LEAF, 3RD",3,PUCCRT,3.5,0.5,610,1510,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-05,"LEAF, 3RD",3,PUCCST,8.5,0.5,607,1507,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-24,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,12.5,3.5,617,1517,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-24,"LEAF, 1ST / FLAG LEAF",1,PUCCST,21.25,2.75,614,1514,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-24,"LEAF, 2ND",2,PUCCRT,10.75,2.75,618,1518,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-24,"LEAF, 2ND",2,PUCCST,17.5,2.0,615,1515,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-24,"LEAF, 3RD",3,PUCCRT,6.75,0.5,619,1519,True,True,exact same leaf and actual date,False
+BASF|37|2019|TreatmentA,37,2019,2019-06-24,"LEAF, 3RD",3,PUCCST,16.25,1.0,616,1516,True,True,exact same leaf and actual date,False
+BASF|38|2019|TreatmentA,38,2019,2019-06-11,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,1.5,0.0,630,1522,True,True,exact same leaf and actual date,False
+BASF|38|2019|TreatmentA,38,2019,2019-06-11,"LEAF, 2ND",2,PYRNTR,7.0,1.75,631,1523,True,True,exact same leaf and actual date,False
+BASF|38|2019|TreatmentA,38,2019,2019-06-11,"LEAF, 3RD",3,PYRNTR,6.25,2.75,632,1524,True,True,exact same leaf and actual date,False
+BASF|38|2019|TreatmentA,38,2019,2019-06-17,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,8.75,2.75,636,1528,True,True,exact same leaf and actual date,False
+BASF|38|2019|TreatmentA,38,2019,2019-06-17,"LEAF, 2ND",2,PYRNTR,19.75,7.0,637,1529,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,4.75,2.25,649,1538,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 1ST / FLAG LEAF",1,PUCCST,1.0,0.0,655,1544,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,1.0,1.0,646,1535,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 2ND",2,PUCCRT,7.25,1.75,650,1539,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 2ND",2,PUCCST,1.0,0.0,656,1545,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 2ND",2,PYRNTR,3.25,1.25,647,1536,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 3RD",3,PUCCRT,3.0,1.0,651,1540,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 3RD",3,PUCCST,1.0,0.0,657,1546,True,True,exact same leaf and actual date,False
+BASF|39|2019|TreatmentA,39,2019,2019-06-20,"LEAF, 3RD",3,PYRNTR,7.25,3.0,648,1537,True,True,exact same leaf and actual date,False
+BASF|48|2019|TreatmentA,48,2019,2019-05-27,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,2.0,1.0,745,1609,True,True,exact same leaf and actual date,False
+BASF|48|2019|TreatmentA,48,2019,2019-05-27,"LEAF, 2ND",2,PUCCRT,3.0,2.0,744,1608,True,True,exact same leaf and actual date,False
+BASF|48|2019|TreatmentA,48,2019,2019-05-27,"LEAF, 3RD",3,PUCCRT,3.0,3.0,743,1607,True,True,exact same leaf and actual date,False
+BASF|48|2019|TreatmentA,48,2019,2019-06-07,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,20.0,3.0,751,1615,True,True,exact same leaf and actual date,False
+BASF|48|2019|TreatmentA,48,2019,2019-06-07,"LEAF, 2ND",2,PUCCRT,30.0,5.0,750,1614,True,True,exact same leaf and actual date,False
+BASF|48|2019|TreatmentA,48,2019,2019-06-07,"LEAF, 3RD",3,PUCCRT,25.0,5.5,749,1613,True,True,exact same leaf and actual date,False
+BASF|48|2019|TreatmentA,48,2019,2019-06-20,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,50.0,45.0,755,1619,True,True,exact same leaf and actual date,False
+BASF|48|2019|TreatmentA,48,2019,2019-06-20,"LEAF, 2ND",2,PUCCRT,50.0,36.25,754,1618,True,True,exact same leaf and actual date,False
+BASF|49|2019|TreatmentA,49,2019,2019-06-06,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|49|2019|TreatmentA,49,2019,2019-06-17,"LEAF, 2ND",2,PUCCRT,9.25,6.25,766,1629,True,True,exact same leaf and actual date,False
+BASF|49|2019|TreatmentA,49,2019,2019-06-17,"LEAF, 3RD",3,PUCCRT,20.25,12.75,765,1628,True,True,exact same leaf and actual date,False
+BASF|49|2019|TreatmentA,49,2019,2019-06-21,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,29.0,10.0,771,1634,True,True,exact same leaf and actual date,False
+BASF|49|2019|TreatmentA,49,2019,2019-06-21,"LEAF, 2ND",2,PUCCRT,40.0,12.0,770,1633,True,True,exact same leaf and actual date,False
+BASF|50|2019|TreatmentA,50,2019,2019-06-13,"LEAF, 3RD",3,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|51|2019|TreatmentA,51,2019,2019-06-03,"LEAF, 3RD",3,ERYSGR,6.05,3.1,784,1645,True,True,exact same leaf and actual date,False
+BASF|51|2019|TreatmentA,51,2019,2019-06-03,"LEAF, 3RD",3,PUCCRT,2.6,0.2,782,1643,True,True,exact same leaf and actual date,False
+BASF|51|2019|TreatmentA,51,2019,2019-06-13,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,1.0,0.0,791,1652,True,True,exact same leaf and actual date,False
+BASF|51|2019|TreatmentA,51,2019,2019-06-13,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,0.3,0.0,789,1650,True,True,exact same leaf and actual date,False
+BASF|51|2019|TreatmentA,51,2019,2019-06-13,"LEAF, 2ND",2,ERYSGR,6.55,0.3,790,1651,True,True,exact same leaf and actual date,False
+BASF|51|2019|TreatmentA,51,2019,2019-06-13,"LEAF, 2ND",2,PUCCRT,1.2,0.0,788,1649,True,True,exact same leaf and actual date,False
+BASF|51|2019|TreatmentA,51,2019,2019-06-23,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,2.05,0.0,795,1656,True,True,exact same leaf and actual date,False
+BASF|51|2019|TreatmentA,51,2019,2019-06-23,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,13.1,2.0,794,1655,True,True,exact same leaf and actual date,False
+BASF|52|2019|TreatmentA,52,2019,2019-05-31,"LEAF, 3RD",3,PUCCRT,0.5125,0.0,802,1663,True,True,exact same leaf and actual date,False
+BASF|52|2019|TreatmentA,52,2019,2019-06-10,"LEAF, 2ND",2,PUCCRT,5.545,0.2975,806,1667,True,True,exact same leaf and actual date,False
+BASF|52|2019|TreatmentA,52,2019,2019-06-10,"LEAF, 3RD",3,PUCCRT,4.3825,0.2525,805,1666,True,True,exact same leaf and actual date,False
+BASF|52|2019|TreatmentA,52,2019,2019-06-20,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,2.54,0.597,810,1671,True,True,exact same leaf and actual date,False
+BASF|52|2019|TreatmentA,52,2019,2019-06-20,"LEAF, 2ND",2,PUCCRT,7.385,2.4925,809,1670,True,True,exact same leaf and actual date,False
+BASF|53|2019|TreatmentA,53,2019,2019-06-10,"LEAF, 3RD",3,PUCCRT,2.775,0.125,820,1678,True,True,exact same leaf and actual date,False
+BASF|53|2019|TreatmentA,53,2019,2019-06-10,"LEAF, 3RD",3,PUCCST,5.4,0.125,821,1679,True,True,exact same leaf and actual date,False
+BASF|53|2019|TreatmentA,53,2019,2019-06-10,"LEAF, 3RD",3,PYRNTR,2.75,0.2,818,1676,True,True,exact same leaf and actual date,False
+BASF|53|2019|TreatmentA,53,2019,2019-06-20,"LEAF, 2ND",2,PUCCRT,7.325,0.15,824,1682,True,True,exact same leaf and actual date,False
+BASF|53|2019|TreatmentA,53,2019,2019-06-20,"LEAF, 2ND",2,PUCCST,1.025,0.025,825,1683,True,True,exact same leaf and actual date,False
+BASF|53|2019|TreatmentA,53,2019,2019-06-20,"LEAF, 2ND",2,PYRNTR,3.125,0.15,822,1680,True,True,exact same leaf and actual date,False
+BASF|54|2019|TreatmentA,54,2019,2019-06-13,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,6.25,0.0,833,1688,True,True,exact same leaf and actual date,False
+BASF|54|2019|TreatmentA,54,2019,2019-06-13,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|54|2019|TreatmentA,54,2019,2019-06-13,"LEAF, 2ND",2,PUCCSI,4.5,0.0,834,1689,True,True,exact same leaf and actual date,False
+BASF|54|2019|TreatmentA,54,2019,2019-06-13,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|54|2019|TreatmentA,54,2019,2019-06-24,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,,,,,False,False,exact same leaf and actual date,False
+BASF|54|2019|TreatmentA,54,2019,2019-06-24,"LEAF, 1ST / FLAG LEAF",1,PUCCST,10.0,0.0,837,1692,True,True,exact same leaf and actual date,False
+BASF|54|2019|TreatmentA,54,2019,2019-06-24,"LEAF, 2ND",2,PUCCSI,,,,,False,False,exact same leaf and actual date,False
+BASF|54|2019|TreatmentA,54,2019,2019-06-24,"LEAF, 2ND",2,PUCCST,5.0,0.0,838,1693,True,True,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-09,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-09,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-09,"LEAF, 1ST / FLAG LEAF",1,PUCCST,5.5,0.0,854,1703,True,True,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-09,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-09,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-09,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-09,"LEAF, 2ND",2,PUCCST,2.15,0.0,855,1704,True,True,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-09,"LEAF, 2ND",2,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-19,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-19,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-19,"LEAF, 1ST / FLAG LEAF",1,PUCCST,10.0,0.0,858,1707,True,True,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-19,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-19,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-19,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-19,"LEAF, 2ND",2,PUCCST,3.35,0.0,859,1708,True,True,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-19,"LEAF, 2ND",2,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-28,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-28,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,14.25,2.05,863,1712,True,True,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-28,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|56|2019|TreatmentA,56,2019,2019-06-28,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,7.25,0.0,864,1713,True,True,exact same leaf and actual date,False
+BASF|57|2019|TreatmentA,57,2019,2019-06-10,"LEAF, 3RD",3,PUCCRT,2.375,0.125,872,1718,True,True,exact same leaf and actual date,False
+BASF|57|2019|TreatmentA,57,2019,2019-06-10,"LEAF, 3RD",3,PUCCST,5.9,0.15,873,1719,True,True,exact same leaf and actual date,False
+BASF|57|2019|TreatmentA,57,2019,2019-06-10,"LEAF, 3RD",3,PYRNTR,2.2,0.175,870,1716,True,True,exact same leaf and actual date,False
+BASF|57|2019|TreatmentA,57,2019,2019-06-20,"LEAF, 2ND",2,PUCCRT,6.875,0.125,876,1722,True,True,exact same leaf and actual date,False
+BASF|57|2019|TreatmentA,57,2019,2019-06-20,"LEAF, 2ND",2,PUCCST,0.975,0.075,877,1723,True,True,exact same leaf and actual date,False
+BASF|57|2019|TreatmentA,57,2019,2019-06-20,"LEAF, 2ND",2,PYRNTR,2.6,0.175,874,1720,True,True,exact same leaf and actual date,False
+BASF|59|2019|TreatmentA,59,2019,2019-06-13,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-04,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-04,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-04,"LEAF, 3RD",3,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-14,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-14,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-14,"LEAF, 3RD",3,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-24,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-24,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-05-24,"LEAF, 3RD",3,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-06-03,"LEAF, 1ST / FLAG LEAF",1,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|60|2019|TreatmentA,60,2019,2019-06-03,"LEAF, 2ND",2,ERYSGR,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-15,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-15,"LEAF, 1ST / FLAG LEAF",1,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-15,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-15,"LEAF, 2ND",2,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-15,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-15,"LEAF, 3RD",3,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-25,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-25,"LEAF, 1ST / FLAG LEAF",1,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-25,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-25,"LEAF, 2ND",2,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-25,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-05-25,"LEAF, 3RD",3,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-06-05,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-06-05,"LEAF, 1ST / FLAG LEAF",1,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-06-05,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-06-05,"LEAF, 2ND",2,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-06-05,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|61|2019|TreatmentA,61,2019,2019-06-05,"LEAF, 3RD",3,ZZYYFF,,,,,False,False,exact same leaf and actual date,False
+BASF|64|2019|TreatmentA,64,2019,2019-06-08,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|64|2019|TreatmentA,64,2019,2019-06-16,"LEAF, 2ND",2,PUCCRE,1.5,0.0,959,1800,True,True,exact same leaf and actual date,False
+BASF|64|2019|TreatmentA,64,2019,2019-06-24,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,17.1875,0.25,963,1804,True,True,exact same leaf and actual date,False
+BASF|64|2019|TreatmentA,64,2019,2019-06-24,"LEAF, 2ND",2,PUCCRE,8.125,0.9375,962,1803,True,True,exact same leaf and actual date,False
+BASF|66|2019|TreatmentA,66,2019,2019-06-10,"LEAF, 2ND",2,PUCCRT,5.5,1.0,989,1820,True,True,exact same leaf and actual date,False
+BASF|66|2019|TreatmentA,66,2019,2019-06-10,"LEAF, 3RD",3,PUCCRT,10.5,1.75,990,1821,True,True,exact same leaf and actual date,False
+BASF|66|2019|TreatmentA,66,2019,2019-06-21,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,57.5,13.75,994,1824,True,True,exact same leaf and actual date,False
+BASF|66|2019|TreatmentA,66,2019,2019-06-21,"LEAF, 2ND",2,PUCCRT,67.5,20.0,995,1825,True,True,exact same leaf and actual date,False
+BASF|66|2019|TreatmentA,66,2019,2019-07-01,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|67|2019|TreatmentA,67,2019,2019-06-11,"LEAF, 3RD",3,PUCCRT,60.0,20.0,1006,1834,True,True,exact same leaf and actual date,False
+BASF|67|2019|TreatmentA,67,2019,2019-06-21,"LEAF, 3RD",3,PUCCRT,80.0,35.0,1009,1837,True,True,exact same leaf and actual date,False
+BASF|67|2019|TreatmentA,67,2019,2019-07-02,"LEAF, 2ND",2,PUCCRT,100.0,82.5,1012,1840,True,True,exact same leaf and actual date,False
+BASF|67|2019|TreatmentA,67,2019,2019-07-02,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|68|2019|TreatmentA,68,2019,2019-06-24,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,2.5,0.5625,1024,1848,True,True,exact same leaf and actual date,False
+BASF|68|2019|TreatmentA,68,2019,2019-06-24,"LEAF, 2ND",2,PUCCRT,2.75,0.75,1022,1846,True,True,exact same leaf and actual date,False
+BASF|68|2019|TreatmentA,68,2019,2019-07-03,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,5.0,2.1875,1028,1852,True,True,exact same leaf and actual date,False
+BASF|68|2019|TreatmentA,68,2019,2019-07-03,"LEAF, 2ND",2,PUCCRT,5.6875,2.5,1026,1850,True,True,exact same leaf and actual date,False
+BASF|69|2019|TreatmentA,69,2019,2019-05-31,"LEAF, 3RD",3,PUCCST,83.75,11.25,1049,1863,True,True,exact same leaf and actual date,False
+BASF|71|2019|TreatmentA,71,2019,2019-05-31,"LEAF, 2ND",2,PUCCST,14.75,0.0,1082,1882,True,True,exact same leaf and actual date,False
+BASF|71|2019|TreatmentA,71,2019,2019-05-31,"LEAF, 3RD",3,PUCCST,23.75,1.25,1083,1883,True,True,exact same leaf and actual date,False
+BASF|71|2019|TreatmentA,71,2019,2019-06-07,"LEAF, 3RD",3,PUCCST,100.0,1.75,1088,1888,True,True,exact same leaf and actual date,False
+BASF|76|2017|TreatmentA,76,2017,2017-06-22,"LEAF, 2ND",2,PUCCRT,7.0,0.625,1157,1894,True,True,exact same leaf and actual date,False
+BASF|76|2017|TreatmentA,76,2017,2017-06-22,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-05-25,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-05-25,"LEAF, 2ND",2,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-05-25,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-06-06,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,0.5,0.0,48,1958,True,True,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-06-06,"LEAF, 2ND",2,PUCCRE,0.25,0.0,49,1959,True,True,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-06-06,"LEAF, 3RD",3,PUCCRE,0.0,0.0,50,1960,True,True,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-06-16,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,1.5,0.0,54,1964,True,True,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-06-16,"LEAF, 2ND",2,PUCCRE,1.5,0.0,55,1965,True,True,exact same leaf and actual date,False
+BASF|4|2017|TreatmentC,4,2017,2017-06-16,"LEAF, 3RD",3,PUCCRE,0.5,0.0,56,1966,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-05-03,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-05-10,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-05-19,"LEAF, 2ND",2,PUCCRE,1.0,0.0,68,1976,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-05-19,"LEAF, 3RD",3,PUCCRE,1.25,0.0,69,1977,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-05-30,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,0.5,0.0,75,1983,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-05-30,"LEAF, 2ND",2,PUCCRE,2.0,1.0,76,1984,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-05-30,"LEAF, 3RD",3,PUCCRE,4.0,1.0,77,1985,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-06-09,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,30.0,7.25,82,1990,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-06-09,"LEAF, 2ND",2,PUCCRE,30.0,8.25,83,1991,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-06-09,"LEAF, 3RD",3,PUCCRE,25.0,5.0,84,1992,True,True,exact same leaf and actual date,False
+BASF|5|2017|TreatmentC,5,2017,2017-06-28,"LEAF, 1ST / FLAG LEAF",1,PUCCRE,70.0,70.0,86,1994,True,True,exact same leaf and actual date,False
+BASF|12|2017|TreatmentC,12,2017,2017-06-12,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|12|2017|TreatmentC,12,2017,2017-06-12,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|12|2017|TreatmentC,12,2017,2017-06-21,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,1.75,0.5,165,2050,True,True,exact same leaf and actual date,False
+BASF|12|2017|TreatmentC,12,2017,2017-06-21,"LEAF, 1ST / FLAG LEAF",1,PUCCST,2.25,0.5,167,2052,True,True,exact same leaf and actual date,False
+BASF|12|2017|TreatmentC,12,2017,2017-06-21,"LEAF, 2ND",2,PUCCRT,2.25,1.0,164,2049,True,True,exact same leaf and actual date,False
+BASF|12|2017|TreatmentC,12,2017,2017-06-21,"LEAF, 2ND",2,PUCCST,2.0,1.0,166,2051,True,True,exact same leaf and actual date,False
+BASF|14|2017|TreatmentC,14,2017,2017-06-21,"LEAF, 3RD",3,PUCCRE,,,,,False,False,exact same leaf and actual date,False
+BASF|14|2017|TreatmentC,14,2017,2017-06-21,"LEAF, 3RD",3,PYRNTR,25.0,5.0,182,2065,True,True,exact same leaf and actual date,False
+BASF|15|2017|TreatmentC,15,2017,2017-07-03,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,1.0,0.25,191,2073,True,True,exact same leaf and actual date,False
+BASF|15|2017|TreatmentC,15,2017,2017-07-03,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,0.25,0.0,194,2076,True,True,exact same leaf and actual date,False
+BASF|15|2017|TreatmentC,15,2017,2017-07-03,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,3.25,0.5,192,2074,True,True,exact same leaf and actual date,False
+BASF|15|2017|TreatmentC,15,2017,2017-07-13,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,6.5,0.25,197,2079,True,True,exact same leaf and actual date,False
+BASF|15|2017|TreatmentC,15,2017,2017-07-13,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,1.0,0.0,198,2080,True,True,exact same leaf and actual date,False
+BASF|15|2017|TreatmentC,15,2017,2017-07-13,"LEAF, 1ST / FLAG LEAF",1,PYRNTR,9.75,3.75,195,2077,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-05-26,"LEAF, 3RD",3,ERYSGT,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-05-26,"LEAF, 3RD",3,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-05-26,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-05-26,"LEAF, 3RD",3,PYRNTR,2.375,0.1875,207,2088,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-05-26,"LEAF, 3RD",3,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-08,"LEAF, 3RD",3,ERYSGT,1.875,0.375,211,2092,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-08,"LEAF, 3RD",3,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-08,"LEAF, 3RD",3,PUCCST,2.25,0.0,210,2091,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-08,"LEAF, 3RD",3,PYRNTR,2.75,0.1875,209,2090,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-08,"LEAF, 3RD",3,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 2ND",2,ERYSGT,1.875,0.5625,217,2098,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 2ND",2,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 2ND",2,PUCCST,5.25,0.25,218,2099,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 2ND",2,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 2ND",2,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 3RD",3,ERYSGT,2.125,0.4375,214,2095,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 3RD",3,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 3RD",3,PUCCST,2.625,0.125,215,2096,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 3RD",3,PYRNTR,2.875,0.1875,213,2094,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-20,"LEAF, 3RD",3,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-26,"LEAF, 2ND",2,ERYSGT,2.125,0.625,220,2101,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-26,"LEAF, 2ND",2,FUSASP,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-26,"LEAF, 2ND",2,PUCCST,5.5,0.25,221,2102,True,True,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-26,"LEAF, 2ND",2,PYRNTR,,,,,False,False,exact same leaf and actual date,False
+BASF|16|2017|TreatmentC,16,2017,2017-06-26,"LEAF, 2ND",2,RHIZSP,,,,,False,False,exact same leaf and actual date,False
+BASF|17|2017|TreatmentC,17,2017,2017-06-10,"LEAF, 3RD",3,PUCCRT,4.5,0.0,233,2112,True,True,exact same leaf and actual date,False
+BASF|17|2017|TreatmentC,17,2017,2017-06-10,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|18|2017|TreatmentC,18,2017,2017-06-21,"LEAF, 2ND",2,PUCCRT,6.0,0.0,249,2123,True,True,exact same leaf and actual date,False
+BASF|18|2017|TreatmentC,18,2017,2017-06-21,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|18|2017|TreatmentC,18,2017,2017-07-04,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,30.0,0.0,254,2128,True,True,exact same leaf and actual date,False
+BASF|18|2017|TreatmentC,18,2017,2017-07-04,"LEAF, 2ND",2,PUCCRT,40.0,0.0,253,2127,True,True,exact same leaf and actual date,False
+BASF|19|2017|TreatmentC,19,2017,2017-06-08,"LEAF, 2ND",2,PUCCST,40.0,18.75,276,2141,True,True,exact same leaf and actual date,False
+BASF|19|2017|TreatmentC,19,2017,2017-06-08,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|19|2017|TreatmentC,19,2017,2017-06-29,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|19|2017|TreatmentC,19,2017,2017-06-29,"LEAF, 2ND",2,PUCCST,26.25,6.0,282,2147,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-05-19,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,0.0,0.0,295,2154,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-05-19,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-05-19,"LEAF, 2ND",2,PUCCSI,0.25,0.0,296,2155,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-05-19,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-05-19,"LEAF, 3RD",3,PUCCSI,4.0,0.25,297,2156,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-05-19,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-01,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,2.25,0.0,303,2162,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-01,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-01,"LEAF, 2ND",2,PUCCSI,5.0,0.0,304,2163,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-01,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-01,"LEAF, 3RD",3,PUCCSI,9.0,2.25,305,2164,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-01,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-09,"LEAF, 1ST / FLAG LEAF",1,PUCCSI,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-09,"LEAF, 1ST / FLAG LEAF",1,PUCCST,11.0,0.0,311,2170,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-09,"LEAF, 2ND",2,PUCCSI,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-09,"LEAF, 2ND",2,PUCCST,13.5,0.0,312,2171,True,True,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-09,"LEAF, 3RD",3,PUCCSI,,,,,False,False,exact same leaf and actual date,False
+BASF|20|2017|TreatmentC,20,2017,2017-06-09,"LEAF, 3RD",3,PUCCST,15.25,3.5,313,2172,True,True,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-04,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-04,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-04,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-04,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-14,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-14,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-14,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-14,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-21,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-21,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-21,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-21,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-21,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-06-21,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-07-02,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,15.0,0.0,1124,2202,True,True,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-07-02,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-07-02,"LEAF, 2ND",2,PUCCRT,20.0,0.0,1123,2201,True,True,exact same leaf and actual date,False
+BASF|73|2019|TreatmentC,73,2019,2019-07-02,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|76|2017|TreatmentC,76,2017,2017-06-22,"LEAF, 2ND",2,PUCCRT,7.0,0.0,1157,2222,True,True,exact same leaf and actual date,False
+BASF|76|2017|TreatmentC,76,2017,2017-06-22,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-04,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-04,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-04,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-04,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-14,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-14,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-14,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-14,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-21,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-21,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-21,"LEAF, 2ND",2,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-21,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-21,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-06-21,"LEAF, 3RD",3,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-07-02,"LEAF, 1ST / FLAG LEAF",1,PUCCRT,15.0,2.75,1124,2253,True,True,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-07-02,"LEAF, 1ST / FLAG LEAF",1,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-07-02,"LEAF, 2ND",2,PUCCRT,20.0,1.5,1123,2252,True,True,exact same leaf and actual date,False
+BASF|73|2019|TreatmentD,73,2019,2019-07-02,"LEAF, 2ND",2,PUCCST,,,,,False,False,exact same leaf and actual date,False
+BASF|76|2017|TreatmentD,76,2017,2017-06-22,"LEAF, 2ND",2,PUCCRT,7.0,0.15,1157,2273,True,True,exact same leaf and actual date,False
+BASF|76|2017|TreatmentD,76,2017,2017-06-22,"LEAF, 3RD",3,PUCCRT,,,,,False,False,exact same leaf and actual date,False

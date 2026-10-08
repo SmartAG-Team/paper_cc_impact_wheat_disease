@@ -1,0 +1,16 @@
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.18.1
+numba==0.68.0
+matplotlib==3.11.2
+geopandas==1.2.0
+shapely==2.1.2
+pyproj==3.8.0
+pyogrio==0.13.0
+reportlab==5.0.1
+python-docx==1.2.0
+openpyxl==3.1.5
+Pillow==12.3.0
+requests==2.34.2
+pymupdf==1.28.2

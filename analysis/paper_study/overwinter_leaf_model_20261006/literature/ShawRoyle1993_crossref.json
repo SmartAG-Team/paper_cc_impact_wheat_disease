@@ -1,0 +1,73 @@
+{
+  "DOI": "10.1111/j.1365-3059.1993.tb02674.x",
+  "title": [
+    "Factors determining the severity of epidemics of\n                    <i>Mycosphaerella graminicola (Septoria tritici)</i>\n                    on winter wheat in the UK"
+  ],
+  "author": [
+    {
+      "given": "M. W.",
+      "family": "SHAW",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "D. J.",
+      "family": "ROYLE",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Plant Pathology"
+  ],
+  "volume": "42",
+  "issue": "6",
+  "page": "882-899",
+  "published": {
+    "date-parts": [
+      [
+        1993,
+        12
+      ]
+    ]
+  },
+  "published-print": {
+    "date-parts": [
+      [
+        1993,
+        12
+      ]
+    ]
+  },
+  "published-online": {
+    "date-parts": [
+      [
+        2007,
+        4,
+        5
+      ]
+    ]
+  },
+  "issued": {
+    "date-parts": [
+      [
+        1993,
+        12
+      ]
+    ]
+  },
+  "abstract": "<jats:p>\n                    Epidemics of disease caused by\n                    <jats:italic>Septoria tritici</jats:italic>\n                    were studied in detail in 11 crops of winter wheat cv. Longbow over 4 years. Serious damage to the uppermost two leaf layers was caused by splash‐borne infection from lower in the crop early in the life of the leaves, followed by one or rarely two cycles of multiplication within a leaf layer. Infection conditions rarely limited damage, even in a dry year; the timing and, to a lesser extent, amount of initial inoculum movement to an upper leaf layer was of greater importance. Timing of initial infection was determined by when rain splash occurred in relation to emergence of a leaf layer. Occurrence of infections soon after a leaf layer started to emerge allowed more time for multiplication of disease within that layer. These infections tended to be more severe because the leaves were closer to inoculum sources within the crop. Slight differences in phenology between locations explain why initially random disease distributions sometimes become aggregated. Early‐sown crops are at greater risk because they mature more slowly, allowing more disease multiplication and better transfer between leaf layers.\n                  </jats:p>",
+  "URL": "https://doi.org/10.1111/j.1365-3059.1993.tb02674.x"
+}

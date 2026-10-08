@@ -1,0 +1,13 @@
+Authorized scope: seasonal occurrence, inferred infection date, censored visible-onset validation, untreated severity, thirty-year ERA5 baseline, whole-European wheat land-use aggregation and three climate scenarios.
+
+1. Preserve existing source archives and assessment-initialized model results.
+2. Audit source-compatible seasonal targets and obtain additional independent untreated field data.
+3. Implement censoring-aware endpoint scores and independent-unit calibration/validation membership. Verify absence of shared field seasons across partitions.
+4. Implement a season-start SEIR predictor with daily comparable weather forcing, crop-dependent host availability, new-leaf dilution and separate external/secondary route bookkeeping. Verify mass conservation, bounded fractions, absence of disease before host establishment and prevention of transport from inactive cohorts.
+5. Derive field inputs from documented sowing and phenology; publish calendar-prior sensitivity where observed sowing is absent.
+6. Freeze membership and input hashes, calibrate on the calibration partition, evaluate the validation partition and retain simpler benchmarks and ablations.
+7. Verify full wheat-area grid, crop-calendar allocation, ERA5 baseline and multi-model climate forcing coverage. Use historical-only bias adjustment.
+8. Run the frozen model over all declared wheat grid cells and harvest years, aggregate with correct area denominators and map validated quantities with extrapolation flags.
+9. Assemble formal manuscript, source references, inspectable tables, publication figures, supplementary methods and reproduction instructions. Verify every numerical statement against archived outputs.
+
+Delegated ownership: observations, wheat-area and meteorological acquisition each have separate paper_study subdirectories. Parent owns seasonal model, calibration, statistics, integration and manuscript. Existing model/primary_secondary and its frozen analytical archives remain unchanged.

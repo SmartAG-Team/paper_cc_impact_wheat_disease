@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "scope": "Figure 2 visualization and publication exports",
+  "field_stage_records": 56,
+  "performance_groups": [
+    {
+      "partition": "reused_development_2019",
+      "bbch": 37,
+      "field_stage_records": 3,
+      "compatible": 1,
+      "mean_interval_excess_days": 3.6666666666666665
+    },
+    {
+      "partition": "reused_development_2019",
+      "bbch": 39,
+      "field_stage_records": 4,
+      "compatible": 3,
+      "mean_interval_excess_days": 0.5
+    },
+    {
+      "partition": "reused_external_strict",
+      "bbch": 37,
+      "field_stage_records": 19,
+      "compatible": 12,
+      "mean_interval_excess_days": 2.3684210526315788
+    },
+    {
+      "partition": "reused_external_strict",
+      "bbch": 39,
+      "field_stage_records": 30,
+      "compatible": 24,
+      "mean_interval_excess_days": 1.1333333333333333
+    }
+  ],
+  "field_scores_unchanged": true,
+  "manuscript_body_tables_and_references_unchanged": true,
+  "other_figure_pngs_unchanged": true,
+  "docx_figure2_matches_export": true,
+  "manuscript_pdf_pages": 17,
+  "figure2_manuscript_pdf_page": 14,
+  "source_workbook_sheets": 18,
+  "source_workbook_original_data_sheets_unchanged": true,
+  "observation_bounds": "last below-stage date + 1 day through first at-or-above-stage date",
+  "interval_centres": "display positions only, not observed event dates",
+  "visual_review": "standalone PNG and manuscript PDF page inspected; labels fit within the exports",
+  "source_sha256": {
+    "analysis/paper_study/overwinter_leaf_model_20261006/manuscript/figures.py": "80173b24fd080f22693f882ceea00ce7d5664c177a5ac353827a11c110892de0",
+    "analysis/paper_study/overwinter_leaf_model_20261006/manuscript/flag_stage_figure.py": "68c196a2db2b98f4be95e09a67d10eb053fb92e00ba1dbd2f7572164f61cac16",
+    "analysis/paper_study/overwinter_leaf_model_20261006/manuscript/build.py": "b6d049cca1963bbf8ac938b2d12a6e3ad9cfa01d101087ca99272b4e1d7597a1",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/stage_censoring_scores.csv": "93973a7e111cbb43b5f09b2d637c3e59241188aac05fd30f9c5b35c97c405293",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/stage_censoring_metrics.csv": "88501c2466150086815e97f83eb384e1773eca2e4efa1b0b82329e7122451590"
+  },
+  "runtime_calibration_and_scientific_evidence_sources_unchanged": true,
+  "archive_unchanged": true
+}

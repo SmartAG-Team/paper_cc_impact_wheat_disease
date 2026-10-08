@@ -1,0 +1,46 @@
+[
+  {
+    "figure": "figS15_archived_domain",
+    "original_figure": "fig1_domain_and_model",
+    "model_version": "archived seasonal-v1",
+    "source_png": "publication/european_wheat_stb_before_overwinter_oop_20261006/figures/fig1_domain_and_model.png",
+    "source_pdf": "publication/european_wheat_stb_before_overwinter_oop_20261006/figures/fig1_domain_and_model.pdf",
+    "png_sha256": "a46837bdd6cf2132b5b143c8dfafc20686dbedcfbdd917276c1ff18265f5af98",
+    "pdf_sha256": "963c0cb2f99000d6857db515be37c732c7f7d4f0bf1dbd2b268cfb84772c4441",
+    "original_caption": "Figure 1 | European wheat production exposure, field evidence and seasonal model. a, SPAM2020 reference wheat production, summed to 0.25\u00b0 cells under the declared geographical boundary. Tonnes describe fixed production exposure rather than simulated disease loss. Symbols identify rounded field-coordinate locations, including the full external source scope; overlapping locations are not displaced. The strict external benchmark excludes locations shared with the original development archive. Uncoloured land is outside displayed positive wheat support and does not establish verified crop absence. b, Susceptible cohorts acquire infection through effective external pressure and infectious-cohort transmission. Origin labels remain distinct through latent, visible nonsporulating, infectious and retained-damage states. Crop development controls cohort availability. The diagram shows model structure; it does not validate spore identities or estimated transmission contributions.",
+    "current_model_validation": false
+  },
+  {
+    "figure": "figS16_archived_era5_baseline",
+    "original_figure": "fig3_era5_baseline",
+    "model_version": "archived seasonal-v1",
+    "source_png": "publication/european_wheat_stb_before_overwinter_oop_20261006/figures/fig3_era5_baseline.png",
+    "source_pdf": "publication/european_wheat_stb_before_overwinter_oop_20261006/figures/fig3_era5_baseline.pdf",
+    "png_sha256": "b1e4d4a900f9285ef739255fe644e337800605a6ddb5fd0f24d06603937d6130",
+    "pdf_sha256": "863275879a3595602e76ef9a37e768fac1a7dc3c7285452a4b8917d154f8cc49",
+    "original_caption": "Figure 3 | Conditional European baseline under 1991\u20132020 ERA5 weather. a, Mean final upper-three damage at predicted soft dough. b, Fraction of completed years with final upper-three damage\u226550%; this is a modelled diagnostic frequency, not an observed occurrence probability or treatment threshold. c, First 5% visibility on the individual flag cohort, in days since the scenario sowing date. It is not onset of the upper-three mean. Maps apply the winter-rainfed calendar to fixed all-wheat 2020 exposure and average completed years, with valid-year counts in source data. d, Annual harvested-area-weighted means under two separately applied full-area calendar scenarios. Spring development disables vernalization while transferring winter stage thresholds. The curves are nonadditive calendar sensitivities. No missing crop outcome is set to zero.",
+    "current_model_validation": false
+  },
+  {
+    "figure": "figS17_archived_climate_maps",
+    "original_figure": "fig4_climate_change_maps",
+    "model_version": "archived seasonal-v1",
+    "source_png": "publication/european_wheat_stb_before_overwinter_oop_20261006/figures/fig4_climate_change_maps.png",
+    "source_pdf": "publication/european_wheat_stb_before_overwinter_oop_20261006/figures/fig4_climate_change_maps.pdf",
+    "png_sha256": "5b165fb3470b72283d74e15bf2ef6c6a065f25d8a84632e4db8428a16f699821",
+    "pdf_sha256": "1e3347b1eabce6dbae74e6c5bebdfc97317efd64deb7941f7452ea74e12f4ba2",
+    "original_caption": "Figure 4 | Conditional climate-change effects on final upper-leaf disease. Panels show the arithmetic mean of three climate-model changes from each model\u2013SSP-specific 1991\u20132020 reference. The fixed all-wheat winter-calendar scenario uses predicted soft dough as its endpoint. Mapped cells complete all 30 annual seasons in every displayed model, scenario and period; common coverage and individual-model ranges accompany the source data. Values beyond \u00b120 percentage points retain their source values and use endpoint colours. The map is a disease-severity contrast and does not estimate yield loss. Model direction agreement is supplied as a diagnostic rather than statistical significance. Regional means elsewhere use all valid hectare-years, separately from this common-cell display mask.",
+    "current_model_validation": false
+  },
+  {
+    "figure": "figS18_archived_production_exposure",
+    "original_figure": "fig6_production_exposure",
+    "model_version": "archived seasonal-v1",
+    "source_png": "publication/european_wheat_stb_before_overwinter_oop_20261006/figures/fig6_production_exposure.png",
+    "source_pdf": "publication/european_wheat_stb_before_overwinter_oop_20261006/figures/fig6_production_exposure.pdf",
+    "png_sha256": "bf116b326421f418d9b6d41ad578404e93990521c3839843c9ca4ccdf3f65569",
+    "pdf_sha256": "a70bb324c46d64b07ecc39d0429acea9649e8629082dd4d172ed13972ecd2b4d",
+    "original_caption": "Figure 6 | Reference wheat production and disease response across three climate scenarios. a, Ten countries with the largest fixed SPAM2020 production inside the declared geographical European domain, selected independently of disease-response direction. The European portion of Russia is identified by the domain convention. b, Production-weighted final-disease changes under SSP1-2.6 (circles), SSP2-4.5 (squares) and SSP5-8.5 (triangles) in 2071\u20132100 relative to each model\u2013SSP-specific 1991\u20132020 baseline. Markers are three-model means and horizontal lines are climate-model point ranges. Within-cell source-country tonnes supply weights, including shared boundary cells. Country comparisons use frozen point disease parameters; their range is not a confidence interval. Production totals describe reference exposure and cannot be interpreted as projected production or tonnes lost to STB.",
+    "current_model_validation": false
+  }
+]

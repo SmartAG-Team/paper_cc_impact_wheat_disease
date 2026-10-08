@@ -1,0 +1,39 @@
+{
+  "style_id": "http://www.zotero.org/styles/apa",
+  "style_title": "American Psychological Association 7th edition",
+  "citations": {
+    "SuffertSache2011": "(Suffert &#38; Sache, 2011)",
+    "LovellCanopy2004": "(Lovell, Parker, et al., 2004)",
+    "Lovell2004": "(Lovell, Hunter, et al., 2004)",
+    "Shaw1990": "(Shaw, 1990)",
+    "Jamieson1995": "(Jamieson et al., 1995)",
+    "Abichou2018": "(Abichou et al., 2018)",
+    "ShawRoyle1989": "(Shaw &#38; Royle, 1989)",
+    "ShawRoyle1993": "(Shaw &#38; Royle, 1993)",
+    "Baccar2011": "(Baccar et al., 2011)"
+  },
+  "bibliography_ids": [
+    "Abichou2018",
+    "Baccar2011",
+    "Jamieson1995",
+    "Lovell2004",
+    "LovellCanopy2004",
+    "Shaw1990",
+    "ShawRoyle1989",
+    "ShawRoyle1993",
+    "SuffertSache2011"
+  ],
+  "bibliography_html": [
+    "  <div class=\"csl-entry\">Abichou, M., Fournier, C., Dornbusch, T., Chambon, C., de Solan, B., Gouache, D., &#38; Andrieu, B. (2018). Parameterising wheat leaf and tiller dynamics for faithful reconstruction of wheat plants by structural plant models. <i>Field Crops Research</i>, <i>218</i>, 213–230. https://doi.org/10.1016/j.fcr.2018.01.010</div>\n",
+    "  <div class=\"csl-entry\">Baccar, R., Fournier, C., Dornbusch, T., Andrieu, B., Gouache, D., &#38; Robert, C. (2011). Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model. <i>Annals of Botany</i>, <i>108</i>(6), 1179–1194. https://doi.org/10.1093/aob/mcr126</div>\n",
+    "  <div class=\"csl-entry\">Jamieson, P. D., Brooking, I. R., Porter, J. R., &#38; Wilson, D. R. (1995). Prediction of leaf appearance in wheat: a question of temperature. <i>Field Crops Research</i>, <i>41</i>(1), 35–44. https://doi.org/10.1016/0378-4290(94)00102-i</div>\n",
+    "  <div class=\"csl-entry\">Lovell, D. J., Hunter, T., Powers, S. J., Parker, S. R., &#38; van den Bosch, F. (2004). Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions. <i>Plant Pathology</i>, <i>53</i>(2), 170–181. https://doi.org/10.1111/j.0032-0862.2004.00983.x</div>\n",
+    "  <div class=\"csl-entry\">Lovell, D. J., Parker, S. R., Hunter, T., Welham, S. J., &#38; Nichols, A. R. (2004). Position of inoculum in the canopy affects the risk of septoria tritici blotch epidemics in winter wheat. <i>Plant Pathology</i>, <i>53</i>(1), 11–21. https://doi.org/10.1046/j.1365-3059.2003.00939.x</div>\n",
+    "  <div class=\"csl-entry\">Shaw, M. W. (1990). Effects of temperature, leaf wetness and cultivar on the latent period of <i>Mycosphaerella graminicola</i> on winter wheat. <i>Plant Pathology</i>, <i>39</i>(2), 255–268. https://doi.org/10.1111/j.1365-3059.1990.tb02501.x</div>\n",
+    "  <div class=\"csl-entry\">Shaw, M. W., &#38; Royle, D. J. (1989). Airborne inoculum as a major source of <i>Septoria tritici</i> (<i>Mycosphaerella graminicola</i>) infections in winter wheat crops in the UK. <i>Plant Pathology</i>, <i>38</i>(1), 35–43. https://doi.org/10.1111/j.1365-3059.1989.tb01425.x</div>\n",
+    "  <div class=\"csl-entry\">Shaw, M. W., &#38; Royle, D. J. (1993). Factors determining the severity of epidemics of <i>Mycosphaerella graminicola (Septoria tritici)</i> on winter wheat in the UK. <i>Plant Pathology</i>, <i>42</i>(6), 882–899. https://doi.org/10.1111/j.1365-3059.1993.tb02674.x</div>\n",
+    "  <div class=\"csl-entry\">Suffert, F., &#38; Sache, I. (2011). Relative importance of different types of inoculum to the establishment of <i>Mycosphaerella graminicola</i> in wheat crops in north‐west Europe. <i>Plant Pathology</i>, <i>60</i>(5), 878–889. https://doi.org/10.1111/j.1365-3059.2011.02455.x</div>\n"
+  ],
+  "hanging_indent": true,
+  "processor_version": "1.4.61"
+}

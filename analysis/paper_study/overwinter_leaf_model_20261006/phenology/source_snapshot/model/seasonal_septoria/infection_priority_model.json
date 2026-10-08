@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "model_id": "infection_and_upper3_yield_v1_20261006",
+  "primary_endpoints": [
+    "top3 infection event",
+    "symptom onset bracket",
+    "top3 grain-fill exposure",
+    "conditional HAD3 yield loss"
+  ],
+  "event_model": {
+    "name": "flag0.3_dose0.5_gap3_delay20",
+    "host_parameters": {
+      "flag_fraction": 0.3,
+      "leaf_interval": 120.0,
+      "expansion_units": 100.0
+    },
+    "parameters": {
+      "dose_threshold": 0.5,
+      "dry_gap_days": 3,
+      "delay_reference_days": 20.0
+    },
+    "weather_preprocessing": {
+      "weather_operator": "duration_proxy",
+      "rain_rate_mm_hour": 0.4600000000000001,
+      "unique_training_location_dates": 42447,
+      "eligible_positive_rain_days": 19007,
+      "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+      "meteorology_only": true
+    },
+    "validation_label": "retrospective_development_validation",
+    "conditional_on_inoculum_presence": true,
+    "calibrated_occurrence_probability": false,
+    "disease_percentage_fit": false
+  },
+  "anthesis_threshold": 1165.925558,
+  "anthesis_threshold_status": "stage-calibrated flowering proxy",
+  "yield_slopes": [
+    0.0141,
+    0.018,
+    0.0207
+  ],
+  "yield_slope_source": "10.1111/j.1365-3059.2004.00951.x",
+  "yield_slope_units": "t ha-1 per GLAI-day",
+  "yield_slope_range_is_confidence_interval": false,
+  "yield_window_status": "anthesis-to85 adaptation; equivalence to source window requires zero loss outside window",
+  "yield_inputs_required": [
+    "absolute reference leaf area index",
+    "functional area-loss fractions"
+  ],
+  "observed_yield_calibration": false,
+  "actual_infection_dates_observed": false,
+  "conditional_on_inoculum_presence": true,
+  "calibrated_occurrence_probability": false,
+  "prior_historical_outcomes_exposed": true,
+  "source_sha256": {
+    "analysis/paper_study/infection_priority_20261006/event_model/full_data_refit_model.json": "cb4d5c4bd746cf37539db3373880b323465cc6de4a541ae30b96c2ff8f3ecca0",
+    "analysis/paper_study/infection_priority_20261006/anthesis_clock/threshold_selection.json": "c29c9aac24aac93b6656d28a4bee43097b75b83ca046fe4373e391c8050d17cd",
+    "analysis/paper_study/infection_priority_20261006/literature/yield_loss_primary_evidence.json": "bdf6614ce44084e8cca825676f9a19b681faa408d6e7cadbc1edf2ec07f2ea7c"
+  }
+}

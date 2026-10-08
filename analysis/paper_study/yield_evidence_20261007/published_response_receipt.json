@@ -1,0 +1,64 @@
+{
+  "status": "verified",
+  "published_crop_responses_only": true,
+  "pathogen_timing_fits_added": false,
+  "response_calibration_outside_model": true,
+  "current_runtime_and_frozen_disease_parameters_changed": false,
+  "raw_or_aggregate_status_preserved": true,
+  "top_three_and_top_five_not_pooled": true,
+  "reported_R2_is_not_independent_validation": true,
+  "group_separated_fold_coefficients_independently_reproduced": true,
+  "paired_genotype_contrasts": 8,
+  "background_folds": 5,
+  "metrics": [
+    {
+      "response": "absolute",
+      "contrasts": 8,
+      "genetic_backgrounds": 5,
+      "evaluation": "leave-one-genetic-background-out; published aggregate treatment means",
+      "units": "t ha-1",
+      "group_balanced_MAE": 0.5407037797746574,
+      "group_balanced_RMSE": 0.6169466091118433,
+      "group_balanced_bias": -0.009069284257727905,
+      "group_balanced_R2": -0.4323948386286629,
+      "full_data_slope": 0.03426794071194199,
+      "slope_units": "t ha-1 per top-five GLAI-day",
+      "raw_plot_validation": false,
+      "current_top3_yield_calibration": false
+    },
+    {
+      "response": "relative",
+      "contrasts": 8,
+      "genetic_backgrounds": 5,
+      "evaluation": "leave-one-genetic-background-out; published aggregate treatment means",
+      "units": "fraction of protected yield",
+      "group_balanced_MAE": 0.047934743074742166,
+      "group_balanced_RMSE": 0.051561923190298814,
+      "group_balanced_bias": 0.00021639639422669013,
+      "group_balanced_R2": 0.24707241310959271,
+      "full_data_slope": 0.5767017985649475,
+      "slope_units": "relative yield loss per relative top-five HAD loss",
+      "raw_plot_validation": false,
+      "current_top3_yield_calibration": false
+    }
+  ],
+  "sources": {
+    "analysis/paper_study/yield_evidence_20261007/published_response.py": "10c86385b541306d80a54afbc6865629a8c25a0f09f82ab6b21a97185e14dff8",
+    "analysis/paper_study/yield_evidence_20261007/stb_independent/foulkes2006_table2_paired_predicted_means.csv": "57eba3c07759127541c73a4153a63af8bee8a0f2a30bbd543dad87c601729e1e",
+    "analysis/paper_study/yield_evidence_20261007/parker2004_table4_yield_loss_long.csv": "d9af0a8bd2d69b197f1ea7ce8eff45fcfefb24281b16ee055ea388f64071d6ff",
+    "analysis/paper_study/yield_evidence_20261007/parker2004_table5_yield_slopes.csv": "55d7c0d589607c25b32ad4b2d907242bb478a7abc91c144e5c5e6cccb2d3b518",
+    "calibration/yield_transfer.py": "11ccf6bb7c9c67073a8d10dc01cfc293b5cb8efac66c710602f617198fcbd389",
+    "tests/test_published_yield_transfer.py": "b58d475e75ea0a9ccbd94475bda19bd328d7ed86b43216e4942a8bc7fccb88f0"
+  },
+  "generated_data_sha256": {
+    "bryson1997_reported_yield_fits.csv": "c3efd4c176202f94ce31b0fa9dd35b2e560fcb68abcb9a09f92124e7a32cd281",
+    "foulkes2006_group_separated_predictions.csv": "e3f7da69c93284b5b807cf8ecb658deb454c77dbf6e358d52cbdfaf538da3ec1",
+    "parker2004_reported_fit_correlations.csv": "c18c124f7bebcb31cb668f3f8c40da086cfecbb632d4e1ef6d9609d7c99c9b5c",
+    "parker2004_table4_yield_loss_long.csv": "d9af0a8bd2d69b197f1ea7ce8eff45fcfefb24281b16ee055ea388f64071d6ff",
+    "parker2004_table4_yield_loss_matrix.csv": "21018c2a80e5cf827cddb9afda5a6d5bce4290085d36accd7ad1e4b00dc4a5ba",
+    "parker2004_table5_yield_slopes.csv": "55d7c0d589607c25b32ad4b2d907242bb478a7abc91c144e5c5e6cccb2d3b518",
+    "published_yield_domain_compatibility.csv": "bcdbc9112071f2eae283002075a550c6d64db2c4fded2bd46db8886c22a3b446",
+    "published_yield_response_metrics.csv": "98dc3b14744a46c000fd3e695bc7dffd8ce3c519b505f84ab760d38f6e48c3dd",
+    "subbarao1989_reported_yield_fits.csv": "00c4a61cb25db260e7de5b5e85b3a847764bc0a043ed0df4c6167bab803df947"
+  }
+}

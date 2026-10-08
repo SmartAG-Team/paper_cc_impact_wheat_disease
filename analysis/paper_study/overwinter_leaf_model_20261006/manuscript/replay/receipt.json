@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "field_seasons": 218,
+  "complete_grain_fill_windows": 218,
+  "model_affected_fraction_is_measured_functional_loss": false,
+  "actual_yield_predictions": false,
+  "direct_infection_dates_validated": false,
+  "reference_lai_scenario": 1.0,
+  "equal_mature_top3_lai": true,
+  "natural_senescence_unmeasured": true,
+  "grain_fill_window": "inclusive first predicted65 to first85",
+  "coefficients_t_ha_per_glai_day": [
+    0.0141,
+    0.018,
+    0.0207
+  ],
+  "cultivar_range_is_confidence_interval": false,
+  "all_original_tissue_residue_and_host_area_prefixes_identical": true,
+  "fitted_model_sha256": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+  "stage_threshold_sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+  "weather_sha256": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63"
+}

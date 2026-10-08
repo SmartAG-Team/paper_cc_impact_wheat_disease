@@ -1,0 +1,11 @@
+{
+  "model": "ACCESS-CM2",
+  "year": 2001,
+  "settings": 14,
+  "rows": 896,
+  "maximum_mass_error": 4.440892098500626e-16,
+  "seconds": 10.188494957983494,
+  "output_sha256": "b168448d79332da18d7790473bd51e10e8441dc84a4f262b85c1b3334c6cb9ba",
+  "baseline_daily_sha256": "d34ee92fef7af69739ae95a107746ebaf4b17721b039944a47399d77e6163d3b",
+  "registration_sha256": "75497723efa0c324f0bb4a859476f0ece917220e583c66846d1f98e5f2538de2"
+}

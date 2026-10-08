@@ -1,0 +1,27 @@
+{
+  "status": "verified_crop_response_extraction",
+  "retrieval_date": "2026-10-07",
+  "studies": [
+    {
+      "source_key": "Bryson1997",
+      "doi": "10.1016/S1161-0301(97)00025-7",
+      "journal": "European Journal of Agronomy",
+      "primary_article_url": "https://www.sciencedirect.com/science/article/abs/pii/S1161030197000257",
+      "primary_abstract_index_url": "https://www.sciencedirect.com/author/7003394277/roger-sylvester-bradley",
+      "evidence": "Original publisher abstract: within-year HAD R2 0.63/0.73 and healthy-area-absorption R2 0.80/0.92, 1994/1995.",
+      "measurement_scope": "Canopy area and absorbed radiation; fixed leaf-rank subset unverified.",
+      "raw_data_recovered": false
+    },
+    {
+      "source_key": "SubbaRao1989",
+      "doi": "10.1094/Phyto-79-1233",
+      "journal": "Phytopathology",
+      "primary_article_url": "https://www.apsnet.org/publications/phytopathology/backissues/Documents/1989Articles/Phyto79n11_1233.PDF",
+      "pdf_sha256": "e29a88e389fc1ffb7e2bf0928b8e557e9e75dd2729cb1419ca146940c52cfd5a",
+      "evidence": "Original abstract: leaf-specific relative healthy-area duration and tiller grain weight, adjusted R2 0.84/0.91 and 0.67/0.88 for affected/control crops in two seasons.",
+      "measurement_scope": "Flag, penultimate, antepenultimate and fourth leaf; single cultivar; tiller grain-weight outcome.",
+      "raw_data_recovered": false
+    }
+  ],
+  "interpretation": "Original fitted crop-response summaries; not independent predictive validation; incompatible domains are not pooled."
+}

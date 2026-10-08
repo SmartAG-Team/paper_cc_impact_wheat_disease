@@ -1,0 +1,16 @@
+partition,event,original_fields,stage_date_fields,constrained_fields,genuine_two_sided,left_censored,right_censored,unavailable_or_rejected_fields
+calibration,31,28,27,27,0,27,0,1
+calibration,32,28,27,27,1,26,0,1
+calibration,33,28,27,27,5,22,0,1
+calibration,37,28,27,27,6,21,0,1
+calibration,39,28,27,27,9,18,0,1
+reused_development_2019,31,45,45,45,0,45,0,0
+reused_development_2019,32,45,45,45,0,45,0,0
+reused_development_2019,33,45,45,45,2,43,0,0
+reused_development_2019,37,45,45,45,3,41,1,0
+reused_development_2019,39,45,45,45,4,40,1,0
+reused_external_strict,31,143,116,116,3,113,0,27
+reused_external_strict,32,143,116,116,8,108,0,27
+reused_external_strict,33,143,116,116,12,104,0,27
+reused_external_strict,37,143,116,116,19,96,1,27
+reused_external_strict,39,143,116,116,30,85,1,27

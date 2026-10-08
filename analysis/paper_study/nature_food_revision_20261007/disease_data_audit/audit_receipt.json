@@ -1,0 +1,170 @@
+{
+  "created_utc": "2026-10-07T05:16:30.517217+00:00",
+  "scope": "source observational audit only; no model imports, fitting, parameter inference or source edits",
+  "sources": [
+    {
+      "source": "BASF",
+      "path": "data/basf-wheat-diseases.txt",
+      "sha256": "7f3325fdf31261740e4988bbda8581ff3f2381e6c38d46947d374fad4b6af67a",
+      "md5": "107ba039c535832223bf484acf1e5602",
+      "repository_expected_checksum": "md5:107ba039c535832223bf484acf1e5602",
+      "repository_checksum_matches": true,
+      "metadata_path": "data/zenodo-metadata.json",
+      "doi": "10.5281/zenodo.6521175",
+      "source_title": "Data from 56 fungicide trials in wheat fields across Europe 2017-2019",
+      "raw_rows": 2276,
+      "raw_fields": 76,
+      "raw_coordinate_years": 65,
+      "raw_coordinates": 56,
+      "raw_years": "2017;2018;2019",
+      "cultivar_column_present": false,
+      "sowing_date_column_present": false,
+      "replicate_id_column_present": false,
+      "plot_id_column_present": false,
+      "calendar_year_discordant_rows": 0,
+      "growth_stage_reverse_rows": 20
+    },
+    {
+      "source": "Corteva",
+      "path": "data/paper_study/observations/new_sources/corteva-2014-2018/corteva-wheat-diseases.txt",
+      "sha256": "d58a4a66639a4cdee2560ca53c38288cc4958b7b5d030370dbb403a91e4465f8",
+      "md5": "ad3d2a8f2f18e32e58263f1cc08f575f",
+      "repository_expected_checksum": "md5:ad3d2a8f2f18e32e58263f1cc08f575f",
+      "repository_checksum_matches": true,
+      "metadata_path": "data/paper_study/observations/new_sources/zenodo6352615_metadata.json",
+      "doi": "10.5281/zenodo.6352615",
+      "source_title": "Data from 168 fungicide trials in wheat fields across Europe 2014-2018",
+      "raw_rows": 112270,
+      "raw_fields": 198,
+      "raw_coordinate_years": 124,
+      "raw_coordinates": 91,
+      "raw_years": "2014;2015;2016;2017;2018",
+      "cultivar_column_present": false,
+      "sowing_date_column_present": false,
+      "replicate_id_column_present": false,
+      "plot_id_column_present": false,
+      "calendar_year_discordant_rows": 516,
+      "growth_stage_reverse_rows": 0
+    }
+  ],
+  "definitions": {
+    "candidate": "source INFECT; BASF Method=P%INF; disease codes retained",
+    "untreated": "Treatment=Untreated and every source NumSprays=0",
+    "eligible": "every raw value 0<=Value<=100, consistent source Field year, no BASF CROP INJURY annotation; whole field/date/code/organ/treatment-key assessment excluded when invalid",
+    "assessment_grain": "source×field×date×original_code×source_organ×Treatment×TreatmentCode; mean retains all raw rows; denominator is source-row count, not biological replicate count",
+    "repeated_field": "at least two or three distinct eligible dates in field and disease family; disease scores are not pooled across organs",
+    "ranked_leaf_repeat": "same field×original_code×source ordinal leaf assessed on at least two or three distinct dates; source code strata never merged into numeric scores",
+    "complete_top3": "all source leaf ranks 1,2,3 observed on each date for one original code; at least two or three such dates",
+    "zero": "explicit Value=0; source absence/missing code not converted to zero",
+    "zero_only": "all eligible observations in the observed window zero; does not identify complete-season disease absence",
+    "geography": "published coordinates rounded to 0.1 degree; disjoint values do not establish biological site independence",
+    "yield_match": "field×actual Treatment×TreatmentCode; raw yield metrics and source units kept separate; no inferred plot, replicate or protected control",
+    "BASF_yield_relative_response": "MCALCR source relative yield index is algebraically checked against 100×MWCGS_treated/MWCGS_untreated within TrialId; per-trial ratio does not require inferred mass units or imply fully protected controls."
+  },
+  "taxonomy": {
+    "STB": [
+      "SEPTTR"
+    ],
+    "yellow_rust": [
+      "PUCCST",
+      "PUCCSI"
+    ],
+    "leaf_rust": [
+      "PUCCRT",
+      "PUCCRE"
+    ],
+    "powdery_mildew": [
+      "ERYSGT",
+      "ERYSGR"
+    ],
+    "tan_spot": [
+      "PYRNTR"
+    ],
+    "ERYSGA": "oat-specific mildew code, excluded from wheat mildew family; source conflict unresolved"
+  },
+  "primary_taxonomy_sources": {
+    "PUCCRT": "https://gd.eppo.int/taxon/PUCCRT",
+    "PUCCRE": "https://gd.eppo.int/taxon/PUCCRE",
+    "PUCCST": "https://gd.eppo.int/taxon/PUCCST",
+    "PUCCSI": "https://gd.eppo.int/taxon/PUCCSI",
+    "ERYSGR": "https://gd.eppo.int/taxon/ERYSGR",
+    "ERYSGT": "https://gd.eppo.int/taxon/ERYSGT",
+    "ERYSGA": "https://gd.eppo.int/taxon/ERYSGA",
+    "PYRNTR": "https://gd.eppo.int/taxon/PYRNTR"
+  },
+  "published_archive_sources": {
+    "BASF": "https://doi.org/10.5281/zenodo.6521175",
+    "Corteva": "https://doi.org/10.5281/zenodo.6352615"
+  },
+  "limitations": [
+    "Sowing, cultivar, seed-treatment, plot and biological replicate identities absent from both raw archive tables.",
+    "Corteva disease INFECT row metric units and denominator unspecified; repeated equal rows retained.",
+    "BASF P%INF indicates a percentage domain with unspecified incidence/severity denominator.",
+    "TreatmentCode and Applications identify source labels and are not interpreted as observed protected plots or full fungicide efficacy.",
+    "BASF2019 and strict Corteva143 observations already exposed to prior model evaluation; disease-specific source exposure beyond STB is not certified as untouched.",
+    "A location-year is a rounded public coordinate/year, not an exact biological experimental unit.",
+    "Source-specific wheat taxon labels remain separate; broad-species source labels do not establish isolate identity.",
+    "Corteva TreatmentCode is not a unique biological arm: treated YIELD in 14 fields has multiple NumSprays under the same Field/TreatmentCode. Product identities and plot IDs are absent."
+  ],
+  "artifact_rows": {
+    "source_inventory.csv": 2,
+    "source_metric_inventory.csv": 52,
+    "raw_untreated_INFECT_inventory.csv": 25,
+    "all_treatment_disease_assessments.csv": 7115,
+    "excluded_disease_assessments.csv": 80,
+    "untreated_code_leaf_histories.csv": 1447,
+    "untreated_field_family_histories.csv": 395,
+    "disease_family_summary.csv": 19,
+    "disease_code_summary.csv": 25,
+    "existing_STB_partition_overlap.csv": 33,
+    "raw_yield_assessment_inventory.csv": 641,
+    "yield_summary.csv": 14,
+    "field_treatment_disease_yield_links.csv": 608,
+    "ADAS_regional_target_inventory.csv": 8,
+    "BASF_observed_treatment_yield_contrasts.csv": 87,
+    "rounded_coordinate_year_membership.csv": 324,
+    "disease_year_summary.csv": 50,
+    "untreated_treated_yield_field_keys.csv": 157
+  },
+  "checks": {
+    "BASF_checksum_matches": true,
+    "Corteva_checksum_matches": true,
+    "BASF_STB_eligible_raw_rows": 603,
+    "Corteva_STB_eligible_raw_rows": 7789,
+    "Corteva_STB_eligible_groups": 1785,
+    "raw_source_files_modified": false,
+    "BASF_source_unit_join_uses_string_keys": true,
+    "BASF_paired_treated_yield_rows": 87,
+    "BASF_paired_treated_yield_fields": 71,
+    "BASF_relative_percent_max_absolute_algebra_error": 2.2662820526875294e-06,
+    "BASF_paired_grain_yield_fields": 71,
+    "Corteva_paired_grain_yield_fields_any_yield_metric": 86,
+    "BASF_relative_yield_identity_tolerance": 1e-05,
+    "BASF_relative_yield_identity_passed": true,
+    "delivered_CSV_row_counts_verified": true,
+    "delivered_assessment_group_keys_unique": true,
+    "source_hashes_reverified_after_audit": true,
+    "source_models_imported_or_fitted": false
+  },
+  "artifacts_sha256": {
+    "ADAS_regional_target_inventory.csv": "98ae5e92fd7438fbbca872724ce7200660c5e9c73cf3692ea7b526fea1e8a2bd",
+    "BASF_observed_treatment_yield_contrasts.csv": "8a6d544303a3b003cc62d94ddf5f83127dbb7ddd7536a06022f80acc81667650",
+    "all_treatment_disease_assessments.csv": "2fafeb5df5ee73d733dd3de6040cec48a09e89e78ce61468c29bcf3c7d8c3a06",
+    "brief_findings.txt": "e75708259c622844915576d421a1d83cdcd0e9c27c922450e205c4dd4a252c35",
+    "disease_code_summary.csv": "ecdbc39f961ffb27608ca5004bc6e8e80c9b2ac80d77e1e899e9eedee1c13350",
+    "disease_family_summary.csv": "f1861ca24ed5c12f9bacd3ad709179ead15efa7ab42086ddedae4ceb0bdd53b0",
+    "disease_year_summary.csv": "db3c432cfe168943f559f58c1d03f135a8e8d574c799f7881aafe4a9b817b1fd",
+    "excluded_disease_assessments.csv": "6ffcbd34e6514c3f985748e01a6b0a35c9c3f5ebd50a9bde0e200f68e448fc50",
+    "existing_STB_partition_overlap.csv": "d392f6f3e5ed16c93fa773dcf8eb2f089089bb31a74cd75d4db90f8297c515c1",
+    "field_treatment_disease_yield_links.csv": "9c1236f5e5da53c7d4e1f275d5cff18eb5b44cb4ffc64921599c03914b68282e",
+    "raw_untreated_INFECT_inventory.csv": "562454e5f26db71177053d3142b12a3f4c05a2b568a7629cbb796c9524b0bac1",
+    "raw_yield_assessment_inventory.csv": "cb3696f37d45554a2b59d2c8534b64c50ae058674d7e6e2cd052af292ffc03ae",
+    "rounded_coordinate_year_membership.csv": "7e67a3c3f3d838e497cf0eaf323c69d757086dc119a6c74c240a545f10d4671a",
+    "source_inventory.csv": "2dae801bc73d492acc13ab71d31ec082830827ce00ed621c56c020048a4d8daf",
+    "source_metric_inventory.csv": "6375f7ca42b21d977c7ba2a14ae44bdef53fa8aaecfb1ed96acdd6ee2f8946fd",
+    "untreated_code_leaf_histories.csv": "ebf573e20fac46a94833801c71d58f9ec48e89b3937771bff68a48f0b122c90a",
+    "untreated_field_family_histories.csv": "4426e28f6259d2626b70a954c168c57d0ef766c225822b9e8d63cd1c9b76c87f",
+    "untreated_treated_yield_field_keys.csv": "6f3650d10f1200bcf81bbcde32c5d853c84364add7a47128f58aa927e95fb626",
+    "yield_summary.csv": "4fc3bd6cd658b93f694d6888f81da7274192e4023dd107f16595fe8aa74ef756"
+  }
+}

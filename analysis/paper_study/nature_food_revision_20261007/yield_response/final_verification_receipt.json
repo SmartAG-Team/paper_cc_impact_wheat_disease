@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "targeted_tests": 13,
+  "targeted_latest_log": "final_targeted_validation.log",
+  "original_project_tests_before_exponential_extension": 305,
+  "original_project_warnings": 7,
+  "original_project_tests_repeated_after_exponential_extension": false,
+  "linear_independent_verification": "All independent arithmetic and provenance checks passed",
+  "damage_independent_verification": "All independently reconstructed exponential predictions, log-ratio fits, NNLS KKT conditions, memberships, weights and arithmetic metrics passed",
+  "source_hashes_verified": 29,
+  "raw_English_HTML_numeric_cells_verified": 1572,
+  "paired_integrals_reconstructed": 50,
+  "linear_training_fold_fits_verified": 26,
+  "log_ratio_training_fold_fits_verified": 26,
+  "exponential_heldout_predictions_verified": 338,
+  "native_STB_final_cells_verified_67111": 82,
+  "native_additional_disease_cells_matched_to_English": 164,
+  "additional_recorded_nontarget": {
+    "registry_label": "Wheat leaf spot % covered",
+    "native_header_family": "Brunfläcksjuka (septoria) % täckning",
+    "record": "nfts_67111",
+    "final_date": "2022-07-29",
+    "observed_source_cells": 82,
+    "min_percent_coverage": 2.0,
+    "max_percent_coverage": 35.0,
+    "positive_source_cells": 82,
+    "model_role": "Provenance only; not included among the four predeclared predictors; no refit"
+  },
+  "models_promoted_to_current_model": false,
+  "manuscript_or_calibration_edits": false,
+  "transferable_yield_response_demonstrated": false,
+  "artifact_scope": "analysis/paper_study/nature_food_revision_20261007/yield_response"
+}

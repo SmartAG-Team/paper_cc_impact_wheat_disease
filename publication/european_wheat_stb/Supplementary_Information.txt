@@ -1,0 +1,695 @@
+Supplementary Information
+
+Climate change redistributes simulated Septoria damage in European wheat
+
+Gang Zhao
+
+Supplementary Methods
+
+Numerical scope and outcome definitions
+
+Full-grid impact results retain 14,941 fixed wheat land-use cells and 14,932 eligible crop calendars. Disease occurrence, timing, damage severity, HAD deficit and conditional yield products use their respective paired valid populations. Invalid seasons retain unavailable outcomes. The full-grid reference registry includes SPAM dominant-country assignment and independent EEA centroid-region assignment; unassigned and outside-region cells remain explicit.
+
+The symptom-frequency indicator equals one for a detectable flag-leaf symptom before soft dough and zero for a symptom-free complete season. The canopy-severity proxy is the flowering-to-soft-dough HAD deficit divided by reference HAD, expressed as a percentage. It integrates reference-area-weighted functional loss and does not reproduce an observed lesion-area percentage. Mean timing conditions on detected symptoms, whereas frequency includes complete symptom-free seasons.
+
+Aggregation and coverage
+
+Grid paired means use corresponding harvest-year indices within each climate model and SSP. Domain means divide the exact harvested-area-weighted paired-change numerator by the valid area-time denominator. Reference and future means are computed on the same support. Model ranges span three independently aggregated domain estimates. Exact area weights remove spatial sampling error from the full-grid census; sampled diagnostic decompositions retain their separate Monte Carlo uncertainty.
+
+Pooled crop and disease evaluation
+
+The pooled evaluation contains only the existing noncalibration disease partitions and the geographically eligible external observations. Record membership and source conventions remain recoverable in the accompanying data. The original source labels are retained for traceability while evaluation tables and figures combine their eligible records. Calibration and evaluation share no field identifiers. Coordinate-year identities remain geographic grouping keys, so overlapping keys would not create independent replicates.
+
+For each endpoint, the evaluation weight is the reciprocal of the number of coordinate-years, multiplied by the reciprocals of fields, source leaves and records within each parent group. RMSE is the square root of the resulting weighted mean squared error. Paired bootstrap resampling draws entire coordinate-year groups, retaining both predictions and all field, leaf and date records. Twenty thousand resamples with seed 20261008 give 95% percentile intervals. These intervals exclude parameter-selection uncertainty and independently unverified biological-site identity.
+
+Upper-leaf onset comparisons retain genuine two-sided histories and predefined missing-positive penalties. Field developmental-stage evaluation retains two-sided observation intervals; their centers locate displayed symbols and are not used as exact observed dates. Calibration profiles and fully nested selection remain separate from pooled evaluation. Public station data evaluate the retained phenology formulation, while added upper-leaf stages and soft dough have limited informative field evidence.
+
+Conditional canopy–yield interpretation
+
+Published protected and unprotected canopy and yield means retain their leaf scope, integration window, cultivar and disease exposure. Eight means across five backgrounds remain in the top-five-canopy holdout; two are STB-specific, two yellow-rust-specific and four have mixed exposure. The absolute and relative response scores evaluate aggregate treatment means with shared published model fitting. No raw plots, covariance or unreported functional-area trajectories are reconstructed.
+
+The full-grid yield index is a deterministic conversion of HAD deficit under a nominal upper-three-leaf reference LAI. The three fixed coefficients and GS31–85 versus GS65–85 windows quantify scenario dependence. They are not confidence bounds or a validated estimate of total disease-related production loss.
+
+Diagnostic weather–crop contributions
+
+The four-corner weather–crop decomposition retains the existing sampled trajectories and their common valid-pair mask. Twenty unsupported hybrid-temperature pairs are excluded before the latest HAD decomposition. Weather and crop contributions include one half of the interaction each and sum to the supported net. Crop offsets use identical numerator and denominator populations. Regional decomposition outputs from the prior sampled analysis remain archived for provenance and are not substituted for full-grid regional impact statistics.
+
+Reporting populations
+
+The main climate figures summarize completed full-grid runs. The decomposition and structural sensitivity figures summarize the frozen 64-draw diagnostic sample. Pooled evaluation figures summarize reused retrospective field observations, and published yield figures summarize aggregate treatment contrasts. These populations evaluate distinct quantities; their counts and accuracy scores are not combined into an overall model-performance percentage.
+
+References
+
+1. Silva, J. V. et al. Agronomic management drives the wheat yield plateau in high-yielding environments of northwest Europe. Nat. Food 7, 45–54 (2026).
+
+2. Savary, S. et al. The global burden of pathogens and pests on major food crops. Nature Ecology & Evolution 3, 430–439 (2019).
+
+3. Chaloner, T. M., Gurr, S. J. & Bebber, D. P. Plant pathogen infection risk tracks global crop yields under climate change. Nature Climate Change 11, 710–715 (2021).
+
+4. Pequeno, D. N. L. et al. Production vulnerability to wheat blast disease under climate change. Nat. Clim. Change 14, 178–183 (2024).
+
+5. Suffert, F. & Sache, I. Relative importance of different types of inoculum to the establishment of Mycosphaerella graminicola in wheat crops in north‐west Europe. Plant Pathology 60, 878–889 (2011).
+
+6. Shaw, M. W. & Royle, D. J. Airborne inoculum as a major source of Septoria tritici (Mycosphaerella graminicola) infections in winter wheat crops in the UK. Plant Pathology 38, 35–43 (1989).
+
+7. Lovell, D. J., Parker, S. R., Hunter, T., Welham, S. J. & Nichols, A. R. Position of inoculum in the canopy affects the risk of septoria tritici blotch epidemics in winter wheat. Plant Pathology 53, 11–21 (2004).
+
+8. Baccar, R. et al. Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model. Annals of Botany 108, 1179–1194 (2011).
+
+9. Lovell, D. J., Hunter, T., Powers, S. J., Parker, S. R. & van den Bosch, F. Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions. Plant Pathology 53, 170–181 (2004).
+
+10. Parker, S. R., Welham, S., Paveley, N. D., Foulkes, J. & Scott, R. K. Tolerance of septoria leaf blotch in winter wheat. Plant Pathology 53, 1–10 (2004).
+
+11. Foulkes, M. J. et al. Major genetic changes in wheat with potential to affect disease tolerance. Phytopathology 96, 680–688 (2006).
+
+12. van den Berg, F., Paveley, N. D., Bingham, I. J. & van den Bosch, F. Physiological traits determining yield tolerance of wheat to foliar diseases. Phytopathology 107, 1468–1478 (2017).
+
+13. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
+
+14. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
+
+15. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
+
+16. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
+
+17. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
+
+18. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
+
+19. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+
+20. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
+
+Table S1a | German station calibration event-date evaluation. All process models use identical station/sowing-cycle/stage matches. Coverage includes observed events lacking shared predictions; Missing n counts unavailable predictions for the individual model. The distinct own-matched denominator is retained in Source Data. The station split does not withhold calendar years. Errors describe realized-weather, known-sowing hindcasts.
+
+Model	BBCH	Matched n	Observed n	Coverage (%)	MAE (d)	RMSE (d)	Bias (d)	Missing n
+GDD	10	5577	5699	97.9	5.35	8.99	1.26	122
+GDD	31	5159	5159	100.0	17.22	24.80	-3.39	0
+GDD	51	5352	5352	100.0	10.38	14.14	-0.96	0
+GDD	85	1969	1969	100.0	10.46	13.88	-1.13	0
+GDD	overall	18057	18179	99.3	10.79	16.76	-0.99	122
+T-P	10	5577	5699	97.9	5.35	8.99	1.26	122
+T-P	31	5159	5159	100.0	11.23	15.39	-0.50	0
+T-P	51	5352	5352	100.0	6.03	8.23	0.55	0
+T-P	85	1969	1969	100.0	7.07	9.26	0.13	0
+T-P	overall	18057	18179	99.3	7.42	11.05	0.42	122
+T-P-V	10	5577	5699	97.9	5.35	8.99	1.26	122
+T-P-V	31	5159	5159	100.0	10.17	13.37	0.09	0
+T-P-V	51	5352	5352	100.0	5.61	7.65	0.74	0
+T-P-V	85	1969	1969	100.0	6.73	8.73	0.11	0
+T-P-V	overall	18057	18179	99.3	6.96	10.08	0.65	122
+
+Table S1b | German station validation event-date evaluation. All process models use identical station/sowing-cycle/stage matches. Coverage includes observed events lacking shared predictions; Missing n counts unavailable predictions for the individual model. The distinct own-matched denominator is retained in Source Data. The station split does not withhold calendar years. Errors describe realized-weather, known-sowing hindcasts.
+
+Model	BBCH	Matched n	Observed n	Coverage (%)	MAE (d)	RMSE (d)	Bias (d)	Missing n
+GDD	10	12653	13931	90.8	5.97	10.54	1.93	1278
+GDD	31	11259	11699	96.2	18.99	27.27	-4.02	436
+GDD	51	11636	12201	95.4	11.61	15.74	-0.48	554
+GDD	85	2585	2706	95.5	11.96	15.87	-2.65	118
+GDD	overall	38133	40537	94.1	11.94	18.68	-0.87	2386
+T-P	10	12653	13931	90.8	5.97	10.54	1.93	1278
+T-P	31	11259	11699	96.2	12.85	17.59	-1.27	436
+T-P	51	11636	12201	95.4	7.08	9.74	0.53	552
+T-P	85	2585	2706	95.5	7.99	10.53	-0.81	118
+T-P	overall	38133	40537	94.1	8.48	12.83	0.37	2384
+T-P-V	10	12653	13931	90.8	5.97	10.54	1.93	1278
+T-P-V	31	11259	11699	96.2	11.63	15.32	-0.51	439
+T-P-V	51	11636	12201	95.4	6.61	9.14	0.73	550
+T-P-V	85	2585	2706	95.5	7.47	9.76	-0.44	118
+T-P-V	overall	38133	40537	94.1	7.94	11.75	0.68	2385
+
+Table S1c | German station testing event-date evaluation. All process models use identical station/sowing-cycle/stage matches. Coverage includes observed events lacking shared predictions; Missing n counts unavailable predictions for the individual model. The distinct own-matched denominator is retained in Source Data. The station split does not withhold calendar years. Errors describe realized-weather, known-sowing hindcasts.
+
+Model	BBCH	Matched n	Observed n	Coverage (%)	MAE (d)	RMSE (d)	Bias (d)	Missing n
+GDD	10	13471	14665	91.9	6.03	10.28	1.90	1194
+GDD	31	12109	12539	96.6	19.10	27.23	-4.45	425
+GDD	51	12541	13094	95.8	11.84	15.96	-0.86	531
+GDD	85	2757	2879	95.8	11.75	15.20	-2.28	117
+GDD	overall	40878	43177	94.7	12.07	18.66	-1.11	2267
+T-P	10	13471	14665	91.9	6.03	10.28	1.90	1194
+T-P	31	12109	12539	96.6	12.79	17.48	-1.48	426
+T-P	51	12541	13094	95.8	7.29	10.11	0.30	544
+T-P	85	2757	2879	95.8	7.85	10.17	-0.50	120
+T-P	overall	40878	43177	94.7	8.54	12.79	0.25	2284
+T-P-V	10	13471	14665	91.9	6.03	10.28	1.90	1194
+T-P-V	31	12109	12539	96.6	11.59	15.27	-0.84	424
+T-P-V	51	12541	13094	95.8	6.85	9.54	0.47	541
+T-P-V	85	2757	2879	95.8	7.44	9.61	-0.27	120
+T-P-V	overall	40878	43177	94.7	8.02	11.75	0.50	2279
+
+Table S2 | Pooled field developmental-stage observation coverage and interval errors. Calibration and evaluation remain separate; eligible evaluation records from both archives are combined. Mean excess uses equal coordinate-year and field weighting on genuinely two-sided intervals. Unavailable intervals remain distinct from zero prediction error.
+
+Cohort	BBCH	Fields	Two-sided n	Left n	Right n	Unavailable n	Mean excess (days)
+Calibration	10	27	0	27	0	0	Unavailable
+Calibration	31	27	0	27	0	0	Unavailable
+Calibration	32	27	1	26	0	0	0.00
+Calibration	33	27	5	22	0	0	0.00
+Calibration	37	27	6	21	0	0	0.17
+Calibration	39	27	9	18	0	0	1.33
+Calibration	51	27	20	6	1	0	1.60
+Calibration	65	27	20	4	3	0	1.47
+Calibration	85	27	0	0	27	0	Unavailable
+Field evaluation	10	161	0	161	0	0	Unavailable
+Field evaluation	31	161	3	158	0	0	6.33
+Field evaluation	32	161	8	153	0	0	0.75
+Field evaluation	33	161	14	147	0	0	1.29
+Field evaluation	37	161	22	137	2	0	1.95
+Field evaluation	39	161	34	125	2	0	1.21
+Field evaluation	51	161	73	81	7	0	1.24
+Field evaluation	65	161	100	44	17	0	2.08
+Field evaluation	85	158	5	0	153	0	10.50
+
+Table S3 | Pooled disease evaluation and paired benchmark comparisons. Onset values are days outside two-sided symptom intervals; severity values are percentage points and detection values are percentages. Calibration records are excluded. Scores preserve the coordinate-year, field, source-leaf and assessment hierarchy. Intervals use 20,000 paired coordinate-year bootstrap resamples conditional on fixed predictions; source measurement conventions remain explicit in the underlying data.
+
+Endpoint	Score	Estimate	95% interval	Records	Field seasons	Coordinate-years
+symptom onset	model	5.322	3.734 to 7.087	136	78	62
+symptom onset	benchmark	2.785	1.748 to 3.988	136	78	62
+symptom onset	difference	2.536	1.154 to 3.925	136	78	62
+severity	model rmse	31.193	28.473 to 33.876	2033	188	140
+severity	model mae	20.088	17.892 to 22.356	2033	188	140
+severity	model bias	-17.565	-20.220 to -14.941	2033	188	140
+severity	benchmark rmse	29.834	27.514 to 32.099	2033	188	140
+severity	benchmark mae	21.412	19.734 to 23.145	2033	188	140
+severity	benchmark bias	-5.369	-8.121 to -2.701	2033	188	140
+severity	rmse difference	1.359	-0.204 to 2.823	2033	188	140
+severity	mae difference	-1.324	-2.788 to 0.127	2033	188	140
+severity	bias difference	-12.196	-13.783 to -10.479	2033	188	140
+severity	model r2	-0.125	Not estimated	2033	188	140
+severity	benchmark r2	-0.029	Not estimated	2033	188	140
+symptom detection	model sensitivity	97.156	95.925 to 98.179	2033	188	140
+symptom detection	model specificity	45.065	35.780 to 55.652	2033	188	140
+symptom detection	model balanced accuracy	71.110	66.607 to 76.236	2033	188	140
+symptom detection	benchmark sensitivity	85.581	82.766 to 88.270	2033	188	140
+symptom detection	benchmark specificity	72.014	62.312 to 82.501	2033	188	140
+symptom detection	benchmark balanced accuracy	78.798	74.034 to 83.982	2033	188	140
+symptom detection	sensitivity difference	11.575	9.048 to 14.205	2033	188	140
+symptom detection	specificity difference	-26.950	-35.157 to -19.377	2033	188	140
+symptom detection	balanced accuracy difference	-7.687	-11.888 to -3.804	2033	188	140
+
+Table S4 | Fully nested selection re-estimates added stage thresholds, flowering proxy and weather preprocessing within each original-calibration training fold. Disease and phenology settings reproduce the original choices; three disease candidates share the nested minimum. Exact-minimum values and bracket counts show remaining threshold identification.
+
+Model / stage	Selected threshold or setting	Nested loss / threshold range	Ties or exact minima	Original result	Original loss	Bracketed evidence
+overwinter source model	a0.001_b10_L20_s120_i0.1	1.000	3	a0.001_b10_L20_s120_i0.1	1.000	8 / 6
+phenology only	phenology_s80_L20	0.167	1	phenology_s80_L20	0.167	8 / 6
+fold 0 BBCH 32	633.39	596.73 to 671.16	68	Censored-loss fit	—	1 genuinely two-sided fields
+fold 0 BBCH 33	653.39	604.51 to 702.27	89	Censored-loss fit	—	3 genuinely two-sided fields
+fold 0 BBCH 37	702.27	701.16 to 703.38	3	Censored-loss fit	—	4 genuinely two-sided fields
+fold 0 BBCH 39	807.80	804.47 to 811.13	7	Censored-loss fit	—	6 genuinely two-sided fields
+fold 1 BBCH 32	606.73	543.41 to 671.16	116	Censored-loss fit	—	0 genuinely two-sided fields
+fold 1 BBCH 33	672.27	627.84 to 717.82	82	Censored-loss fit	—	4 genuinely two-sided fields
+fold 1 BBCH 37	703.38	686.71 to 720.04	31	Censored-loss fit	—	5 genuinely two-sided fields
+fold 1 BBCH 39	873.34	871.12 to 897.78	5	Censored-loss fit	—	7 genuinely two-sided fields
+fold 2 BBCH 32	638.95	596.73 to 680.05	76	Censored-loss fit	—	1 genuinely two-sided fields
+fold 2 BBCH 33	664.50	627.84 to 702.27	68	Censored-loss fit	—	3 genuinely two-sided fields
+fold 2 BBCH 37	702.27	701.16 to 703.38	3	Censored-loss fit	—	3 genuinely two-sided fields
+fold 2 BBCH 39	807.80	805.58 to 811.13	6	Censored-loss fit	—	5 genuinely two-sided fields
+
+Table S5a | Published STB yield contrasts from Parker et al. (2004), Table 4. SX denotes Starcross and RM Rosemaund. Values are protected-minus-unprotected grain yield, t ha⁻¹. All 117 reported contrasts and five negative values are retained; dashes identify 33 unreported combinations. These are treatment contrasts from three-replicate experiments rather than raw plot observations.
+
+Cultivar	SX95	SX96	SX97	RM95	RM96	RM97
+Admiral	0.58	0.33	2.74	1.10	1.35	3.90
+Andante	0.01	1.04	1.50	0.67	1.56	2.25
+Avalon	-0.36	1.25	0.31	0.35	1.20	2.74
+Beaver	0.31	0.87	1.85	0.64	1.15	3.69
+Brigadier	0.74	1.65	3.87	0.91	2.11	4.50
+Cadenza	-0.04	1.29	1.98	0.58	2.75	3.99
+Estica	0.95	1.13	—	0.25	1.35	3.09
+Flame	0.33	0.63	—	0.52	1.00	2.45
+Galahad	-0.06	1.45	1.68	0.24	1.34	3.34
+Haven	0.10	0.68	2.21	0.93	1.74	4.03
+Hereward	0.59	1.04	1.90	0.61	1.64	2.52
+Hornet	-0.23	—	—	0.43	—	—
+Hunter	0.06	1.87	1.38	0.68	1.63	3.76
+Hussar	0.67	1.87	2.80	0.89	1.54	4.03
+Longbow	—	1.66	—	—	2.66	—
+Lynx	-0.15	—	1.86	0.28	—	—
+Mercia	0.69	1.58	2.21	1.08	2.49	2.82
+Norman	0.46	2.06	1.94	0.91	2.07	4.01
+Pastiche	—	1.07	—	—	1.10	1.14
+Rialto	0.24	1.39	1.53	0.58	1.61	2.96
+Riband	1.12	1.97	4.36	1.11	2.66	3.74
+Ritmo	—	—	2.24	—	—	—
+Soissons	—	—	0.31	—	—	—
+Spark	—	—	1.20	—	—	—
+Zodiac	0.45	1.40	—	1.25	1.59	—
+
+Table S5b | Published top-three-leaf yield sensitivities from Parker et al. (2004), Table 5. All coefficients have units t ha⁻¹ per GLAI-day. The population transfer centre is 0.0180; cultivar predictions span 0.0141–0.0207. Fixed estimates and their standard errors are reported for 21 cultivars. Random predictions share environments and are not independent replications.
+
+Cultivar	Random prediction	Fixed estimate	Fixed SE
+Mercia	0.0141	0.0153	0.0031
+Avalon	0.0150	0.0146	0.0034
+Flame	0.0161	0.0141	0.0033
+Hunter	0.0162	0.0157	0.0031
+Galahad	0.0170	0.0172	0.0034
+Hussar	0.0171	0.0164	0.0031
+Hereward	0.0171	0.0176	0.0035
+Andante	0.0173	0.0185	0.0035
+Pastiche	0.0174	0.0150	0.0048
+Soissons	0.0180	—	—
+Spark	0.0180	—	—
+Ritmo	0.0180	—	—
+Hornet	0.0180	—	—
+Zodiac	0.0182	0.0174	0.0036
+Estica	0.0184	0.0215	0.0036
+Longbow	0.0185	0.0224	0.0042
+Riband	0.0186	0.0225	0.0033
+Cadenza	0.0191	0.0194	0.0033
+Admiral	0.0192	0.0197	0.0034
+Lynx	0.0192	0.0184	0.0038
+Norman	0.0192	0.0220	0.0034
+Beaver	0.0194	0.0189	0.0033
+Haven	0.0201	0.0190	0.0034
+Rialto	0.0203	0.0213	0.0033
+Brigadier	0.0207	0.0206	0.0032
+
+Table S6a | Foulkes et al. (2006), Table 2: paired mixed-model genotype-by-fungicide predicted means. HAD integrates the top five leaves from anthesis to complete canopy senescence, in GLAI-days. Yield is t ha⁻¹ at 85% dry matter. All eight contrasts are retained: two STB-only, two yellow-rust-only and four mixed-exposure means. The four site-years have unbalanced genotype and disease coverage. This broader canopy–yield evidence is not STB-specific epidemic validation. Average genotype-by-fungicide SED is 12.9 GLAI-days and 0.52 t ha⁻¹; these are not row-specific standard errors.
+
+Genotype	Disease exposure	Protected HAD	Affected HAD	Protected yield	Affected yield
+Mercia Rht-D1b	STB	129.2	77.5	6.49	5.20
+Mercia Rht-D1a	STB	136.0	69.9	6.60	5.32
+M. Huntsman Rht-D1b	Yellow rust	118.9	48.3	6.49	4.04
+M. Huntsman Rht-D1a	Yellow rust	112.1	42.4	6.62	4.60
+Hobbit awned	STB + yellow rust	118.9	60.6	7.04	4.80
+Hobbit unawned	STB + yellow rust	114.6	64.1	6.45	5.08
+Weston 1BL.1RS	STB + yellow rust	123.3	60.8	8.04	5.47
+Chaucer 1BL.1BS	STB + yellow rust	112.7	59.3	7.69	5.26
+
+Table S6b | Derived published contrasts and leave-one-genetic-background-out predictions. All eight disease-labelled contrasts are included. Each coefficient uses only the other four backgrounds. Relative losses divide protected-minus-affected differences by protected means; absolute response uses top-five HAD loss. Mercia, M. Huntsman, Hobbit, Weston and Chaucer receive equal total weights. Predictions reconstruct aggregate treatment means, rather than current-model field yield.
+
+Background/line	HAD loss (%)	Yield loss (%)	Held prediction (%)	Yield loss (t ha⁻¹)	Held prediction (t ha⁻¹)
+Mercia Rht-D1b	40.02	19.88	24.10	1.290	1.930
+Mercia Rht-D1a	48.60	19.39	29.28	1.280	2.468
+M. Huntsman Rht-D1b	59.38	37.75	34.65	2.450	2.482
+M. Huntsman Rht-D1a	62.18	30.51	36.29	2.020	2.450
+Hobbit awned	49.03	31.82	28.30	2.240	2.006
+Hobbit unawned	44.07	21.24	25.43	1.370	1.737
+Weston 1BL.1RS	50.69	31.97	28.54	2.570	2.025
+Chaucer 1BL.1BS	47.38	31.60	26.40	2.430	1.718
+
+Table S6c | Group-balanced prediction metrics for eight published mean contrasts in five backgrounds. Relative MAE, RMSE and bias are percentage points; absolute metrics are t ha⁻¹. The full-data absolute coefficient is t ha⁻¹ per top-five GLAI-day, and the relative coefficient is dimensionless. Full-data coefficients are descriptive fits; metric calculations use held-background predictions. No covariance-adjusted confidence intervals are identified.
+
+Response	MAE	RMSE	Bias	R²	Full-data coefficient
+Absolute	0.541	0.617	-0.009	-0.432	0.03427
+Relative	4.793	5.156	0.022	0.247	0.57670
+
+Table S7 | Compatibility of the retained published crop-response evidence. Disease exposure, leaf scope, integration window, predictor scale and grain-yield definition differ. The Foulkes dataset includes yellow-rust and mixed-disease contrasts. Study-specific observations, temporal scopes, units and limitations are retained in Source Data.
+
+Study	Disease	Leaf scope	Predictor / outcome	Evidence role
+Parker 2004	STB	Top three	GLAI-days / t ha⁻¹	Top-three transfer
+Foulkes 2006	STB; yellow rust	Top five	GLAI-days / t ha⁻¹	Aggregate group holdout
+
+Table S8 | Treatment-response prediction under held-out trial and year transfer. Trial-held-out endpoint and common-date window models retain their respective 67- and 50-contrast populations across five trial environments. Upper-three-leaf year transfer fits 2017–2018 treatment contrasts and evaluates 12 contrasts in 11 fields in 2019. Each model is compared with its own training-mean prediction; the populations and disease-percentage predictors retain distinct definitions. These comparisons evaluate management-associated relative yield responses rather than cause-specific STB yield loss or measured healthy-area duration.
+
+Domain	Model	Contrasts	Environments / fields	RMSE (pp)	Baseline (pp)	MSE skill
+Endpoint	Linear	67	5	4.164	3.884	-0.149
+Window integral	Linear	50	5	5.557	3.985	-0.945
+Four diseases	Linear	131	8	122.770	6.460	-360.228
+Endpoint	Exponential	67	5	4.170	3.884	-0.153
+Window integral	Exponential	50	5	5.540	3.985	-0.933
+Four diseases	Exponential	131	8	19.386	6.460	-8.007
+2019 year transfer; upper three leaves	Linear	12	11	5.23	3.60	-1.107
+2019 year transfer; upper three leaves	Exponential	12	11	5.04	3.60	-0.958
+
+Table S9 | Full-grid European climate impacts by emissions pathway and harvest period. All entries use exact fixed harvested-area weights and metric-specific valid paired area-time support. Timing is conditional on detected symptoms; occurrence includes symptom-free complete seasons. Canopy damage is the reference-area-weighted functional-loss fraction. Conditional yield change uses the reference coefficient and nominal reference LAI.
+
+SSP	Period	Δ HAD (days / LAI)	Δ timing (days)	Δ frequency (pp)	Δ canopy damage (pp)	Conditional Δ yield (kg ha⁻¹ / LAI)	Valid HAD area-time (%)
+SSP126	2031-2060	+1.11	-1.62	-0.026	+3.54	-20.1	99.958
+SSP126	2071-2100	+1.45	-1.71	-0.033	+4.39	-26.0	99.956
+SSP245	2031-2060	+0.77	-0.96	-0.069	+2.46	-13.8	99.960
+SSP245	2071-2100	+1.55	-1.94	-0.219	+4.90	-27.8	99.913
+SSP585	2031-2060	+1.53	-1.81	-0.087	+4.77	-27.5	99.958
+SSP585	2071-2100	+2.66	-3.46	-0.400	+8.04	-47.8	99.922
+
+Table S10 | Sensitivity of late-century SSP5–8.5 model responses to fourteen prespecified settings. The diagnostic sample retains 64 spatial draws at 62 cells. Metric-specific common paired populations and coverage are retained. Climate-model ranges and spatial sampling error refer to this diagnostic sample rather than the full-grid impact census. Yield quantities are conditional canopy-conversion products.
+
+Setting	Outcome	Mean change	Three-GCM range	Spatial MCSE	Common-pair coverage
+baseline	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
+baseline	HAD deficit (days per nominal LAI)	+2.617	+1.283 to +4.392	0.327	100.0–100.0%
+baseline	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.047	+0.023 to +0.079	0.006	100.0–100.0%
+decline end0 conversion0p5	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
+decline end0 conversion0p5	HAD deficit (days per nominal LAI)	+0.629	+0.308 to +1.068	0.075	100.0–100.0%
+decline end0 conversion0p5	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.011	+0.006 to +0.019	0.001	100.0–100.0%
+detection0p0001	Flag-leaf symptoms (days relative to anthesis)	-3.800	-7.331 to -1.109	0.888	88.3–95.3%
+detection0p0001	HAD deficit (days per nominal LAI)	+2.617	+1.283 to +4.392	0.327	100.0–100.0%
+detection0p0001	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.047	+0.023 to +0.079	0.006	100.0–100.0%
+detection0p01	Flag-leaf symptoms (days relative to anthesis)	-3.993	-5.811 to -2.493	0.718	88.3–95.3%
+detection0p01	HAD deficit (days per nominal LAI)	+2.620	+1.287 to +4.397	0.328	100.0–100.0%
+detection0p01	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.047	+0.023 to +0.079	0.006	100.0–100.0%
+functional conversion0p5	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
+functional conversion0p5	HAD deficit (days per nominal LAI)	+1.308	+0.642 to +2.196	0.164	100.0–100.0%
+functional conversion0p5	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.024	+0.012 to +0.040	0.003	100.0–100.0%
+functional conversion0p75	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
+functional conversion0p75	HAD deficit (days per nominal LAI)	+1.962	+0.962 to +3.294	0.245	100.0–100.0%
+functional conversion0p75	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.035	+0.017 to +0.059	0.004	100.0–100.0%
+local source off	Flag-leaf symptoms (days relative to anthesis)	-4.291	-6.861 to -2.272	0.459	88.3–95.3%
+local source off	HAD deficit (days per nominal LAI)	+2.317	+1.005 to +4.136	0.290	100.0–100.0%
+local source off	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.042	+0.018 to +0.074	0.005	100.0–100.0%
+primary objective tied runnerup	Flag-leaf symptoms (days relative to anthesis)	-3.524	-5.728 to -1.871	0.500	88.3–95.3%
+primary objective tied runnerup	HAD deficit (days per nominal LAI)	+2.582	+1.265 to +4.388	0.322	100.0–100.0%
+primary objective tied runnerup	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.046	+0.023 to +0.079	0.006	100.0–100.0%
+rank spacing160	Flag-leaf symptoms (days relative to anthesis)	-3.762	-6.438 to -1.730	0.473	88.3–95.3%
+rank spacing160	HAD deficit (days per nominal LAI)	+2.801	+1.389 to +4.673	0.351	100.0–100.0%
+rank spacing160	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.050	+0.025 to +0.084	0.006	100.0–100.0%
+rank spacing80	Flag-leaf symptoms (days relative to anthesis)	-3.348	-5.685 to -1.612	0.491	88.3–95.3%
+rank spacing80	HAD deficit (days per nominal LAI)	+1.643	+0.631 to +3.001	0.225	100.0–100.0%
+rank spacing80	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.030	+0.011 to +0.054	0.004	100.0–100.0%
+reference decline end0	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
+reference decline end0	HAD deficit (days per nominal LAI)	+1.258	+0.617 to +2.136	0.150	100.0–100.0%
+reference decline end0	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.023	+0.011 to +0.038	0.003	100.0–100.0%
+reference decline end0p5	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
+reference decline end0p5	HAD deficit (days per nominal LAI)	+1.938	+0.950 to +3.264	0.238	100.0–100.0%
+reference decline end0p5	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.035	+0.017 to +0.059	0.004	100.0–100.0%
+stage profile early37	Flag-leaf symptoms (days relative to anthesis)	-5.464	-9.195 to -2.675	0.671	88.3–95.3%
+stage profile early37	HAD deficit (days per nominal LAI)	+2.549	+1.151 to +4.443	0.319	100.0–100.0%
+stage profile early37	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.046	+0.021 to +0.080	0.006	100.0–100.0%
+stage profile late37	Flag-leaf symptoms (days relative to anthesis)	-1.543	-2.802 to -0.729	0.286	88.3–95.3%
+stage profile late37	HAD deficit (days per nominal LAI)	+1.807	+0.819 to +3.123	0.248	100.0–100.0%
+stage profile late37	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.033	+0.015 to +0.056	0.004	100.0–100.0%
+
+Table S11 | Parameter and scenario inventory. Values retain their model, calibration or registered-sensitivity provenance; uncertainty describes identification or scenario status, not a probability distribution unless explicitly stated. The complete nine-column machine-readable inventory is supplied as Parameter_inventory.csv.
+
+Symbol	Parameter	Value	Unit	Role	Uncertainty
+G_P_on	photoperiod_onset_gdd	142.01	effective degC d	fixed	Fixed in current study; inherited calibration; no current parameter interval.
+G_P_off	photoperiod_stop_gdd	1426.78	effective degC d	fixed	Fixed in current study; inherited calibration; no current parameter interval.
+U_V_on	vernalization_onset_tpp	142.01	effective degC d	fixed	Fixed in current study; inherited calibration; no current parameter interval.
+U_V_off	vernalization_stop_tpp	582.8	effective degC d	fixed	Fixed in current study; inherited calibration; no current parameter interval.
+T_base	thermal_zero_bound	0	degC	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+T_cap	thermal_plateau_start	20	degC	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+T_decline	thermal_decline_start	30	degC	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+T_supported_max	maximum_supported_daily_mean	40	degC	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+b_hot	thermal_decline_slope	2	effective degC per degC	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+delta_amplitude	solar_declination_amplitude	0.4093	radian	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+j_equ	solar_phase_day	81	day of year	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+n_solar	astronomical_period	365	d	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+ell_ref	photoperiod_reference_daylength	16	h	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+b_P	photoperiod_response_slope	0.09	h^-1	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+v_knots_T	vernalization_temperature_knots	[-4, 0, 10, 16]	degC	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+v_knots_R	vernalization_response_at_knots	[0, 1, 1, 0]	effective vernalization d per d	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+V_early	early_vernalization_hot_loss_bound	10	effective vernalization d	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+T_devern	maximum_temperature_hot_loss_bound	30	degC	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+b_devern	hot_loss_slope	0.5	effective vernalization d per degC per d	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+V_complete	vernalization_response_saturation	40	effective vernalization d	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+f_V_min	minimum_vernalization_multiplier	0.3	1	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+f_V_span	vernalization_multiplier_increment	0.7	1	fixed	Intrinsic retained donor assumption; no uncertainty distribution.
+q	development_multiplier	1	1	fixed	Retained q=1; no rescaling in current runtime.
+C_10	BBCH10_threshold	142.01	effective degC d	fixed	Fixed in current study; inherited calibration; no current parameter interval.
+C_31	BBCH31_threshold	542.3	effective degC d	fixed	Fixed in current study; inherited calibration; no current parameter interval.
+C_32	BBCH32_threshold	633.39175	effective degC d	fitted	0-d loss tolerance 596.732875–671.1615; 1-d loss tolerance 543.410875–772.251125; 2-d loss tolerance 543.410875–830.016625; weak identification; not confidence intervals.
+C_33	BBCH33_threshold	664.4962499999999	effective degC d	fitted	0-d loss tolerance 627.837375–702.266; 1-d loss tolerance 544.52175–834.460125; 2-d loss tolerance 544.52175–896.669125; weak identification; not confidence intervals.
+C_37	BBCH37_threshold	702.266	effective degC d	fitted	0-d loss tolerance 701.155125–703.376875; 1-d loss tolerance 568.961–907.777875; 2-d loss tolerance 545.632625–979.98475; weak identification; not confidence intervals.
+C_39	BBCH39_threshold	807.799125	effective degC d	fitted	0-d loss tolerance 805.577375–811.13175; 1-d loss tolerance 635.6135–985.539125; 2-d loss tolerance 585.624125–985.539125; weak identification; not confidence intervals.
+C_51	BBCH51_threshold	986.65	effective degC d	fixed	Fixed in current study; inherited calibration; no current parameter interval.
+C_65	BBCH65_threshold	1165.925558	effective degC d	fitted	Inherited stage-only estimate; exact minimizing range 1152.462482–1177.144788; 1-d loss tolerance 1069.44018–1264.654782; not confidence intervals.
+C_85	BBCH85_threshold	1760.39	effective degC d	fixed	Fixed in current study; inherited calibration; no current parameter interval.
+f_65	flowering_threshold_fraction	0.2317	1	fitted	Stage-only grid [0.02,0.60]; exact minimum fractions [0.2143,0.2462]; not a confidence interval.
+Delta	rank_spacing_units	120.0	effective degC d	fitted	Selected from 80,120,160 with disease signs/timing; not leaf-count or measured-phyllochron calibration.
+alpha	primary_scale	0.001	d^-1 per relative-source unit	fitted	Grid 0.0001,0.001,0.01,0.1; source-scale dependent; no confidence interval.
+beta	secondary_scale	10.0	d^-1	fitted	Grid 0.1,1,10; selected upper grid boundary; weak identification; no confidence interval.
+tau_L	latent_reference_days	20.0	reference d at 18 degC	fitted	Grid 20,30 d; effective latent-chain mean; finite-substep timing differs from continuous-time mean.
+m	latent_stages	3	count	fixed	Fixed effective chain architecture; no uncertainty distribution.
+tau_N	nonsporulating_reference_days	3.0	reference d at 18 degC	fixed	Effective assumption; not calibrated to disease magnitude.
+tau_I	infectious_reference_days	21.0	reference d at 18 degC	fixed	Effective assumption; not calibrated to disease magnitude.
+tau_M	residue_maturation_reference_days	30.0	reference d at 18 degC and exposure=1	fixed	Effective source-competence assumption; no measured reproductive-maturation calibration.
+tau_Q	residue_decay_reference_days	90.0	reference d at 18 degC	fixed	Effective common source-ageing assumption; same-fit half/double lifetime sensitivities.
+f_0	initial_ready_fraction	0.5	1	fixed	Initial relative-source partition assumption; no measured readiness.
+lambda	rank_distance_scale	2.0	rank intervals	fixed	Effective canopy geometry assumption; no calibrated physical transport distance.
+p_star	rain_scale_mm	2.0	mm	fixed	Effective splash-response assumption; no uncertainty distribution.
+omega	local_airborne_fraction	0.1	1	fixed	Relative local establishment mixture; not a measured spore-source share.
+kappa	contact_fraction	0.2	1	fixed	Effective neighboring-leaf contact multiplier; contact-off structural sensitivity.
+M	constant_imported_pressure	0.1	relative-source units	fitted	Grid 0,0.1; no observed imported source; source-scale dependent; no confidence interval.
+r_star	rain_rate_mm_hour	0.45	mm h^-1	fitted	Training-only meteorological median; 2695 eligible rain days at 6432 unique location-days; no sampling interval supplied.
+J_policy	juvenile_policy	"handover_31_39"	policy	scenario	Primary handover_31_39; persistent alternative tested without fitting new ecological rates.
+D_J	juvenile_renewal_degree_day_scale	300	positive degC d	fixed	Retained juvenile renewal assumption; no measured turnover calibration.
+T_ref	disease_thermal_reference	18	degC	fixed	Defines relative stage/source clock; no fitted temperature-response uncertainty.
+H_RH	humid_bin_cutoff	90	percent RH	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+eps_RH	humidity_cutoff_tolerance	1e-07	percentage points	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+n_bin	synthetic_hourly_bins	24	count	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+phi_bin	hourly_bin_phase_offset	0.5	h	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+b_sat	saturation_exponent_coefficient	17.625	1	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+T_sat	saturation_temperature_constant	243.04	degC	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+n_bisect	humidity_bisection_iterations	30	count	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+T_exp	exposure_temperature_optimum	18	degC	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+sigma_exp	exposure_temperature_width	8	degC	fixed	Daily exposure reconstruction assumption; no measured canopy-wetness error distribution.
+Q_0	initial_local_source	1.0	relative-source units	scenario	Conditional unit initial source; local-source-off intervention does not identify causal source effects.
+Delta_t_req	requested_time_step	0.25	d	fixed	Frozen numerical setting; convergence checks assess numerical behavior rather than biological uncertainty.
+n_sub	daily_substeps	4	count	fixed	n=ceil(1/requested_step); current effective substep is 0.25 d.
+epsilon	detection_fraction	0.001	normalized tissue fraction	scenario	Fixed detection operator; post-fit cutoffs 0.0001 and 0.01; not biological infection threshold.
+D_miss	missing_positive_minimum_penalty	30	d	fixed	Scoring convention; missing-positive loss=max(30,forcing_end+1-upper_bound).
+n_slot	leaf_slots	8	count	fixed	F1–F7 plus aggregate juvenile; does not estimate actual main-stem leaf number.
+needs_V	vernalization_required	true	boolean	scenario	Winter-wheat requirement assumed; vernalization-off is a structural sensitivity.
+L_star	standardized_upper3_lai	1.0	m2 lamina m^-2 ground	scenario	Nominal scenario maximum; actual disease-free reference area and natural senescence unmeasured.
+b_1	yield_transfer_slope	0.0141	t ha^-1 per GLAI d	scenario	Published cultivar-range scenario; not confidence or prediction interval; no local yield calibration.
+b_2	yield_transfer_slope	0.018	t ha^-1 per GLAI d	scenario	Published cultivar-range scenario; not confidence or prediction interval; no local yield calibration.
+b_3	yield_transfer_slope	0.0207	t ha^-1 per GLAI d	scenario	Published cultivar-range scenario; not confidence or prediction interval; no local yield calibration.
+Y_ref	reference_yield_t_ha	—	t ha^-1	scenario	Absent by default; independently supplied positive value required for percentage diagnostic; not inferred.
+f_proxy	functional_loss_conversion	"N+I+D"	normalized functional fraction	scenario	Unmeasured model proxy; latent tissue excluded; field/public runtime integrates pre-detection values.
+gate_climate	climate_functional_detection_gate	"zero until first symptom fraction >= 0.001"	policy	scenario	Climate reporting convention only; differs from current field/public-runtime functional postprocessing.
+W_window	yield_window	"inclusive first BBCH65 to first BBCH85"	calendar window	scenario	Development-window adaptation; GS31–85 sensitivity separately reported; no measured physiological yield window.
+H	spatial_strata	16	count	fixed	Geographical stratification conditional on area/calendar registry.
+n_h	draws_per_stratum	4	count	fixed	Independent area-proportional replacement draws; MCSE separately estimated.
+seed_spatial	sampling_seed	20261005	integer	fixed	Exact draw identities supplied; 64 draws at 62 unique cells.
+phi_breaks	latitude_strata_breaks	[34, 43, 51, 59, 68]	degrees north	fixed	Design constants; no uncertainty distribution.
+lon_breaks	longitude_strata_breaks	[-10, 8, 25, 42, 60]	degrees east	fixed	Design constants; no uncertainty distribution.
+n_year	period_year_count	30	yr	fixed	Historical 1991–2020; future 2031–2060 and 2071–2100; relative-year pairing.
+n_GCM	climate_model_count	3	count	scenario	ACCESS-CM2, MPI-ESM1-2-HR, MRI-ESM2-0; range is not a confidence interval.
+calendar_type	regional_crop_calendar_type	"winter wheat/rainfed on all-wheat registered area"	policy	scenario	Genetic wheat type not verified; calendar and area mismatch is a structural limitation.
+
+Table S12a | Four-combination Shapley decomposition for GS65–85 upper-three-leaf HAD proxy loss under SSP5–8.5. Interaction is allocated equally between the two contributions; weather plus host equals the net. Twenty of 5,751 finite pairs are excluded because a hybrid active-day disease-weather mean exceeds 40 °C. The supported-forcing population and all decomposition terms share the remaining 5,731 pairs. Contributions are model-response components, not physical causal effects or measured yield.
+
+Component	Mean (HAD days)	GCM range	Spatial MCSE	Coverage	Draw-year pairs
+Disease-weather contribution	+9.004	+6.528 to +12.221	0.621	99.20–99.86%	1909–1912
+Host-development contribution	-6.360	-7.774 to -5.244	0.377	99.20–99.86%	1909–1912
+Net HAD change	+2.644	+1.285 to +4.447	0.329	99.20–99.86%	1909–1912
+Weather × host interaction	-2.784	-3.119 to -2.372	0.300	99.20–99.86%	1909–1912
+
+Table S12b | Host development offsets part of the weather contribution to modeled canopy damage. HAD changes are days per unit nominal reference LAI on the common supported-forcing population. Host offset is −100 × host/weather; the ensemble percentage is the ratio of the three-model mean contributions, not the mean of the model-specific percentages. The interaction is already allocated equally to the weather and host terms. Percentages are descriptive model ratios without probability intervals and do not measure the benefit of an adaptation intervention.
+
+Climate model	Weather ΔHAD	Host ΔHAD	Net ΔHAD	Host offset (%)
+ACCESS-CM2	+12.221	-7.774	+4.447	63.6
+MPI-ESM1-2-HR	+8.261	-6.061	+2.200	73.4
+MRI-ESM2-0	+6.528	-5.244	+1.285	80.3
+Three-model ensemble	+9.004	-6.360	+2.644	70.6
+
+Table S13a | Full-grid late-century environmental-region changes in canopy HAD deficit (days / reference LAI). Reference and future means share the same valid paired support. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. No spatial sampling error applies to the full census.
+
+Region	SSP	Mean change	Three-model range	Eligible cells	Reference area (Mha)	Valid area-time (%)
+Alpine	SSP126	+1.599	+0.817 to +2.454	828	0.996	99.025
+Alpine	SSP245	+1.410	-0.128 to +3.308	828	0.996	99.049
+Alpine	SSP585	+2.279	+1.376 to +3.994	828	0.996	99.043
+Atlantic	SSP126	+1.358	-5.265 to +5.703	1455	5.964	99.964
+Atlantic	SSP245	+1.999	-1.832 to +6.573	1455	5.964	99.967
+Atlantic	SSP585	+4.849	+0.583 to +8.233	1455	5.964	99.967
+Black Sea	SSP126	+0.780	-1.038 to +2.379	24	0.119	100.000
+Black Sea	SSP245	+0.419	-1.267 to +2.563	24	0.119	100.000
+Black Sea	SSP585	-0.621	-2.024 to +0.529	24	0.119	100.000
+Boreal	SSP126	+2.611	-0.399 to +5.535	2914	3.317	99.716
+Boreal	SSP245	+3.774	+2.141 to +6.900	2914	3.317	99.750
+Boreal	SSP585	+7.841	+5.062 to +12.517	2914	3.317	99.729
+Continental	SSP126	+1.966	-0.135 to +3.365	5057	23.097	100.000
+Continental	SSP245	+2.007	+0.828 to +4.106	5057	23.097	100.000
+Continental	SSP585	+3.453	+2.019 to +5.538	5057	23.097	99.990
+Europe	SSP126	+1.446	-0.428 to +2.688	14932	54.405	99.956
+Europe	SSP245	+1.546	+0.472 to +3.599	14932	54.405	99.913
+Europe	SSP585	+2.656	+1.232 to +4.570	14932	54.405	99.922
+Mediterranean	SSP126	+0.199	-0.456 to +0.571	1535	3.663	100.000
+Mediterranean	SSP245	+0.090	-1.300 to +2.531	1535	3.663	100.000
+Mediterranean	SSP585	-1.401	-1.878 to -1.129	1535	3.663	99.996
+Outside EEA regions	SSP126	+0.389	+0.069 to +0.932	76	0.085	100.000
+Outside EEA regions	SSP245	+0.768	+0.253 to +1.717	76	0.085	99.829
+Outside EEA regions	SSP585	+1.735	+0.874 to +2.890	76	0.085	99.731
+Pannonian	SSP126	+2.417	+1.678 to +3.177	285	1.766	100.000
+Pannonian	SSP245	+2.087	+0.676 to +4.500	285	1.766	100.000
+Pannonian	SSP585	+3.335	+2.350 to +5.170	285	1.766	100.000
+Steppic	SSP126	+0.620	+0.370 to +0.749	2105	14.932	99.989
+Steppic	SSP245	+0.484	+0.049 to +1.064	2105	14.932	99.819
+Steppic	SSP585	+0.365	-0.078 to +1.228	2105	14.932	99.852
+Unassigned	SSP126	+1.112	-2.251 to +3.568	653	0.466	99.826
+Unassigned	SSP245	+1.196	-1.190 to +4.361	653	0.466	99.837
+Unassigned	SSP585	+2.648	+0.169 to +5.269	653	0.466	99.832
+
+Table S13b | Full-grid late-century environmental-region changes in mean canopy damage (percentage points). Reference and future means share the same valid paired support. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. No spatial sampling error applies to the full census.
+
+Region	SSP	Mean change	Three-model range	Eligible cells	Reference area (Mha)	Valid area-time (%)
+Alpine	SSP126	+5.525	+3.193 to +8.683	828	0.996	99.025
+Alpine	SSP245	+5.743	+0.551 to +11.942	828	0.996	99.049
+Alpine	SSP585	+8.537	+5.874 to +13.801	828	0.996	99.043
+Atlantic	SSP126	+4.256	-13.506 to +16.722	1455	5.964	99.964
+Atlantic	SSP245	+6.632	-4.025 to +19.900	1455	5.964	99.967
+Atlantic	SSP585	+15.349	+3.207 to +25.356	1455	5.964	99.967
+Black Sea	SSP126	+1.959	-3.541 to +6.973	24	0.119	100.000
+Black Sea	SSP245	+0.776	-3.909 to +6.286	24	0.119	100.000
+Black Sea	SSP585	-3.295	-7.095 to -1.373	24	0.119	100.000
+Boreal	SSP126	+8.272	-0.840 to +17.742	2914	3.317	99.716
+Boreal	SSP245	+11.936	+6.470 to +22.201	2914	3.317	99.750
+Boreal	SSP585	+23.990	+15.300 to +38.564	2914	3.317	99.729
+Continental	SSP126	+5.893	-0.103 to +10.355	5057	23.097	100.000
+Continental	SSP245	+6.361	+2.461 to +12.823	5057	23.097	100.000
+Continental	SSP585	+10.489	+6.467 to +16.592	5057	23.097	99.990
+Europe	SSP126	+4.387	-0.831 to +8.222	14932	54.405	99.956
+Europe	SSP245	+4.898	+1.723 to +11.050	14932	54.405	99.913
+Europe	SSP585	+8.037	+4.077 to +13.527	14932	54.405	99.922
+Mediterranean	SSP126	+0.572	-1.226 to +1.703	1535	3.663	100.000
+Mediterranean	SSP245	+0.341	-3.551 to +7.227	1535	3.663	100.000
+Mediterranean	SSP585	-4.001	-5.268 to -3.336	1535	3.663	99.996
+Outside EEA regions	SSP126	+1.544	+0.390 to +3.534	76	0.085	100.000
+Outside EEA regions	SSP245	+2.812	+0.957 to +6.099	76	0.085	99.829
+Outside EEA regions	SSP585	+5.830	+2.974 to +9.544	76	0.085	99.731
+Pannonian	SSP126	+7.344	+5.225 to +9.014	285	1.766	100.000
+Pannonian	SSP245	+6.550	+1.990 to +13.924	285	1.766	100.000
+Pannonian	SSP585	+9.894	+6.960 to +15.285	285	1.766	100.000
+Steppic	SSP126	+1.831	+1.050 to +2.298	2105	14.932	99.989
+Steppic	SSP245	+1.334	+0.017 to +2.861	2105	14.932	99.819
+Steppic	SSP585	+0.592	-0.418 to +2.504	2105	14.932	99.852
+Unassigned	SSP126	+3.195	-5.573 to +10.097	653	0.466	99.826
+Unassigned	SSP245	+3.515	-2.957 to +12.395	653	0.466	99.837
+Unassigned	SSP585	+7.725	+0.914 to +14.958	653	0.466	99.832
+
+Table S13c | Full-grid late-century environmental-region changes in symptom timing (days relative to flowering). Reference and future means share the same valid paired support. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. No spatial sampling error applies to the full census.
+
+Region	SSP	Mean change	Three-model range	Eligible cells	Reference area (Mha)	Valid area-time (%)
+Alpine	SSP126	-1.425	-1.978 to -0.702	828	0.996	98.640
+Alpine	SSP245	-1.224	-2.955 to -0.296	828	0.996	98.386
+Alpine	SSP585	-2.474	-4.359 to -1.297	828	0.996	98.699
+Atlantic	SSP126	-0.111	-2.602 to +4.272	1455	5.964	99.964
+Atlantic	SSP245	-1.101	-3.589 to +0.857	1455	5.964	99.967
+Atlantic	SSP585	-3.233	-5.218 to -0.559	1455	5.964	99.967
+Black Sea	SSP126	-1.621	-2.480 to -0.769	24	0.119	99.211
+Black Sea	SSP245	-1.462	-4.376 to +0.366	24	0.119	99.894
+Black Sea	SSP585	-0.843	-2.635 to +1.796	24	0.119	100.000
+Boreal	SSP126	-2.815	-5.338 to -0.080	2914	3.317	99.715
+Boreal	SSP245	-3.251	-5.841 to -1.425	2914	3.317	99.750
+Boreal	SSP585	-7.434	-11.059 to -4.624	2914	3.317	99.729
+Continental	SSP126	-2.183	-3.311 to -0.438	5057	23.097	99.814
+Continental	SSP245	-2.248	-3.699 to -1.364	5057	23.097	99.881
+Continental	SSP585	-4.409	-6.952 to -2.334	5057	23.097	99.845
+Europe	SSP126	-1.708	-2.689 to -0.081	14932	54.405	99.125
+Europe	SSP245	-1.941	-3.687 to -0.763	14932	54.405	98.996
+Europe	SSP585	-3.463	-6.020 to -1.572	14932	54.405	98.655
+Mediterranean	SSP126	+0.052	-1.785 to +1.191	1535	3.663	98.131
+Mediterranean	SSP245	+1.408	-1.597 to +2.954	1535	3.663	94.600
+Mediterranean	SSP585	+3.858	+3.054 to +4.872	1535	3.663	89.308
+Outside EEA regions	SSP126	-2.032	-2.899 to -1.460	76	0.085	96.656
+Outside EEA regions	SSP245	-2.765	-3.815 to -1.143	76	0.085	96.769
+Outside EEA regions	SSP585	-4.621	-5.663 to -4.078	76	0.085	97.328
+Pannonian	SSP126	-2.365	-3.826 to -1.502	285	1.766	99.989
+Pannonian	SSP245	-1.233	-2.618 to -0.478	285	1.766	100.000
+Pannonian	SSP585	-3.110	-4.688 to -1.522	285	1.766	100.000
+Steppic	SSP126	-1.745	-2.124 to -1.357	2105	14.932	97.699
+Steppic	SSP245	-2.451	-3.891 to -1.310	2105	14.932	98.009
+Steppic	SSP585	-3.024	-6.374 to -1.216	2105	14.932	98.094
+Unassigned	SSP126	-1.132	-2.744 to +0.985	653	0.466	99.795
+Unassigned	SSP245	-1.628	-4.164 to +0.147	653	0.466	99.725
+Unassigned	SSP585	-2.283	-4.063 to -0.990	653	0.466	99.569
+
+Table S14 | Country-group climate impacts under late-century SSP5–8.5. Groups follow the dominant SPAM source-country assignment of quarter-degree wheat cells within the study domain. Values are exact harvested-area-weighted model scenario responses rather than observed national averages. Cross-border cells are not partitioned, and the Russian Federation and Turkey entries cover only represented domain cells. All SSP-specific estimates, climate-model ranges and valid area-time coverage remain in Source Data.
+
+Country group	Eligible cells	Reference area (Mha)	Δ HAD (days / LAI)	Δ timing (days)	Δ canopy damage (pp)	Conditional Δ yield (kg ha⁻¹ / LAI)
+Russian Federation	4001	19.723	+1.74	-4.19	+5.19	-31.3
+Ukraine	1211	6.806	+0.18	-3.48	-0.56	-3.2
+France	1083	5.015	+4.13	-2.42	+13.49	-74.3
+Germany	714	2.971	+7.41	-5.68	+22.52	-133.3
+Poland	643	2.409	+8.48	-7.35	+26.12	-152.6
+Romania	437	2.155	+0.75	-0.93	+2.51	-13.5
+Spain	920	1.988	-0.80	+4.05	-1.86	+14.4
+Italy	578	1.730	-2.02	+2.94	-6.99	+36.3
+United Kingdom	482	1.674	+5.21	-3.75	+16.42	-93.8
+Bulgaria	200	1.204	-1.42	+1.02	-4.74	+25.5
+Hungary	175	0.940	+3.43	-3.19	+10.25	-61.8
+Lithuania	150	0.916	+10.43	-8.69	+31.19	-187.7
+Czechia	161	0.815	+4.26	-4.71	+13.83	-76.7
+Belarus	453	0.707	+3.78	-5.20	+11.93	-68.1
+Serbia	153	0.601	+1.67	-1.77	+4.78	-30.0
+Denmark	141	0.537	+10.09	-7.55	+29.67	-181.7
+Latvia	169	0.510	+10.80	-8.97	+32.18	-194.4
+Sweden	748	0.466	+6.62	-7.46	+20.95	-119.2
+Slovakia	103	0.389	+4.68	-3.86	+14.97	-84.2
+Turkey	54	0.364	-0.52	+0.42	-2.89	+9.4
+Greece	305	0.359	-1.61	+3.24	-4.20	+28.9
+Republic of Moldova	62	0.332	+0.26	-1.42	+0.56	-4.6
+Austria	147	0.266	+1.52	-2.15	+8.03	-27.3
+Belgium	57	0.204	+6.04	-3.89	+19.41	-108.8
+Finland	781	0.203	+5.29	-6.87	+17.52	-95.2
+Estonia	80	0.171	+10.88	-9.75	+32.95	-195.9
+Kazakhstan	133	0.156	+0.66	-5.57	+1.91	-11.9
+Croatia	114	0.143	+2.00	-1.55	+6.43	-36.0
+Netherlands	58	0.110	+7.10	-4.69	+21.45	-127.8
+Switzerland	29	0.086	+3.85	-2.69	+13.68	-69.3
+Azerbaijan	18	0.072	+4.91	-8.31	+9.31	-88.4
+Norway	248	0.071	+6.21	-5.95	+20.21	-111.7
+North Macedonia	41	0.067	-0.04	+1.59	+0.00	+0.8
+Bosnia and Herzegovina	49	0.064	+2.01	-1.20	+6.90	-36.2
+Ireland	46	0.058	+3.58	-1.48	+14.01	-64.5
+Albania	39	0.055	-0.88	+1.87	-2.44	+15.8
+Slovenia	39	0.028	+2.94	-2.53	+9.19	-52.9
+Portugal	103	0.027	-2.50	+3.80	-5.91	+44.9
+Luxembourg	4	0.014	+5.60	-3.66	+18.59	-100.9
+Montenegro	1	0.001	-0.10	-2.31	-5.84	+1.9
+Georgia	2	0.000	-0.28	-1.01	+6.06	+5.0
+
+Table S15 | Exact harvested-area shares by climate-model canopy-response sign. Shares use all cells with complete three-model estimates under each scenario–period comparison. Positive ensemble means and unanimous positive signs are distinct classifications. Mixed signs include at least one positive and one negative model change; any zero-only combinations remain in Source Data.
+
+SSP	Period	Positive ensemble (%)	All models positive (%)	All models negative (%)	Mixed signs (%)	Complete-model area (%)
+SSP126	2031-2060	95.83	51.21	0.91	47.88	99.984
+SSP126	2071-2100	93.36	50.01	0.78	49.22	99.983
+SSP245	2031-2060	71.53	21.04	9.80	69.16	99.984
+SSP245	2071-2100	86.22	55.36	5.70	38.94	99.984
+SSP585	2031-2060	89.07	50.23	4.52	45.25	99.985
+SSP585	2071-2100	77.29	65.17	14.86	19.98	99.985
+
+Table S16 | Full-grid wheat-land-use and environmental-region coverage. Areas sum the fixed SPAM2020 all-wheat harvested-area registry. Calendar eligibility uses the imposed GGCMI winter-wheat rainfed scenario. Environmental assignment follows cell centroids; missing and outside-region assignments remain explicit.
+
+Environmental region	Land-use cells	Eligible calendars	Reference wheat area (Mha)
+Alpine	828	828	0.9959
+Atlantic	1457	1455	5.9642
+Black Sea	24	24	0.1187
+Boreal	2914	2914	3.3170
+Continental	5057	5057	23.0971
+Mediterranean	1535	1535	3.6633
+Outside EEA regions	76	76	0.0846
+Pannonian	285	285	1.7656
+Steppic	2108	2105	14.9322
+Unassigned	657	653	0.4664
+
+Supplementary figures
+
+Figure S1 | Field evaluation of wheat development dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
+
+Figure S2 | Field evaluation of wheat development dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
+
+Figure S3 | Calibration of wheat development dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
+
+Figure S4 | Calibration of wheat development dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
+
+Figure S5 | Retained T–P–V predictions on the German station test cohort at BBCH 10, 31, 51 and 85. Every common matched test event is represented, including date-error tails. Both axes use days from the recorded sowing anchor to avoid calendar-year ambiguity. Hexagon colour shows count on a shared logarithmic scale; axis ranges vary by stage. Missing predictions remain in the coverage tables. The station holdout concerns realized-weather phenology, rather than disease or field-yield forecasts.
+
+Figure S6 | Pooled symptom-onset errors for source-numbered leaves 1–3. All 136 genuinely two-sided histories remain represented. Horizontal displacement separates coincident records. Zero indicates a predicted date within the observation interval; missing positive predictions retain their predefined penalty. Source leaf numbers do not establish a common final-rank identity across archives. Scores use equal coordinate-year, field and leaf weighting.
+
+Figure S7 | Ordered stage-threshold identification from calibration-only observations. Each blue curve is the minimum joint loss conditional on that threshold, after optimizing the other ordered stage thresholds. Dashed vertical lines mark the selected values; horizontal lines show declared one- and two-day loss tolerances. The displayed range is zero to three days above the joint minimum; all 399 grid values for each event remain in Source Data. Loss-tolerance regions describe identification and are not statistical confidence intervals.
+
+Figure S8 | Simulated disease timing and grain-fill canopy damage in field weather replays. Each point represents one of 218 full-season simulations. (a) Flag-leaf symptoms relative to flowering and reference-area-weighted functional-canopy loss. (b) Flowering-to-soft-dough duration and HAD deficit. Reference upper-three-leaf LAI is nominally one. Both axes describe simulated quantities; these relationships do not validate observed disease severity or grain-yield loss.
+
+Figure S9 | All 117 reported protected-minus-unprotected grain-yield contrasts in Parker et al. (2004), Table 4. The 25 cultivars and six site-years are retained, including five negative contrasts; grey cells indicate unreported combinations. Values are published treatment contrasts from a three-replicate field design, not independent plot records. They supply empirical yield outcomes for the study whose crop-impact relationship integrates absolute green area over the top three leaves.
+
+Figure S10 | All 25 cultivar response predictions from Parker et al. (2004), Table 5, with available fixed-effect estimates and their published standard errors. The dashed line identifies the retained 0.018 t ha⁻¹ per GLAI-day transfer centre. Random-effect predictions span 0.0141–0.0207; that cultivar range is not a confidence interval. Error bars represent one standard error of fixed-effect coefficients. BLUP prediction-error variances concern deviations from the population mean and are not substituted for uncertainty of complete slopes. Different cultivars share environments and are not independent field replications.
+
+Figure S11 | Leave-one-genetic-background-out reproduction of the published top-five paired means. One nonnegative origin-constrained coefficient is fitted to the other four genetic backgrounds in each fold. (a) Relative HAD-loss to relative yield-loss transfer; (b) absolute HAD-loss to absolute grain-loss transfer. Metrics give each background equal weight, divided among its lines. This is a small aggregate-data benchmark with shared mixed-model means and unbalanced disease/site coverage. It is not raw-plot validation, does not remove environmental confounding and does not calibrate the current top-three transfer. Negative absolute-response R² identifies failure of a universal absolute slope.
+
+Figure S12 | Changes in flag-leaf symptom timing. Panels show three-climate-model means at every eligible wheat land-use grid for two future periods relative to 1991–2020. Each figure shares symmetric discrete color intervals retaining the full data range. Gray wheat pixels have unavailable estimates. Timing requires detected symptoms in both paired years. Conditional yield change is −0.018 times the HAD-deficit change, converted to kg ha⁻¹ per reference LAI. The yield product depends on a fixed canopy–yield coefficient and nominal leaf area rather than a validated grain-yield model.
+
+Figure S13 | Conditional disease-related yield changes. Panels show three-climate-model means at every eligible wheat land-use grid for two future periods relative to 1991–2020. Each figure shares symmetric discrete color intervals retaining the full data range. Gray wheat pixels have unavailable estimates. Timing requires detected symptoms in both paired years. Conditional yield change is −0.018 times the HAD-deficit change, converted to kg ha⁻¹ per reference LAI. The yield product depends on a fixed canopy–yield coefficient and nominal leaf area rather than a validated grain-yield model.
+
+Figure S14 | Historical simulated disease timing and canopy damage across the full wheat domain. Panels show the 1991–2020 reference means on the corresponding valid late-century SSP5–8.5 paired support, averaged across three climate models. (a) Flag-leaf symptoms relative to flowering. (b) Grain-fill reference-area-weighted functional-canopy loss. Gray wheat pixels have unavailable estimates. These modeled reference distributions differ from observed historical disease prevalence.
+
+Figure S15 | Sensitivity of simulated climate responses to structural and reporting assumptions. (a) Flag-leaf symptom timing relative to flowering. (b) Grain-fill HAD deficit. All fourteen settings retain their common paired late-century SSP5–8.5 diagnostic population. Gray segments span three climate-model means; colored whiskers show one spatial Monte Carlo standard error for 64 area-proportional draws. Settings describe selected model assumptions rather than a probability distribution of future disease outcomes; precise settings and coverage remain in Supplementary Table S10.
+
+Figure S16 | Supported weather–crop decomposition and crop-development offsets. (a) Weather, crop-development and net HAD contributions with the full interaction shown separately. The interaction is already allocated equally between the two Shapley contributions and is not added again to the net. Gray segments span climate-model means; colored whiskers show one spatial Monte Carlo standard error. (b) Model-specific offsets and their ensemble-contribution ratio. The same 5,731 supported paired seasons underlie all HAD terms. These sampled diagnostic responses differ from full-grid impact estimates and do not measure intervention benefits.
+
+Figure S17 | Climate–crop–infection pathways linking canopy damage to conditional yield effects. Daily temperature, humidity and rainfall drive the retained crop-development and disease-weather operators. Development determines modeled leaf availability, unfolding and renewal, while weather and fixed source assumptions drive infection and symptom progression. Symptom-gated upper-three-leaf damage is integrated against a nominal reference canopy over GS31–85 or GS65–85 to give the healthy-area-duration (HAD) deficit proxy. Fixed coefficients of 0.0141–0.0207 t ha⁻¹ per GLAI-day provide conditional yield-loss diagnostics. Crop-stage dates, source-numbered disease measurements and independent canopy–yield treatment contrasts constrain different links in the chain. The canopy reference, damage-to-functional-area conversion and current simulated yield effects have no local quantitative validation.
+
+Figure S18 | Evaluation of retained crop-development stages. (a) German station-held-out date errors at BBCH 10, 31, 51 and 85. Boxes span the interquartile range; whiskers span the fifth to ninety-fifth percentiles. (b) Pooled field errors outside genuine two-sided developmental-stage intervals, with all informative records represented. The station and field endpoints have different observation resolutions. Counts beneath stages give sample sizes; observation intervals do not define statistical confidence intervals.
+
+Figure S19 | Agreement in projected canopy-damage direction across climate models. Colors indicate a negative change in all three models, a positive change in all three models, or other sign combinations. Each panel shows independently simulated wheat grids for one emissions pathway and future period relative to 1991–2020. Model agreement is deterministic scenario consistency rather than a probability estimate. Unavailable wheat pixels remain distinguishable from complete mixed-sign estimates in Source Data.
+
+Figure S20 | Pooled evaluation of disease predictions. (a) Mean distance outside genuine two-sided symptom-onset intervals for 136 histories from 78 field seasons and 62 coordinate-years. (b) Numerical severity RMSE for 2,033 assessments from 188 field seasons and 140 coordinate-years. (c) Assessment-level symptom-detection sensitivity, specificity and balanced accuracy on the same 2,033 records. Blue bars represent the seasonal model and gray bars the corresponding calibration-selected benchmark. Whiskers are 95% percentile intervals from 20,000 paired coordinate-year bootstrap resamples. Coordinate-years, fields, source leaves and their assessments receive equal weight within each hierarchy level. Calibration records are excluded. Source scoring conventions and unresolved final leaf-rank mappings remain in the pooled evidence.
+
+Figure S21 | Wheat-land-use domain, pooled observation locations and environmental regions. (a) SPAM2020 all-wheat harvested area with calibration and pooled evaluation locations; coincident sites retain their true reported coordinates. (b) EEA biogeographical regions assigned by wheat-cell centroid intersection. Outside-region and unassigned cells remain separate. The 14,941-cell fixed mask and imposed winter-wheat rainfed calendar define the climate-analysis scenario. These maps specify the study design and do not display projected disease outcomes.

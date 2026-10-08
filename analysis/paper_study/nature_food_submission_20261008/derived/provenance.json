@@ -1,0 +1,17 @@
+{
+  "model_status": "Frozen current model; no refitting or new disease simulation",
+  "host_offset_definition": "-100 * host contribution / weather contribution",
+  "ensemble_definition": "Ratio of ensemble contributions, not mean of individual ratios",
+  "map_definition": "Arithmetic three-GCM mean at actual sampled cells; duplicates collapsed for display only",
+  "source_sha256": {
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/supported_forcing_decomposition_by_gcm.csv": "70b1f03b3492db53b1e5bc800778e5aa12b491c24470b689be6f8857e4c62792",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/paired_draw_period_moments.csv": "feb5f57a6f9f8418bf9683b125d421f8f4a93b9b2968287d8f86edf66a3f37aa",
+    "data/paper_study/regional_parameter_uncertainty/spatial_draws.csv": "85ef36385df2bd52b3e161b432d52ce360698227fa7db049c806f6872d3f21f6"
+  },
+  "host_offset_percent": 70.63467958402006,
+  "individual_model_offset_range": [
+    63.61011041136996,
+    80.32009804375495
+  ],
+  "source_model_count": 3
+}

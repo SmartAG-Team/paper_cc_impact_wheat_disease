@@ -1,0 +1,111 @@
+{
+  "foreign_leaf_rates": {
+    "accepted": true,
+    "before_accumulation": 900.0,
+    "after_accumulation": 600.0
+  },
+  "pre_restore_leaf_rates": {
+    "accepted": true,
+    "restored_accumulation": 900.0,
+    "after_accumulation": 600.0
+  },
+  "residue_total_decay_invariant": [
+    {
+      "maturation_reference_days": 30.0,
+      "residue_decay_reference_days": 90.0,
+      "time_step": 0.25,
+      "days": 1,
+      "actual_total": 0.9889955237157627,
+      "exact_expected_total": 0.9889503892939223,
+      "relative_error": 4.563871183926871e-05
+    },
+    {
+      "maturation_reference_days": 30.0,
+      "residue_decay_reference_days": 90.0,
+      "time_step": 0.25,
+      "days": 100,
+      "actual_total": 0.32963491143651114,
+      "exact_expected_total": 0.32919298780790557,
+      "relative_error": 0.0013424454498509597
+    },
+    {
+      "maturation_reference_days": 0.001,
+      "residue_decay_reference_days": 1.0,
+      "time_step": 0.25,
+      "days": 1,
+      "actual_total": 0.47189465808293185,
+      "exact_expected_total": 0.36787944117144233,
+      "relative_error": 0.282742674013728
+    },
+    {
+      "maturation_reference_days": 30.0,
+      "residue_decay_reference_days": 90.0,
+      "time_step": 0.125,
+      "days": 100,
+      "actual_total": 0.3294136940452323,
+      "exact_expected_total": 0.32919298780790557,
+      "relative_error": 0.0006704463506237435
+    }
+  ],
+  "rank_overlap_and_juvenile": [
+    {
+      "spacing": 80.0,
+      "visible_thresholds": [
+        702.266,
+        622.266,
+        542.266,
+        462.26599999999996,
+        382.26599999999996,
+        302.26599999999996,
+        222.26599999999996
+      ],
+      "ranks_clipped_at_C10": [],
+      "juvenile_area_at_grain_filling": 1.0,
+      "juvenile_renewal_at_grain_filling": 0.03921056084767679,
+      "final_area_sum": 8.0
+    },
+    {
+      "spacing": 120.0,
+      "visible_thresholds": [
+        702.266,
+        582.266,
+        462.26599999999996,
+        342.26599999999996,
+        222.26599999999996,
+        142.01,
+        142.01
+      ],
+      "ranks_clipped_at_C10": [
+        "F6",
+        "F7"
+      ],
+      "juvenile_area_at_grain_filling": 1.0,
+      "juvenile_renewal_at_grain_filling": 0.03921056084767679,
+      "final_area_sum": 8.0
+    },
+    {
+      "spacing": 160.0,
+      "visible_thresholds": [
+        702.266,
+        542.266,
+        382.26599999999996,
+        222.26599999999996,
+        142.01,
+        142.01,
+        142.01
+      ],
+      "ranks_clipped_at_C10": [
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "juvenile_area_at_grain_filling": 1.0,
+      "juvenile_renewal_at_grain_filling": 0.03921056084767679,
+      "final_area_sum": 8.0
+    }
+  ],
+  "subzero_infection_state": {
+    "unchanged_after_30_days_at_minus1C": true,
+    "hypothesis": "zero-base thermal clock; retention is implemented, subzero development is not"
+  }
+}

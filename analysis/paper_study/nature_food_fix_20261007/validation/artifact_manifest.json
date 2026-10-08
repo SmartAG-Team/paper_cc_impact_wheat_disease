@@ -1,0 +1,421 @@
+{
+  "status": "complete",
+  "artifacts": {
+    "arithmetic_tests_green.log": {
+      "sha256": "f9694bf02e4144005e0971183d772eb4702c212a2ec74b691f6de9ba122811e0",
+      "bytes": 98
+    },
+    "bootstrap_draw_indices.npz": {
+      "sha256": "2aa40717d5f0f63c667aaa1469cdedcdc24b9900426f20b395240b942c15eac2",
+      "bytes": 69572156
+    },
+    "bootstrap_group_membership.csv": {
+      "sha256": "9cf74f0d3beb33cf7ae449ec4f1b476ab9ba1273306a1f86e5cc6e4239b3a5fa",
+      "bytes": 968441
+    },
+    "bootstrap_metric_replicates.csv.gz": {
+      "sha256": "c6fc7f59a52680782340a2b77a218edc9c7b0b5ac7e88a728caaf41ad4d8d90a",
+      "bytes": 81409261
+    },
+    "exact_BASF_onset_bootstrap_distribution.csv": {
+      "sha256": "d276ee02695c97a761447022b96f85016ae453f072b4e87e43112790aba0a01b",
+      "bytes": 14811
+    },
+    "exact_bootstrap.py": {
+      "sha256": "d07d7913af015c0d064772530203f6c369449ea7490882d00296bbc628c86ce3",
+      "bytes": 922
+    },
+    "exact_bootstrap_red.log": {
+      "sha256": "7aa3f18c0fdbf924356a7bdde33c6689aee704993cce8850bb8f28f87933ca51",
+      "bytes": 1133
+    },
+    "final_verification.json": {
+      "sha256": "97ec79604af6a5f2476a30e55465e5f3530aa45799d7ea59dceb136e8dd287b4",
+      "bytes": 1744
+    },
+    "final_verification.log": {
+      "sha256": "97ec79604af6a5f2476a30e55465e5f3530aa45799d7ea59dceb136e8dd287b4",
+      "bytes": 1744
+    },
+    "independent_arithmetic_verification.json": {
+      "sha256": "6ede4ffda0fc3d5cd96a29edd451e7c94daa586a8050729ff3b141082d660aa0",
+      "bytes": 13067
+    },
+    "leaf_evidence_and_stage_coverage.csv": {
+      "sha256": "af6795a1cb3ce07feb12a7f577b184c3be9a46b9f56d3ad6477ba7f829722a62",
+      "bytes": 1403
+    },
+    "methods_results_paragraphs.txt": {
+      "sha256": "53c95ed51c5e651f0a6a2e285c6891069637e0dd668cc26478e07996fae39d23",
+      "bytes": 5701
+    },
+    "nested_calibration/contract_before_fitting.json": {
+      "sha256": "672ec85121ee9ae151dfc79a4ac8fabddd71ddf552f9bb79f83c22d6239594b3",
+      "bytes": 105695
+    },
+    "nested_calibration/fold_information_counts.csv": {
+      "sha256": "ff1d13480dc5f60448fe0f96878a0a5dbd74a3eaa28954d377679fe547de12b8",
+      "bytes": 378
+    },
+    "nested_calibration/fold_stage_identification.csv": {
+      "sha256": "a39d971de2e537b9219786b59d00c5a0085a34f3650a062c41e7cb3601c1cc62",
+      "bytes": 1669
+    },
+    "nested_calibration/full_original_flowering_fit.json": {
+      "sha256": "563c338dce82bd0cec0907c28ff606e0f56091df0feb21b2b90e79dd76c61072",
+      "bytes": 1483
+    },
+    "nested_calibration/full_original_stage_fit.json": {
+      "sha256": "3b1ea94fc8477a5a2aa840668a323ab0b1724d5ee518ff0fd86e8cf5bf50c340",
+      "bytes": 4472
+    },
+    "nested_calibration/full_original_weather_fit.json": {
+      "sha256": "9b5f54c2375c659cc3c90ffc6e43897e0f1f0f586b11b8b43aaa850dabc58cbb",
+      "bytes": 271
+    },
+    "nested_calibration/nested_selection_comparison.csv": {
+      "sha256": "e4dfdb27e55b4eb0096e1936b324888d1290b6c11e7d5ca1c7d0b2581170012a",
+      "bytes": 439
+    },
+    "nested_calibration/original_calibration_target_membership.csv": {
+      "sha256": "21ee04265d09ed05fdcfe508784ff8f6e32e291b15f4dfcfd2d89e919d4c83d1",
+      "bytes": 28033
+    },
+    "nested_calibration/original_inner_membership.csv": {
+      "sha256": "1b33f310b369b892a386e15d16425b021f75eafdf1282e292e96cf3f16a48516",
+      "bytes": 73132
+    },
+    "nested_calibration/overwinter_source_model_candidate_scores.csv": {
+      "sha256": "513c21f5f6956138f4dd937128a3b71e43d909ab4e8b7f16307f3eb79ee6c875",
+      "bytes": 10068
+    },
+    "nested_calibration/overwinter_source_model_diagnostic_frozen_full_original_fit.json": {
+      "sha256": "a9cd2d276a41657df7c680557802e407cfd9969b25657ca46368c11e9f648d9a",
+      "bytes": 1235
+    },
+    "nested_calibration/overwinter_source_model_inner_assessment_predictions.csv": {
+      "sha256": "0dc3be6ef76e28cc292769cf4b612f554dde85d6bb2d60447526642bae44c71e",
+      "bytes": 10636121
+    },
+    "nested_calibration/overwinter_source_model_inner_bracket_predictions.csv": {
+      "sha256": "8649a076ce051c0879bb4cb52f26f03531b1d7a75f4c2cb46b5b2865fabed272",
+      "bytes": 4321423
+    },
+    "nested_calibration/overwinter_source_model_nested_selection.json": {
+      "sha256": "fff374f3f7b8825aa8ddc2f507303cc28603752b4d80e48830e6f6eb5c7e3d30",
+      "bytes": 106805
+    },
+    "nested_calibration/phenology_only_candidate_scores.csv": {
+      "sha256": "aad3e6828b007b022e877129273e0432051ed7064eff5aad508351c6f890925b",
+      "bytes": 578
+    },
+    "nested_calibration/phenology_only_diagnostic_frozen_full_original_fit.json": {
+      "sha256": "2a8fbf4ce36df68fcdb1554b6a0f2cea4023fed1b5c0be4c7ff9cd24dfba2ce1",
+      "bytes": 685
+    },
+    "nested_calibration/phenology_only_inner_assessment_predictions.csv": {
+      "sha256": "7cb0e6d74bd29dd35f3a18c41c7af2171015d4bcd7f0dd622e50ca489b01e40e",
+      "bytes": 423196
+    },
+    "nested_calibration/phenology_only_inner_bracket_predictions.csv": {
+      "sha256": "14a148d70152791ec03315b3a13ec0ebe9c201caacb33eaeb61f75754f3c3555",
+      "bytes": 174996
+    },
+    "nested_calibration/phenology_only_nested_selection.json": {
+      "sha256": "3712a6ed94d98cfcb19d20a954e090976e8beaf1f4cabefe8ade3bb29638ce3b",
+      "bytes": 5800
+    },
+    "nested_calibration/receipt.json": {
+      "sha256": "83836715940b729f02d68ab5801a9ad8e079ee3628c14fee715642a7c673939a",
+      "bytes": 6168
+    },
+    "nested_calibration/source_snapshot/analysis/paper_study/infection_priority_20261006/anthesis_clock/run.py": {
+      "sha256": "582fe9976b81403f5a340a4a9f92c220a249548b714300ebcca0c59e9aa18673",
+      "bytes": 27129
+    },
+    "nested_calibration/source_snapshot/analysis/paper_study/nature_food_fix_20261007/validation/run_nested_calibration.py": {
+      "sha256": "48dee213b13ce853ddfac4f69c886aee63f39eba13ebfe927d243705b5d2d8b1",
+      "bytes": 16741
+    },
+    "nested_calibration/source_snapshot/analysis/paper_study/nature_food_fix_20261007/validation/statistics.py": {
+      "sha256": "b57ce18bdcce7bf7f7713d98499151c2833742410809eb2d033c0c958f2a7621",
+      "bytes": 4713
+    },
+    "nested_calibration/source_snapshot/analysis/paper_study/overwinter_leaf_model_20261006/disease/run.py": {
+      "sha256": "6a5d5272e6eba62342f2145a2b46d7b504da1cb79db72db9b4cf2f61e8569880",
+      "bytes": 27972
+    },
+    "nested_calibration/source_snapshot/analysis/paper_study/overwinter_leaf_model_20261006/phenology/run.py": {
+      "sha256": "2b517964c9780742eed32c656ccf0b363d91d2d6329e1082bc83388dd738d361",
+      "bytes": 22090
+    },
+    "nested_calibration/source_snapshot/analysis/paper_study/structural_evaluation/run.py": {
+      "sha256": "f0d4d7e3712458e789267d3f988b6f6adfe01b12470a608d0b6485f88b8727ca",
+      "bytes": 27054
+    },
+    "nested_calibration/source_snapshot/calibration/seasonal_septoria/infection_events.py": {
+      "sha256": "ba9babe0b595b8e16e4feb337ae351a5895d5a4a3121763933ee986de98069ce",
+      "bytes": 5332
+    },
+    "nested_calibration/source_snapshot/model/seasonal_septoria/infection_events.py": {
+      "sha256": "2f715d842d57b0c0be974fbd4887f591fa5d8f19141fe6b516a71214855b1a39",
+      "bytes": 3588
+    },
+    "nested_calibration/source_snapshot/model/seasonal_septoria/leaf_phenology.py": {
+      "sha256": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+      "bytes": 13270
+    },
+    "nested_calibration/source_snapshot/model/seasonal_septoria/overwinter.py": {
+      "sha256": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7",
+      "bytes": 17400
+    },
+    "nested_calibration/source_snapshot/model/seasonal_septoria/wetness.py": {
+      "sha256": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6",
+      "bytes": 3424
+    },
+    "nested_calibration/spatial_0/flowering_field_losses.csv": {
+      "sha256": "8882203f03d4e48e170b28d60db7a291aa98fdb95e3841f3fb3b130b82d0c5c6",
+      "bytes": 16717
+    },
+    "nested_calibration/spatial_0/flowering_grid.csv": {
+      "sha256": "07d8b3abfc21256bbecf467f7b8d4f7950f9cb6175b2272ab489423fb64734fe",
+      "bytes": 13948
+    },
+    "nested_calibration/spatial_0/flowering_nuisance_fit.json": {
+      "sha256": "dce3079c79b24dff20723efe77bd17871ee67294bf91da0bcbbacff42f875ac6",
+      "bytes": 1475
+    },
+    "nested_calibration/spatial_0/flowering_training_membership_before_fitting.csv": {
+      "sha256": "c3f7ac9d6b9a3459b4f43259560a3e32caff65bcb5fa4b6c62e76f92643e6550",
+      "bytes": 3534
+    },
+    "nested_calibration/spatial_0/stage_joint_loss_profiles.csv": {
+      "sha256": "78739ac3fab5631d58ff9b9dec18ba0b56f89910264e020f32746cd9250c5c54",
+      "bytes": 82096
+    },
+    "nested_calibration/spatial_0/stage_nuisance_fit.json": {
+      "sha256": "18ff2e8f538773987e10f28936ce997c0fb797f811c172d25a77c133f03b632e",
+      "bytes": 4664
+    },
+    "nested_calibration/spatial_0/stage_training_membership_before_fitting.csv": {
+      "sha256": "787f9fc8462067f36768e278fae8256683c8ac2159aff2a0a53126a145ceced5",
+      "bytes": 15554
+    },
+    "nested_calibration/spatial_0/stage_weather_metadata_before_fitting.csv": {
+      "sha256": "29a9d212afdcb69217051cf9747c91f900f9e8ff9daabc0a681a86bf17a56efd",
+      "bytes": 3903
+    },
+    "nested_calibration/spatial_0/weather_preprocessing.json": {
+      "sha256": "1fe75b2afece3d2347f6d16b4cd737d48fe0aebe08b175848acc712741720984",
+      "bytes": 1384
+    },
+    "nested_calibration/spatial_1/flowering_field_losses.csv": {
+      "sha256": "9f3bf6cda453035e84c7ada950825036061dae1a62395771b7ebd8adab081d64",
+      "bytes": 16510
+    },
+    "nested_calibration/spatial_1/flowering_grid.csv": {
+      "sha256": "67d69be7e83c199a7c75745719b9bfb1c812532a06701e74e15fe28afea10f49",
+      "bytes": 13933
+    },
+    "nested_calibration/spatial_1/flowering_nuisance_fit.json": {
+      "sha256": "13739f8b80b8a5e350a139f35c2ca261cb32d0683f5f34a372c786ededa0f2a3",
+      "bytes": 1459
+    },
+    "nested_calibration/spatial_1/flowering_training_membership_before_fitting.csv": {
+      "sha256": "e84616177500095b4134d21fe0aeafa4fb0d4a2e5c033bcf6400573d1a11cac2",
+      "bytes": 3539
+    },
+    "nested_calibration/spatial_1/stage_joint_loss_profiles.csv": {
+      "sha256": "489747f586807675f5c974a109ebd89ef2060901fcfaeba5298f24bac789dbe2",
+      "bytes": 81808
+    },
+    "nested_calibration/spatial_1/stage_nuisance_fit.json": {
+      "sha256": "75d4ede1525d1313f109a35325cea4cb482c9de71a463d8f60606bb3e2c7be84",
+      "bytes": 4717
+    },
+    "nested_calibration/spatial_1/stage_training_membership_before_fitting.csv": {
+      "sha256": "77ab6fab7b4c459bdef823d040a9782f240b84d7d794d9e3d1aa52c6da60fe84",
+      "bytes": 15778
+    },
+    "nested_calibration/spatial_1/stage_weather_metadata_before_fitting.csv": {
+      "sha256": "319c592a0dcf0bb46b8eba9a76b09f39e327c08b4da80826e5d3080aaf98c8c4",
+      "bytes": 3734
+    },
+    "nested_calibration/spatial_1/weather_preprocessing.json": {
+      "sha256": "aa8838085283d7bbe8158fc003799a7ce65f2da7f119c819bf01d50c085027fe",
+      "bytes": 1334
+    },
+    "nested_calibration/spatial_2/flowering_field_losses.csv": {
+      "sha256": "afcf8b6c5107b22c85114959d203a69ae1914de0af35d997ae07089621e31d2e",
+      "bytes": 19075
+    },
+    "nested_calibration/spatial_2/flowering_grid.csv": {
+      "sha256": "80b4e36ff0ec11bcc48a70ae15492b9847798242188d45942d882da4cc60ad94",
+      "bytes": 8392
+    },
+    "nested_calibration/spatial_2/flowering_nuisance_fit.json": {
+      "sha256": "5fa67f879a8efefa529a708df379821ea2772b3b6c48cbf146c80d3fbd7a7ad8",
+      "bytes": 1481
+    },
+    "nested_calibration/spatial_2/flowering_training_membership_before_fitting.csv": {
+      "sha256": "681f71c3d8651988f9f4e22ea5ec3829239d6f4ac6740b6384d42d2ef168a6f6",
+      "bytes": 4076
+    },
+    "nested_calibration/spatial_2/stage_joint_loss_profiles.csv": {
+      "sha256": "6e2c7dbf486fde42629ea1855c7f97d3c4630a0e2e3cda35252fbd434bf629bf",
+      "bytes": 65589
+    },
+    "nested_calibration/spatial_2/stage_nuisance_fit.json": {
+      "sha256": "a92a29fd41635fe38396bba6989a12d1562e0c8b472bbbc78eebc455afc7404a",
+      "bytes": 4696
+    },
+    "nested_calibration/spatial_2/stage_training_membership_before_fitting.csv": {
+      "sha256": "2e78a3dd8c3121a3bd61aab8c1ced3858145a530f6fb6a21bfc540691bd4f4e7",
+      "bytes": 18225
+    },
+    "nested_calibration/spatial_2/stage_weather_metadata_before_fitting.csv": {
+      "sha256": "44bec0c371807edaae64dd26b4b84931e6a3346575ec70d91157940a9be68715",
+      "bytes": 4525
+    },
+    "nested_calibration/spatial_2/weather_preprocessing.json": {
+      "sha256": "9b2657a70a3ca9a691f983c851bea10cb0e6dfa7c4578e0dc78d9427fc609ca8",
+      "bytes": 1501
+    },
+    "nested_run.log": {
+      "sha256": "ad73072f45c67737203ccf989706031bf801ec5821a82b29e8765b2af79d593d",
+      "bytes": 6741
+    },
+    "paired_cluster_bootstrap_summary.csv": {
+      "sha256": "923533841e8646c5cfe348a3f0782a29eb8a1560214c6427e7a7fbbf7dbe6f2e",
+      "bytes": 126194
+    },
+    "paired_detection_primary.csv": {
+      "sha256": "6081ec6a36aeeafd048e5361709fb2d7b8a20f1eddb05cb337f8e54a057c4dbe",
+      "bytes": 19433
+    },
+    "paired_onset_membership.csv": {
+      "sha256": "70ea9e35345f9d9434eda1a969788cbd7e9533831ff6b3f68eb473b10c6728f8",
+      "bytes": 222870
+    },
+    "paired_onset_primary.csv": {
+      "sha256": "e32f82e67f1468439c2fa821215d0655254df0af74b188b4c99552ed6a299e45",
+      "bytes": 16065
+    },
+    "paired_severity_primary.csv": {
+      "sha256": "d7924c6af1cc0c76b301be2e31cb8494007a3201aa1a8ff4ef3307cc034d0889",
+      "bytes": 18466
+    },
+    "project_tests.log": {
+      "sha256": "f3f0b170714e481ede0e425a104586efed1eb744d97e656e2536d05a3998e672",
+      "bytes": 1743
+    },
+    "reused_BASF2019_all_source_numbered_leaves_exclude_observed_pre37_leaf1_zeros_onset_membership.csv": {
+      "sha256": "4659deac3a948dc965dd1223a76483f31b5025a8dea194b8c8b6415d81a433ad",
+      "bytes": 2802
+    },
+    "reused_BASF2019_all_source_numbered_leaves_exclude_observed_pre39_leaf1_zeros_onset_membership.csv": {
+      "sha256": "4659deac3a948dc965dd1223a76483f31b5025a8dea194b8c8b6415d81a433ad",
+      "bytes": 2802
+    },
+    "reused_BASF2019_all_source_numbered_leaves_same_day_ordered_two_bound_stage_onset_membership.csv": {
+      "sha256": "4659deac3a948dc965dd1223a76483f31b5025a8dea194b8c8b6415d81a433ad",
+      "bytes": 2802
+    },
+    "reused_BASF2019_source_leaf1_exclude_observed_pre37_leaf1_zeros_onset_membership.csv": {
+      "sha256": "7e19ae364700b7455ad5f35ca51809a24cbdbdf40fddaecc718c0a47626e0fd1",
+      "bytes": 1147
+    },
+    "reused_BASF2019_source_leaf1_exclude_observed_pre39_leaf1_zeros_onset_membership.csv": {
+      "sha256": "7e19ae364700b7455ad5f35ca51809a24cbdbdf40fddaecc718c0a47626e0fd1",
+      "bytes": 1147
+    },
+    "reused_BASF2019_source_leaf1_same_day_ordered_two_bound_stage_onset_membership.csv": {
+      "sha256": "7e19ae364700b7455ad5f35ca51809a24cbdbdf40fddaecc718c0a47626e0fd1",
+      "bytes": 1147
+    },
+    "reused_BASF2019_top3_source_numbered_exclude_observed_pre37_leaf1_zeros_onset_membership.csv": {
+      "sha256": "4659deac3a948dc965dd1223a76483f31b5025a8dea194b8c8b6415d81a433ad",
+      "bytes": 2802
+    },
+    "reused_BASF2019_top3_source_numbered_exclude_observed_pre39_leaf1_zeros_onset_membership.csv": {
+      "sha256": "4659deac3a948dc965dd1223a76483f31b5025a8dea194b8c8b6415d81a433ad",
+      "bytes": 2802
+    },
+    "reused_BASF2019_top3_source_numbered_same_day_ordered_two_bound_stage_onset_membership.csv": {
+      "sha256": "4659deac3a948dc965dd1223a76483f31b5025a8dea194b8c8b6415d81a433ad",
+      "bytes": 2802
+    },
+    "reused_strict_Corteva_all_source_numbered_leaves_exclude_observed_pre37_leaf1_zeros_onset_membership.csv": {
+      "sha256": "fc0042a78477def79ca38666f8de8408d96d3ee44688e156b829a05be9691fad",
+      "bytes": 28005
+    },
+    "reused_strict_Corteva_all_source_numbered_leaves_exclude_observed_pre39_leaf1_zeros_onset_membership.csv": {
+      "sha256": "463ce6bf1aff937f786cc52196e6a279ea0a36519f79f4cc95799cd4d1533a08",
+      "bytes": 27593
+    },
+    "reused_strict_Corteva_all_source_numbered_leaves_same_day_ordered_two_bound_stage_onset_membership.csv": {
+      "sha256": "00e00e4373118d575ac28e62c386f9b97d9718efa6cd921e25b3e9eb901bee73",
+      "bytes": 12120
+    },
+    "reused_strict_Corteva_source_leaf1_exclude_observed_pre37_leaf1_zeros_onset_membership.csv": {
+      "sha256": "9154ff8f2e4e92a35e200ebd7a300930b9919098480b10900cc8bfbe9e0f430e",
+      "bytes": 11303
+    },
+    "reused_strict_Corteva_source_leaf1_exclude_observed_pre39_leaf1_zeros_onset_membership.csv": {
+      "sha256": "dac40b44290ea8c3d530f3c02ada8bb33e41f2a3e6800c54df017fc857ba9b05",
+      "bytes": 10891
+    },
+    "reused_strict_Corteva_source_leaf1_same_day_ordered_two_bound_stage_onset_membership.csv": {
+      "sha256": "740dbce8d60db4b2bcde5b98d571c8c866cae6a8c89a9c4dfa4f9bccd9255e3c",
+      "bytes": 5527
+    },
+    "reused_strict_Corteva_top3_source_numbered_exclude_observed_pre37_leaf1_zeros_onset_membership.csv": {
+      "sha256": "71063be99ebbd5ab01a58c16fc26707392b0e66a204c75091aa61759e96653e7",
+      "bytes": 25517
+    },
+    "reused_strict_Corteva_top3_source_numbered_exclude_observed_pre39_leaf1_zeros_onset_membership.csv": {
+      "sha256": "843367d4f4a32a64564ba543e7278d01ac810fd17f97cde84b81e65a99a6500c",
+      "bytes": 25105
+    },
+    "reused_strict_Corteva_top3_source_numbered_same_day_ordered_two_bound_stage_onset_membership.csv": {
+      "sha256": "fd454a7fca5c84f9f48b4bbb920f8149c0090fd171c76d5327152df7294a2fc4",
+      "bytes": 11292
+    },
+    "run_nested_calibration.py": {
+      "sha256": "48dee213b13ce853ddfac4f69c886aee63f39eba13ebfe927d243705b5d2d8b1",
+      "bytes": 16741
+    },
+    "run_statistical_diagnostics.py": {
+      "sha256": "24929411a2fbc3b0cbf503a99ac96aceefb3a660e147ab7179ad3a5040809b0a",
+      "bytes": 16829
+    },
+    "source_stage_and_prediction_membership.csv": {
+      "sha256": "5bfdd66859f21751e666633d21275feff830f4c7a42c2deadfb7bb3268f01a27",
+      "bytes": 3867385
+    },
+    "statistical_contract_before_analysis.json": {
+      "sha256": "685b853a925b8958656c1d01d0dcd44b41dbd6be6aca1f7a51b93af1dcc38f4f",
+      "bytes": 2528
+    },
+    "statistical_receipt.json": {
+      "sha256": "a11e83ca10484fd253ea5546927afe37268924cfd5db615b798895021bc5105b",
+      "bytes": 2061
+    },
+    "statistical_run.log": {
+      "sha256": "50db87a7997c49f60386fb2a6ad2718ef07bcd60cfdcfe602f59b0cad259581a",
+      "bytes": 6470
+    },
+    "statistics.py": {
+      "sha256": "b57ce18bdcce7bf7f7713d98499151c2833742410809eb2d033c0c958f2a7621",
+      "bytes": 4713
+    },
+    "test_statistics.py": {
+      "sha256": "668be5789ad5a32b0c824c100b51f15dbd7c87d9333ccf63ae1889d17ffab7b8",
+      "bytes": 3766
+    },
+    "verify_outputs.py": {
+      "sha256": "9d6a69047471cb4e7fd2b4f35c8042fd1d5c904a3b4a83743c470f9eff9b9d56",
+      "bytes": 7094
+    }
+  }
+}

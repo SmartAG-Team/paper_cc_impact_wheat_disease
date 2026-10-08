@@ -1,0 +1,3 @@
+response,contrasts,genetic_backgrounds,evaluation,units,group_balanced_MAE,group_balanced_RMSE,group_balanced_bias,group_balanced_R2,full_data_slope,slope_units,raw_plot_validation,current_top3_yield_calibration
+absolute,8,5,leave-one-genetic-background-out; published aggregate treatment means,t ha-1,0.5407037797746574,0.6169466091118433,-0.009069284257727905,-0.4323948386286629,0.03426794071194199,t ha-1 per top-five GLAI-day,False,False
+relative,8,5,leave-one-genetic-background-out; published aggregate treatment means,fraction of protected yield,0.047934743074742166,0.051561923190298814,0.00021639639422669013,0.24707241310959271,0.5767017985649475,relative yield loss per relative top-five HAD loss,False,False

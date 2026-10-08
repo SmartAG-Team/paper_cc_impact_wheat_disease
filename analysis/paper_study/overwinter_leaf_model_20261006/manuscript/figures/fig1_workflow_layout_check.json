@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "nodes": [
+    {
+      "node": "weather",
+      "text_within_card": true
+    },
+    {
+      "node": "scenarios",
+      "text_within_card": true
+    },
+    {
+      "node": "literature",
+      "text_within_card": true
+    },
+    {
+      "node": "phenology",
+      "text_within_card": true
+    },
+    {
+      "node": "disease",
+      "text_within_card": true
+    },
+    {
+      "node": "upper_leaf",
+      "text_within_card": true
+    },
+    {
+      "node": "validation",
+      "text_within_card": true
+    },
+    {
+      "node": "climate",
+      "text_within_card": true
+    },
+    {
+      "node": "outputs",
+      "text_within_card": true
+    }
+  ],
+  "leaf_labels_do_not_overlap_leaf_shapes": true,
+  "vector_exports": true,
+  "field_sources_and_assumptions_labelled": true
+}

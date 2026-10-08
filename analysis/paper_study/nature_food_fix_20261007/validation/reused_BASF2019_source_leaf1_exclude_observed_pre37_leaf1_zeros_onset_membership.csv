@@ -1,0 +1,5 @@
+field_id,field_index,coordinate_year,leaf_index,endpoint_series,site_id,season_year,source,lower_day,upper_day,censoring,observed_positive,first_assessment_day,last_assessment_day,assessment_count,zero_assessment_count,positive_assessment_count,persistence_violations,partition,predicted_symptom_day,predicted_symptom_day_benchmark,forcing_end_day,model,benchmark
+basf-wheat-diseases|35|2019,4,era5loc_cb5f84b33b84|2019,0,"35|LEAF, 1ST / FLAG LEAF",era5loc_cb5f84b33b84,2019,BASF,247.0,255.0,two_sided,True,247,265,3,1,2,0,reused_BASF2019,242,244,265,6.0,4.0
+basf-wheat-diseases|38|2019,7,era5loc_760a53435625|2019,0,"38|LEAF, 1ST / FLAG LEAF",era5loc_760a53435625,2019,BASF,236.0,254.0,two_sided,True,236,260,3,1,2,0,reused_BASF2019,240,246,260,0.0,0.0
+basf-wheat-diseases|45|2019,14,era5loc_9df6a8624376|2019,0,"45|LEAF, 1ST / FLAG LEAF",era5loc_9df6a8624376,2019,BASF,181.0,195.0,two_sided,True,181,237,5,1,4,0,reused_BASF2019,194,207,237,0.0,12.0
+basf-wheat-diseases|66|2019,35,era5loc_da90f16ecea0|2019,0,"66|LEAF, 1ST / FLAG LEAF",era5loc_da90f16ecea0,2019,BASF,223.0,234.0,two_sided,True,212,244,4,2,2,0,reused_BASF2019,215,215,244,9.0,9.0

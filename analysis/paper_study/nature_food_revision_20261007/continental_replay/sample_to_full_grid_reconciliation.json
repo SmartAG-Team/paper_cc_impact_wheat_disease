@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "full_grid_cells": 14941,
+  "sampled_draw_records": 64,
+  "numeric_metrics_reproduced": 58,
+  "date_metrics_reproduced": 10,
+  "floating_tolerance": 1e-12,
+  "biological_parameters_changed": false,
+  "single_grid_season_only": true,
+  "date_storage_resolution_normalized_only": true,
+  "source_output": "annual_outputs/nasa/ACCESS-CM2/ssp585/2001.parquet"
+}

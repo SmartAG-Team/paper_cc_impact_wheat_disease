@@ -1,0 +1,10 @@
+model,scenario,path,rows,cells,months,file_bytes,coefficient_sha256,complete_four_field_alignment,radiation_wind_alignment_present
+ACCESS-CM2,ssp126,analysis/paper_study/regional_v1/bias_alignment/ACCESS-CM2/ssp126/coefficients.parquet,179292,14941,12,4875247,b5e052b455ad8e6ca932940f8f4cfc6858ff8ca1a462c3282d98a3857464bbde,True,False
+ACCESS-CM2,ssp245,analysis/paper_study/regional_v1/bias_alignment/ACCESS-CM2/ssp245/coefficients.parquet,179292,14941,12,4875963,f5cc78552b7fcddbbd689cb948028edf3114c17eebeb57db69b016733f5558c3,True,False
+ACCESS-CM2,ssp585,analysis/paper_study/regional_v1/bias_alignment/ACCESS-CM2/ssp585/coefficients.parquet,179292,14941,12,4874165,ba1699f4a28d8a02e11fb27f0d32454ab57059164de5b1b46a0a49635ea67bea,True,False
+MPI-ESM1-2-HR,ssp126,analysis/paper_study/regional_v1/bias_alignment/MPI-ESM1-2-HR/ssp126/coefficients.parquet,179292,14941,12,4878170,97aac361d08e1ec4ab65d5f0255d19b9165020649195a246032f46111950e4f0,True,False
+MPI-ESM1-2-HR,ssp245,analysis/paper_study/regional_v1/bias_alignment/MPI-ESM1-2-HR/ssp245/coefficients.parquet,179292,14941,12,4877731,f69419575ccedf8025e0287b5864cd0c66ffbfe92c9467f4a728336018cb429a,True,False
+MPI-ESM1-2-HR,ssp585,analysis/paper_study/regional_v1/bias_alignment/MPI-ESM1-2-HR/ssp585/coefficients.parquet,179292,14941,12,4879420,5e4ba148aa0307592131fd16a8130f81bffa18c430dd693d7aa380029fd6663a,True,False
+MRI-ESM2-0,ssp126,analysis/paper_study/regional_v1/bias_alignment/MRI-ESM2-0/ssp126/coefficients.parquet,179292,14941,12,4875264,d494a1dd29fdbc50204f2b41a1d8c46f46b19e3bf6f1b07de4f82997bb4e65e6,True,False
+MRI-ESM2-0,ssp245,analysis/paper_study/regional_v1/bias_alignment/MRI-ESM2-0/ssp245/coefficients.parquet,179292,14941,12,4874809,dd616ba10a08d6af7b469ceba648d55e62888e5a571f1a96861c9d7d79118302,True,False
+MRI-ESM2-0,ssp585,analysis/paper_study/regional_v1/bias_alignment/MRI-ESM2-0/ssp585/coefficients.parquet,179292,14941,12,4874514,85b2927b3066ded6ef13a2888e9144e9ed712363d3bbbbece8ccab258b50f1fc,True,False

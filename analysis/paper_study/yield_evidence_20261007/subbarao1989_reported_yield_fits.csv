@@ -1,0 +1,5 @@
+source_key,doi,disease,crop_season,crop_status,predictor,outcome,metric,value,leaf_scope,raw_data_available_for_reanalysis
+SubbaRao1989,10.1094/Phyto-79-1233,leaf rust,1986-87,leaf rust affected,leaf-specific relative healthy area duration,tiller grain weight,reported adjusted R2,0.84,"flag, penultimate, antepenultimate and fourth leaf",False
+SubbaRao1989,10.1094/Phyto-79-1233,leaf rust,1986-87,control,leaf-specific relative healthy area duration,tiller grain weight,reported adjusted R2,0.91,"flag, penultimate, antepenultimate and fourth leaf",False
+SubbaRao1989,10.1094/Phyto-79-1233,leaf rust,1987-88,leaf rust affected,leaf-specific relative healthy area duration,tiller grain weight,reported adjusted R2,0.67,"flag, penultimate, antepenultimate and fourth leaf",False
+SubbaRao1989,10.1094/Phyto-79-1233,leaf rust,1987-88,control,leaf-specific relative healthy area duration,tiller grain weight,reported adjusted R2,0.88,"flag, penultimate, antepenultimate and fourth leaf",False

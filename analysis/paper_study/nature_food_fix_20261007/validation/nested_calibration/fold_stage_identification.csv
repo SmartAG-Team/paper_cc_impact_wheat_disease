@@ -1,0 +1,13 @@
+fold,event,selected_threshold,constrained_fields,genuine_two_sided_fields,joint_exact_minimum_grid_values,joint_exact_minimum_threshold_low,joint_exact_minimum_threshold_high,poorly_identified,threshold_status
+spatial_0,32,633.39175,17,1,68,596.7328749999999,671.1614999999999,True,weakly identified conventional joint-grid representative
+spatial_0,33,653.3874999999999,17,3,89,604.509,702.266,True,weakly identified conventional joint-grid representative
+spatial_0,37,702.266,17,4,3,701.155125,703.3768749999999,True,weakly identified conventional joint-grid representative
+spatial_0,39,807.799125,17,6,7,804.4665,811.13175,True,weakly identified conventional joint-grid representative
+spatial_1,32,606.73075,17,0,116,543.4108749999999,671.1614999999999,True,no genuine two-sided records; representative of censored-loss plateau
+spatial_1,33,672.272375,17,4,82,627.837375,717.81825,True,weakly identified conventional joint-grid representative
+spatial_1,37,703.3768749999999,17,5,31,686.7137499999999,720.04,True,weakly identified conventional joint-grid representative
+spatial_1,39,873.34075,17,7,5,871.1189999999999,897.78,True,weakly identified conventional joint-grid representative
+spatial_2,32,638.9461249999999,20,1,76,596.7328749999999,680.0485,True,weakly identified conventional joint-grid representative
+spatial_2,33,664.4962499999999,20,3,68,627.837375,702.266,True,weakly identified conventional joint-grid representative
+spatial_2,37,702.266,20,3,3,701.155125,703.3768749999999,True,weakly identified conventional joint-grid representative
+spatial_2,39,807.799125,20,5,6,805.577375,811.13175,True,weakly identified conventional joint-grid representative

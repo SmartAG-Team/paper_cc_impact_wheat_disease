@@ -1,0 +1,15 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_______ test_exact_two_group_resampling_retains_multinomial_multiplicity _______
+
+    def test_exact_two_group_resampling_retains_multinomial_multiplicity():
+        impl = module()
+>       assert hasattr(impl,'exact_mean_bootstrap'), 'exact resampling distribution is not implemented'
+E       AssertionError: exact resampling distribution is not implemented
+E       assert False
+E        +  where False = hasattr(<module 'revision_statistics' from '/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/analysis/paper_study/nature_food_fix_20261007/validation/statistics.py'>, 'exact_mean_bootstrap')
+
+analysis/paper_study/nature_food_fix_20261007/validation/test_statistics.py:70: AssertionError
+=========================== short test summary info ============================
+FAILED analysis/paper_study/nature_food_fix_20261007/validation/test_statistics.py::test_exact_two_group_resampling_retains_multinomial_multiplicity
+1 failed, 6 deselected in 1.61s

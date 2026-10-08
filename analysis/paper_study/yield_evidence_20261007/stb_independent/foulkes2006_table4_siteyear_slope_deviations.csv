@@ -1,0 +1,5 @@
+source_key,source_table,printed_page,pdf_page_one_based,year,site,target_disease,site_year_slope_deviation_t_ha_per_GLAI_day,published_SE,leaf_scope,statistical_status
+Foulkes2006,Table 4,685,7,1999,Rosemaund,STB,0.0032,0.0052,top five leaves,published site-year deviation from pooled disease-intolerance coefficient
+Foulkes2006,Table 4,685,7,2000,Rosemaund,STB,-0.0133,0.0052,top five leaves,published site-year deviation from pooled disease-intolerance coefficient
+Foulkes2006,Table 4,685,7,1999,Terrington,stripe rust,0.0042,0.0052,top five leaves,published site-year deviation from pooled disease-intolerance coefficient
+Foulkes2006,Table 4,685,7,2000,Terrington,stripe rust,0.0059,0.0052,top five leaves,published site-year deviation from pooled disease-intolerance coefficient

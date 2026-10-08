@@ -1,0 +1,1152 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        2
+      ]
+    ],
+    "date-time": "2026-10-02T23:53:04Z",
+    "timestamp": 1790985184836,
+    "version": "4.1.0"
+  },
+  "reference-count": 85,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2024-02-01T00:00:00Z",
+        "timestamp": 1706745600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2024-02-01T00:00:00Z",
+        "timestamp": 1706745600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "funder": [
+    {
+      "name": "CGIAR research program on wheat agri-food systems"
+    },
+    {
+      "name": "CGIAR research program on wheat agri-food systems (CRP WHEAT) and One CGIAR Plant Health Initiative"
+    },
+    {
+      "name": "CSISA and TAFSSA"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Nat. Clim. Chang."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        2
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Wheat blast is a devastating disease caused by the fungal pathogen\n                    <jats:italic>Magnaporthe oryzae</jats:italic>\n                    pathotype\n                    <jats:italic>Triticum</jats:italic>\n                    that has spread to both neighbouring and distant countries following its emergence in Brazil in the 1980s. Under climate change conditions, wheat blast is predicted to spread primarily in tropical regions. Here we coupled a wheat crop simulation model with a newly developed wheat blast model, to provide quantitative global estimates of wheat blast vulnerability under current and future climates. Under current climatic conditions, 6.4 million hectares of arable land is potentially vulnerable to wheat blast. A more humid and warmer climate in the future (Representative Concentration Pathway 8.5) is likely to increase the area suitable for wheat blast infection, particularly in the Southern Hemisphere, and reduce global wheat production by 69 million tons per year (13% decrease) by mid-century. Impacts of climate change could be further exacerbated and food security problems increased.\n                  </jats:p>",
+  "DOI": "10.1038/s41558-023-01902-2",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2024-02-01T06:02:35Z",
+    "timestamp": 1706767355000
+  },
+  "page": "178-183",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 94,
+  "title": [
+    "Production vulnerability to wheat blast disease under climate change"
+  ],
+  "prefix": "10.1038",
+  "volume": "14",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-5463-3319",
+      "authenticated-orcid": false,
+      "given": "Diego N. L.",
+      "family": "Pequeno",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-9361-7277",
+      "authenticated-orcid": false,
+      "given": "Thiago B.",
+      "family": "Ferreira",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4965-2432",
+      "authenticated-orcid": false,
+      "given": "José M. C.",
+      "family": "Fernandes",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4610-3120",
+      "authenticated-orcid": false,
+      "given": "Pawan K.",
+      "family": "Singh",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7906-6624",
+      "authenticated-orcid": false,
+      "given": "Willingthon",
+      "family": "Pavan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-9672-5361",
+      "authenticated-orcid": false,
+      "given": "Kai",
+      "family": "Sonder",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-5741-3867",
+      "authenticated-orcid": false,
+      "given": "Richard",
+      "family": "Robertson",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-6973-0106",
+      "authenticated-orcid": false,
+      "given": "Timothy J.",
+      "family": "Krupnik",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7491-5786",
+      "authenticated-orcid": false,
+      "given": "Olaf",
+      "family": "Erenstein",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7583-3811",
+      "authenticated-orcid": false,
+      "given": "Senthold",
+      "family": "Asseng",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        1
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "1902_CR1",
+      "unstructured": "World agricultural production. USDA https://apps.fas.usda.gov/psdonline/circulars/production.pdf (2022)."
+    },
+    {
+      "key": "1902_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "28",
+      "DOI": "10.1186/s42483-020-00067-6",
+      "volume": "2",
+      "author": "MT Islam",
+      "year": "2020",
+      "unstructured": "Islam, M. T. et al. Wheat blast: a new threat to food security. Phytopathol. Res. 2, 28 (2020).",
+      "journal-title": "Phytopathol. Res."
+    },
+    {
+      "key": "1902_CR3",
+      "first-page": "351",
+      "volume": "11",
+      "author": "RS Igarashi",
+      "year": "1986",
+      "unstructured": "Igarashi, R. S. et al. Occurrence of Pyricularia sp. in wheat (Tricticum aesvitum L.) in the State of Paraná. Fitopatol. Bras. 11, 351–352 (1986).",
+      "journal-title": "Fitopatol. Bras."
+    },
+    {
+      "key": "1902_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "2330",
+      "DOI": "10.1094/PDIS-05-16-0666-PDN",
+      "volume": "100",
+      "author": "PK Malaker",
+      "year": "2016",
+      "unstructured": "Malaker, P. K. et al. First report of wheat blast caused by Magnaporthe oryzae pathotype Triticum in Bangladesh. Plant Dis. 100, 2330–2330 (2016).",
+      "journal-title": "Plant Dis."
+    },
+    {
+      "key": "1902_CR5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/s12915-016-0309-7",
+      "volume": "14",
+      "author": "MT Islam",
+      "year": "2016",
+      "unstructured": "Islam, M. T. et al. Emergence of wheat blast in Bangladesh was caused by a South American lineage of Magnaporthe oryzae. BMC Biol. 14, 84 (2016).",
+      "journal-title": "BMC Biol."
+    },
+    {
+      "key": "1902_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.3389/fpls.2021.710707",
+      "volume": "12",
+      "author": "PK Singh",
+      "year": "2021",
+      "unstructured": "Singh, P. K. et al. Wheat blast: a disease spreading by intercontinental jumps and its management strategies. Front. Plant Sci. 12, 1–21 (2021).",
+      "journal-title": "Front. Plant Sci."
+    },
+    {
+      "key": "1902_CR7",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Pequeno, D. N. L. et al. Climate impact and adaptation to heat and drought stress of regional and global wheat production. Environ. Res. Lett. https://doi.org/10.1088/1748-9326/abd970 (2021).",
+      "DOI": "10.1088/1748-9326/abd970"
+    },
+    {
+      "key": "1902_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "3268",
+      "DOI": "10.1073/pnas.1222463110",
+      "volume": "111",
+      "author": "C Rosenzweig",
+      "year": "2014",
+      "unstructured": "Rosenzweig, C. et al. Assessing agricultural risks of climate change in the 21st century in a global gridded crop model intercomparison. Proc. Natl Acad. Sci. USA 111, 3268–3273 (2014).",
+      "journal-title": "Proc. Natl Acad. Sci. USA"
+    },
+    {
+      "key": "1902_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "873",
+      "DOI": "10.1038/s43016-021-00400-y",
+      "volume": "2",
+      "author": "J Jägermeyr",
+      "year": "2021",
+      "unstructured": "Jägermeyr, J. et al. Climate impacts on global agriculture emerge earlier in new generation of climate and crop models. Nat. Food 2, 873–885 (2021).",
+      "journal-title": "Nat. Food"
+    },
+    {
+      "key": "1902_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "155",
+      "DOI": "10.1111/gcb.14481",
+      "volume": "25",
+      "author": "S Asseng",
+      "year": "2019",
+      "unstructured": "Asseng, S. et al. Climate change impact and adaptation for wheat protein. Glob. Chang. Biol. 25, 155–173 (2019).",
+      "journal-title": "Glob. Chang. Biol."
+    },
+    {
+      "key": "1902_CR11",
+      "unstructured": "Robertson, R. Mink: Details of a global gridded crop modeling system. International Food Policy Research Institute https://www.ifpri.org/publication/mink-details-global-gridded-crop-modeling-system (2017)."
+    },
+    {
+      "key": "1902_CR12",
+      "unstructured": "Fernandes J. M. C. et al. in Advances in Crop Modelling for a Sustainable Agriculture (ed. Boote, K. J.) Vol. 1, Ch. 5 (Burleigh Dodds, 2019)."
+    },
+    {
+      "key": "1902_CR13",
+      "unstructured": "Fernandes J. M. et al. in Achieving Durable Disease Resistance in Cereals (ed. Oliver, R.) Vol. 1, Ch. 17 (Burleigh Dodds, 2021)."
+    },
+    {
+      "key": "1902_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "230",
+      "DOI": "10.1007/s40858-017-0164-2",
+      "volume": "42",
+      "author": "JMC Fernandes",
+      "year": "2017",
+      "unstructured": "Fernandes, J. M. C. et al. A weather-based model for predicting early season inoculum build-up and spike infection by the wheat blast pathogen. Trop. Plant Pathol. 42, 230–237 (2017).",
+      "journal-title": "Trop. Plant Pathol."
+    },
+    {
+      "key": "1902_CR15",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1371/journal.pone.0197555",
+      "volume": "13",
+      "author": "KA Mottaleb",
+      "year": "2018",
+      "unstructured": "Mottaleb, K. A. et al. Threat of wheat blast to South Asia’s food security: an ex-ante analysis. PLoS ONE 13, 1–15 (2018).",
+      "journal-title": "PLoS ONE"
+    },
+    {
+      "key": "1902_CR16",
+      "first-page": "220",
+      "volume": "101",
+      "author": "E Duveiller",
+      "year": "2011",
+      "unstructured": "Duveiller, E. et al. An international perspective on wheat blast. Phytopathology 101, 220 (2011).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "1979",
+      "DOI": "10.1094/PDIS-09-15-1006-RE",
+      "volume": "100",
+      "author": "CD Cruz",
+      "year": "2016",
+      "unstructured": "Cruz, C. D. et al. Climate suitability for Magnaporthe oryzae Triticum pathotype in the United States. Plant Dis. 100, 1979–1987 (2016).",
+      "journal-title": "Plant Dis."
+    },
+    {
+      "key": "1902_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "249",
+      "DOI": "10.1007/s10333-016-0544-0",
+      "volume": "15",
+      "author": "M Arshad",
+      "year": "2017",
+      "unstructured": "Arshad, M. et al. Climate variability and yield risk in South Asia’s rice–wheat systems: emerging evidence from Pakistan. Paddy Water Environ. 15, 249–261 (2017).",
+      "journal-title": "Paddy Water Environ."
+    },
+    {
+      "key": "1902_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "1393",
+      "DOI": "10.1094/PHYTO-10-20-0470-R",
+      "volume": "111",
+      "author": "W Shizhen",
+      "year": "2021",
+      "unstructured": "Shizhen, W. et al. The risk of wheat blast in rice–wheat co-planting regions in China: MoO strains of Pyricularia oryzae cause typical symptom and host reaction on both wheat leaves and spikes. Phytopathology 111, 1393–1400 (2021).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "710",
+      "DOI": "10.1038/s41558-021-01104-8",
+      "volume": "11",
+      "author": "TM Chaloner",
+      "year": "2021",
+      "unstructured": "Chaloner, T. M., Gurr, S. J. & Bebber, D. P. Plant pathogen infection risk tracks global crop yields under climate change. Nat. Clim. Change 11, 710–715 (2021).",
+      "journal-title": "Nat. Clim. Change"
+    },
+    {
+      "key": "1902_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.5423/PPJ.RW.08.2018.0168",
+      "volume": "35",
+      "author": "MT Islam",
+      "year": "2019",
+      "unstructured": "Islam, M. T., Kim, K. H. & Choi, J. Wheat blast in Bangladesh: the current situation and future impacts. Plant Pathol. J. 35, 1–10 (2019).",
+      "journal-title": "Plant Pathol. J."
+    },
+    {
+      "key": "1902_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "581",
+      "DOI": "10.1111/dpr.12129",
+      "volume": "33",
+      "author": "NM Mason",
+      "year": "2015",
+      "unstructured": "Mason, N. M., Jayne, T. S. & Shiferaw, B. Africa’s rising demand for wheat: trends, drivers, and policy implications. Dev. Policy Rev. 33, 581–613 (2015).",
+      "journal-title": "Dev. Policy Rev."
+    },
+    {
+      "key": "1902_CR23",
+      "doi-asserted-by": "publisher",
+      "first-page": "767",
+      "DOI": "10.1007/s13593-013-0149-6",
+      "volume": "33",
+      "author": "S Bregaglio",
+      "year": "2013",
+      "unstructured": "Bregaglio, S., Donatelli, M. & Confalonieri, R. Fungal infections of rice, wheat, and grape in Europe in 2030–2050. Agron. Sustain. Dev. 33, 767–776 (2013).",
+      "journal-title": "Agron. Sustain. Dev."
+    },
+    {
+      "key": "1902_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "53",
+      "DOI": "10.1016/j.eja.2017.07.004",
+      "volume": "90",
+      "author": "J Caubel",
+      "year": "2017",
+      "unstructured": "Caubel, J. et al. Climate change effects on leaf rust of wheat: implementing a coupled crop-disease model in a French regional application. Eur. J. Agron. 90, 53–66 (2017).",
+      "journal-title": "Eur. J. Agron."
+    },
+    {
+      "key": "1902_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "427",
+      "DOI": "10.1146/annurev-phyto-080417-050036",
+      "volume": "56",
+      "author": "PC Ceresini",
+      "year": "2018",
+      "unstructured": "Ceresini, P. C. et al. Wheat blast: past, present, and future. Annu. Rev. Phytopathol. 56, 427–456 (2018).",
+      "journal-title": "Annu. Rev. Phytopathol."
+    },
+    {
+      "key": "1902_CR26",
+      "doi-asserted-by": "publisher",
+      "first-page": "1299",
+      "DOI": "10.1094/PHYTO-12-17-0400-R",
+      "volume": "108",
+      "author": "S Wang",
+      "year": "2018",
+      "unstructured": "Wang, S. et al. A new resistance gene in combination with Rmg8 confers strong resistance against triticum isolates of Pyricularia oryzae in a common wheat landrace. Phytopathology 108, 1299–1306 (2018).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR27",
+      "unstructured": "Kohli, M. M. et al. in Wheat Blast (ed. Kumar, S.) Vol. 1, Ch. 10 (CRC Press, 2020)."
+    },
+    {
+      "key": "1902_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "4051",
+      "DOI": "10.1094/PDIS-06-21-1183-RE",
+      "volume": "105",
+      "author": "JP Ascari",
+      "year": "2021",
+      "unstructured": "Ascari, J. P. et al. Sequential post-heading applications for controlling wheat blast: a 9-year summary of fungicide performance in Brazil. Plant Dis. 105, 4051–4059 (2021).",
+      "journal-title": "Plant Dis."
+    },
+    {
+      "key": "1902_CR29",
+      "doi-asserted-by": "publisher",
+      "first-page": "6320",
+      "DOI": "10.1002/ece3.2282",
+      "volume": "6",
+      "author": "N Mariette",
+      "year": "2016",
+      "unstructured": "Mariette, N. et al. Local adaptation to temperature in populations and clonal lineages of the Irish potato famine pathogen Phytophthora infestans. Ecol. Evol. 6, 6320–6331 (2016).",
+      "journal-title": "Ecol. Evol."
+    },
+    {
+      "key": "1902_CR30",
+      "doi-asserted-by": "publisher",
+      "first-page": "1307",
+      "DOI": "10.1111/ppa.12840",
+      "volume": "67",
+      "author": "C de Vallavieille‐Pope",
+      "year": "2018",
+      "unstructured": "de Vallavieille‐Pope, C. et al. Thermal generalist behaviour of invasive Puccinia striiformis f. sp. tritici strains under current and future climate conditions. Plant Pathol. 67, 1307–1320 (2018).",
+      "journal-title": "Plant Pathol."
+    },
+    {
+      "key": "1902_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "e8515",
+      "DOI": "10.1002/ece3.8515",
+      "volume": "12",
+      "author": "AL Boixel",
+      "year": "2022",
+      "unstructured": "Boixel, A. L. et al. Patterns of thermal adaptation in a globally distributed plant pathogen: local diversity and plasticity reveal two‐tier dynamics. Ecol. Evol. 12, e8515 (2022).",
+      "journal-title": "Ecol. Evol."
+    },
+    {
+      "key": "1902_CR32",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sharma, R. K. & Singh, P. K. in Wheat Blast (ed. Kumar, S.) Vol. 1, Ch. 1 (CRC Press, 2020).",
+      "DOI": "10.1201/9780429470554-1"
+    },
+    {
+      "key": "1902_CR33",
+      "doi-asserted-by": "publisher",
+      "first-page": "365",
+      "DOI": "10.1007/s10658-022-02567-x",
+      "volume": "164",
+      "author": "AR Chávez",
+      "year": "2022",
+      "unstructured": "Chávez, A. R. et al. Further progress on wheat blast epidemiology: Identification of novel alternate hosts of Magnaporthe oryzae Triticum pathotype in Paraguay. Eur. J. Plant Pathol. 164, 365–373 (2022).",
+      "journal-title": "Eur. J. Plant Pathol."
+    },
+    {
+      "key": "1902_CR34",
+      "unstructured": "Vialatte, A. et al. in Advances in Ecological Research (ed. Bohan, D.A. and Dumbrell, A.) Vol. 65, 133–165 (Academic Press, 2021)."
+    },
+    {
+      "key": "1902_CR35",
+      "doi-asserted-by": "publisher",
+      "first-page": "4697",
+      "DOI": "10.1111/gcb.15747",
+      "volume": "27",
+      "author": "D Beillouin",
+      "year": "2021",
+      "unstructured": "Beillouin, D. et al. Positive but variable effects of crop diversification on biodiversity and ecosystem services. Glob. Change Biol. 27, 4697–4710 (2021).",
+      "journal-title": "Glob. Change Biol."
+    },
+    {
+      "key": "1902_CR36",
+      "first-page": "367",
+      "volume": "38",
+      "author": "AS Prabhu",
+      "year": "1992",
+      "unstructured": "Prabhu, A. S. et al. Pathogenic variation among isolates of Pyricularia oryzae affecting rice, wheat, and grasses in Brazil. Int. J. Pest Manag. 38, 367–371 (1992).",
+      "journal-title": "Int. J. Pest Manag."
+    },
+    {
+      "key": "1902_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "284",
+      "DOI": "10.1094/PHYTO-06-14-0184-R",
+      "volume": "105",
+      "author": "VL Castroagudín",
+      "year": "2015",
+      "unstructured": "Castroagudín, V. L. et al. Resistance to QoI fungicides is widespread in Brazilian populations of the wheat blast pathogen Magnaporthe oryzae. Phytopathology 105, 284–294 (2015).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR38",
+      "doi-asserted-by": "publisher",
+      "first-page": "95",
+      "DOI": "10.1094/PHYTO-11-12-0294-R",
+      "volume": "104",
+      "author": "JLN Maciel",
+      "year": "2014",
+      "unstructured": "Maciel, J. L. N. et al. Population structure and pathotype diversity of the wheat blast pathogen Magnaporthe oryzae 25 years after its emergence in Brazil. Phytopathology 104, 95–107 (2014).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR39",
+      "unstructured": "Hoogenboom, G. et al. in Advances in Crop Modelling for a Sustainable Agriculture (ed. Boote, K. J.) Vol. 1, Ch. 7 (Burleigh Dodds, 2019)."
+    },
+    {
+      "key": "1902_CR40",
+      "doi-asserted-by": "publisher",
+      "first-page": "27",
+      "DOI": "10.1016/j.eja.2016.08.012",
+      "volume": "81",
+      "author": "BT Kassie",
+      "year": "2016",
+      "unstructured": "Kassie, B. T., Asseng, S., Porter, C. H. & Royce, F. S. Performance of DSSAT-Nwheat across a wide range of current and future growing conditions. Eur. J. Agron. 81, 27–36 (2016).",
+      "journal-title": "Eur. J. Agron."
+    },
+    {
+      "key": "1902_CR41",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ferreira, T. B. et al. Coupling a pest and disease damage module with CSM-NWheat: a wheat crop simulation model. Trans. ASABE 64, 2061–2071 (2021).",
+      "DOI": "10.13031/trans.14586"
+    },
+    {
+      "key": "1902_CR42",
+      "unstructured": "Global spatially-disaggregated crop production statistics data for 2010 Version 1.0. International Food Policy Research Institute https://www.ifpri.org/publication/global-spatially-disaggregated-crop-production-statistics-data-2010-version-10 (2017)."
+    },
+    {
+      "key": "1902_CR43",
+      "doi-asserted-by": "publisher",
+      "first-page": "92",
+      "DOI": "10.1094/PHYTO-95-0092",
+      "volume": "95",
+      "author": "RD Magarey",
+      "year": "2005",
+      "unstructured": "Magarey, R. D., Sutton, T. B. & Thayer, C. L. A simple generic infection model for foliar fungal plant pathogens. Phytopathology 95, 92–100 (2005).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR44",
+      "doi-asserted-by": "publisher",
+      "first-page": "102733",
+      "DOI": "10.1016/j.agsy.2019.102733",
+      "volume": "178",
+      "author": "M Launay",
+      "year": "2020",
+      "unstructured": "Launay, M. et al. Robustness of crop disease response to climate change signal under modeling uncertainties. Agric. Syst. 178, 102733 (2020).",
+      "journal-title": "Agric. Syst."
+    },
+    {
+      "key": "1902_CR45",
+      "doi-asserted-by": "publisher",
+      "first-page": "2237",
+      "DOI": "10.1007/s00484-022-02352-9",
+      "volume": "66",
+      "author": "C Montes",
+      "year": "2022",
+      "unstructured": "Montes, C., Hussain, S. & Krupnik, T. J. Variable climate suitability for wheat blast (Magnaporthe oryzae pathotype Triticum) in Asia: results from a continental-scale modeling approach. Int. J. Biometeorol. 66, 2237 (2022).",
+      "journal-title": "Int. J. Biometeorol."
+    },
+    {
+      "key": "1902_CR46",
+      "doi-asserted-by": "publisher",
+      "first-page": "13",
+      "DOI": "10.1038/s42003-018-0013-y",
+      "volume": "1",
+      "author": "CM Lewis",
+      "year": "2018",
+      "unstructured": "Lewis, C. M. et al. Potential for re-emergence of wheat stem rust in the United Kingdom. Commun. Biol. 1, 13 (2018).",
+      "journal-title": "Commun. Biol."
+    },
+    {
+      "key": "1902_CR47",
+      "doi-asserted-by": "publisher",
+      "first-page": "1238",
+      "DOI": "10.3390/agronomy13051238",
+      "volume": "13",
+      "author": "SNC Vicentini",
+      "year": "2023",
+      "unstructured": "Vicentini, S. N. C. et al. Aerobiology of the wheat blast pathogen: inoculum monitoring and detection of fungicide resistant alleles. Agronomy 13, 1238 (2023).",
+      "journal-title": "Agronomy"
+    },
+    {
+      "key": "1902_CR48",
+      "doi-asserted-by": "publisher",
+      "first-page": "361",
+      "DOI": "10.1590/0100-5405/178086",
+      "volume": "45",
+      "author": "ALD Danelli",
+      "year": "2019",
+      "unstructured": "Danelli, A. L. D. et al. Monitoring Pyricularia sp. airborne inoculum in Passo Fundo, Rio Grande do Sul, Brazil. Summa Phytopathol. 45, 361–367 (2019).",
+      "journal-title": "Summa Phytopathol."
+    },
+    {
+      "key": "1902_CR49",
+      "doi-asserted-by": "publisher",
+      "first-page": "715",
+      "DOI": "10.1094/Phyto-85-715",
+      "volume": "85",
+      "author": "RD Berger",
+      "year": "1995",
+      "unstructured": "Berger, R. D. et al. A simulation model to describe epidemics of rust of phaseolus beans I. Development of the model and sensitivity analysis. Phytopathology 85, 715–721 (1995).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR50",
+      "doi-asserted-by": "publisher",
+      "first-page": "392",
+      "DOI": "10.1016/j.agrformet.2007.09.011",
+      "volume": "148",
+      "author": "PC Sentelhas",
+      "year": "2008",
+      "unstructured": "Sentelhas, P. C. et al. Suitability of relative humidity as an estimator of leaf wetness duration. Agric. Meteorol. 148, 392–400 (2008).",
+      "journal-title": "Agric. Meteorol."
+    },
+    {
+      "key": "1902_CR51",
+      "unstructured": "Kim C. K. in Rice Blast Disease (eds. Zeigler, R. S., Leong, S. A., & Teng, P. S.) 451–464 (CAB International, 1994)."
+    },
+    {
+      "key": "1902_CR52",
+      "doi-asserted-by": "publisher",
+      "first-page": "8",
+      "DOI": "10.1039/c7pp00139h",
+      "volume": "17",
+      "author": "X Li",
+      "year": "2018",
+      "unstructured": "Li, X. et al. Effects of UV-B radiation on the infectivity of: Magnaporthe oryzae and rice disease-resistant physiology in Yuanyang terraces. Photochem. Photobiol. Sci. 17, 8–17 (2018).",
+      "journal-title": "Photochem. Photobiol. Sci."
+    },
+    {
+      "key": "1902_CR53",
+      "doi-asserted-by": "publisher",
+      "first-page": "883",
+      "DOI": "10.1094/PHYTO.2004.94.8.883",
+      "volume": "94",
+      "author": "L Willocquet",
+      "year": "2004",
+      "unstructured": "Willocquet, L. & Savary, S. An epidemiological simulation model with three scales of spatial hierarchy. Phytopathology 94, 883–891 (2004).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR54",
+      "doi-asserted-by": "publisher",
+      "first-page": "210",
+      "DOI": "10.1007/s40858-017-0159-z",
+      "volume": "42",
+      "author": "CD Cruz",
+      "year": "2017",
+      "unstructured": "Cruz, C. D. & Valent, B. Wheat blast disease: danger on the move. Trop. Plant Pathol. 42, 210–222 (2017).",
+      "journal-title": "Trop. Plant Pathol."
+    },
+    {
+      "key": "1902_CR55",
+      "doi-asserted-by": "publisher",
+      "first-page": "409",
+      "DOI": "10.1556/CRC.2013.0021",
+      "volume": "41",
+      "author": "S Bencze",
+      "year": "2013",
+      "unstructured": "Bencze, S. et al. Response of wheat fungal diseases to elevated atmospheric CO2 level. Cereal Res. Commun. 41, 409–419 (2013).",
+      "journal-title": "Cereal Res. Commun."
+    },
+    {
+      "key": "1902_CR56",
+      "unstructured": "Urashima, A. S. et al. in Advances in Genetics, Genomics and Control of Rice Blast Disease (ed. Wang, G.) 267–277 (Springer, 2009)."
+    },
+    {
+      "key": "1902_CR57",
+      "unstructured": "Hersbach, H. et al. ERA5 hourly data on single levels from 1959 to present. Copernicus https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels (2018)."
+    },
+    {
+      "key": "1902_CR58",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kalnay, E. et al. The NCEP/NCAR 40-Year Reanalysis Project. Bull. Amer. Meteor. Soc. 77, 437–472 (1996).",
+      "DOI": "10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2"
+    },
+    {
+      "key": "1902_CR59",
+      "unstructured": "State of the global climate 2020. World Meteorological Organization https://library.wmo.int/doc_num.php?explnum_id=10618 (2021)."
+    },
+    {
+      "key": "1902_CR60",
+      "doi-asserted-by": "publisher",
+      "first-page": "1025",
+      "DOI": "10.1016/S1474-7065(02)00138-9",
+      "volume": "27",
+      "author": "NR Dalezios",
+      "year": "2002",
+      "unstructured": "Dalezios, N. R., Loukas, A. & Bampzelis, D. Assessment of NDVI and agrometeorological indices for major crops in central Greece. Phys. Chem. Earth 27, 1025–1029 (2002).",
+      "journal-title": "Phys. Chem. Earth"
+    },
+    {
+      "key": "1902_CR61",
+      "doi-asserted-by": "publisher",
+      "first-page": "216",
+      "DOI": "10.1590/S0100-54052008000300002",
+      "volume": "34",
+      "author": "CA Cardoso",
+      "year": "2008",
+      "unstructured": "Cardoso, C. A. et al. Development of a warning system for wheat blast caused by Pyricularia grisea. Summa Phytopathol. 34, 216–221 (2008).",
+      "journal-title": "Summa Phytopathol."
+    },
+    {
+      "key": "1902_CR62",
+      "unstructured": "Sonder, K. Global map of wheat mega-environments. CIMMYT https://hdl.handle.net/11529/10625 (2016)."
+    },
+    {
+      "key": "1902_CR63",
+      "doi-asserted-by": "publisher",
+      "first-page": "34",
+      "DOI": "10.1017/aae.2023.2",
+      "volume": "55",
+      "author": "K Mottaleb",
+      "year": "2023",
+      "unstructured": "Mottaleb, K. et al. Quantifying wheat blast disease induced yield and production losses of wheat: a quasi-natural experiment. J. Agric. Appl. Econ. 55, 34–56 (2023).",
+      "journal-title": "J. Agric. Appl. Econ."
+    },
+    {
+      "key": "1902_CR64",
+      "unstructured": "Eficiência de fungicidas para controle de brusone de trigo: resultados dos ensaios cooperativos - safra 2015. Embrapa https://ainfo.cnptia.embrapa.br/digital/bitstream/item/159868/1/ID44064-2016CT369.pdf (2016)."
+    },
+    {
+      "key": "1902_CR65",
+      "unstructured": "Comissão Brasileira de Pesquisa de Trigo e Triticale. Informações Técnicas para Trigo e Triticale. Embrapa https://ainfo.cnptia.embrapa.br/digital/bitstream/item/214730/1/informacoestecnicasparatrigoetriticalesafra2020-1592946148.pdf (2020)."
+    },
+    {
+      "key": "1902_CR66",
+      "unstructured": "Hunt, L. A. & Boote, K. J. in Understanding Options for Agricultural Production (ed. Tsuji, G. Y.) (1998)."
+    },
+    {
+      "key": "1902_CR67",
+      "doi-asserted-by": "crossref",
+      "unstructured": "dos Santos, G. B., de Oliveira Coelho, M. A. & Del Ponte, E. M. Critical-point yield loss models based on incidence and severity of wheat head blast epidemics in the Brazilian Cerrado. Eur. J. Plant Pathol. 165, 421–431 (2023).",
+      "DOI": "10.1007/s10658-022-02614-7"
+    },
+    {
+      "key": "1902_CR68",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pequeno, D. N. L. et al. Supporting data for ‘Production vulnerability to wheat blast disease under climate change’. GitHub https://github.com/thiagoferreira53/GlobalWB (2023).",
+      "DOI": "10.1038/s41558-023-01902-2"
+    },
+    {
+      "key": "1902_CR69",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pequeno, D. N. L. et al. Supporting data for ‘Production vulnerability to wheat blast disease under climate change’. GitHub https://github.com/DSSAT/dssat-csm-os (2023).",
+      "DOI": "10.1038/s41558-023-01902-2"
+    },
+    {
+      "key": "1902_CR70",
+      "unstructured": "Pavan, W., Vargas, F., Perondi, D. & Fernandes, J. M. C. Pic-a-Wheat Field. Pic-a-Wheat Field http://picawheatfield.org/site/#/ (2022)."
+    },
+    {
+      "key": "1902_CR71",
+      "doi-asserted-by": "publisher",
+      "first-page": "1298",
+      "DOI": "10.1094/Phyto-81-1298",
+      "volume": "81",
+      "author": "M Riaz",
+      "year": "1991",
+      "unstructured": "Riaz, M. Effects of wheat genotype, time after inoculation, and leaf age on conidia production by Drechslera tritici-repentis. Phytopathology 81, 1298 (1991).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR72",
+      "doi-asserted-by": "publisher",
+      "first-page": "267",
+      "DOI": "10.1007/BF03041356",
+      "volume": "76",
+      "author": "YR Mehta",
+      "year": "1970",
+      "unstructured": "Mehta, Y. R. & Zadoks, J. C. Uredospore production and sporulation period of Puccinia recondita etriticina on primary leaves of wheat. Neth. J. Plant Pathol. 76, 267–276 (1970).",
+      "journal-title": "Neth. J. Plant Pathol."
+    },
+    {
+      "key": "1902_CR73",
+      "unstructured": "Li, Y. Factors Influencing the Development of Gray Leaf Spot of Perennial Ryegrass Turf and Seasonal Availability of the Inoculum. PhD thesis, Pennsylvania State Univ. (2013)."
+    },
+    {
+      "key": "1902_CR74",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Deacon, J. W. in Fungal Biology (ed. Deacon, J. W.) (2005).",
+      "DOI": "10.1002/9781118685068"
+    },
+    {
+      "key": "1902_CR75",
+      "doi-asserted-by": "publisher",
+      "first-page": "5134",
+      "DOI": "10.1073/pnas.1913752117",
+      "volume": "117",
+      "author": "L Oneto",
+      "year": "2020",
+      "unstructured": "Oneto, L. et al. Timing of fungal spore release dictates survival during atmospheric transport. Proc. Natl Acad. Sci. USA 117, 5134–5143 (2020).",
+      "journal-title": "Proc. Natl Acad. Sci. USA"
+    },
+    {
+      "key": "1902_CR76",
+      "doi-asserted-by": "publisher",
+      "first-page": "505",
+      "DOI": "10.1094/PD-80-0505",
+      "volume": "80",
+      "author": "CK Evans",
+      "year": "1996",
+      "unstructured": "Evans, C. K. et al. Inoculum density and infection efficiency of conidia and conidiophores of isolates of Pyrenophora tritici-repentis. Plant Dis. 80, 505–512 (1996).",
+      "journal-title": "Plant Dis."
+    },
+    {
+      "key": "1902_CR77",
+      "doi-asserted-by": "publisher",
+      "first-page": "110530",
+      "DOI": "10.1016/j.chaos.2020.110530",
+      "volume": "143",
+      "author": "S Kirtphaiboon",
+      "year": "2021",
+      "unstructured": "Kirtphaiboon, S. et al. Model of rice blast disease under tropical climate conditions. Chaos Solitons Fractals 143, 110530 (2021).",
+      "journal-title": "Chaos Solitons Fractals"
+    },
+    {
+      "key": "1902_CR78",
+      "doi-asserted-by": "publisher",
+      "first-page": "345",
+      "DOI": "10.1094/PHYTO-04-19-0144-R",
+      "volume": "110",
+      "author": "PA Précigout",
+      "year": "2020",
+      "unstructured": "Précigout, P. A. et al. Does the latent period of leaf fungal pathogens reflect their trophic type? A meta-analysis of biotrophs, hemibiotrophs, and necrotrophs. Phytopathology 110, 345–361 (2020).",
+      "journal-title": "Phytopathology"
+    },
+    {
+      "key": "1902_CR79",
+      "doi-asserted-by": "publisher",
+      "first-page": "2622",
+      "DOI": "10.1094/PDIS-12-19-2709-RE",
+      "volume": "104",
+      "author": "KB Mills",
+      "year": "2020",
+      "unstructured": "Mills, K. B. et al. Quantifying the effects of temperature and relative humidity on the development of wheat blast incited by the Lolium pathotype of Magnaporthe oryzae. Plant Dis. 104, 2622–2633 (2020).",
+      "journal-title": "Plant Dis."
+    },
+    {
+      "key": "1902_CR80",
+      "doi-asserted-by": "publisher",
+      "first-page": "324",
+      "DOI": "10.1111/j.1439-0434.1994.tb00029.x",
+      "volume": "142",
+      "author": "DN Sah",
+      "year": "1994",
+      "unstructured": "Sah, D. N. Effects of leaf wetness duration and inoculum level on resistance of wheat genotypes to Pyrenophora tritici‐repentis. J. Phytopathol. 142, 324–330 (1994).",
+      "journal-title": "J. Phytopathol."
+    },
+    {
+      "key": "1902_CR81",
+      "doi-asserted-by": "publisher",
+      "first-page": "472",
+      "DOI": "10.1046/j.1365-3059.1999.00372.x",
+      "volume": "48",
+      "author": "Geagea",
+      "year": "1999",
+      "unstructured": "Geagea et al. Dry‐dispersal and rain‐splash of brown (Puccinia recondita f. sp. tritici) and yellow (P. striiformis) rust spores from infected wheat leaves exposed to simulated raindrops. Plant Pathol. 48, 472–482 (1999).",
+      "journal-title": "Plant Pathol."
+    },
+    {
+      "key": "1902_CR82",
+      "doi-asserted-by": "publisher",
+      "first-page": "394",
+      "DOI": "10.20546/ijcmas.2017.603.045",
+      "volume": "6",
+      "author": "LS Rajput",
+      "year": "2017",
+      "unstructured": "Rajput, L. S. et al. Effect of temperature on growth and sporulation of rice leaf blast pathogen Magnaporthe oryzae. Int. J. Curr. Microbiol. Appl. Sci. 6, 394–401 (2017).",
+      "journal-title": "Int. J. Curr. Microbiol. Appl. Sci."
+    },
+    {
+      "key": "1902_CR83",
+      "first-page": "1",
+      "volume": "10",
+      "author": "H Suzuki",
+      "year": "1969",
+      "unstructured": "Suzuki, H. Studies on the behavior of the rice blast fungus spore and application to outbreak forecast of rice blast disease. Bull. Hokuriku Natl Agric. Exp. Stn. 10, 1–118 (1969).",
+      "journal-title": "Bull. Hokuriku Natl Agric. Exp. Stn."
+    },
+    {
+      "key": "1902_CR84",
+      "doi-asserted-by": "publisher",
+      "first-page": "239",
+      "DOI": "10.1146/annurev.py.13.090175.001323",
+      "volume": "13",
+      "author": "H Suzuki",
+      "year": "1975",
+      "unstructured": "Suzuki, H. Meteorological factors in the epidemiology of rice blast. Ann. Rev. Phytopathol. 13, 239–256 (1975).",
+      "journal-title": "Ann. Rev. Phytopathol."
+    },
+    {
+      "key": "1902_CR85",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Monitoring Pyricularia sp. airborne inoculum in Passo Fundo, Rio Grande do Sul, Brazil. Summa Phytopathol. 45, 361–367 (2020).",
+      "DOI": "10.1590/0100-5405/178086"
+    }
+  ],
+  "container-title": [
+    "Nature Climate Change"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s41558-023-01902-2.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41558-023-01902-2",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41558-023-01902-2.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        8
+      ]
+    ],
+    "date-time": "2024-02-08T11:07:56Z",
+    "timestamp": 1707390476000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41558-023-01902-2"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        2
+      ]
+    ]
+  },
+  "references-count": 85,
+  "journal-issue": {
+    "issue": "2",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "1902"
+  ],
+  "URL": "https://doi.org/10.1038/s41558-023-01902-2",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.21203/rs.3.rs-1954134/v1",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1758-678X",
+    "1758-6798"
+  ],
+  "issn-type": [
+    {
+      "value": "1758-678X",
+      "type": "print"
+    },
+    {
+      "value": "1758-6798",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        2
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "11 August 2022",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "21 November 2023",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "1 February 2024",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ]
+}

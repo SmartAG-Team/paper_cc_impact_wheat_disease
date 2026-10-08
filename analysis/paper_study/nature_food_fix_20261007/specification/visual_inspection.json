@@ -1,0 +1,16 @@
+{
+  "pdf_sha256": "f92f2daa11a491d0fc4a03b61d93b5a2f2a5e7249c6a670804e22091e138265d",
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "equations_inspected": "S1\u2013S29",
+  "findings": "All equations, subscripts, superscripts, piecewise cases, accents and equation numbers are visible; no clipping or raw TeX. Superscript negative units use available glyphs. Equation lead-ins remain with their following equations.",
+  "word_math": "155 native OMML objects structurally checked; Microsoft Word rendering unavailable.",
+  "source_math_unchanged": true
+}

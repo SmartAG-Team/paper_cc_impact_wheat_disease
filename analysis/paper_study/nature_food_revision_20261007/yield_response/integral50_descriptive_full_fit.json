@@ -1,0 +1,28 @@
+{
+  "features": [
+    "delta_stb_percentage_days"
+  ],
+  "coefficients": [
+    0.00012356982936896337
+  ],
+  "baseline": 0.03887414122724729,
+  "training_trials": [
+    "nfts_57698",
+    "nfts_62693",
+    "nfts_62768",
+    "nfts_65793",
+    "nfts_68027"
+  ],
+  "training_rows": 50,
+  "training_trial_count": 5,
+  "null_predictors": [],
+  "negative_feature_values": {
+    "delta_stb_percentage_days": 0
+  },
+  "negative_responses": 5,
+  "weighted_design_rank": 1,
+  "rank_deficient": false,
+  "nonzero_predictor_count": 1,
+  "origin_constrained": true,
+  "ridge_penalty": 0
+}

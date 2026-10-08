@@ -1,0 +1,255 @@
+global_target_index,field_id,site_id,coordinate_year,endpoint_series,leaf_index,date,value
+0,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 4TH",3,2017-05-18,1
+1,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 3RD",2,2017-05-18,1
+2,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 4TH",3,2017-05-29,1
+3,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 3RD",2,2017-05-29,1
+4,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 2ND",1,2017-05-29,1
+5,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 4TH",3,2017-06-06,1
+6,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 3RD",2,2017-06-06,1
+7,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 2ND",1,2017-06-06,1
+8,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 3RD",2,2017-06-13,1
+9,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 2ND",1,2017-06-13,1
+10,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 1ST / FLAG LEAF",0,2017-06-13,1
+11,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 2ND",1,2017-06-26,1
+12,basf-wheat-diseases|1|2017,era5loc_dd89cccfc605,era5loc_dd89cccfc605|2017,"1|LEAF, 1ST / FLAG LEAF",0,2017-06-26,1
+13,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 3RD",2,2017-05-11,1
+14,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 4TH",3,2017-05-11,1
+15,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 5TH",4,2017-05-11,1
+16,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 1ST / FLAG LEAF",0,2017-06-02,1
+17,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 2ND",1,2017-06-02,1
+18,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 1ST / FLAG LEAF",0,2017-06-08,1
+19,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 2ND",1,2017-06-08,1
+20,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 3RD",2,2017-06-08,1
+21,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 1ST / FLAG LEAF",0,2017-06-22,1
+22,basf-wheat-diseases|10|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"10|LEAF, 2ND",1,2017-06-22,1
+23,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 1ST / FLAG LEAF",0,2017-05-22,0
+24,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 2ND",1,2017-05-22,0
+25,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 3RD",2,2017-05-22,1
+26,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 1ST / FLAG LEAF",0,2017-06-14,1
+27,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 2ND",1,2017-06-14,1
+28,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 3RD",2,2017-06-14,1
+29,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 1ST / FLAG LEAF",0,2017-06-21,1
+30,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 2ND",1,2017-06-21,1
+31,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 3RD",2,2017-06-21,1
+32,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 1ST / FLAG LEAF",0,2017-06-30,1
+33,basf-wheat-diseases|11|2017,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2017,"11|LEAF, 2ND",1,2017-06-30,1
+34,basf-wheat-diseases|12|2017,era5loc_1db395a204c4,era5loc_1db395a204c4|2017,"12|LEAF, 5TH",4,2017-05-22,1
+35,basf-wheat-diseases|12|2017,era5loc_1db395a204c4,era5loc_1db395a204c4|2017,"12|LEAF, 4TH",3,2017-05-22,1
+36,basf-wheat-diseases|12|2017,era5loc_1db395a204c4,era5loc_1db395a204c4|2017,"12|LEAF, 5TH",4,2017-06-01,1
+37,basf-wheat-diseases|12|2017,era5loc_1db395a204c4,era5loc_1db395a204c4|2017,"12|LEAF, 4TH",3,2017-06-01,1
+38,basf-wheat-diseases|12|2017,era5loc_1db395a204c4,era5loc_1db395a204c4|2017,"12|LEAF, 4TH",3,2017-06-12,1
+39,basf-wheat-diseases|12|2017,era5loc_1db395a204c4,era5loc_1db395a204c4|2017,"12|LEAF, 3RD",2,2017-06-12,1
+40,basf-wheat-diseases|12|2017,era5loc_1db395a204c4,era5loc_1db395a204c4|2017,"12|LEAF, 2ND",1,2017-06-21,1
+41,basf-wheat-diseases|12|2017,era5loc_1db395a204c4,era5loc_1db395a204c4|2017,"12|LEAF, 1ST / FLAG LEAF",0,2017-06-21,1
+42,basf-wheat-diseases|13|2017,era5loc_8b7743800935,era5loc_8b7743800935|2017,"13|LEAF, 4TH",3,2017-06-02,1
+43,basf-wheat-diseases|13|2017,era5loc_8b7743800935,era5loc_8b7743800935|2017,"13|LEAF, 3RD",2,2017-06-02,1
+44,basf-wheat-diseases|13|2017,era5loc_8b7743800935,era5loc_8b7743800935|2017,"13|LEAF, 3RD",2,2017-06-12,1
+45,basf-wheat-diseases|13|2017,era5loc_8b7743800935,era5loc_8b7743800935|2017,"13|LEAF, 2ND",1,2017-06-12,1
+46,basf-wheat-diseases|13|2017,era5loc_8b7743800935,era5loc_8b7743800935|2017,"13|LEAF, 2ND",1,2017-06-26,1
+47,basf-wheat-diseases|13|2017,era5loc_8b7743800935,era5loc_8b7743800935|2017,"13|LEAF, 1ST / FLAG LEAF",0,2017-06-26,1
+48,basf-wheat-diseases|14|2017,era5loc_b4c23217b405,era5loc_b4c23217b405|2017,"14|LEAF, 4TH",3,2017-06-11,1
+49,basf-wheat-diseases|14|2017,era5loc_b4c23217b405,era5loc_b4c23217b405|2017,"14|LEAF, 3RD",2,2017-06-21,1
+50,basf-wheat-diseases|15|2017,era5loc_01117578be52,era5loc_01117578be52|2017,"15|LEAF, 1ST / FLAG LEAF",0,2017-07-03,1
+51,basf-wheat-diseases|15|2017,era5loc_01117578be52,era5loc_01117578be52|2017,"15|LEAF, 1ST / FLAG LEAF",0,2017-07-13,1
+52,basf-wheat-diseases|16|2017,era5loc_bedbc80cc600,era5loc_bedbc80cc600|2017,"16|LEAF, 5TH",4,2017-05-05,1
+53,basf-wheat-diseases|16|2017,era5loc_bedbc80cc600,era5loc_bedbc80cc600|2017,"16|LEAF, 4TH",3,2017-05-16,1
+54,basf-wheat-diseases|16|2017,era5loc_bedbc80cc600,era5loc_bedbc80cc600|2017,"16|LEAF, 4TH",3,2017-05-26,1
+55,basf-wheat-diseases|16|2017,era5loc_bedbc80cc600,era5loc_bedbc80cc600|2017,"16|LEAF, 3RD",2,2017-05-26,1
+56,basf-wheat-diseases|16|2017,era5loc_bedbc80cc600,era5loc_bedbc80cc600|2017,"16|LEAF, 3RD",2,2017-06-08,1
+57,basf-wheat-diseases|16|2017,era5loc_bedbc80cc600,era5loc_bedbc80cc600|2017,"16|LEAF, 3RD",2,2017-06-20,1
+58,basf-wheat-diseases|16|2017,era5loc_bedbc80cc600,era5loc_bedbc80cc600|2017,"16|LEAF, 2ND",1,2017-06-20,1
+59,basf-wheat-diseases|16|2017,era5loc_bedbc80cc600,era5loc_bedbc80cc600|2017,"16|LEAF, 2ND",1,2017-06-26,1
+60,basf-wheat-diseases|17|2017,era5loc_c273764268e2,era5loc_c273764268e2|2017,"17|LEAF, 3RD",2,2017-06-10,1
+61,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 5TH",4,2017-05-19,1
+62,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 4TH",3,2017-05-19,1
+63,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 3RD",2,2017-05-19,1
+64,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 4TH",3,2017-05-26,1
+65,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 3RD",2,2017-05-26,1
+66,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 3RD",2,2017-06-06,1
+67,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 2ND",1,2017-06-06,1
+68,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 3RD",2,2017-06-21,1
+69,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 2ND",1,2017-06-21,1
+70,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 2ND",1,2017-07-04,1
+71,basf-wheat-diseases|18|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"18|LEAF, 1ST / FLAG LEAF",0,2017-07-04,1
+72,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 6ST",5,2017-04-21,1
+73,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 5TH",4,2017-04-21,1
+74,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 4TH",3,2017-04-21,1
+75,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 6ST",5,2017-04-29,1
+76,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 5TH",4,2017-04-29,1
+77,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 4TH",3,2017-04-29,1
+78,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 5TH",4,2017-05-12,1
+79,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 4TH",3,2017-05-12,1
+80,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 5TH",4,2017-05-22,1
+81,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 4TH",3,2017-05-22,1
+82,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 4TH",3,2017-05-31,1
+83,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 3RD",2,2017-06-08,1
+84,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 2ND",1,2017-06-08,1
+85,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 2ND",1,2017-06-29,1
+86,basf-wheat-diseases|19|2017,era5loc_ff52f903fe18,era5loc_ff52f903fe18|2017,"19|LEAF, 1ST / FLAG LEAF",0,2017-06-29,1
+87,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 1ST / FLAG LEAF",0,2017-05-22,0
+88,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 2ND",1,2017-05-22,0
+89,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 3RD",2,2017-05-22,1
+90,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 4TH",3,2017-05-22,1
+91,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 5TH",4,2017-05-22,1
+92,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 2ND",1,2017-06-10,1
+93,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 3RD",2,2017-06-10,1
+94,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 4TH",3,2017-06-10,1
+95,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 1ST / FLAG LEAF",0,2017-06-20,1
+96,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 2ND",1,2017-06-20,1
+97,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 3RD",2,2017-06-20,1
+98,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 1ST / FLAG LEAF",0,2017-07-03,1
+99,basf-wheat-diseases|2|2017,era5loc_98874af9c8d8,era5loc_98874af9c8d8|2017,"2|LEAF, 2ND",1,2017-07-03,1
+100,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 3RD",2,2017-04-29,0
+101,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 4TH",3,2017-04-29,1
+102,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 5TH",4,2017-04-29,1
+103,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 1ST / FLAG LEAF",0,2017-05-19,0
+104,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 2ND",1,2017-05-19,0
+105,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 3RD",2,2017-05-19,1
+106,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 4TH",3,2017-05-19,1
+107,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 1ST / FLAG LEAF",0,2017-06-01,0
+108,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 2ND",1,2017-06-01,0
+109,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 3RD",2,2017-06-01,1
+110,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 4TH",3,2017-06-01,1
+111,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 1ST / FLAG LEAF",0,2017-06-09,0
+112,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 2ND",1,2017-06-09,0
+113,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 3RD",2,2017-06-09,1
+114,basf-wheat-diseases|20|2017,era5loc_5ab5ca0b5fe3,era5loc_5ab5ca0b5fe3|2017,"20|LEAF, 4TH",3,2017-06-09,1
+115,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 3RD",2,2018-05-02,1
+116,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 4TH",3,2018-05-02,1
+117,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 5TH",4,2018-05-02,1
+118,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 2ND",1,2018-05-22,1
+119,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 3RD",2,2018-05-22,1
+120,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 2ND",1,2018-06-05,1
+121,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 3RD",2,2018-06-05,1
+122,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 1ST / FLAG LEAF",0,2018-06-12,1
+123,basf-wheat-diseases|23|2018,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2018,"23|LEAF, 2ND",1,2018-06-12,1
+124,basf-wheat-diseases|24|2018,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2018,"24|LEAF, 1ST / FLAG LEAF",0,2018-06-11,1
+125,basf-wheat-diseases|24|2018,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2018,"24|LEAF, 2ND",1,2018-06-11,1
+126,basf-wheat-diseases|24|2018,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2018,"24|LEAF, 3RD",2,2018-06-11,1
+127,basf-wheat-diseases|24|2018,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2018,"24|LEAF, 1ST / FLAG LEAF",0,2018-06-20,1
+128,basf-wheat-diseases|24|2018,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2018,"24|LEAF, 2ND",1,2018-06-20,1
+129,basf-wheat-diseases|24|2018,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2018,"24|LEAF, 3RD",2,2018-06-20,1
+130,basf-wheat-diseases|24|2018,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2018,"24|LEAF, 1ST / FLAG LEAF",0,2018-07-04,1
+131,basf-wheat-diseases|24|2018,era5loc_c36c557e4afc,era5loc_c36c557e4afc|2018,"24|LEAF, 2ND",1,2018-07-04,1
+132,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 4TH",3,2018-05-14,1
+133,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 3RD",2,2018-05-14,1
+134,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 4TH",3,2018-05-24,1
+135,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 3RD",2,2018-05-24,1
+136,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 4TH",3,2018-06-01,1
+137,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 3RD",2,2018-06-01,1
+138,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 2ND",1,2018-06-01,1
+139,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 1ST / FLAG LEAF",0,2018-06-01,1
+140,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 2ND",1,2018-06-15,1
+141,basf-wheat-diseases|25|2018,era5loc_2daae74efc65,era5loc_2daae74efc65|2018,"25|LEAF, 1ST / FLAG LEAF",0,2018-06-15,1
+142,basf-wheat-diseases|26|2018,era5loc_cd0793ddaa5d,era5loc_cd0793ddaa5d|2018,"26|LEAF, 4TH",3,2018-05-16,0
+143,basf-wheat-diseases|26|2018,era5loc_cd0793ddaa5d,era5loc_cd0793ddaa5d|2018,"26|LEAF, 3RD",2,2018-05-26,1
+144,basf-wheat-diseases|26|2018,era5loc_cd0793ddaa5d,era5loc_cd0793ddaa5d|2018,"26|LEAF, 2ND",1,2018-05-26,1
+145,basf-wheat-diseases|26|2018,era5loc_cd0793ddaa5d,era5loc_cd0793ddaa5d|2018,"26|LEAF, 3RD",2,2018-06-05,1
+146,basf-wheat-diseases|26|2018,era5loc_cd0793ddaa5d,era5loc_cd0793ddaa5d|2018,"26|LEAF, 2ND",1,2018-06-05,1
+147,basf-wheat-diseases|26|2018,era5loc_cd0793ddaa5d,era5loc_cd0793ddaa5d|2018,"26|LEAF, 2ND",1,2018-06-15,1
+148,basf-wheat-diseases|26|2018,era5loc_cd0793ddaa5d,era5loc_cd0793ddaa5d|2018,"26|LEAF, 1ST / FLAG LEAF",0,2018-06-15,1
+149,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 4TH",3,2018-05-16,1
+150,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 5TH",4,2018-05-16,1
+151,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 3RD",2,2018-05-26,1
+152,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 4TH",3,2018-05-26,1
+153,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 3RD",2,2018-06-05,1
+154,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 4TH",3,2018-06-05,1
+155,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 2ND",1,2018-06-15,1
+156,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 3RD",2,2018-06-15,1
+157,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 1ST / FLAG LEAF",0,2018-06-25,1
+158,basf-wheat-diseases|27|2018,era5loc_1fa43db2787c,era5loc_1fa43db2787c|2018,"27|LEAF, 2ND",1,2018-06-25,1
+159,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 7ST",6,2018-05-01,1
+160,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 6ST",5,2018-05-01,1
+161,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 5TH",4,2018-05-01,1
+162,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 6ST",5,2018-05-11,1
+163,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 5TH",4,2018-05-11,1
+164,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 4TH",3,2018-05-11,1
+165,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 5TH",4,2018-05-21,1
+166,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 4TH",3,2018-05-21,1
+167,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 5TH",4,2018-06-01,1
+168,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 4TH",3,2018-06-01,1
+169,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 3RD",2,2018-06-01,1
+170,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 4TH",3,2018-06-14,1
+171,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 3RD",2,2018-06-14,1
+172,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 2ND",1,2018-06-14,1
+173,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 4TH",3,2018-06-23,1
+174,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 3RD",2,2018-06-23,1
+175,basf-wheat-diseases|28|2018,era5loc_b103a5cbfed5,era5loc_b103a5cbfed5|2018,"28|LEAF, 2ND",1,2018-06-23,1
+176,basf-wheat-diseases|29|2018,era5loc_c273764268e2,era5loc_c273764268e2|2018,"29|LEAF, 5TH",4,2018-05-01,1
+177,basf-wheat-diseases|29|2018,era5loc_c273764268e2,era5loc_c273764268e2|2018,"29|LEAF, 4TH",3,2018-05-01,1
+178,basf-wheat-diseases|29|2018,era5loc_c273764268e2,era5loc_c273764268e2|2018,"29|LEAF, 4TH",3,2018-05-11,1
+179,basf-wheat-diseases|29|2018,era5loc_c273764268e2,era5loc_c273764268e2|2018,"29|LEAF, 3RD",2,2018-05-11,1
+180,basf-wheat-diseases|29|2018,era5loc_c273764268e2,era5loc_c273764268e2|2018,"29|LEAF, 4TH",3,2018-05-22,1
+181,basf-wheat-diseases|29|2018,era5loc_c273764268e2,era5loc_c273764268e2|2018,"29|LEAF, 3RD",2,2018-05-22,1
+182,basf-wheat-diseases|30|2018,era5loc_300f965a2c3d,era5loc_300f965a2c3d|2018,"30|LEAF, 3RD",2,2018-06-01,1
+183,basf-wheat-diseases|30|2018,era5loc_300f965a2c3d,era5loc_300f965a2c3d|2018,"30|LEAF, 2ND",1,2018-06-13,1
+184,basf-wheat-diseases|30|2018,era5loc_300f965a2c3d,era5loc_300f965a2c3d|2018,"30|LEAF, 3RD",2,2018-06-13,1
+185,basf-wheat-diseases|30|2018,era5loc_300f965a2c3d,era5loc_300f965a2c3d|2018,"30|LEAF, 1ST / FLAG LEAF",0,2018-06-20,1
+186,basf-wheat-diseases|30|2018,era5loc_300f965a2c3d,era5loc_300f965a2c3d|2018,"30|LEAF, 2ND",1,2018-06-20,1
+187,basf-wheat-diseases|30|2018,era5loc_300f965a2c3d,era5loc_300f965a2c3d|2018,"30|LEAF, 1ST / FLAG LEAF",0,2018-06-27,1
+188,basf-wheat-diseases|30|2018,era5loc_300f965a2c3d,era5loc_300f965a2c3d|2018,"30|LEAF, 2ND",1,2018-06-27,1
+268,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 1ST / FLAG LEAF",0,2017-05-15,0
+269,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 2ND",1,2017-05-15,1
+270,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 3RD",2,2017-05-15,1
+271,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 1ST / FLAG LEAF",0,2017-05-25,0
+272,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 2ND",1,2017-05-25,1
+273,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 3RD",2,2017-05-25,1
+274,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 1ST / FLAG LEAF",0,2017-06-06,1
+275,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 2ND",1,2017-06-06,1
+276,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 3RD",2,2017-06-06,1
+277,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 1ST / FLAG LEAF",0,2017-06-16,1
+278,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 2ND",1,2017-06-16,1
+279,basf-wheat-diseases|4|2017,era5loc_a3b551fcca14,era5loc_a3b551fcca14|2017,"4|LEAF, 3RD",2,2017-06-16,1
+357,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 3RD",2,2017-04-20,1
+358,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 4TH",3,2017-04-20,1
+359,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 3RD",2,2017-05-03,1
+360,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 4TH",3,2017-05-03,1
+361,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 3RD",2,2017-05-10,1
+362,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 4TH",3,2017-05-10,1
+363,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 2ND",1,2017-05-19,1
+364,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 3RD",2,2017-05-19,1
+365,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 4TH",3,2017-05-19,1
+366,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 1ST / FLAG LEAF",0,2017-05-30,1
+367,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 2ND",1,2017-05-30,1
+368,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 3RD",2,2017-05-30,1
+369,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 4TH",3,2017-05-30,1
+370,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 1ST / FLAG LEAF",0,2017-06-09,0
+371,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 2ND",1,2017-06-09,1
+372,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 3RD",2,2017-06-09,1
+373,basf-wheat-diseases|5|2017,era5loc_d4b920707d9f,era5loc_d4b920707d9f|2017,"5|LEAF, 1ST / FLAG LEAF",0,2017-06-28,1
+411,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 3RD",2,2017-04-20,1
+412,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 4TH",3,2017-04-20,1
+413,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 5TH",4,2017-04-20,1
+414,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 3RD",2,2017-05-03,1
+415,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 4TH",3,2017-05-03,1
+416,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 3RD",2,2017-05-11,1
+417,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 4TH",3,2017-05-11,1
+418,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 1ST / FLAG LEAF",0,2017-06-09,1
+419,basf-wheat-diseases|6|2017,era5loc_374089cedfa0,era5loc_374089cedfa0|2017,"6|LEAF, 2ND",1,2017-06-09,1
+494,basf-wheat-diseases|7|2017,era5loc_fc0f9359f228,era5loc_fc0f9359f228|2017,"7|LEAF, 2ND",1,2017-05-15,0
+495,basf-wheat-diseases|7|2017,era5loc_fc0f9359f228,era5loc_fc0f9359f228|2017,"7|LEAF, 3RD",2,2017-05-15,1
+496,basf-wheat-diseases|7|2017,era5loc_fc0f9359f228,era5loc_fc0f9359f228|2017,"7|LEAF, 4TH",3,2017-05-15,1
+497,basf-wheat-diseases|7|2017,era5loc_fc0f9359f228,era5loc_fc0f9359f228|2017,"7|LEAF, 1ST / FLAG LEAF",0,2017-06-06,1
+498,basf-wheat-diseases|7|2017,era5loc_fc0f9359f228,era5loc_fc0f9359f228|2017,"7|LEAF, 2ND",1,2017-06-06,1
+499,basf-wheat-diseases|7|2017,era5loc_fc0f9359f228,era5loc_fc0f9359f228|2017,"7|LEAF, 1ST / FLAG LEAF",0,2017-06-13,1
+500,basf-wheat-diseases|7|2017,era5loc_fc0f9359f228,era5loc_fc0f9359f228|2017,"7|LEAF, 2ND",1,2017-06-13,1
+564,basf-wheat-diseases|76|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"76|LEAF, 4TH",3,2017-06-01,1
+565,basf-wheat-diseases|76|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"76|LEAF, 3RD",2,2017-06-01,1
+566,basf-wheat-diseases|76|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"76|LEAF, 3RD",2,2017-06-22,1
+567,basf-wheat-diseases|76|2017,era5loc_6687f40ce729,era5loc_6687f40ce729|2017,"76|LEAF, 2ND",1,2017-06-22,1
+568,basf-wheat-diseases|8|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"8|LEAF, 3RD",2,2017-05-24,1
+569,basf-wheat-diseases|8|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"8|LEAF, 4TH",3,2017-05-24,1
+570,basf-wheat-diseases|8|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"8|LEAF, 2ND",1,2017-05-31,1
+571,basf-wheat-diseases|8|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"8|LEAF, 3RD",2,2017-05-31,1
+572,basf-wheat-diseases|8|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"8|LEAF, 1ST / FLAG LEAF",0,2017-06-07,1
+573,basf-wheat-diseases|8|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"8|LEAF, 2ND",1,2017-06-07,1
+574,basf-wheat-diseases|8|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"8|LEAF, 1ST / FLAG LEAF",0,2017-06-14,1
+575,basf-wheat-diseases|8|2017,era5loc_d6117aa4523b,era5loc_d6117aa4523b|2017,"8|LEAF, 2ND",1,2017-06-14,1
+576,basf-wheat-diseases|9|2017,era5loc_23eef231ea98,era5loc_23eef231ea98|2017,"9|LEAF, 2ND",1,2017-05-23,0
+577,basf-wheat-diseases|9|2017,era5loc_23eef231ea98,era5loc_23eef231ea98|2017,"9|LEAF, 3RD",2,2017-05-23,1
+578,basf-wheat-diseases|9|2017,era5loc_23eef231ea98,era5loc_23eef231ea98|2017,"9|LEAF, 4TH",3,2017-05-23,1
+579,basf-wheat-diseases|9|2017,era5loc_23eef231ea98,era5loc_23eef231ea98|2017,"9|LEAF, 2ND",1,2017-06-07,1
+580,basf-wheat-diseases|9|2017,era5loc_23eef231ea98,era5loc_23eef231ea98|2017,"9|LEAF, 3RD",2,2017-06-07,1
+581,basf-wheat-diseases|9|2017,era5loc_23eef231ea98,era5loc_23eef231ea98|2017,"9|LEAF, 1ST / FLAG LEAF",0,2017-06-16,1
+582,basf-wheat-diseases|9|2017,era5loc_23eef231ea98,era5loc_23eef231ea98|2017,"9|LEAF, 2ND",1,2017-06-16,1
+583,basf-wheat-diseases|9|2017,era5loc_23eef231ea98,era5loc_23eef231ea98|2017,"9|LEAF, 1ST / FLAG LEAF",0,2017-06-28,1

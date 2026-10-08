@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="822.744784pt" height="318.528pt" viewBox="0 0 822.744784 318.528" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-08T21:42:50.105465</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 318.528 
+L 822.744784 318.528 
+L 822.744784 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 30.25152 197.888256 
+L 159.02208 197.888256 
+Q 171.74016 197.888256 171.74016 193.022208 
+L 171.74016 123.985152 
+Q 171.74016 119.119104 159.02208 119.119104 
+L 30.25152 119.119104 
+Q 17.53344 119.119104 17.53344 123.985152 
+L 17.53344 193.022208 
+Q 17.53344 197.888256 30.25152 197.888256 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #e6eef4; stroke: #9ba8b0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 221.02272 114.253056 
+L 389.53728 114.253056 
+Q 402.25536 114.253056 402.25536 109.387008 
+L 402.25536 37.308672 
+Q 402.25536 32.442624 389.53728 32.442624 
+L 221.02272 32.442624 
+Q 208.30464 32.442624 208.30464 37.308672 
+L 208.30464 109.387008 
+Q 208.30464 114.253056 221.02272 114.253056 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #e8f0eb; stroke: #9ba8b0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 221.02272 281.523456 
+L 389.53728 281.523456 
+Q 402.25536 281.523456 402.25536 276.657408 
+L 402.25536 204.579072 
+Q 402.25536 199.713024 389.53728 199.713024 
+L 221.02272 199.713024 
+Q 208.30464 199.713024 208.30464 204.579072 
+L 208.30464 276.657408 
+Q 208.30464 281.523456 221.02272 281.523456 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #e6eef4; stroke: #9ba8b0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 459.48672 197.888256 
+L 608.12928 197.888256 
+Q 620.84736 197.888256 620.84736 193.022208 
+L 620.84736 123.985152 
+Q 620.84736 119.119104 608.12928 119.119104 
+L 459.48672 119.119104 
+Q 446.76864 119.119104 446.76864 123.985152 
+L 446.76864 193.022208 
+Q 446.76864 197.888256 459.48672 197.888256 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #e8f0eb; stroke: #9ba8b0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 654.23232 105.129216 
+L 783.00288 105.129216 
+Q 795.72096 105.129216 795.72096 100.263168 
+L 795.72096 37.308672 
+Q 795.72096 32.442624 783.00288 32.442624 
+L 654.23232 32.442624 
+Q 641.51424 32.442624 641.51424 37.308672 
+L 641.51424 100.263168 
+Q 641.51424 105.129216 654.23232 105.129216 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #f2ebde; stroke: #9ba8b0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 654.23232 281.523456 
+L 783.00288 281.523456 
+Q 795.72096 281.523456 795.72096 276.657408 
+L 795.72096 206.099712 
+Q 795.72096 201.233664 783.00288 201.233664 
+L 654.23232 201.233664 
+Q 641.51424 201.233664 641.51424 206.099712 
+L 641.51424 276.657408 
+Q 641.51424 281.523456 654.23232 281.523456 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #f2ebde; stroke: #9ba8b0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 167.197254 139.297061 
+Q 186.04694 107.564024 204.154348 77.080596 
+" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 199.639557 79.981744 
+L 204.154348 77.080596 
+L 203.766392 82.433118 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 167.21666 177.703152 
+Q 186.049813 208.687783 204.128044 238.430402 
+" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 203.685784 233.082093 
+L 204.128044 238.430402 
+L 199.584041 235.575225 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 305.28 117.163925 
+Q 305.28 156.983249 305.28 195.349129 
+" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #52796f; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 307.68 190.549129 
+L 305.28 195.349129 
+L 302.88 190.549129 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #52796f; stroke: #52796f; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 400.354227 78.687807 
+Q 423.716121 106.800718 446.149082 133.795781 
+" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #52796f; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 444.927123 128.570189 
+L 446.149082 133.795781 
+L 441.235433 131.637992 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #52796f; stroke: #52796f; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 400.300083 238.271383 
+Q 423.71766 207.923781 446.247311 178.726869 
+" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 441.41486 181.06084 
+L 446.247311 178.726869 
+L 445.215017 183.993212 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 621.492618 139.120625 
+Q 631.9758 108.322207 641.990646 78.899711 
+" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #a17937; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 638.171972 82.670351 
+L 641.990646 78.899711 
+L 642.715953 84.217034 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #a17937; stroke: #a17937; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 718.6176 108.041245 
+Q 718.6176 153.180117 718.6176 196.865544 
+" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #a17937; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 721.0176 192.065544 
+L 718.6176 196.865544 
+L 716.2176 192.065544 
+z
+" clip-path="url(#p4bef02ed82)" style="fill: #a17937; stroke: #a17937; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(35.963691 146.645649)">Daily climate / weather</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(38.032613 162.269086)">Mean and maximum T</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(41.575503 175.935649)">Humidity and rainfall</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(258.573023 54.167309)">Crop development</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(237.586328 68.812309)">Temperature–photoperiod–</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(236.951133 83.457309)">vernalization; BBCH stages</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(234.407984 98.102309)">Leaf appearance / unfolding</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(238.674445 228.760209)">Crop infection / symptoms</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(229.002906 243.405209)">Exposure and source pressure</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(227.129672 258.050209)">Establishment and progression</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(485.402172 146.645649)">Upper-leaf damage</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(466.007805 161.290649)">F1–F3 availability and area</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(470.85107 175.935649)">Symptom-gated damage</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(674.530311 56.927889)">HAD deficit proxy</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(665.249358 72.462162)">GS31–85 or GS65–85</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(656.99103 86.217889)">Nominal upper-three LAI</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(660.253014 222.198029)">Conditional yield effect</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(671.237553 237.821466)">Fixed HAD transfer</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(680.752069 252.377302)">0.0141–0.0207</text>
+    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(669.549748 266.133029)">t ha⁻¹ per GLAI-day</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'; fill: #52796f" transform="translate(310.84416 156.303111)">Leaf availability</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'; fill: #52796f" transform="translate(310.84416 166.74549)">and renewal</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; fill: #a17937" transform="translate(730.5408 150.288618)">Fixed canopy–yield</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; fill: #a17937" transform="translate(730.5408 160.490942)">transfer coefficients</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="35.0208" y="23.921325" transform="rotate(-0 35.0208 23.921325)">Climate and weather effects on crop infection, canopy function and yield</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #737d85" x="27.072" y="306.76608" transform="rotate(-0 27.072 306.76608)">Crop-stage observations  •  Source-numbered disease records  •  Independent canopy–yield treatment contrasts</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4bef02ed82">
+   <rect x="7.2" y="7.2" width="794.88" height="304.128"/>
+  </clipPath>
+ </defs>
+</svg>

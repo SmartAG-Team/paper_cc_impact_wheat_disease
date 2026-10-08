@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "delivery_code_sha256": "009af2e89b571d2b49f60f83402f57235e4429635de1daabcb05074403bb36f7",
+  "independent_verification_sha256": "92cc2855e99aef631492c02522fc1e059d8dfeb74256c7377f7f3695c4d301d4",
+  "output_sha256": {
+    "results_for_manuscript.json": "e2ab987b6f69916b8d39321211d2e7d2f4e8f4105fb01a9aace1d7720a96d8f3",
+    "cached_baseline_all_ssps.csv": "944ad4a3bf893cb06ad56902960f606c2fe4643addffabc526c22af6d168ef1c",
+    "paired_setting_difference_from_baseline.csv": "37cf35dc208fa9d1970b2a6e278f55e6dd3aab2ce176314a17225191055f7c0d",
+    "climate_robustness.pdf": "99da737b76ee4600d54349725b5f222469711a1e756d82edb34421a49a31c4d4",
+    "climate_robustness.png": "a8db17d961d46fa197fc00a353def41efec0bf03b761f168568c22e02ad56b15",
+    "methods_and_limits.md": "d23798d596b0cf157e3de3ea82301f1e1a98a1b119b1e92d19871f30d7fc7794",
+    "results_and_caption.md": "0d40629416b42f5a1c8c66bf2ee1822cf8e7ca75ea408ff8321eaba6f87285b3"
+  },
+  "figure_visual_inspection": "Both panels, labels, GCM ranges, MCSE bars and caption inspected; no clipping or missing labels."
+}

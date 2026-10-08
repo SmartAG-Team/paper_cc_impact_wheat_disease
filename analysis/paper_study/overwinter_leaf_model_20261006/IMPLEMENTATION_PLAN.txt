@@ -1,0 +1,7 @@
+Goal: explicit seasonal carryover, leaf-stage development, and conditional top-three-leaf yield exposure.
+
+1. leaf_phenology.py: stage-only ordered calibration, prior-day host availability, visible and unfolded final ranks, field-specific forcing bounds; validate BBCH31 donor identity and new flag stages in original retrospective partitions.
+2. overwinter.py: relative residue competence and ageing, persistent living-host latent/infectious states, local/imported primary flows, infectious-source-dependent rain/contact secondary flows. Behavioral checks cover absent sources, inactive hosts, winter persistence, weather gating, conservation and numerical convergence.
+3. Disease evaluation: pre-register finite onset-fitting grid; physically isolate original calibration field histories; freeze fit; replay validation with redacted outcomes; export assessment detection, censored first-symptom timing, per-leaf infection events and pathway ablations. No repeated evaluation-driven retuning.
+4. Manuscript and source data: formal biological assumptions, independently constrained stage results, disease timing results, conditional healthy-area-duration transfer, evidence and limitations. Recompute climate outputs under the revised model before any revised climate attribution.
+5. Fresh tests, independent scientific/code audit, document rendering and artifact hashes.

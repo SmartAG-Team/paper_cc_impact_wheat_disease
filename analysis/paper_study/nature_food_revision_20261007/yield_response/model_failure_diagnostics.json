@@ -1,0 +1,107 @@
+{
+  "four_disease_predictor_support": {
+    "delta_stb_pp": {
+      "nonzero_rows": 115,
+      "negative_rows": 6,
+      "supporting_trials": [
+        "nfts_54942",
+        "nfts_62693",
+        "nfts_62768",
+        "nfts_65793",
+        "nfts_67111",
+        "nfts_68027",
+        "nfts_71966"
+      ],
+      "supporting_trial_count": 7,
+      "min": -28.0,
+      "max": 45.0
+    },
+    "delta_yellow_rust_pp": {
+      "nonzero_rows": 1,
+      "negative_rows": 1,
+      "supporting_trials": [
+        "nfts_67111"
+      ],
+      "supporting_trial_count": 1,
+      "min": -3.5,
+      "max": 0.0
+    },
+    "delta_brown_rust_pp": {
+      "nonzero_rows": 10,
+      "negative_rows": 0,
+      "supporting_trials": [
+        "nfts_67111",
+        "nfts_71966"
+      ],
+      "supporting_trial_count": 2,
+      "min": 0.0,
+      "max": 6.0
+    },
+    "delta_mildew_pp": {
+      "nonzero_rows": 13,
+      "negative_rows": 1,
+      "supporting_trials": [
+        "nfts_54942",
+        "nfts_67111"
+      ],
+      "supporting_trial_count": 2,
+      "min": -1.0,
+      "max": 20.0
+    }
+  },
+  "sparse_mildew_transfer": {
+    "heldout": "nfts_67111",
+    "training_positive_mildew_delta": 0.08,
+    "heldout_min_mildew_delta": -1.0,
+    "heldout_max_mildew_delta": 20.0,
+    "largest_to_training_magnitude_ratio": 250.0,
+    "linear_coefficient": 1.0989575880185285,
+    "log_ratio_coefficient": 1.3056484345516588,
+    "heldout_yellow_rust_null_column": true,
+    "heldout_training_matrix_rank": 3
+  },
+  "same_final_STB_delta_different_response": {
+    "nfts_62693": {
+      "delta_stb_pp": 5,
+      "mean_R": 0.08544001431984834
+    },
+    "nfts_62768": {
+      "delta_stb_pp": 5,
+      "mean_R": 0.009617483658678228
+    }
+  },
+  "measured_zero_2018": {
+    "trial": "nfts_57698",
+    "rows": 15,
+    "stb_delta": 0,
+    "mean_R": 0.03267432971026728,
+    "min_R": -0.0173410404624276,
+    "max_R": 0.075306479859895,
+    "origin_constrained_prediction": 0
+  },
+  "earlier_missing_co_pathogens": {
+    "row_id": "nfts_65793|1|14|leaf0",
+    "date": "2021-06-15",
+    "treated_missing": [
+      "yellow_rust",
+      "brown_rust",
+      "mildew",
+      "leaf_spot"
+    ],
+    "final_date": "2021-07-02",
+    "final_nontargets": "All four measured zero in both arms; earlier blanks remain missing"
+  },
+  "identified_prediction_target": "Conditional signed relative treatment-associated response against an arm with observed residual disease; no disease-free or absolute yield-loss identification",
+  "transferable_model_demonstrated": false,
+  "additional_unmodelled_copathogen": {
+    "registry_label": "Wheat leaf spot % covered",
+    "native_header_family": "Brunfläcksjuka (septoria) % täckning",
+    "record": "nfts_67111",
+    "final_date": "2022-07-29",
+    "observed_source_cells": 82,
+    "min_percent_coverage": 2.0,
+    "max_percent_coverage": 35.0,
+    "positive_source_cells": 82,
+    "model_role": "Provenance only; not included among the four predeclared predictors; no refit"
+  }
+}

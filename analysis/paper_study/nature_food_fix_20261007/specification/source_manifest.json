@@ -1,0 +1,155 @@
+{
+  "runtime_version": "0.1.0",
+  "specification_date": "2026-10-07",
+  "current_disease_model": "overwinter_source_model/a0.001_b10_L20_s120_i0.1",
+  "current_fit_sha256": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+  "stage_fit_sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+  "donor_tpv_sha256": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+  "archived_models": [
+    "seasonal_calibration_v1",
+    "infection_and_upper3_yield_v1_20261006"
+  ],
+  "files": [
+    {
+      "path": "WHEAT_STB_ENGINE.md",
+      "bytes": 9916,
+      "sha256": "e3da26c8b3e3572e99783c9b7b3a00a143884a19402afc7a4a3a0ac5c12ce0a1"
+    },
+    {
+      "path": "analysis/paper_study/infection_priority_20261006/anthesis_clock/threshold_selection.json",
+      "bytes": 4119,
+      "sha256": "c29c9aac24aac93b6656d28a4bee43097b75b83ca046fe4373e391c8050d17cd"
+    },
+    {
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/climate/configuration_before_climate_results.json",
+      "bytes": 8563,
+      "sha256": "cb6eeb8f8f82d8cd6c0b4bffd59b97bcdec9fbffc044f4f289599c6c29fe75aa"
+    },
+    {
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/climate/run.py",
+      "bytes": 27375,
+      "sha256": "c6eaf52ae1131225eae5afdbccf85e75604b4387fa48f18c5d6dd0f005d9ca78"
+    },
+    {
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/climate/weather_cache_receipt.json",
+      "bytes": 171968,
+      "sha256": "28880a15ccc143da1b92b44b30d1382c862b8cdb607b7a2a09c656bf33c1cb31"
+    },
+    {
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json",
+      "bytes": 1216,
+      "sha256": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540"
+    },
+    {
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/disease/run.py",
+      "bytes": 27972,
+      "sha256": "6a5d5272e6eba62342f2145a2b46d7b504da1cb79db72db9b4cf2f61e8569880"
+    },
+    {
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/manuscript/full_season_replay.py",
+      "bytes": 6897,
+      "sha256": "a2fce7b380fa46c80470fbe8a990bd3d9a292bd67e165e782564b3dc2dee671d"
+    },
+    {
+      "path": "analysis/paper_study/seasonal_calibration_v1/frozen_main_fit.json",
+      "bytes": 4985,
+      "sha256": "e5feed4c5520184d2128dd9c1bf7c0a0c1c9ad92d25f6180590b1e825e4b3850"
+    },
+    {
+      "path": "calibration/seasonal_septoria/infection_events.py",
+      "bytes": 5332,
+      "sha256": "ba9babe0b595b8e16e4feb337ae351a5895d5a4a3121763933ee986de98069ce"
+    },
+    {
+      "path": "calibration/seasonal_septoria/spatial_estimation.py",
+      "bytes": 2751,
+      "sha256": "7e3c914912fb4bafe70bcb9c0079931018fcb00e72dd3acd821cdf4904e0842c"
+    },
+    {
+      "path": "calibration/wheat_stb/configuration.py",
+      "bytes": 4455,
+      "sha256": "dbc8ef4c771dd70baedcdf58c3e123b713225b491588b8c5583b718c8273a58e"
+    },
+    {
+      "path": "configurations/wheat_stb/calibrated_stage_thresholds.json",
+      "bytes": 7482,
+      "sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4"
+    },
+    {
+      "path": "configurations/wheat_stb/legacy/infection_priority_model.json",
+      "bytes": 2369,
+      "sha256": "67dd371567959888b3349e50bd633ff14b72006ccc41c717ebc76165ff06c795"
+    },
+    {
+      "path": "configurations/wheat_stb/tpv_calibration.json",
+      "bytes": 3455,
+      "sha256": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a"
+    },
+    {
+      "path": "data/paper_study/regional_parameter_uncertainty/sampling_receipt.json",
+      "bytes": 778,
+      "sha256": "c729765def5399482afc24ec47b3c518c6e9cdee5229d34b61d220ae827d5d41"
+    },
+    {
+      "path": "data/paper_study/regional_parameter_uncertainty/spatial_draws.csv",
+      "bytes": 21522,
+      "sha256": "85ef36385df2bd52b3e161b432d52ce360698227fa7db049c806f6872d3f21f6"
+    },
+    {
+      "path": "examples/wheat_stb/configuration_standardized_had.json",
+      "bytes": 1975,
+      "sha256": "71b8f5de30c78f81ec336e7c1de5df6c19528644b715c30421d7ff9f5d88185f"
+    },
+    {
+      "path": "model/seasonal_septoria/leaf_phenology.py",
+      "bytes": 13270,
+      "sha256": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f"
+    },
+    {
+      "path": "model/seasonal_septoria/overwinter.py",
+      "bytes": 17400,
+      "sha256": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7"
+    },
+    {
+      "path": "model/seasonal_septoria/wetness.py",
+      "bytes": 3424,
+      "sha256": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6"
+    },
+    {
+      "path": "model/wheat_stb/_version.py",
+      "bytes": 22,
+      "sha256": "20c8e430ededc2143396e553a3c67aac4ec483ef54efdfcb18a31cb162ca0646"
+    },
+    {
+      "path": "model/wheat_stb/config.py",
+      "bytes": 7357,
+      "sha256": "15b48d4ac1005535cbc56c01a6616e34a49e4ed4942e1d38ec40dfa69fafae0b"
+    },
+    {
+      "path": "model/wheat_stb/engine.py",
+      "bytes": 22508,
+      "sha256": "a76cb656a077382d001ee3cecdcbf8d30a8de58f252f592fc85a20de23447c57"
+    },
+    {
+      "path": "model/wheat_stb/phenology.py",
+      "bytes": 6058,
+      "sha256": "09d3456b8dd38b127657964c32994eca070f8a9f5a0e13f3a5c94976184d121b"
+    },
+    {
+      "path": "model/wheat_stb/weather.py",
+      "bytes": 7122,
+      "sha256": "cd6b0a29f88d50ee4c08415036b94b41cdb0a2a0842b044a58e9ed7d3175fd32"
+    },
+    {
+      "path": "model/wheat_stb/yield_model.py",
+      "bytes": 6463,
+      "sha256": "1592e091d4319b548744e529e52977ecf7f211dc1a813026365b7285ab87401c"
+    }
+  ],
+  "inventory_rows": 84,
+  "roles": [
+    "fitted",
+    "fixed",
+    "scenario"
+  ]
+}

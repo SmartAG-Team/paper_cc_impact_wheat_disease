@@ -1,0 +1,41 @@
+spatial_0: overwinter_source_model candidate 1/144, elapsed=36.5s
+spatial_0: overwinter_source_model candidate 25/144, elapsed=40.3s
+spatial_0: overwinter_source_model candidate 49/144, elapsed=44.3s
+spatial_0: overwinter_source_model candidate 73/144, elapsed=48.9s
+spatial_0: overwinter_source_model candidate 97/144, elapsed=52.4s
+spatial_0: overwinter_source_model candidate 121/144, elapsed=56.2s
+spatial_0: phenology_only candidate 1/6, elapsed=61.6s
+spatial_1: overwinter_source_model candidate 1/144, elapsed=74.1s
+spatial_1: overwinter_source_model candidate 25/144, elapsed=78.5s
+spatial_1: overwinter_source_model candidate 49/144, elapsed=83.1s
+spatial_1: overwinter_source_model candidate 73/144, elapsed=88.2s
+spatial_1: overwinter_source_model candidate 97/144, elapsed=92.8s
+spatial_1: overwinter_source_model candidate 121/144, elapsed=97.2s
+spatial_1: phenology_only candidate 1/6, elapsed=101.5s
+spatial_2: overwinter_source_model candidate 1/144, elapsed=116.6s
+spatial_2: overwinter_source_model candidate 25/144, elapsed=120.5s
+spatial_2: overwinter_source_model candidate 49/144, elapsed=124.1s
+spatial_2: overwinter_source_model candidate 73/144, elapsed=127.7s
+spatial_2: overwinter_source_model candidate 97/144, elapsed=131.6s
+spatial_2: overwinter_source_model candidate 121/144, elapsed=135.2s
+spatial_2: phenology_only candidate 1/6, elapsed=138.4s
+                  model nested_selected_candidate  nested_pooled_distance_days  nested_primary_ties  nested_pooled_balanced_assessment_error       original_candidate  original_pooled_distance_days  top3_two_sided_histories  top3_two_sided_fields
+overwinter_source_model  a0.001_b10_L20_s120_i0.1                     1.000000                    3                                 0.229106 a0.001_b10_L20_s120_i0.1                       1.000000                         8                      6
+         phenology_only         phenology_s80_L20                     0.166667                    1                                 0.259858        phenology_s80_L20                       0.166667                         8                      6
+     fold  training_fields  heldout_fields  training_assessments  heldout_assessments  training_top3_two_sided_histories  heldout_top3_two_sided_histories  heldout_top3_two_sided_fields  rain_rate_mm_hour  stage_training_fields  flowering_two_sided_histories
+spatial_0               18              10                   174                   80                                  5                                 3                              2               0.45                     18                             14
+spatial_1               17              11                   164                   90                                  5                                 3                              2               0.45                     17                             12
+spatial_2               21               7                   170                   84                                  6                                 2                              2               0.45                     21                             14
+     fold  event  selected_threshold  constrained_fields  genuine_two_sided_fields  joint_exact_minimum_grid_values  joint_exact_minimum_threshold_low  joint_exact_minimum_threshold_high  poorly_identified                                                      threshold_status
+spatial_0     32          633.391750                  17                         1                               68                         596.732875                          671.161500               True              weakly identified conventional joint-grid representative
+spatial_0     33          653.387500                  17                         3                               89                         604.509000                          702.266000               True              weakly identified conventional joint-grid representative
+spatial_0     37          702.266000                  17                         4                                3                         701.155125                          703.376875               True              weakly identified conventional joint-grid representative
+spatial_0     39          807.799125                  17                         6                                7                         804.466500                          811.131750               True              weakly identified conventional joint-grid representative
+spatial_1     32          606.730750                  17                         0                              116                         543.410875                          671.161500               True no genuine two-sided records; representative of censored-loss plateau
+spatial_1     33          672.272375                  17                         4                               82                         627.837375                          717.818250               True              weakly identified conventional joint-grid representative
+spatial_1     37          703.376875                  17                         5                               31                         686.713750                          720.040000               True              weakly identified conventional joint-grid representative
+spatial_1     39          873.340750                  17                         7                                5                         871.119000                          897.780000               True              weakly identified conventional joint-grid representative
+spatial_2     32          638.946125                  20                         1                               76                         596.732875                          680.048500               True              weakly identified conventional joint-grid representative
+spatial_2     33          664.496250                  20                         3                               68                         627.837375                          702.266000               True              weakly identified conventional joint-grid representative
+spatial_2     37          702.266000                  20                         3                                3                         701.155125                          703.376875               True              weakly identified conventional joint-grid representative
+spatial_2     39          807.799125                  20                         5                                6                         805.577375                          811.131750               True              weakly identified conventional joint-grid representative

@@ -1,0 +1,760 @@
+{
+  "tests/test_crop_protection_metrics.py": [
+    [
+      10,
+      "return importlib.import_module('model.primary_secondary.crop_protection_metrics')"
+    ]
+  ],
+  "tests/test_infection_events.py": [
+    [
+      12,
+      "return importlib.import_module(\"model.seasonal_septoria.infection_events\")"
+    ],
+    [
+      149,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ]
+  ],
+  "tests/test_primary_secondary_field.py": [
+    [
+      10,
+      "return importlib.import_module('model.primary_secondary.field_data')"
+    ]
+  ],
+  "tests/test_overwinter_evaluation.py": [
+    [
+      7,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ]
+  ],
+  "tests/test_seasonal_field_data.py": [
+    [
+      5,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ]
+  ],
+  "tests/test_structural_response.py": [
+    [
+      9,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ],
+    [
+      10,
+      "from model.seasonal_septoria.structural import CanopyParameters, canopy_host, simulate_canopy"
+    ]
+  ],
+  "tests/test_seasonal_refinement.py": [
+    [
+      8,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ],
+    [
+      9,
+      "from model.seasonal_septoria.refinement import ("
+    ]
+  ],
+  "tests/test_structural_canopy.py": [
+    [
+      7,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ],
+    [
+      10,
+      "from model.seasonal_septoria.structural import ("
+    ]
+  ],
+  "tests/test_climate_alignment.py": [
+    [
+      4,
+      "from model.seasonal_septoria.climate_alignment import fit_monthly_alignment, apply_monthly_alignment"
+    ]
+  ],
+  "tests/test_publication_model.py": [
+    [
+      7,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ],
+    [
+      8,
+      "from model.seasonal_septoria.structural import predict_canopy"
+    ],
+    [
+      9,
+      "from model.seasonal_septoria.publication_model import predict_publication_model"
+    ]
+  ],
+  "tests/test_empirical_benchmarks.py": [
+    [
+      8,
+      "from model.seasonal_septoria.empirical import assessment_features, WeightedRidge"
+    ]
+  ],
+  "tests/test_seasonal_calibration.py": [
+    [
+      5,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ],
+    [
+      6,
+      "from model.seasonal_septoria.calibrate import fit"
+    ]
+  ],
+  "tests/test_spatial_estimation.py": [
+    [
+      2,
+      "from model.seasonal_septoria.spatial_estimation import anchored_parameter_means,stratified_mcse"
+    ]
+  ],
+  "tests/test_primary_secondary_calibration.py": [
+    [
+      10,
+      "return importlib.import_module('model.primary_secondary.calibrate')"
+    ]
+  ],
+  "tests/test_primary_secondary_uncertainty.py": [
+    [
+      9,
+      "try:return importlib.import_module('model.primary_secondary.uncertainty')"
+    ]
+  ],
+  "tests/test_structural_evaluation.py": [
+    [
+      139,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ]
+  ],
+  "analysis/primary_secondary/correct_error_uncertainty.py": [
+    [
+      7,
+      "from model.primary_secondary.uncertainty import paired_location_bootstrap"
+    ]
+  ],
+  "analysis/primary_secondary/archive_reproduction.py": [
+    [
+      8,
+      "from model.primary_secondary.calibrate import BASELINES,fit_baseline,mechanism_prediction,prediction_frame,score,baseline_prediction"
+    ],
+    [
+      9,
+      "from model.primary_secondary.field_data import prepare_basf,FieldBatch,canopy_snapshot,weather_window"
+    ]
+  ],
+  "analysis/paper_study/run_regional_fast.py": [
+    [
+      20,
+      "from model.seasonal_septoria.climate_alignment import apply_monthly_alignment"
+    ]
+  ],
+  "analysis/paper_study/summarize_accuracy_refinements.py": [
+    [
+      65,
+      "expected = config['input_and_source_sha256']['model/seasonal_septoria/refinement.py']"
+    ],
+    [
+      194,
+      "model/seasonal_septoria/refinement.py provides fit_refinement and predict_refinement. Frozen experimental v2 parameters are in severity_refinement_v2_20261006/frozen_selected_fit.json. The v3 joblib bundle contains the weighted ridge estimator, ordered feature names, empirical weight, process fit and separate original onset fit. The source snapshots and recorded hashes identify the executed implementations; later live-source revisions may differ."
+    ]
+  ],
+  "analysis/primary_secondary/external_french/prepare_external.py": [
+    [
+      7,
+      "from model.primary_secondary.field_data import FieldBatch,canopy_snapshot,weather_window"
+    ]
+  ],
+  "analysis/primary_secondary/external_french/evaluate_transfer.py": [
+    [
+      9,
+      "from model.primary_secondary.field_data import prepare_basf"
+    ],
+    [
+      10,
+      "from model.primary_secondary.calibrate import (mechanism_prediction,fit_baseline,baseline_prediction,"
+    ]
+  ],
+  "analysis/primary_secondary/calibration_v2_age/selection_replay/replay_selection.py": [
+    [
+      25,
+      "from model.primary_secondary.field_data import prepare_basf"
+    ],
+    [
+      26,
+      "from model.primary_secondary.calibrate import ("
+    ]
+  ],
+  "analysis/primary_secondary/crop_protection/evaluate.py": [
+    [
+      11,
+      "from model.primary_secondary.calibrate import score"
+    ],
+    [
+      12,
+      "from model.primary_secondary.crop_protection_metrics import attach_forecast_context,threshold_diagnostics"
+    ],
+    [
+      13,
+      "from model.primary_secondary.uncertainty import paired_location_bootstrap"
+    ],
+    [
+      113,
+      "ROOT/'model/primary_secondary/crop_protection_metrics.py',Path(__file__),"
+    ],
+    [
+      114,
+      "ROOT/'model/primary_secondary/uncertainty.py',"
+    ]
+  ],
+  "analysis/paper_study/phenology_assumptions_20261006/run.py": [
+    [
+      286,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ]
+  ],
+  "analysis/paper_study/aggregate_projection_uncertainty.py": [
+    [
+      10,
+      "from model.seasonal_septoria.spatial_estimation import anchored_parameter_means,stratified_mcse,sampled_ratio_mean"
+    ]
+  ],
+  "analysis/paper_study/phenology_assumptions_20261006/partial_endpoint_inclusive/run.py": [
+    [
+      296,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ]
+  ],
+  "analysis/paper_study/calibrate_seasonal.py": [
+    [
+      15,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      16,
+      "from model.seasonal_septoria.calibrate import fit,predict"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.endpoints import chronological_partition,onset_distance,occurrence_scores"
+    ]
+  ],
+  "analysis/paper_study/manuscript/scenario_contrasts.py": [
+    [
+      11,
+      "from model.seasonal_septoria.spatial_estimation import stratified_mcse"
+    ]
+  ],
+  "analysis/paper_study/regional_parameter_uncertainty.py": [
+    [
+      22,
+      "from model.seasonal_septoria.climate_alignment import apply_monthly_alignment"
+    ]
+  ],
+  "analysis/paper_study/run_empirical_benchmarks.py": [
+    [
+      17,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.endpoints import chronological_partition"
+    ],
+    [
+      19,
+      "from model.seasonal_septoria.empirical import assessment_features, fit_comparator"
+    ],
+    [
+      105,
+      "feature_code_sha256=sha(ROOT/'model/seasonal_septoria/empirical.py'))"
+    ]
+  ],
+  "analysis/paper_study/refine_seasonal_accuracy.py": [
+    [
+      17,
+      "from model.seasonal_septoria.endpoints import chronological_partition, onset_distance"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      19,
+      "from model.seasonal_septoria.refinement import ("
+    ],
+    [
+      172,
+      "for path in [Path(__file__), ROOT/'model/seasonal_septoria/refinement.py',"
+    ]
+  ],
+  "analysis/paper_study/run_structural_canopy.py": [
+    [
+      17,
+      "from model.seasonal_septoria.endpoints import onset_distance"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      20,
+      "from model.seasonal_septoria.structural import fit_canopy, predict_canopy"
+    ],
+    [
+      165,
+      "for path in [Path(__file__), ROOT/'model/seasonal_septoria/structural.py',"
+    ]
+  ],
+  "analysis/paper_study/refine_seasonal_hybrid.py": [
+    [
+      19,
+      "from model.seasonal_septoria.empirical import assessment_features, WeightedRidge"
+    ],
+    [
+      20,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      21,
+      "from model.seasonal_septoria.refinement import ("
+    ],
+    [
+      63,
+      "ROOT/'model/seasonal_septoria/refinement.py', ROOT/'model/seasonal_septoria/empirical.py',"
+    ],
+    [
+      197,
+      "for file in [Path(__file__), ROOT/'model/seasonal_septoria/refinement.py',"
+    ],
+    [
+      198,
+      "ROOT/'model/seasonal_septoria/empirical.py']:"
+    ]
+  ],
+  "analysis/paper_study/structural_evaluation/run.py": [
+    [
+      30,
+      "from model.seasonal_septoria.calibrate import fit as fit_seir, predict as predict_seir"
+    ],
+    [
+      32,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      33,
+      "from model.seasonal_septoria.refinement import calibration_weights"
+    ],
+    [
+      34,
+      "from model.seasonal_septoria.structural import fit_canopy, predict_canopy"
+    ]
+  ],
+  "analysis/paper_study/infection_priority_20261006/event_model/run.py": [
+    [
+      28,
+      "from model.seasonal_septoria.infection_events import ("
+    ],
+    [
+      32,
+      "from model.seasonal_septoria.structural import canopy_host"
+    ],
+    [
+      34,
+      "from model.seasonal_septoria.publication_model import predict_publication_model"
+    ],
+    [
+      347,
+      "from model.seasonal_septoria.infection_events import EventTrajectory"
+    ],
+    [
+      366,
+      "ROOT / \"model/seasonal_septoria/publication_model.json\","
+    ]
+  ],
+  "analysis/paper_study/run_weather_canopy.py": [
+    [
+      18,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      19,
+      "from model.seasonal_septoria.structural import fit_canopy, predict_canopy"
+    ],
+    [
+      210,
+      "for path in [Path(__file__), ROOT/'model/seasonal_septoria/structural.py', ROOT/'model/seasonal_septoria/wetness.py']:"
+    ]
+  ],
+  "analysis/paper_study/seasonal_statistics/bootstrap_calibration.py": [
+    [
+      28,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      29,
+      "from model.seasonal_septoria.calibrate import fit,predict"
+    ]
+  ],
+  "analysis/paper_study/seasonal_statistics/verify_statistics.py": [
+    [
+      127,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      128,
+      "from model.seasonal_septoria.calibrate import predict"
+    ]
+  ],
+  "analysis/paper_study/model_review/verify_corrected_inputs.py": [
+    [
+      11,
+      "from model.seasonal_septoria.field_data import prepare_fields, _leaf_index"
+    ],
+    [
+      21,
+      "old_path=HERE/'source_snapshot/model/seasonal_septoria/field_data.py'"
+    ],
+    [
+      22,
+      "check('original_review_code_preserved',sha(old_path)==hashes['source_hashes']['model/seasonal_septoria/field_data.py'])"
+    ]
+  ],
+  "analysis/paper_study/run_regional.py": [
+    [
+      19,
+      "from model.seasonal_septoria.climate_alignment import apply_monthly_alignment"
+    ]
+  ],
+  "analysis/paper_study/regional_reporting/terminal_fix_source_snapshot/analysis/paper_study/run_regional.py": [
+    [
+      19,
+      "from model.seasonal_septoria.climate_alignment import apply_monthly_alignment"
+    ]
+  ],
+  "analysis/paper_study/overwinter_leaf_model_20261006/phenology/run.py": [
+    [
+      153,
+      "donor=ROOT/'process_model/parameters/calibration.json',anthesis=ROOT/'model/seasonal_septoria/infection_priority_model.json',"
+    ]
+  ],
+  "analysis/paper_study/aggregate_calendar_sensitivities.py": [
+    [
+      10,
+      "from model.seasonal_septoria.spatial_estimation import sampled_ratio_mean,stratified_mcse"
+    ]
+  ],
+  "analysis/paper_study/production_exposure_reporting.py": [
+    [
+      9,
+      "from model.seasonal_septoria.spatial_estimation import anchored_parameter_means,stratified_mcse"
+    ]
+  ],
+  "analysis/paper_study/model_review/independent_checks.py": [
+    [
+      19,
+      "from model.seasonal_septoria.field_data import FieldData, prepare_fields, _leaf_index"
+    ],
+    [
+      21,
+      "from model.seasonal_septoria.calibrate import fit, predict"
+    ],
+    [
+      22,
+      "from model.seasonal_septoria.endpoints import onset_distance"
+    ]
+  ],
+  "analysis/paper_study/evaluate_external_seasonal.py": [
+    [
+      13,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      14,
+      "from model.seasonal_septoria.calibrate import predict"
+    ],
+    [
+      16,
+      "from model.seasonal_septoria.endpoints import onset_distance,occurrence_scores"
+    ]
+  ],
+  "analysis/paper_study/overwinter_leaf_model_20261006/disease/run.py": [
+    [
+      14,
+      "from model.seasonal_septoria.infection_events import ("
+    ],
+    [
+      247,
+      "ROOT/'model/seasonal_septoria/infection_events.py',ROOT/'model/seasonal_septoria/wetness.py',"
+    ],
+    [
+      249,
+      "ROOT/'analysis/paper_study/run_structural_canopy.py',ROOT/'model/seasonal_septoria/field_data.py']"
+    ]
+  ],
+  "analysis/paper_study/structural_response/run.py": [
+    [
+      17,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ]
+  ],
+  "analysis/paper_study/run_regional_sensitivities.py": [
+    [
+      16,
+      "from model.seasonal_septoria.climate_alignment import apply_monthly_alignment"
+    ]
+  ],
+  "analysis/paper_study/structural_response/response.py": [
+    [
+      17,
+      "from model.seasonal_septoria.refinement import calibration_weights"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.structural import ("
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/nested_benchmarks/run_benchmarks.py": [
+    [
+      32,
+      "from model.seasonal_septoria.empirical import assessment_features, WeightedRidge"
+    ],
+    [
+      33,
+      "from model.seasonal_septoria.refinement import calibration_weights"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/summarize_nested.py": [
+    [
+      15,
+      "from model.seasonal_septoria.structural import predict_canopy"
+    ],
+    [
+      16,
+      "from model.seasonal_septoria.calibrate import predict as predict_seir"
+    ]
+  ],
+  "analysis/paper_study/regional_parameter_uncertainty/full_trajectory_driver_snapshot.py": [
+    [
+      21,
+      "from model.seasonal_septoria.climate_alignment import apply_monthly_alignment"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/build_publication_package.py": [
+    [
+      29,
+      "from model.seasonal_septoria.structural import CanopyParameters, simulate_canopy"
+    ],
+    [
+      264,
+      "shutil.copyfile(ROOT/'model/seasonal_septoria/publication_model.json',DEST/'publication_model.json')"
+    ],
+    [
+      269,
+      "Python runtime: model.seasonal_septoria.publication_model.predict_publication_model."
+    ],
+    [
+      277,
+      "from model.seasonal_septoria.publication_model import predict_publication_model"
+    ],
+    [
+      296,
+      "ROOT/'model/seasonal_septoria/publication_model.json',ROOT/'pytest.ini',"
+    ],
+    [
+      317,
+      "historical_climate_manuscript_updated=False,default_model_sha256=sha(ROOT/'model/seasonal_septoria/publication_model.json'),"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/diagnostics.py": [
+    [
+      18,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      19,
+      "from model.seasonal_septoria.structural import predict_canopy, canopy_host, simulate_canopy, CanopyParameters"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/run_full_refit.py": [
+    [
+      30,
+      "from model.seasonal_septoria.publication_model import load_publication_model, predict_publication_model"
+    ],
+    [
+      31,
+      "from model.seasonal_septoria.structural import fit_canopy"
+    ]
+  ],
+  "analysis/paper_study/run_bias_alignment.py": [
+    [
+      17,
+      "from model.seasonal_septoria.climate_alignment import alignment_from_monthly_means,RH_EPSILON"
+    ],
+    [
+      109,
+      "coefficient_sha256=sha(output),algorithm_sha256=sha(ROOT/'model/seasonal_septoria/climate_alignment.py'),"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/test_full_refit.py": [
+    [
+      19,
+      "from model.seasonal_septoria.publication_model import load_publication_model"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/runtime_source_snapshot/analysis/paper_study/structural_publication_20261006/full_refit/test_full_refit.py": [
+    [
+      19,
+      "from model.seasonal_septoria.publication_model import load_publication_model"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/runtime_source_snapshot/analysis/paper_study/structural_publication_20261006/full_refit/run_full_refit.py": [
+    [
+      30,
+      "from model.seasonal_septoria.publication_model import load_publication_model, predict_publication_model"
+    ],
+    [
+      31,
+      "from model.seasonal_septoria.structural import fit_canopy"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/runtime_source_snapshot/analysis/paper_study/calibrate_seasonal.py": [
+    [
+      15,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      16,
+      "from model.seasonal_septoria.calibrate import fit,predict"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.endpoints import chronological_partition,onset_distance,occurrence_scores"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/runtime_source_snapshot/analysis/paper_study/run_structural_canopy.py": [
+    [
+      17,
+      "from model.seasonal_septoria.endpoints import onset_distance"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      20,
+      "from model.seasonal_septoria.structural import fit_canopy, predict_canopy"
+    ],
+    [
+      165,
+      "for path in [Path(__file__), ROOT/'model/seasonal_septoria/structural.py',"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/runtime_source_snapshot/analysis/paper_study/refine_seasonal_accuracy.py": [
+    [
+      17,
+      "from model.seasonal_septoria.endpoints import chronological_partition, onset_distance"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      19,
+      "from model.seasonal_septoria.refinement import ("
+    ],
+    [
+      172,
+      "for path in [Path(__file__), ROOT/'model/seasonal_septoria/refinement.py',"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/runtime_source_snapshot/analysis/paper_study/run_empirical_benchmarks.py": [
+    [
+      17,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      18,
+      "from model.seasonal_septoria.endpoints import chronological_partition"
+    ],
+    [
+      19,
+      "from model.seasonal_septoria.empirical import assessment_features, fit_comparator"
+    ],
+    [
+      105,
+      "feature_code_sha256=sha(ROOT/'model/seasonal_septoria/empirical.py'))"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/full_refit/runtime_source_snapshot/analysis/paper_study/structural_evaluation/run.py": [
+    [
+      30,
+      "from model.seasonal_septoria.calibrate import fit as fit_seir, predict as predict_seir"
+    ],
+    [
+      32,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      33,
+      "from model.seasonal_septoria.refinement import calibration_weights"
+    ],
+    [
+      34,
+      "from model.seasonal_septoria.structural import fit_canopy, predict_canopy"
+    ]
+  ],
+  "analysis/paper_study/structural_publication_20261006/nested_benchmarks/test_benchmarks.py": [
+    [
+      43,
+      "from model.seasonal_septoria.empirical import WeightedRidge"
+    ],
+    [
+      44,
+      "from model.seasonal_septoria.refinement import calibration_weights"
+    ],
+    [
+      68,
+      "from model.seasonal_septoria.field_data import FieldData"
+    ]
+  ],
+  "analysis/paper_study/infection_priority_20261006/build_priority_package.py": [
+    [
+      23,
+      "from model.seasonal_septoria.infection_priority import predict_infection_priority,DEFAULT_MODEL"
+    ],
+    [
+      25,
+      "from model.seasonal_septoria.structural import canopy_host,simulate_canopy,CanopyParameters"
+    ],
+    [
+      75,
+      "path=ROOT/'model/seasonal_septoria/publication_model.json'"
+    ],
+    [
+      123,
+      "paths=[DEFAULT_MODEL,*DEFAULT_PATHS.values(),ROOT/'model/seasonal_septoria/publication_model.json',HERE/'event_model/receipt.json',"
+    ],
+    [
+      125,
+      "ROOT/'model/seasonal_septoria/infection_priority.py',ROOT/'model/seasonal_septoria/yield_relevance.py',Path(__file__)]"
+    ],
+    [
+      246,
+      "from model.seasonal_septoria.infection_priority import predict_infection_priority"
+    ],
+    [
+      259,
+      "sources=[ROOT/'model/seasonal_septoria/infection_events.py',ROOT/'model/seasonal_septoria/infection_priority.py',"
+    ]
+  ],
+  "analysis/paper_study/evaluate_field_sensitivity.py": [
+    [
+      12,
+      "from model.seasonal_septoria.field_data import prepare_fields"
+    ],
+    [
+      13,
+      "from model.seasonal_septoria.calibrate import predict"
+    ],
+    [
+      15,
+      "from model.seasonal_septoria.endpoints import onset_distance,chronological_partition"
+    ]
+  ]
+}

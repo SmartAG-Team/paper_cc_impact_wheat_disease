@@ -1,0 +1,4 @@
+fold,training_fields,heldout_fields,training_assessments,heldout_assessments,training_top3_two_sided_histories,heldout_top3_two_sided_histories,heldout_top3_two_sided_fields,rain_rate_mm_hour,stage_training_fields,flowering_two_sided_histories
+spatial_0,18,10,174,80,5,3,2,0.44999999999999996,18,14
+spatial_1,17,11,164,90,5,3,2,0.45,17,12
+spatial_2,21,7,170,84,6,2,2,0.45,21,14

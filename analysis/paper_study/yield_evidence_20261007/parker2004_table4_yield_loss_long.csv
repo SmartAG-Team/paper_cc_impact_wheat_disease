@@ -1,0 +1,151 @@
+cultivar,site_year,yield_loss_t_ha,site,year,source_key,source_table,doi,data_status,leaf_scope_for_yield_relationship,replicate_design
+Admiral,SX95,0.58,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Andante,SX95,0.01,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Avalon,SX95,-0.36,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Beaver,SX95,0.31,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Brigadier,SX95,0.74,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Cadenza,SX95,-0.04,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Estica,SX95,0.95,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Flame,SX95,0.33,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Galahad,SX95,-0.06,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Haven,SX95,0.1,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hereward,SX95,0.59,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hornet,SX95,-0.23,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hunter,SX95,0.06,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hussar,SX95,0.67,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Longbow,SX95,,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Lynx,SX95,-0.15,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Mercia,SX95,0.69,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Norman,SX95,0.46,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Pastiche,SX95,,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Rialto,SX95,0.24,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Riband,SX95,1.12,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Ritmo,SX95,,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Soissons,SX95,,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Spark,SX95,,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Zodiac,SX95,0.45,Starcross,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Admiral,SX96,0.33,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Andante,SX96,1.04,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Avalon,SX96,1.25,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Beaver,SX96,0.87,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Brigadier,SX96,1.65,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Cadenza,SX96,1.29,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Estica,SX96,1.13,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Flame,SX96,0.63,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Galahad,SX96,1.45,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Haven,SX96,0.68,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hereward,SX96,1.04,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hornet,SX96,,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Hunter,SX96,1.87,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hussar,SX96,1.87,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Longbow,SX96,1.66,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Lynx,SX96,,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Mercia,SX96,1.58,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Norman,SX96,2.06,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Pastiche,SX96,1.07,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Rialto,SX96,1.39,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Riband,SX96,1.97,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Ritmo,SX96,,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Soissons,SX96,,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Spark,SX96,,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Zodiac,SX96,1.4,Starcross,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Admiral,SX97,2.74,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Andante,SX97,1.5,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Avalon,SX97,0.31,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Beaver,SX97,1.85,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Brigadier,SX97,3.87,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Cadenza,SX97,1.98,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Estica,SX97,,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Flame,SX97,,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Galahad,SX97,1.68,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Haven,SX97,2.21,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hereward,SX97,1.9,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hornet,SX97,,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Hunter,SX97,1.38,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hussar,SX97,2.8,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Longbow,SX97,,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Lynx,SX97,1.86,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Mercia,SX97,2.21,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Norman,SX97,1.94,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Pastiche,SX97,,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Rialto,SX97,1.53,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Riband,SX97,4.36,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Ritmo,SX97,2.24,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Soissons,SX97,0.31,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Spark,SX97,1.2,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Zodiac,SX97,,Starcross,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Admiral,RM95,1.1,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Andante,RM95,0.67,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Avalon,RM95,0.35,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Beaver,RM95,0.64,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Brigadier,RM95,0.91,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Cadenza,RM95,0.58,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Estica,RM95,0.25,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Flame,RM95,0.52,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Galahad,RM95,0.24,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Haven,RM95,0.93,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hereward,RM95,0.61,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hornet,RM95,0.43,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hunter,RM95,0.68,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hussar,RM95,0.89,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Longbow,RM95,,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Lynx,RM95,0.28,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Mercia,RM95,1.08,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Norman,RM95,0.91,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Pastiche,RM95,,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Rialto,RM95,0.58,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Riband,RM95,1.11,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Ritmo,RM95,,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Soissons,RM95,,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Spark,RM95,,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Zodiac,RM95,1.25,Rosemaund,1995,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Admiral,RM96,1.35,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Andante,RM96,1.56,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Avalon,RM96,1.2,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Beaver,RM96,1.15,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Brigadier,RM96,2.11,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Cadenza,RM96,2.75,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Estica,RM96,1.35,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Flame,RM96,1.0,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Galahad,RM96,1.34,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Haven,RM96,1.74,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hereward,RM96,1.64,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hornet,RM96,,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Hunter,RM96,1.63,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hussar,RM96,1.54,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Longbow,RM96,2.66,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Lynx,RM96,,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Mercia,RM96,2.49,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Norman,RM96,2.07,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Pastiche,RM96,1.1,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Rialto,RM96,1.61,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Riband,RM96,2.66,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Ritmo,RM96,,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Soissons,RM96,,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Spark,RM96,,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Zodiac,RM96,1.59,Rosemaund,1996,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Admiral,RM97,3.9,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Andante,RM97,2.25,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Avalon,RM97,2.74,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Beaver,RM97,3.69,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Brigadier,RM97,4.5,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Cadenza,RM97,3.99,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Estica,RM97,3.09,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Flame,RM97,2.45,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Galahad,RM97,3.34,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Haven,RM97,4.03,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hereward,RM97,2.52,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hornet,RM97,,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Hunter,RM97,3.76,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Hussar,RM97,4.03,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Longbow,RM97,,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Lynx,RM97,,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Mercia,RM97,2.82,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Norman,RM97,4.01,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Pastiche,RM97,1.14,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Rialto,RM97,2.96,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Riband,RM97,3.74,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,published treatment yield contrast,top three leaves,three field replicates; published contrast means
+Ritmo,RM97,,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Soissons,RM97,,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Spark,RM97,,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means
+Zodiac,RM97,,Rosemaund,1997,Parker2004,Table 4,10.1111/j.1365-3059.2004.00951.x,not reported,top three leaves,three field replicates; published contrast means

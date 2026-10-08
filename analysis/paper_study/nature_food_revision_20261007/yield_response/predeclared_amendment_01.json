@@ -1,0 +1,11 @@
+{
+  "declaration_date": "2026-10-07",
+  "fit_status": "No model has been fitted; the initial run stopped on a cohort-count assertion before estimation",
+  "reason": "Fresh measurement-level eligibility reconstruction found that the earlier52 cohort implicitly required positive untreated final STB. Fifteen additional2018 Sheriff contrasts have STB=0 in both arms and all measured co-pathogens zero; excluding them does not test background yield variation under the origin constraint",
+  "primary_endpoint_cohort": "All67 complete same-date/scope pairs with final measured zero co-pathogens and no positive co-pathogen among earlier recorded values; five trials; measured-zero STB retained",
+  "primary_integral_cohort": "All50 primary endpoint pairs with at least two common numerical STB assessment dates, including12 observed-zero Sheriff2018 contrasts; five trials",
+  "secondary_positive_STB_domains": "The previously requested52 endpoint contrasts and38 common-date integrals from four trials, now explicitly labelled untreated final STB>0",
+  "four_disease_domain": "Unchanged complete-case131 contrasts/eight trials",
+  "model_metrics_weights": "Unchanged from original declaration: origin constrained nonnegative coefficients, signed data, whole-trial withholding, equal trial total weights, training-only mean baseline, no ridge or model selection",
+  "eligibility_independence": "No observed yield or yield-response condition is used in cohort selection"
+}

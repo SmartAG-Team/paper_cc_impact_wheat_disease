@@ -1,0 +1,87 @@
+{
+  "DOI": "10.1016/0378-4290(94)00102-i",
+  "title": [
+    "Prediction of leaf appearance in wheat: a question of temperature"
+  ],
+  "author": [
+    {
+      "given": "P.D.",
+      "family": "Jamieson",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "I.R.",
+      "family": "Brooking",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "J.R.",
+      "family": "Porter",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "D.R.",
+      "family": "Wilson",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Field Crops Research"
+  ],
+  "volume": "41",
+  "issue": "1",
+  "page": "35-44",
+  "published": {
+    "date-parts": [
+      [
+        1995,
+        4
+      ]
+    ]
+  },
+  "published-print": {
+    "date-parts": [
+      [
+        1995,
+        4
+      ]
+    ]
+  },
+  "issued": {
+    "date-parts": [
+      [
+        1995,
+        4
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1016/0378-4290(94)00102-i"
+}

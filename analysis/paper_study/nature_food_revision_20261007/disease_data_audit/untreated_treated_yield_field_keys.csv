@@ -1,0 +1,158 @@
+source,field_id,season_year,country,untreated_treatment_codes,treated_treatment_labels,treated_treatment_codes,treated_spray_counts,untreated_yield_metrics,treated_yield_metrics,untreated_yield_methods,treated_yield_methods,coobserved_disease_codes,coobserved_disease_families,coobserved_disease_family_count,source_field_treatment_labels_pairable,exact_plot_pairable,fully_protected_control_identifiable,source_mass_unit_identifiable
+BASF,1,2017,GERMANY,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,10,2017,FRANCE,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,11,2017,NETHERLANDS,Untreated,TreatmentA;TreatmentB;TreatmentC,TreatmentA;TreatmentB;TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,12,2017,POLAND,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;yellow_rust,3,True,False,False,False
+BASF,13,2017,POLAND,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,14,2017,POLAND,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;PYRNTR;SEPTTR,STB;leaf_rust;tan_spot,3,True,False,False,False
+BASF,15,2017,POLAND,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;PUCCSI;PYRNTR;SEPTTR,STB;leaf_rust;tan_spot;yellow_rust,4,True,False,False,False
+BASF,16,2017,POLAND,Untreated,TreatmentA;TreatmentC,TreatmentA;TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,ERYSGT;FUSASP;PUCCST;PYRNTR;RHIZSP;SEPTTR,FUSASP;RHIZSP;STB;powdery_mildew;tan_spot;yellow_rust,6,True,False,False,False
+BASF,17,2017,UNITED KINGDOM,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;yellow_rust,3,True,False,False,False
+BASF,18,2017,UNITED KINGDOM,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,19,2017,UNITED KINGDOM,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+BASF,2,2017,GERMANY,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,20,2017,UNITED KINGDOM,Untreated,TreatmentA;TreatmentC,TreatmentA;TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCSI;PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+BASF,21,2018,GERMANY,Untreated,TreatmentA;TreatmentC;TreatmentD,TreatmentA;TreatmentC;TreatmentD,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,22,2018,GERMANY,Untreated,TreatmentB,TreatmentB,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,23,2018,FRANCE,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,24,2018,NETHERLANDS,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,25,2018,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,26,2018,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,ERYSGA;ERYSGR;PUCCRE;PUCCST;PYRNTR;SEPTTR,ERYSGA;STB;leaf_rust;powdery_mildew;tan_spot;yellow_rust,6,True,False,False,False
+BASF,27,2018,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,28,2018,UNITED KINGDOM,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,29,2018,UNITED KINGDOM,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+BASF,3,2017,AUSTRIA,Untreated,TreatmentA;TreatmentB;TreatmentC,TreatmentA;TreatmentB;TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,30,2018,UNITED KINGDOM,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;PUCCST;SEPTTR,STB;leaf_rust;yellow_rust,3,True,False,False,False
+BASF,31,2019,BULGARIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,32,2019,BULGARIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,33,2019,BULGARIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PYRNTR;SEPTTR,STB;tan_spot,2,True,False,False,False
+BASF,34,2019,BULGARIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PYRNTR;SEPTTR,STB;tan_spot,2,True,False,False,False
+BASF,35,2019,CZECH REPUBLIC,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,ERYSGT;PUCCRE;SEPTTR,STB;leaf_rust;powdery_mildew,3,True,False,False,False
+BASF,36,2019,GERMANY,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,ERYSGA;ERYSGR;ERYSGT;PUCCRT;PUCCST;SEPTTR,ERYSGA;STB;leaf_rust;powdery_mildew;yellow_rust,5,True,False,False,False
+BASF,37,2019,GERMANY,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;yellow_rust,3,True,False,False,False
+BASF,38,2019,GERMANY,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PYRNTR;SEPTTR,STB;tan_spot,2,True,False,False,False
+BASF,39,2019,GERMANY,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;PUCCST;PYRNTR;SEPTTR,STB;leaf_rust;tan_spot;yellow_rust,4,True,False,False,False
+BASF,4,2017,GERMANY,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,42,2019,FRANCE,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,43,2019,FRANCE,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,44,2019,FRANCE,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,45,2019,FRANCE,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,46,2019,FRANCE,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,47,2019,FRANCE,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,48,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,49,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,5,2017,GERMANY,Untreated,TreatmentA;TreatmentC,TreatmentA;TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,50,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PYRNTR;SEPTTR,STB;tan_spot,2,True,False,False,False
+BASF,51,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,ERYSGR;PUCCRT;SEPTTR,STB;leaf_rust;powdery_mildew,3,True,False,False,False
+BASF,52,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,53,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;PUCCST;PYRNTR;SEPTTR,STB;leaf_rust;tan_spot;yellow_rust,4,True,False,False,False
+BASF,54,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCSI;PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+BASF,55,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,56,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,ERYSGR;PUCCRE;PUCCST;PYRNTR;SEPTTR,STB;leaf_rust;powdery_mildew;tan_spot;yellow_rust,5,True,False,False,False
+BASF,57,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;PUCCST;PYRNTR;SEPTTR,STB;leaf_rust;tan_spot;yellow_rust,4,True,False,False,False
+BASF,59,2019,POLAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+BASF,6,2017,FRANCE,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,60,2019,ROMANIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,ERYSGR;SEPTTR,STB;powdery_mildew,2,True,False,False,False
+BASF,61,2019,ROMANIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR;ZZYYFF,STB;ZZYYFF,2,True,False,False,False
+BASF,62,2019,SLOWAKIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,63,2019,SLOWAKIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,64,2019,SLOWAKIA,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRE;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,65,2019,IRELAND,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,66,2019,UNITED KINGDOM,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,67,2019,UNITED KINGDOM,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,68,2019,UNITED KINGDOM,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,69,2019,UNITED KINGDOM,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+BASF,7,2017,FRANCE,Untreated,TreatmentC,TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,71,2019,UNITED KINGDOM,Untreated,TreatmentA,TreatmentA,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+BASF,72,2019,IRELAND,Untreated,TreatmentC;TreatmentD,TreatmentC;TreatmentD,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,73,2019,UNITED KINGDOM,Untreated,TreatmentC;TreatmentD,TreatmentC;TreatmentD,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;yellow_rust,3,True,False,False,False
+BASF,75,2019,UNITED KINGDOM,Untreated,TreatmentC;TreatmentD,TreatmentC;TreatmentD,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,76,2017,UNITED KINGDOM,Untreated,TreatmentA;TreatmentC;TreatmentD,TreatmentA;TreatmentC;TreatmentD,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+BASF,8,2017,FRANCE,Untreated,TreatmentA;TreatmentC,TreatmentA;TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+BASF,9,2017,FRANCE,Untreated,TreatmentA;TreatmentC,TreatmentA;TreatmentC,1,ERTRNE,ERTRNE,MCALCR;MWCGS,MCALCR;MWCGS,SEPTTR,STB,1,True,False,False,False
+Corteva,2014-36,2014,GERMANY,A,Treated,A,1,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2014-37,2014,DENMARK,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;SEPTTR,STB;powdery_mildew,2,True,False,False,False
+Corteva,2014-38,2014,UNITED KINGDOM,A,Treated,A,1,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2014-39,2014,POLAND,A,Treated,A,1,YIELD,YIELD,unreported,unreported,ERYSGT;PUCCRT;SEPTTR,STB;leaf_rust;powdery_mildew,3,True,False,False,False
+Corteva,2014-4,2014,GERMANY,B,Treated,B,2,YIELD,YIELD,unreported,unreported,PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;yellow_rust,3,True,False,False,False
+Corteva,2015-43,2015,GERMANY,C,Treated,C,2,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-44,2015,UNITED KINGDOM,B,Treated,B,2,YIELD,YIELD,unreported,unreported,ERYSGT;SEPTTR,STB;powdery_mildew,2,True,False,False,False
+Corteva,2015-53,2015,UNITED KINGDOM,B,Treated,B,2,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-54,2015,IRELAND,B,Treated,B,2,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-55,2015,GERMANY,A,Treated,A,2,YIELD,YIELD,unreported,unreported,ERYSGT;PYRNTR;SEPTTR,STB;powdery_mildew;tan_spot,3,True,False,False,False
+Corteva,2015-56,2015,FRANCE,A,Treated,A,2,YIELD_STD,YIELD_STD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2015-57,2015,DENMARK,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-58,2015,SWEDEN,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,DRECSP;PUCCSP;SEPTTR,DRECSP;PUCCSP;STB,3,True,False,False,False
+Corteva,2015-59,2015,DENMARK,A;B,Treated,A;B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2015-60,2015,SWEDEN,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,DRECSP;PUCCST;SEPTTR,DRECSP;STB;yellow_rust,3,True,False,False,False
+Corteva,2015-61,2015,POLAND,B,Treated,B,2,YIELD,YIELD,unreported,unreported,PUCCSI;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2015-63,2015,GERMANY,A,Treated,A,1;2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;powdery_mildew;yellow_rust,4,True,False,False,False
+Corteva,2015-64,2015,UNITED KINGDOM,B,Treated,B,1;2,YIELD,YIELD,unreported,unreported,ERYSGT;PSDCHE;SEPTTR,PSDCHE;STB;powdery_mildew,3,True,False,False,False
+Corteva,2015-65,2015,GERMANY,B,Treated,B,2,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-66,2015,FRANCE,B,Treated,B,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-67,2015,UNITED KINGDOM,B,Treated,B,2,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-68,2015,GERMANY,B,Treated,B,2,YIELD,YIELD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2015-69,2015,FRANCE,B,Treated,B,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-70,2015,SWEDEN,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-71,2015,SWEDEN,A,Treated,A,1,YIELD,YIELD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2015-72,2015,FRANCE,A,Treated,A,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-74,2015,FRANCE,A,Treated,A,1;2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-75,2015,UNITED KINGDOM,A,Treated,A,1;2,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2015-76,2015,POLAND,B,Treated,B,1;2,YIELD,YIELD,unreported,unreported,PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;yellow_rust,3,True,False,False,False
+Corteva,2015-77,2015,UNITED KINGDOM,D,Treated,D,4,YIELD,YIELD,unreported,unreported,ERYSGT;SEPTTR,STB;powdery_mildew,2,True,False,False,False
+Corteva,2015-78,2015,IRELAND,D,Treated,D,4,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-100,2016,IRELAND,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;SEPTTR,STB;powdery_mildew,2,True,False,False,False
+Corteva,2016-101,2016,POLAND,A,Treated,A,1,YIELD,YIELD,unreported,unreported,PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;yellow_rust,3,True,False,False,False
+Corteva,2016-102,2016,GERMANY,C,Treated,C,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-103,2016,FRANCE,A,Treated,A,3,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-104,2016,POLAND,A,Treated,A,1,YIELD,YIELD,unreported,unreported,PUCCRE;PYRNTR;SEPTTR,STB;leaf_rust;tan_spot,3,True,False,False,False
+Corteva,2016-105,2016,UNITED KINGDOM,A,Treated,A,3,YIELD,YIELD,unreported,unreported,ERYSGR;PUCCRT;PUCCSI;PUCCST;SEPTTR,STB;leaf_rust;powdery_mildew;yellow_rust,4,True,False,False,False
+Corteva,2016-106,2016,FRANCE,B,Treated,B,3,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-107,2016,UNITED KINGDOM,D,Treated,D,3,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2016-108,2016,IRELAND,C,Treated,C,2;3,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-109,2016,FRANCE,A,Treated,A,1;2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-110,2016,UNITED KINGDOM,B,Treated,B,1;2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;SEPTTR,STB;powdery_mildew,2,True,False,False,False
+Corteva,2016-111,2016,IRELAND,B,Treated,B,1;2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-112,2016,POLAND,A,Treated,A,1;2,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-113,2016,GERMANY,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2016-114,2016,FRANCE,A,Treated,A,1,YIELD_STD,YIELD_STD,unreported,unreported,PUCCST;SEPTTR;ZZYYFY,STB;ZZYYFY;yellow_rust,3,True,False,False,False
+Corteva,2016-115,2016,UNITED KINGDOM,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+Corteva,2016-116,2016,UNITED KINGDOM,A,Treated,A,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2016-82,2016,FRANCE,A,Treated,A,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,,,0,True,False,False,False
+Corteva,2016-93,2016,GERMANY,A,Treated,A,1,YIELD_STD,YIELD_STD,unreported,unreported,PUCCRE;SEPTTR,STB;leaf_rust,2,True,False,False,False
+Corteva,2017-119,2017,GERMANY,A,Treated,A,1,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2017-142,2017,GERMANY,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;SEPTTR,STB;powdery_mildew,2,True,False,False,False
+Corteva,2017-143,2017,DENMARK,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;PUCCST,powdery_mildew;yellow_rust,2,True,False,False,False
+Corteva,2017-144,2017,FRANCE,A,Treated,A,1,YIELD_STD,YIELD_STD,unreported,unreported,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+Corteva,2017-145,2017,UNITED KINGDOM,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;PUCCRT;SEPTTR,STB;leaf_rust;powdery_mildew,3,True,False,False,False
+Corteva,2017-146,2017,POLAND,B,Treated,B,2,YIELD,YIELD,unreported,unreported,ERYSGT;PSDCHE;SEPTTR,PSDCHE;STB;powdery_mildew,3,True,False,False,False
+Corteva,2017-151,2017,DENMARK,C,Treated,C,1;2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2017-152,2017,FRANCE,C,Treated,C,1;2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2017-153,2017,UNITED KINGDOM,C,Treated,C,1;2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+Corteva,2017-154,2017,IRELAND,C,Treated,C,1;2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-157,2018,FRANCE,B,Treated,B,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-160,2018,GERMANY,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;PUCCRT;PUCCST;SEPTTR,STB;leaf_rust;powdery_mildew;yellow_rust,4,True,False,False,False
+Corteva,2018-161,2018,UNITED KINGDOM,B,Treated,B,2,YIELD,YIELD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-163,2018,GERMANY,B,Treated,B,1;2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCSI;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2018-164,2018,GERMANY,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2018-168,2018,UNITED KINGDOM,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,ERYSGT;SEPTTR,STB;powdery_mildew,2,True,False,False,False
+Corteva,2018-169,2018,UNITED KINGDOM,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2018-170,2018,FRANCE,B,Treated,B,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-171,2018,UNITED KINGDOM,A,Treated,A,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+Corteva,2018-172,2018,UNITED KINGDOM,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-173,2018,UNITED KINGDOM,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2018-175,2018,UNITED KINGDOM,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-176,2018,DENMARK,B,Treated,B,2,YIELD,YIELD,unreported,unreported,ERYSGT;PUCCRT;SEPTTR,STB;leaf_rust;powdery_mildew,3,True,False,False,False
+Corteva,2018-177,2018,POLAND,A,Treated,A,1,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PYRNTR;SEPTTR,STB;tan_spot,2,True,False,False,False
+Corteva,2018-178,2018,IRELAND,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-179,2018,SWEDEN,A,Treated,A,2,YIELD,YIELD,unreported,unreported,PYRNTR,tan_spot,1,True,False,False,False
+Corteva,2018-181,2018,FRANCE,B,Treated,B,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-182,2018,FRANCE,B,Treated,B,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-183,2018,FRANCE,B,Treated,B,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-185,2018,UNITED KINGDOM,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCST;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2018-186,2018,FRANCE,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCRT;SEPTTR,STB;leaf_rust,2,True,False,False,False
+Corteva,2018-187,2018,FRANCE,B,Treated,B,2,YIELD_STD,YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-191,2018,GERMANY,B,Treated,B,1;2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,PUCCSI;SEPTTR,STB;yellow_rust,2,True,False,False,False
+Corteva,2018-193,2018,IRELAND,A,Treated,A,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False
+Corteva,2018-196,2018,GERMANY,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,MONGNI;SEPTTR,MONGNI;STB,2,True,False,False,False
+Corteva,2018-197,2018,IRELAND,B,Treated,B,2,YIELD;YIELD_STD,YIELD;YIELD_STD,unreported,unreported,SEPTTR,STB,1,True,False,False,False

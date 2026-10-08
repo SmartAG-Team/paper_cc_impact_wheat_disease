@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "primary_policy": "handover_31_39",
+  "juvenile_capacity": "clip((C39-G)/(C39-C31),0,1)",
+  "structural_sensitivity_policy": "persistent",
+  "old_module_sha256": "f99ad9055a10556e8f4f2bf7c4c073b9b397751c6b625995bfa1154cad24166b",
+  "new_module_sha256": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+  "stage_thresholds_and_fit_outputs_unchanged": true,
+  "final_rank_F1_to_F7_states_unchanged": true,
+  "persistent_policy_exactly_matches_prior_batch": true,
+  "new_primary_batch_and_OO_equal": true,
+  "scenarios_checked": [
+    80,
+    120,
+    160
+  ],
+  "focused_leaf_tests": 10,
+  "unmeasured_natural_senescence": false,
+  "policy_is_stage_anchored_effective_handover_not_leaf_count_calibration": true,
+  "original_stage_receipt_sha256": "715ac4c8db2c8ee5868823ea588cb720cb2d47457c5cad3e060dc8a49269862b",
+  "output_sha256": {
+    "handover_policy.patch": "2a491251a98eb6addd53327a7ac4109d87e81b6253ff85885e64f7cc4353f88e",
+    "updated_leaf_phenology.py": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+    "updated_test_leaf_phenology.py": "3147e4c0b09dec821fefdab89c9804e51b015549010a527fcebbf546c8008e34"
+  }
+}

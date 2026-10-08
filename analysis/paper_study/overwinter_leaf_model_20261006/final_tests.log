@@ -1,0 +1,18 @@
+........................................................................ [ 23%]
+........................................................................ [ 47%]
+........................................................................ [ 71%]
+........................................................................ [ 95%]
+.............                                                            [100%]
+=============================== warnings summary ===============================
+process_model/tests/test_calibration.py::test_sowing_assignment_is_as_of_occurrence_even_when_future_plan_is_known
+process_model/tests/test_calibration.py::test_sowing_assignment_is_as_of_occurrence_even_when_future_plan_is_known
+process_model/tests/test_field_transfer.py::test_adapter_retains_documented_sowing_and_excludes_prior_weather
+process_model/tests/test_run_tpv.py::test_supplied_gdd_is_authoritative_and_outputs_have_no_observed_truth
+process_model/tests/test_run_tpv.py::test_explicit_data_derived_gdd_convention_caps_hot_days_and_freezing
+process_model/tests/test_run_tpv.py::test_incomplete_weather_cycle_has_missing_exact_event_dates
+process_model/tests/test_run_tpv.py::test_reconstructed_archived_forcing_retains_decline_above_30_celsius
+  /Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/process_model/sowing.py:30: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+    sowing = np.full(len(frame), np.datetime64('NaT'), dtype='datetime64[ns]')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+301 passed, 7 warnings in 25.71s

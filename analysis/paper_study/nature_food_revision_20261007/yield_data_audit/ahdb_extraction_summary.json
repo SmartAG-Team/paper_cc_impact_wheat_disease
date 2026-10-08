@@ -1,0 +1,13 @@
+{
+  "yield_cells": 8622,
+  "disease_cells": 10881,
+  "candidate_pairs": 1981,
+  "candidate_site_years": 42,
+  "strict_pairs": 1792,
+  "strict_site_years": 38,
+  "negative_responses": 119,
+  "strict_negative_responses": 89,
+  "disease_scope": "Top four leaves under published RL assessment protocol; actual assessment dates and leaf-specific observations absent from these summaries.",
+  "protected_definition": "Fungicide-treated yield trial using full RL fungicide and PGR programme; untreated trial receives PGR but no fungicides.",
+  "yield_role": "Matched site/cultivar fungicide response, not an identified STB-only disease-free yield counterfactual."
+}

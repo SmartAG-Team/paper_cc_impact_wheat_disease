@@ -1,0 +1,10 @@
+partition,leaf_scope,assessments,fields,coordinate_years,source_leaf_series,positive_assessments,zero_assessments,same_day_ordered_two_bound_stage_assessments,pre37_source_leaf1_zero_assessments,pre39_source_leaf1_zero_assessments,biological_leaf_label
+calibration,all_source_numbered_leaves,254,28,26,110,237,17,222,0,0,BASF source leaf 1 explicitly flag; other ranks source numbered
+calibration,top3_source_numbered,178,28,26,73,162,16,148,0,0,BASF source leaf 1 explicitly flag; other ranks source numbered
+calibration,source_leaf1,45,22,21,22,37,8,34,0,0,BASF source leaf 1 explicitly flag; other ranks source numbered
+reused_BASF2019,all_source_numbered_leaves,330,45,36,166,308,22,317,0,0,BASF source leaf 1 explicitly flag; other ranks source numbered
+reused_BASF2019,top3_source_numbered,252,45,36,112,230,22,241,0,0,BASF source leaf 1 explicitly flag; other ranks source numbered
+reused_BASF2019,source_leaf1,70,33,27,33,58,12,67,0,0,BASF source leaf 1 explicitly flag; other ranks source numbered
+reused_strict_Corteva,all_source_numbered_leaves,1703,143,104,621,1514,189,963,4,8,Corteva source numbering; final flag identity unverified
+reused_strict_Corteva,top3_source_numbered,1310,142,104,403,1136,174,783,4,8,Corteva source numbering; final flag identity unverified
+reused_strict_Corteva,source_leaf1,426,132,98,132,345,81,270,4,8,Corteva source numbering; final flag identity unverified

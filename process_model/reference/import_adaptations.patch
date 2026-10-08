@@ -1,0 +1,105 @@
+--- process_model/calibrate.py
++++ process_model/calibrate.py
+@@ -15,10 +15,9 @@
+ import pandas as pd
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+-sys.path.insert(0, str(ROOT / 'dl_model'))
+ sys.path.insert(0, str(ROOT))
+ from process_model.sowing import attach_sowing, validate_records
+-from utils.station_split import load_station_split, split_identity, assert_training_sites
++from process_model._support.station_split import load_station_split, split_identity, assert_training_sites
+ 
+ CODES = {0: 0, 2: 10, 4: 31, 6: 51, 8: 85}
+ INDICES = ['Cumulative_GDD', 'Cumulative_t_pp_GDD', 'Cumulative_t_pp_v_GDD']
+--- process_model/evaluate_event_dates.py
++++ process_model/evaluate_event_dates.py
+@@ -12,11 +12,10 @@
+ import pandas as pd
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+-sys.path.insert(0, str(ROOT / 'dl_model'))
+ sys.path.insert(0, str(ROOT))
+ from process_model.calibrate import INDICES
+-from utils.data_contract import file_hash
+-from utils.station_split import load_station_split, load_evaluation_sites, split_identity, evaluation_identity
++from process_model._support.data_contract import file_hash
++from process_model._support.station_split import load_station_split, load_evaluation_sites, split_identity, evaluation_identity
+ 
+ MODELS = ['GDD', 'T-P', 'T-P-V']
+ STAGES = [10, 31, 51, 85]
+--- process_model/evaluate_common_sites.py
++++ process_model/evaluate_common_sites.py
+@@ -8,10 +8,9 @@
+ import pandas as pd
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+-sys.path.insert(0, str(ROOT/'dl_model'))
+ sys.path.insert(0, str(ROOT))
+-from utils.station_split import load_station_split, split_identity, load_evaluation_sites, evaluation_identity
+-from utils.data_contract import file_hash
++from process_model._support.station_split import load_station_split, split_identity, load_evaluation_sites, evaluation_identity
++from process_model._support.data_contract import file_hash
+ from process_model.calibrate import INDICES, simulate_frame
+ 
+ 
+--- source/process_model/tests/test_calibration.py
++++ process_model/tests/test_calibration.py
+@@ -10,8 +10,7 @@
+ 
+ ROOT = Path(__file__).resolve().parents[2]
+ sys.path.insert(0, str(ROOT))
+-sys.path.insert(0, str(ROOT / 'dl_model'))
+-from utils.station_split import load_station_split, assert_training_sites
++from process_model._support.station_split import load_station_split, assert_training_sites
+ 
+ 
+ def fixture():
+@@ -128,30 +127,14 @@
+         m.run(source, path, tmp_path/'out')
+ 
+ 
+-def test_auxiliary_regressor_rejects_a_frozen_test_site_in_training():
+-    sys.path.insert(0, str(ROOT/'paper/scripts'))
+-    import enriched_stress_tests as auxiliary
+-    groups = json.loads((ROOT/'configs/station_split.json').read_text())
+-    train = pd.DataFrame(dict(PEP_ID=[groups['test'][0]], x=[1.], target_days=[3.]))
+-    test = pd.DataFrame(dict(PEP_ID=[groups['test'][1]], x=[2.], target_days=[4.]))
+-    with pytest.raises(ValueError, match='non-training'):
+-        auxiliary.fit_predict(train, test, ['x'])
+-
+-
+-def test_auxiliary_process_features_cannot_reuse_archived_calibration():
+-    sys.path.insert(0, str(ROOT/'paper/scripts'))
+-    import enriched_stress_tests as auxiliary
+-    groups = json.loads((ROOT/'configs/station_split.json').read_text())
+-    train = pd.DataFrame(dict(PEP_ID=[groups['train'][0]], gdd_days=[1.], target_days=[3.]))
+-    test = pd.DataFrame(dict(PEP_ID=[groups['test'][0]], gdd_days=[2.], target_days=[4.]))
+-    with pytest.raises(ValueError, match='global calibration'):
+-        auxiliary.fit_predict(train, test, ['gdd_days'])
++
++
+ 
+ 
+ def test_common_process_evaluation_filters_exclusions_without_refitting(tmp_path):
+     import importlib
+-    from utils.station_split import split_identity
+-    from utils.data_contract import file_hash
++    from process_model._support.station_split import split_identity
++    from process_model._support.data_contract import file_hash
+     path = ROOT/'process_model/evaluate_common_sites.py'
+     assert path.exists(), 'Common-site process evaluator is missing'
+     evaluate = importlib.import_module('process_model.evaluate_common_sites').evaluate
+--- source/process_model/tests/test_event_dates.py
++++ process_model/tests/test_event_dates.py
+@@ -84,8 +84,8 @@
+ def test_event_evaluation_preserves_reserved_sites_and_frozen_parameters(tmp_path):
+     import json
+     from process_model.calibrate import run
+-    from utils.data_contract import file_hash
+-    from utils.station_split import load_station_split, split_identity
++    from process_model._support.data_contract import file_hash
++    from process_model._support.station_split import load_station_split, split_identity
+     m = evaluator(); frame, _ = fixture()
+     frame['GDD'] = [0, 12, 10, 10, 10, 10]
+     frame['LAT'] = 50

@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "code_sha256": "93a06e79e9da89707a233fd44681d6409c1eafd35ae78c45a12edbdfddcd37dd",
+  "source_baseline_sha256": "0dbd4dd4533880d9c41066d922f28f3715cb0d6770a07919a282b792e5bd4a24",
+  "independent_verification_sha256": "34531f1d2636486bbf3846b3e3111ad89206b8845e7c68adb113245f91c6493c",
+  "output_sha256": {
+    "ensemble_corner_means.csv": "89ac25ba0758542f4a13f52b99c878efc6641504b90f048577113df327461f5e",
+    "pilot_cost.json": "e1d43159b984c99516c90fc727cd34ba71de9436331fb165423d32a89a311779",
+    "completion_receipt.json": "9a4c4c3a59d5247b3af94884bf5645f6b834674cdc5b7aad9579e576b90c6b39",
+    "ensemble_decomposition.csv": "db6b393b9224be92a8d6594b1018e5416482d51214763ea2ec48663450544165",
+    "corner_means_by_gcm.csv": "b93ae87a21396d8579deabbe3f0e89463281101ca6832d4c15fce23cf2123515",
+    "decomposition_by_gcm.csv": "8c0b67b81a3bb9d37076baebb6a3e6287bbba13fe47a5ace3b8b88e8859fda0d",
+    "results_for_manuscript.json": "ab82afabf7eb6997225012c958e8cba472b0a022a11b96b50830baca7a755c0b",
+    "host_stage_calendar_diagnostics.csv": "de57d13ec4abd445cceba1f81e7ba2c8446e6f3a2097cfe62f17d1ea55ebf5dd",
+    "registration_before_decomposition_results.json": "506f6b86a1ece65bf5aa14bc191e58d9cda068dce019f4932f601e37a9e5a267",
+    "weather_host_decomposition.png": "bb510a626261fd910086329026b8b4558fa28d810dc38d53acbc743eac0f7492",
+    "weather_host_decomposition.pdf": "b942c139b86858f637e10c6b0c72c3d4cfc18643573d7e5d2d14606563a6db2d",
+    "independent_verification.json": "34531f1d2636486bbf3846b3e3111ad89206b8845e7c68adb113245f91c6493c"
+  }
+}

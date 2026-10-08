@@ -1,0 +1,20 @@
+[
+  {
+    "file": "apa.csl",
+    "url": "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl",
+    "bytes": 85817,
+    "sha256": "3917def5fc951b104d64216c3373096042368b9704ba269ca83c14ebaba889fc"
+  },
+  {
+    "file": "locales-en-US.xml",
+    "url": "https://raw.githubusercontent.com/citation-style-language/locales/master/locales-en-US.xml",
+    "bytes": 32649,
+    "sha256": "ac864c7c21166b4390d82c31792cdc509400727fa0060b43d8aa17e07f9cb079"
+  },
+  {
+    "file": "citeproc.js",
+    "url": "https://raw.githubusercontent.com/Juris-M/citeproc-js/master/citeproc.js",
+    "bytes": 970020,
+    "sha256": "db98d3341d39eb7a9f166231b6c51118ed499f79821daa3e41f1ea8d7f8d0cbb"
+  }
+]

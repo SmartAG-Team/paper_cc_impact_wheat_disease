@@ -1,0 +1,18 @@
+{
+  "status": "derived from frozen current-model results",
+  "spatial_cells": 62,
+  "spatial_draws": 64,
+  "full_period_grid_census": false,
+  "environmental_source": "EEA Biogeographical regions, Europe 2016, version 1",
+  "assignments": "0.25-degree cell-centroid intersections; unmatched and outside-region cells retained explicitly",
+  "regional_statistics": "Exploratory domain ratios under the original stratified area-proportional design; shared-draw climate-model covariance retained",
+  "uncertainty": "Spatial MCSE only; deterministic GCM ranges are separate. MCSE withheld below four regional draws; unsampled domains have no response estimate.",
+  "major_region_rule": "All named regions represented by at least four registered spatial draws",
+  "source_sha256": {
+    "analysis/paper_study/nature_food_submission_20261008/spatial_sources/wheat_cells_eea_regions.csv": "f003d877270af71aa3c7069f317b56480bd5c5b055633f26bf9ee78852d69d6f",
+    "data/paper_study/regional_parameter_uncertainty/spatial_draws.csv": "85ef36385df2bd52b3e161b432d52ce360698227fa7db049c806f6872d3f21f6",
+    "analysis/paper_study/overwinter_leaf_model_20261006/climate/paired_draw_period_moments.csv": "feb5f57a6f9f8418bf9683b125d421f8f4a93b9b2968287d8f86edf66a3f37aa",
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/four_corner_draw_year_outputs.parquet": "22884025a30400c2070308b443028c7aea2b4e733faf358d525eff4d7a581876",
+    "analysis/paper_study/nature_food_fix_20261007/climate/decomposition/supported_forcing_draw_pair_flags.csv": "09dee827b4b648c1c4646e1ba4bdb5966c1a0847e076b5ae1e4a17273d03e5bc"
+  }
+}

@@ -1,0 +1,9 @@
+Spatial climate responses across the wheat land-use domain
+
+The fixed SPAM2020 wheat mask contains 14,941 quarter-degree cells, of which 14,932 have an eligible imposed winter/rainfed calendar. The full-domain comparison spans three climate models, three emissions pathways and three 30-year harvest periods, giving 810 annual model combinations. Grid-level responses are computed independently from daily weather; crop area supplies exact aggregation weights.
+
+Late-century European upper-three-leaf HAD-deficit changes are +1.45, +1.55 and +2.66 days per nominal reference LAI under SSP1–2.6, SSP2–4.5 and SSP5–8.5, respectively. These means use paired valid area-time support and describe the fixed-model management scenario. Full-grid estimation removes the spatial sampling component of uncertainty; climate-model spread and biological-transfer uncertainty remain distinct.
+
+Under late-century SSP5–8.5, environmental-region HAD changes are Atlantic +4.85, Continental +3.45, Boreal +7.84, Mediterranean -1.40, Steppic +0.37 days per nominal reference LAI. Regional model ranges, calendar coverage and valid-year support accompany these estimates. The EEA boundaries are fixed across periods and are independent of the modeled response.
+
+A positive three-GCM ensemble mean covers 77.3% of the available reference wheat area. All three GCMs retain positive changes on 65.2% and negative changes on 14.9%. Agreement across these deterministic scenarios does not identify a probability of future disease or a tested adaptation benefit.

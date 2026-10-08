@@ -1,0 +1,9 @@
+crop_season,water_system,calendar_valid,cells,planting_doy_min,planting_doy_max,maturity_doy_min,maturity_doy_max,provider_files
+spring_wheat,irrigated,False,9,,,,,swh_ir_ggcmi_crop_calendar_phase3_v1.01.nc4
+spring_wheat,irrigated,True,14932,60.0,244.0,192.0,359.0,swh_ir_ggcmi_crop_calendar_phase3_v1.01.nc4
+spring_wheat,rainfed,False,9,,,,,swh_rf_ggcmi_crop_calendar_phase3_v1.01.nc4
+spring_wheat,rainfed,True,14932,77.0,305.0,174.0,318.0,swh_rf_ggcmi_crop_calendar_phase3_v1.01.nc4
+winter_wheat,irrigated,False,9,,,,,wwh_ir_ggcmi_crop_calendar_phase3_v1.01.nc4
+winter_wheat,irrigated,True,14932,223.0,334.0,113.0,236.0,wwh_ir_ggcmi_crop_calendar_phase3_v1.01.nc4
+winter_wheat,rainfed,False,9,,,,,wwh_rf_ggcmi_crop_calendar_phase3_v1.01.nc4
+winter_wheat,rainfed,True,14932,232.0,335.0,127.0,236.0,wwh_rf_ggcmi_crop_calendar_phase3_v1.01.nc4

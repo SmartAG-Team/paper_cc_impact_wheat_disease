@@ -1,0 +1,140 @@
+{
+  "created_utc": "2026-10-07T07:05:42.604260+00:00",
+  "scope": "retrospective fixed raw-damage symptom/measurement evaluation",
+  "partitions": {
+    "calibration": {
+      "assessments": 254,
+      "fields": 28,
+      "coordinate_years": 26
+    },
+    "reused_BASF2019": {
+      "assessments": 330,
+      "fields": 45,
+      "coordinate_years": 36
+    },
+    "reused_strict_Corteva": {
+      "assessments": 1703,
+      "fields": 143,
+      "coordinate_years": 104
+    }
+  },
+  "prediction_mapping": "100×trajectory.damage at original field/day/source-numbered-leaf indices; no fitted observation mapping",
+  "model_boundary": "targets value redacted; only original SIGN_COLUMNS retained; observed stage excluded",
+  "weights": "equal coordinate-year, then equal field, source-numbered leaf and assessment/pair within leaf",
+  "baselines": {
+    "leaf_mean": "original28 numeric calibration only; equal-hierarchy weighted leaf-rank means",
+    "stage_time": "single prespecified weighted linear least-squares on7leaf indicators, observed minimum stage centered50/scaled20, elapsed days since first observed field assessment/scaled30; original28only; clip predicted percentages0–100; no validation-based selection",
+    "stage_feature": "same-date source observed minimum stage; reject reversed source ranges; missing upper stage permitted; missing minimum is unavailable; retrospective stage metadata comparator, not a preseason forecast"
+  },
+  "severity_thresholds_percent": [
+    0.1,
+    1.0,
+    5.0
+  ],
+  "symptom_sign_timing": "existing frozen0.001fraction definition and observed zero/positive signs; interval-distance scores retain censoring",
+  "endpoints": "last numeric assessment per source-numbered leaf, not measured harvest-season terminal disease",
+  "integrals": "trapezoidal observed-assessment window integral in percentage-days; sampled model points at same dates, no extrapolation beyond measured window",
+  "representative_selection": [
+    {
+      "partition": "calibration",
+      "leaf_index": 0,
+      "field_id": "basf-wheat-diseases|11|2017",
+      "endpoint_series": "11|LEAF, 1ST / FLAG LEAF",
+      "n_assessments": 4,
+      "span_days": 39,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    },
+    {
+      "partition": "calibration",
+      "leaf_index": 1,
+      "field_id": "basf-wheat-diseases|2|2017",
+      "endpoint_series": "2|LEAF, 2ND",
+      "n_assessments": 4,
+      "span_days": 42,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    },
+    {
+      "partition": "calibration",
+      "leaf_index": 2,
+      "field_id": "basf-wheat-diseases|5|2017",
+      "endpoint_series": "5|LEAF, 3RD",
+      "n_assessments": 6,
+      "span_days": 50,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    },
+    {
+      "partition": "reused_BASF2019",
+      "leaf_index": 0,
+      "field_id": "basf-wheat-diseases|45|2019",
+      "endpoint_series": "45|LEAF, 1ST / FLAG LEAF",
+      "n_assessments": 5,
+      "span_days": 56,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    },
+    {
+      "partition": "reused_BASF2019",
+      "leaf_index": 1,
+      "field_id": "basf-wheat-diseases|45|2019",
+      "endpoint_series": "45|LEAF, 2ND",
+      "n_assessments": 5,
+      "span_days": 56,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    },
+    {
+      "partition": "reused_BASF2019",
+      "leaf_index": 2,
+      "field_id": "basf-wheat-diseases|73|2019",
+      "endpoint_series": "73|LEAF, 3RD",
+      "n_assessments": 5,
+      "span_days": 35,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    },
+    {
+      "partition": "reused_strict_Corteva",
+      "leaf_index": 0,
+      "field_id": "corteva-2014-2018-external|2016-79|2016",
+      "endpoint_series": "2016-79|LEAF 1",
+      "n_assessments": 7,
+      "span_days": 54,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    },
+    {
+      "partition": "reused_strict_Corteva",
+      "leaf_index": 1,
+      "field_id": "corteva-2014-2018-external|2016-98|2016",
+      "endpoint_series": "2016-98|LEAF 2",
+      "n_assessments": 8,
+      "span_days": 62,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    },
+    {
+      "partition": "reused_strict_Corteva",
+      "leaf_index": 2,
+      "field_id": "corteva-2014-2018-external|2015-50|2015",
+      "endpoint_series": "2015-50|LEAF 3",
+      "n_assessments": 7,
+      "span_days": 62,
+      "criterion": "highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+    }
+  ],
+  "Corteva_leaf_number_mapping_fully_verified": false,
+  "independent_biological_site_identity_verified": false,
+  "confidence_intervals_invented": false,
+  "input_sha256": {
+    "analysis/paper_study/nature_food_revision_20261007/epidemic_evaluation/evaluate_frozen_trajectories.py": "609f58b1c5356c2d3a85a472c9e82e54639cf0ba3d144f3b7805d8446b3fbc11",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/calibrated_stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/original_sign_only_target_membership.parquet": "f083ef67458caf8ade8cf9cd6dfc2ce31e7a52734320fd502aceb95c6d65c291",
+    "analysis/paper_study/seasonal_calibration_v1/basf_source_assessments_snapshot.csv": "5f39b98003e650e4a4e7ab509a73b34d98311fb4d2f66f8b44599e2ff164d286",
+    "data/paper_study/observations/corteva_external_assessments.csv": "36ae506c4c0be1a1f97b94ddfa7ff841308334cd693a5c2c1db2717b96e8b7cd",
+    "data/paper_study/field_weather_completed/daily_weather.parquet": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+    "data/paper_study/wheat_area/trial_point_calendar_scenarios.csv": "7aaeba9ce5f03c47a4d1394d1c3fd4d5d97669f63453a8cf0c22e9ef5dc939fc",
+    "process_model/parameters/calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "model/seasonal_septoria/overwinter.py": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7",
+    "model/seasonal_septoria/leaf_phenology.py": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+    "model/seasonal_septoria/wetness.py": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/run.py": "6a5d5272e6eba62342f2145a2b46d7b504da1cb79db72db9b4cf2f61e8569880",
+    "data/basf-wheat-diseases.txt": "7f3325fdf31261740e4988bbda8581ff3f2381e6c38d46947d374fad4b6af67a",
+    "data/paper_study/observations/new_sources/corteva-2014-2018/corteva-wheat-diseases.txt": "d58a4a66639a4cdee2560ca53c38288cc4958b7b5d030370dbb403a91e4465f8"
+  }
+}

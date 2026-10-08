@@ -1,0 +1,83 @@
+{
+  "retrieval_date": "2026-10-07",
+  "citation": "Foulkes, M.J., Paveley, N.D., Worland, A., Welham, S.J., Thomas, J., Snape, J.W. (2006). Major genetic changes in wheat with potential to affect disease tolerance. Phytopathology 96:680–688.",
+  "doi": "10.1094/PHYTO-96-0680",
+  "publisher_url": "https://apsjournals.apsnet.org/doi/10.1094/PHYTO-96-0680",
+  "open_pdf_url": "https://repository.rothamsted.ac.uk/id/eprint/14844/1/phyto-96-0680.pdf",
+  "pdf_file": "foulkes2006.pdf",
+  "pdf_sha256": "76c899dbbb738775736fed87eeee576c1e142a35a72c46b88aa144bdfcdaf46b",
+  "pdf_bytes": 3686581,
+  "extraction": "Manual transcription from Table 2 printed p.683, Table 3 and Table 4 printed p.685; independently read rendered page images and PDF text. Values are table-reported predicted means or regression coefficients, never raw plot data.",
+  "HAD": {
+    "definition": "Trapezoidal integral of green lamina area index summed across the TOP FIVE leaves. Percent green area and actual lamina areas combined with fertile shoot counts normalize to ground area.",
+    "leaf_scope_verified_quote": "across the top five leaves",
+    "quote_location": "Regression analysis to estimate disease tolerance, printed p.682 / PDF page4",
+    "units": "m2 green lamina per m2 ground times calendar day (GLAI-day)",
+    "time_scope": "postanthesis to complete canopy senescence",
+    "time_scope_provenance": "Crop and disease assessments printed p.681 and Figure2 caption printed p.685; calendar-day interpolation to complete senescence described p.682.",
+    "assessed_leaf_scope": "All leaf layers with green area remaining were assessed; assessed-layer scope differs from TOP FIVE integration scope."
+  },
+  "yield": {
+    "units": "t/ha, 15% moisture (85% dry matter)",
+    "method": "Combine harvested from at least2x8m per subplot; moisture adjustment to15%.",
+    "source_page": 682
+  },
+  "trial_design": {
+    "experiments": "Rosemaund1999, Rosemaund2000 (STB); Terrington1999, Terrington2000 (stripe rust)",
+    "site_pathogen_confounding": true,
+    "genotype_coverage": "Mercia NILs only Rosemaund; Maris Huntsman NILs only Terrington; Hobbit,Weston,Chaucer both. Table2 predictions come from an unbalanced combined model, not8 genotypes in every site-year.",
+    "treatments": "F2 healthy full protection; F1 diseased permits target pathogen while controlling nontarget diseases. F1 is not necessarily fungicide-free."
+  },
+  "table2_statistical_status": {
+    "model": "Combined mixed model: genotype, fungicide and interactions fixed; experiment(site/season), blocking and experiment interactions random; separate within-experiment variances.",
+    "interpretation": "Eight paired genotype-by-treatment predicted means; model fit pools all4 experiments but per-genotype site-year observations are unbalanced. Do not treat pairs as raw independent plots, or as an STB-only four-experiment sample.",
+    "overall_predicted_means": {
+      "healthy_HAD": 120.7,
+      "diseased_HAD": 60.4,
+      "healthy_yield": 6.93,
+      "diseased_yield": 4.97
+    },
+    "uncertainty": {
+      "overall_treatment_average_SED_HAD": 11.7,
+      "overall_treatment_average_SED_yield": 0.49,
+      "genotype_by_treatment_average_SED_HAD": 12.9,
+      "genotype_by_treatment_average_SED_yield": 0.52,
+      "SED_definition": "Standard error of the difference of means, not SE of each mean and not per-row contrast uncertainty. Table2 reports an average across comparisons; pair-specific covariance/SE not supplied.",
+      "individual_mean_SE_available": false,
+      "pair_specific_change_SE_available": false
+    },
+    "fungicide_effect_test": {
+      "HAD_df": 3.0,
+      "HAD_p": 0.014,
+      "yield_df": 5.1,
+      "yield_p": 0.008
+    },
+    "genotype_background_by_fungicide_effect_test": {
+      "HAD_df": 11.9,
+      "HAD_p": 0.355,
+      "yield_df": 9.6,
+      "yield_p": 0.003
+    }
+  },
+  "table3_statistical_status": {
+    "slope": "Published mixed-regression intolerance coefficient; larger values imply greater loss per HAD loss.",
+    "yield_column": "Regression ordinate at HAD150; it is not the measured protected yield in Table2.",
+    "within_NIL_SED": "Table reports one SED for each near-isogenic pair; empty entries in CSV denote no new separate contrast rather than0 uncertainty.",
+    "between_NIL_pair_average_SED_yield": 0.286,
+    "between_NIL_pair_min_max_SED_yield": [
+      0.233,
+      0.373
+    ],
+    "between_NIL_pair_average_SED_slope": 0.0044,
+    "between_NIL_pair_min_max_SED_slope": [
+      0.0034,
+      0.0057
+    ]
+  },
+  "derived_columns": "Table2 loss columns are arithmetic differences/relative differences of published predicted means. They are not direct raw observations and do not come from multiplying HAD reductions by intolerance slopes.",
+  "compatibility": "These TOP FIVE postanthesis data must remain separate from Parker2004 TOP THREE HAD coefficients. No fixed leaf/window conversion, source-domain equivalence or local validation established.",
+  "additional_access_checks": {
+    "Collin2018": "Indexed accepted PDF and thesis still appear in search results, but actual subsequent fetch404; cannot expose raw matched HAD/yield pairs by treating tolerance slopes times HAD reductions as observations.",
+    "Bancal2015": "Prior record is metadata/abstract; no genuinely retrieved raw/tabulated matched observations obtained here."
+  }
+}

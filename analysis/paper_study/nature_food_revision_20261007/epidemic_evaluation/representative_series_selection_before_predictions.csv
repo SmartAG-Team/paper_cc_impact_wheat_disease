@@ -1,0 +1,10 @@
+partition,leaf_index,field_id,endpoint_series,n_assessments,span_days,criterion
+calibration,0,basf-wheat-diseases|11|2017,"11|LEAF, 1ST / FLAG LEAF",4,39,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+calibration,1,basf-wheat-diseases|2|2017,"2|LEAF, 2ND",4,42,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+calibration,2,basf-wheat-diseases|5|2017,"5|LEAF, 3RD",6,50,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+reused_BASF2019,0,basf-wheat-diseases|45|2019,"45|LEAF, 1ST / FLAG LEAF",5,56,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+reused_BASF2019,1,basf-wheat-diseases|45|2019,"45|LEAF, 2ND",5,56,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+reused_BASF2019,2,basf-wheat-diseases|73|2019,"73|LEAF, 3RD",5,35,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+reused_strict_Corteva,0,corteva-2014-2018-external|2016-79|2016,2016-79|LEAF 1,7,54,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+reused_strict_Corteva,1,corteva-2014-2018-external|2016-98|2016,2016-98|LEAF 2,8,62,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"
+reused_strict_Corteva,2,corteva-2014-2018-external|2015-50|2015,2015-50|LEAF 3,7,62,"highest assessment count, longest observed span, lexical field/series tie-break; severity and predictions unused"

@@ -1,0 +1,5 @@
+source_key,doi,disease,year,reported_treatment_combinations,predictor,metric,value,leaf_scope,time_scope,raw_data_available_for_reanalysis
+Bryson1997,10.1016/S1161-0301(97)00025-7,yellow rust,1994,60,Healthy area duration,reported within-year R2,0.63,canopy green area; fixed leaf-rank subset unverified,postflowering,False
+Bryson1997,10.1016/S1161-0301(97)00025-7,yellow rust,1994,60,Healthy area absorption,reported within-year R2,0.8,canopy green area; fixed leaf-rank subset unverified,postflowering,False
+Bryson1997,10.1016/S1161-0301(97)00025-7,yellow rust,1995,52,Healthy area duration,reported within-year R2,0.73,canopy green area; fixed leaf-rank subset unverified,postflowering,False
+Bryson1997,10.1016/S1161-0301(97)00025-7,yellow rust,1995,52,Healthy area absorption,reported within-year R2,0.92,canopy green area; fixed leaf-rank subset unverified,postflowering,False

@@ -1,0 +1,44 @@
+Matplotlib is building the font cache; this may take a moment.
+                        setting                                                 metric  gcm_mean_change  gcm_min_change  gcm_max_change  spatial_mcse_gcm_mean_change  minimum_gcm_paired_coverage
+                       baseline                      F1_symptom_relative_anthesis_days        -3.796826       -6.322882       -1.888188                      0.453751                     0.883136
+                       baseline                                      GS65_85_lost_had3         2.616640        1.283306        4.392312                      0.327098                     0.999719
+                       baseline conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.047100        0.023100        0.079062                      0.005888                     0.999719
+     decline_end0_conversion0p5                      F1_symptom_relative_anthesis_days        -3.796826       -6.322882       -1.888188                      0.453751                     0.883136
+     decline_end0_conversion0p5                                      GS65_85_lost_had3         0.629211        0.308460        1.067918                      0.074887                     0.999719
+     decline_end0_conversion0p5 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.011326        0.005552        0.019223                      0.001348                     0.999719
+                detection0p0001                      F1_symptom_relative_anthesis_days        -3.799978       -7.331158       -1.108735                      0.887730                     0.883136
+                detection0p0001                                      GS65_85_lost_had3         2.616608        1.283314        4.392272                      0.327098                     0.999719
+                detection0p0001 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.047099        0.023100        0.079061                      0.005888                     0.999719
+                  detection0p01                      F1_symptom_relative_anthesis_days        -3.993244       -5.811497       -2.493403                      0.717864                     0.883136
+                  detection0p01                                      GS65_85_lost_had3         2.620409        1.287057        4.396917                      0.327993                     0.999719
+                  detection0p01 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.047167        0.023167        0.079145                      0.005904                     0.999719
+       functional_conversion0p5                      F1_symptom_relative_anthesis_days        -3.796826       -6.322882       -1.888188                      0.453751                     0.883136
+       functional_conversion0p5                                      GS65_85_lost_had3         1.308320        0.641653        2.196156                      0.163549                     0.999719
+       functional_conversion0p5 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.023550        0.011550        0.039531                      0.002944                     0.999719
+      functional_conversion0p75                      F1_symptom_relative_anthesis_days        -3.796826       -6.322882       -1.888188                      0.453751                     0.883136
+      functional_conversion0p75                                      GS65_85_lost_had3         1.962480        0.962480        3.294234                      0.245324                     0.999719
+      functional_conversion0p75 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.035325        0.017325        0.059296                      0.004416                     0.999719
+               local_source_off                      F1_symptom_relative_anthesis_days        -4.291243       -6.860602       -2.271966                      0.459273                     0.883136
+               local_source_off                                      GS65_85_lost_had3         2.317408        1.004764        4.136106                      0.289992                     0.999719
+               local_source_off conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.041713        0.018086        0.074450                      0.005220                     0.999719
+primary_objective_tied_runnerup                      F1_symptom_relative_anthesis_days        -3.524435       -5.728387       -1.871026                      0.499847                     0.883136
+primary_objective_tied_runnerup                                      GS65_85_lost_had3         2.581822        1.264974        4.387858                      0.322103                     0.999719
+primary_objective_tied_runnerup conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.046473        0.022770        0.078981                      0.005798                     0.999719
+                rank_spacing160                      F1_symptom_relative_anthesis_days        -3.762221       -6.438188       -1.730328                      0.473062                     0.883136
+                rank_spacing160                                      GS65_85_lost_had3         2.800646        1.389061        4.673040                      0.350606                     0.999719
+                rank_spacing160 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.050412        0.025003        0.084115                      0.006311                     0.999719
+                 rank_spacing80                      F1_symptom_relative_anthesis_days        -3.348029       -5.685343       -1.612197                      0.491053                     0.883136
+                 rank_spacing80                                      GS65_85_lost_had3         1.643013        0.630962        3.001451                      0.225185                     0.999719
+                 rank_spacing80 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.029574        0.011357        0.054026                      0.004053                     0.999719
+         reference_decline_end0                      F1_symptom_relative_anthesis_days        -3.796826       -6.322882       -1.888188                      0.453751                     0.883136
+         reference_decline_end0                                      GS65_85_lost_had3         1.258423        0.616920        2.135836                      0.149775                     0.999719
+         reference_decline_end0 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.022652        0.011105        0.038445                      0.002696                     0.999719
+       reference_decline_end0p5                      F1_symptom_relative_anthesis_days        -3.796826       -6.322882       -1.888188                      0.453751                     0.883136
+       reference_decline_end0p5                                      GS65_85_lost_had3         1.937532        0.950113        3.264074                      0.238097                     0.999719
+       reference_decline_end0p5 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.034876        0.017102        0.058753                      0.004286                     0.999719
+          stage_profile_early37                      F1_symptom_relative_anthesis_days        -5.463800       -9.194554       -2.674672                      0.671416                     0.883136
+          stage_profile_early37                                      GS65_85_lost_had3         2.548555        1.151311        4.443255                      0.319344                     0.999719
+          stage_profile_early37 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.045874        0.020724        0.079979                      0.005748                     0.999719
+           stage_profile_late37                      F1_symptom_relative_anthesis_days        -1.543488       -2.801784       -0.729344                      0.286043                     0.883136
+           stage_profile_late37                                      GS65_85_lost_had3         1.807017        0.818834        3.122990                      0.247517                     0.999719
+           stage_profile_late37 conditional_yield_loss_GS65_85_b0180_t_ha_per_unit_lai         0.032526        0.014739        0.056214                      0.004455                     0.999719

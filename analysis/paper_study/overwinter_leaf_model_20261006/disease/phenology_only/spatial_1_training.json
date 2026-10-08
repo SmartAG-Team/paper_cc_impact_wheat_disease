@@ -1,0 +1,86 @@
+{
+  "status": "fit_complete",
+  "stage": "inner_training",
+  "weather_preprocessing": {
+    "weather_operator": "duration_proxy",
+    "rain_rate_mm_hour": 0.45,
+    "unique_training_location_dates": 3982,
+    "eligible_positive_rain_days": 1661,
+    "estimation": "median daily precipitation / observed positive rain hours; tmean > 2 C",
+    "meteorology_only": true
+  },
+  "candidates": [
+    {
+      "name": "phenology_s80_L20",
+      "rank_spacing_units": 80.0,
+      "delay_reference_days": 20.0
+    },
+    {
+      "name": "phenology_s80_L30",
+      "rank_spacing_units": 80.0,
+      "delay_reference_days": 30.0
+    },
+    {
+      "name": "phenology_s120_L20",
+      "rank_spacing_units": 120.0,
+      "delay_reference_days": 20.0
+    },
+    {
+      "name": "phenology_s120_L30",
+      "rank_spacing_units": 120.0,
+      "delay_reference_days": 30.0
+    },
+    {
+      "name": "phenology_s160_L20",
+      "rank_spacing_units": 160.0,
+      "delay_reference_days": 20.0
+    },
+    {
+      "name": "phenology_s160_L30",
+      "rank_spacing_units": 160.0,
+      "delay_reference_days": 30.0
+    }
+  ],
+  "physical_training_fields": [
+    "basf-wheat-diseases|1|2017",
+    "basf-wheat-diseases|13|2017",
+    "basf-wheat-diseases|15|2017",
+    "basf-wheat-diseases|17|2017",
+    "basf-wheat-diseases|18|2017",
+    "basf-wheat-diseases|19|2017",
+    "basf-wheat-diseases|2|2017",
+    "basf-wheat-diseases|20|2017",
+    "basf-wheat-diseases|26|2018",
+    "basf-wheat-diseases|27|2018",
+    "basf-wheat-diseases|28|2018",
+    "basf-wheat-diseases|29|2018",
+    "basf-wheat-diseases|30|2018",
+    "basf-wheat-diseases|4|2017",
+    "basf-wheat-diseases|5|2017",
+    "basf-wheat-diseases|76|2017",
+    "basf-wheat-diseases|9|2017"
+  ],
+  "training_sites": [
+    "era5loc_01117578be52",
+    "era5loc_1fa43db2787c",
+    "era5loc_23eef231ea98",
+    "era5loc_300f965a2c3d",
+    "era5loc_5ab5ca0b5fe3",
+    "era5loc_6687f40ce729",
+    "era5loc_8b7743800935",
+    "era5loc_98874af9c8d8",
+    "era5loc_a3b551fcca14",
+    "era5loc_b103a5cbfed5",
+    "era5loc_c273764268e2",
+    "era5loc_cd0793ddaa5d",
+    "era5loc_d4b920707d9f",
+    "era5loc_dd89cccfc605",
+    "era5loc_ff52f903fe18"
+  ],
+  "training_target_count": 164,
+  "training_positive_count": 150,
+  "sign_only": true,
+  "disease_magnitude_fit": false,
+  "initial_local_source": 1.0,
+  "evaluation_outcomes_used": false
+}

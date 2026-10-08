@@ -1,0 +1,87 @@
+{
+  "status": "verified",
+  "german": {
+    "status": "verified",
+    "source_access_required": false,
+    "retained_event_rows": 430440,
+    "recomputed_numeric_metrics": 270,
+    "metric_rows": 90,
+    "plotted_metric_rows": 12,
+    "source_files_sha256_checked": 18,
+    "derived_files_sha256_checked": 11,
+    "train_val_test_station_sets_disjoint": true,
+    "withheld_year_validation": false,
+    "test_years_absent_from_training": [],
+    "units": "calendar days",
+    "BBCH85": "soft dough"
+  },
+  "field": {
+    "predictions_reconciled": 1721,
+    "prior_stage_score_rows_reconciled": 940,
+    "events": [
+      10,
+      31,
+      32,
+      33,
+      37,
+      39,
+      51,
+      65,
+      85
+    ],
+    "fields_by_partition": {
+      "calibration": 28,
+      "reused_development_2019": 45,
+      "reused_external_strict": 143,
+      "reused_external_full": 145
+    },
+    "scores": 4440,
+    "coverage_rows": 36
+  },
+  "prior_datasets": [
+    "German station network",
+    "BASF 2017\u20132018",
+    "BASF 2019",
+    "Corteva location-disjoint subset",
+    "Corteva full source transfer",
+    "French plot-leaf transfer 2018\u20132019"
+  ],
+  "current_runtime_or_parameters_changed": false,
+  "calibration_performed": false,
+  "legacy_model_results_pooled_with_current": false,
+  "source_sha256": {
+    "analysis/phenology/heldout_validation/metrics_long.csv": "80e1671483d72e30f1d6d4ff28c31137e2c06866fbfa490fbdd64b87abd17bb1",
+    "analysis/phenology/heldout_validation/validation_summary.json": "13c2d1d79b4706856da13842a71cecd0036ba6bc432b0b8f47e0e360f94a9c43",
+    "analysis/phenology/heldout_validation/PROVENANCE.json": "ee093ded34b93733eb3a0b42f0fff3d22ec5dda34a47f15dd39723928642d10f",
+    "analysis/phenology/heldout_validation/calibration_all_model_event_dates.csv.gz": "47ef78d0b28f1063c76270ba56d98d61175c22857dfb2f2d52592d0771e670fe",
+    "analysis/phenology/heldout_validation/validation_all_model_event_dates.csv.gz": "1dea8373c7bb90e957bc9fa81b83037edfc809e2311591a85c42c8ceea1201f6",
+    "analysis/phenology/heldout_validation/testing_all_model_event_dates.csv.gz": "32c51913031f786d15747509484adc1c4a8fec8b3bce6beff817ebb9e554ebb1",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/predicted_stage_dates.csv": "b4e0b4b8477970f19509546dcd32da867aea431c7107c69801bff1f6993da552",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/normalized_stage_dates.csv": "478408ee008055fde01bd623c6c1aecb90b9cca365df26f0ebcef6e5ff94cda4",
+    "analysis/paper_study/overwinter_leaf_model_20261006/phenology/stage_censoring_scores.csv": "93973a7e111cbb43b5f09b2d637c3e59241188aac05fd30f9c5b35c97c405293",
+    "analysis/paper_study/overwinter_leaf_model_20261006/manuscript/replay/full_season_top3_timing_and_conditional_yield.csv": "b51a589d7dd6dd84d590887e61a8b38d198ebe6a590f6b2d23e93daa945b5b23",
+    "data/paper_study/observations/corteva_external_assessments.csv": "36ae506c4c0be1a1f97b94ddfa7ff841308334cd693a5c2c1db2717b96e8b7cd",
+    "analysis/paper_study/seasonal_calibration_v1/severity_metrics.csv": "d04366e000e339d7bfdcf4bad0af9d615fb0fbf9bac352f45104e1e6da9b1eb5",
+    "analysis/paper_study/corteva_external_seasonal_v1/severity_metrics.csv": "f2163eb3fe7fffbb191fcaff3f0581db81d2eac5ca611d8b2d525f1e0ea4a230",
+    "analysis/paper_study/accuracy_review_20261006_verified/verified_onset_metrics.csv": "30d59eb3a9a4a8df6af659a9c4205906045bb4b2d31cee2c2dcdf4d3bee3c235",
+    "analysis/primary_secondary/external_french/frozen_transfer_metrics.csv": "3ffed29c153df990683d472a48cbb003caa4ef527a96cf6490865647f70e9db0",
+    "analysis/primary_secondary/external_french/transfer_v2/frozen_transfer_metrics.csv": "f6fb60aa8a8d985f9d8d4ad130a7b8c4c39efbdcd2dcaf1719b03ce71593e0d4"
+  },
+  "output_sha256": {
+    "archived_seasonal_model_results.csv": "369654fdb42a92d56dd0579587cdde0c9cd79b55f94d2df346b1c692ec8a6ce7",
+    "disease_assessment_detection_metrics_baseline.csv": "a5ea2d782ec2e3bd747fd5893f8378081ddb9fd9bc076e147fbdbbdb070543e3",
+    "disease_observed_window_occurrence_metrics_baseline.csv": "45d065fa0285ed949d1575d30169b9735aa3c4e14fe77016a6d900fb3f5f6f3b",
+    "disease_onset_bracket_metrics_baseline.csv": "c86b4b31c69185c637663771516e1e15dbe033175a87e01e122e7f4cc879d115",
+    "field_stage_constraints_all.csv": "989d1114e850887c12fb2cdbcf800597507f59b79c4c90de3831b9e8145bc9e5",
+    "field_stage_coverage_all.csv": "d842aec121379531c820ef0da1bce63ba182aa354987adbb5c5377bc277d75eb",
+    "field_stage_metrics_all.csv": "76acdfb16bf0201da1015b99b9401c84479aa9224ff7859105ec89b73058d780",
+    "field_stage_scores_all.csv": "e54dc4c25262ab4129da44e3f934d466710919480f6230886922a225bb26241c",
+    "french_transfer_v1.csv": "47c5e935adb6123aa5056558fbea75b5356dbad322ff0a948c476fc378de053d",
+    "french_transfer_v2.csv": "c9aabfa912270ea00b7ebe87e2120e7a00b9763882bbbaccfad9a6c0d62a19a8",
+    "german_calibration_tpv_events.parquet": "316143f9cd8ab5e263d34fd65e93f7b6a15b8c9413bf028a420981fd34db9bca",
+    "german_stage_metrics_all.csv": "35c712606a5739a4fe02b0ee0e0c1b6dcab647ab5bc88666df383192c09509f0",
+    "german_testing_tpv_events.parquet": "995f74569cd129a477b8bfe723912051f0bd8f589d11f35578985518453607f4",
+    "german_validation_tpv_events.parquet": "06c6a080b2952c16a52862432f2455aea1d6b3f04ed0d0afb2e39f6469293ddc",
+    "validation_source_inventory.csv": "cfd77d71f430803be405207b967894bb5d4d35dc9749721aaf54679a3e453151"
+  }
+}

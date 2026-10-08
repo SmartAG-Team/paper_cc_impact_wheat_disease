@@ -1,0 +1,454 @@
+{
+  "common_matched": {
+    "by_stage": {
+      "10": {
+        "matched": 13471,
+        "models": {
+          "GDD": {
+            "bias_days": 1.9037933338282236,
+            "coverage": 1.0,
+            "events": 13471,
+            "mae_days": 6.0296934154851165,
+            "matched": 13471,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 13471,
+            "predicted": 13471,
+            "predictions_without_observation": 0,
+            "rmse_days": 10.284989599450126
+          },
+          "T-P": {
+            "bias_days": 1.9037933338282236,
+            "coverage": 1.0,
+            "events": 13471,
+            "mae_days": 6.0296934154851165,
+            "matched": 13471,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 13471,
+            "predicted": 13471,
+            "predictions_without_observation": 0,
+            "rmse_days": 10.284989599450126
+          },
+          "T-P-V": {
+            "bias_days": 1.9037933338282236,
+            "coverage": 1.0,
+            "events": 13471,
+            "mae_days": 6.0296934154851165,
+            "matched": 13471,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 13471,
+            "predicted": 13471,
+            "predictions_without_observation": 0,
+            "rmse_days": 10.284989599450126
+          }
+        }
+      },
+      "31": {
+        "matched": 12109,
+        "models": {
+          "GDD": {
+            "bias_days": -4.451895284499133,
+            "coverage": 1.0,
+            "events": 12109,
+            "mae_days": 19.095713931786275,
+            "matched": 12109,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 12109,
+            "predicted": 12109,
+            "predictions_without_observation": 0,
+            "rmse_days": 27.23312156606471
+          },
+          "T-P": {
+            "bias_days": -1.482120736642167,
+            "coverage": 1.0,
+            "events": 12109,
+            "mae_days": 12.786439838136923,
+            "matched": 12109,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 12109,
+            "predicted": 12109,
+            "predictions_without_observation": 0,
+            "rmse_days": 17.475651100008534
+          },
+          "T-P-V": {
+            "bias_days": -0.838136922949872,
+            "coverage": 1.0,
+            "events": 12109,
+            "mae_days": 11.59096539763812,
+            "matched": 12109,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 12109,
+            "predicted": 12109,
+            "predictions_without_observation": 0,
+            "rmse_days": 15.265803617752866
+          }
+        }
+      },
+      "51": {
+        "matched": 12541,
+        "models": {
+          "GDD": {
+            "bias_days": -0.8630093293995694,
+            "coverage": 1.0,
+            "events": 12541,
+            "mae_days": 11.842994976477154,
+            "matched": 12541,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 12541,
+            "predicted": 12541,
+            "predictions_without_observation": 0,
+            "rmse_days": 15.96440952311537
+          },
+          "T-P": {
+            "bias_days": 0.2975041862690376,
+            "coverage": 1.0,
+            "events": 12541,
+            "mae_days": 7.288493740531058,
+            "matched": 12541,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 12541,
+            "predicted": 12541,
+            "predictions_without_observation": 0,
+            "rmse_days": 10.108410839463641
+          },
+          "T-P-V": {
+            "bias_days": 0.46734710150705683,
+            "coverage": 1.0,
+            "events": 12541,
+            "mae_days": 6.846264253249342,
+            "matched": 12541,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 12541,
+            "predicted": 12541,
+            "predictions_without_observation": 0,
+            "rmse_days": 9.54183248958968
+          }
+        }
+      },
+      "85": {
+        "matched": 2757,
+        "models": {
+          "GDD": {
+            "bias_days": -2.2829162132752994,
+            "coverage": 1.0,
+            "events": 2757,
+            "mae_days": 11.75480594849474,
+            "matched": 2757,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 2757,
+            "predicted": 2757,
+            "predictions_without_observation": 0,
+            "rmse_days": 15.201320981867376
+          },
+          "T-P": {
+            "bias_days": -0.5019949220166848,
+            "coverage": 1.0,
+            "events": 2757,
+            "mae_days": 7.854189336235038,
+            "matched": 2757,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 2757,
+            "predicted": 2757,
+            "predictions_without_observation": 0,
+            "rmse_days": 10.169474332398696
+          },
+          "T-P-V": {
+            "bias_days": -0.2687704026115343,
+            "coverage": 1.0,
+            "events": 2757,
+            "mae_days": 7.443960826985855,
+            "matched": 2757,
+            "missing_predictions": 0,
+            "neither_observed_nor_predicted": 0,
+            "observed": 2757,
+            "predicted": 2757,
+            "predictions_without_observation": 0,
+            "rmse_days": 9.612646578719636
+          }
+        }
+      }
+    },
+    "overall": {
+      "matched": 40878,
+      "models": {
+        "GDD": {
+          "bias_days": -1.1101081266206763,
+          "coverage": 1.0,
+          "events": 40878,
+          "mae_days": 12.069744116639757,
+          "matched": 40878,
+          "missing_predictions": 0,
+          "neither_observed_nor_predicted": 0,
+          "observed": 40878,
+          "predicted": 40878,
+          "predictions_without_observation": 0,
+          "rmse_days": 18.663478554990537
+        },
+        "T-P": {
+          "bias_days": 0.2457556631929155,
+          "coverage": 1.0,
+          "events": 40878,
+          "mae_days": 8.540437399089974,
+          "matched": 40878,
+          "missing_predictions": 0,
+          "neither_observed_nor_predicted": 0,
+          "observed": 40878,
+          "predicted": 40878,
+          "predictions_without_observation": 0,
+          "rmse_days": 12.792502635728155
+        },
+        "T-P-V": {
+          "bias_days": 0.5043544204706688,
+          "coverage": 1.0,
+          "events": 40878,
+          "mae_days": 8.022970791134595,
+          "matched": 40878,
+          "missing_predictions": 0,
+          "neither_observed_nor_predicted": 0,
+          "observed": 40878,
+          "predicted": 40878,
+          "predictions_without_observation": 0,
+          "rmse_days": 11.749756538217001
+        }
+      }
+    }
+  },
+  "count_unit": "station/sowing-cycle/physiological-stage",
+  "coverage": {
+    "cycles": 15360,
+    "eligible_cycles": 14445,
+    "ineligible_cycles": 915,
+    "ineligible_reasons": {
+      "incomplete_daily_calendar": 915
+    },
+    "sites": 1140
+  },
+  "coverage_denominator": "all recorded physiological events including ineligible cycles",
+  "error_definition": "predicted_date minus true_date in calendar days",
+  "models": {
+    "GDD": {
+      "by_stage": {
+        "10": {
+          "bias_days": 1.9037933338282236,
+          "coverage": 0.918581657006478,
+          "events": 15360,
+          "mae_days": 6.0296934154851165,
+          "matched": 13471,
+          "missing_predictions": 1194,
+          "neither_observed_nor_predicted": 273,
+          "observed": 14665,
+          "predicted": 13893,
+          "predictions_without_observation": 422,
+          "rmse_days": 10.284989599450126
+        },
+        "31": {
+          "bias_days": -4.457487204886908,
+          "coverage": 0.9661057500598134,
+          "events": 15360,
+          "mae_days": 19.095261680700016,
+          "matched": 12114,
+          "missing_predictions": 425,
+          "neither_observed_nor_predicted": 1455,
+          "observed": 12539,
+          "predicted": 13480,
+          "predictions_without_observation": 1366,
+          "rmse_days": 27.234755010259942
+        },
+        "51": {
+          "bias_days": -0.8700947225981055,
+          "coverage": 0.9594470749961814,
+          "events": 15360,
+          "mae_days": 11.83085250338295,
+          "matched": 12563,
+          "missing_predictions": 531,
+          "neither_observed_nor_predicted": 1416,
+          "observed": 13094,
+          "predicted": 13413,
+          "predictions_without_observation": 850,
+          "rmse_days": 15.95287027113822
+        },
+        "85": {
+          "bias_days": -2.284576393917451,
+          "coverage": 0.9593608891976381,
+          "events": 15360,
+          "mae_days": 11.739319333816075,
+          "matched": 2762,
+          "missing_predictions": 117,
+          "neither_observed_nor_predicted": 1913,
+          "observed": 2879,
+          "predicted": 13330,
+          "predictions_without_observation": 10568,
+          "rmse_days": 15.189081028043347
+        }
+      },
+      "overall": {
+        "bias_days": -1.1144707895380104,
+        "coverage": 0.9474951942006161,
+        "events": 61440,
+        "mae_days": 12.065534099242239,
+        "matched": 40910,
+        "missing_predictions": 2267,
+        "neither_observed_nor_predicted": 5057,
+        "observed": 43177,
+        "predicted": 54116,
+        "predictions_without_observation": 13206,
+        "rmse_days": 18.66003864647523
+      }
+    },
+    "T-P": {
+      "by_stage": {
+        "10": {
+          "bias_days": 1.9037933338282236,
+          "coverage": 0.918581657006478,
+          "events": 15360,
+          "mae_days": 6.0296934154851165,
+          "matched": 13471,
+          "missing_predictions": 1194,
+          "neither_observed_nor_predicted": 273,
+          "observed": 14665,
+          "predicted": 13893,
+          "predictions_without_observation": 422,
+          "rmse_days": 10.284989599450126
+        },
+        "31": {
+          "bias_days": -1.481713861140923,
+          "coverage": 0.9660259988834835,
+          "events": 15360,
+          "mae_days": 12.785932469247916,
+          "matched": 12113,
+          "missing_predictions": 426,
+          "neither_observed_nor_predicted": 1454,
+          "observed": 12539,
+          "predicted": 13480,
+          "predictions_without_observation": 1367,
+          "rmse_days": 17.474629272396903
+        },
+        "51": {
+          "bias_days": 0.2955378486055777,
+          "coverage": 0.9584542538567282,
+          "events": 15360,
+          "mae_days": 7.285019920318725,
+          "matched": 12550,
+          "missing_predictions": 544,
+          "neither_observed_nor_predicted": 1416,
+          "observed": 13094,
+          "predicted": 13400,
+          "predictions_without_observation": 850,
+          "rmse_days": 10.105235123065187
+        },
+        "85": {
+          "bias_days": -0.5016310257339616,
+          "coverage": 0.9583188607155262,
+          "events": 15360,
+          "mae_days": 7.848495831823124,
+          "matched": 2759,
+          "missing_predictions": 120,
+          "neither_observed_nor_predicted": 1913,
+          "observed": 2879,
+          "predicted": 13327,
+          "predictions_without_observation": 10568,
+          "rmse_days": 10.165787736543496
+        }
+      },
+      "overall": {
+        "bias_days": 0.24510307387572444,
+        "coverage": 0.9471014660583181,
+        "events": 61440,
+        "mae_days": 8.5389430953953,
+        "matched": 40893,
+        "missing_predictions": 2284,
+        "neither_observed_nor_predicted": 5056,
+        "observed": 43177,
+        "predicted": 54100,
+        "predictions_without_observation": 13207,
+        "rmse_days": 12.791019419148668
+      }
+    },
+    "T-P-V": {
+      "by_stage": {
+        "10": {
+          "bias_days": 1.9037933338282236,
+          "coverage": 0.918581657006478,
+          "events": 15360,
+          "mae_days": 6.0296934154851165,
+          "matched": 13471,
+          "missing_predictions": 1194,
+          "neither_observed_nor_predicted": 273,
+          "observed": 14665,
+          "predicted": 13893,
+          "predictions_without_observation": 422,
+          "rmse_days": 10.284989599450126
+        },
+        "31": {
+          "bias_days": -0.8370614940156831,
+          "coverage": 0.9661855012361432,
+          "events": 15360,
+          "mae_days": 11.587866281469253,
+          "matched": 12115,
+          "missing_predictions": 424,
+          "neither_observed_nor_predicted": 1454,
+          "observed": 12539,
+          "predicted": 13482,
+          "predictions_without_observation": 1367,
+          "rmse_days": 15.263434438907296
+        },
+        "51": {
+          "bias_days": 0.46490878674420455,
+          "coverage": 0.9586833664273713,
+          "events": 15360,
+          "mae_days": 6.8417111447462755,
+          "matched": 12553,
+          "missing_predictions": 541,
+          "neither_observed_nor_predicted": 1416,
+          "observed": 13094,
+          "predicted": 13403,
+          "predictions_without_observation": 850,
+          "rmse_days": 9.537842801801549
+        },
+        "85": {
+          "bias_days": -0.2685755708590069,
+          "coverage": 0.9583188607155262,
+          "events": 15360,
+          "mae_days": 7.4385646973541135,
+          "matched": 2759,
+          "missing_predictions": 120,
+          "neither_observed_nor_predicted": 1913,
+          "observed": 2879,
+          "predicted": 13327,
+          "predictions_without_observation": 10568,
+          "rmse_days": 9.609161841763104
+        }
+      },
+      "overall": {
+        "bias_days": 0.5036921120837204,
+        "coverage": 0.9472172684531116,
+        "events": 61440,
+        "mae_days": 8.020441097364174,
+        "matched": 40898,
+        "missing_predictions": 2279,
+        "neither_observed_nor_predicted": 5056,
+        "observed": 43177,
+        "predicted": 54105,
+        "predictions_without_observation": 13207,
+        "rmse_days": 11.747569077734697
+      }
+    }
+  },
+  "protocol": "whole-season-known-weather-midpoint-v1",
+  "stages": [
+    10,
+    31,
+    51,
+    85
+  ]
+}

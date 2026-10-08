@@ -1,0 +1,20 @@
+........F                                                                [100%]
+=================================== FAILURES ===================================
+_ test_measured_zero_stb_is_eligible_but_missing_or_positive_copathogen_is_not _
+
+    def test_measured_zero_stb_is_eligible_but_missing_or_positive_copathogen_is_not():
+        df = pd.DataFrame({"stb": [0., 15., 15., 15., 15.], "stb_treated": [0., 5., 5., 5., 5.],
+                           "no_positive_nontarget_at_any_recorded_date": [True, True, True, True, False]})
+        for disease in ["yellow_rust", "brown_rust", "mildew", "leaf_spot"]:
+            df[disease] = 0.
+            df[disease + "_treated"] = 0.
+        df.loc[2, "brown_rust_treated"] = 1.
+        df.loc[3, "brown_rust_treated"] = np.nan
+>       assert estimator.endpoint_eligibility(df).tolist() == [True, True, False, False, False]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'response_estimator' has no attribute 'endpoint_eligibility'
+
+analysis/paper_study/nature_food_revision_20261007/yield_response/tests/test_response_estimator.py:117: AttributeError
+=========================== short test summary info ============================
+FAILED analysis/paper_study/nature_food_revision_20261007/yield_response/tests/test_response_estimator.py::test_measured_zero_stb_is_eligible_but_missing_or_positive_copathogen_is_not
+1 failed, 8 passed in 2.65s

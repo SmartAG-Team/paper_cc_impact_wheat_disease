@@ -1,0 +1,27 @@
+{
+  "status": "verified",
+  "source_access_required": false,
+  "retained_event_rows": 430440,
+  "recomputed_numeric_metrics": 270,
+  "metric_rows": 90,
+  "plotted_metric_rows": 12,
+  "source_files_sha256_checked": 18,
+  "derived_files_sha256_checked": 11,
+  "train_val_test_station_sets_disjoint": true,
+  "withheld_year_validation": false,
+  "test_years_absent_from_training": [],
+  "units": "calendar days",
+  "BBCH85": "soft dough",
+  "figure_visual_check": {
+    "png": "verified: legend, axes, units, stage counts and geometry are legible",
+    "pdf": "one vector page; render visually verified",
+    "png_pixels": [
+      5040,
+      2520
+    ],
+    "pdf_points": [
+      604.8,
+      302.4
+    ]
+  }
+}

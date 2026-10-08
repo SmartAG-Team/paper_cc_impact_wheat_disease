@@ -1,0 +1,42 @@
+..........FFF                                                            [100%]
+=================================== FAILURES ===================================
+____ test_exponential_damage_prediction_preserves_signed_effect_and_origin _____
+
+    def test_exponential_damage_prediction_preserves_signed_effect_and_origin():
+        df = pd.DataFrame({"record": ["A", "B"], "x": [-2., 1.],
+                           "untreated_yield_native": [np.exp(.4), np.exp(-.2)],
+                           "treated_yield_native": [1., 1.]})
+        df["R"] = [1-np.exp(.4), 1-np.exp(-.2)]
+>       fit = estimator.fit_damage(df, ["x"])
+              ^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'response_estimator' has no attribute 'fit_damage'
+
+analysis/paper_study/nature_food_revision_20261007/yield_response/tests/test_response_estimator.py:136: AttributeError
+_____ test_exponential_damage_approaches_one_without_clipping_linear_score _____
+
+    def test_exponential_damage_approaches_one_without_clipping_linear_score():
+        frame = pd.DataFrame({"x": [10., 100.]})
+        fit = {"features": ["x"], "coefficients": [.2]}
+>       predicted = estimator.predict_damage(frame, ["x"], fit)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'response_estimator' has no attribute 'predict_damage'
+
+analysis/paper_study/nature_food_revision_20261007/yield_response/tests/test_response_estimator.py:146: AttributeError
+___ test_damage_fold_never_uses_withheld_yields_for_coefficients_or_baseline ___
+
+    def test_damage_fold_never_uses_withheld_yields_for_coefficients_or_baseline():
+        df = pd.DataFrame({"row_id": ["A1", "B1", "C1"], "record": ["A", "B", "C"],
+                           "control_id": ["A0", "B0", "C0"], "x": [1., 1., 2.],
+                           "untreated_yield_native": [np.exp(-.1), np.exp(-.3), np.exp(-.8)],
+                           "treated_yield_native": [1., 1., 1.]})
+        df["R"] = 1-df.untreated_yield_native
+>       first, _, _ = estimator.leave_one_trial_out(df, ["x"], family="damage")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: leave_one_trial_out() got an unexpected keyword argument 'family'
+
+analysis/paper_study/nature_food_revision_20261007/yield_response/tests/test_response_estimator.py:157: TypeError
+=========================== short test summary info ============================
+FAILED analysis/paper_study/nature_food_revision_20261007/yield_response/tests/test_response_estimator.py::test_exponential_damage_prediction_preserves_signed_effect_and_origin
+FAILED analysis/paper_study/nature_food_revision_20261007/yield_response/tests/test_response_estimator.py::test_exponential_damage_approaches_one_without_clipping_linear_score
+FAILED analysis/paper_study/nature_food_revision_20261007/yield_response/tests/test_response_estimator.py::test_damage_fold_never_uses_withheld_yields_for_coefficients_or_baseline
+3 failed, 10 passed in 4.61s

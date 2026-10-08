@@ -1,0 +1,40 @@
+Nature Food publication revision, 8 October 2026
+
+Publication regeneration from completed evidence
+
+The archive contains the current publication source, frozen simulation code and completed numerical evidence. Python 3.12 and Node.js are required; the citation processor and English locale are vendored in the archive. Python package versions are recorded in Publication_requirements.txt.
+
+After extracting Software_and_Evidence.zip, run from the extracted repository root:
+
+python -m pip install -r Publication_requirements.txt
+python -m analysis.paper_study.nature_food_submission_20261008.build --output publication/european_wheat_stb_regenerated --documents-only
+
+The output directory must be new or empty. This command regenerates five main figures, one main evidence table, the manuscript and supplementary documents, the source workbook and the derived host-offset ratios from completed current-model evidence. It does not require an older publication archive and does not rerun daily climate forcing through the disease model.
+
+Archive regeneration, when required, uses the downloaded evidence archive as an explicit input:
+
+python -m analysis.paper_study.nature_food_submission_20261008.build --output publication/european_wheat_stb_repackaged --evidence-archive /absolute/path/to/Software_and_Evidence.zip
+
+PACKAGE_MANIFEST.json gives SHA-256 checksums and byte counts for all members except itself. Current source files replace any older member with the same path; historical source snapshots preserve their archived identities.
+
+Simulation and forcing-based reruns
+
+The frozen runtime is model.wheat_stb, coupled to model/seasonal_septoria. The supplied synthetic example can be executed using:
+
+python -m model.wheat_stb --config examples/wheat_stb/configuration_standardized_had.json --weather examples/wheat_stb/weather.csv --output new-runtime-directory
+
+Full climate reruns additionally require the checksum-identified sampled-weather cache or the registered NEX-GDDP-CMIP6 forcing products, historical alignment coefficients and area/calendar registries. These large external climate inputs are not recreated from publication tables. Download receipts and source manifests identify their versions; they are not substitutes for the forcing data.
+
+The published climate healthy-area-duration proxy gates functional damage on symptom detection; field replay and the standalone example use their stated reporting operators. Their different meanings are retained in the mathematical specification. Conditional canopy-to-yield products are not validated absolute-yield forecasts. The host-offset percentage is a ratio of modeled contributions on the common supported-forcing population, not the efficacy of a management intervention.
+
+Spatial and environmental-domain analysis
+
+The five main figures include the six-panel SSP-by-period canopy-response map. The crop-stage evaluation remains in Supplementary Figure S18; environmental-region comparisons are in Figure S19 and Tables S14a–e. The frozen 62-cell scenario results retain 64 stratified draw identities. Gray reference wheat pixels have no assigned future response.
+
+The archive includes EEA 2016 centroid assignments for all 14,941 wheat cells, source-query provenance, and all regional and sampled-cell statistics. Original stratified sampling weights define the domain ratios; climate-model spread and spatial MCSE have separate meanings. Regions with fewer than four sampled draws have no reported regional MCSE, and unsampled regions have no response estimate.
+
+The publication build regenerates these statistics from individual paired moments and supported four-corner evidence. Independent numerical verification reconstructs them from individual frozen seasons:
+
+python -m analysis.paper_study.nature_food_submission_20261008.verify_spatial
+
+The original 117.8-MB EEA geometry response is external; its retrieval URL and SHA-256 are recorded in spatial_sources/eea_biogeographical_regions_2016.provenance.json. The included classified registry is sufficient for publication regeneration. Optional reconstruction of centroid assignments uses spatial.assign_regions with the checksum-identified geometry file and the original calendar registry.

@@ -1,0 +1,67 @@
+{
+  "pilot": [
+    {
+      "reference_year": 1991,
+      "label": "Wfuture_Hreference",
+      "seconds": 4.856649541994557,
+      "complete": 64,
+      "active_target_days": 18648,
+      "unavailable_active_weather_days": 0,
+      "alignment": "elapsed calendar days from actual sowing; each active source day consumed once",
+      "source_date_origin": "2070-01-01",
+      "target_date_origin": "1990-01-01",
+      "source_forcing_days": 730,
+      "target_forcing_days": 730,
+      "mass_error": 4.440892098500626e-16,
+      "disease_weather_meanT_above40_active_days": 0
+    },
+    {
+      "reference_year": 1991,
+      "label": "Wreference_Hfuture",
+      "seconds": 1.6024819579906762,
+      "complete": 64,
+      "active_target_days": 16091,
+      "unavailable_active_weather_days": 0,
+      "alignment": "elapsed calendar days from actual sowing; each active source day consumed once",
+      "source_date_origin": "1990-01-01",
+      "target_date_origin": "2070-01-01",
+      "source_forcing_days": 730,
+      "target_forcing_days": 730,
+      "mass_error": 4.440892098500626e-16,
+      "disease_weather_meanT_above40_active_days": 0
+    },
+    {
+      "reference_year": 2020,
+      "label": "Wfuture_Hreference",
+      "seconds": 1.9605929580284283,
+      "complete": 64,
+      "active_target_days": 18419,
+      "unavailable_active_weather_days": 0,
+      "alignment": "elapsed calendar days from actual sowing; each active source day consumed once",
+      "source_date_origin": "2099-01-01",
+      "target_date_origin": "2019-01-01",
+      "source_forcing_days": 730,
+      "target_forcing_days": 731,
+      "mass_error": 4.440892098500626e-16,
+      "disease_weather_meanT_above40_active_days": 2
+    },
+    {
+      "reference_year": 2020,
+      "label": "Wreference_Hfuture",
+      "seconds": 1.7073727919487283,
+      "complete": 64,
+      "active_target_days": 15336,
+      "unavailable_active_weather_days": 0,
+      "alignment": "elapsed calendar days from actual sowing; each active source day consumed once",
+      "source_date_origin": "2019-01-01",
+      "target_date_origin": "2099-01-01",
+      "source_forcing_days": 731,
+      "target_forcing_days": 730,
+      "mass_error": 4.440892098500626e-16,
+      "disease_weather_meanT_above40_active_days": 0
+    }
+  ],
+  "planned_hybrid_batches": 180,
+  "estimated_serial_hybrid_seconds": 330.1169174979441,
+  "outcomes_not_used_to_select_or_modify_decomposition": true
+}

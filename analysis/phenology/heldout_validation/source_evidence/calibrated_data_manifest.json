@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "source": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dataset/data_cleaned.csv",
+  "source_sha256": "cc52dc8acc7769989c837d44ce98b2f951a2c432f8b20ca69e536f5df0accf71",
+  "split_sha256": "9fb40d29bef8e9a8ebce50fdea1abf9b2262b1b16381548f4bec2267289a36b8",
+  "rows": 11862724,
+  "artifacts": {
+    "data_split_updated.csv": "763e60ba2af4889b3c6a6f31b97d7f9c12d076153e6e3ef30ae9d73e6768cd5d",
+    "station_split.json": "7d3965debafbaa9459fb2b6bf8684bc6242ab0089338a63fa7572158a3394956",
+    "calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "gdd_config.csv": "986e21ebf3957f0aed9a1aa44d8995efe53508d745772d6b31188d1af0fd7030",
+    "process_test_metrics.json": "f9576462a1849d0a9ce45cc8fc0ed66dc6e3f0ac09bc6216ce9437150c0be8b4",
+    "simulation_all.csv": "b526fd346f7a688094b70258c79549bfc06d515a0a58b4d0691f25402cfd0cf4",
+    "simulation_test.csv": "026483061ebb842b0b082d381f737cf85f417f58fc9bfa5f2f2c668733dc1f39",
+    "data_cleaned.csv": "f093d5d7eafb4b5e7dec45adf60c45f4fb669c9e6f70e7e90efbad6fa713fc31",
+    "sowing_records.csv": "3c189bc7d6d0ba46f00e1a2b83c3c4f9a81f0ad72b6406ae15f140739a4007ca"
+  }
+}

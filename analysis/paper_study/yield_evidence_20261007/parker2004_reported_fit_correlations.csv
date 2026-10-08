@@ -1,0 +1,6 @@
+source_key,domain,model,metric,value
+Parker2004,"STB, top three","HAD fixed, with environment effects",fitted correlation,0.879
+Parker2004,"STB, top three","HAD random, with environment effects",fitted correlation,0.872
+Parker2004,"STB, top three","HAD fixed, without environment effects",fitted correlation,0.767
+Parker2004,"STB, top three","HAD random, without environment effects",fitted correlation,0.76
+Parker2004,"STB, top three","Symptom area, without environment effects",fitted correlation,0.21

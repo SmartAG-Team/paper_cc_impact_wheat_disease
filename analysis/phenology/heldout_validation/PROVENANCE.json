@@ -1,0 +1,191 @@
+{
+  "source_root": "/Users/gangzhao/Documents/workspace/AGC-Transformer",
+  "source_files_retained": [
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/configs/calibration.json",
+      "destination_path": "source_evidence/calibration.json",
+      "sha256": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+      "bytes": 3455,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/configs/station_split.json",
+      "destination_path": "source_evidence/station_split.json",
+      "sha256": "7d3965debafbaa9459fb2b6bf8684bc6242ab0089338a63fa7572158a3394956",
+      "bytes": 25958,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/configs/evaluation_sites.json",
+      "destination_path": "source_evidence/evaluation_sites.json",
+      "sha256": "ed9f5a5d775847de5d790b5631da28d6c2b0320748b270384081e007b2282f39",
+      "bytes": 12466,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/configs/calibrated_data_manifest.json",
+      "destination_path": "source_evidence/calibrated_data_manifest.json",
+      "sha256": "b6db0c0fa62f55b0323ec88745c59fb703077dd6be8f978390b3f5b252508cb3",
+      "bytes": 1183,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/configs/gdd_config.csv",
+      "destination_path": "source_evidence/gdd_config.csv",
+      "sha256": "986e21ebf3957f0aed9a1aa44d8995efe53508d745772d6b31188d1af0fd7030",
+      "bytes": 181,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/RESULTS_MANIFEST.json",
+      "destination_path": "source_evidence/RESULTS_MANIFEST.json",
+      "sha256": "b33e775b6b0bb673b6f7ef288c9d0eab71f8dc46f6546986a22af5aed25a8019",
+      "bytes": 3262,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/evaluation_source/seasonal_evaluation.py",
+      "destination_path": "source_evidence/seasonal_evaluation.py",
+      "sha256": "22c0cceaea86391fa61476b60037ef214bb1c7740d5e6e7e1c2eb5a21909efc2",
+      "bytes": 18018,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/FINAL_DELIVERY.md",
+      "destination_path": "source_evidence/FINAL_DELIVERY_original.md",
+      "sha256": "8dfb28841fdf93e53d8c77bdaa66cf6a94b791580b300bebfdc0cde8a67dd6fc",
+      "bytes": 3786,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/process_model/calibrate.py",
+      "destination_path": "source_evidence/calibrate_original.py",
+      "sha256": "2be4fb6944a8f6e325bf27311a3443cd057e624fb70e1a2bea7f0bb50f0a6eb7",
+      "bytes": 13161,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/process_model/forecast_input_contract.md",
+      "destination_path": "source_evidence/forecast_input_contract_original.md",
+      "sha256": "0e335ffb9b472545a26c18eb65fc0bed8147d28b21857c371b0fb69eeed3d511",
+      "bytes": 5434,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dataset/sowing_records.json",
+      "destination_path": "source_evidence/sowing_records_original_provenance.json",
+      "sha256": "92cbfa4b43265181aa6af2a860076d09baad1f0162ebf347ff2d4049022db0d9",
+      "bytes": 357,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/exports/.build_20260928_sowing_onward/AGC-Transformer-RTX4090-20260928-sowing-onward/dl_model/phenology/seasonal_data.py",
+      "destination_path": "source_evidence/seasonal_data_original.py",
+      "sha256": "cfb90d59d6798c214810ac93e1ba931d548e8ac03a24e3ce08a928a4c565b7fc",
+      "bytes": 19822,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/calibration/metrics.json",
+      "destination_path": "source_evidence/calibration_metrics_original.json",
+      "sha256": "e192dc19cec8918bf2b665b942c535d0819ac31e71547e34afd013db77ea5700",
+      "bytes": 14159,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/calibration/manifest.json",
+      "destination_path": "source_evidence/calibration_manifest_original.json",
+      "sha256": "4791b7f529ab9b5340c0bbd6571805dd87d40a37c210ab7018d0d966b30804b7",
+      "bytes": 62811,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/validation/metrics.json",
+      "destination_path": "source_evidence/validation_metrics_original.json",
+      "sha256": "af4e7cb35797ff1cfddaca8c5e3845ba7e7bf959af6e51489c65d1bec1bfdecc",
+      "bytes": 14485,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/validation/manifest.json",
+      "destination_path": "source_evidence/validation_manifest_original.json",
+      "sha256": "55f6ab1e3f077c8d4578991b531c297f284322dc5bd5a3942fee27e654c7a885",
+      "bytes": 62812,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/testing/metrics.json",
+      "destination_path": "source_evidence/testing_metrics_original.json",
+      "sha256": "85f07d365a6271e2ce1f10c533d39f03e74c35eabf021e4bc47544838b5e5785",
+      "bytes": 14492,
+      "byte_identical": true
+    },
+    {
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/testing/manifest.json",
+      "destination_path": "source_evidence/testing_manifest_original.json",
+      "sha256": "adffb8ac7ddb112fe1d3755a360bbad745279d649841d1192286eef6b0466b3e",
+      "bytes": 62809,
+      "byte_identical": true
+    }
+  ],
+  "source_event_subsets": [
+    {
+      "cohort": "calibration",
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/calibration/event_dates.csv",
+      "source_sha256": "9128b24d263473230ee9940b365a5cade4c7b41bf09d6b4a936ea398068b8331",
+      "source_rows": 69564,
+      "retained_tpv_rows": 23188,
+      "retained_file": "calibration_tpv_event_dates.csv.gz",
+      "retained_all_models_file": "calibration_all_model_event_dates.csv.gz"
+    },
+    {
+      "cohort": "validation",
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/validation/event_dates.csv",
+      "source_sha256": "c201a02776439b9cbe2a00ace8094cd5cf5377bbf468906d45aebdfca83877d1",
+      "source_rows": 176556,
+      "retained_tpv_rows": 58852,
+      "retained_file": "validation_tpv_event_dates.csv.gz",
+      "retained_all_models_file": "validation_all_model_event_dates.csv.gz"
+    },
+    {
+      "cohort": "testing",
+      "source_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/process_models/testing/event_dates.csv",
+      "source_sha256": "dbdc06b5fbe4180cbbfa965d06bd5e504049162c46737e2fca4b04d804f3b181",
+      "source_rows": 184320,
+      "retained_tpv_rows": 61440,
+      "retained_file": "testing_tpv_event_dates.csv.gz",
+      "retained_all_models_file": "testing_all_model_event_dates.csv.gz"
+    }
+  ],
+  "verification_command": [
+    "/Users/gangzhao/Documents/workspace/agri_water_management/.venv/bin/python",
+    "-B",
+    "/Users/gangzhao/Documents/workspace/AGC-Transformer/results/AGC-PhenFormer-v2-final-results-20260926/evaluation_source/verify_results.py"
+  ],
+  "original_verifier_stdout": {
+    "status": "verified",
+    "models": [
+      "GDD",
+      "T-P",
+      "T-P-V"
+    ],
+    "cohorts": 3,
+    "inventory_files": 27
+  },
+  "original_verifier_exit_code": 0,
+  "derived_files": {
+    "metrics_long.csv": "80e1671483d72e30f1d6d4ff28c31137e2c06866fbfa490fbdd64b87abd17bb1",
+    "heldout_test_figure_data.csv": "a03ddb58da3c2e002261224febe65d104ee4b593abbc6870322f35f6cb4dbc6f",
+    "validation_tpv_event_dates.csv.gz": "c92871245813445ee2a97ce2c92ba50c6ca1867564bf74431b32e14468ece2f2",
+    "validation_summary.json": "13c2d1d79b4706856da13842a71cecd0036ba6bc432b0b8f47e0e360f94a9c43",
+    "testing_tpv_event_dates.csv.gz": "0a64cb47ac7d73c4d387edd53aa00812427778b4a38c7efaacf21ca407461dda",
+    "station_split_summary.csv": "691c21d50a8d2800a4aa451aa13c8383acc4cbc43a7354319b5a20bd46d908b0",
+    "calibration_tpv_event_dates.csv.gz": "9b34185b5200af0360c0bd3c589fe838cb24b524a666164c62bddbee475d3bc3",
+    "event_year_overlap.csv": "ef884f5243a13a99c947049e24480e7ddb4cfe60d7af2ff8c8a5b45e0fb1be34",
+    "calibration_all_model_event_dates.csv.gz": "47ef78d0b28f1063c76270ba56d98d61175c22857dfb2f2d52592d0771e670fe",
+    "validation_all_model_event_dates.csv.gz": "1dea8373c7bb90e957bc9fa81b83037edfc809e2311591a85c42c8ceea1201f6",
+    "testing_all_model_event_dates.csv.gz": "32c51913031f786d15747509484adc1c4a8fec8b3bce6beff817ebb9e554ebb1"
+  },
+  "source_mutation": false,
+  "forward_simulation": false
+}

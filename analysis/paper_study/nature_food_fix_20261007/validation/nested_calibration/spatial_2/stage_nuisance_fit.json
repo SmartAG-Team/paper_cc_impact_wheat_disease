@@ -1,0 +1,162 @@
+{
+  "thresholds": {
+    "32": 638.9461249999999,
+    "33": 664.4962499999999,
+    "37": 702.266,
+    "39": 807.799125
+  },
+  "minimum_loss_days": 0.16250000000000003,
+  "grid_points": 399,
+  "grid_low": 543.4108749999999,
+  "grid_high": 985.539125,
+  "exact_joint_ordering": true,
+  "diagnostics": [
+    {
+      "event": 32,
+      "selected_threshold": 638.9461249999999,
+      "constrained_fields": 20,
+      "genuine_two_sided_fields": 1,
+      "left_bounds": 19,
+      "right_bounds": 0,
+      "joint_profile_loss_tolerance_sets": [
+        {
+          "joint_loss_tolerance_days": 0.0,
+          "threshold_low": 596.7328749999999,
+          "threshold_high": 680.0485,
+          "n_grid_values": 76,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 1.0,
+          "threshold_low": 543.4108749999999,
+          "threshold_high": 784.47075,
+          "n_grid_values": 218,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 2.0,
+          "threshold_low": 543.4108749999999,
+          "threshold_high": 842.2362499999999,
+          "n_grid_values": 270,
+          "confidence_interval": false
+        }
+      ],
+      "poorly_identified": true
+    },
+    {
+      "event": 33,
+      "selected_threshold": 664.4962499999999,
+      "constrained_fields": 20,
+      "genuine_two_sided_fields": 3,
+      "left_bounds": 17,
+      "right_bounds": 0,
+      "joint_profile_loss_tolerance_sets": [
+        {
+          "joint_loss_tolerance_days": 0.0,
+          "threshold_low": 627.837375,
+          "threshold_high": 702.266,
+          "n_grid_values": 68,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 1.0,
+          "threshold_low": 544.52175,
+          "threshold_high": 834.460125,
+          "n_grid_values": 262,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 2.0,
+          "threshold_low": 544.52175,
+          "threshold_high": 893.3365,
+          "n_grid_values": 315,
+          "confidence_interval": false
+        }
+      ],
+      "poorly_identified": true
+    },
+    {
+      "event": 37,
+      "selected_threshold": 702.266,
+      "constrained_fields": 20,
+      "genuine_two_sided_fields": 3,
+      "left_bounds": 17,
+      "right_bounds": 0,
+      "joint_profile_loss_tolerance_sets": [
+        {
+          "joint_loss_tolerance_days": 0.0,
+          "threshold_low": 701.155125,
+          "threshold_high": 703.3768749999999,
+          "n_grid_values": 3,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 1.0,
+          "threshold_low": 545.632625,
+          "threshold_high": 898.890875,
+          "n_grid_values": 319,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 2.0,
+          "threshold_low": 545.632625,
+          "threshold_high": 978.873875,
+          "n_grid_values": 391,
+          "confidence_interval": false
+        }
+      ],
+      "poorly_identified": true
+    },
+    {
+      "event": 39,
+      "selected_threshold": 807.799125,
+      "constrained_fields": 20,
+      "genuine_two_sided_fields": 5,
+      "left_bounds": 15,
+      "right_bounds": 0,
+      "joint_profile_loss_tolerance_sets": [
+        {
+          "joint_loss_tolerance_days": 0.0,
+          "threshold_low": 805.577375,
+          "threshold_high": 811.13175,
+          "n_grid_values": 6,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 1.0,
+          "threshold_low": 613.396,
+          "threshold_high": 985.539125,
+          "n_grid_values": 336,
+          "confidence_interval": false
+        },
+        {
+          "joint_loss_tolerance_days": 2.0,
+          "threshold_low": 554.5196249999999,
+          "threshold_high": 985.539125,
+          "n_grid_values": 389,
+          "confidence_interval": false
+        }
+      ],
+      "poorly_identified": true
+    }
+  ],
+  "q": 1.0,
+  "numeric_bbch_interpolation": false,
+  "calibration_rule": "equal fields, equal constrained events within field; open lower and closed upper dates",
+  "tie_rule": "minimum joint interval loss, then squared distance to joint-profile minimizing plateau centers",
+  "disease_labels_used": false,
+  "evaluation_stage_values_used_for_selection": false,
+  "leaf_rank_spacing_calibrated": false,
+  "true_final_leaf_number_estimated": false,
+  "all_stage_thresholds": {
+    "10": 142.01,
+    "31": 542.3,
+    "32": 638.9461249999999,
+    "33": 664.4962499999999,
+    "37": 702.266,
+    "39": 807.799125,
+    "51": 986.65,
+    "65": 1152.462482,
+    "85": 1760.39
+  }
+}

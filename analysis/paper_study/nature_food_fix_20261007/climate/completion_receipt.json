@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-10-07T13:06:53.105111+00:00",
+  "settings": 14,
+  "GCM_year_batches": 180,
+  "trajectory_batches": 1260,
+  "draw_season_rows": 161280,
+  "spatial_draws": 64,
+  "full_domain_census": false,
+  "maximum_mass_error": 5.551115123125783e-16,
+  "baseline_replay_maximum_numeric_difference": 0.0,
+  "baseline_replay_checked_metric_count": 58,
+  "baseline_replay_same_missingness": true,
+  "registration_sha256": "75497723efa0c324f0bb4a859476f0ece917220e583c66846d1f98e5f2538de2",
+  "source_sha256_verified": true,
+  "total_worker_seconds": 1804.083380709868,
+  "output_sha256": {
+    "paired_changes_by_setting_gcm.csv": "346a2f1ec35eef34626d9de4cb0c5f25aaba03eeb3febd03f76cdf37dc06c1b0",
+    "coverage_by_setting_gcm_period_status.csv": "17568a57a22ee9e840f5a8a61ac25ae6712f5069ec3d8ac7f663d22944530715",
+    "draw_season_outputs.parquet": "0dbd4dd4533880d9c41066d922f28f3715cb0d6770a07919a282b792e5bd4a24",
+    "ensemble_paired_changes.csv": "d0ea9320ea8f6d5bf7e42f13a6c02663803e2c40dd98949b8f33b00450817a41",
+    "ensemble_paired_changes.parquet": "495e2d8763ca03c8654aa965ba0d0c338f465c9cd14c315069021dbf6decdb76",
+    "headline_robustness.csv": "27d1157580088854114c1a9db6c036fff7ca6a792e07d5a8a48d1823f937e0ed",
+    "paired_changes_by_setting_gcm.parquet": "242bea66a6dea674a210fa1b661d6032addd26114907466efa28df66dd23b0c7",
+    "independently_recomputed_headlines.csv": "980d0364beab2b89cc8bececd018ebc0c4fbac11ffbbdefbd8d218350934524d",
+    "paired_draw_moments.parquet": "1ea2caef97b30b6052a5c83cb71321f9f9052f341ee8f6ca6791a19d1ed31db2"
+  }
+}

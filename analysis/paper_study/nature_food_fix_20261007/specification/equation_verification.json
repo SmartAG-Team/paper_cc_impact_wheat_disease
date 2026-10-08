@@ -1,0 +1,29 @@
+{
+  "status": "equations_match_unchanged_implementation",
+  "errors": {
+    "tpv_clocks_max_abs": 0.0,
+    "leaf_capacity_max_abs": 1.1102230246251565e-15,
+    "reference_had_abs": 0.0,
+    "lost_had_abs": 0.0,
+    "conditional_yield_max_abs": 0.0,
+    "weather_exposure_max_abs": 0.0,
+    "disease_source_pathway_max_abs": 3.3306690738754696e-16,
+    "tissue_conservation_max_abs": 3.3306690738754696e-16,
+    "analytic_source_decay_max_abs": 4.440892098500626e-16,
+    "spatial_ratio_paired_mcse_max_abs": 8.881784197001252e-15
+  },
+  "counts": {
+    "tpv_days": 600,
+    "daily_example_days": 376,
+    "weather_cases": 75,
+    "leaf_event_dates": 16,
+    "disease_cases": 36,
+    "spatial_estimates": 3480
+  },
+  "source_hashes_unchanged": true,
+  "parameter_inventory_rows": 84,
+  "scientific_scope": "Numerical equation and output-arithmetic correspondence; not predictive validation.",
+  "unverified_scope": "No new climate-forcing replay or biological/yield accuracy claim.",
+  "specification_sha256": "be824a8d5817d9b96a3f5ea8245282972d1fb5f8c547eef866c62da70c123ad9",
+  "parameter_inventory_sha256": "1e006a41580d03815cd288069c03953381f27004c8e27d936a179bf7c340c7d4"
+}
