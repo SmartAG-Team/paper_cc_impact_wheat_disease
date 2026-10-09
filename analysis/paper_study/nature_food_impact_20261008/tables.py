@@ -14,16 +14,16 @@ def number(value,digits=2,sign=False):
 def main_tables():
     _,regions,_=grid_data()
     p=regions[regions.scenario.eq('ssp585')&regions.period.eq('2071-2100')]
-    rows=[['Environmental region','Δ HAD deficit (days / LAI)','Δ symptom timing (days)',
-           'Δ mean canopy damage (pp)','Conditional Δ yield (kg ha⁻¹ / LAI)']]
+    rows=[['Environmental region','Δ normalized HAD loss (days)','Δ symptom timing (days)',
+           'Δ relative HAD loss (pp)','Estimated Δ yield (kg ha⁻¹ per unit LAI)']]
     for name in ['Europe']+REGIONS:
         q=p[p.environment_region.eq(name)].set_index('metric')
         rows.append([name,number(q.loc[CANOPY,'mean_change'],sign=True),number(q.loc[ONSET,'mean_change'],sign=True),
                      number(100*q.loc[SEVERITY,'mean_change'],sign=True),number(-1000*q.loc[YIELD,'mean_change'],1,True)])
     return [(rows,('Table 1 | Late-century climate impacts across European wheat environmental regions. '
         'Values are harvested-area-weighted three-climate-model mean paired changes under SSP5–8.5 in 2071–2100 relative to 1991–2020. '
-        'Positive HAD and canopy-damage changes indicate greater simulated functional loss; negative timing changes indicate earlier symptoms relative to flowering. '
-        'Conditional yield change uses the fixed coefficient 0.018 t ha⁻¹ per GLAI-day and a nominal upper-three-leaf reference LAI of one. '
+        'Positive normalized HAD-loss and relative HAD-loss changes indicate greater accumulated loss of assumed canopy function; negative timing changes indicate earlier symptoms relative to flowering. '
+        'Estimated disease-related yield change uses the fixed coefficient 0.018 t ha⁻¹ per GLAI-day and a nominal upper-three-leaf reference LAI of one. '
         'The yield column reports a disease-related index, not validated harvested yield. Model ranges, exact regional areas and valid-season coverage are supplied in Supplementary Table S13.'))]
 
 
@@ -40,7 +40,7 @@ def supplementary_tables():
         if old=='S11a':
             caption=('Table S10 | Sensitivity of late-century SSP5–8.5 model responses to fourteen prespecified settings. '
                      'The diagnostic sample retains 64 spatial draws at 62 cells. Metric-specific common paired populations and coverage are retained. '
-                     'Climate-model ranges and spatial sampling error refer to this diagnostic sample rather than the full-grid impact census. '
+                     'Climate-model ranges and spatial sampling error refer to this diagnostic sample separately from the full-grid analysis. '
                      'Yield quantities are conditional canopy-conversion products.')
         if old=='S8b':
             extra=pd.read_csv(ROOT/'analysis/paper_study/nature_food_revision_20261007/basf_crop_response/year_transfer_metrics.csv')
@@ -81,8 +81,8 @@ def supplementary_tables():
       'Calibration records are excluded. Scores preserve the coordinate-year, field, source-leaf and assessment hierarchy. '
       'Intervals use 20,000 paired coordinate-year bootstrap resamples conditional on fixed predictions; source measurement conventions remain explicit in the underlying data.'))
     _,regions,countries=grid_data()
-    rows=[['SSP','Period','Δ HAD (days / LAI)','Δ timing (days)','Δ frequency (pp)',
-           'Δ canopy damage (pp)','Conditional Δ yield (kg ha⁻¹ / LAI)','Valid HAD area-time (%)']]
+    rows=[['SSP','Period','Δ normalized HAD loss (days)','Δ timing (days)','Δ frequency (pp)',
+           'Δ relative HAD loss (pp)','Estimated Δ yield (kg ha⁻¹ per unit LAI)','Valid HAD area-time (%)']]
     p=regions[regions.environment_region.eq('Europe')]
     for (scenario,period),part in p.groupby(['scenario','period']):
         q=part.set_index('metric')
@@ -91,11 +91,11 @@ def supplementary_tables():
           number(100*q.loc[SEVERITY,'mean_change'],sign=True),number(-1000*q.loc[YIELD,'mean_change'],1,True),
           number(100*q.loc[CANOPY,'minimum_valid_area_time_fraction'],3)])
     tables.append((rows,'Table S9 | Full-grid European climate impacts by emissions pathway and harvest period. '
-      'All entries use exact fixed harvested-area weights and metric-specific valid paired area-time support. '
+      'Entries use fixed harvested-area weights over the valid historical–future season pairs for each metric. '
       'Timing is conditional on detected symptoms; occurrence includes symptom-free complete seasons. '
-      'Canopy damage is the reference-area-weighted functional-loss fraction. Conditional yield change uses the reference coefficient and nominal reference LAI.'))
-    for letter,metric,label,scale,unit in [('a',CANOPY,'canopy HAD deficit',1,'days / reference LAI'),
-      ('b',SEVERITY,'mean canopy damage',100,'percentage points'),('c',ONSET,'symptom timing',1,'days relative to flowering')]:
+      'Relative HAD loss is HAD loss divided by reference HAD. Normalized HAD loss is HAD loss divided by maximum reference upper-canopy LAI, with units of days. Estimated disease-related yield change uses the reference coefficient and nominal reference LAI.'))
+    for letter,metric,label,scale,unit in [('a',CANOPY,'normalized HAD loss',1,'days'),
+      ('b',SEVERITY,'relative HAD loss',100,'percentage points'),('c',ONSET,'symptom timing',1,'days relative to flowering')]:
         rows=[['Region','SSP','Mean change','Three-model range','Eligible cells','Reference area (Mha)','Valid area-time (%)']]
         p=regions[regions.metric.eq(metric)&regions.period.eq('2071-2100')]
         for r in p.itertuples():
@@ -103,10 +103,10 @@ def supplementary_tables():
                 f'{scale*r.gcm_min:+.3f} to {scale*r.gcm_max:+.3f}',str(r.calendar_eligible_cells),
                 number(r.reference_area_ha/1e6,3),number(100*r.minimum_valid_area_time_fraction,3)])
         tables.append((rows,f'Table S13{letter} | Full-grid late-century environmental-region changes in {label} ({unit}). '
-          'Reference and future means share the same valid paired support. Model ranges span three deterministic climate-model estimates. '
-          'Unassigned and outside-region groups remain separate from the eight named EEA regions. No spatial sampling error applies to the full census.'))
-    rows=[['Country group','Eligible cells','Reference area (Mha)','Δ HAD (days / LAI)',
-           'Δ timing (days)','Δ canopy damage (pp)','Conditional Δ yield (kg ha⁻¹ / LAI)']]
+          'Historical and future means use identical valid season pairs. Model ranges span three deterministic climate-model estimates. '
+          'Unassigned and outside-region groups remain separate from the eight named EEA regions. All wheat grids are simulated, so these estimates have no spatial sampling error.'))
+    rows=[['Country group','Eligible cells','Reference area (Mha)','Δ normalized HAD loss (days)',
+           'Δ timing (days)','Δ relative HAD loss (pp)','Estimated Δ yield (kg ha⁻¹ per unit LAI)']]
     p=countries[countries.scenario.eq('ssp585')&countries.period.eq('2071-2100')]
     names=p.drop_duplicates('country').sort_values('reference_area_ha',ascending=False).country
     for name in names:
@@ -140,4 +140,15 @@ def supplementary_tables():
       'Environmental assignment follows cell centroids; missing and outside-region assignments remain explicit.'))
     def key(item):
         m=re.match(r'Table S(\d+)([a-z]?)',item[1]);return int(m.group(1)),m.group(2)
-    return sorted(tables,key=key)
+    def wording(value):
+        for old,new in [('days per nominal LAI','days'),('days per reference LAI','days'),
+                        ('days / nominal LAI','days'),('days / reference LAI','days'),
+                        ('days / LAI','days'),('days per nominal upper-three LAI','days'),
+                        ('HAD deficit (days)','Normalized HAD loss (days)'),
+                        ('HAD3 is GLAI-days per unit nominal upper-three-leaf LAI','Normalized HAD loss is expressed in days'),
+                        ('common paired support','identical valid season pairs'),
+                        ('Disease-weather contribution','Weather contribution'),
+                        ('supported-forcing population','seasons meeting the weather input rules')]:
+            value=value.replace(old,new)
+        return value
+    return [([[wording(v) for v in row] for row in rows],wording(cap)) for rows,cap in sorted(tables,key=key)]

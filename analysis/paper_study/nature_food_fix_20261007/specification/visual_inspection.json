@@ -1,6 +1,11 @@
 {
-  "pdf_sha256": "f92f2daa11a491d0fc4a03b61d93b5a2f2a5e7249c6a670804e22091e138265d",
-  "pages_inspected": [
+  "pdf_sha256": "763fb7aa10096e6247cbec9f88e323067b3a18c8d1607e923177490a8eaefd30",
+  "pages_visually_inspected": [
+    1,
+    6,
+    7
+  ],
+  "pages_with_automated_bounds_checks": [
     1,
     2,
     3,
@@ -9,8 +14,10 @@
     6,
     7
   ],
-  "equations_inspected": "S1\u2013S29",
-  "findings": "All equations, subscripts, superscripts, piecewise cases, accents and equation numbers are visible; no clipping or raw TeX. Superscript negative units use available glyphs. Equation lead-ins remain with their following equations.",
-  "word_math": "155 native OMML objects structurally checked; Microsoft Word rendering unavailable.",
-  "source_math_unchanged": true
+  "numbered_equations_unchanged": true,
+  "numbered_equations": 29,
+  "native_word_math_objects": 160,
+  "visible_raw_latex": false,
+  "findings": "Relationships, HAD normalization, yield signs and full-grid versus sampled analyses are explicit; displayed equations and page boundaries are intact.",
+  "word_layout": "Native equation structure checked; Microsoft Word rendering unavailable."
 }

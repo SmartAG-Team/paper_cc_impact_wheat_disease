@@ -79,9 +79,9 @@ def scenario_map(destination,data,countries,cells,metric,stem,unit,scale=1.,peri
 
 
 def disease_map(destination,data,countries,cells,period='2071-2100'):
-    specs=[(FREQUENCY,100,'a   Symptom frequency','Change in grid-season frequency (percentage points)'),
+    specs=[(FREQUENCY,100,'a   Symptom frequency','Change in symptom frequency (percentage points)'),
            (ONSET,1,'b   Symptom timing','Change relative to flowering (days)'),
-           (SEVERITY,100,'c   Mean canopy damage','Change in canopy damage (percentage points)'),
+           (SEVERITY,100,'c   Relative HAD loss','Change in relative HAD loss (percentage points)'),
            ('F1_symptom_day_after_sowing',1,'d   Symptom onset after sowing','Change in days from sowing to symptoms')]
     fig,axes=plt.subplots(2,2,figsize=(8.6,7.0))
     fig.subplots_adjust(left=.055,right=.975,top=.94,bottom=.08,wspace=.26,hspace=.36)
@@ -122,9 +122,9 @@ def domain_figure(destination,regions,countries,period='2071-2100'):
     domain_points(axes[0],regions,'environment_region',REGIONS,CANOPY,period=period)
     domain_points(axes[1],countries,'country',names,YIELD,scale=-1000,period=period)
     axes[0].set_title('a   Canopy damage across environmental regions',loc='left',fontsize=10,fontweight='bold',pad=12)
-    axes[1].set_title('b   Conditional yield response by country',loc='left',fontsize=10,fontweight='bold',pad=12)
-    axes[0].set_xlabel('Change in HAD deficit (days per reference LAI)',fontsize=9)
-    axes[1].set_xlabel('Conditional yield change (kg ha⁻¹ per reference LAI)',fontsize=8.9)
+    axes[1].set_title('b   Estimated yield change by country',loc='left',fontsize=10,fontweight='bold',pad=12)
+    axes[0].set_xlabel('Change in normalized HAD loss (days)',fontsize=9)
+    axes[1].set_xlabel('Estimated yield change (kg ha⁻¹ per unit reference LAI)',fontsize=8.9)
     handles,labels=axes[0].get_legend_handles_labels()
     fig.legend(handles,labels,loc='upper center',bbox_to_anchor=(.52,.995),ncol=3,frameon=False,fontsize=9)
     export(fig,destination,'fig3_regional_and_country_impacts')
@@ -137,7 +137,7 @@ def contribution_figure(destination,stem='fig4_weather_and_crop_contributions',f
     data=pd.read_csv(source).set_index('component')
     offsets=pd.read_csv(ROOT/'analysis/paper_study/nature_food_submission_20261008/derived/weather_host_offset.csv')
     components=['weather_shapley','host_shapley','total_change']+(['interaction'] if full else [])
-    labels=['Disease weather','Crop development','Net change']+(['Weather × crop interaction'] if full else [])
+    labels=['Weather effect','Wheat development','Net change']+(['Weather × crop interaction'] if full else [])
     fig,axes=plt.subplots(1,2,figsize=(9.3,4.5),gridspec_kw={'width_ratios':[1,1]})
     fig.subplots_adjust(left=.15,right=.96,bottom=.21,top=.88,wspace=.59)
     for y,key,color in zip(range(len(components)),components,[BLUE,GREEN,GOLD,GREY]):
@@ -147,8 +147,8 @@ def contribution_figure(destination,stem='fig4_weather_and_crop_contributions',f
         axes[0].annotate(f'{row.gcm_mean:+.2f}',(row.gcm_mean,y),xytext=(0,10),textcoords='offset points',ha='center',fontsize=9,color=color)
     axes[0].set_yticks(range(len(labels)),labels,fontsize=9);axes[0].invert_yaxis()
     axes[0].axvline(0,color=GREY,ls='--',lw=.8);clean(axes[0])
-    axes[0].set_xlabel('HAD contribution (days per reference LAI)',fontsize=8.8)
-    axes[0].set_title('a   Opposing weather and crop responses',loc='left',fontsize=10,fontweight='bold',pad=14)
+    axes[0].set_xlabel('Contribution to normalized HAD loss (days)',fontsize=8.8)
+    axes[0].set_title('a   Weather and wheat-development effects',loc='left',fontsize=10,fontweight='bold',pad=14)
     part=offsets[offsets.climate_model.ne('Three-model ensemble')]
     axes[1].barh(range(3),part.host_offset_percent,color=GREEN,height=.52)
     axes[1].set_yticks(range(3),part.climate_model,fontsize=8.4);axes[1].invert_yaxis()
@@ -156,7 +156,7 @@ def contribution_figure(destination,stem='fig4_weather_and_crop_contributions',f
     ensemble=float(offsets[offsets.climate_model.eq('Three-model ensemble')].host_offset_percent.iloc[0])
     axes[1].axvline(ensemble,color=GREY,ls='--',lw=.9);axes[1].set_xlim(0,103)
     axes[1].set_xlabel('Weather contribution offset by crop development (%)',fontsize=8.7)
-    axes[1].set_title('b   Crop-development offset',loc='left',fontsize=10,fontweight='bold',pad=14);clean(axes[1])
+    axes[1].set_title('b   Offset from wheat development',loc='left',fontsize=10,fontweight='bold',pad=14);clean(axes[1])
     axes[1].text(.02,-.22,f'Ensemble: {ensemble:.1f}%',transform=axes[1].transAxes,fontsize=9,color=GREEN)
     export(fig,destination,stem)
     data.reset_index().to_csv(destination/f'{stem}_components.csv',index=False)
@@ -168,45 +168,16 @@ def main(destination):
     countries=gpd.read_file(ROOT/'data/geography/ne_110m_admin_0_countries.zip')
     cells=data.drop_duplicates('cell_id')
     scenario_map(destination,data,countries,cells,CANOPY,'fig1_grid_climate_canopy_impacts',
-                 'Change in HAD deficit (days per reference LAI)')
+                 'Change in normalized HAD loss (days)')
     disease_map(destination,data,countries,cells)
     domain_figure(destination,regions,country)
     contribution_figure(destination)
     captions={
-      'fig1_grid_climate_canopy_impacts':
-        'Figure 1 | Projected changes in Septoria-related canopy damage across European wheat grids. '
-        '(a–f) Mean changes across three climate models in upper-three-leaf healthy-area-duration (HAD) deficit for two future harvest periods relative to 1991–2020. '
-        'Each 0.25° pixel represents an independently simulated wheat land-use cell. All panels share discrete symmetric color intervals that retain the full range; positive values indicate greater simulated canopy damage. '
-        'Changes pair corresponding reference and future harvest-year indices within each climate model and emissions pathway. '
-        'The fixed SPAM2020 all-wheat mask contains 14,941 cells; 14,932 have the imposed winter-wheat rainfed calendar. Gray wheat pixels have unavailable estimates, and missing seasons remain excluded. '
-        'Reference leaf area index (LAI) is one for the nominal upper-three-leaf canopy. Spatial aggregation uses fixed harvested-area weights. '
-        'Climate-model sign agreement and numerical coverage are reported in Supplementary Fig. S19 and Tables S15–S16.',
-      'fig2_disease_frequency_timing_severity':
-        'Figure 2 | Climate effects on disease occurrence, timing and canopy damage. '
-        'Panels show three-climate-model mean changes under SSP5–8.5 in 2071–2100 relative to 1991–2020. '
-        '(a) Area-independent grid-season frequency of flag-leaf symptoms before soft dough, expressed as a percentage-point change. '
-        '(b) First flag-leaf symptom date relative to flowering; negative values indicate earlier disease relative to the crop. '
-        '(c) Mean simulated functional-canopy loss during grain filling, weighted by daily reference canopy area; this severity proxy differs from observed lesion percentage. '
-        '(d) First flag-leaf symptoms measured in days after the fixed sowing date; negative changes indicate earlier onset. Each panel has its own labeled symmetric discrete color scale. '
-        'Timing is conditional on symptom detection in both paired seasons. Gray wheat pixels have unavailable three-model estimates. '
-        'These quantities describe model responses under fixed management rather than observed disease incidence or validated leaf-level severity.',
-      'fig3_regional_and_country_impacts':
-        'Figure 3 | Environmental-region and country-level differences in climate impacts. '
-        '(a) Harvested-area-weighted changes in grain-fill HAD deficit within eight EEA biogeographical regions. '
-        '(b) Conditional yield changes for the twelve country groups with the largest reference wheat area, selected independently of projected response. '
-        'Both panels compare 2071–2100 with the corresponding 1991–2020 reference under three emissions pathways. '
-        'Markers show three-climate-model means and whiskers span the model-specific estimates; these ranges are not confidence intervals. '
-        'Country assignment follows each cell’s dominant SPAM source-country label and is restricted to the study domain. '
-        'Conditional yield change equals −0.018 times the HAD-deficit change, converted to kg ha⁻¹ per unit reference LAI; negative values indicate a larger disease-related yield-loss index. '
-        'Actual yields and country production tonnages are not estimated. All country groups and their coverage remain in Source Data.',
-      'fig4_weather_and_crop_contributions':
-        'Figure 4 | Crop development counteracts the simulated disease-weather contribution. '
-        '(a) Weather and crop-development Shapley contributions to grain-fill HAD deficit, and their sum, under late-century SSP5–8.5. '
-        'Gray segments span three climate-model means; colored whiskers indicate one spatial Monte Carlo standard error. '
-        'The decomposition uses 64 area-proportional spatial draws at 62 cells and 5,731 supported paired seasons; its population differs from the full-grid impact census. '
-        'The weather–crop interaction is shared equally between contributions and is shown separately in Supplementary Fig. S16. '
-        '(b) Model-specific percentages of the positive weather contribution offset by crop development. The dashed line marks the ratio of ensemble contributions, 70.6%. '
-        'These within-model contributions characterize crop–disease alignment and do not quantify the efficacy of a sowing-date or cultivar intervention.'}
+      'fig1_grid_climate_canopy_impacts': 'Figure 1 | Projected changes in Septoria-related canopy damage across European wheat-growing areas. (a–f) Three-climate-model mean changes in normalized healthy-area-duration (HAD) loss during flowering to soft dough for two future periods relative to 1991–2020. HAD loss is divided by maximum reference upper-three-leaf LAI and expressed in days. Each 0.25° pixel represents a separately simulated wheat-growing cell. Positive values indicate increasing accumulated canopy damage; negative values indicate decreasing damage. The six maps share a symmetric colour scale. The fixed SPAM2020 all-wheat mask contains 14,941 cells, of which 14,932 have a winter-wheat rainfed calendar. Grey wheat pixels have unavailable estimates. Country and regional summaries use fixed harvested-area weights. Supplementary Fig. S19 shows agreement among climate models.',
+      'fig2_disease_frequency_timing_severity': 'Figure 2 | Projected changes in Septoria symptoms and canopy damage. Panels show three-model mean changes under SSP5–8.5 in 2071–2100 relative to 1991–2020. (a) Frequency of seasons with flag-leaf symptoms before soft dough. (b) First symptoms relative to flowering; negative changes indicate earlier symptoms. (c) Relative HAD loss, the fraction of reference healthy-area duration lost during grain filling, expressed as a percentage-point change. This modelled loss of canopy function differs from measured lesion percentage. (d) Days from the fixed sowing date to first symptoms; negative changes indicate a shorter interval. Each panel has its own symmetric colour scale. Timing requires symptoms in both paired seasons, whereas frequency includes complete seasons without symptoms. Grey wheat pixels have unavailable estimates.',
+      'fig3_regional_and_country_impacts': 'Figure 3 | Regional differences in canopy damage and inferred yield response. (a) Harvested-area-weighted changes in normalized HAD loss within eight EEA biogeographical regions. (b) Estimated disease-related yield changes for the twelve countries with the largest reference wheat area within the study domain. Both panels compare 2071–2100 with 1991–2020 under three emissions pathways. Points show three-model means; whiskers span model-specific estimates and are not confidence intervals. Country assignment follows the dominant SPAM source-country label of each cell. The yield estimate uses the change in HAD loss and the fixed coefficient 0.018 t ha⁻¹ per GLAI-day, normalized to unit reference upper-canopy LAI. Negative values indicate increased estimated disease-related yield loss. These estimates require validation of the canopy–yield relationship and do not describe total national production. Source Data includes all country groups.',
+      'fig4_weather_and_crop_contributions': 'Figure 4 | Wheat development offsets part of the weather contribution to Septoria damage. (a) Weather and wheat-development contributions to normalized HAD loss during grain filling, and their sum, under late-century SSP5–8.5. The analysis uses 64 harvested-area-proportional draws at 62 cells and 5,731 valid season pairs. Grey segments span climate-model means; coloured whiskers show one spatial Monte Carlo standard error. Each Shapley contribution includes half of the weather–development interaction, shown separately in Supplementary Fig. S16. (b) Percentage of the weather contribution offset by wheat development in each climate model. The dashed line shows the ratio of ensemble contributions, 70.6%. These comparisons separate effects within the model; they do not estimate the effectiveness of changing sowing dates or cultivars.',
+    }
     (destination/'captions.json').write_text(json.dumps(captions,indent=2)+'\n')
     return captions
 
@@ -302,14 +273,14 @@ def yield_supplementary(destination,exporter):
     fig,axes=plt.subplots(1,2,figsize=(8.7,4.4));fig.subplots_adjust(left=.09,right=.98,bottom=.18,top=.88,wspace=.33)
     axes[0].scatter(replay.F1_symptom_relative_anthesis_days,100*replay.model_proxy_had_loss_fraction,color=BLUE,s=19,alpha=.55)
     axes[1].scatter(replay.grain_fill_days,replay.model_proxy_lost_had3,color=BLUE,s=19,alpha=.55)
-    axes[0].set(xlabel='Flag-leaf symptoms relative to flowering (days)',ylabel='Mean simulated canopy damage (%)')
-    axes[1].set(xlabel='Flowering to soft dough (days)',ylabel='HAD deficit (days per reference LAI)')
+    axes[0].set(xlabel='Flag-leaf symptoms relative to flowering (days)',ylabel='Relative HAD loss (%)')
+    axes[1].set(xlabel='Flowering to soft dough (days)',ylabel='Normalized HAD loss (days)')
     for ax,t in zip(axes,['a   Disease timing and canopy damage','b   Grain-fill duration and canopy damage']):
         ax.set_title(t,loc='left',fontsize=9.7,fontweight='bold');clean(ax)
         ax.xaxis.label.set_size(8.6);ax.yaxis.label.set_size(8.6)
     exporter(fig,destination,'figS8_field_grainfill_exposure')
     captions['figS8_field_grainfill_exposure']=('Figure S8 | Simulated disease timing and grain-fill canopy damage in field weather replays. '
-      'Each point represents one of 218 full-season simulations. (a) Flag-leaf symptoms relative to flowering and reference-area-weighted functional-canopy loss. '
+      'Each point represents one of 218 full-season simulations. (a) Flag-leaf symptoms relative to flowering and relative HAD loss. '
       '(b) Flowering-to-soft-dough duration and HAD deficit. Reference upper-three-leaf LAI is nominally one. '
       'Both axes describe simulated quantities; these relationships do not validate observed disease severity or grain-yield loss.')
     return captions
@@ -320,18 +291,18 @@ def map_supplementary(destination,exporter):
     countries=gpd.read_file(ROOT/'data/geography/ne_110m_admin_0_countries.zip')
     captions={}
     for metric,stem,num,unit,scale in [(ONSET,'figS13_spatial_symptom_changes',13,'Symptom timing change relative to flowering (days)',1),
-          (YIELD,'figS14_spatial_yield_transfers',14,'Conditional yield change (kg ha⁻¹ per reference LAI)',-1000)]:
+          (YIELD,'figS14_spatial_yield_transfers',14,'Estimated yield change (kg ha⁻¹ per unit reference LAI)',-1000)]:
         scenario_map(destination,data,countries,cells,metric,stem,unit,scale)
-        captions[stem]=(f'Figure S{num} | '+('Changes in flag-leaf symptom timing.' if metric==ONSET else 'Conditional disease-related yield changes.')+
+        captions[stem]=(f'Figure S{num} | '+('Changes in flag-leaf symptom timing.' if metric==ONSET else 'Disease-related yield changes inferred from canopy damage.')+
           ' Panels show three-climate-model means at every eligible wheat land-use grid for two future periods relative to 1991–2020. '
           'Each figure shares symmetric discrete color intervals retaining the full data range. Gray wheat pixels have unavailable estimates. '
-          'Timing requires detected symptoms in both paired years. Conditional yield change is −0.018 times the HAD-deficit change, converted to kg ha⁻¹ per reference LAI. '
+          'Timing requires detected symptoms in both paired years. Estimated disease-related yield change is −0.018 times the HAD-loss change, converted to kg ha⁻¹ per reference LAI. '
           'The yield product depends on a fixed canopy–yield coefficient and nominal leaf area rather than a validated grain-yield model.')
     # This historical comparison replaces the superseded single-year example.
     base=data[data.scenario.eq('ssp585')&data.period.eq('2071-2100')]
     fig,axes=plt.subplots(1,2,figsize=(8.9,4.3));fig.subplots_adjust(left=.05,right=.98,bottom=.13,top=.90,wspace=.22)
     for ax,metric,scale,title,unit in [(axes[0],ONSET,1,'a   Historical symptom timing','Symptoms relative to flowering (days)'),
-        (axes[1],SEVERITY,100,'b   Historical canopy damage','Mean canopy damage (%)')]:
+        (axes[1],SEVERITY,100,'b   Historical canopy damage','Relative HAD loss (%)')]:
         p=base[base.metric.eq(metric)].copy();p['value']=scale*p.reference_on_common
         map_axes(ax,countries,cells)
         lo=np.floor(p.value.min()/5)*5;hi=np.ceil(p.value.max()/5)*5
@@ -340,8 +311,8 @@ def map_supplementary(destination,exporter):
         cb=fig.colorbar(im,ax=ax,orientation='horizontal',fraction=.045,pad=.14,shrink=.93);cb.set_label(unit,fontsize=8.6)
     exporter(fig,destination,'figS19_full_grid_example_2001')
     captions['figS19_full_grid_example_2001']=('Figure S19 | Historical simulated disease timing and canopy damage across the full wheat domain. '
-       'Panels show the 1991–2020 reference means on the corresponding valid late-century SSP5–8.5 paired support, averaged across three climate models. '
-       '(a) Flag-leaf symptoms relative to flowering. (b) Grain-fill reference-area-weighted functional-canopy loss. '
+       'Panels show the 1991–2020 reference means on the corresponding seasons included in the late-century SSP5–8.5 comparison, averaged across three climate models. '
+       '(a) Flag-leaf symptoms relative to flowering. (b) Relative HAD loss during grain filling. '
        'Gray wheat pixels have unavailable estimates. These modeled reference distributions differ from observed historical disease prevalence.')
     return captions
 
@@ -442,7 +413,7 @@ def sensitivity_figure(destination):
     fig,axes=plt.subplots(1,2,figsize=(10.3,6.7),sharey=True)
     fig.subplots_adjust(left=.30,right=.98,bottom=.11,top=.92,wspace=.29)
     for ax,metric,letter,title,unit,color in [(axes[0],ONSET,'a','Symptom timing','Change relative to flowering (days)',BLUE),
-       (axes[1],CANOPY,'b','Canopy damage','Change in HAD deficit (days per reference LAI)',GOLD)]:
+       (axes[1],CANOPY,'b','Canopy damage','Change in normalized HAD loss (days)',GOLD)]:
         p=data[data.metric.eq(metric)].set_index('setting').loc[order]
         for y,row in enumerate(p.itertuples()):
             ax.plot([row.gcm_min_change,row.gcm_max_change],[y,y],lw=2.3,color='#b1b6ba')
@@ -453,7 +424,7 @@ def sensitivity_figure(destination):
     axes[0].invert_yaxis();export(fig,destination,'figS15_climate_robustness')
     data.to_csv(destination/'figS15_climate_robustness.csv',index=False)
     return ('Figure S15 | Sensitivity of simulated climate responses to structural and reporting assumptions. '
-      '(a) Flag-leaf symptom timing relative to flowering. (b) Grain-fill HAD deficit. '
+      '(a) Flag-leaf symptom timing relative to flowering. (b) Normalized HAD loss during grain filling. '
       'All fourteen settings retain their common paired late-century SSP5–8.5 diagnostic population. '
       'Gray segments span three climate-model means; colored whiskers show one spatial Monte Carlo standard error for 64 area-proportional draws. '
       'Settings describe selected model assumptions rather than a probability distribution of future disease outcomes; precise settings and coverage remain in Supplementary Table S10.')
@@ -488,3 +459,29 @@ def study_context(destination):
       '(b) EEA biogeographical regions assigned by wheat-cell centroid intersection. Outside-region and unassigned cells remain separate. '
       'The 14,941-cell fixed mask and imposed winter-wheat rainfed calendar define the climate-analysis scenario. '
       'These maps specify the study design and do not display projected disease outcomes.')
+
+
+def supplementary_framework(destination):
+    from matplotlib.patches import FancyBboxPatch,FancyArrowPatch
+    fig,ax=plt.subplots(figsize=(10.5,5.2));ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
+    def box(x,y,w,h,label,color):
+        ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=0.01',fc=color,ec='#9ba8b0',lw=1))
+        ax.text(x+w/2,y+h/2,label,ha='center',va='center',fontsize=9.5,linespacing=1.5,color='#27343d')
+    def arrow(start,end,color=GREY):
+        ax.add_patch(FancyArrowPatch(start,end,arrowstyle='-|>',mutation_scale=13,color=color,lw=1.4))
+    box(.025,.43,.18,.18,'Climate and weather\nTemperature, humidity\nand rainfall','#e6eef4')
+    box(.275,.71,.25,.20,'Wheat development\nLeaf appearance and unfolding\nFlowering and soft dough','#e8f0eb')
+    box(.275,.15,.25,.20,'Septoria disease\nInfection and progression\nSymptoms and leaf damage','#e6eef4')
+    box(.635,.60,.32,.22,'Loss of healthy canopy\nDamage-to-function assumption\nHealthy-area-duration loss','#e8f0eb')
+    box(.635,.13,.32,.22,'Disease-related yield estimate\nPublished HAD–yield coefficient\nConditional on canopy assumptions','#f2ebde')
+    arrow((.21,.57),(.27,.79),BLUE);arrow((.21,.46),(.27,.26),BLUE)
+    arrow((.40,.70),(.40,.36),GREEN)
+    ax.text(.41,.52,'Leaf availability\nand seasonal exposure',ha='left',va='center',fontsize=8.5,color=GREEN)
+    arrow((.535,.81),(.63,.76),GREEN);arrow((.535,.25),(.63,.64),BLUE)
+    arrow((.80,.59),(.80,.36),GOLD)
+    ax.text(.03,.035,'Crop development drives disease exposure; disease damage does not feed back into developmental rates.',fontsize=8.5,color=GREY)
+    export(fig,destination,'figS17_framework')
+    return 'figS17_framework',('Figure S17 | Relationships among climate, wheat development, Septoria disease and the estimated yield response. '
+      'Weather drives wheat development and disease. Leaf availability and seasonal timing connect crop development to infection and damage. '
+      'Disease damage is mapped to an assumed loss of canopy function and integrated as HAD loss. A published coefficient provides a conditional disease-related yield estimate. '
+      'The model has no disease feedback on crop-development rates and no complete crop carbon-balance calculation.')

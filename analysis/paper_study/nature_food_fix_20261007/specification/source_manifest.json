@@ -151,5 +151,7 @@
     "fitted",
     "fixed",
     "scenario"
-  ]
+  ],
+  "reporting_revision_date": "2026-10-09",
+  "climate_analysis": "Full-grid impacts with separate sampled weather-development and sensitivity analyses"
 }

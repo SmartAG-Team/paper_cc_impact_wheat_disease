@@ -1,41 +1,43 @@
 References
 
-1. Silva, J. V. et al. Agronomic management drives the wheat yield plateau in high-yielding environments of northwest Europe. Nat. Food 7, 45–54 (2026).
+1. Savary, S. et al. The global burden of pathogens and pests on major food crops. Nature Ecology & Evolution 3, 430–439 (2019).
 
-2. Savary, S. et al. The global burden of pathogens and pests on major food crops. Nature Ecology & Evolution 3, 430–439 (2019).
+2. Parker, S. R., Welham, S., Paveley, N. D., Foulkes, J. & Scott, R. K. Tolerance of septoria leaf blotch in winter wheat. Plant Pathology 53, 1–10 (2004).
 
-3. Chaloner, T. M., Gurr, S. J. & Bebber, D. P. Plant pathogen infection risk tracks global crop yields under climate change. Nature Climate Change 11, 710–715 (2021).
+3. Silva, J. V. et al. Agronomic management drives the wheat yield plateau in high-yielding environments of northwest Europe. Nat. Food 7, 45–54 (2026).
 
-4. Pequeno, D. N. L. et al. Production vulnerability to wheat blast disease under climate change. Nat. Clim. Change 14, 178–183 (2024).
+4. Chaloner, T. M., Gurr, S. J. & Bebber, D. P. Plant pathogen infection risk tracks global crop yields under climate change. Nature Climate Change 11, 710–715 (2021).
 
-5. Suffert, F. & Sache, I. Relative importance of different types of inoculum to the establishment of Mycosphaerella graminicola in wheat crops in north‐west Europe. Plant Pathology 60, 878–889 (2011).
+5. Pequeno, D. N. L. et al. Production vulnerability to wheat blast disease under climate change. Nat. Clim. Change 14, 178–183 (2024).
 
 6. Shaw, M. W. & Royle, D. J. Airborne inoculum as a major source of Septoria tritici (Mycosphaerella graminicola) infections in winter wheat crops in the UK. Plant Pathology 38, 35–43 (1989).
 
 7. Lovell, D. J., Parker, S. R., Hunter, T., Welham, S. J. & Nichols, A. R. Position of inoculum in the canopy affects the risk of septoria tritici blotch epidemics in winter wheat. Plant Pathology 53, 11–21 (2004).
 
-8. Baccar, R. et al. Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model. Annals of Botany 108, 1179–1194 (2011).
+8. Lovell, D. J., Hunter, T., Powers, S. J., Parker, S. R. & van den Bosch, F. Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions. Plant Pathology 53, 170–181 (2004).
 
-9. Lovell, D. J., Hunter, T., Powers, S. J., Parker, S. R. & van den Bosch, F. Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions. Plant Pathology 53, 170–181 (2004).
+9. Suffert, F. & Sache, I. Relative importance of different types of inoculum to the establishment of Mycosphaerella graminicola in wheat crops in north‐west Europe. Plant Pathology 60, 878–889 (2011).
 
-10. Parker, S. R., Welham, S., Paveley, N. D., Foulkes, J. & Scott, R. K. Tolerance of septoria leaf blotch in winter wheat. Plant Pathology 53, 1–10 (2004).
+10. Baccar, R. et al. Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model. Annals of Botany 108, 1179–1194 (2011).
 
 11. Foulkes, M. J. et al. Major genetic changes in wheat with potential to affect disease tolerance. Phytopathology 96, 680–688 (2006).
 
 12. van den Berg, F., Paveley, N. D., Bingham, I. J. & van den Bosch, F. Physiological traits determining yield tolerance of wheat to foliar diseases. Phytopathology 107, 1468–1478 (2017).
 
-13. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
+13. Bryson, R. J., Paveley, N. D., Clark, W. S., Sylvester-Bradley, R. & Scott, R. K. Use of in-field measurements of green leaf area and incident radiation to estimate the effects of yellow rust epidemics on the yield of winter wheat. European Journal of Agronomy 7, 53–62 (1997).
 
-14. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
+14. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
 
-15. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
+15. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
 
-16. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
+16. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
 
-17. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
+17. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
 
-18. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
+18. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
 
-19. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+19. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
 
-20. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
+20. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+
+21. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).

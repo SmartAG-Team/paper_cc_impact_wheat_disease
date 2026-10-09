@@ -1,20 +1,7 @@
 {
   "status": "passed",
-  "main_figures_inspected": 4,
-  "supplementary_figures_inspected": 21,
-  "main_PDF_pages_inspected": 15,
-  "supplementary_PDF_pages_spot_checked": [
-    1,
-    2,
-    20,
-    29,
-    32,
-    45,
-    54,
-    55
-  ],
-  "all_PDF_text_within_page_frames": true,
-  "main_table_complete_yield_column": true,
-  "figure_wording_and_caption_scope_checked": true,
-  "scope": "Layout, labels and numerical presentation; no new claim of biological prediction skill"
+  "main_pages_reviewed": 15,
+  "main_figures_and_framework_reviewed": 5,
+  "all_pdf_pages_checked_for_clipping": 77,
+  "model_supplement_numbered_equations_unchanged": 29
 }

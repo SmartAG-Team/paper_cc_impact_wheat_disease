@@ -1,9 +1,9 @@
 {
   "status": "complete",
-  "source_sha256": "be824a8d5817d9b96a3f5ea8245282972d1fb5f8c547eef866c62da70c123ad9",
+  "source_sha256": "2230a1e883320c0c5f3f46a14b0ce025e9dd5dc013d73f7978e74c6a05e4e121",
   "numbered_display_equations": 29,
-  "native_word_math_objects": 155,
-  "inline_math_objects": 126,
+  "native_word_math_objects": 160,
+  "inline_math_objects": 131,
   "pdf_pages": 7,
   "raw_latex_commands_in_visible_docx": false,
   "raw_latex_commands_in_pdf_text": false,
@@ -14,8 +14,8 @@
   "pdf_equations": "MathJax SVG rasterized at 576 dpi; shared mathematical source with native Word export.",
   "minimum_display_equation_font_pt": 11.5,
   "output_sha256": {
-    "Supplementary_Model_Specification.docx": "f80b87a3cdc85bb9a98a2f2ba2cd7a1ca503f87732175a916d9bd93a3e708169",
-    "Supplementary_Model_Specification.pdf": "f92f2daa11a491d0fc4a03b61d93b5a2f2a5e7249c6a670804e22091e138265d"
+    "Supplementary_Model_Specification.docx": "7628b5129dd46ee0a0310b338b4461aa5cb1d39d0fb2e391add5a9741f29a738",
+    "Supplementary_Model_Specification.pdf": "763fb7aa10096e6247cbec9f88e323067b3a18c8d1607e923177490a8eaefd30"
   },
   "conversion_dependencies": {
     "mathjax-full": "3.2.2",

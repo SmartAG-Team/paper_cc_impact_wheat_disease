@@ -1,22 +1,22 @@
 {
   "status": "generated",
-  "title": "Climate change redistributes simulated Septoria damage in European wheat",
-  "abstract_words": 145,
-  "main_text_words_excluding_methods": 1923,
+  "title": "Projected climate impacts on Septoria damage in European wheat",
+  "abstract_words": 144,
+  "main_text_words_excluding_methods": 1990,
   "main_figures": 4,
   "main_tables": 1,
   "display_items": 5,
-  "references": 20,
+  "references": 21,
   "supplementary_figures": 21,
   "supplementary_tables": 24,
   "source_workbook_sheets": 40,
   "files": {
-    "Manuscript.docx": "41a779f31165689e0ca2c25ed4a64062b088cb7c322df321a09c4bee53fe51c1",
-    "Manuscript.pdf": "62bad0758654564628e9a4075b5082a24ce999e2d0afd586c51d83cc01b93b7a",
-    "Manuscript.txt": "3de687daedd408dc71ce639d336ffd6b0ab443962dcb4ac293770ace568689d8",
-    "Supplementary_Information.docx": "61771d318f8652ad7cb4718f460b5e6e044a287b03b5e014d8a7098b87d9a489",
-    "Supplementary_Information.pdf": "e7c47d11f0b12c92fed8cbcd706d7c9c194833e7998716c973f324c35eb05645",
-    "Source_Data.xlsx": "4722e49163e47d29502526f4b4617c178ab1511ce9a90c3a59d2e5779a8e76e9",
-    "Software_and_Evidence.zip": "cd4af87031c8c9f86b55401d55fd725ee9cfaf9438ed5c813d8bad784ea888e1"
+    "Manuscript.docx": "4461b65d2ed2b7ba9812ba3d150f227943399b5baccbd7a68f0fb06478fb3480",
+    "Manuscript.pdf": "08b6d272b5bff00aa16530b6d668ecee4e70a266e0b6c33c1c0b15628ec46e87",
+    "Manuscript.txt": "39c5c3c17f97eda6b7d82602c00fcb121caf6bc17008905189645e390268abe0",
+    "Supplementary_Information.docx": "66173cb41294dcb8c2a5d90cba52b8e61214d3233f8b8ba951e843f471894a8b",
+    "Supplementary_Information.pdf": "468dea4394afca7c190813b146b9751c6d9f396ff462287b66b29293989da66f",
+    "Source_Data.xlsx": "2b94b4e421bd03d867dd4f239511c43f91b94acc83ff20fddea4f1de5f907227",
+    "Software_and_Evidence.zip": "960dee10fb735834eadfee59c184743ad7824b97ff70893d642d06ad105d2316"
   }
 }

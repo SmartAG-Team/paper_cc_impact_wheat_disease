@@ -30,3 +30,5 @@ Parameter_inventory.csv contains 84 fixed, fitted and scenario quantities.
 The numerical checks verify calculations, bookkeeping, reporting and archive
 integrity; they do not independently validate biological predictions or absolute
 field yields.
+
+Climate results distinguish crop development, disease symptoms, assumed canopy-function loss and the inferred yield response. Normalized HAD loss is expressed in days after division by maximum reference upper-canopy LAI. The unit-LAI scenario retains the completed numerical values. Disease damage does not feed back into developmental rates, and yield estimates concern the disease component under the published linear relationship.

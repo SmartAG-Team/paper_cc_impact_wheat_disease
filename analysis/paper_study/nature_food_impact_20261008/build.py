@@ -47,12 +47,12 @@ def curate(captions,folder):
     captions['figS15_climate_robustness']=figures.sensitivity_figure(folder)
     figures.contribution_figure(folder,'figS16_weather_host_decomposition',full=True)
     captions['figS16_weather_host_decomposition']=(
-        'Figure S16 | Supported weather–crop decomposition and crop-development offsets. '
+        'Figure S16 | Weather and wheat-development contributions and offsets. '
         '(a) Weather, crop-development and net HAD contributions with the full interaction shown separately. '
         'The interaction is already allocated equally between the two Shapley contributions and is not added again to the net. '
         'Gray segments span climate-model means; colored whiskers show one spatial Monte Carlo standard error. '
         '(b) Model-specific offsets and their ensemble-contribution ratio. The same 5,731 supported paired seasons underlie all HAD terms. '
-        'These sampled diagnostic responses differ from full-grid impact estimates and do not measure intervention benefits.')
+        'The sampled analysis is separate from the full-grid estimates and does not measure intervention benefits.')
     captions['figS20_pooled_field_evaluation']=figures.pooled_validation_figure(folder)
     captions['figS21_study_domain']=figures.study_context(folder)
     # Full-grid source tables are archived separately; obsolete sampled source
@@ -90,11 +90,12 @@ def source_workbook(destination,canonical='publication/european_wheat_stb'):
     sheet=workbook.create_sheet('Definitions');sheet.append(['Quantity','Definition'])
     for row in [
       ['Full-grid population','14,941 fixed all-wheat cells; 14,932 imposed winter-wheat rainfed crop calendars.'],
-      ['Full-grid paired change','Exact fixed harvested-area weighted valid area-time ratio, followed by three-model averaging.'],
+      ['Full-grid paired change','Fixed harvested-area-weighted change over valid paired seasons, followed by three-model averaging.'],
+      ['Normalized HAD loss','HAD loss divided by maximum reference upper-three-leaf LAI; units are days. Numerical values are unchanged when reference LAI equals one.'],
       ['Country group','Dominant SPAM source-country label of a quarter-degree cell; study-domain subset only.'],
       ['Symptom frequency','Fraction of complete simulated grid-seasons with flag-leaf symptoms before soft dough.'],
-      ['Canopy damage severity','Reference-area-weighted functional-loss fraction during grain filling; not lesion percentage.'],
-      ['Conditional yield change','Minus coefficient times HAD change; kg ha-1 per unit nominal reference LAI.'],
+      ['Relative HAD loss','HAD loss divided by reference HAD; percentage of assumed canopy function lost during grain filling, distinct from lesion percentage.'],
+      ['Estimated disease-related yield change','Minus the published coefficient times the change in HAD loss; kg ha-1 per unit maximum reference upper-canopy LAI.'],
       ['Climate-model range','Deterministic minimum and maximum across three climate-model domain estimates; not a confidence interval.'],
       ['Sampled diagnostics','Weather-crop decomposition and structural sensitivity retain 64 draws at 62 cells.'],
       ['Pooled field scores','Equal coordinate-year, field, source-leaf and assessment weight; calibration excluded.'],
@@ -110,6 +111,10 @@ def package(destination,evidence_archive=None):
     for directory in [data.DERIVED,data.GRID]:
         for path in directory.iterdir():
             if path.is_file():additional[path.relative_to(data.ROOT).as_posix()]=path
+    specification=data.ROOT/'analysis/paper_study/nature_food_fix_20261007/specification'
+    for path in specification.rglob('*'):
+        if path.is_file() and 'node_modules' not in path.parts and '__pycache__' not in path.parts:
+            additional[path.relative_to(data.ROOT).as_posix()]=path
     additional[(data.HERE/'Reproducibility.txt').relative_to(data.ROOT).as_posix()]=data.HERE/'Reproducibility.txt'
     for relative in ['analysis/paper_study/full_grid_climate_20261008/run_configuration.json',
                      'analysis/paper_study/nature_food_revision_20261007/continental_replay/configuration_before_results.json']:
@@ -143,6 +148,7 @@ def build(destination,documents_only=False,evidence_archive=None):
     base.environmental_comparison=figures.agreement_figure;base._curated_figures=curate
     base._curated_tables=tables.supplementary_tables;base._source_workbook=source_workbook
     base.prepare=prepare;base._package=package
+    base.supplementary_framework=figures.supplementary_framework
     # The legacy table collector is retained as an immutable callable; replacing
     # it globally would create recursion in the selected published-data tables.
     tables.legacy_tables=LEGACY_TABLES

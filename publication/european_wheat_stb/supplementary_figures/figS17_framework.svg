@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="822.744784pt" height="318.528pt" viewBox="0 0 822.744784 318.528" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="600.3pt" height="302.688pt" viewBox="0 0 600.3 302.688" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-08T21:42:50.105465</dc:date>
+    <dc:date>2026-10-09T12:05:23.187843</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,213 +21,176 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 318.528 
-L 822.744784 318.528 
-L 822.744784 0 
+   <path d="M 0 302.688 
+L 600.3 302.688 
+L 600.3 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 30.25152 197.888256 
-L 159.02208 197.888256 
-Q 171.74016 197.888256 171.74016 193.022208 
-L 171.74016 123.985152 
-Q 171.74016 119.119104 159.02208 119.119104 
-L 30.25152 119.119104 
-Q 17.53344 119.119104 17.53344 123.985152 
-L 17.53344 193.022208 
-Q 17.53344 197.888256 30.25152 197.888256 
+    <path d="M 21.8475 174.40704 
+L 127.3095 174.40704 
+Q 133.1685 174.40704 133.1685 171.52416 
+L 133.1685 119.63232 
+Q 133.1685 116.74944 127.3095 116.74944 
+L 21.8475 116.74944 
+Q 15.9885 116.74944 15.9885 119.63232 
+L 15.9885 171.52416 
+Q 15.9885 174.40704 21.8475 174.40704 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #e6eef4; stroke: #9ba8b0; stroke-linejoin: miter"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #e6eef4; stroke: #9ba8b0; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
-    <path d="M 221.02272 114.253056 
-L 389.53728 114.253056 
-Q 402.25536 114.253056 402.25536 109.387008 
-L 402.25536 37.308672 
-Q 402.25536 32.442624 389.53728 32.442624 
-L 221.02272 32.442624 
-Q 208.30464 32.442624 208.30464 37.308672 
-L 208.30464 109.387008 
-Q 208.30464 114.253056 221.02272 114.253056 
+    <path d="M 168.3225 93.6864 
+L 314.7975 93.6864 
+Q 320.6565 93.6864 320.6565 90.80352 
+L 320.6565 33.14592 
+Q 320.6565 30.26304 314.7975 30.26304 
+L 168.3225 30.26304 
+Q 162.4635 30.26304 162.4635 33.14592 
+L 162.4635 90.80352 
+Q 162.4635 93.6864 168.3225 93.6864 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #e8f0eb; stroke: #9ba8b0; stroke-linejoin: miter"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #e8f0eb; stroke: #9ba8b0; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
-    <path d="M 221.02272 281.523456 
-L 389.53728 281.523456 
-Q 402.25536 281.523456 402.25536 276.657408 
-L 402.25536 204.579072 
-Q 402.25536 199.713024 389.53728 199.713024 
-L 221.02272 199.713024 
-Q 208.30464 199.713024 208.30464 204.579072 
-L 208.30464 276.657408 
-Q 208.30464 281.523456 221.02272 281.523456 
+    <path d="M 168.3225 255.12768 
+L 314.7975 255.12768 
+Q 320.6565 255.12768 320.6565 252.2448 
+L 320.6565 194.5872 
+Q 320.6565 191.70432 314.7975 191.70432 
+L 168.3225 191.70432 
+Q 162.4635 191.70432 162.4635 194.5872 
+L 162.4635 252.2448 
+Q 162.4635 255.12768 168.3225 255.12768 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #e6eef4; stroke: #9ba8b0; stroke-linejoin: miter"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #e6eef4; stroke: #9ba8b0; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 459.48672 197.888256 
-L 608.12928 197.888256 
-Q 620.84736 197.888256 620.84736 193.022208 
-L 620.84736 123.985152 
-Q 620.84736 119.119104 608.12928 119.119104 
-L 459.48672 119.119104 
-Q 446.76864 119.119104 446.76864 123.985152 
-L 446.76864 193.022208 
-Q 446.76864 197.888256 459.48672 197.888256 
+    <path d="M 379.2465 125.39808 
+L 566.7345 125.39808 
+Q 572.5935 125.39808 572.5935 122.5152 
+L 572.5935 59.09184 
+Q 572.5935 56.20896 566.7345 56.20896 
+L 379.2465 56.20896 
+Q 373.3875 56.20896 373.3875 59.09184 
+L 373.3875 122.5152 
+Q 373.3875 125.39808 379.2465 125.39808 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #e8f0eb; stroke: #9ba8b0; stroke-linejoin: miter"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #e8f0eb; stroke: #9ba8b0; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
-    <path d="M 654.23232 105.129216 
-L 783.00288 105.129216 
-Q 795.72096 105.129216 795.72096 100.263168 
-L 795.72096 37.308672 
-Q 795.72096 32.442624 783.00288 32.442624 
-L 654.23232 32.442624 
-Q 641.51424 32.442624 641.51424 37.308672 
-L 641.51424 100.263168 
-Q 641.51424 105.129216 654.23232 105.129216 
+    <path d="M 379.2465 260.89344 
+L 566.7345 260.89344 
+Q 572.5935 260.89344 572.5935 258.01056 
+L 572.5935 194.5872 
+Q 572.5935 191.70432 566.7345 191.70432 
+L 379.2465 191.70432 
+Q 373.3875 191.70432 373.3875 194.5872 
+L 373.3875 258.01056 
+Q 373.3875 260.89344 379.2465 260.89344 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #f2ebde; stroke: #9ba8b0; stroke-linejoin: miter"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #f2ebde; stroke: #9ba8b0; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
-    <path d="M 654.23232 281.523456 
-L 783.00288 281.523456 
-Q 795.72096 281.523456 795.72096 276.657408 
-L 795.72096 206.099712 
-Q 795.72096 201.233664 783.00288 201.233664 
-L 654.23232 201.233664 
-Q 641.51424 201.233664 641.51424 206.099712 
-L 641.51424 276.657408 
-Q 641.51424 281.523456 654.23232 281.523456 
+    <path d="M 131.206679 129.417994 
+Q 147.814713 99.454483 163.663934 70.859987 
+" clip-path="url(#p4b8d06b892)" style="fill: none; stroke: #235e83; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 158.868998 74.147628 
+L 163.663934 70.859987 
+L 163.417086 76.668521 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #f2ebde; stroke: #9ba8b0; stroke-linejoin: miter"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.4; stroke-linecap: round"/>
    </g>
    <g id="patch_8">
-    <path d="M 167.197254 139.297061 
-Q 186.04694 107.564024 204.154348 77.080596 
-" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 199.639557 79.981744 
-L 204.154348 77.080596 
-L 203.766392 82.433118 
+    <path d="M 131.27963 164.582303 
+Q 147.814745 191.702262 163.535033 217.485788 
+" clip-path="url(#p4b8d06b892)" style="fill: none; stroke: #235e83; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 163.047969 211.692449 
+L 163.535033 217.485788 
+L 158.608124 214.399435 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.4; stroke-linecap: round"/>
    </g>
    <g id="patch_9">
-    <path d="M 167.21666 177.703152 
-Q 186.049813 208.687783 204.128044 238.430402 
-" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 203.685784 233.082093 
-L 204.128044 238.430402 
-L 199.584041 235.575225 
+    <path d="M 241.56 95.687559 
+Q 241.56 142.695277 241.56 188.137747 
+" clip-path="url(#p4b8d06b892)" style="fill: none; stroke: #52796f; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 244.16 182.937747 
+L 241.56 188.137747 
+L 238.96 182.937747 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #52796f; stroke: #52796f; stroke-width: 1.4; stroke-linecap: round"/>
    </g>
    <g id="patch_10">
-    <path d="M 305.28 117.163925 
-Q 305.28 156.983249 305.28 195.349129 
-" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #52796f; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 307.68 190.549129 
-L 305.28 195.349129 
-L 302.88 190.549129 
+    <path d="M 322.589534 62.475318 
+Q 348.484244 69.181271 372.863694 75.494817 
+" clip-path="url(#p4b8d06b892)" style="fill: none; stroke: #52796f; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 368.481576 71.67421 
+L 372.863694 75.494817 
+L 367.177937 76.708147 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #52796f; stroke: #52796f; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #52796f; stroke: #52796f; stroke-width: 1.4; stroke-linecap: round"/>
    </g>
    <g id="patch_11">
-    <path d="M 400.354227 78.687807 
-Q 423.716121 106.800718 446.149082 133.795781 
-" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #52796f; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 444.927123 128.570189 
-L 446.149082 133.795781 
-L 441.235433 131.637992 
+    <path d="M 321.54488 221.621502 
+Q 348.487154 167.199025 374.734979 114.17931 
+" clip-path="url(#p4b8d06b892)" style="fill: none; stroke: #235e83; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 370.097813 117.685974 
+L 374.734979 114.17931 
+L 374.75801 119.993041 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #52796f; stroke: #52796f; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.4; stroke-linecap: round"/>
    </g>
    <g id="patch_12">
-    <path d="M 400.300083 238.271383 
-Q 423.71766 207.923781 446.247311 178.726869 
-" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 441.41486 181.06084 
-L 446.247311 178.726869 
-L 445.215017 183.993212 
+    <path d="M 475.92 127.401351 
+Q 475.92 158.553989 475.92 188.141379 
+" clip-path="url(#p4b8d06b892)" style="fill: none; stroke: #a17937; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 478.52 182.941379 
+L 475.92 188.141379 
+L 473.32 182.941379 
 z
-" clip-path="url(#p4bef02ed82)" style="fill: #235e83; stroke: #235e83; stroke-width: 1.3; stroke-linecap: round"/>
-   </g>
-   <g id="patch_13">
-    <path d="M 621.492618 139.120625 
-Q 631.9758 108.322207 641.990646 78.899711 
-" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #a17937; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 638.171972 82.670351 
-L 641.990646 78.899711 
-L 642.715953 84.217034 
-z
-" clip-path="url(#p4bef02ed82)" style="fill: #a17937; stroke: #a17937; stroke-width: 1.3; stroke-linecap: round"/>
-   </g>
-   <g id="patch_14">
-    <path d="M 718.6176 108.041245 
-Q 718.6176 153.180117 718.6176 196.865544 
-" clip-path="url(#p4bef02ed82)" style="fill: none; stroke: #a17937; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 721.0176 192.065544 
-L 718.6176 196.865544 
-L 716.2176 192.065544 
-z
-" clip-path="url(#p4bef02ed82)" style="fill: #a17937; stroke: #a17937; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p4b8d06b892)" style="fill: #a17937; stroke: #a17937; stroke-width: 1.4; stroke-linecap: round"/>
    </g>
    <g id="text_1">
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(35.963691 146.645649)">Daily climate / weather</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(38.032613 162.269086)">Mean and maximum T</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(41.575503 175.935649)">Humidity and rainfall</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(24.877914 134.869959)">Climate and weather</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(20.494555 148.199646)">Temperature, humidity</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(47.716508 163.369959)">and rainfall</text>
    </g>
    <g id="text_2">
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(258.573023 54.167309)">Crop development</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(237.586328 68.812309)">Temperature–photoperiod–</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(236.951133 83.457309)">vernalization; BBCH stages</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(234.407984 98.102309)">Leaf appearance / unfolding</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(193.311875 50.346126)">Wheat development</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(167.56168 64.596126)">Leaf appearance and unfolding</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(181.240938 78.846126)">Flowering and soft dough</text>
    </g>
    <g id="text_3">
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(238.674445 228.760209)">Crop infection / symptoms</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(229.002906 243.405209)">Exposure and source pressure</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(227.129672 258.050209)">Establishment and progression</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(202.10457 211.787406)">Septoria disease</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(181.145938 226.037406)">Infection and progression</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(174.527852 240.287406)">Symptoms and leaf damage</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(485.402172 146.645649)">Upper-leaf damage</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(466.007805 161.290649)">F1–F3 availability and area</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(470.85107 175.935649)">Symptom-gated damage</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(418.350656 79.174926)">Loss of healthy canopy</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(396.138469 93.424926)">Damage-to-function assumption</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(409.972102 107.674926)">Healthy-area-duration loss</text>
    </g>
    <g id="text_5">
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(674.530311 56.927889)">HAD deficit proxy</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(665.249358 72.462162)">GS31–85 or GS65–85</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(656.99103 86.217889)">Nominal upper-three LAI</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(400.483234 214.670286)">Disease-related yield estimate</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(398.099328 228.920286)">Published HAD–yield coefficient</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(388.295773 243.170286)">Conditional on canopy assumptions</text>
    </g>
    <g id="text_6">
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(660.253014 222.198029)">Conditional yield effect</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(671.237553 237.821466)">Fixed HAD transfer</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(680.752069 252.377302)">0.0141–0.0207</text>
-    <text style="font-size: 10.1px; font-family: 'DejaVu Sans'; fill: #27343d" transform="translate(669.549748 266.133029)">t ha⁻¹ per GLAI-day</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; fill: #52796f" transform="translate(247.419 142.685418)">Leaf availability</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; fill: #52796f" transform="translate(247.419 152.887742)">and seasonal exposure</text>
    </g>
    <g id="text_7">
-    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'; fill: #52796f" transform="translate(310.84416 156.303111)">Leaf availability</text>
-    <text style="font-size: 8.7px; font-family: 'DejaVu Sans'; fill: #52796f" transform="translate(310.84416 166.74549)">and renewal</text>
-   </g>
-   <g id="text_8">
-    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; fill: #a17937" transform="translate(730.5408 150.288618)">Fixed canopy–yield</text>
-    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; fill: #a17937" transform="translate(730.5408 160.490942)">transfer coefficients</text>
-   </g>
-   <g id="text_9">
-    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="35.0208" y="23.921325" transform="rotate(-0 35.0208 23.921325)">Climate and weather effects on crop infection, canopy function and yield</text>
-   </g>
-   <g id="text_10">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #737d85" x="27.072" y="306.76608" transform="rotate(-0 27.072 306.76608)">Crop-stage observations  •  Source-numbered disease records  •  Independent canopy–yield treatment contrasts</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #737d85" x="24.777" y="285.39792" transform="rotate(-0 24.777 285.39792)">Crop development drives disease exposure; disease damage does not feed back into developmental rates.</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p4bef02ed82">
-   <rect x="7.2" y="7.2" width="794.88" height="304.128"/>
+  <clipPath id="p4b8d06b892">
+   <rect x="7.2" y="7.2" width="585.9" height="288.288"/>
   </clipPath>
  </defs>
 </svg>

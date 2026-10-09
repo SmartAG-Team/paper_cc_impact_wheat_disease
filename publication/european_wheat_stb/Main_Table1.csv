@@ -1,4 +1,4 @@
-Environmental region,Δ HAD deficit (days / LAI),Δ symptom timing (days),Δ mean canopy damage (pp),Conditional Δ yield (kg ha⁻¹ / LAI)
+Environmental region,Δ normalized HAD loss (days),Δ symptom timing (days),Δ relative HAD loss (pp),Estimated Δ yield (kg ha⁻¹ per unit LAI)
 Europe,+2.66,-3.46,+8.04,-47.8
 Atlantic,+4.85,-3.23,+15.35,-87.3
 Continental,+3.45,-4.41,+10.49,-62.2

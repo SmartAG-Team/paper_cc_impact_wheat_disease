@@ -1,84 +1,86 @@
 Supplementary Information
 
-Climate change redistributes simulated Septoria damage in European wheat
+Projected climate impacts on Septoria damage in European wheat
 
 Gang Zhao
 
 Supplementary Methods
 
-Numerical scope and outcome definitions
+Crop, disease and yield relationships
 
-Full-grid impact results retain 14,941 fixed wheat land-use cells and 14,932 eligible crop calendars. Disease occurrence, timing, damage severity, HAD deficit and conditional yield products use their respective paired valid populations. Invalid seasons retain unavailable outcomes. The full-grid reference registry includes SPAM dominant-country assignment and independent EEA centroid-region assignment; unassigned and outside-region cells remain explicit.
+Daily climate data drive wheat-development and Septoria-disease calculations. Wheat development determines leaf appearance, unfolding and the flowering-to-soft-dough interval. The disease model predicts damage on those leaves; its damage does not feed back into crop-development rates. After symptom detection, damage is mapped to an assumed loss of leaf function. Integration gives HAD loss, and a published coefficient converts HAD loss to a conditional disease-related yield estimate. This final calculation is separate from a complete crop-yield model.
 
-The symptom-frequency indicator equals one for a detectable flag-leaf symptom before soft dough and zero for a symptom-free complete season. The canopy-severity proxy is the flowering-to-soft-dough HAD deficit divided by reference HAD, expressed as a percentage. It integrates reference-area-weighted functional loss and does not reproduce an observed lesion-area percentage. Mean timing conditions on detected symptoms, whereas frequency includes complete symptom-free seasons.
+The reference upper-three-leaf canopy has maximum LAI of one. HAD loss has units of GLAI-days; division by maximum reference LAI gives normalized HAD loss in days. Numerical values are identical in the unit-LAI scenario. Relative HAD loss is the ratio of HAD loss to reference HAD and describes loss of assumed canopy function over the integration interval. Measured leaf-lesion percentage has a different denominator and temporal meaning.
 
-Aggregation and coverage
+Full-grid climate estimates
 
-Grid paired means use corresponding harvest-year indices within each climate model and SSP. Domain means divide the exact harvested-area-weighted paired-change numerator by the valid area-time denominator. Reference and future means are computed on the same support. Model ranges span three independently aggregated domain estimates. Exact area weights remove spatial sampling error from the full-grid census; sampled diagnostic decompositions retain their separate Monte Carlo uncertainty.
+The experiment includes all 14,941 wheat land-use cells, with eligible calendars for 14,932 cells. Invalid seasons have unavailable outcomes. Symptom timing requires detection, while symptom frequency includes complete seasons without symptoms. Each metric has its own valid historical–future pairs. Corresponding positions in the two 30-year periods are paired within a climate model and SSP.
 
-Pooled crop and disease evaluation
+Spatial means divide the harvested-area-weighted sum of paired changes by the harvested-area-weighted number of valid pairs. Historical and future means use these same pairs. Climate-model ranges span three independently aggregated estimates. The full-grid calculation has no spatial sampling error. Environmental regions follow EEA centroid assignment and countries follow dominant SPAM source-country labels; outside-region and unassigned cells remain explicit.
 
-The pooled evaluation contains only the existing noncalibration disease partitions and the geographically eligible external observations. Record membership and source conventions remain recoverable in the accompanying data. The original source labels are retained for traceability while evaluation tables and figures combine their eligible records. Calibration and evaluation share no field identifiers. Coordinate-year identities remain geographic grouping keys, so overlapping keys would not create independent replicates.
+Field observations and prediction scores
 
-For each endpoint, the evaluation weight is the reciprocal of the number of coordinate-years, multiplied by the reciprocals of fields, source leaves and records within each parent group. RMSE is the square root of the resulting weighted mean squared error. Paired bootstrap resampling draws entire coordinate-year groups, retaining both predictions and all field, leaf and date records. Twenty thousand resamples with seed 20261008 give 95% percentile intervals. These intervals exclude parameter-selection uncertainty and independently unverified biological-site identity.
+Pooled disease evaluation excludes calibration records and combines geographically eligible records from both archives. Source identifiers and assessment definitions remain in the evidence files. Calibration and evaluation have no shared field identifiers. Coordinate-year identities define geographic bootstrap groups, with overlapping identities treated as the same group.
 
-Upper-leaf onset comparisons retain genuine two-sided histories and predefined missing-positive penalties. Field developmental-stage evaluation retains two-sided observation intervals; their centers locate displayed symbols and are not used as exact observed dates. Calibration profiles and fully nested selection remain separate from pooled evaluation. Public station data evaluate the retained phenology formulation, while added upper-leaf stages and soft dough have limited informative field evidence.
+An assessment weight is the reciprocal of the number of coordinate-years multiplied by the reciprocals of fields, source leaves and observations within successive groups. RMSE is the square root of the weighted mean squared error. Twenty thousand paired coordinate-year bootstrap resamples, with seed 20261008, give 95% percentile intervals. Every resample retains both predictions and all field, leaf and date records in a sampled group. The intervals exclude parameter-selection uncertainty and verification of independent biological-site identities.
 
-Conditional canopy–yield interpretation
+Symptom-onset comparisons use observed intervals bracketing first symptoms and specified penalties for missed positive observations. Crop-stage evaluation also uses two-sided observation intervals; plotted interval centres are display locations, not exact observed event dates. Calibration profiles and nested model selection are separate from pooled evaluation. German station observations evaluate the established phenology formulation; field support for added upper-leaf stages and soft dough remains limited.
 
-Published protected and unprotected canopy and yield means retain their leaf scope, integration window, cultivar and disease exposure. Eight means across five backgrounds remain in the top-five-canopy holdout; two are STB-specific, two yellow-rust-specific and four have mixed exposure. The absolute and relative response scores evaluate aggregate treatment means with shared published model fitting. No raw plots, covariance or unreported functional-area trajectories are reconstructed.
+Canopy-based yield estimates
 
-The full-grid yield index is a deterministic conversion of HAD deficit under a nominal upper-three-leaf reference LAI. The three fixed coefficients and GS31–85 versus GS65–85 windows quantify scenario dependence. They are not confidence bounds or a validated estimate of total disease-related production loss.
+Published protected and unprotected treatment means retain their leaf coverage, growth-stage interval, cultivar and disease exposure. The eight contrasts across five backgrounds include two with STB alone, two with yellow rust and four with mixed diseases. Absolute and relative yield scores describe aggregate treatment means when each genetic background is excluded from fitting. Raw plot variation and covariance are unavailable.
 
-Diagnostic weather–crop contributions
+The grid yield estimate is a linear conversion of HAD loss under the assumed upper-three-leaf canopy. Fixed coefficients and alternative GS31–85 and GS65–85 intervals assess dependence on these assumptions. The primary interval is shorter than the source coefficient interval, so the conversion requires field validation. Positive projected yield changes denote a decrease in the estimated disease-loss component; they do not establish a gain in total yield under future climate.
 
-The four-corner weather–crop decomposition retains the existing sampled trajectories and their common valid-pair mask. Twenty unsupported hybrid-temperature pairs are excluded before the latest HAD decomposition. Weather and crop contributions include one half of the interaction each and sum to the supported net. Crop offsets use identical numerator and denominator populations. Regional decomposition outputs from the prior sampled analysis remain archived for provenance and are not substituted for full-grid regional impact statistics.
+Weather and crop-development contributions
 
-Reporting populations
+The separate decomposition uses four historical–future combinations of disease weather and wheat-development trajectories in the 64-draw sample. Twenty pairs exceeding the accepted temperature range in a recombined trajectory are excluded. The two Shapley contributions share the interaction equally and sum to the net change on the same valid pairs. Development offsets use the identical pair set in numerator and denominator. The three-model ensemble offset is a ratio of mean contributions.
 
-The main climate figures summarize completed full-grid runs. The decomposition and structural sensitivity figures summarize the frozen 64-draw diagnostic sample. Pooled evaluation figures summarize reused retrospective field observations, and published yield figures summarize aggregate treatment contrasts. These populations evaluate distinct quantities; their counts and accuracy scores are not combined into an overall model-performance percentage.
+The main maps and regional estimates describe the completed full-grid experiment. Decomposition and structural sensitivity describe the separate sampled analysis. Field figures describe prediction errors on retrospective observations, and published yield figures describe treatment-mean contrasts. These datasets support different quantities and do not define a single overall model-accuracy percentage.
 
 References
 
-1. Silva, J. V. et al. Agronomic management drives the wheat yield plateau in high-yielding environments of northwest Europe. Nat. Food 7, 45–54 (2026).
+1. Savary, S. et al. The global burden of pathogens and pests on major food crops. Nature Ecology & Evolution 3, 430–439 (2019).
 
-2. Savary, S. et al. The global burden of pathogens and pests on major food crops. Nature Ecology & Evolution 3, 430–439 (2019).
+2. Parker, S. R., Welham, S., Paveley, N. D., Foulkes, J. & Scott, R. K. Tolerance of septoria leaf blotch in winter wheat. Plant Pathology 53, 1–10 (2004).
 
-3. Chaloner, T. M., Gurr, S. J. & Bebber, D. P. Plant pathogen infection risk tracks global crop yields under climate change. Nature Climate Change 11, 710–715 (2021).
+3. Silva, J. V. et al. Agronomic management drives the wheat yield plateau in high-yielding environments of northwest Europe. Nat. Food 7, 45–54 (2026).
 
-4. Pequeno, D. N. L. et al. Production vulnerability to wheat blast disease under climate change. Nat. Clim. Change 14, 178–183 (2024).
+4. Chaloner, T. M., Gurr, S. J. & Bebber, D. P. Plant pathogen infection risk tracks global crop yields under climate change. Nature Climate Change 11, 710–715 (2021).
 
-5. Suffert, F. & Sache, I. Relative importance of different types of inoculum to the establishment of Mycosphaerella graminicola in wheat crops in north‐west Europe. Plant Pathology 60, 878–889 (2011).
+5. Pequeno, D. N. L. et al. Production vulnerability to wheat blast disease under climate change. Nat. Clim. Change 14, 178–183 (2024).
 
 6. Shaw, M. W. & Royle, D. J. Airborne inoculum as a major source of Septoria tritici (Mycosphaerella graminicola) infections in winter wheat crops in the UK. Plant Pathology 38, 35–43 (1989).
 
 7. Lovell, D. J., Parker, S. R., Hunter, T., Welham, S. J. & Nichols, A. R. Position of inoculum in the canopy affects the risk of septoria tritici blotch epidemics in winter wheat. Plant Pathology 53, 11–21 (2004).
 
-8. Baccar, R. et al. Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model. Annals of Botany 108, 1179–1194 (2011).
+8. Lovell, D. J., Hunter, T., Powers, S. J., Parker, S. R. & van den Bosch, F. Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions. Plant Pathology 53, 170–181 (2004).
 
-9. Lovell, D. J., Hunter, T., Powers, S. J., Parker, S. R. & van den Bosch, F. Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions. Plant Pathology 53, 170–181 (2004).
+9. Suffert, F. & Sache, I. Relative importance of different types of inoculum to the establishment of Mycosphaerella graminicola in wheat crops in north‐west Europe. Plant Pathology 60, 878–889 (2011).
 
-10. Parker, S. R., Welham, S., Paveley, N. D., Foulkes, J. & Scott, R. K. Tolerance of septoria leaf blotch in winter wheat. Plant Pathology 53, 1–10 (2004).
+10. Baccar, R. et al. Modelling the effect of wheat canopy architecture as affected by sowing density on Septoria tritici epidemics using a coupled epidemic–virtual plant model. Annals of Botany 108, 1179–1194 (2011).
 
 11. Foulkes, M. J. et al. Major genetic changes in wheat with potential to affect disease tolerance. Phytopathology 96, 680–688 (2006).
 
 12. van den Berg, F., Paveley, N. D., Bingham, I. J. & van den Bosch, F. Physiological traits determining yield tolerance of wheat to foliar diseases. Phytopathology 107, 1468–1478 (2017).
 
-13. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
+13. Bryson, R. J., Paveley, N. D., Clark, W. S., Sylvester-Bradley, R. & Scott, R. K. Use of in-field measurements of green leaf area and incident radiation to estimate the effects of yellow rust epidemics on the yield of winter wheat. European Journal of Agronomy 7, 53–62 (1997).
 
-14. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
+14. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
 
-15. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
+15. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
 
-16. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
+16. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
 
-17. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
+17. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
 
-18. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
+18. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
 
-19. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+19. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
 
-20. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
+20. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+
+21. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
 
 Table S1a | German station calibration event-date evaluation. All process models use identical station/sowing-cycle/stage matches. Coverage includes observed events lacking shared predictions; Missing n counts unavailable predictions for the individual model. The distinct own-matched denominator is retained in Source Data. The station split does not withhold calendar years. Errors describe realized-weather, known-sowing hindcasts.
 
@@ -310,9 +312,9 @@ Four diseases	Exponential	131	8	19.386	6.460	-8.007
 2019 year transfer; upper three leaves	Linear	12	11	5.23	3.60	-1.107
 2019 year transfer; upper three leaves	Exponential	12	11	5.04	3.60	-0.958
 
-Table S9 | Full-grid European climate impacts by emissions pathway and harvest period. All entries use exact fixed harvested-area weights and metric-specific valid paired area-time support. Timing is conditional on detected symptoms; occurrence includes symptom-free complete seasons. Canopy damage is the reference-area-weighted functional-loss fraction. Conditional yield change uses the reference coefficient and nominal reference LAI.
+Table S9 | Full-grid European climate impacts by emissions pathway and harvest period. Entries use fixed harvested-area weights over the valid historical–future season pairs for each metric. Timing is conditional on detected symptoms; occurrence includes symptom-free complete seasons. Relative HAD loss is HAD loss divided by reference HAD. Normalized HAD loss is HAD loss divided by maximum reference upper-canopy LAI, with units of days. Estimated disease-related yield change uses the reference coefficient and nominal reference LAI.
 
-SSP	Period	Δ HAD (days / LAI)	Δ timing (days)	Δ frequency (pp)	Δ canopy damage (pp)	Conditional Δ yield (kg ha⁻¹ / LAI)	Valid HAD area-time (%)
+SSP	Period	Δ normalized HAD loss (days)	Δ timing (days)	Δ frequency (pp)	Δ relative HAD loss (pp)	Estimated Δ yield (kg ha⁻¹ per unit LAI)	Valid HAD area-time (%)
 SSP126	2031-2060	+1.11	-1.62	-0.026	+3.54	-20.1	99.958
 SSP126	2071-2100	+1.45	-1.71	-0.033	+4.39	-26.0	99.956
 SSP245	2031-2060	+0.77	-0.96	-0.069	+2.46	-13.8	99.960
@@ -320,50 +322,50 @@ SSP245	2071-2100	+1.55	-1.94	-0.219	+4.90	-27.8	99.913
 SSP585	2031-2060	+1.53	-1.81	-0.087	+4.77	-27.5	99.958
 SSP585	2071-2100	+2.66	-3.46	-0.400	+8.04	-47.8	99.922
 
-Table S10 | Sensitivity of late-century SSP5–8.5 model responses to fourteen prespecified settings. The diagnostic sample retains 64 spatial draws at 62 cells. Metric-specific common paired populations and coverage are retained. Climate-model ranges and spatial sampling error refer to this diagnostic sample rather than the full-grid impact census. Yield quantities are conditional canopy-conversion products.
+Table S10 | Sensitivity of late-century SSP5–8.5 model responses to fourteen prespecified settings. The diagnostic sample retains 64 spatial draws at 62 cells. Metric-specific common paired populations and coverage are retained. Climate-model ranges and spatial sampling error refer to this diagnostic sample separately from the full-grid analysis. Yield quantities are conditional canopy-conversion products.
 
 Setting	Outcome	Mean change	Three-GCM range	Spatial MCSE	Common-pair coverage
 baseline	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
-baseline	HAD deficit (days per nominal LAI)	+2.617	+1.283 to +4.392	0.327	100.0–100.0%
+baseline	Normalized HAD loss (days)	+2.617	+1.283 to +4.392	0.327	100.0–100.0%
 baseline	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.047	+0.023 to +0.079	0.006	100.0–100.0%
 decline end0 conversion0p5	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
-decline end0 conversion0p5	HAD deficit (days per nominal LAI)	+0.629	+0.308 to +1.068	0.075	100.0–100.0%
+decline end0 conversion0p5	Normalized HAD loss (days)	+0.629	+0.308 to +1.068	0.075	100.0–100.0%
 decline end0 conversion0p5	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.011	+0.006 to +0.019	0.001	100.0–100.0%
 detection0p0001	Flag-leaf symptoms (days relative to anthesis)	-3.800	-7.331 to -1.109	0.888	88.3–95.3%
-detection0p0001	HAD deficit (days per nominal LAI)	+2.617	+1.283 to +4.392	0.327	100.0–100.0%
+detection0p0001	Normalized HAD loss (days)	+2.617	+1.283 to +4.392	0.327	100.0–100.0%
 detection0p0001	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.047	+0.023 to +0.079	0.006	100.0–100.0%
 detection0p01	Flag-leaf symptoms (days relative to anthesis)	-3.993	-5.811 to -2.493	0.718	88.3–95.3%
-detection0p01	HAD deficit (days per nominal LAI)	+2.620	+1.287 to +4.397	0.328	100.0–100.0%
+detection0p01	Normalized HAD loss (days)	+2.620	+1.287 to +4.397	0.328	100.0–100.0%
 detection0p01	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.047	+0.023 to +0.079	0.006	100.0–100.0%
 functional conversion0p5	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
-functional conversion0p5	HAD deficit (days per nominal LAI)	+1.308	+0.642 to +2.196	0.164	100.0–100.0%
+functional conversion0p5	Normalized HAD loss (days)	+1.308	+0.642 to +2.196	0.164	100.0–100.0%
 functional conversion0p5	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.024	+0.012 to +0.040	0.003	100.0–100.0%
 functional conversion0p75	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
-functional conversion0p75	HAD deficit (days per nominal LAI)	+1.962	+0.962 to +3.294	0.245	100.0–100.0%
+functional conversion0p75	Normalized HAD loss (days)	+1.962	+0.962 to +3.294	0.245	100.0–100.0%
 functional conversion0p75	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.035	+0.017 to +0.059	0.004	100.0–100.0%
 local source off	Flag-leaf symptoms (days relative to anthesis)	-4.291	-6.861 to -2.272	0.459	88.3–95.3%
-local source off	HAD deficit (days per nominal LAI)	+2.317	+1.005 to +4.136	0.290	100.0–100.0%
+local source off	Normalized HAD loss (days)	+2.317	+1.005 to +4.136	0.290	100.0–100.0%
 local source off	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.042	+0.018 to +0.074	0.005	100.0–100.0%
 primary objective tied runnerup	Flag-leaf symptoms (days relative to anthesis)	-3.524	-5.728 to -1.871	0.500	88.3–95.3%
-primary objective tied runnerup	HAD deficit (days per nominal LAI)	+2.582	+1.265 to +4.388	0.322	100.0–100.0%
+primary objective tied runnerup	Normalized HAD loss (days)	+2.582	+1.265 to +4.388	0.322	100.0–100.0%
 primary objective tied runnerup	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.046	+0.023 to +0.079	0.006	100.0–100.0%
 rank spacing160	Flag-leaf symptoms (days relative to anthesis)	-3.762	-6.438 to -1.730	0.473	88.3–95.3%
-rank spacing160	HAD deficit (days per nominal LAI)	+2.801	+1.389 to +4.673	0.351	100.0–100.0%
+rank spacing160	Normalized HAD loss (days)	+2.801	+1.389 to +4.673	0.351	100.0–100.0%
 rank spacing160	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.050	+0.025 to +0.084	0.006	100.0–100.0%
 rank spacing80	Flag-leaf symptoms (days relative to anthesis)	-3.348	-5.685 to -1.612	0.491	88.3–95.3%
-rank spacing80	HAD deficit (days per nominal LAI)	+1.643	+0.631 to +3.001	0.225	100.0–100.0%
+rank spacing80	Normalized HAD loss (days)	+1.643	+0.631 to +3.001	0.225	100.0–100.0%
 rank spacing80	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.030	+0.011 to +0.054	0.004	100.0–100.0%
 reference decline end0	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
-reference decline end0	HAD deficit (days per nominal LAI)	+1.258	+0.617 to +2.136	0.150	100.0–100.0%
+reference decline end0	Normalized HAD loss (days)	+1.258	+0.617 to +2.136	0.150	100.0–100.0%
 reference decline end0	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.023	+0.011 to +0.038	0.003	100.0–100.0%
 reference decline end0p5	Flag-leaf symptoms (days relative to anthesis)	-3.797	-6.323 to -1.888	0.454	88.3–95.3%
-reference decline end0p5	HAD deficit (days per nominal LAI)	+1.938	+0.950 to +3.264	0.238	100.0–100.0%
+reference decline end0p5	Normalized HAD loss (days)	+1.938	+0.950 to +3.264	0.238	100.0–100.0%
 reference decline end0p5	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.035	+0.017 to +0.059	0.004	100.0–100.0%
 stage profile early37	Flag-leaf symptoms (days relative to anthesis)	-5.464	-9.195 to -2.675	0.671	88.3–95.3%
-stage profile early37	HAD deficit (days per nominal LAI)	+2.549	+1.151 to +4.443	0.319	100.0–100.0%
+stage profile early37	Normalized HAD loss (days)	+2.549	+1.151 to +4.443	0.319	100.0–100.0%
 stage profile early37	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.046	+0.021 to +0.080	0.006	100.0–100.0%
 stage profile late37	Flag-leaf symptoms (days relative to anthesis)	-1.543	-2.802 to -0.729	0.286	88.3–95.3%
-stage profile late37	HAD deficit (days per nominal LAI)	+1.807	+0.819 to +3.123	0.248	100.0–100.0%
+stage profile late37	Normalized HAD loss (days)	+1.807	+0.819 to +3.123	0.248	100.0–100.0%
 stage profile late37	Conditional yield effect (t ha⁻¹ per nominal LAI)	+0.033	+0.015 to +0.056	0.004	100.0–100.0%
 
 Table S11 | Parameter and scenario inventory. Values retain their model, calibration or registered-sensitivity provenance; uncertainty describes identification or scenario status, not a probability distribution unless explicitly stated. The complete nine-column machine-readable inventory is supplied as Parameter_inventory.csv.
@@ -454,15 +456,15 @@ n_year	period_year_count	30	yr	fixed	Historical 1991–2020; future 2031–2060 
 n_GCM	climate_model_count	3	count	scenario	ACCESS-CM2, MPI-ESM1-2-HR, MRI-ESM2-0; range is not a confidence interval.
 calendar_type	regional_crop_calendar_type	"winter wheat/rainfed on all-wheat registered area"	policy	scenario	Genetic wheat type not verified; calendar and area mismatch is a structural limitation.
 
-Table S12a | Four-combination Shapley decomposition for GS65–85 upper-three-leaf HAD proxy loss under SSP5–8.5. Interaction is allocated equally between the two contributions; weather plus host equals the net. Twenty of 5,751 finite pairs are excluded because a hybrid active-day disease-weather mean exceeds 40 °C. The supported-forcing population and all decomposition terms share the remaining 5,731 pairs. Contributions are model-response components, not physical causal effects or measured yield.
+Table S12a | Four-combination Shapley decomposition for GS65–85 upper-three-leaf HAD proxy loss under SSP5–8.5. Interaction is allocated equally between the two contributions; weather plus host equals the net. Twenty of 5,751 finite pairs are excluded because a hybrid active-day disease-weather mean exceeds 40 °C. The seasons meeting the weather input rules and all decomposition terms share the remaining 5,731 pairs. Contributions are model-response components, not physical causal effects or measured yield.
 
 Component	Mean (HAD days)	GCM range	Spatial MCSE	Coverage	Draw-year pairs
-Disease-weather contribution	+9.004	+6.528 to +12.221	0.621	99.20–99.86%	1909–1912
+Weather contribution	+9.004	+6.528 to +12.221	0.621	99.20–99.86%	1909–1912
 Host-development contribution	-6.360	-7.774 to -5.244	0.377	99.20–99.86%	1909–1912
 Net HAD change	+2.644	+1.285 to +4.447	0.329	99.20–99.86%	1909–1912
 Weather × host interaction	-2.784	-3.119 to -2.372	0.300	99.20–99.86%	1909–1912
 
-Table S12b | Host development offsets part of the weather contribution to modeled canopy damage. HAD changes are days per unit nominal reference LAI on the common supported-forcing population. Host offset is −100 × host/weather; the ensemble percentage is the ratio of the three-model mean contributions, not the mean of the model-specific percentages. The interaction is already allocated equally to the weather and host terms. Percentages are descriptive model ratios without probability intervals and do not measure the benefit of an adaptation intervention.
+Table S12b | Host development offsets part of the weather contribution to modeled canopy damage. HAD changes are days per unit nominal reference LAI on the common seasons meeting the weather input rules. Host offset is −100 × host/weather; the ensemble percentage is the ratio of the three-model mean contributions, not the mean of the model-specific percentages. The interaction is already allocated equally to the weather and host terms. Percentages are descriptive model ratios without probability intervals and do not measure the benefit of an adaptation intervention.
 
 Climate model	Weather ΔHAD	Host ΔHAD	Net ΔHAD	Host offset (%)
 ACCESS-CM2	+12.221	-7.774	+4.447	63.6
@@ -470,7 +472,7 @@ MPI-ESM1-2-HR	+8.261	-6.061	+2.200	73.4
 MRI-ESM2-0	+6.528	-5.244	+1.285	80.3
 Three-model ensemble	+9.004	-6.360	+2.644	70.6
 
-Table S13a | Full-grid late-century environmental-region changes in canopy HAD deficit (days / reference LAI). Reference and future means share the same valid paired support. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. No spatial sampling error applies to the full census.
+Table S13a | Full-grid late-century environmental-region changes in normalized HAD loss (days). Historical and future means use identical valid season pairs. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. All wheat grids are simulated, so these estimates have no spatial sampling error.
 
 Region	SSP	Mean change	Three-model range	Eligible cells	Reference area (Mha)	Valid area-time (%)
 Alpine	SSP126	+1.599	+0.817 to +2.454	828	0.996	99.025
@@ -507,7 +509,7 @@ Unassigned	SSP126	+1.112	-2.251 to +3.568	653	0.466	99.826
 Unassigned	SSP245	+1.196	-1.190 to +4.361	653	0.466	99.837
 Unassigned	SSP585	+2.648	+0.169 to +5.269	653	0.466	99.832
 
-Table S13b | Full-grid late-century environmental-region changes in mean canopy damage (percentage points). Reference and future means share the same valid paired support. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. No spatial sampling error applies to the full census.
+Table S13b | Full-grid late-century environmental-region changes in relative HAD loss (percentage points). Historical and future means use identical valid season pairs. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. All wheat grids are simulated, so these estimates have no spatial sampling error.
 
 Region	SSP	Mean change	Three-model range	Eligible cells	Reference area (Mha)	Valid area-time (%)
 Alpine	SSP126	+5.525	+3.193 to +8.683	828	0.996	99.025
@@ -544,7 +546,7 @@ Unassigned	SSP126	+3.195	-5.573 to +10.097	653	0.466	99.826
 Unassigned	SSP245	+3.515	-2.957 to +12.395	653	0.466	99.837
 Unassigned	SSP585	+7.725	+0.914 to +14.958	653	0.466	99.832
 
-Table S13c | Full-grid late-century environmental-region changes in symptom timing (days relative to flowering). Reference and future means share the same valid paired support. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. No spatial sampling error applies to the full census.
+Table S13c | Full-grid late-century environmental-region changes in symptom timing (days relative to flowering). Historical and future means use identical valid season pairs. Model ranges span three deterministic climate-model estimates. Unassigned and outside-region groups remain separate from the eight named EEA regions. All wheat grids are simulated, so these estimates have no spatial sampling error.
 
 Region	SSP	Mean change	Three-model range	Eligible cells	Reference area (Mha)	Valid area-time (%)
 Alpine	SSP126	-1.425	-1.978 to -0.702	828	0.996	98.640
@@ -583,7 +585,7 @@ Unassigned	SSP585	-2.283	-4.063 to -0.990	653	0.466	99.569
 
 Table S14 | Country-group climate impacts under late-century SSP5–8.5. Groups follow the dominant SPAM source-country assignment of quarter-degree wheat cells within the study domain. Values are exact harvested-area-weighted model scenario responses rather than observed national averages. Cross-border cells are not partitioned, and the Russian Federation and Turkey entries cover only represented domain cells. All SSP-specific estimates, climate-model ranges and valid area-time coverage remain in Source Data.
 
-Country group	Eligible cells	Reference area (Mha)	Δ HAD (days / LAI)	Δ timing (days)	Δ canopy damage (pp)	Conditional Δ yield (kg ha⁻¹ / LAI)
+Country group	Eligible cells	Reference area (Mha)	Δ normalized HAD loss (days)	Δ timing (days)	Δ relative HAD loss (pp)	Estimated Δ yield (kg ha⁻¹ per unit LAI)
 Russian Federation	4001	19.723	+1.74	-4.19	+5.19	-31.3
 Ukraine	1211	6.806	+0.18	-3.48	-0.56	-3.2
 France	1083	5.015	+4.13	-2.42	+13.49	-74.3
@@ -666,7 +668,7 @@ Figure S6 | Pooled symptom-onset errors for source-numbered leaves 1–3. All 13
 
 Figure S7 | Ordered stage-threshold identification from calibration-only observations. Each blue curve is the minimum joint loss conditional on that threshold, after optimizing the other ordered stage thresholds. Dashed vertical lines mark the selected values; horizontal lines show declared one- and two-day loss tolerances. The displayed range is zero to three days above the joint minimum; all 399 grid values for each event remain in Source Data. Loss-tolerance regions describe identification and are not statistical confidence intervals.
 
-Figure S8 | Simulated disease timing and grain-fill canopy damage in field weather replays. Each point represents one of 218 full-season simulations. (a) Flag-leaf symptoms relative to flowering and reference-area-weighted functional-canopy loss. (b) Flowering-to-soft-dough duration and HAD deficit. Reference upper-three-leaf LAI is nominally one. Both axes describe simulated quantities; these relationships do not validate observed disease severity or grain-yield loss.
+Figure S8 | Simulated disease timing and grain-fill canopy damage in field weather replays. Each point represents one of 218 full-season simulations. (a) Flag-leaf symptoms relative to flowering and relative HAD loss. (b) Flowering-to-soft-dough duration and HAD deficit. Reference upper-three-leaf LAI is nominally one. Both axes describe simulated quantities; these relationships do not validate observed disease severity or grain-yield loss.
 
 Figure S9 | All 117 reported protected-minus-unprotected grain-yield contrasts in Parker et al. (2004), Table 4. The 25 cultivars and six site-years are retained, including five negative contrasts; grey cells indicate unreported combinations. Values are published treatment contrasts from a three-replicate field design, not independent plot records. They supply empirical yield outcomes for the study whose crop-impact relationship integrates absolute green area over the top three leaves.
 
@@ -674,17 +676,17 @@ Figure S10 | All 25 cultivar response predictions from Parker et al. (2004), Tab
 
 Figure S11 | Leave-one-genetic-background-out reproduction of the published top-five paired means. One nonnegative origin-constrained coefficient is fitted to the other four genetic backgrounds in each fold. (a) Relative HAD-loss to relative yield-loss transfer; (b) absolute HAD-loss to absolute grain-loss transfer. Metrics give each background equal weight, divided among its lines. This is a small aggregate-data benchmark with shared mixed-model means and unbalanced disease/site coverage. It is not raw-plot validation, does not remove environmental confounding and does not calibrate the current top-three transfer. Negative absolute-response R² identifies failure of a universal absolute slope.
 
-Figure S12 | Changes in flag-leaf symptom timing. Panels show three-climate-model means at every eligible wheat land-use grid for two future periods relative to 1991–2020. Each figure shares symmetric discrete color intervals retaining the full data range. Gray wheat pixels have unavailable estimates. Timing requires detected symptoms in both paired years. Conditional yield change is −0.018 times the HAD-deficit change, converted to kg ha⁻¹ per reference LAI. The yield product depends on a fixed canopy–yield coefficient and nominal leaf area rather than a validated grain-yield model.
+Figure S12 | Changes in flag-leaf symptom timing. Panels show three-climate-model means at every eligible wheat land-use grid for two future periods relative to 1991–2020. Each figure shares symmetric discrete color intervals retaining the full data range. Gray wheat pixels have unavailable estimates. Timing requires detected symptoms in both paired years. Estimated disease-related yield change is −0.018 times the HAD-loss change, converted to kg ha⁻¹ per reference LAI. The yield product depends on a fixed canopy–yield coefficient and nominal leaf area rather than a validated grain-yield model.
 
-Figure S13 | Conditional disease-related yield changes. Panels show three-climate-model means at every eligible wheat land-use grid for two future periods relative to 1991–2020. Each figure shares symmetric discrete color intervals retaining the full data range. Gray wheat pixels have unavailable estimates. Timing requires detected symptoms in both paired years. Conditional yield change is −0.018 times the HAD-deficit change, converted to kg ha⁻¹ per reference LAI. The yield product depends on a fixed canopy–yield coefficient and nominal leaf area rather than a validated grain-yield model.
+Figure S13 | Disease-related yield changes inferred from canopy damage. Panels show three-climate-model means at every eligible wheat land-use grid for two future periods relative to 1991–2020. Each figure shares symmetric discrete color intervals retaining the full data range. Gray wheat pixels have unavailable estimates. Timing requires detected symptoms in both paired years. Estimated disease-related yield change is −0.018 times the HAD-loss change, converted to kg ha⁻¹ per reference LAI. The yield product depends on a fixed canopy–yield coefficient and nominal leaf area rather than a validated grain-yield model.
 
-Figure S14 | Historical simulated disease timing and canopy damage across the full wheat domain. Panels show the 1991–2020 reference means on the corresponding valid late-century SSP5–8.5 paired support, averaged across three climate models. (a) Flag-leaf symptoms relative to flowering. (b) Grain-fill reference-area-weighted functional-canopy loss. Gray wheat pixels have unavailable estimates. These modeled reference distributions differ from observed historical disease prevalence.
+Figure S14 | Historical simulated disease timing and canopy damage across the full wheat domain. Panels show the 1991–2020 reference means on the corresponding seasons included in the late-century SSP5–8.5 comparison, averaged across three climate models. (a) Flag-leaf symptoms relative to flowering. (b) Relative HAD loss during grain filling. Gray wheat pixels have unavailable estimates. These modeled reference distributions differ from observed historical disease prevalence.
 
-Figure S15 | Sensitivity of simulated climate responses to structural and reporting assumptions. (a) Flag-leaf symptom timing relative to flowering. (b) Grain-fill HAD deficit. All fourteen settings retain their common paired late-century SSP5–8.5 diagnostic population. Gray segments span three climate-model means; colored whiskers show one spatial Monte Carlo standard error for 64 area-proportional draws. Settings describe selected model assumptions rather than a probability distribution of future disease outcomes; precise settings and coverage remain in Supplementary Table S10.
+Figure S15 | Sensitivity of simulated climate responses to structural and reporting assumptions. (a) Flag-leaf symptom timing relative to flowering. (b) Normalized HAD loss during grain filling. All fourteen settings retain their common paired late-century SSP5–8.5 diagnostic population. Gray segments span three climate-model means; colored whiskers show one spatial Monte Carlo standard error for 64 area-proportional draws. Settings describe selected model assumptions rather than a probability distribution of future disease outcomes; precise settings and coverage remain in Supplementary Table S10.
 
-Figure S16 | Supported weather–crop decomposition and crop-development offsets. (a) Weather, crop-development and net HAD contributions with the full interaction shown separately. The interaction is already allocated equally between the two Shapley contributions and is not added again to the net. Gray segments span climate-model means; colored whiskers show one spatial Monte Carlo standard error. (b) Model-specific offsets and their ensemble-contribution ratio. The same 5,731 supported paired seasons underlie all HAD terms. These sampled diagnostic responses differ from full-grid impact estimates and do not measure intervention benefits.
+Figure S16 | Weather and wheat-development contributions and offsets. (a) Weather, crop-development and net HAD contributions with the full interaction shown separately. The interaction is already allocated equally between the two Shapley contributions and is not added again to the net. Gray segments span climate-model means; colored whiskers show one spatial Monte Carlo standard error. (b) Model-specific offsets and their ensemble-contribution ratio. The same 5,731 supported paired seasons underlie all HAD terms. The sampled analysis is separate from the full-grid estimates and does not measure intervention benefits.
 
-Figure S17 | Climate–crop–infection pathways linking canopy damage to conditional yield effects. Daily temperature, humidity and rainfall drive the retained crop-development and disease-weather operators. Development determines modeled leaf availability, unfolding and renewal, while weather and fixed source assumptions drive infection and symptom progression. Symptom-gated upper-three-leaf damage is integrated against a nominal reference canopy over GS31–85 or GS65–85 to give the healthy-area-duration (HAD) deficit proxy. Fixed coefficients of 0.0141–0.0207 t ha⁻¹ per GLAI-day provide conditional yield-loss diagnostics. Crop-stage dates, source-numbered disease measurements and independent canopy–yield treatment contrasts constrain different links in the chain. The canopy reference, damage-to-functional-area conversion and current simulated yield effects have no local quantitative validation.
+Figure S17 | Relationships among climate, wheat development, Septoria disease and the estimated yield response. Weather drives wheat development and disease. Leaf availability and seasonal timing connect crop development to infection and damage. Disease damage is mapped to an assumed loss of canopy function and integrated as HAD loss. A published coefficient provides a conditional disease-related yield estimate. The model has no disease feedback on crop-development rates and no complete crop carbon-balance calculation.
 
 Figure S18 | Evaluation of retained crop-development stages. (a) German station-held-out date errors at BBCH 10, 31, 51 and 85. Boxes span the interquartile range; whiskers span the fifth to ninety-fifth percentiles. (b) Pooled field errors outside genuine two-sided developmental-stage intervals, with all informative records represented. The station and field endpoints have different observation resolutions. Counts beneath stages give sample sizes; observation intervals do not define statistical confidence intervals.
 

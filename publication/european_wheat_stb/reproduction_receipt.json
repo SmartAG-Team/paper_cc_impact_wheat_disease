@@ -1,9 +1,12 @@
 {
   "status": "passed",
-  "clean_archive_extraction": true,
-  "document_text_files_identical": 6,
+  "clean_archive_reproduction": true,
+  "text_files_identical": 6,
   "figure_pixels_identical": 25,
-  "scientific_workbook_sheets_identical": 39,
-  "scope": "Publication regeneration and numerical identity; no claim of biological validation",
-  "archive_sha256": "cd4af87031c8c9f86b55401d55fd725ee9cfaf9438ed5c813d8bad784ea888e1"
+  "numerical_workbook_sheets_identical": 39,
+  "pdf_page_bounds_checked": {
+    "Manuscript.pdf": 15,
+    "Supplementary_Information.pdf": 55,
+    "Supplementary_Model_Specification.pdf": 7
+  }
 }

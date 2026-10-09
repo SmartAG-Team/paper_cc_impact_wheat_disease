@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "scope": "Numerical reporting and provenance; biological and absolute-yield predictions remain unvalidated",
-  "abstract_words": 145,
+  "abstract_words": 144,
   "main_figures": 4,
   "main_tables": 1,
   "Results_focus": "Full-grid climate impacts",
@@ -31,5 +31,5 @@
     "Supplementary_Model_Specification.pdf": 7
   },
   "source_workbook_sheets": 40,
-  "archived_members_checked": 5974
+  "archived_members_checked": 6421
 }
