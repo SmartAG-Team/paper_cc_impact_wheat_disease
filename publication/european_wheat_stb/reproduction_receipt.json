@@ -1,9 +1,10 @@
 {
   "status": "passed",
-  "archive_members_verified": 1127,
+  "archive_members_verified": 1132,
   "field_source_verification": "passed from extracted curated source archive",
   "document_regeneration": "passed",
   "scientific_text_reproduction": "byte-identical",
   "climate_evidence": "Bundled paired summaries; annual forcing archives remain external",
-  "source_archive_redactions": "Unused map-script keys only; numerical source cells preserved"
+  "source_archive_redactions": "Unused map-script keys only; numerical source cells preserved",
+  "Figure_2_source_data_reproduction": "byte-identical after gzip decompression"
 }

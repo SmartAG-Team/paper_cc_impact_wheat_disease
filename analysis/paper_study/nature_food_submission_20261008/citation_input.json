@@ -1127,41 +1127,13 @@
     "TunisiaDryad2020"
   ],
   "clusters": {
-    "Bancal2007|Bancal2015|Bregaglio2021": [
-      "Bancal2007",
-      "Bancal2015",
-      "Bregaglio2021"
+    "EEA2016": [
+      "EEA2016"
     ],
-    "Savary2019|Parker2004|Silva2026": [
-      "Savary2019",
+    "Parker2004|Foulkes2006|vanDenBerg2017": [
       "Parker2004",
-      "Silva2026"
-    ],
-    "BRIWECS2025": [
-      "BRIWECS2025"
-    ],
-    "NFTS2026|BenMbarek2020": [
-      "NFTS2026",
-      "BenMbarek2020"
-    ],
-    "Parker2004|Foulkes2006": [
-      "Parker2004",
-      "Foulkes2006"
-    ],
-    "Foulkes2006": [
-      "Foulkes2006"
-    ],
-    "SPAM2020|GGCMIPhase32021": [
-      "SPAM2020",
-      "GGCMIPhase32021"
-    ],
-    "Parker2004|vanDenBerg2017": [
-      "Parker2004",
+      "Foulkes2006",
       "vanDenBerg2017"
-    ],
-    "Parker2004|Bancal2007": [
-      "Parker2004",
-      "Bancal2007"
     ],
     "SuffertSache2011|ShawRoyle1989|LovellCanopy2004|Baccar2011|Lovell2004": [
       "SuffertSache2011",
@@ -1170,8 +1142,43 @@
       "Baccar2011",
       "Lovell2004"
     ],
-    "EEA2016": [
-      "EEA2016"
+    "SPAM2020|GGCMIPhase32021": [
+      "SPAM2020",
+      "GGCMIPhase32021"
+    ],
+    "BRIWECS2025": [
+      "BRIWECS2025"
+    ],
+    "NFTS2026|BenMbarek2020": [
+      "NFTS2026",
+      "BenMbarek2020"
+    ],
+    "Chaloner2021|Pequeno2024|Silva2026": [
+      "Chaloner2021",
+      "Pequeno2024",
+      "Silva2026"
+    ],
+    "Savary2019|Parker2004|Silva2026": [
+      "Savary2019",
+      "Parker2004",
+      "Silva2026"
+    ],
+    "Bancal2007|Bancal2015|Bregaglio2021": [
+      "Bancal2007",
+      "Bancal2015",
+      "Bregaglio2021"
+    ],
+    "Foulkes2006": [
+      "Foulkes2006"
+    ],
+    "NFTS2026|BenMbarek2020|TunisiaDryad2020": [
+      "NFTS2026",
+      "BenMbarek2020",
+      "TunisiaDryad2020"
+    ],
+    "Parker2004|vanDenBerg2017": [
+      "Parker2004",
+      "vanDenBerg2017"
     ],
     "Holst2022BASF|HolstDonner2022Corteva|NFTS2026|TunisiaDryad2020|BRIWECS2025|NEXGDDPCmip6V2|GGCMIPhase32021|SPAM2020|EEA2016": [
       "Holst2022BASF",
@@ -1184,34 +1191,6 @@
       "SPAM2020",
       "EEA2016"
     ],
-    "NEXGDDPCmip6V2": [
-      "NEXGDDPCmip6V2"
-    ],
-    "Parker2004|Foulkes2006|vanDenBerg2017": [
-      "Parker2004",
-      "Foulkes2006",
-      "vanDenBerg2017"
-    ],
-    "Holst2022BASF|HolstDonner2022Corteva": [
-      "Holst2022BASF",
-      "HolstDonner2022Corteva"
-    ],
-    "Chaloner2021|Pequeno2024|ShawRoyle1989|LovellCanopy2004|Lovell2004": [
-      "Chaloner2021",
-      "Pequeno2024",
-      "ShawRoyle1989",
-      "LovellCanopy2004",
-      "Lovell2004"
-    ],
-    "Chaloner2021|Pequeno2024|Silva2026": [
-      "Chaloner2021",
-      "Pequeno2024",
-      "Silva2026"
-    ],
-    "McDonald2022|ECVision2025": [
-      "McDonald2022",
-      "ECVision2025"
-    ],
     "SuffertSache2011|Baccar2011|Parker2004|Foulkes2006|vanDenBerg2017|Bryson1997": [
       "SuffertSache2011",
       "Baccar2011",
@@ -1220,10 +1199,31 @@
       "vanDenBerg2017",
       "Bryson1997"
     ],
-    "NFTS2026|BenMbarek2020|TunisiaDryad2020": [
-      "NFTS2026",
-      "BenMbarek2020",
-      "TunisiaDryad2020"
+    "Parker2004|Foulkes2006": [
+      "Parker2004",
+      "Foulkes2006"
+    ],
+    "NEXGDDPCmip6V2": [
+      "NEXGDDPCmip6V2"
+    ],
+    "Chaloner2021|Pequeno2024|ShawRoyle1989|LovellCanopy2004|Lovell2004": [
+      "Chaloner2021",
+      "Pequeno2024",
+      "ShawRoyle1989",
+      "LovellCanopy2004",
+      "Lovell2004"
+    ],
+    "Holst2022BASF|HolstDonner2022Corteva": [
+      "Holst2022BASF",
+      "HolstDonner2022Corteva"
+    ],
+    "McDonald2022|ECVision2025": [
+      "McDonald2022",
+      "ECVision2025"
+    ],
+    "Parker2004|Bancal2007": [
+      "Parker2004",
+      "Bancal2007"
     ]
   }
 }

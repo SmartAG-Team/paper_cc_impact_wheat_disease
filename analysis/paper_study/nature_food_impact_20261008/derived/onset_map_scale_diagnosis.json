@@ -1,0 +1,26 @@
+{
+  "valid_cells": 14905,
+  "median_change_days": -29.12950191570881,
+  "minimum_change_days": -95.15555555555557,
+  "maximum_change_days": 0.14444444444444438,
+  "central90_percent_range_days": [
+    -43.37555555555555,
+    -17.468048309178748
+  ],
+  "previous_display_bin": [
+    -96,
+    -20
+  ],
+  "previous_bin_area_percent": 96.23879305483774,
+  "below_minus90_cells": 2,
+  "below_minus90_area_percent": 0.013473031228023702,
+  "regional_aggregation": "Regional means aggregate valid paired seasons within each climate model, before three-model averaging.",
+  "europe_area_time_weighted_change_days": -30.778486908574507,
+  "date_arithmetic": "passed",
+  "audited_grid_seasons": 1080,
+  "audited_cells": 6,
+  "independent_ensemble_means": "passed",
+  "date_reference": "Actual elapsed calendar days from each recorded sowing date; no day-of-year subtraction",
+  "model_parameters_changed": false,
+  "raw_climate_outputs_changed": false
+}
