@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "tests": "................                                                         [100%]\n16 passed in 0.46s",
+  "isolated_tests": "................                                                         [100%]\n16 passed in 0.43s",
+  "standalone_reproduction_files": 23,
+  "comparisons": [
+    {
+      "file": "audit_checks.csv",
+      "sha256": "87887912f4338fc8c610c3044a8e52af23a65ef86ee0197233d774a4a58b890f",
+      "standalone_identical": true
+    },
+    {
+      "file": "audit_receipt.json",
+      "sha256": "773093ee0c2cafad7bb22515840eee3b77f73633911ceb2b239e14fd8db68ece",
+      "standalone_identical": true
+    },
+    {
+      "file": "bundle_member_hashes.csv",
+      "sha256": "4865831a73319a257214d251de8120b44ead9cfe5f99484109551f5d7c568adf",
+      "standalone_identical": true
+    },
+    {
+      "file": "column_profile.csv",
+      "sha256": "36b026aff38a75214c69a8bf188bbda7fa0316e02f210b3b65fa112e5036ac79",
+      "standalone_identical": true
+    },
+    {
+      "file": "dataset_citations.csv",
+      "sha256": "89b0a16bcd0debe7d5d20ee2e4e5002d6e265bf726af4572df74d654bf1e09d0",
+      "standalone_identical": true
+    },
+    {
+      "file": "duplicate_checks.csv",
+      "sha256": "2be2733b019c53b5c471974e976c8ace446edfb1ded6addda3d9cb3272b3ade3",
+      "standalone_identical": true
+    },
+    {
+      "file": "environment_errors.csv",
+      "sha256": "a0e8a964ad2e83e6c2794a94c57e41d7735f6f50d83d03392cef73b631535ecc",
+      "standalone_identical": true
+    },
+    {
+      "file": "evidence_gate.csv",
+      "sha256": "c4fff2fa9c9cc7b25917109e3cfce305851438406f914a6e2d177c14b4c595a2",
+      "standalone_identical": true
+    },
+    {
+      "file": "evidence_limitations.csv",
+      "sha256": "752f6c88e4628c6e16f4982bc13c632702c368526cd21618ca3e65306468590e",
+      "standalone_identical": true
+    },
+    {
+      "file": "fold_diagnostics.csv",
+      "sha256": "a333a8be86e982749f0581e625a9e9d55564c0d5f20f0ecd27b496294b725fc7",
+      "standalone_identical": true
+    },
+    {
+      "file": "french_trait_linkage.csv",
+      "sha256": "b959f87a80edbf03fe4c02ccc93dcbb631121b74c8cf815956ad37017cbd44d4",
+      "standalone_identical": true
+    },
+    {
+      "file": "heldout_predictions.csv",
+      "sha256": "a9d82cb991022748321bbcff31d35c0e9a5532a1a0d0b14dfcf2fe8e655ac5c3",
+      "standalone_identical": true
+    },
+    {
+      "file": "identical_file_copies.csv",
+      "sha256": "039f2070ffc38753a8a0f0ed5cceb074fdb91ceed4cfc5a1de8d829b521abe0e",
+      "standalone_identical": true
+    },
+    {
+      "file": "plot_provenance.csv",
+      "sha256": "2bd89b6523138f9ab3cec6e210ebbe67f6ce7de1b103f064a7617587a2b4c459",
+      "standalone_identical": true
+    },
+    {
+      "file": "prediction_receipt.json",
+      "sha256": "caddb240989685e7954d4dc2e048902f931729e9500f27d18f631fb7e764788d",
+      "standalone_identical": true
+    },
+    {
+      "file": "site_bootstrap_stability.csv",
+      "sha256": "99d1e2d08247863adb0f2d74fda6c0ad8b08b7d548b30d5492f9856218ab5397",
+      "standalone_identical": true
+    },
+    {
+      "file": "site_paired_errors.csv",
+      "sha256": "f4e929f9bb70c6a99f4b13c9530d1dabd6fdea11be35b53bff0b5e20c31d22d0",
+      "standalone_identical": true
+    },
+    {
+      "file": "source_files.csv",
+      "sha256": "ba40fdac1ef5d2a641f55c645388d028732878658b5113af2cdd3481c27d18fd",
+      "standalone_identical": true
+    },
+    {
+      "file": "source_profile.csv",
+      "sha256": "62c0578d6810f7238ba0afdd469f9a8b7ebbc769764203f75f118a00e3b69037",
+      "standalone_identical": true
+    },
+    {
+      "file": "source_readiness.csv",
+      "sha256": "9d1153630f4d2dc416e03cd9002fd147faa135b93056b09c3edd652765fcc7b6",
+      "standalone_identical": true
+    },
+    {
+      "file": "swiss_environment_profile.csv",
+      "sha256": "fbdf51c900081e32ab04c601bfbc59a2e99f1d2511172e10b72a9a1bad8ccf56",
+      "standalone_identical": true
+    },
+    {
+      "file": "swiss_model_comparison.csv",
+      "sha256": "b937f2fc994aecc9402e81a9cdcd07cad1d6bf7edaf832cf492ea05353622e1c",
+      "standalone_identical": true
+    },
+    {
+      "file": "unseen_categories.csv",
+      "sha256": "4f346a492ca2b2ebbc2556f4faf439ef4c9baec02bcc1dd9f6f8229da8ee207a",
+      "standalone_identical": true
+    }
+  ],
+  "no_original_data_paths_required": true,
+  "contract_missing_input_exit_code": 2,
+  "contract_missing_input_errors": [
+    "Missing table: plots",
+    "Missing table: canopy",
+    "Missing table: weather",
+    "Missing table: management"
+  ],
+  "verification_scope": "Only the new audit, prediction and validator; existing external benchmarks and model suite not rerun",
+  "source_bundle_sha256": "141798cea97d642f31c143fb263e64e12f8a516bbfe0dbbb5ad43b05c4f0c8ee",
+  "code_hashes": {
+    "audit.py": "92d55e8ad97dd43365436a5dbad4d2a4a38fe26748327449e0dd23590e5ec7be",
+    "prediction.py": "f6eb63409aad3827fc76f4b0ff0f2e909aa18e285118b8768bc42ed7cef59bd5",
+    "prepare_bundle.py": "49f349a514a4d1f6b689ef9138f6d2cd6044a25df26960a42c9721d012d8491c",
+    "test_audit.py": "1cac837481de94f286aa4a40468bbf86f0942c3b08152b8f2c0ced7a1a37de11",
+    "validate_contract.py": "7a906ad277085e582edfce95dc9187623d976b95eb7f66bd8b4565322a830ef4",
+    "verify.py": "6df2bd24c6ecf9435fe5c392c0132f0211986ab6bc69006d300f41d547fd1582"
+  }
+}

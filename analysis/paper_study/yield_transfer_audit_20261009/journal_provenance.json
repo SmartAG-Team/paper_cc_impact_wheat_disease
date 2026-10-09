@@ -1,0 +1,44 @@
+[
+  {
+    "doi": "10.1002/csc2.21151",
+    "title": [
+      "Asynchrony is more important than genetic distance in driving yield stability in wheat variety mixtures"
+    ],
+    "journal": [
+      "Crop Science"
+    ],
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          7
+        ]
+      ]
+    },
+    "metadata_url": "https://api.crossref.org/works/10.1002/csc2.21151",
+    "verification": "Crossref DOI-registry metadata only; no new article evidence extracted"
+  },
+  {
+    "doi": "10.1111/nph.17915",
+    "title": [
+      "From cultivar mixtures to allelic mixtures: opposite effects of allelic richness between genotypes and genotype richness in wheat"
+    ],
+    "journal": [
+      "New Phytologist"
+    ],
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          26
+        ]
+      ]
+    },
+    "metadata_url": "https://api.crossref.org/works/10.1111/nph.17915",
+    "verification": "Crossref DOI-registry metadata only; no new article evidence extracted"
+  }
+]

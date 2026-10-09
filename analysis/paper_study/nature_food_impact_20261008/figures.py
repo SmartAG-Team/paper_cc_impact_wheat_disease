@@ -85,63 +85,6 @@ def scenario_map(destination,data,countries,cells,metric,stem,unit,scale=1.,peri
     selected.to_csv(destination/f'{stem}.csv.gz',index=False)
 
 
-def disease_map(destination,data,countries,cells,period='2071-2100'):
-    specs=[(FREQUENCY,100,'a   Symptom frequency','Change in symptom frequency (percentage points)'),
-           (ONSET,1,'b   Symptom timing','Change relative to flowering (days)'),
-           (SEVERITY,100,'c   Relative HAD loss','Change in relative HAD loss (percentage points)'),
-           ('F1_symptom_day_after_sowing',1,'d   Symptom onset after sowing','Change in days from sowing to symptoms')]
-    fig,axes=plt.subplots(2,2,figsize=(8.6,7.0))
-    fig.subplots_adjust(left=.055,right=.975,top=.94,bottom=.08,wspace=.26,hspace=.36)
-    sources=[]
-    for ax,(metric,scale,title,unit) in zip(axes.flat,specs):
-        part=data[data.metric.eq(metric)&data.scenario.eq('ssp585')&data.period.eq(period)].copy()
-        part['display']=scale*part.mean_change;sources.append(part)
-        map_axes(ax,countries,cells)
-        step=.1 if metric==FREQUENCY else (2 if scale==1 else 5)
-        breaks=[.1,1,5,10] if metric==FREQUENCY else [.5,1,2,5,10,20]
-        if metric=='F1_symptom_day_after_sowing':
-            norm,cmap,ticks=onset_change_scale(part.display.to_numpy())
-        else:
-            norm,cmap,ticks=discrete_scale(part.display.to_numpy(),breaks,step)
-        im=raster(ax,part,'display',cmap=cmap,norm=norm)
-        ax.set_title(title,loc='left',fontsize=10,fontweight='bold',pad=9)
-        cb=fig.colorbar(im,ax=ax,orientation='horizontal',fraction=.045,pad=.14,shrink=.93)
-        cb.set_ticks(ticks)
-        cb.set_label(unit,fontsize=8.1);cb.ax.tick_params(labelsize=8)
-    export(fig,destination,'fig2_disease_frequency_timing_severity')
-    pd.concat(sources).to_csv(destination/'fig2_disease_frequency_timing_severity.csv.gz',index=False)
-
-
-def domain_points(ax,data,domain,names,metric,scale=1.,period='2071-2100'):
-    y=np.arange(len(names))
-    for i,(scenario,color,label) in enumerate(zip(SCENARIOS,COLORS,LABELS)):
-        part=data[data.scenario.eq(scenario)&data.period.eq(period)&data.metric.eq(metric)].set_index(domain).loc[names]
-        mid=scale*part.mean_change;lo=np.minimum(scale*part.gcm_min,scale*part.gcm_max)
-        hi=np.maximum(scale*part.gcm_min,scale*part.gcm_max)
-        ax.errorbar(mid,y+(i-1)*.19,xerr=[mid-lo,hi-mid],color=color,marker=['o','s','^'][i],
-                    linestyle='none',markersize=4.5,capsize=2,label=label)
-    ax.set_yticks(y,[n.replace('United Kingdom of Great Britain and Northern Ireland','United Kingdom') for n in names],fontsize=8.5)
-    ax.invert_yaxis();ax.axvline(0,color=GREY,lw=.8,ls='--');clean(ax)
-
-
-def domain_figure(destination,regions,countries,period='2071-2100'):
-    refs=countries.drop_duplicates('country').sort_values('reference_area_ha',ascending=False)
-    names=refs.head(12).country.tolist()
-    fig,axes=plt.subplots(1,2,figsize=(10.3,6.2),gridspec_kw={'width_ratios':[1,1.13]})
-    fig.subplots_adjust(left=.11,right=.98,bottom=.15,top=.87,wspace=.56)
-    domain_points(axes[0],regions,'environment_region',REGIONS,CANOPY,period=period)
-    domain_points(axes[1],countries,'country',names,YIELD,scale=-1000,period=period)
-    axes[0].set_title('a   Canopy damage across environmental regions',loc='left',fontsize=10,fontweight='bold',pad=12)
-    axes[1].set_title('b   Estimated yield change by country',loc='left',fontsize=10,fontweight='bold',pad=12)
-    axes[0].set_xlabel('Change in normalized HAD loss (days)',fontsize=9)
-    axes[1].set_xlabel('Estimated yield change (kg ha⁻¹ per unit reference LAI)',fontsize=8.9)
-    handles,labels=axes[0].get_legend_handles_labels()
-    fig.legend(handles,labels,loc='upper center',bbox_to_anchor=(.52,.995),ncol=3,frameon=False,fontsize=9)
-    export(fig,destination,'fig3_regional_and_country_impacts')
-    pd.concat([regions.assign(domain_name=regions.environment_region),
-               countries.assign(domain_name=countries.country)]).to_csv(destination/'fig3_regional_and_country_impacts.csv.gz',index=False)
-
-
 def contribution_figure(destination,stem='fig4_weather_and_crop_contributions',full=False):
     source=ROOT/'analysis/paper_study/nature_food_fix_20261007/climate/decomposition/supported_forcing_ensemble_decomposition.csv'
     data=pd.read_csv(source).set_index('component')
@@ -174,22 +117,8 @@ def contribution_figure(destination,stem='fig4_weather_and_crop_contributions',f
 
 
 def main(destination):
-    style();data,regions,country=grid_data()
-    countries=gpd.read_file(ROOT/'data/geography/ne_110m_admin_0_countries.zip')
-    cells=data.drop_duplicates('cell_id')
-    scenario_map(destination,data,countries,cells,CANOPY,'fig1_grid_climate_canopy_impacts',
-                 'Change in normalized HAD loss (days)')
-    disease_map(destination,data,countries,cells)
-    domain_figure(destination,regions,country)
-    contribution_figure(destination)
-    captions={
-      'fig1_grid_climate_canopy_impacts': 'Figure 1 | Projected changes in Septoria-related canopy damage across European wheat-growing areas. (a–f) Three-climate-model mean changes in normalized loss of healthy-area duration (HAD) during flowering to soft dough for two future periods relative to 1991–2020. HAD loss is divided by maximum reference upper-three-leaf LAI and expressed in days. Each 0.25° pixel represents a separately simulated wheat-growing cell. Positive values indicate increasing accumulated canopy damage; negative values indicate decreasing damage. The six maps share a symmetric colour scale. The fixed SPAM2020 all-wheat mask contains 14,941 cells, of which 14,932 have a winter-wheat rainfed calendar. Grey wheat pixels have unavailable estimates. Country and regional summaries use fixed harvested-area weights. Supplementary Fig. S19 shows agreement among climate models.',
-      'fig2_disease_frequency_timing_severity': 'Figure 2 | Projected changes in Septoria symptoms and canopy damage. Panels show three-model mean changes under SSP5–8.5 in 2071–2100 relative to 1991–2020. (a) Frequency of seasons with flag-leaf symptoms before soft dough. (b) First symptoms relative to flowering; negative changes indicate earlier symptoms. (c) Relative HAD loss, the fraction of reference healthy-area duration lost during grain filling, expressed as a percentage-point change. This modelled loss of canopy function differs from measured lesion percentage. (d) Days from the fixed sowing date to first symptoms; negative changes indicate a shorter interval. Each panel has its own symmetric colour scale; panel d uses a continuous linear scale spanning all finite changes. Timing requires symptoms in both paired seasons, whereas frequency includes complete seasons without symptoms. Grey wheat pixels have unavailable estimates.',
-      'fig3_regional_and_country_impacts': 'Figure 3 | Regional differences in canopy damage and inferred yield response. (a) Harvested-area-weighted changes in normalized HAD loss within eight EEA biogeographical regions. (b) Estimated disease-related yield changes for the twelve countries with the largest reference wheat area within the study domain. Both panels compare 2071–2100 with 1991–2020 under three emissions pathways. Points show three-model means; whiskers span model-specific estimates and are not confidence intervals. Country assignment follows the dominant SPAM source-country label of each cell. The yield estimate uses the change in HAD loss and the fixed coefficient 0.018 t ha⁻¹ per GLAI-day, normalized to unit reference upper-canopy LAI. Negative values indicate increased estimated disease-related yield loss. These estimates require validation of the canopy–yield relationship and do not describe total national production. Source Data includes all country groups.',
-      'fig4_weather_and_crop_contributions': 'Figure 4 | Wheat phenology offsets part of the weather contribution to Septoria damage. (a) Weather and wheat-phenology contributions to normalized HAD loss during grain filling, and their sum, under late-century SSP5–8.5. The phenology contribution includes changes in upper-leaf appearance and unfolding and the flowering-to-soft-dough interval. The analysis uses 64 harvested-area-proportional draws at 62 cells and 5,731 valid season pairs. Grey segments span climate-model means; coloured whiskers show one spatial Monte Carlo standard error. Each Shapley contribution includes half of the weather–phenology interaction, shown separately in Supplementary Fig. S16. (b) Percentage of the weather contribution offset by wheat phenology in each climate model. The dashed line shows the ratio of ensemble contributions, 70.6%. These comparisons separate effects within the model; they do not estimate the effectiveness of changing sowing dates or cultivars.',
-    }
-    (destination/'captions.json').write_text(json.dumps(captions,indent=2)+'\n')
-    return captions
+    from .impact_figures import main as draw_current
+    return draw_current(destination)
 
 
 def field_panels(destination,exporter,stages,stem,cohort,number):

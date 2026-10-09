@@ -6,7 +6,7 @@ pandas, pyarrow, matplotlib, geopandas, python-docx, openpyxl, Pillow, reportlab
 and PyMuPDF. The scientific runtime additionally uses the frozen project
 dependencies and the external daily climate forcing and bias-alignment files.
 
-Private manuscript repository: https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease
+Public research repository: https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease
 
 From the repository or extracted archive root:
 
@@ -65,3 +65,36 @@ The repository source ZIP preserves measured field data and removes unused
 third-party map-script keys from downloaded HTML wrappers. Original and
 packaged source hashes identify the 24 wrapper redactions. The supplied local
 collection archive remains unchanged.
+
+Production exposure and common-pair timing
+
+The current main figures distinguish predictive support, projected canopy
+responses, fixed-production exposure and the crop–disease timing mechanism.
+Production amounts describe the SPAM2020 baseline represented in exposed cells;
+they are not projected grain losses or future production.
+
+python -m analysis.paper_study.food_security_exposure_20261009.run --bundled --destination /tmp/exposure-reproduction
+python -m analysis.paper_study.nature_food_impact_20261008.timing
+
+The timing command requires the external annual-output archive. Document
+regeneration reads the bundled, hash-verified timing summaries and uses the
+same season-pair population for every date and relative interval. The exposure
+workflow supplies compact production weights for reproduction without raw
+SPAM rasters; source provenance remains in its receipt. Regional exposure
+retains unavailable responses in baseline denominators. Country exposure
+partitions cross-border production using source-country fractions, whereas
+legacy area-weighted country summaries retain dominant-cell assignment.
+
+Additional Swiss/French evidence is bundled with its source attribution:
+
+python analysis/paper_study/yield_transfer_audit_20261009/verify.py
+
+The audit preserves 948 unique plot harvests and measurement compatibility.
+Its Swiss comparison is exploratory, with whole-location holdouts and a
+management-only comparator; it is not physiological grain-loss validation.
+The input_contract.json and validate_contract.py files specify and screen
+future compatible observations without certifying predictive validity.
+
+The development milestones in docs/Nature_Food_Review_and_Research_Plan_20261009.md
+remain the scientific submission criteria. Fixed-production exposure and
+improved figures do not complete the missing grain-loss or adaptation tests.

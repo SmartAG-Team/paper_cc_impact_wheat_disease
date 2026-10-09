@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "scope": "Necessary structural inputs for future matched physiological and harvest validation; passing does not validate a model or identify a causal loss",
+  "tables": {
+    "plots": {
+      "file": "plots.csv",
+      "required": ["plot_id", "environment_id", "site_id", "harvest_year", "replicate", "cultivar", "treatment_id", "split", "sowing_date", "anthesis_date", "maturity_date", "harvest_date", "yield_t_ha", "grain_moisture_percent", "soil_profile_ref", "cultivar_parameter_ref", "source_ref", "source_plot_id", "measurement_origin"]
+    },
+    "canopy": {
+      "file": "canopy.csv",
+      "required": ["plot_id", "date", "leaf_rank", "reference_lai", "green_lai", "functional_loss_fraction", "stb_severity_percent", "lai_unit", "severity_unit", "reference_method", "functional_method", "measurement_origin", "source_ref"]
+    },
+    "weather": {
+      "file": "weather.csv",
+      "required": ["environment_id", "date", "tmin_c", "tmax_c", "precip_mm", "solar_mj_m2", "relative_humidity_percent", "source_ref"]
+    },
+    "management": {
+      "file": "management.csv",
+      "required": ["plot_id", "date", "action", "amount", "unit", "source_ref"]
+    }
+  },
+  "grain": "One physical plot-season harvest; source_ref/source_plot_id/harvest_year identifies aliases",
+  "canopy_scope": "Upper three leaf ranks 1,2,3; at least three distinct dated assessments per rank bracketing anthesis through maturity. This is a structural minimum, not evidence that temporal sampling resolves HAD accurately.",
+  "observation_requirements": "Green/reference LAI and functional impairment must have independent documented measurement methods. Ordinal disease ratings cannot substitute for percent affected leaf area or functional-loss measurements.",
+  "units": {"lai_unit":"m2/m2", "severity_unit":"percent_leaf_area", "functional_loss_fraction":"0-1", "yield_t_ha":"t/ha at declared grain moisture"},
+  "split": "calibration or validation; no environment or physical harvest may occur in both; at least two validation environments as a coverage screen, not a power criterion",
+  "weather": "Continuous daily records from sowing through maturity; STB-specific wetness observation/derivation methods and soil-water/nitrogen inputs still require model-specific review",
+  "manual_review_required": [
+    "Provenance and measurement methods; actual access to cited soil/cultivar parameter records",
+    "Phenology, canopy representativeness, leaf sampling, temporal resolution, measurement uncertainty and function-to-area interpretation",
+    "Frozen model parameters, independent model predictions and benchmarks, split design, power and environmental representativeness",
+    "Matched/randomized reference contrasts, disease on both arms, other stresses, and intervention feasibility/cost for causal grain-loss or adaptation claims",
+    "Management completeness, intervention dates/amounts, weather derivation, water/nitrogen balance and site-specific agronomy"
+  ]
+}

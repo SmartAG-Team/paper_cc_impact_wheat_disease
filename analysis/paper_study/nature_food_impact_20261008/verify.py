@@ -78,11 +78,55 @@ def domain_arithmetic(directory=GRID,period='2071-2100'):
     return dict(status='passed',comparisons=len(observed),source='Annual simulation outputs' if direct else 'Bundled paired grid values and valid-year counts',period=period)
 
 
+def exposure_and_timing_arithmetic():
+    """Reconstruct headline exposure directly, without the aggregation routine."""
+    from analysis.paper_study.food_security_exposure_20261009.exposure import read
+    from .timing import read as read_timing
+    directory=ROOT/'analysis/paper_study/food_security_exposure_20261009'
+    summary=read()['domain_summary']
+    production=pd.read_csv(directory/'production_grid_input.csv').set_index('cell_id')
+    pairs=pd.read_parquet(GRID/'full_grid_paired_changes_by_gcm.parquet',filters=[('metric','==',CANOPY)])
+    comparisons=0
+    for (scenario,period),part in pairs.groupby(['scenario','period']):
+        changes=part.pivot(index='cell_id',columns='model',values='change').loc[production.index]
+        counts=part.pivot(index='cell_id',columns='model',values='valid_year_pairs').loc[production.index]
+        p=production.production_total_tonnes
+        for mode,threshold in [('primary_any_paired_year',1),('robust_all3_ge27',27)]:
+            complete=changes.notna().all(axis=1)&counts.ge(threshold).all(axis=1)
+            unanimous=complete&changes.gt(0).all(axis=1)
+            ensemble=complete&changes.mean(axis=1).gt(0)
+            expected=summary[summary.domain_type.eq('Europe')&summary.scenario.eq(scenario)&summary.period.eq(period)&summary.analysis_mode.eq(mode)].iloc[0]
+            for actual,target in [(p.sum(),expected.baseline_production_tonnes),
+                (p[unanimous].sum(),expected.all3positive_production_tonnes),
+                (p[ensemble].sum(),expected.ensemble_increasing_production_tonnes),
+                (p[~complete].sum(),expected.unavailable_production_tonnes)]:
+                np.testing.assert_allclose(actual,target,rtol=1e-12,atol=1e-7);comparisons+=1
+            estimates=[]
+            for model in changes.columns:
+                valid=changes[model].notna()&counts[model].ge(threshold)
+                if threshold>1:valid &= complete
+                w=p[valid]*counts.loc[valid,model]
+                estimates.append(float(w@changes.loc[valid,model]/w.sum()))
+            np.testing.assert_allclose([np.mean(estimates),min(estimates),max(estimates)],
+                [expected.production_weighted_change,expected.gcm_min,expected.gcm_max],rtol=0,atol=1e-11)
+            comparisons+=3
+    timing=read_timing().set_index(['environment_region','event'])
+    for col in ['reference','future','change']:
+        x=timing[col].unstack('event')
+        np.testing.assert_allclose(x.symptom_days-x.flowering_days,x.symptom_relative_flowering_days,rtol=0,atol=1e-12)
+        np.testing.assert_allclose(x.soft_dough_days-x.flowering_days,x.grain_fill_elapsed_days,rtol=0,atol=1e-12)
+    return dict(status='passed',independent_exposure_comparisons=comparisons,
+        timing_population='Identical complete pairs for all event and interval means',
+        production_interpretation='Fixed baseline production located in exposed cells; not estimated grain loss')
+
+
 def verify(output):
     output=Path(output).resolve();main=(output/'Manuscript.txt').read_text();si=(output/'Supplementary_Information.txt').read_text()
     abstract=(output/'abstract.txt').read_text().strip()
     assert len(abstract.split())<=150 and not re.search(r'\[[1-9]\d*',abstract)
     assert main.count(abstract)==1
+    assert 'private during manuscript preparation' not in main
+    assert 'https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease' in main
     # Archive names occur in source references; scientific Results do not divide
     # their observations into corporate datasets.
     result=main.split('\n\nResults\n\n',1)[1].split('\n\nDiscussion\n\n',1)[0]
@@ -120,10 +164,11 @@ def verify(output):
             for name,record in manifest['members'].items():
                 content=z.read(name);assert hashlib.sha256(content).hexdigest()==record['sha256'] and len(content)==record['bytes'],name
             archive_count=len(manifest['members'])
-    arithmetic=pooled_arithmetic();domains=domain_arithmetic()
-    report=dict(status='passed',scope='Numerical reporting and provenance; biological and absolute-yield predictions remain unvalidated',
-        abstract_words=len(abstract.split()),main_figures=4,main_tables=1,Results_focus='Full-grid climate impacts',
+    arithmetic=pooled_arithmetic();domains=domain_arithmetic();exposure=exposure_and_timing_arithmetic()
+    report=dict(status='passed',scope='Numerical reporting, provenance and outcome-specific evaluation; end-to-end grain-loss predictive validity is not established',
+        abstract_words=len(abstract.split()),main_figures=4,main_tables=1,Results_focus='Predictive support, canopy damage, production exposure and crop–disease timing',
         pooled_evaluation=arithmetic,full_grid_domain_check=domains,PDF_pages=pages,
+        production_exposure_and_timing=exposure,
         source_workbook_sheets=len(workbook.sheetnames),archived_members_checked=archive_count)
     (output/'verification_receipt.json').write_text(json.dumps(report,indent=2)+'\n')
     return report

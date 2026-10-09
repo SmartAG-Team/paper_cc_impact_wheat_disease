@@ -1,0 +1,14 @@
+member,rows,columns,exact_duplicate_excess
+analysis_ready/additional_ordinal_stb_yield_948.csv,948,13,0
+analysis_ready/france_all_226_disease_plots.csv,226,37,0
+analysis_ready/france_stb_yield_224.csv,224,37,0
+analysis_ready/france_two_unpaired_disease_plots.csv,2,37,0
+analysis_ready/swiss_environment_counts.csv,10,6,0
+analysis_ready/swiss_stb_yield_724.csv,724,40,0
+sources/montazeaud2022/GY_RAW_RYT.csv,381,12,0
+sources/montazeaud2022/STB_RAW_RYT.csv,226,8,0
+sources/montazeaud2022/STB_symptoms.csv,286,7,0
+sources/montazeaud2022/Traits_monocultures.csv,179,24,0
+sources/montazeaud2022/raw_yield_variables.csv,1592,8,0
+sources/swiss-mixtures-v1/blendit_full.csv,4497,26,32
+sources/swiss-mixtures/blendit_full_pub.csv,3881,19,68

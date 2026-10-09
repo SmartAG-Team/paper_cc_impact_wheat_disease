@@ -1,0 +1,9 @@
+dataset,kind,rows,units,excess,interpretation
+swiss_v2_full,exact_rows,3881,3813,68,Repeated public-source rows outside paired subset; no independent yields inferred
+swiss_paired,paired_plot_ids,724,724,0,v1 and v2 are versions of the same observations
+france_raw_yield,four_subrow_representations,1592,398,1194,Four row representations per physical plot; not four harvest replicates
+france_disease_components,same_plot_components,286,226,60,Components assessed at one time; not repeated disease dates
+france_paired,plot_keys,224,224,0,Raw and BLUP yields are two measures of the same harvest
+additional_common_index,cohort_union,948,0,948,All 948 rows already present in the two detailed cohorts; adds zero independent plots
+nfts2023_2025,previous_assessment_vs_harvest_grain,259,190,69,Frozen prior-source diagnostic; no validation rerun; duplicate aliases/eligibility require prior receipts
+tunisia2020,previous_assessment_vs_harvest_grain,164,82,82,Frozen prior-source diagnostic; no validation rerun; duplicate aliases/eligibility require prior receipts

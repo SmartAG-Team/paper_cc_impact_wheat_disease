@@ -2000,5 +2000,111 @@
     },
     "DOI": "10.6084/m9.figshare.27910269.v1",
     "URL": "https://doi.org/10.6084/m9.figshare.27910269.v1"
+  },
+  {
+    "id": "SwissMixtures2023",
+    "type": "dataset",
+    "title": "Agronomic performance of cultivar mixtures of winter wheat varieties, obtained from mixture field trials at 5 locations in Switzerland from 2019 to 2020, together with yield data from the varieties in pure stand obtained from the national variety testing trial network",
+    "author": [
+      {
+        "given": "Laura",
+        "family": "Stefan"
+      },
+      {
+        "given": "Dario",
+        "family": "Fossati"
+      },
+      {
+        "given": "Karl-Heinz",
+        "family": "Camp"
+      },
+      {
+        "given": "Didier",
+        "family": "Pellet"
+      },
+      {
+        "given": "Flavio",
+        "family": "Foiada"
+      },
+      {
+        "given": "Lilia",
+        "family": "Levy Häner"
+      }
+    ],
+    "publisher": "Zenodo",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          27
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.17432866",
+    "URL": "https://doi.org/10.5281/zenodo.17432866"
+  },
+  {
+    "id": "FrenchMixtures2021",
+    "type": "dataset",
+    "title": "Data from: \"From cultivar mixtures to allelic mixtures: opposite effects of allelic richness between genotypes and genotype richness in wheat\"",
+    "author": [
+      {
+        "given": "Germain",
+        "family": "Montazeaud"
+      },
+      {
+        "given": "Timothée",
+        "family": "Flutre"
+      },
+      {
+        "given": "Elsa",
+        "family": "Ballini"
+      },
+      {
+        "given": "Jean-Benoit",
+        "family": "Morel"
+      },
+      {
+        "given": "Jacques",
+        "family": "David"
+      },
+      {
+        "given": "Johanna",
+        "family": "Girodolle"
+      },
+      {
+        "given": "Aline",
+        "family": "Rocher"
+      },
+      {
+        "given": "Aurélie",
+        "family": "Ducasse"
+      },
+      {
+        "given": "Cyrille",
+        "family": "Violle"
+      },
+      {
+        "given": "Florian",
+        "family": "Fort"
+      },
+      {
+        "given": "Hélène",
+        "family": "Fréville"
+      }
+    ],
+    "publisher": "Zenodo",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.5393959",
+    "URL": "https://doi.org/10.5281/zenodo.5393959"
   }
 ]

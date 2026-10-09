@@ -1,0 +1,92 @@
+{
+  "checks": 79,
+  "checks_failed": 0,
+  "new_unique_plot_yields": 948,
+  "swiss_plot_yields": 724,
+  "swiss_sites": 5,
+  "swiss_site_years": 10,
+  "swiss_constant_score_site_years": 3,
+  "swiss_missing_harvest_among_scored": 26,
+  "swiss_full_source_exact_duplicate_excess": 68,
+  "swiss_four_cultivar_paired_plots": 29,
+  "french_plot_yields": 224,
+  "french_disease_plots": 226,
+  "french_site_years": 1,
+  "french_trait_profiles": 179,
+  "french_trait_linked_pairs": 166,
+  "french_raw_subrows": 1592,
+  "french_raw_plot_keys": 398,
+  "french_complete_raw_harvests": 379,
+  "french_complete_pure_stands_with_mirrored_row_values": 179,
+  "additional_compatible_functional_canopy_series": 0,
+  "additional_identified_stb_yield_counterfactuals": 0,
+  "model_fits_in_readiness_audit": 0,
+  "supplementary_prediction_receipt": "prediction_receipt.json",
+  "swiss_supplementary_prediction_gate": {
+    "eligible": true,
+    "sites": 5,
+    "site_years": 10,
+    "conditions": {
+      "enough_sites": true,
+      "enough_site_years": true,
+      "no_sparse_site_years": true,
+      "enough_training_sites": true
+    }
+  },
+  "france_supplementary_prediction_gate": {
+    "eligible": false,
+    "sites": 1,
+    "site_years": 1,
+    "conditions": {
+      "enough_sites": false,
+      "enough_site_years": false,
+      "no_sparse_site_years": true,
+      "enough_training_sites": false
+    }
+  },
+  "existing_benchmarks": "Frozen Tunisia, German BRIWECS, Nordic receipts; no rerun",
+  "existing_assessment_grain": {
+    "nfts2023_2025": {
+      "assessment_rows": 259,
+      "harvest_units": 190,
+      "repeated_harvest_representations": 69,
+      "conflicting_yields": 0,
+      "source_flagged_alias_units": 1,
+      "environments": 12
+    },
+    "tunisia2020": {
+      "assessment_rows": 164,
+      "harvest_units": 82,
+      "repeated_harvest_representations": 82,
+      "conflicting_yields": 0,
+      "source_flagged_alias_units": 0,
+      "environments": 2
+    }
+  },
+  "source_bundle_sha256": "141798cea97d642f31c143fb263e64e12f8a516bbfe0dbbb5ad43b05c4f0c8ee",
+  "source_bundle_bytes": 268702,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "protocol_sha256": "32e3d139be077c2ec00c886f24d9b2d4205dd28647c207fc63783a490bb95da4",
+  "code_sha256": "92d55e8ad97dd43365436a5dbad4d2a4a38fe26748327449e0dd23590e5ec7be",
+  "journal_provenance_sha256": "6838966b8a5d9b61f3a26ae0909f030fa1dc59644d3462b7d6d982f698b4a56f",
+  "output_hashes": {
+    "audit_checks.csv": "87887912f4338fc8c610c3044a8e52af23a65ef86ee0197233d774a4a58b890f",
+    "bundle_member_hashes.csv": "4865831a73319a257214d251de8120b44ead9cfe5f99484109551f5d7c568adf",
+    "column_profile.csv": "36b026aff38a75214c69a8bf188bbda7fa0316e02f210b3b65fa112e5036ac79",
+    "dataset_citations.csv": "89b0a16bcd0debe7d5d20ee2e4e5002d6e265bf726af4572df74d654bf1e09d0",
+    "duplicate_checks.csv": "2be2733b019c53b5c471974e976c8ace446edfb1ded6addda3d9cb3272b3ade3",
+    "evidence_gate.csv": "c4fff2fa9c9cc7b25917109e3cfce305851438406f914a6e2d177c14b4c595a2",
+    "evidence_limitations.csv": "752f6c88e4628c6e16f4982bc13c632702c368526cd21618ca3e65306468590e",
+    "french_trait_linkage.csv": "b959f87a80edbf03fe4c02ccc93dcbb631121b74c8cf815956ad37017cbd44d4",
+    "identical_file_copies.csv": "039f2070ffc38753a8a0f0ed5cceb074fdb91ceed4cfc5a1de8d829b521abe0e",
+    "plot_provenance.csv": "2bd89b6523138f9ab3cec6e210ebbe67f6ce7de1b103f064a7617587a2b4c459",
+    "source_files.csv": "ba40fdac1ef5d2a641f55c645388d028732878658b5113af2cdd3481c27d18fd",
+    "source_profile.csv": "62c0578d6810f7238ba0afdd469f9a8b7ebbc769764203f75f118a00e3b69037",
+    "source_readiness.csv": "9d1153630f4d2dc416e03cd9002fd147faa135b93056b09c3edd652765fcc7b6",
+    "swiss_environment_profile.csv": "fbdf51c900081e32ab04c601bfbc59a2e99f1d2511172e10b72a9a1bad8ccf56"
+  }
+}

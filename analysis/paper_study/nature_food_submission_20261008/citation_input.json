@@ -687,6 +687,203 @@
       "URL": "https://doi.org/10.6084/m9.figshare.27910269.v1"
     },
     {
+      "id": "SwissMixtures2023",
+      "type": "dataset",
+      "title": "Agronomic performance of cultivar mixtures of winter wheat varieties, obtained from mixture field trials at 5 locations in Switzerland from 2019 to 2020, together with yield data from the varieties in pure stand obtained from the national variety testing trial network",
+      "author": [
+        {
+          "given": "Laura",
+          "family": "Stefan"
+        },
+        {
+          "given": "Dario",
+          "family": "Fossati"
+        },
+        {
+          "given": "Karl-Heinz",
+          "family": "Camp"
+        },
+        {
+          "given": "Didier",
+          "family": "Pellet"
+        },
+        {
+          "given": "Flavio",
+          "family": "Foiada"
+        },
+        {
+          "given": "Lilia",
+          "family": "Levy Häner"
+        }
+      ],
+      "publisher": "Zenodo",
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            27
+          ]
+        ]
+      },
+      "DOI": "10.5281/zenodo.17432866",
+      "URL": "https://doi.org/10.5281/zenodo.17432866"
+    },
+    {
+      "id": "FrenchMixtures2021",
+      "type": "dataset",
+      "title": "Data from: \"From cultivar mixtures to allelic mixtures: opposite effects of allelic richness between genotypes and genotype richness in wheat\"",
+      "author": [
+        {
+          "given": "Germain",
+          "family": "Montazeaud"
+        },
+        {
+          "given": "Timothée",
+          "family": "Flutre"
+        },
+        {
+          "given": "Elsa",
+          "family": "Ballini"
+        },
+        {
+          "given": "Jean-Benoit",
+          "family": "Morel"
+        },
+        {
+          "given": "Jacques",
+          "family": "David"
+        },
+        {
+          "given": "Johanna",
+          "family": "Girodolle"
+        },
+        {
+          "given": "Aline",
+          "family": "Rocher"
+        },
+        {
+          "given": "Aurélie",
+          "family": "Ducasse"
+        },
+        {
+          "given": "Cyrille",
+          "family": "Violle"
+        },
+        {
+          "given": "Florian",
+          "family": "Fort"
+        },
+        {
+          "given": "Hélène",
+          "family": "Fréville"
+        }
+      ],
+      "publisher": "Zenodo",
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.5281/zenodo.5393959",
+      "URL": "https://doi.org/10.5281/zenodo.5393959"
+    },
+    {
+      "id": "ECVision2025",
+      "type": "report",
+      "title": "A Vision for Agriculture and Food",
+      "author": [
+        {
+          "literal": "European Commission"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            19
+          ]
+        ]
+      },
+      "publisher": "European Commission",
+      "number": "COM(2025) 75 final",
+      "URL": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075"
+    },
+    {
+      "id": "McDonald2022",
+      "type": "article-journal",
+      "title": "Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India",
+      "container-title": "Nature Food",
+      "container-title-short": "Nat. Food",
+      "author": [
+        {
+          "family": "McDonald",
+          "given": "Andrew J."
+        },
+        {
+          "family": "Balwinder-Singh"
+        },
+        {
+          "family": "Keil",
+          "given": "Alwin"
+        },
+        {
+          "family": "Srivastava",
+          "given": "Amit"
+        },
+        {
+          "family": "Craufurd",
+          "given": "Peter"
+        },
+        {
+          "family": "Kishore",
+          "given": "Avinash"
+        },
+        {
+          "family": "Kumar",
+          "given": "Virender"
+        },
+        {
+          "family": "Paudel",
+          "given": "Gokul"
+        },
+        {
+          "family": "Singh",
+          "given": "Sudhanshu"
+        },
+        {
+          "family": "Singh",
+          "given": "A. K."
+        },
+        {
+          "family": "Sohane",
+          "given": "R. K."
+        },
+        {
+          "family": "Malik",
+          "given": "R. K."
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            21
+          ]
+        ]
+      },
+      "volume": "3",
+      "page": "542-551",
+      "DOI": "10.1038/s43016-022-00549-0",
+      "URL": "https://doi.org/10.1038/s43016-022-00549-0"
+    },
+    {
       "id": "Bancal2007",
       "type": "article-journal",
       "title": "Modelling wheat growth and yield losses from late epidemics of foliar diseases using loss of green leaf area per layer and pre-anthesis reserves",
@@ -810,97 +1007,6 @@
       "page": "108108",
       "DOI": "10.1016/j.fcr.2021.108108",
       "URL": "https://doi.org/10.1016/j.fcr.2021.108108"
-    },
-    {
-      "id": "McDonald2022",
-      "type": "article-journal",
-      "title": "Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India",
-      "container-title": "Nature Food",
-      "container-title-short": "Nat. Food",
-      "author": [
-        {
-          "family": "McDonald",
-          "given": "Andrew J."
-        },
-        {
-          "family": "Balwinder-Singh"
-        },
-        {
-          "family": "Keil",
-          "given": "Alwin"
-        },
-        {
-          "family": "Srivastava",
-          "given": "Amit"
-        },
-        {
-          "family": "Craufurd",
-          "given": "Peter"
-        },
-        {
-          "family": "Kishore",
-          "given": "Avinash"
-        },
-        {
-          "family": "Kumar",
-          "given": "Virender"
-        },
-        {
-          "family": "Paudel",
-          "given": "Gokul"
-        },
-        {
-          "family": "Singh",
-          "given": "Sudhanshu"
-        },
-        {
-          "family": "Singh",
-          "given": "A. K."
-        },
-        {
-          "family": "Sohane",
-          "given": "R. K."
-        },
-        {
-          "family": "Malik",
-          "given": "R. K."
-        }
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2022,
-            7,
-            21
-          ]
-        ]
-      },
-      "volume": "3",
-      "page": "542-551",
-      "DOI": "10.1038/s43016-022-00549-0",
-      "URL": "https://doi.org/10.1038/s43016-022-00549-0"
-    },
-    {
-      "id": "ECVision2025",
-      "type": "report",
-      "title": "A Vision for Agriculture and Food",
-      "author": [
-        {
-          "literal": "European Commission"
-        }
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2025,
-            2,
-            19
-          ]
-        ]
-      },
-      "publisher": "European Commission",
-      "number": "COM(2025) 75 final",
-      "URL": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075"
     },
     {
       "id": "SPAM2020",
@@ -1113,11 +1219,13 @@
     "NFTS2026",
     "BenMbarek2020",
     "BRIWECS2025",
+    "SwissMixtures2023",
+    "FrenchMixtures2021",
+    "ECVision2025",
+    "McDonald2022",
     "Bancal2007",
     "Bancal2015",
     "Bregaglio2021",
-    "McDonald2022",
-    "ECVision2025",
     "SPAM2020",
     "GGCMIPhase32021",
     "NEXGDDPCmip6V2",
@@ -1130,10 +1238,69 @@
     "EEA2016": [
       "EEA2016"
     ],
-    "Parker2004|Foulkes2006|vanDenBerg2017": [
+    "Parker2004|Foulkes2006": [
       "Parker2004",
-      "Foulkes2006",
+      "Foulkes2006"
+    ],
+    "Parker2004|vanDenBerg2017": [
+      "Parker2004",
       "vanDenBerg2017"
+    ],
+    "Chaloner2021|Pequeno2024|ShawRoyle1989|LovellCanopy2004|Lovell2004": [
+      "Chaloner2021",
+      "Pequeno2024",
+      "ShawRoyle1989",
+      "LovellCanopy2004",
+      "Lovell2004"
+    ],
+    "NFTS2026|BenMbarek2020|TunisiaDryad2020": [
+      "NFTS2026",
+      "BenMbarek2020",
+      "TunisiaDryad2020"
+    ],
+    "NFTS2026|BenMbarek2020|BRIWECS2025": [
+      "NFTS2026",
+      "BenMbarek2020",
+      "BRIWECS2025"
+    ],
+    "SPAM2020": [
+      "SPAM2020"
+    ],
+    "Foulkes2006": [
+      "Foulkes2006"
+    ],
+    "Holst2022BASF|HolstDonner2022Corteva|NFTS2026|TunisiaDryad2020|BRIWECS2025|SwissMixtures2023|FrenchMixtures2021|NEXGDDPCmip6V2|GGCMIPhase32021|SPAM2020|EEA2016": [
+      "Holst2022BASF",
+      "HolstDonner2022Corteva",
+      "NFTS2026",
+      "TunisiaDryad2020",
+      "BRIWECS2025",
+      "SwissMixtures2023",
+      "FrenchMixtures2021",
+      "NEXGDDPCmip6V2",
+      "GGCMIPhase32021",
+      "SPAM2020",
+      "EEA2016"
+    ],
+    "SPAM2020|GGCMIPhase32021": [
+      "SPAM2020",
+      "GGCMIPhase32021"
+    ],
+    "Holst2022BASF|HolstDonner2022Corteva": [
+      "Holst2022BASF",
+      "HolstDonner2022Corteva"
+    ],
+    "BRIWECS2025": [
+      "BRIWECS2025"
+    ],
+    "SwissMixtures2023|FrenchMixtures2021": [
+      "SwissMixtures2023",
+      "FrenchMixtures2021"
+    ],
+    "McDonald2022|Bancal2007|Bancal2015": [
+      "McDonald2022",
+      "Bancal2007",
+      "Bancal2015"
     ],
     "SuffertSache2011|ShawRoyle1989|LovellCanopy2004|Baccar2011|Lovell2004": [
       "SuffertSache2011",
@@ -1141,55 +1308,6 @@
       "LovellCanopy2004",
       "Baccar2011",
       "Lovell2004"
-    ],
-    "SPAM2020|GGCMIPhase32021": [
-      "SPAM2020",
-      "GGCMIPhase32021"
-    ],
-    "BRIWECS2025": [
-      "BRIWECS2025"
-    ],
-    "NFTS2026|BenMbarek2020": [
-      "NFTS2026",
-      "BenMbarek2020"
-    ],
-    "Chaloner2021|Pequeno2024|Silva2026": [
-      "Chaloner2021",
-      "Pequeno2024",
-      "Silva2026"
-    ],
-    "Savary2019|Parker2004|Silva2026": [
-      "Savary2019",
-      "Parker2004",
-      "Silva2026"
-    ],
-    "Bancal2007|Bancal2015|Bregaglio2021": [
-      "Bancal2007",
-      "Bancal2015",
-      "Bregaglio2021"
-    ],
-    "Foulkes2006": [
-      "Foulkes2006"
-    ],
-    "NFTS2026|BenMbarek2020|TunisiaDryad2020": [
-      "NFTS2026",
-      "BenMbarek2020",
-      "TunisiaDryad2020"
-    ],
-    "Parker2004|vanDenBerg2017": [
-      "Parker2004",
-      "vanDenBerg2017"
-    ],
-    "Holst2022BASF|HolstDonner2022Corteva|NFTS2026|TunisiaDryad2020|BRIWECS2025|NEXGDDPCmip6V2|GGCMIPhase32021|SPAM2020|EEA2016": [
-      "Holst2022BASF",
-      "HolstDonner2022Corteva",
-      "NFTS2026",
-      "TunisiaDryad2020",
-      "BRIWECS2025",
-      "NEXGDDPCmip6V2",
-      "GGCMIPhase32021",
-      "SPAM2020",
-      "EEA2016"
     ],
     "SuffertSache2011|Baccar2011|Parker2004|Foulkes2006|vanDenBerg2017|Bryson1997": [
       "SuffertSache2011",
@@ -1199,31 +1317,30 @@
       "vanDenBerg2017",
       "Bryson1997"
     ],
-    "Parker2004|Foulkes2006": [
+    "Parker2004|Foulkes2006|vanDenBerg2017|Bregaglio2021": [
       "Parker2004",
-      "Foulkes2006"
+      "Foulkes2006",
+      "vanDenBerg2017",
+      "Bregaglio2021"
+    ],
+    "Chaloner2021|Pequeno2024": [
+      "Chaloner2021",
+      "Pequeno2024"
+    ],
+    "Savary2019|Parker2004|Silva2026": [
+      "Savary2019",
+      "Parker2004",
+      "Silva2026"
     ],
     "NEXGDDPCmip6V2": [
       "NEXGDDPCmip6V2"
     ],
-    "Chaloner2021|Pequeno2024|ShawRoyle1989|LovellCanopy2004|Lovell2004": [
-      "Chaloner2021",
-      "Pequeno2024",
-      "ShawRoyle1989",
-      "LovellCanopy2004",
-      "Lovell2004"
-    ],
-    "Holst2022BASF|HolstDonner2022Corteva": [
-      "Holst2022BASF",
-      "HolstDonner2022Corteva"
-    ],
-    "McDonald2022|ECVision2025": [
-      "McDonald2022",
-      "ECVision2025"
-    ],
     "Parker2004|Bancal2007": [
       "Parker2004",
       "Bancal2007"
+    ],
+    "ECVision2025": [
+      "ECVision2025"
     ]
   }
 }

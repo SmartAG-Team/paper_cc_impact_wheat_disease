@@ -29,6 +29,10 @@ def prepare():
     data.prepare_pooled()
     from analysis.paper_study.nature_food_submission_20261008.prepare import prepare as prepare_previous
     prepare_previous()
+    from .timing import read as read_timing
+    read_timing()
+    from analysis.paper_study.food_security_exposure_20261009.exposure import read as read_exposure
+    read_exposure()
 
 
 def curate(captions,folder):
@@ -56,6 +60,23 @@ def curate(captions,folder):
     captions['figS21_study_domain']=figures.study_context(folder)
     from analysis.paper_study.crop_damage_validation_20261009.publication import supplementary_figures
     captions.update(supplementary_figures(folder))
+    # Preserve the complete scenario maps while giving each main display a
+    # distinct role in the prediction–impact–exposure–mechanism argument.
+    cells, _, _ = data.grid_data()
+    countries = figures.gpd.read_file(data.ROOT/'data/geography/ne_110m_admin_0_countries.zip')
+    figures.scenario_map(folder, cells, countries, cells.drop_duplicates('cell_id'), data.CANOPY,
+        'figS25_full_scenario_canopy_damage', 'Change in normalized HAD loss (days)')
+    captions['figS25_full_scenario_canopy_damage'] = (
+        'Figure S25 | Canopy-damage changes across all emissions pathways and periods. '
+        'Three-climate-model mean changes in normalized healthy-area-duration loss during flowering to soft dough '
+        'relative to 1991–2020, shown on the native quarter-degree wheat grid. Positive values indicate greater '
+        'loss of assumed canopy function. All six panels share a symmetric colour scale. Grey wheat cells have '
+        'unavailable estimates. The all-wheat production domain uses imposed winter-wheat rainfed calendars.')
+    from .impact_figures import common_timing_figure,supplementary_diagnostics
+    stem,caption=common_timing_figure(folder)
+    captions[stem]=caption
+    stem,caption=supplementary_diagnostics(folder)
+    captions[stem]=caption
     # Full-grid source tables are archived separately; obsolete sampled source
     # CSVs from the predecessor figure selection do not enter this publication.
     return FigureCaptions(captions)
@@ -79,6 +100,12 @@ def source_workbook(destination,canonical='publication/european_wheat_stb'):
     sources += sorted((destination/'supplementary_figures').glob('*.csv'))+sorted((destination/'supplementary_figures').glob('*.csv.gz'))
     from analysis.paper_study.crop_damage_validation_20261009.publication import source_paths
     sources += source_paths()
+    from analysis.paper_study.food_security_exposure_20261009.exposure import source_paths as exposure_sources
+    sources += exposure_sources()
+    audit=data.ROOT/'analysis/paper_study/yield_transfer_audit_20261009'
+    for name in ['source_profile.csv','source_readiness.csv','evidence_gate.csv','swiss_model_comparison.csv',
+                 'site_paired_errors.csv','site_bootstrap_stability.csv','duplicate_checks.csv']:
+        if (audit/name).is_file():sources.append(audit/name)
     workbook=Workbook(write_only=True);manifest=[]
     for i,path in enumerate(sources,1):
         frame=pd.read_csv(path)
@@ -102,6 +129,10 @@ def source_workbook(destination,canonical='publication/european_wheat_stb'):
       ['Relative HAD loss','HAD loss divided by reference HAD; percentage of assumed canopy function lost during grain filling, distinct from lesion percentage.'],
       ['Estimated disease-related yield change','Minus the published coefficient times the change in HAD loss; kg ha-1 per unit maximum reference upper-canopy LAI.'],
       ['Climate-model range','Deterministic minimum and maximum across three climate-model domain estimates; not a confidence interval.'],
+      ['Baseline production exposure','SPAM2020 production located in cells with a specified projected canopy-damage response; not tonnes lost or future production.'],
+      ['All-model increase exposure','Baseline production in cells with strictly positive HAD changes in every one of the three climate models; the denominator retains all baseline production.'],
+      ['Production-weighted HAD change','Production times valid-pair counts weights each model-specific domain mean; the three model means then receive equal weight.'],
+      ['Common-population timing','Symptom, flowering and soft-dough dates are finite in both complete paired seasons; all date differences use this identical population.'],
       ['Sampled diagnostics','Weather-crop decomposition and structural sensitivity retain 64 draws at 62 cells.'],
       ['Pooled field scores','Equal coordinate-year, field, source-leaf and assessment weight; calibration excluded.'],
       ['Pooled intervals','20,000 paired coordinate-year bootstrap resamples; source conventions retained.']]:sheet.append(row)
@@ -158,7 +189,8 @@ def package(destination,evidence_archive=None):
 
 def build(destination,documents_only=False,evidence_archive=None):
     base.sections=sections.sections;base.TITLE=sections.TITLE
-    base.draw_figures=figures.main;base.main_tables=tables.main_tables
+    from .impact_figures import main as impact_figures
+    base.draw_figures=impact_figures;base.main_tables=tables.main_tables
     base.validation_figures=figures.validation_supplementary;base.yield_figures=figures.yield_supplementary
     base.map_figures=figures.map_supplementary;base.supplementary_phenology=figures.supplementary_phenology
     base.environmental_comparison=figures.agreement_figure;base._curated_figures=curate

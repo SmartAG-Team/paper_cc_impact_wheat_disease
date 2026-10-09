@@ -1,10 +1,68 @@
 {
   "status": "passed",
-  "archive_members_verified": 1132,
-  "field_source_verification": "passed from extracted curated source archive",
-  "document_regeneration": "passed",
-  "scientific_text_reproduction": "byte-identical",
-  "climate_evidence": "Bundled paired summaries; annual forcing archives remain external",
-  "source_archive_redactions": "Unused map-script keys only; numerical source cells preserved",
-  "Figure_2_source_data_reproduction": "byte-identical after gzip decompression"
+  "verified_at_utc": "2026-10-09T18:55:35.700932+00:00",
+  "scope": "Document and figure regeneration using only tracked repository files; raw climate simulations were not rerun.",
+  "environment": "Existing project Python dependencies and Node.js; no ignored raw inputs, local evidence directories or node_modules copied.",
+  "copied_tracked_files": 1224,
+  "source_manifest_sha256": "647a2733ad78df9c6b5cd179efe45ac817e2942421019fd9a62c247363e2233d",
+  "commands": [
+    "python -m analysis.paper_study.nature_food_impact_20261008.build --output OUTPUT --documents-only",
+    "python -m analysis.paper_study.nature_food_impact_20261008.verify --output OUTPUT"
+  ],
+  "document_content": {
+    "Manuscript.txt": "identical",
+    "Manuscript.pdf": "identical text on every page",
+    "Supplementary_Information.pdf": "identical text on every page",
+    "Supplementary_Model_Specification.pdf": "identical text on every page",
+    "Manuscript.docx": "identical paragraph and table text",
+    "Supplementary_Information.docx": "identical paragraph and table text"
+  },
+  "identical_source_and_raster_files": {
+    "csv": 17,
+    "csv_gz": 6,
+    "png": 31,
+    "caption": 27
+  },
+  "verification": {
+    "status": "passed",
+    "scope": "Numerical reporting, provenance and outcome-specific evaluation; end-to-end grain-loss predictive validity is not established",
+    "abstract_words": 145,
+    "main_figures": 4,
+    "main_tables": 1,
+    "Results_focus": "Predictive support, canopy damage, production exposure and crop\u2013disease timing",
+    "pooled_evaluation": {
+      "symptom_onset_days": {
+        "model": 5.321639784946236,
+        "benchmark": 2.7854838709677416
+      },
+      "severity": {
+        "model_rmse": 31.193442472743396,
+        "model_bias": -17.564907593118328,
+        "benchmark_rmse": 29.834334924666734,
+        "benchmark_bias": -5.369027971273411
+      },
+      "assessment_records": 2033,
+      "onset_histories": 136
+    },
+    "full_grid_domain_check": {
+      "status": "passed",
+      "comparisons": 60,
+      "source": "Bundled paired grid values and valid-year counts",
+      "period": "2071-2100"
+    },
+    "PDF_pages": {
+      "Manuscript.pdf": 17,
+      "Supplementary_Information.pdf": 72,
+      "Supplementary_Model_Specification.pdf": 7
+    },
+    "production_exposure_and_timing": {
+      "status": "passed",
+      "independent_exposure_comparisons": 84,
+      "timing_population": "Identical complete pairs for all event and interval means",
+      "production_interpretation": "Fixed baseline production located in exposed cells; not estimated grain loss"
+    },
+    "source_workbook_sheets": 94,
+    "archived_members_checked": null
+  },
+  "comparison_basis": "PDF and DOCX text, uncompressed CSV bytes, exact PNG and caption bytes. Archive timestamps and PDF creation metadata need not match."
 }

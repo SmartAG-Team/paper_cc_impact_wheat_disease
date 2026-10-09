@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "rows": {
+    "production_grid_input.csv": 14941,
+    "country_fraction_weights.csv": 15608,
+    "paired_changes_input.csv.gz": 268938,
+    "native_source_fixture.csv": 42
+  },
+  "sha256": {
+    "production_grid_input.csv": "11782120d1bddda36f4edeebc70a021bb17bf48d4488569a1160fbe938d64451",
+    "country_fraction_weights.csv": "2d160659fe37d47db2efec2695c93372807d20de31b84ef81cb92941d07a1cfa",
+    "paired_changes_input.csv.gz": "790a911573c96b7f944d075bd826b5ec6bc3ff30e841d4e7bc11419615e71278",
+    "native_source_fixture.csv": "2a9f0d0a6218c2426f53a3a6c1acf75e6e75610d6453a0572a05aaeabc247406"
+  },
+  "paired_metric": "GS65_85_lost_had3",
+  "verification": "Native values and masks verified against provider-hashed TIFFs at original build; bundle reproduces aggregates without TIFFs.",
+  "fixture_scope": "Small complete-cell subset for fractional source reconstruction; not a continental production estimate."
+}

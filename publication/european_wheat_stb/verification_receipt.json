@@ -1,10 +1,10 @@
 {
   "status": "passed",
-  "scope": "Numerical reporting and provenance; biological and absolute-yield predictions remain unvalidated",
-  "abstract_words": 144,
+  "scope": "Numerical reporting, provenance and outcome-specific evaluation; end-to-end grain-loss predictive validity is not established",
+  "abstract_words": 145,
   "main_figures": 4,
   "main_tables": 1,
-  "Results_focus": "Full-grid climate impacts",
+  "Results_focus": "Predictive support, canopy damage, production exposure and crop\u2013disease timing",
   "pooled_evaluation": {
     "symptom_onset_days": {
       "model": 5.321639784946236,
@@ -26,10 +26,16 @@
     "period": "2071-2100"
   },
   "PDF_pages": {
-    "Manuscript.pdf": 16,
-    "Supplementary_Information.pdf": 64,
+    "Manuscript.pdf": 17,
+    "Supplementary_Information.pdf": 72,
     "Supplementary_Model_Specification.pdf": 7
   },
-  "source_workbook_sheets": 58,
-  "archived_members_checked": 1132
+  "production_exposure_and_timing": {
+    "status": "passed",
+    "independent_exposure_comparisons": 84,
+    "timing_population": "Identical complete pairs for all event and interval means",
+    "production_interpretation": "Fixed baseline production located in exposed cells; not estimated grain loss"
+  },
+  "source_workbook_sheets": 94,
+  "archived_members_checked": null
 }

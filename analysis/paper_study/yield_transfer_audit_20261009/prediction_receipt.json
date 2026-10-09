@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "analysis_status": "exploratory; specified after data inspection, before model fitting; not preregistered",
+  "protocol_sha256": "32e3d139be077c2ec00c886f24d9b2d4205dd28647c207fc63783a490bb95da4",
+  "source_bundle_sha256": "141798cea97d642f31c143fb263e64e12f8a516bbfe0dbbb5ad43b05c4f0c8ee",
+  "code_sha256": "f6eb63409aad3827fc76f4b0ff0f2e909aa18e285118b8768bc42ed7cef59bd5",
+  "models": [
+    "training_mean",
+    "stb_only",
+    "management",
+    "management_stb",
+    "management_codisease",
+    "management_codisease_stb"
+  ],
+  "unique_plots": 724,
+  "sites": 5,
+  "site_years": 10,
+  "total_fits": 90,
+  "heldout_prediction_rows": 8688,
+  "outcome_leakage_controls": "Fold-local encoding/scaling/fitting; harvest-derived covariates excluded; whole sites or site-years excluded",
+  "primary_split": "leave_one_site_out",
+  "secondary_split": "leave_one_site_year_out",
+  "temporal_transfer_tested": false,
+  "causal_adaptation_tested": false,
+  "mechanistic_validation_established": false,
+  "ordinal_percent_conversion": false,
+  "models_promoted_to_climate_simulation": false,
+  "gate": {
+    "eligible": true,
+    "sites": 5,
+    "site_years": 10,
+    "conditions": {
+      "enough_sites": true,
+      "enough_site_years": true,
+      "no_sparse_site_years": true,
+      "enough_training_sites": true
+    }
+  },
+  "uncertainty": [
+    {
+      "baseline": "management",
+      "augmented": "management_stb",
+      "sites": 5,
+      "sites_improved": 4,
+      "mean_delta_mse": -0.06582454893008605,
+      "descriptive_p025": -0.23706815716289578,
+      "descriptive_p975": 0.10387991922271385,
+      "interpretation": "Five-site descriptive bootstrap stability interval conditional on fitted OOF predictions; not a confirmatory confidence interval"
+    },
+    {
+      "baseline": "management_codisease",
+      "augmented": "management_codisease_stb",
+      "sites": 5,
+      "sites_improved": 3,
+      "mean_delta_mse": -0.03684060058118066,
+      "descriptive_p025": -0.1260587144717613,
+      "descriptive_p975": 0.05237751330939999,
+      "interpretation": "Five-site descriptive bootstrap stability interval conditional on fitted OOF predictions; not a confirmatory confidence interval"
+    }
+  ],
+  "software": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "output_hashes": {
+    "heldout_predictions.csv": "a9d82cb991022748321bbcff31d35c0e9a5532a1a0d0b14dfcf2fe8e655ac5c3",
+    "fold_diagnostics.csv": "a333a8be86e982749f0581e625a9e9d55564c0d5f20f0ecd27b496294b725fc7",
+    "unseen_categories.csv": "4f346a492ca2b2ebbc2556f4faf439ef4c9baec02bcc1dd9f6f8229da8ee207a",
+    "environment_errors.csv": "a0e8a964ad2e83e6c2794a94c57e41d7735f6f50d83d03392cef73b631535ecc",
+    "swiss_model_comparison.csv": "b937f2fc994aecc9402e81a9cdcd07cad1d6bf7edaf832cf492ea05353622e1c",
+    "site_paired_errors.csv": "f4e929f9bb70c6a99f4b13c9530d1dabd6fdea11be35b53bff0b5e20c31d22d0",
+    "site_bootstrap_stability.csv": "99d1e2d08247863adb0f2d74fda6c0ad8b08b7d548b30d5492f9856218ab5397"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "execution_status": "Authorized supplementary exploratory comparison; specified after source inspection, before model fitting; see prediction_receipt.json for execution",
+  "scope": "Retrospective Swiss observed harvest-yield prediction within the recorded cultivar and 2019-2020 management domain",
+  "registration_status": "Specified after source/schema/coverage inspection and before any model fit; local protocol, not external preregistration",
+  "target": "yield_t_ha: source yield_dtha multiplied by 0.1; retained package reports 15% grain moisture",
+  "cohort": "All 724 unique Swiss plot IDs with recorded STB and harvest yield; no outcome-based exclusions",
+  "gate": {"minimum_sites": 5, "minimum_site_years": 6, "minimum_plots_per_site_year": 20, "minimum_train_sites": 4},
+  "splits": {"primary": "leave_one_site_out", "secondary": "leave_one_site_year_out"},
+  "models": {
+    "training_mean": [],
+    "stb_only": ["stb_score_ordinal"],
+    "management": ["name_var", "mono_mix", "density"],
+    "management_stb": ["name_var", "mono_mix", "density", "stb_score_ordinal"],
+    "management_codisease": ["name_var", "mono_mix", "density", "rj", "rb_2", "oidium"],
+    "management_codisease_stb": ["name_var", "mono_mix", "density", "rj", "rb_2", "oidium", "stb_score_ordinal"]
+  },
+  "estimator": "Ridge, unpenalized intercept, fixed alpha=1.0, training-fold categorical one-hot encoding and density standardization; no tuning",
+  "ridge_alpha": 1.0,
+  "categorical": ["name_var", "mono_mix", "stb_score_ordinal", "rj", "rb_2", "oidium"],
+  "unseen_categories": "All-zero encoding; counts exported for every fold/model/feature",
+  "training_weights": "Each training site-year has equal total weight; weights normalized to sum to the training plot count",
+  "metrics": "Primary RMSE and MAE: average error within site-year, then equally across site-years; pooled plot metrics also retained",
+  "primary_contrast": "management_stb minus management in held-out squared error",
+  "sensitivity_contrast": "management_codisease_stb minus management_codisease",
+  "uncertainty": "10,000 paired bootstrap resamples of the five site-level OOF error contrasts (each site averages its two years), seed 20261009; descriptive stability interval conditional on fitted folds, not a confirmatory CI or p-value",
+  "seed": 20261009,
+  "bootstrap_replicates": 10000,
+  "excluded_predictors": ["yield_dtha", "yield_t_ha", "wat_cont", "phl", "prot", "day_epi", "height", "postcode", "year", "site_year", "plot_id", "rep", "source_csv_line"],
+  "exclusion_reason": "Harvest-derived measurements leak outcomes; heading/height lack timing relative to the undated disease score; identifiers are grouping/provenance fields, not covariates",
+  "france": "No environmental transfer fit: one site-year, early ordinal score followed by fungicides, spatial BLUPs fitted across the experiment; raw yields audited separately",
+  "interpretation_limits": [
+    "Ordinal scores remain categories; no equal-interval or percent-leaf-area conversion.",
+    "Disease assessment dates are absent; predictions are retrospective associations, not validated prospective forecasts.",
+    "Repeated cultivars across sites are allowed; this does not test unseen-cultivar prediction.",
+    "Two seasons do not establish temporal or future-climate transfer; site-year folds share locations across training and test.",
+    "Sowing density is site-confounded; management coefficients do not identify intervention effects.",
+    "The co-disease sensitivity addresses recorded ratings only; residual confounding remains.",
+    "No HAD, STB-specific yield-loss fraction, regional tonnes, adaptation benefit, or physiological grain model is validated."
+  ]
+}

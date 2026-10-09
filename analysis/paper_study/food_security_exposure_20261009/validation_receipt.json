@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "independent_europe_matrix_checks": [
+    {
+      "scenario": "ssp126",
+      "period": "2031-2060",
+      "analysis_mode": "primary_any_paired_year",
+      "max_abs_mean_range_difference": 6.217248937900877e-15
+    },
+    {
+      "scenario": "ssp126",
+      "period": "2031-2060",
+      "analysis_mode": "robust_all3_ge27",
+      "max_abs_mean_range_difference": 4.884981308350689e-15
+    },
+    {
+      "scenario": "ssp126",
+      "period": "2071-2100",
+      "analysis_mode": "primary_any_paired_year",
+      "max_abs_mean_range_difference": 5.329070518200751e-15
+    },
+    {
+      "scenario": "ssp126",
+      "period": "2071-2100",
+      "analysis_mode": "robust_all3_ge27",
+      "max_abs_mean_range_difference": 4.884981308350689e-15
+    },
+    {
+      "scenario": "ssp245",
+      "period": "2031-2060",
+      "analysis_mode": "primary_any_paired_year",
+      "max_abs_mean_range_difference": 4.440892098500626e-16
+    },
+    {
+      "scenario": "ssp245",
+      "period": "2031-2060",
+      "analysis_mode": "robust_all3_ge27",
+      "max_abs_mean_range_difference": 3.9968028886505635e-15
+    },
+    {
+      "scenario": "ssp245",
+      "period": "2071-2100",
+      "analysis_mode": "primary_any_paired_year",
+      "max_abs_mean_range_difference": 7.993605777301127e-15
+    },
+    {
+      "scenario": "ssp245",
+      "period": "2071-2100",
+      "analysis_mode": "robust_all3_ge27",
+      "max_abs_mean_range_difference": 4.440892098500626e-15
+    },
+    {
+      "scenario": "ssp585",
+      "period": "2031-2060",
+      "analysis_mode": "primary_any_paired_year",
+      "max_abs_mean_range_difference": 4.884981308350689e-15
+    },
+    {
+      "scenario": "ssp585",
+      "period": "2031-2060",
+      "analysis_mode": "robust_all3_ge27",
+      "max_abs_mean_range_difference": 7.105427357601002e-15
+    },
+    {
+      "scenario": "ssp585",
+      "period": "2071-2100",
+      "analysis_mode": "primary_any_paired_year",
+      "max_abs_mean_range_difference": 1.5987211554602254e-14
+    },
+    {
+      "scenario": "ssp585",
+      "period": "2071-2100",
+      "analysis_mode": "robust_all3_ge27",
+      "max_abs_mean_range_difference": 2.220446049250313e-14
+    }
+  ],
+  "bundle_tables_reproduced": [
+    "domain_summary",
+    "region_summary",
+    "country_summary",
+    "europe_summary",
+    "changes_by_gcm",
+    "exposure_categories",
+    "region_exposure_stacked",
+    "domain_exposure_stacked",
+    "late_century_exposure_by_ssp",
+    "table1",
+    "region_priorities",
+    "reference_production_area",
+    "metric_readiness",
+    "cell_classifications"
+  ],
+  "bundle_relative_tolerance": 1e-12,
+  "bundle_absolute_tolerance": 1e-09,
+  "edge_case_and_integration_tests": {
+    "passed": 25,
+    "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider analysis/paper_study/food_security_exposure_20261009/test_exposure.py"
+  },
+  "primary_region_rows_via_exposure_module_api": 60
+}

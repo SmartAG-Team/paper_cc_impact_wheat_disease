@@ -1,22 +1,21 @@
 {
   "status": "generated",
   "title": "Wheat phenology partly offsets projected increases in Septoria damage across Europe",
-  "abstract_words": 144,
-  "main_text_words_excluding_methods": 2277,
+  "abstract_words": 145,
+  "main_text_words_excluding_methods": 2283,
   "main_figures": 4,
   "main_tables": 1,
   "display_items": 5,
-  "references": 28,
-  "supplementary_figures": 24,
-  "supplementary_tables": 28,
-  "source_workbook_sheets": 58,
+  "references": 30,
+  "supplementary_figures": 27,
+  "supplementary_tables": 33,
+  "source_workbook_sheets": 94,
   "files": {
-    "Manuscript.docx": "b750f397e801eddb583ba593ae321337384cc11b78e51d26c4c18685bc081b2f",
-    "Manuscript.pdf": "4eaae1130e058974d140ab69ea61563982faccc8fd33e963952a2af35f338991",
-    "Manuscript.txt": "dbc4764140a66e572bc8940672c7cec559917e829238c0bf6d0342fc347002cd",
-    "Supplementary_Information.docx": "ef7737dcff03cb3bc3550ed8031bf473b30de6847c81f01556b32d0bc2722a2c",
-    "Supplementary_Information.pdf": "aa269c8a05ba817b659d72ab59f457be82d3620aeae10f5a0c3d47e72e975292",
-    "Source_Data.xlsx": "ae25126efadcd96a3f9345f0aed5b9c52d3f2732b2a8f8c6ced816885308277e",
-    "Software_and_Evidence.zip": "3c94370774701f9dc66f2a82b29aeeaffc5ba1cd023a365a5fff1cb23c4a8072"
+    "Manuscript.docx": "ffe24a404d22d5da88e55d39efe2aadac72329bcd068a4e3845c8f6119420913",
+    "Manuscript.pdf": "822f11c1e4e2144b8a077ee42475d3fea7adb4f2845439b0be37fe3962be99ce",
+    "Manuscript.txt": "16014dd8d0825486e8dba87942a99c93f08393e0ae5f8620dd9aade012c33aa8",
+    "Supplementary_Information.docx": "71dbf4e51efa6e457c4740d7542b6bd54e5daa743587adf3d5ccf84b79cb0a89",
+    "Supplementary_Information.pdf": "b7ae65ef44da5c3bbcaaf5852390524a48b5ba18ffdbd40e6ec376b708309235",
+    "Source_Data.xlsx": "62b922329d0d51e9d4a82655a6d4939f6f294a8554525a4b74b313eebc5e45e1"
   }
 }

@@ -1,0 +1,481 @@
+domain_type,domain,scenario,period,analysis_mode,baseline_production_tonnes,production_tonnes,category,share_baseline_pct
+environment_region,Alpine,ssp126,2031-2060,primary_any_paired_year,4414982.9699338274,2064340.8637339699,all3increase,46.75761781624518
+environment_region,Alpine,ssp126,2071-2100,primary_any_paired_year,4414982.9699338274,3128156.4224291672,all3increase,70.85319340373475
+environment_region,Alpine,ssp245,2031-2060,primary_any_paired_year,4414982.9699338274,1315801.4996820092,all3increase,29.803093435301083
+environment_region,Alpine,ssp245,2071-2100,primary_any_paired_year,4414982.9699338274,2139724.0037660501,all3increase,48.465056792690653
+environment_region,Alpine,ssp585,2031-2060,primary_any_paired_year,4414982.9699338274,2908041.5004778793,all3increase,65.867558726312936
+environment_region,Alpine,ssp585,2071-2100,primary_any_paired_year,4414982.9699338274,2976195.7435267256,all3increase,67.411262145170483
+environment_region,Atlantic,ssp126,2031-2060,primary_any_paired_year,44580512.873920038,92296.925027698278,all3increase,0.20703423778171184
+environment_region,Atlantic,ssp126,2071-2100,primary_any_paired_year,44580512.873920038,0,all3increase,0
+environment_region,Atlantic,ssp245,2031-2060,primary_any_paired_year,44580512.873920038,674223.62631520629,all3increase,1.5123729693779109
+environment_region,Atlantic,ssp245,2071-2100,primary_any_paired_year,44580512.873920038,5031962.0296219308,all3increase,11.287357872828936
+environment_region,Atlantic,ssp585,2031-2060,primary_any_paired_year,44580512.873920038,12702822.746228524,all3increase,28.494115314810067
+environment_region,Atlantic,ssp585,2071-2100,primary_any_paired_year,44580512.873920038,29181706.778955419,all3increase,65.458436652546794
+environment_region,Black Sea,ssp126,2031-2060,primary_any_paired_year,503175.50532423193,57442.10516906764,all3increase,11.41591841440167
+environment_region,Black Sea,ssp126,2071-2100,primary_any_paired_year,503175.50532423193,9651.4764186333523,all3increase,1.9181133255710086
+environment_region,Black Sea,ssp245,2031-2060,primary_any_paired_year,503175.50532423193,0,all3increase,0
+environment_region,Black Sea,ssp245,2071-2100,primary_any_paired_year,503175.50532423193,8301.676391642879,all3increase,1.6498570188335213
+environment_region,Black Sea,ssp585,2031-2060,primary_any_paired_year,503175.50532423193,7286.8764019425616,all3increase,1.4481778872059972
+environment_region,Black Sea,ssp585,2071-2100,primary_any_paired_year,503175.50532423193,7286.8764019425616,all3increase,1.4481778872059972
+environment_region,Boreal,ssp126,2031-2060,primary_any_paired_year,14651971.922177825,10179015.498417526,all3increase,69.471983378634192
+environment_region,Boreal,ssp126,2071-2100,primary_any_paired_year,14651971.922177825,4073243.3175880564,all3increase,27.79996671589732
+environment_region,Boreal,ssp245,2031-2060,primary_any_paired_year,14651971.922177825,10208509.327814884,all3increase,69.673279351312885
+environment_region,Boreal,ssp245,2071-2100,primary_any_paired_year,14651971.922177825,11729720.732212096,all3increase,80.055577464337816
+environment_region,Boreal,ssp585,2031-2060,primary_any_paired_year,14651971.922177825,13670371.401623398,all3increase,93.300556909554018
+environment_region,Boreal,ssp585,2071-2100,primary_any_paired_year,14651971.922177825,14166824.322422612,all3increase,96.688857975349549
+environment_region,Continental,ssp126,2031-2060,primary_any_paired_year,106617234.69846927,52610858.502177484,all3increase,49.345547791564357
+environment_region,Continental,ssp126,2071-2100,primary_any_paired_year,106617234.69846927,51938100.688093588,all3increase,48.714544918542401
+environment_region,Continental,ssp245,2031-2060,primary_any_paired_year,106617234.69846927,32956158.692565918,all3increase,30.910723567133633
+environment_region,Continental,ssp245,2071-2100,primary_any_paired_year,106617234.69846927,67295508.502862573,all3increase,63.118790027883499
+environment_region,Continental,ssp585,2031-2060,primary_any_paired_year,106617234.69846927,78542827.379017204,all3increase,73.668040257420841
+environment_region,Continental,ssp585,2071-2100,primary_any_paired_year,106617234.69846927,82811176.986699626,all3increase,77.671473304389281
+environment_region,Mediterranean,ssp126,2031-2060,primary_any_paired_year,13310770.258850317,5579560.8853347311,all3increase,41.917640954135521
+environment_region,Mediterranean,ssp126,2071-2100,primary_any_paired_year,13310770.258850317,1772670.0990604386,all3increase,13.317562128921818
+environment_region,Mediterranean,ssp245,2031-2060,primary_any_paired_year,13310770.258850317,1004181.3009163737,all3increase,7.5441261579035563
+environment_region,Mediterranean,ssp245,2071-2100,primary_any_paired_year,13310770.258850317,939760.07422350242,all3increase,7.0601479549889827
+environment_region,Mediterranean,ssp585,2031-2060,primary_any_paired_year,13310770.258850317,1539329.7017801793,all3increase,11.564542636115895
+environment_region,Mediterranean,ssp585,2071-2100,primary_any_paired_year,13310770.258850317,1009878.7001042531,all3increase,7.586929084233768
+environment_region,Outside EEA regions,ssp126,2031-2060,primary_any_paired_year,223302.75905752784,222003.36939160965,all3increase,99.418104070275533
+environment_region,Outside EEA regions,ssp126,2071-2100,primary_any_paired_year,223302.75905752784,98750.543747798598,all3increase,44.222715457966295
+environment_region,Outside EEA regions,ssp245,2031-2060,primary_any_paired_year,223302.75905752784,28563.217658430367,all3increase,12.791251563117424
+environment_region,Outside EEA regions,ssp245,2071-2100,primary_any_paired_year,223302.75905752784,121741.51405991016,all3increase,54.518589279296272
+environment_region,Outside EEA regions,ssp585,2031-2060,primary_any_paired_year,223302.75905752784,77138.575491753261,all3increase,34.544389786012729
+environment_region,Outside EEA regions,ssp585,2071-2100,primary_any_paired_year,223302.75905752784,223302.75905752784,all3increase,100
+environment_region,Pannonian,ssp126,2031-2060,primary_any_paired_year,9021868.9015709311,3803674.098887682,all3increase,42.160600429755391
+environment_region,Pannonian,ssp126,2071-2100,primary_any_paired_year,9021868.9015709311,8967420.1019623429,all3increase,99.396479818066211
+environment_region,Pannonian,ssp245,2031-2060,primary_any_paired_year,9021868.9015709311,961682.49948728085,all3increase,10.659459918773903
+environment_region,Pannonian,ssp245,2071-2100,primary_any_paired_year,9021868.9015709311,7504671.7040539384,all3increase,83.183116335764851
+environment_region,Pannonian,ssp585,2031-2060,primary_any_paired_year,9021868.9015709311,8952049.1026207358,all3increase,99.226104926684997
+environment_region,Pannonian,ssp585,2071-2100,primary_any_paired_year,9021868.9015709311,8998931.9016930014,all3increase,99.745762212595039
+environment_region,Steppic,ssp126,2031-2060,primary_any_paired_year,45940337.302547283,23231238.672082685,all3increase,50.568280592042079
+environment_region,Steppic,ssp126,2071-2100,primary_any_paired_year,45940337.302547283,26929135.193801686,all3increase,58.617626197334268
+environment_region,Steppic,ssp245,2031-2060,primary_any_paired_year,45940337.302547283,5690989.3115683384,all3increase,12.387783037136705
+environment_region,Steppic,ssp245,2071-2100,primary_any_paired_year,45940337.302547283,23048698.19463037,all3increase,50.170938107919319
+environment_region,Steppic,ssp585,2031-2060,primary_any_paired_year,45940337.302547283,11467235.346609451,all3increase,24.961147479371295
+environment_region,Steppic,ssp585,2071-2100,primary_any_paired_year,45940337.302547283,21229110.236598782,all3increase,46.21017494231954
+environment_region,Unassigned,ssp126,2031-2060,primary_any_paired_year,2580697.3698629681,280236.32600124984,all3increase,10.858937947308794
+environment_region,Unassigned,ssp126,2071-2100,primary_any_paired_year,2580697.3698629681,126583.17695896972,all3increase,4.9049988750014162
+environment_region,Unassigned,ssp245,2031-2060,primary_any_paired_year,2580697.3698629681,416342.39213626942,all3increase,16.132941312618019
+environment_region,Unassigned,ssp245,2071-2100,primary_any_paired_year,2580697.3698629681,737087.48997694917,all3increase,28.56156241272442
+environment_region,Unassigned,ssp585,2031-2060,primary_any_paired_year,2580697.3698629681,1178452.0272863798,all3increase,45.664092235229973
+environment_region,Unassigned,ssp585,2071-2100,primary_any_paired_year,2580697.3698629681,1607099.37333827,all3increase,62.273840865874362
+environment_region,Alpine,ssp126,2031-2060,robust_all3_ge27,4414982.9699338274,2064340.8637339699,all3increase,46.75761781624518
+environment_region,Alpine,ssp126,2071-2100,robust_all3_ge27,4414982.9699338274,3124393.3224902977,all3increase,70.767958648255586
+environment_region,Alpine,ssp245,2031-2060,robust_all3_ge27,4414982.9699338274,1315801.4996820092,all3increase,29.803093435301083
+environment_region,Alpine,ssp245,2071-2100,robust_all3_ge27,4414982.9699338274,2139724.0037660501,all3increase,48.465056792690653
+environment_region,Alpine,ssp585,2031-2060,robust_all3_ge27,4414982.9699338274,2908041.5004778793,all3increase,65.867558726312936
+environment_region,Alpine,ssp585,2071-2100,robust_all3_ge27,4414982.9699338274,2975798.3435206697,all3increase,67.402260977810101
+environment_region,Atlantic,ssp126,2031-2060,robust_all3_ge27,44580512.873920038,92296.925027698278,all3increase,0.20703423778171184
+environment_region,Atlantic,ssp126,2071-2100,robust_all3_ge27,44580512.873920038,0,all3increase,0
+environment_region,Atlantic,ssp245,2031-2060,robust_all3_ge27,44580512.873920038,674223.62631520629,all3increase,1.5123729693779109
+environment_region,Atlantic,ssp245,2071-2100,robust_all3_ge27,44580512.873920038,5031962.0296219308,all3increase,11.287357872828936
+environment_region,Atlantic,ssp585,2031-2060,robust_all3_ge27,44580512.873920038,12702822.746228524,all3increase,28.494115314810067
+environment_region,Atlantic,ssp585,2071-2100,robust_all3_ge27,44580512.873920038,29181706.778955419,all3increase,65.458436652546794
+environment_region,Black Sea,ssp126,2031-2060,robust_all3_ge27,503175.50532423193,57442.10516906764,all3increase,11.41591841440167
+environment_region,Black Sea,ssp126,2071-2100,robust_all3_ge27,503175.50532423193,9651.4764186333523,all3increase,1.9181133255710086
+environment_region,Black Sea,ssp245,2031-2060,robust_all3_ge27,503175.50532423193,0,all3increase,0
+environment_region,Black Sea,ssp245,2071-2100,robust_all3_ge27,503175.50532423193,8301.676391642879,all3increase,1.6498570188335213
+environment_region,Black Sea,ssp585,2031-2060,robust_all3_ge27,503175.50532423193,7286.8764019425616,all3increase,1.4481778872059972
+environment_region,Black Sea,ssp585,2071-2100,robust_all3_ge27,503175.50532423193,7286.8764019425616,all3increase,1.4481778872059972
+environment_region,Boreal,ssp126,2031-2060,robust_all3_ge27,14651971.922177825,10179015.498417526,all3increase,69.471983378634192
+environment_region,Boreal,ssp126,2071-2100,robust_all3_ge27,14651971.922177825,4073243.3175880564,all3increase,27.79996671589732
+environment_region,Boreal,ssp245,2031-2060,robust_all3_ge27,14651971.922177825,10208509.327814884,all3increase,69.673279351312885
+environment_region,Boreal,ssp245,2071-2100,robust_all3_ge27,14651971.922177825,11729720.732212096,all3increase,80.055577464337816
+environment_region,Boreal,ssp585,2031-2060,robust_all3_ge27,14651971.922177825,13670371.401623398,all3increase,93.300556909554018
+environment_region,Boreal,ssp585,2071-2100,robust_all3_ge27,14651971.922177825,14166219.422425497,all3increase,96.684729520829393
+environment_region,Continental,ssp126,2031-2060,robust_all3_ge27,106617234.69846927,52610858.502177484,all3increase,49.345547791564357
+environment_region,Continental,ssp126,2071-2100,robust_all3_ge27,106617234.69846927,51938100.688093588,all3increase,48.714544918542401
+environment_region,Continental,ssp245,2031-2060,robust_all3_ge27,106617234.69846927,32956158.692565918,all3increase,30.910723567133633
+environment_region,Continental,ssp245,2071-2100,robust_all3_ge27,106617234.69846927,67295508.502862573,all3increase,63.118790027883499
+environment_region,Continental,ssp585,2031-2060,robust_all3_ge27,106617234.69846927,78542827.379017204,all3increase,73.668040257420841
+environment_region,Continental,ssp585,2071-2100,robust_all3_ge27,106617234.69846927,82811176.986699626,all3increase,77.671473304389281
+environment_region,Mediterranean,ssp126,2031-2060,robust_all3_ge27,13310770.258850317,5579560.8853347311,all3increase,41.917640954135521
+environment_region,Mediterranean,ssp126,2071-2100,robust_all3_ge27,13310770.258850317,1772670.0990604386,all3increase,13.317562128921818
+environment_region,Mediterranean,ssp245,2031-2060,robust_all3_ge27,13310770.258850317,1004181.3009163737,all3increase,7.5441261579035563
+environment_region,Mediterranean,ssp245,2071-2100,robust_all3_ge27,13310770.258850317,939760.07422350242,all3increase,7.0601479549889827
+environment_region,Mediterranean,ssp585,2031-2060,robust_all3_ge27,13310770.258850317,1539329.7017801793,all3increase,11.564542636115895
+environment_region,Mediterranean,ssp585,2071-2100,robust_all3_ge27,13310770.258850317,1009878.7001042531,all3increase,7.586929084233768
+environment_region,Outside EEA regions,ssp126,2031-2060,robust_all3_ge27,223302.75905752784,222003.36939160965,all3increase,99.418104070275533
+environment_region,Outside EEA regions,ssp126,2071-2100,robust_all3_ge27,223302.75905752784,98750.543747798598,all3increase,44.222715457966295
+environment_region,Outside EEA regions,ssp245,2031-2060,robust_all3_ge27,223302.75905752784,28563.217658430367,all3increase,12.791251563117424
+environment_region,Outside EEA regions,ssp245,2071-2100,robust_all3_ge27,223302.75905752784,121741.51405991016,all3increase,54.518589279296272
+environment_region,Outside EEA regions,ssp585,2031-2060,robust_all3_ge27,223302.75905752784,77138.575491753261,all3increase,34.544389786012729
+environment_region,Outside EEA regions,ssp585,2071-2100,robust_all3_ge27,223302.75905752784,223302.75905752784,all3increase,100
+environment_region,Pannonian,ssp126,2031-2060,robust_all3_ge27,9021868.9015709311,3803674.098887682,all3increase,42.160600429755391
+environment_region,Pannonian,ssp126,2071-2100,robust_all3_ge27,9021868.9015709311,8967420.1019623429,all3increase,99.396479818066211
+environment_region,Pannonian,ssp245,2031-2060,robust_all3_ge27,9021868.9015709311,961682.49948728085,all3increase,10.659459918773903
+environment_region,Pannonian,ssp245,2071-2100,robust_all3_ge27,9021868.9015709311,7504671.7040539384,all3increase,83.183116335764851
+environment_region,Pannonian,ssp585,2031-2060,robust_all3_ge27,9021868.9015709311,8952049.1026207358,all3increase,99.226104926684997
+environment_region,Pannonian,ssp585,2071-2100,robust_all3_ge27,9021868.9015709311,8998931.9016930014,all3increase,99.745762212595039
+environment_region,Steppic,ssp126,2031-2060,robust_all3_ge27,45940337.302547283,23231238.672082685,all3increase,50.568280592042079
+environment_region,Steppic,ssp126,2071-2100,robust_all3_ge27,45940337.302547283,26929135.193801686,all3increase,58.617626197334268
+environment_region,Steppic,ssp245,2031-2060,robust_all3_ge27,45940337.302547283,5690989.3115683384,all3increase,12.387783037136705
+environment_region,Steppic,ssp245,2071-2100,robust_all3_ge27,45940337.302547283,23048698.19463037,all3increase,50.170938107919319
+environment_region,Steppic,ssp585,2031-2060,robust_all3_ge27,45940337.302547283,11467235.346609451,all3increase,24.961147479371295
+environment_region,Steppic,ssp585,2071-2100,robust_all3_ge27,45940337.302547283,21229110.236598782,all3increase,46.21017494231954
+environment_region,Unassigned,ssp126,2031-2060,robust_all3_ge27,2580697.3698629681,280236.32600124984,all3increase,10.858937947308794
+environment_region,Unassigned,ssp126,2071-2100,robust_all3_ge27,2580697.3698629681,126583.17695896972,all3increase,4.9049988750014162
+environment_region,Unassigned,ssp245,2031-2060,robust_all3_ge27,2580697.3698629681,416342.39213626942,all3increase,16.132941312618019
+environment_region,Unassigned,ssp245,2071-2100,robust_all3_ge27,2580697.3698629681,737087.48997694917,all3increase,28.56156241272442
+environment_region,Unassigned,ssp585,2031-2060,robust_all3_ge27,2580697.3698629681,1178452.0272863798,all3increase,45.664092235229973
+environment_region,Unassigned,ssp585,2071-2100,robust_all3_ge27,2580697.3698629681,1607099.37333827,all3increase,62.273840865874362
+environment_region,Alpine,ssp126,2031-2060,primary_any_paired_year,4414982.9699338274,2184422.8839555504,mixed_or_zero,49.477492865352801
+environment_region,Alpine,ssp126,2071-2100,primary_any_paired_year,4414982.9699338274,1142640.7971641028,mixed_or_zero,25.880978589170613
+environment_region,Alpine,ssp245,2031-2060,primary_any_paired_year,4414982.9699338274,2500689.8676938848,mixed_or_zero,56.640985587569901
+environment_region,Alpine,ssp245,2071-2100,primary_any_paired_year,4414982.9699338274,2086265.1433497795,mixed_or_zero,47.254205906507693
+environment_region,Alpine,ssp585,2031-2060,primary_any_paired_year,4414982.9699338274,1156457.7456150388,mixed_or_zero,26.193934461141804
+environment_region,Alpine,ssp585,2071-2100,primary_any_paired_year,4414982.9699338274,1138610.1033301251,mixed_or_zero,25.789682793435347
+environment_region,Atlantic,ssp126,2031-2060,primary_any_paired_year,44580512.873920038,44326761.148202464,mixed_or_zero,99.430801241710213
+environment_region,Atlantic,ssp126,2071-2100,primary_any_paired_year,44580512.873920038,44564717.273984328,mixed_or_zero,99.964568375468488
+environment_region,Atlantic,ssp245,2031-2060,primary_any_paired_year,44580512.873920038,43880409.847895846,mixed_or_zero,98.429576106483594
+environment_region,Atlantic,ssp245,2071-2100,primary_any_paired_year,44580512.873920038,39531129.244417712,mixed_or_zero,88.673563169219932
+environment_region,Atlantic,ssp585,2031-2060,primary_any_paired_year,44580512.873920038,31362404.028464716,mixed_or_zero,70.350029657940468
+environment_region,Atlantic,ssp585,2071-2100,primary_any_paired_year,44580512.873920038,14768652.59498602,mixed_or_zero,33.128045513414897
+environment_region,Black Sea,ssp126,2031-2060,primary_any_paired_year,503175.50532423193,445733.4001551643,mixed_or_zero,88.584081585598341
+environment_region,Black Sea,ssp126,2071-2100,primary_any_paired_year,503175.50532423193,493524.02890559856,mixed_or_zero,98.081886674429001
+environment_region,Black Sea,ssp245,2031-2060,primary_any_paired_year,503175.50532423193,503175.50532423193,mixed_or_zero,100
+environment_region,Black Sea,ssp245,2071-2100,primary_any_paired_year,503175.50532423193,494873.82893258904,mixed_or_zero,98.350142981166485
+environment_region,Black Sea,ssp585,2031-2060,primary_any_paired_year,503175.50532423193,495888.62892228935,mixed_or_zero,98.551822112794014
+environment_region,Black Sea,ssp585,2071-2100,primary_any_paired_year,503175.50532423193,258794.32865983821,mixed_or_zero,51.432219160405779
+environment_region,Boreal,ssp126,2031-2060,primary_any_paired_year,14651971.922177825,4201755.1239248691,mixed_or_zero,28.677062352030042
+environment_region,Boreal,ssp126,2071-2100,primary_any_paired_year,14651971.922177825,10443196.404606111,mixed_or_zero,71.275023321597146
+environment_region,Boreal,ssp245,2031-2060,primary_any_paired_year,14651971.922177825,4012178.3939778614,mixed_or_zero,27.383197396828638
+environment_region,Boreal,ssp245,2071-2100,primary_any_paired_year,14651971.922177825,2694726.6901585492,mixed_or_zero,18.391563295857129
+environment_region,Boreal,ssp585,2031-2060,primary_any_paired_year,14651971.922177825,668817.22039603745,mixed_or_zero,4.5646908412627267
+environment_region,Boreal,ssp585,2071-2100,primary_any_paired_year,14651971.922177825,465137.19978181273,mixed_or_zero,3.1745706465473225
+environment_region,Continental,ssp126,2031-2060,primary_any_paired_year,106617234.69846927,54006376.196291789,mixed_or_zero,50.654452208435657
+environment_region,Continental,ssp126,2071-2100,primary_any_paired_year,106617234.69846927,54679134.010375686,mixed_or_zero,51.285455081457606
+environment_region,Continental,ssp245,2031-2060,primary_any_paired_year,106617234.69846927,70446339.604910448,mixed_or_zero,66.074063732889016
+environment_region,Continental,ssp245,2071-2100,primary_any_paired_year,106617234.69846927,38826132.493504032,mixed_or_zero,36.416375460600342
+environment_region,Continental,ssp585,2031-2060,primary_any_paired_year,106617234.69846927,27510853.718924314,mixed_or_zero,25.803383286697919
+environment_region,Continental,ssp585,2071-2100,primary_any_paired_year,106617234.69846927,16146992.301269434,mixed_or_zero,15.144823767879304
+environment_region,Mediterranean,ssp126,2031-2060,primary_any_paired_year,13310770.258850317,7002842.7730614189,mixed_or_zero,52.610349640774814
+environment_region,Mediterranean,ssp126,2071-2100,primary_any_paired_year,13310770.258850317,10989534.160076637,mixed_or_zero,82.561218820298606
+environment_region,Mediterranean,ssp245,2031-2060,primary_any_paired_year,13310770.258850317,10259418.950096393,mixed_or_zero,77.076072613265296
+environment_region,Mediterranean,ssp245,2071-2100,primary_any_paired_year,13310770.258850317,11560686.684593778,mixed_or_zero,86.852123955088842
+environment_region,Mediterranean,ssp585,2031-2060,primary_any_paired_year,13310770.258850317,8769140.3570042718,mixed_or_zero,65.880036890980662
+environment_region,Mediterranean,ssp585,2071-2100,primary_any_paired_year,13310770.258850317,6473927.1522125304,mixed_or_zero,48.636758251522096
+environment_region,Outside EEA regions,ssp126,2031-2060,primary_any_paired_year,223302.75905752784,1299.389665918201,mixed_or_zero,0.58189592972447279
+environment_region,Outside EEA regions,ssp126,2071-2100,primary_any_paired_year,223302.75905752784,124446.91530798879,mixed_or_zero,55.730128831918485
+environment_region,Outside EEA regions,ssp245,2031-2060,primary_any_paired_year,223302.75905752784,194647.04139719013,mixed_or_zero,87.167324854703054
+environment_region,Outside EEA regions,ssp245,2071-2100,primary_any_paired_year,223302.75905752784,101561.24499761769,mixed_or_zero,45.481410720703735
+environment_region,Outside EEA regions,ssp585,2031-2060,primary_any_paired_year,223302.75905752784,146164.18356577458,mixed_or_zero,65.455610213987271
+environment_region,Outside EEA regions,ssp585,2071-2100,primary_any_paired_year,223302.75905752784,0,mixed_or_zero,0
+environment_region,Pannonian,ssp126,2031-2060,primary_any_paired_year,9021868.9015709311,5218194.8026832491,mixed_or_zero,57.839399570244609
+environment_region,Pannonian,ssp126,2071-2100,primary_any_paired_year,9021868.9015709311,54448.799608588219,mixed_or_zero,0.60352018193378243
+environment_region,Pannonian,ssp245,2031-2060,primary_any_paired_year,9021868.9015709311,8060186.4020836502,mixed_or_zero,89.340540081226095
+environment_region,Pannonian,ssp245,2071-2100,primary_any_paired_year,9021868.9015709311,1517197.1975169927,mixed_or_zero,16.816883664235146
+environment_region,Pannonian,ssp585,2031-2060,primary_any_paired_year,9021868.9015709311,69819.798950195312,mixed_or_zero,0.77389507331499741
+environment_region,Pannonian,ssp585,2071-2100,primary_any_paired_year,9021868.9015709311,22936.999877929688,mixed_or_zero,0.2542377874049554
+environment_region,Steppic,ssp126,2031-2060,primary_any_paired_year,45940337.302547283,22652782.086104512,mixed_or_zero,49.309133141363482
+environment_region,Steppic,ssp126,2071-2100,primary_any_paired_year,45940337.302547283,18747546.966240976,mixed_or_zero,40.808466082380001
+environment_region,Steppic,ssp245,2031-2060,primary_any_paired_year,45940337.302547283,28137149.111998331,mixed_or_zero,61.247153948167011
+environment_region,Steppic,ssp245,2071-2100,primary_any_paired_year,45940337.302547283,13891856.311714226,mixed_or_zero,30.238907956263432
+environment_region,Steppic,ssp585,2031-2060,primary_any_paired_year,45940337.302547283,29896575.465919871,mixed_or_zero,65.076961166025612
+environment_region,Steppic,ssp585,2071-2100,primary_any_paired_year,45940337.302547283,9521462.4647503495,mixed_or_zero,20.725713009125876
+environment_region,Unassigned,ssp126,2031-2060,primary_any_paired_year,2580697.3698629681,2191670.15204712,mixed_or_zero,84.925500279154974
+environment_region,Unassigned,ssp126,2071-2100,primary_any_paired_year,2580697.3698629681,2356502.8020158461,mixed_or_zero,91.312636248432867
+environment_region,Unassigned,ssp245,2031-2060,primary_any_paired_year,2580697.3698629681,1844954.5944526033,mixed_or_zero,71.490544222570662
+environment_region,Unassigned,ssp245,2071-2100,primary_any_paired_year,2580697.3698629681,1641785.2786147585,mixed_or_zero,63.617892504068983
+environment_region,Unassigned,ssp585,2031-2060,primary_any_paired_year,2580697.3698629681,1179172.6955804196,mixed_or_zero,45.692017566671609
+environment_region,Unassigned,ssp585,2071-2100,primary_any_paired_year,2580697.3698629681,430877.30127122684,mixed_or_zero,16.696157647268262
+environment_region,Alpine,ssp126,2031-2060,robust_all3_ge27,4414982.9699338274,2177270.4651510147,mixed_or_zero,49.315489549524763
+environment_region,Alpine,ssp126,2071-2100,robust_all3_ge27,4414982.9699338274,1132180.8657559808,mixed_or_zero,25.64405963660943
+environment_region,Alpine,ssp245,2031-2060,robust_all3_ge27,4414982.9699338274,2493409.548893359,mixed_or_zero,56.476085318415862
+environment_region,Alpine,ssp245,2071-2100,robust_all3_ge27,4414982.9699338274,2080282.8245612567,mixed_or_zero,47.118705524529723
+environment_region,Alpine,ssp585,2031-2060,robust_all3_ge27,4414982.9699338274,1153030.0267547609,mixed_or_zero,26.116296135385607
+environment_region,Alpine,ssp585,2071-2100,robust_all3_ge27,4414982.9699338274,1136988.384481187,mixed_or_zero,25.752950627989136
+environment_region,Atlantic,ssp126,2031-2060,robust_all3_ge27,44580512.873920038,44326258.548211619,mixed_or_zero,99.42967384330575
+environment_region,Atlantic,ssp126,2071-2100,robust_all3_ge27,44580512.873920038,44564396.77399005,mixed_or_zero,99.963849451495619
+environment_region,Atlantic,ssp245,2031-2060,robust_all3_ge27,44580512.873920038,43879137.047915205,mixed_or_zero,98.426721047403774
+environment_region,Atlantic,ssp245,2071-2100,robust_all3_ge27,44580512.873920038,39531044.044416949,mixed_or_zero,88.673372054324048
+environment_region,Atlantic,ssp585,2031-2060,robust_all3_ge27,44580512.873920038,31360888.428490382,mixed_or_zero,70.346629966289044
+environment_region,Atlantic,ssp585,2071-2100,robust_all3_ge27,44580512.873920038,14766960.695013402,mixed_or_zero,33.124250357496884
+environment_region,Black Sea,ssp126,2031-2060,robust_all3_ge27,503175.50532423193,445733.4001551643,mixed_or_zero,88.584081585598341
+environment_region,Black Sea,ssp126,2071-2100,robust_all3_ge27,503175.50532423193,493524.02890559856,mixed_or_zero,98.081886674429001
+environment_region,Black Sea,ssp245,2031-2060,robust_all3_ge27,503175.50532423193,503175.50532423193,mixed_or_zero,100
+environment_region,Black Sea,ssp245,2071-2100,robust_all3_ge27,503175.50532423193,494873.82893258904,mixed_or_zero,98.350142981166485
+environment_region,Black Sea,ssp585,2031-2060,robust_all3_ge27,503175.50532423193,495888.62892228935,mixed_or_zero,98.551822112794014
+environment_region,Black Sea,ssp585,2071-2100,robust_all3_ge27,503175.50532423193,258794.32865983821,mixed_or_zero,51.432219160405779
+environment_region,Boreal,ssp126,2031-2060,robust_all3_ge27,14651971.922177825,4201212.2239208696,mixed_or_zero,28.673357048696925
+environment_region,Boreal,ssp126,2071-2100,robust_all3_ge27,14651971.922177825,10434164.104608618,mixed_or_zero,71.213377694336415
+environment_region,Boreal,ssp245,2031-2060,robust_all3_ge27,14651971.922177825,4011452.0939876619,mixed_or_zero,27.378240384939335
+environment_region,Boreal,ssp245,2071-2100,robust_all3_ge27,14651971.922177825,2694678.2901593628,mixed_or_zero,18.391232964899334
+environment_region,Boreal,ssp585,2031-2060,robust_all3_ge27,14651971.922177825,668598.1203947172,mixed_or_zero,4.5631954793927756
+environment_region,Boreal,ssp585,2071-2100,robust_all3_ge27,14651971.922177825,443807.29975483567,mixed_or_zero,3.0289936543153675
+environment_region,Continental,ssp126,2031-2060,robust_all3_ge27,106617234.69846927,54006376.196291789,mixed_or_zero,50.654452208435657
+environment_region,Continental,ssp126,2071-2100,robust_all3_ge27,106617234.69846927,54679134.010375686,mixed_or_zero,51.285455081457606
+environment_region,Continental,ssp245,2031-2060,robust_all3_ge27,106617234.69846927,70446339.604910448,mixed_or_zero,66.074063732889016
+environment_region,Continental,ssp245,2071-2100,robust_all3_ge27,106617234.69846927,38826132.493504032,mixed_or_zero,36.416375460600342
+environment_region,Continental,ssp585,2031-2060,robust_all3_ge27,106617234.69846927,27510853.718924314,mixed_or_zero,25.803383286697919
+environment_region,Continental,ssp585,2071-2100,robust_all3_ge27,106617234.69846927,16146992.301269434,mixed_or_zero,15.144823767879304
+environment_region,Mediterranean,ssp126,2031-2060,robust_all3_ge27,13310770.258850317,7002842.7730614189,mixed_or_zero,52.610349640774814
+environment_region,Mediterranean,ssp126,2071-2100,robust_all3_ge27,13310770.258850317,10989534.160076637,mixed_or_zero,82.561218820298606
+environment_region,Mediterranean,ssp245,2031-2060,robust_all3_ge27,13310770.258850317,10259418.950096393,mixed_or_zero,77.076072613265296
+environment_region,Mediterranean,ssp245,2071-2100,robust_all3_ge27,13310770.258850317,11560686.684593778,mixed_or_zero,86.852123955088842
+environment_region,Mediterranean,ssp585,2031-2060,robust_all3_ge27,13310770.258850317,8769140.3570042718,mixed_or_zero,65.880036890980662
+environment_region,Mediterranean,ssp585,2071-2100,robust_all3_ge27,13310770.258850317,6473927.1522125304,mixed_or_zero,48.636758251522096
+environment_region,Outside EEA regions,ssp126,2031-2060,robust_all3_ge27,223302.75905752784,1299.389665918201,mixed_or_zero,0.58189592972447279
+environment_region,Outside EEA regions,ssp126,2071-2100,robust_all3_ge27,223302.75905752784,124446.91530798879,mixed_or_zero,55.730128831918485
+environment_region,Outside EEA regions,ssp245,2031-2060,robust_all3_ge27,223302.75905752784,194647.04139719013,mixed_or_zero,87.167324854703054
+environment_region,Outside EEA regions,ssp245,2071-2100,robust_all3_ge27,223302.75905752784,101561.24499761769,mixed_or_zero,45.481410720703735
+environment_region,Outside EEA regions,ssp585,2031-2060,robust_all3_ge27,223302.75905752784,146164.18356577458,mixed_or_zero,65.455610213987271
+environment_region,Outside EEA regions,ssp585,2071-2100,robust_all3_ge27,223302.75905752784,0,mixed_or_zero,0
+environment_region,Pannonian,ssp126,2031-2060,robust_all3_ge27,9021868.9015709311,5218194.8026832491,mixed_or_zero,57.839399570244609
+environment_region,Pannonian,ssp126,2071-2100,robust_all3_ge27,9021868.9015709311,54448.799608588219,mixed_or_zero,0.60352018193378243
+environment_region,Pannonian,ssp245,2031-2060,robust_all3_ge27,9021868.9015709311,8060186.4020836502,mixed_or_zero,89.340540081226095
+environment_region,Pannonian,ssp245,2071-2100,robust_all3_ge27,9021868.9015709311,1517197.1975169927,mixed_or_zero,16.816883664235146
+environment_region,Pannonian,ssp585,2031-2060,robust_all3_ge27,9021868.9015709311,69819.798950195312,mixed_or_zero,0.77389507331499741
+environment_region,Pannonian,ssp585,2071-2100,robust_all3_ge27,9021868.9015709311,22936.999877929688,mixed_or_zero,0.2542377874049554
+environment_region,Steppic,ssp126,2031-2060,robust_all3_ge27,45940337.302547283,22652782.086104512,mixed_or_zero,49.309133141363482
+environment_region,Steppic,ssp126,2071-2100,robust_all3_ge27,45940337.302547283,18747546.966240976,mixed_or_zero,40.808466082380001
+environment_region,Steppic,ssp245,2031-2060,robust_all3_ge27,45940337.302547283,28137149.111998331,mixed_or_zero,61.247153948167011
+environment_region,Steppic,ssp245,2071-2100,robust_all3_ge27,45940337.302547283,13891856.311714226,mixed_or_zero,30.238907956263432
+environment_region,Steppic,ssp585,2031-2060,robust_all3_ge27,45940337.302547283,29896575.465919871,mixed_or_zero,65.076961166025612
+environment_region,Steppic,ssp585,2071-2100,robust_all3_ge27,45940337.302547283,9521462.4647503495,mixed_or_zero,20.725713009125876
+environment_region,Unassigned,ssp126,2031-2060,robust_all3_ge27,2580697.3698629681,2191369.5520494059,mixed_or_zero,84.913852264892455
+environment_region,Unassigned,ssp126,2071-2100,robust_all3_ge27,2580697.3698629681,2356311.1020158431,mixed_or_zero,91.305208023711842
+environment_region,Unassigned,ssp245,2031-2060,robust_all3_ge27,2580697.3698629681,1844750.9944529817,mixed_or_zero,71.482654882193174
+environment_region,Unassigned,ssp245,2071-2100,robust_all3_ge27,2580697.3698629681,1641676.3786170473,mixed_or_zero,63.613672714527482
+environment_region,Unassigned,ssp585,2031-2060,robust_all3_ge27,2580697.3698629681,1178871.3955827174,mixed_or_zero,45.680342427958301
+environment_region,Unassigned,ssp585,2071-2100,robust_all3_ge27,2580697.3698629681,430474.90127122088,mixed_or_zero,16.680564962720855
+environment_region,Alpine,ssp126,2031-2060,primary_any_paired_year,4414982.9699338274,152753.0221915989,all3decrease,3.4598779481563526
+environment_region,Alpine,ssp126,2071-2100,primary_any_paired_year,4414982.9699338274,130049.45027125505,all3decrease,2.945638774982732
+environment_region,Alpine,ssp245,2031-2060,primary_any_paired_year,4414982.9699338274,585013.90250427148,all3decrease,13.250649130205813
+environment_region,Alpine,ssp245,2071-2100,primary_any_paired_year,4414982.9699338274,175516.12276433568,all3decrease,3.9754654538784404
+environment_region,Alpine,ssp585,2031-2060,primary_any_paired_year,4414982.9699338274,337059.62378727132,all3decrease,7.6344490133406611
+environment_region,Alpine,ssp585,2071-2100,primary_any_paired_year,4414982.9699338274,286753.02302333876,all3decrease,6.4949972621895906
+environment_region,Atlantic,ssp126,2031-2060,primary_any_paired_year,44580512.873920038,146977.10073250532,all3decrease,0.32968912032972175
+environment_region,Atlantic,ssp126,2071-2100,primary_any_paired_year,44580512.873920038,1251.799979865551,all3decrease,0.0028079532943145304
+environment_region,Atlantic,ssp245,2031-2060,primary_any_paired_year,44580512.873920038,11335.599753141403,all3decrease,0.025427252901284635
+environment_region,Atlantic,ssp245,2071-2100,primary_any_paired_year,44580512.873920038,2877.7999245524406,all3decrease,0.0064552867139309579
+environment_region,Atlantic,ssp585,2031-2060,primary_any_paired_year,44580512.873920038,500808.39926943183,all3decrease,1.1233796270711116
+environment_region,Atlantic,ssp585,2071-2100,primary_any_paired_year,44580512.873920038,615729.30002123117,all3decrease,1.3811624414519417
+environment_region,Black Sea,ssp126,2031-2060,primary_any_paired_year,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp126,2071-2100,primary_any_paired_year,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp245,2031-2060,primary_any_paired_year,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp245,2071-2100,primary_any_paired_year,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp585,2031-2060,primary_any_paired_year,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp585,2071-2100,primary_any_paired_year,503175.50532423193,237094.30026245117,all3decrease,47.119602952388227
+environment_region,Boreal,ssp126,2031-2060,primary_any_paired_year,14651971.922177825,271128.89983437955,all3decrease,1.8504601378875682
+environment_region,Boreal,ssp126,2071-2100,primary_any_paired_year,14651971.922177825,135457.99998261034,all3decrease,0.92450354602151241
+environment_region,Boreal,ssp245,2031-2060,primary_any_paired_year,14651971.922177825,431211.80038402975,all3decrease,2.9430291204102699
+environment_region,Boreal,ssp245,2071-2100,primary_any_paired_year,14651971.922177825,227452.09980612993,all3decrease,1.5523651083568424
+environment_region,Boreal,ssp585,2031-2060,primary_any_paired_year,14651971.922177825,312783.30015838891,all3decrease,2.1347522491832467
+environment_region,Boreal,ssp585,2071-2100,primary_any_paired_year,14651971.922177825,20010.399973399937,all3decrease,0.13657137810311645
+environment_region,Continental,ssp126,2031-2060,primary_any_paired_year,106617234.69846927,0,all3decrease,0
+environment_region,Continental,ssp126,2071-2100,primary_any_paired_year,106617234.69846927,0,all3decrease,0
+environment_region,Continental,ssp245,2031-2060,primary_any_paired_year,106617234.69846927,3214736.4009929001,all3decrease,3.0152126999773472
+environment_region,Continental,ssp245,2071-2100,primary_any_paired_year,106617234.69846927,495593.70210266113,all3decrease,0.46483451151615407
+environment_region,Continental,ssp585,2031-2060,primary_any_paired_year,106617234.69846927,563553.60052776337,all3decrease,0.52857645588125024
+environment_region,Continental,ssp585,2071-2100,primary_any_paired_year,106617234.69846927,7659065.4105002135,all3decrease,7.1837029277314182
+environment_region,Mediterranean,ssp126,2031-2060,primary_any_paired_year,13310770.258850317,728366.60045416653,all3decrease,5.4720094050896595
+environment_region,Mediterranean,ssp126,2071-2100,primary_any_paired_year,13310770.258850317,548565.99971324205,all3decrease,4.1212190507795823
+environment_region,Mediterranean,ssp245,2031-2060,primary_any_paired_year,13310770.258850317,2047170.0078375493,all3decrease,15.379801228831129
+environment_region,Mediterranean,ssp245,2071-2100,primary_any_paired_year,13310770.258850317,810323.50003303587,all3decrease,6.0877280899221633
+environment_region,Mediterranean,ssp585,2031-2060,primary_any_paired_year,13310770.258850317,3002300.2000658661,all3decrease,22.555420472903435
+environment_region,Mediterranean,ssp585,2071-2100,primary_any_paired_year,13310770.258850317,5826964.4065335337,all3decrease,43.776312664244138
+environment_region,Outside EEA regions,ssp126,2031-2060,primary_any_paired_year,223302.75905752784,0,all3decrease,0
+environment_region,Outside EEA regions,ssp126,2071-2100,primary_any_paired_year,223302.75905752784,105.30000174045563,all3decrease,0.04715571011521983
+environment_region,Outside EEA regions,ssp245,2031-2060,primary_any_paired_year,223302.75905752784,92.500001907348633,all3decrease,0.04142358217952808
+environment_region,Outside EEA regions,ssp245,2071-2100,primary_any_paired_year,223302.75905752784,0,all3decrease,0
+environment_region,Outside EEA regions,ssp585,2031-2060,primary_any_paired_year,223302.75905752784,0,all3decrease,0
+environment_region,Outside EEA regions,ssp585,2071-2100,primary_any_paired_year,223302.75905752784,0,all3decrease,0
+environment_region,Pannonian,ssp126,2031-2060,primary_any_paired_year,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp126,2071-2100,primary_any_paired_year,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp245,2031-2060,primary_any_paired_year,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp245,2071-2100,primary_any_paired_year,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp585,2031-2060,primary_any_paired_year,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp585,2071-2100,primary_any_paired_year,9021868.9015709311,0,all3decrease,0
+environment_region,Steppic,ssp126,2031-2060,primary_any_paired_year,45940337.302547283,53336.31250040383,all3decrease,0.11609908771272008
+environment_region,Steppic,ssp126,2071-2100,primary_any_paired_year,45940337.302547283,260674.91064493509,all3decrease,0.56742054140399467
+environment_region,Steppic,ssp245,2031-2060,primary_any_paired_year,45940337.302547283,12109218.647120928,all3decrease,26.358575835814555
+environment_region,Steppic,ssp245,2071-2100,primary_any_paired_year,45940337.302547283,8996802.5643430036,all3decrease,19.583666756935525
+environment_region,Steppic,ssp585,2031-2060,primary_any_paired_year,45940337.302547283,4573546.2581582787,all3decrease,9.9554041757213785
+environment_region,Steppic,ssp585,2071-2100,primary_any_paired_year,45940337.302547283,15186784.369338468,all3decrease,33.057624869672857
+environment_region,Unassigned,ssp126,2031-2060,primary_any_paired_year,2580697.3698629681,106606.80421562819,all3decrease,4.1309300912446343
+environment_region,Unassigned,ssp126,2071-2100,primary_any_paired_year,2580697.3698629681,95318.403291471128,all3decrease,3.6935134047326295
+environment_region,Unassigned,ssp245,2031-2060,primary_any_paired_year,2580697.3698629681,317216.29567512526,all3decrease,12.291882782519714
+environment_region,Unassigned,ssp245,2071-2100,primary_any_paired_year,2580697.3698629681,199640.51367229025,all3decrease,7.735913400914999
+environment_region,Unassigned,ssp585,2031-2060,primary_any_paired_year,2580697.3698629681,220889.25939718646,all3decrease,8.5592856402575936
+environment_region,Unassigned,ssp585,2071-2100,primary_any_paired_year,2580697.3698629681,540537.30765448918,all3decrease,20.945396929016557
+environment_region,Alpine,ssp126,2031-2060,robust_all3_ge27,4414982.9699338274,120886.9050612655,all3decrease,2.7381058066250561
+environment_region,Alpine,ssp126,2071-2100,robust_all3_ge27,4414982.9699338274,105836.34570016206,all3decrease,2.3972084699060199
+environment_region,Alpine,ssp245,2031-2060,robust_all3_ge27,4414982.9699338274,553496.78537412442,all3decrease,12.536781888932639
+environment_region,Alpine,ssp245,2071-2100,robust_all3_ge27,4414982.9699338274,142701.00562218568,all3decrease,3.232198325429203
+environment_region,Alpine,ssp585,2031-2060,robust_all3_ge27,4414982.9699338274,301636.30671685253,all3decrease,6.8321057809510304
+environment_region,Alpine,ssp585,2071-2100,robust_all3_ge27,4414982.9699338274,249921.10594763598,all3decrease,5.6607490368503477
+environment_region,Atlantic,ssp126,2031-2060,robust_all3_ge27,44580512.873920038,145841.30075073242,all3decrease,0.32714137040816943
+environment_region,Atlantic,ssp126,2071-2100,robust_all3_ge27,44580512.873920038,0,all3decrease,0
+environment_region,Atlantic,ssp245,2031-2060,robust_all3_ge27,44580512.873920038,11036.099759638309,all3decrease,0.024755434713929721
+environment_region,Atlantic,ssp245,2071-2100,robust_all3_ge27,44580512.873920038,1390.699951171875,all3decrease,0.0031195243426314322
+environment_region,Atlantic,ssp585,2031-2060,robust_all3_ge27,44580512.873920038,500685.59927114844,all3decrease,1.1231041703965088
+environment_region,Atlantic,ssp585,2071-2100,robust_all3_ge27,44580512.873920038,615729.30002123117,all3decrease,1.3811624414519417
+environment_region,Black Sea,ssp126,2031-2060,robust_all3_ge27,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp126,2071-2100,robust_all3_ge27,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp245,2031-2060,robust_all3_ge27,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp245,2071-2100,robust_all3_ge27,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp585,2031-2060,robust_all3_ge27,503175.50532423193,0,all3decrease,0
+environment_region,Black Sea,ssp585,2071-2100,robust_all3_ge27,503175.50532423193,237094.30026245117,all3decrease,47.119602952388227
+environment_region,Boreal,ssp126,2031-2060,robust_all3_ge27,14651971.922177825,249262.8998144865,all3decrease,1.7012242525334897
+environment_region,Boreal,ssp126,2071-2100,robust_all3_ge27,14651971.922177825,120911.49996243417,all3decrease,0.82522339385197407
+environment_region,Boreal,ssp245,2031-2060,robust_all3_ge27,14651971.922177825,407263.60033521056,all3decrease,2.7795821784149046
+environment_region,Boreal,ssp245,2071-2100,robust_all3_ge27,14651971.922177825,202825.99976629764,all3decrease,1.3842914854299706
+environment_region,Boreal,ssp585,2031-2060,robust_all3_ge27,14651971.922177825,288079.90011864901,all3decrease,1.9661510522184353
+environment_region,Boreal,ssp585,2071-2100,robust_all3_ge27,14651971.922177825,17022.699956431985,all3decrease,0.1161802660204783
+environment_region,Continental,ssp126,2031-2060,robust_all3_ge27,106617234.69846927,0,all3decrease,0
+environment_region,Continental,ssp126,2071-2100,robust_all3_ge27,106617234.69846927,0,all3decrease,0
+environment_region,Continental,ssp245,2031-2060,robust_all3_ge27,106617234.69846927,3214736.4009929001,all3decrease,3.0152126999773472
+environment_region,Continental,ssp245,2071-2100,robust_all3_ge27,106617234.69846927,495593.70210266113,all3decrease,0.46483451151615407
+environment_region,Continental,ssp585,2031-2060,robust_all3_ge27,106617234.69846927,563553.60052776337,all3decrease,0.52857645588125024
+environment_region,Continental,ssp585,2071-2100,robust_all3_ge27,106617234.69846927,7659065.4105002135,all3decrease,7.1837029277314182
+environment_region,Mediterranean,ssp126,2031-2060,robust_all3_ge27,13310770.258850317,728366.60045416653,all3decrease,5.4720094050896595
+environment_region,Mediterranean,ssp126,2071-2100,robust_all3_ge27,13310770.258850317,548565.99971324205,all3decrease,4.1212190507795823
+environment_region,Mediterranean,ssp245,2031-2060,robust_all3_ge27,13310770.258850317,2047170.0078375493,all3decrease,15.379801228831129
+environment_region,Mediterranean,ssp245,2071-2100,robust_all3_ge27,13310770.258850317,810323.50003303587,all3decrease,6.0877280899221633
+environment_region,Mediterranean,ssp585,2031-2060,robust_all3_ge27,13310770.258850317,3002300.2000658661,all3decrease,22.555420472903435
+environment_region,Mediterranean,ssp585,2071-2100,robust_all3_ge27,13310770.258850317,5826964.4065335337,all3decrease,43.776312664244138
+environment_region,Outside EEA regions,ssp126,2031-2060,robust_all3_ge27,223302.75905752784,0,all3decrease,0
+environment_region,Outside EEA regions,ssp126,2071-2100,robust_all3_ge27,223302.75905752784,105.30000174045563,all3decrease,0.04715571011521983
+environment_region,Outside EEA regions,ssp245,2031-2060,robust_all3_ge27,223302.75905752784,92.500001907348633,all3decrease,0.04142358217952808
+environment_region,Outside EEA regions,ssp245,2071-2100,robust_all3_ge27,223302.75905752784,0,all3decrease,0
+environment_region,Outside EEA regions,ssp585,2031-2060,robust_all3_ge27,223302.75905752784,0,all3decrease,0
+environment_region,Outside EEA regions,ssp585,2071-2100,robust_all3_ge27,223302.75905752784,0,all3decrease,0
+environment_region,Pannonian,ssp126,2031-2060,robust_all3_ge27,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp126,2071-2100,robust_all3_ge27,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp245,2031-2060,robust_all3_ge27,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp245,2071-2100,robust_all3_ge27,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp585,2031-2060,robust_all3_ge27,9021868.9015709311,0,all3decrease,0
+environment_region,Pannonian,ssp585,2071-2100,robust_all3_ge27,9021868.9015709311,0,all3decrease,0
+environment_region,Steppic,ssp126,2031-2060,robust_all3_ge27,45940337.302547283,53336.31250040383,all3decrease,0.11609908771272008
+environment_region,Steppic,ssp126,2071-2100,robust_all3_ge27,45940337.302547283,260674.91064493509,all3decrease,0.56742054140399467
+environment_region,Steppic,ssp245,2031-2060,robust_all3_ge27,45940337.302547283,12109218.647120928,all3decrease,26.358575835814555
+environment_region,Steppic,ssp245,2071-2100,robust_all3_ge27,45940337.302547283,8996802.5643430036,all3decrease,19.583666756935525
+environment_region,Steppic,ssp585,2031-2060,robust_all3_ge27,45940337.302547283,4573546.2581582787,all3decrease,9.9554041757213785
+environment_region,Steppic,ssp585,2071-2100,robust_all3_ge27,45940337.302547283,15186784.369338468,all3decrease,33.057624869672857
+environment_region,Unassigned,ssp126,2031-2060,robust_all3_ge27,2580697.3698629681,106505.70421332447,all3decrease,4.1270125454105377
+environment_region,Unassigned,ssp126,2071-2100,robust_all3_ge27,2580697.3698629681,95217.303289167408,all3decrease,3.6895958588985325
+environment_region,Unassigned,ssp245,2031-2060,robust_all3_ge27,2580697.3698629681,317018.19567472889,all3decrease,12.284206562800588
+environment_region,Unassigned,ssp245,2071-2100,robust_all3_ge27,2580697.3698629681,199347.71366998355,all3decrease,7.7245676303598776
+environment_region,Unassigned,ssp585,2031-2060,robust_all3_ge27,2580697.3698629681,220788.15939488274,all3decrease,8.555368094423498
+environment_region,Unassigned,ssp585,2071-2100,robust_all3_ge27,2580697.3698629681,540537.30765448918,all3decrease,20.945396929016557
+environment_region,Alpine,ssp126,2031-2060,primary_any_paired_year,4414982.9699338274,13466.200052708387,unavailable,0.30501137024567554
+environment_region,Alpine,ssp126,2071-2100,primary_any_paired_year,4414982.9699338274,14136.30006930232,unavailable,0.32018923211190092
+environment_region,Alpine,ssp245,2031-2060,primary_any_paired_year,4414982.9699338274,13477.700053662062,unavailable,0.30527184692320725
+environment_region,Alpine,ssp245,2071-2100,primary_any_paired_year,4414982.9699338274,13477.700053662062,unavailable,0.30527184692320725
+environment_region,Alpine,ssp585,2031-2060,primary_any_paired_year,4414982.9699338274,13424.10005363822,unavailable,0.30405779920458953
+environment_region,Alpine,ssp585,2071-2100,primary_any_paired_year,4414982.9699338274,13424.10005363822,unavailable,0.30405779920458953
+environment_region,Atlantic,ssp126,2031-2060,primary_any_paired_year,44580512.873920038,14477.699957370758,unavailable,0.032475400178359835
+environment_region,Atlantic,ssp126,2071-2100,primary_any_paired_year,44580512.873920038,14543.799955844879,unavailable,0.032623671237199066
+environment_region,Atlantic,ssp245,2031-2060,primary_any_paired_year,44580512.873920038,14543.799955844879,unavailable,0.032623671237199066
+environment_region,Atlantic,ssp245,2071-2100,primary_any_paired_year,44580512.873920038,14543.799955844879,unavailable,0.032623671237199066
+environment_region,Atlantic,ssp585,2031-2060,primary_any_paired_year,44580512.873920038,14477.699957370758,unavailable,0.032475400178359835
+environment_region,Atlantic,ssp585,2071-2100,primary_any_paired_year,44580512.873920038,14424.199957370758,unavailable,0.032355392586362622
+environment_region,Black Sea,ssp126,2031-2060,primary_any_paired_year,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp126,2071-2100,primary_any_paired_year,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp245,2031-2060,primary_any_paired_year,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp245,2071-2100,primary_any_paired_year,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp585,2031-2060,primary_any_paired_year,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp585,2071-2100,primary_any_paired_year,503175.50532423193,0,unavailable,0
+environment_region,Boreal,ssp126,2031-2060,primary_any_paired_year,14651971.922177825,72.400001049041748,unavailable,0.00049413144820086735
+environment_region,Boreal,ssp126,2071-2100,primary_any_paired_year,14651971.922177825,74.200001046061516,unavailable,0.00050641648400751678
+environment_region,Boreal,ssp245,2031-2060,primary_any_paired_year,14651971.922177825,72.400001049041748,unavailable,0.00049413144820086735
+environment_region,Boreal,ssp245,2071-2100,primary_any_paired_year,14651971.922177825,72.400001049041748,unavailable,0.00049413144820086735
+environment_region,Boreal,ssp585,2031-2060,primary_any_paired_year,14651971.922177825,0,unavailable,0
+environment_region,Boreal,ssp585,2071-2100,primary_any_paired_year,14651971.922177825,0,unavailable,0
+environment_region,Continental,ssp126,2031-2060,primary_any_paired_year,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp126,2071-2100,primary_any_paired_year,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp245,2031-2060,primary_any_paired_year,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp245,2071-2100,primary_any_paired_year,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp585,2031-2060,primary_any_paired_year,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp585,2071-2100,primary_any_paired_year,106617234.69846927,0,unavailable,0
+environment_region,Mediterranean,ssp126,2031-2060,primary_any_paired_year,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp126,2071-2100,primary_any_paired_year,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp245,2031-2060,primary_any_paired_year,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp245,2071-2100,primary_any_paired_year,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp585,2031-2060,primary_any_paired_year,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp585,2071-2100,primary_any_paired_year,13310770.258850317,0,unavailable,0
+environment_region,Outside EEA regions,ssp126,2031-2060,primary_any_paired_year,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp126,2071-2100,primary_any_paired_year,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp245,2031-2060,primary_any_paired_year,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp245,2071-2100,primary_any_paired_year,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp585,2031-2060,primary_any_paired_year,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp585,2071-2100,primary_any_paired_year,223302.75905752784,0,unavailable,0
+environment_region,Pannonian,ssp126,2031-2060,primary_any_paired_year,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp126,2071-2100,primary_any_paired_year,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp245,2031-2060,primary_any_paired_year,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp245,2071-2100,primary_any_paired_year,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp585,2031-2060,primary_any_paired_year,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp585,2071-2100,primary_any_paired_year,9021868.9015709311,0,unavailable,0
+environment_region,Steppic,ssp126,2031-2060,primary_any_paired_year,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp126,2071-2100,primary_any_paired_year,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp245,2031-2060,primary_any_paired_year,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp245,2071-2100,primary_any_paired_year,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp585,2031-2060,primary_any_paired_year,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp585,2071-2100,primary_any_paired_year,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Unassigned,ssp126,2031-2060,primary_any_paired_year,2580697.3698629681,2184.0875989702467,unavailable,0.084631682291605503
+environment_region,Unassigned,ssp126,2071-2100,primary_any_paired_year,2580697.3698629681,2292.9875966814284,unavailable,0.088851471833103129
+environment_region,Unassigned,ssp245,2031-2060,primary_any_paired_year,2580697.3698629681,2184.0875989702467,unavailable,0.084631682291605503
+environment_region,Unassigned,ssp245,2071-2100,primary_any_paired_year,2580697.3698629681,2184.0875989702467,unavailable,0.084631682291605503
+environment_region,Unassigned,ssp585,2031-2060,primary_any_paired_year,2580697.3698629681,2183.3875989821677,unavailable,0.084604557840817371
+environment_region,Unassigned,ssp585,2071-2100,primary_any_paired_year,2580697.3698629681,2183.3875989821677,unavailable,0.084604557840817371
+environment_region,Alpine,ssp126,2031-2060,robust_all3_ge27,4414982.9699338274,52484.735987577456,unavailable,1.1887868276050022
+environment_region,Alpine,ssp126,2071-2100,robust_all3_ge27,4414982.9699338274,52572.435987386722,unavailable,1.1907732452289548
+environment_region,Alpine,ssp245,2031-2060,robust_all3_ge27,4414982.9699338274,52275.135984334964,unavailable,1.1840393573504198
+environment_region,Alpine,ssp245,2071-2100,robust_all3_ge27,4414982.9699338274,52275.135984334964,unavailable,1.1840393573504198
+environment_region,Alpine,ssp585,2031-2060,robust_all3_ge27,4414982.9699338274,52275.135984334964,unavailable,1.1840393573504198
+environment_region,Alpine,ssp585,2071-2100,robust_all3_ge27,4414982.9699338274,52275.135984334964,unavailable,1.1840393573504198
+environment_region,Atlantic,ssp126,2031-2060,robust_all3_ge27,44580512.873920038,16116.099929988384,unavailable,0.036150548504381236
+environment_region,Atlantic,ssp126,2071-2100,robust_all3_ge27,44580512.873920038,16116.099929988384,unavailable,0.036150548504381236
+environment_region,Atlantic,ssp245,2031-2060,robust_all3_ge27,44580512.873920038,16116.099929988384,unavailable,0.036150548504381236
+environment_region,Atlantic,ssp245,2071-2100,robust_all3_ge27,44580512.873920038,16116.099929988384,unavailable,0.036150548504381236
+environment_region,Atlantic,ssp585,2031-2060,robust_all3_ge27,44580512.873920038,16116.099929988384,unavailable,0.036150548504381236
+environment_region,Atlantic,ssp585,2071-2100,robust_all3_ge27,44580512.873920038,16116.099929988384,unavailable,0.036150548504381236
+environment_region,Black Sea,ssp126,2031-2060,robust_all3_ge27,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp126,2071-2100,robust_all3_ge27,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp245,2031-2060,robust_all3_ge27,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp245,2071-2100,robust_all3_ge27,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp585,2031-2060,robust_all3_ge27,503175.50532423193,0,unavailable,0
+environment_region,Black Sea,ssp585,2071-2100,robust_all3_ge27,503175.50532423193,0,unavailable,0
+environment_region,Boreal,ssp126,2031-2060,robust_all3_ge27,14651971.922177825,22481.300024941564,unavailable,0.15343532013539382
+environment_region,Boreal,ssp126,2071-2100,robust_all3_ge27,14651971.922177825,23653.000018715858,unavailable,0.16143219591428309
+environment_region,Boreal,ssp245,2031-2060,robust_all3_ge27,14651971.922177825,24746.900040067732,unavailable,0.16889808533286779
+environment_region,Boreal,ssp245,2071-2100,robust_all3_ge27,14651971.922177825,24746.900040067732,unavailable,0.16889808533286779
+environment_region,Boreal,ssp585,2031-2060,robust_all3_ge27,14651971.922177825,24922.50004106015,unavailable,0.17009655883476293
+environment_region,Boreal,ssp585,2071-2100,robust_all3_ge27,14651971.922177825,24922.50004106015,unavailable,0.17009655883476293
+environment_region,Continental,ssp126,2031-2060,robust_all3_ge27,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp126,2071-2100,robust_all3_ge27,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp245,2031-2060,robust_all3_ge27,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp245,2071-2100,robust_all3_ge27,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp585,2031-2060,robust_all3_ge27,106617234.69846927,0,unavailable,0
+environment_region,Continental,ssp585,2071-2100,robust_all3_ge27,106617234.69846927,0,unavailable,0
+environment_region,Mediterranean,ssp126,2031-2060,robust_all3_ge27,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp126,2071-2100,robust_all3_ge27,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp245,2031-2060,robust_all3_ge27,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp245,2071-2100,robust_all3_ge27,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp585,2031-2060,robust_all3_ge27,13310770.258850317,0,unavailable,0
+environment_region,Mediterranean,ssp585,2071-2100,robust_all3_ge27,13310770.258850317,0,unavailable,0
+environment_region,Outside EEA regions,ssp126,2031-2060,robust_all3_ge27,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp126,2071-2100,robust_all3_ge27,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp245,2031-2060,robust_all3_ge27,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp245,2071-2100,robust_all3_ge27,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp585,2031-2060,robust_all3_ge27,223302.75905752784,0,unavailable,0
+environment_region,Outside EEA regions,ssp585,2071-2100,robust_all3_ge27,223302.75905752784,0,unavailable,0
+environment_region,Pannonian,ssp126,2031-2060,robust_all3_ge27,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp126,2071-2100,robust_all3_ge27,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp245,2031-2060,robust_all3_ge27,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp245,2071-2100,robust_all3_ge27,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp585,2031-2060,robust_all3_ge27,9021868.9015709311,0,unavailable,0
+environment_region,Pannonian,ssp585,2071-2100,robust_all3_ge27,9021868.9015709311,0,unavailable,0
+environment_region,Steppic,ssp126,2031-2060,robust_all3_ge27,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp126,2071-2100,robust_all3_ge27,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp245,2031-2060,robust_all3_ge27,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp245,2071-2100,robust_all3_ge27,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp585,2031-2060,robust_all3_ge27,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Steppic,ssp585,2071-2100,robust_all3_ge27,45940337.302547283,2980.2318596852574,unavailable,0.0064871788817275639
+environment_region,Unassigned,ssp126,2031-2060,robust_all3_ge27,2580697.3698629681,2585.7875989881281,unavailable,0.10019724238822432
+environment_region,Unassigned,ssp126,2071-2100,robust_all3_ge27,2580697.3698629681,2585.7875989881281,unavailable,0.10019724238822432
+environment_region,Unassigned,ssp245,2031-2060,robust_all3_ge27,2580697.3698629681,2585.7875989881281,unavailable,0.10019724238822432
+environment_region,Unassigned,ssp245,2071-2100,robust_all3_ge27,2580697.3698629681,2585.7875989881281,unavailable,0.10019724238822432
+environment_region,Unassigned,ssp585,2031-2060,robust_all3_ge27,2580697.3698629681,2585.7875989881281,unavailable,0.10019724238822432
+environment_region,Unassigned,ssp585,2071-2100,robust_all3_ge27,2580697.3698629681,2585.7875989881281,unavailable,0.10019724238822432

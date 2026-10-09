@@ -1,5 +1,7 @@
 # Preserve file bytes so archived source and data checksums remain valid.
 * -text
+*.pdf binary
+*.svg -whitespace
 *.parquet filter=lfs diff=lfs merge=lfs -text
 *.npz filter=lfs diff=lfs merge=lfs -text
 *.xlsx filter=lfs diff=lfs merge=lfs -text

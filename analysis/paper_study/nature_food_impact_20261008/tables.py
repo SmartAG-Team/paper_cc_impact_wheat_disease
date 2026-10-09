@@ -12,19 +12,22 @@ def number(value,digits=2,sign=False):
 
 
 def main_tables():
-    _,regions,_=grid_data()
-    p=regions[regions.scenario.eq('ssp585')&regions.period.eq('2071-2100')]
-    rows=[['Environmental region','Δ normalized HAD loss (days)','Δ symptom timing (days)',
-           'Δ relative HAD loss (pp)','Estimated Δ yield (kg ha⁻¹ per unit LAI)']]
+    from analysis.paper_study.food_security_exposure_20261009.exposure import read
+    data=read()['domain_summary'].query("analysis_mode == 'primary_any_paired_year'")
+    data=data[data.scenario.eq('ssp585')&data.period.eq('2071-2100')]
+    rows=[['Region','Baseline production (Mt)','Production with all-model increases (Mt)',
+           'Share of baseline (%)','Production-weighted HAD change (days; model range)']]
     for name in ['Europe']+REGIONS:
-        q=p[p.environment_region.eq(name)].set_index('metric')
-        rows.append([name,number(q.loc[CANOPY,'mean_change'],sign=True),number(q.loc[ONSET,'mean_change'],sign=True),
-                     number(100*q.loc[SEVERITY,'mean_change'],sign=True),number(-1000*q.loc[YIELD,'mean_change'],1,True)])
-    return [(rows,('Table 1 | Late-century climate impacts across European wheat environmental regions. '
-        'Values are harvested-area-weighted three-climate-model mean paired changes under SSP5–8.5 in 2071–2100 relative to 1991–2020. '
-        'Positive normalized HAD-loss and relative HAD-loss changes indicate greater accumulated loss of assumed canopy function; negative timing changes indicate earlier symptoms relative to flowering. '
-        'Estimated disease-related yield change uses the fixed coefficient 0.018 t ha⁻¹ per GLAI-day and a nominal upper-three-leaf reference LAI of one. '
-        'The yield column reports a disease-related index, not validated harvested yield. Model ranges, exact regional areas and valid-season coverage are supplied in Supplementary Table S13.'))]
+        r=data[data.domain.eq(name)&data.domain_type.eq('Europe' if name=='Europe' else 'environment_region')].iloc[0]
+        rows.append([name,number(r.baseline_production_tonnes/1e6),number(r.all3positive_production_tonnes/1e6),
+            number(r.all3positive_share_baseline_pct,1),
+            f'{r.production_weighted_change:+.2f} ({r.gcm_min:+.2f} to {r.gcm_max:+.2f})'])
+    return [(rows,('Table 1 | Baseline wheat production exposed to increasing canopy damage under late-century SSP5–8.5. '
+        'Production with all-model increases sums fixed SPAM2020 production in cells with greater normalized HAD loss in all three climate models '
+        'in 2071–2100 relative to 1991–2020. Shares use all reference production within each domain, including cells with unavailable climate responses. '
+        'Mt denotes million tonnes of baseline production represented, not tonnes lost. Continuous HAD changes use production and metric-valid paired-season weights '
+        'within each model, followed by equal model weighting; ranges are not confidence intervals. Europe also includes outside-region and unassigned cells. '
+        'All-wheat production is represented by an imposed winter-wheat rainfed calendar.'))]
 
 
 def supplementary_tables():
@@ -140,6 +143,66 @@ def supplementary_tables():
       'Environmental assignment follows cell centroids; missing and outside-region assignments remain explicit.'))
     from analysis.paper_study.crop_damage_validation_20261009.publication import supplementary_tables as field_yield_tables
     tables.extend(field_yield_tables())
+    from analysis.paper_study.food_security_exposure_20261009.exposure import read as exposure_read
+    from .timing import read as timing_read
+    exposure=exposure_read()['domain_summary'].query("analysis_mode == 'primary_any_paired_year'").query("analysis_mode == 'primary_any_paired_year'")
+    q=exposure[exposure.domain_type.eq('Europe')]
+    rows=[['SSP','Period','Baseline (Mt)','Ensemble-increase exposure (Mt)',
+           'All-model increase exposure (Mt)','Unavailable (Mt)','Production-weighted HAD change (days)']]
+    for r in q.itertuples():
+        rows.append([r.scenario.upper(),r.period,number(r.baseline_production_tonnes/1e6,3),
+            number(r.ensemble_increasing_production_tonnes/1e6,3),number(r.all3positive_production_tonnes/1e6,3),
+            number(r.unavailable_production_tonnes/1e6,3),number(r.production_weighted_change,3,True)])
+    tables.append((rows,'Table S21 | European production exposure across scenarios and periods. '
+        'Fixed SPAM2020 production is located in cells with positive ensemble-mean changes or positive changes in all three climate models. '
+        'These overlapping quantities are not additive and do not estimate production losses. Regional, fractional source-country and '
+        '27-of-30-pair sensitivity results are supplied in Source Data.'))
+    rows=[['Event or interval','Reference (days)','Future (days)','Change (days)','Climate-model change range (days)']]
+    for r in timing_read().query('environment_region == "Europe"').itertuples():
+        rows.append([r.event.replace('_',' '),number(r.reference,3),number(r.future,3),number(r.change,3,True),
+            f'{r.gcm_min:+.3f} to {r.gcm_max:+.3f}'])
+    tables.append((rows,'Table S22 | Crop and symptom timing on identical complete season pairs. '
+        'Reference and future periods are 1991–2020 and 2071–2100 under SSP5–8.5. All events require finite dates in both seasons. '
+        'Event dates are elapsed calendar days after sowing; relative symptom timing and grain-fill elapsed duration are date differences. '
+        'Fixed harvested-area and valid-pair weights precede equal climate-model averaging. All event differences therefore reconcile on the same population.'))
+    rows=[['Decision','Evidence available','Additional evidence required']]
+    rows.extend([
+        ['Regional surveillance and field-trial coverage','Production exposure, projected damage direction and climate-model disagreement',
+         'Field verification; separate winter/spring and rainfed/irrigated wheat representation'],
+        ['Sowing-date or cultivar choice','Climate-driven timing shifts and model decomposition',
+         'Feasible management comparisons with grain yield, heat/water exposure and costs'],
+        ['Disease-attributable grain loss','Conditional canopy damage; limited treatment-mean yield evidence',
+         'Matched functional canopy and harvest observations; independent crop-growth and disease-loss evaluation'],
+        ['Avoided production loss or input-reduction targets','No validated intervention-effect estimate',
+         'Paired crop-growth scenarios with and without disease, field intervention trials and implementation costs']])
+    tables.append((rows,'Table S23 | Decision relevance and unresolved evidence requirements. '
+        'Production exposure supports conditional prioritization of observation and evaluation. The weather–phenology decomposition '
+        'does not estimate management efficacy, and baseline production located in exposed cells does not measure lost tonnes.'))
+    audit=ROOT/'analysis/paper_study/yield_transfer_audit_20261009'
+    rows=[['Quantity','Available evidence','Missing evidence for the main inference']]
+    gate=pd.read_csv(audit/'evidence_gate.csv')
+    for r in gate.itertuples():
+        rows.append([r.quantity.replace('_',' '),r.currently_supportable_scope,r.missing_observations])
+    tables.append((rows,'Table S24 | Measurement compatibility and evidence requirements for grain-loss and adaptation claims. '
+        'Availability of observed grain yield supplies a prediction target; it does not establish a validated crop–disease–yield chain. '
+        'Ordinal ratings remain source-specific categories. The inventory contains 948 additional unique plot harvests, '
+        'including 724 Swiss plots and 224 French plots; no additional compatible functional-canopy series or identified STB-specific yield counterfactual was found. '
+        'Source metadata, units, duplicate checks and raw-yield reconciliation are retained in Source Data and the public source subset.'))
+    scores=pd.read_csv(audit/'swiss_model_comparison.csv')
+    rows=[['Held-out group','Predictors','Yield RMSE (t ha⁻¹)','Yield MAE (t ha⁻¹)','MSE skill versus training mean']]
+    labels={'training_mean':'Training mean','stb_only':'Ordinal STB','management':'Cultivar / management',
+            'management_stb':'Cultivar / management + STB','management_codisease':'Cultivar / management + other diseases',
+            'management_codisease_stb':'Cultivar / management + other diseases + STB'}
+    for r in scores.itertuples():
+        rows.append([r.split.replace('leave_one_','').replace('_out','').replace('_',' '),labels[r.model],
+            number(r.rmse_environment_equal_t_ha,3),number(r.mae_environment_equal_t_ha,3),number(r.mse_skill_vs_training_mean,3)])
+    tables.append((rows,'Table S25 | Exploratory Swiss harvest-yield prediction across sites and site-years. '
+        'All six fixed models use the same 724 plot harvests across ten site-years at five sites, with each site-year receiving equal evaluation weight. '
+        'Whole-site validation is primary; site-year validation is secondary. Encodings and fitting are restricted to each training fold. '
+        'STB and other disease ratings remain ordinal categories; disease dates are unavailable. Cultivar identities can recur across folds. '
+        'The protocol was specified after source inspection and before fitting, without external preregistration. '
+        'Five-site descriptive resampling of the incremental STB comparison includes both improvement and deterioration. '
+        'These retrospective associations do not identify STB-attributable yield loss or management efficacy.'))
     def key(item):
         m=re.match(r'Table S(\d+)([a-z]?)',item[1]);return int(m.group(1)),m.group(2)
     def wording(value):

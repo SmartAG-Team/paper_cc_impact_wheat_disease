@@ -1,0 +1,6 @@
+check,passed,source_total,grid_total,max_abs_cell_residual
+native_fraction_to_grid_production_total_tonnes,True,241844854.5617142,241844854.56171423,0
+native_fraction_to_grid_production_irrigated_tonnes,True,2498174.0865356647,2498174.0865356643,0
+native_fraction_to_grid_production_rainfed_tonnes,True,239346686.54206917,239346686.5420692,0
+native_fraction_to_grid_harvested_total_ha,True,54405001.122625828,54405001.122625828,0
+native_fraction_to_grid_physical_total_ha,True,53769454.322135374,53769454.322135359,0

@@ -1,0 +1,11 @@
+postcode,site_year,year,plots,severity_levels,severity_min,severity_max,heading_nonmissing,density_levels,mixtures,pure_stands,no_within_environment_severity_variation,dated_disease_observations,dated_canopy_observations
+1260,1260_2019,2019,75,6,0.0,6.0,75,1,69,6,False,0,0
+1260,1260_2020,2020,75,5,0.0,5.0,75,1,69,6,False,0,0
+1567,1567_2019,2019,74,3,3.0,5.0,74,1,68,6,False,0,0
+1567,1567_2020,2020,50,4,0.0,4.0,50,1,46,4,False,0,0
+3428,3428_2019,2019,75,4,0.0,4.0,75,1,69,6,False,0,0
+3428,3428_2020,2020,75,1,0.0,0.0,75,1,69,6,True,0,0
+8046,8046_2019,2019,75,4,0.0,4.0,75,1,69,6,False,0,0
+8046,8046_2020,2020,75,1,0.0,0.0,75,1,69,6,True,0,0
+8566,8566_2019,2019,75,6,0.0,6.0,75,1,69,6,False,0,0
+8566,8566_2020,2020,75,1,0.0,0.0,75,1,69,6,True,0,0

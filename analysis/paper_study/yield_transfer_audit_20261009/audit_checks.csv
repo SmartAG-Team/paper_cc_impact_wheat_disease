@@ -1,0 +1,80 @@
+check,passed,evidence
+source_bytes:data/STB_paper_followup_20261009/sources/swiss-mixtures/README.txt,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/swiss-mixtures/README.txt,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/swiss-mixtures/blendit_full_pub.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/swiss-mixtures/blendit_full_pub.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/swiss-mixtures-v1/blendit_full.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/swiss-mixtures-v1/blendit_full.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/zenodo_17432866.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/zenodo_17432866.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/zenodo_10209176.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/zenodo_10209176.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/zenodo_5393959.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/zenodo_5393959.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/acquisition.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/acquisition.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/montazeaud2022/STB_symptoms.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/montazeaud2022/STB_symptoms.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/montazeaud2022/STB_RAW_RYT.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/montazeaud2022/STB_RAW_RYT.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/montazeaud2022/GY_RAW_RYT.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/montazeaud2022/GY_RAW_RYT.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/montazeaud2022/raw_yield_variables.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/montazeaud2022/raw_yield_variables.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/sources/montazeaud2022/Traits_monocultures.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/public_septoria/paper-followup-20261009/montazeaud2022/Traits_monocultures.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/analysis_ready/additional_ordinal_stb_yield_948.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/analysis_ready/france_all_226_disease_plots.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/analysis_ready/france_stb_yield_224.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/analysis_ready/france_two_unpaired_disease_plots.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/analysis_ready/swiss_environment_counts.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/analysis_ready/swiss_stb_yield_724.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/START_HERE.txt,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/new_data_dictionary.csv,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/verification.json,True,Packaged member SHA-256 equals retained source/copy SHA-256
+source_bytes:data/STB_paper_followup_20261009/build_followup.py,True,Packaged member SHA-256 equals retained source/copy SHA-256
+licence:zenodo_17432866.json,True,Retained original repository metadata
+licence:zenodo_10209176.json,True,Retained original repository metadata
+licence:zenodo_5393959.json,True,Retained original repository metadata
+repository_md5:swiss-mixtures/blendit_full_pub.csv,True,Local bytes checked against retained repository MD5; no remote refresh
+repository_md5:swiss-mixtures/README.txt,True,Local bytes checked against retained repository MD5; no remote refresh
+repository_md5:swiss-mixtures-v1/blendit_full.csv,True,Local bytes checked against retained repository MD5; no remote refresh
+acquisition_sha256:swiss-mixtures/README.txt,True,https://zenodo.org/api/records/17432866/files/README.txt/content
+acquisition_sha256:swiss-mixtures/blendit_full_pub.csv,True,https://zenodo.org/api/records/17432866/files/blendit_full_pub.csv/content
+acquisition_sha256:swiss-mixtures-v1/blendit_full.csv,True,https://zenodo.org/api/records/10209176/files/blendit_full.csv/content
+swiss_cross_version_identity,True,All 19 common source fields; v1 supplies plot identifiers only
+swiss_csv_line_provenance,True,CSV line numbers include header
+swiss_reconstructed:year,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:postcode,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:name_var,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:mono_mix,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:var_numb,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:sowing_numb,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:rj,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:rb_2,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:septo_2,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:oidium,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:var_1,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:var_2,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:yield_dtha,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:wat_cont,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:phl,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:day_epi,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:height,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:prot,True,Analysis-ready values equal matched original source values
+swiss_reconstructed:density,True,Analysis-ready values equal matched original source values
+swiss_units,True,dt/ha x 0.1 = t/ha; no additional moisture correction
+swiss_score_unchanged,True,Source ordinal values retained
+swiss_identifiers_unique,True,One harvest per recovered plot ID
+swiss_environment_consistency,True,Location and harvest year are observed grouping variables
+france_raw_yield_reconstruction,True,Four complete equal-area row representations averaged; g/m2 x 0.01 = t/ha
+france_four_subrows,True,Subrows are not independent plot harvests
+france_component_score_mean,True,One plot-level score from component scores; no time series
+france_score_source_line,True,Score plot keys and original CSV line pointers
+france_adjusted_units,True,Author spatial BLUP retained separately from observed raw harvest
+france_blup_provenance,True,Original archived R scripts identify the adjusted yield route
+france_pure_stand_repeated_representations,True,Both adjacent row representations agree in every complete pure stand; pooled samples are not four independent observations
+france_missing_harvest_retained,True,Two scored mixture plots without harvest remain excluded from paired subset
+common_union_identity,True,"948-row common index is the union of 724 Swiss and 224 French plots, not additional evidence"
+no_invented_percent_or_loss,True,No ordinal conversion or healthy-yield counterfactual imputation
+french_trait_identity,True,Trait and harvest field-grid positions link to the same pure-stand genotype

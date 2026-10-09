@@ -4,6 +4,8 @@ Research code, numerical evidence and submission files for **Wheat phenology par
 
 The study examines climate and weather effects on crop development, Septoria-related canopy damage and conditional yield responses across European wheat-growing land-use grids. The completed experiment contains 810 annual jobs, 14,941 reference wheat cells and 14,932 cells with eligible winter-wheat calendars. It combines three climate models, SSP1–2.6, SSP2–4.5 and SSP5–8.5, and the periods 1991–2020, 2031–2060 and 2071–2100.
 
+The scientific development criteria are documented in [the Nature Food review and research plan](docs/Nature_Food_Review_and_Research_Plan_20261009.md). The current release remains a conditional canopy-impact and production-exposure study; physiological grain-loss and intervention-effect validation are unresolved.
+
 ## Current manuscript and evidence
 
 - [Manuscript Word](publication/european_wheat_stb/Manuscript.docx) and [PDF](publication/european_wheat_stb/Manuscript.pdf)
@@ -12,7 +14,7 @@ The study examines climate and weather effects on crop development, Septoria-rel
 - [Supplementary model specification](publication/european_wheat_stb/Supplementary_Model_Specification.pdf)
 - [Numerical verification receipt](publication/european_wheat_stb/verification_receipt.json)
 
-The main results cover grid-scale climate impacts, environmental-region and country contrasts, disease occurrence and functional canopy damage, and conditional disease-related yield responses. Field evaluation records are pooled in manuscript statistics; original source identifiers remain in the numerical evidence for traceability. Model evaluation limitations and the conditional nature of the canopy–yield conversion are retained in the manuscript. Wheat phenology describes the timing of leaf appearance and unfolding, flowering and soft dough; it supplies leaf availability and seasonal timing to the disease model. Disease damage is mapped to assumed canopy-function loss, followed by a canopy-based estimate of the disease-related yield component. Disease-induced HAD loss integrates assumed functional green-leaf-area loss over time. Normalized HAD loss expresses this quantity as equivalent days of reference canopy function lost; measured lesion percentage and total grain yield are distinct quantities. Disease damage does not feed back into crop-development rates.
+The main results distinguish predictive support, climate-driven canopy damage, fixed-baseline production exposure, and crop–disease timing. Production exposure means SPAM2020 tonnes located in cells with projected damage changes; it is not an estimate of tonnes lost. Conditional HAD-to-yield conversions remain supplementary. Field evaluation records are pooled in manuscript statistics; original source identifiers remain in the numerical evidence for traceability. Model evaluation limitations and the conditional nature of the canopy–yield conversion are retained in the manuscript. Wheat phenology describes the timing of leaf appearance and unfolding, flowering and soft dough; it supplies leaf availability and seasonal timing to the disease model. Disease damage is mapped to assumed canopy-function loss, followed by a canopy-based estimate of the disease-related yield component. Disease-induced HAD loss integrates assumed functional green-leaf-area loss over time. Normalized HAD loss expresses this quantity as equivalent days of reference canopy function lost; measured lesion percentage and total grain yield are distinct quantities. Disease damage does not feed back into crop-development rates.
 
 ## Repository contents
 
@@ -24,6 +26,8 @@ The main results cover grid-scale climate impacts, environmental-region and coun
 | `tests/` | Existing numerical and behavioral checks |
 | `analysis/paper_study/full_grid_climate_20261008/` | Full-grid calculation scripts, configuration, completed summaries and provenance |
 | `analysis/paper_study/nature_food_impact_20261008/` | Current publication builder, pooled evaluation and verification |
+| `analysis/paper_study/food_security_exposure_20261009/` | Production exposure, fractional source-country weights and coverage sensitivity |
+| `analysis/paper_study/yield_transfer_audit_20261009/` | Additional field-source audit and yield-validation requirements |
 | `publication/european_wheat_stb/` | Current manuscript, supplementary material, figures and source data |
 
 The repository contains the current manuscript, maintained code and supporting numerical evidence. Superseded manuscript drafts, duplicated code snapshots and unused analysis outputs have been removed from the active tree. Dated folders that remain contain dependencies of the current workflow; their names preserve recorded source paths and provenance. The current submission is the publication folder linked above. Local environments, redundant backups, raw climate forcing and the complete archive of full-grid annual outputs remain outside Git. Their source paths and checksums remain in the recorded acquisition and completion receipts. Selected archived diagnostic and example outputs remain available as publication evidence. `repository_manifest.json` records the evidence and tracked-file scope. The software-and-evidence submission bundle contains maintained code, numerical evidence and source provenance; the corresponding files also remain directly inspectable in the repository.
@@ -63,7 +67,7 @@ The daily model API and restart contract are documented in [WHEAT_STB_ENGINE.md]
 
 ## Access and third-party materials
 
-The code, source-data workbook and selected numerical evidence are deposited in the private manuscript repository at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease. Complete raw climate forcing and annual model outputs are not hosted in this repository; their provenance and rerun requirements are recorded in the evidence files. Third-party data, software and references retain their original provenance and applicable terms. No new open-source or data-redistribution licence is assigned by this repository.
+The code, source-data workbook and selected numerical evidence are available in the public research repository at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease. Complete raw climate forcing and annual model outputs are not hosted in this repository; their provenance and rerun requirements are recorded in the evidence files. Third-party data, software and references retain their original provenance and applicable terms. No new open-source or data-redistribution licence is assigned by this repository.
 
 ### Expanded field-yield evidence
 
@@ -85,3 +89,24 @@ No protected severity is imputed, and endpoint percentages do not supply HAD
 trajectories. Crop-growth and physiological yield-loss validation remain
 separate from the frozen climate simulations. The source collection and
 correspondence drafts are local evidence; no correspondence has been sent.
+
+### Production exposure and additional yield evidence
+
+[Production exposure](analysis/paper_study/food_security_exposure_20261009/METHODS.md)
+uses fixed SPAM2020 production weights, climate-model agreement and explicit
+availability denominators. Its compact input bundle reproduces the analysis
+without the original production rasters:
+
+```sh
+.venv/bin/python -m analysis.paper_study.food_security_exposure_20261009.run \
+  --bundled --destination /tmp/exposure-reproduction
+.venv/bin/python analysis/paper_study/yield_transfer_audit_20261009/verify.py
+```
+
+The [additional field evidence](analysis/paper_study/yield_transfer_audit_20261009/README.md)
+reconciles 948 Swiss/French plot harvests and supplies exploratory whole-site
+yield prediction, source attribution and a structural input contract for
+future physiological validation. The compact sources retain CC BY 4.0
+attribution. Neither production exposure nor those regressions establish
+STB-attributable tonnes lost or adaptation efficacy. The [milestone table](analysis/paper_study/nature_food_impact_20261008/derived/research_milestones.csv)
+records which research-plan requirements remain unresolved.

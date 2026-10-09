@@ -1,0 +1,9 @@
+issue,evidence,consequence
+swiss_score_scale,README specifies 0-9; retained package reports paper 1-9; zeros occur,Keep ordinal categories; obtain author clarification
+swiss_collection_dates,README date field 2021-2023 conflicts with title and paired data 2019-2020,Use observed harvest years; no invented assessment dates
+swiss_sowing_density,"README gives 350 seeds/m2; paired source has 350 and 400, fixed by site",Retain observed density; no causal density effect
+swiss_mixture_composition,Paired data include 29 four-cultivar mixture plots; README describes two-cultivar mixtures,Retain var_numb and original cultivar names
+swiss_harvest_missingness,750 plots have disease scores; 724 have yield; missingness concentrated at Delley,No imputed harvest; observed subset may be selective
+french_traits,179 single-record monoculture trait profiles; 166 link to paired disease/harvest plots,"Obtain trait methods, units and dates before canopy interpretation"
+french_blup,"RAW_GY is an author spatial BLUP using the experiment, not independent raw yield",Use reconstructed raw harvest for future association work; no random-split BLUP target
+future_end_to_end,No new cohort has compatible observed functional canopy sequences or an identified STB-specific yield cause,Matched physiology and harvest required for actual grain-loss/adaptation claims
