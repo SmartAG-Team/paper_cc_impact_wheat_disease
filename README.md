@@ -1,6 +1,6 @@
 # Climate impacts on European wheat disease and production
 
-Research code, numerical evidence and submission files for **Projected climate impacts on Septoria damage in European wheat**, by Gang Zhao, Northwest A&F University.
+Research code, numerical evidence and submission files for **Wheat development partly offsets projected increases in Septoria damage across Europe**, by Gang Zhao, Northwest A&F University.
 
 The study examines climate and weather effects on crop development, Septoria-related canopy damage and conditional yield responses across European wheat-growing land-use grids. The completed experiment contains 810 annual jobs, 14,941 reference wheat cells and 14,932 cells with eligible winter-wheat calendars. It combines three climate models, SSP1–2.6, SSP2–4.5 and SSP5–8.5, and the periods 1991–2020, 2031–2060 and 2071–2100.
 

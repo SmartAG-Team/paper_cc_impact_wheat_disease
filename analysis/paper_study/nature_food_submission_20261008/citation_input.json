@@ -794,6 +794,14 @@
     "HolstDonner2022Corteva"
   ],
   "clusters": {
+    "EEA2016": [
+      "EEA2016"
+    ],
+    "Parker2004|Foulkes2006|vanDenBerg2017": [
+      "Parker2004",
+      "Foulkes2006",
+      "vanDenBerg2017"
+    ],
     "SuffertSache2011|ShawRoyle1989|LovellCanopy2004|Baccar2011|Lovell2004": [
       "SuffertSache2011",
       "ShawRoyle1989",
@@ -801,40 +809,9 @@
       "Baccar2011",
       "Lovell2004"
     ],
-    "Savary2019|Parker2004|Silva2026": [
-      "Savary2019",
-      "Parker2004",
-      "Silva2026"
-    ],
-    "Parker2004|Foulkes2006": [
-      "Parker2004",
-      "Foulkes2006"
-    ],
-    "NEXGDDPCmip6V2": [
-      "NEXGDDPCmip6V2"
-    ],
-    "EEA2016": [
-      "EEA2016"
-    ],
-    "Foulkes2006": [
-      "Foulkes2006"
-    ],
-    "Parker2004|Foulkes2006|vanDenBerg2017": [
-      "Parker2004",
-      "Foulkes2006",
-      "vanDenBerg2017"
-    ],
-    "Holst2022BASF|HolstDonner2022Corteva|NEXGDDPCmip6V2|GGCMIPhase32021|SPAM2020|EEA2016": [
+    "Holst2022BASF|HolstDonner2022Corteva": [
       "Holst2022BASF",
-      "HolstDonner2022Corteva",
-      "NEXGDDPCmip6V2",
-      "GGCMIPhase32021",
-      "SPAM2020",
-      "EEA2016"
-    ],
-    "SPAM2020|GGCMIPhase32021": [
-      "SPAM2020",
-      "GGCMIPhase32021"
+      "HolstDonner2022Corteva"
     ],
     "SuffertSache2011|Baccar2011|Parker2004|Foulkes2006|vanDenBerg2017|Bryson1997": [
       "SuffertSache2011",
@@ -844,25 +821,48 @@
       "vanDenBerg2017",
       "Bryson1997"
     ],
-    "Chaloner2021|Pequeno2024|Silva2026": [
-      "Chaloner2021",
-      "Pequeno2024",
-      "Silva2026"
-    ],
-    "Holst2022BASF|HolstDonner2022Corteva": [
-      "Holst2022BASF",
-      "HolstDonner2022Corteva"
-    ],
-    "McDonald2022|ECVision2025": [
-      "McDonald2022",
-      "ECVision2025"
-    ],
     "Chaloner2021|Pequeno2024|ShawRoyle1989|LovellCanopy2004|Lovell2004": [
       "Chaloner2021",
       "Pequeno2024",
       "ShawRoyle1989",
       "LovellCanopy2004",
       "Lovell2004"
+    ],
+    "Parker2004|Foulkes2006": [
+      "Parker2004",
+      "Foulkes2006"
+    ],
+    "NEXGDDPCmip6V2": [
+      "NEXGDDPCmip6V2"
+    ],
+    "SPAM2020|GGCMIPhase32021": [
+      "SPAM2020",
+      "GGCMIPhase32021"
+    ],
+    "Chaloner2021|Pequeno2024|Silva2026": [
+      "Chaloner2021",
+      "Pequeno2024",
+      "Silva2026"
+    ],
+    "McDonald2022|ECVision2025": [
+      "McDonald2022",
+      "ECVision2025"
+    ],
+    "Foulkes2006": [
+      "Foulkes2006"
+    ],
+    "Savary2019|Parker2004|Silva2026": [
+      "Savary2019",
+      "Parker2004",
+      "Silva2026"
+    ],
+    "Holst2022BASF|HolstDonner2022Corteva|NEXGDDPCmip6V2|GGCMIPhase32021|SPAM2020|EEA2016": [
+      "Holst2022BASF",
+      "HolstDonner2022Corteva",
+      "NEXGDDPCmip6V2",
+      "GGCMIPhase32021",
+      "SPAM2020",
+      "EEA2016"
     ]
   }
 }

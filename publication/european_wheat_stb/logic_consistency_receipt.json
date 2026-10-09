@@ -1,6 +1,0 @@
-{
-  "numerical_figure_files_unchanged": 13,
-  "main_table_values_unchanged": true,
-  "frozen_model_and_configuration_files_unchanged": 54,
-  "HAD_normalization": "Divide HAD by maximum reference LAI=1; numerical values unchanged, units are days."
-}

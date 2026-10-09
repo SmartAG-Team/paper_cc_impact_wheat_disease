@@ -1,8 +1,8 @@
 {
   "status": "generated",
-  "title": "Projected climate impacts on Septoria damage in European wheat",
-  "abstract_words": 144,
-  "main_text_words_excluding_methods": 1990,
+  "title": "Wheat development partly offsets projected increases in Septoria damage across Europe",
+  "abstract_words": 143,
+  "main_text_words_excluding_methods": 1967,
   "main_figures": 4,
   "main_tables": 1,
   "display_items": 5,
@@ -11,12 +11,12 @@
   "supplementary_tables": 24,
   "source_workbook_sheets": 40,
   "files": {
-    "Manuscript.docx": "4461b65d2ed2b7ba9812ba3d150f227943399b5baccbd7a68f0fb06478fb3480",
-    "Manuscript.pdf": "08b6d272b5bff00aa16530b6d668ecee4e70a266e0b6c33c1c0b15628ec46e87",
-    "Manuscript.txt": "39c5c3c17f97eda6b7d82602c00fcb121caf6bc17008905189645e390268abe0",
-    "Supplementary_Information.docx": "66173cb41294dcb8c2a5d90cba52b8e61214d3233f8b8ba951e843f471894a8b",
-    "Supplementary_Information.pdf": "468dea4394afca7c190813b146b9751c6d9f396ff462287b66b29293989da66f",
-    "Source_Data.xlsx": "2b94b4e421bd03d867dd4f239511c43f91b94acc83ff20fddea4f1de5f907227",
-    "Software_and_Evidence.zip": "960dee10fb735834eadfee59c184743ad7824b97ff70893d642d06ad105d2316"
+    "Manuscript.docx": "bdb6cdd68568158ce4b88de9bb7eec185b0f842241f5b96ef629813d2e7e13d2",
+    "Manuscript.pdf": "17684824798fa222c1d80b981fc0c2f3428f2561c679e332b0cfad168e84cf2f",
+    "Manuscript.txt": "19a277f37d74947ff249b7258bd5d111ef3d529c18e2b4b6adedd76f0ccb9131",
+    "Supplementary_Information.docx": "746010e3cdc46cd01a34adbf5970f5b37550a0bb3f8e49573c4afc2700729352",
+    "Supplementary_Information.pdf": "8c3c44736a4cb056044ff20ecdd16479b8b1187bed54b7865ffbae9408b36067",
+    "Source_Data.xlsx": "29d22f036f1c4ac15d2bc3555607427a943f92c471c41a25dc1e6c4b6d7e6185",
+    "Software_and_Evidence.zip": "eb0b855cae938010d1419fcbab74e96eb36a5fba1988ce2989f9e66bc62f355b"
   }
 }
