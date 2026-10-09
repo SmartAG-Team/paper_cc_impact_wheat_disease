@@ -1,6 +1,0 @@
-folder,files,total_file_bytes,parquet_files,parquet_bytes,npz_files,metadata_only_size_scan,full_domain
-data/paper_study/climate/nasa_v2/daily,1374,76529063375,687,76527920786,0,True,True
-data/paper_study/climate/nasa_v2/variables,5496,96603999918,2748,96559543516,0,True,True
-data/paper_study/climate/nasa_v2/ncss_cache,0,0,0,0,0,True,True
-data/paper_study/climate/era5_daily,744,4131138704,372,4130109137,0,True,True
-analysis/paper_study/overwinter_leaf_model_20261006/climate/annual_weather_cache,1374,197850211,0,0,687,True,False

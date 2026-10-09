@@ -1,6 +1,6 @@
 {
   "status": "generated",
-  "title": "Wheat phenology partly offsets projected increases in Septoria damage across Europe",
+  "title": "Climate change reshapes Septoria tritici blotch damage across European wheat-growing regions",
   "abstract_words": 144,
   "main_text_words_excluding_methods": 2004,
   "main_figures": 4,
@@ -11,12 +11,11 @@
   "supplementary_tables": 24,
   "source_workbook_sheets": 40,
   "files": {
-    "Manuscript.docx": "e6b659149c8e7c72f540be875ae1e117e6e9b3110ea8a9ede0f43f6114b620c2",
-    "Manuscript.pdf": "242008b5b6fef7f1a74efe33afa22c1ed24f6c95e56d411b61adfe9fbdce8f1f",
-    "Manuscript.txt": "28422467140930a7298e76f3b167d896a84a69243efffb0c26b9fecd7e997c88",
-    "Supplementary_Information.docx": "ed4dc8be7ca5520d827103625349f3979c7a0b00fad3aafba4575d7794ede4e6",
-    "Supplementary_Information.pdf": "58e68f58c485da9531b6787ea2c5f72e1b1c6ca825f952dd0827bdc8c826e601",
-    "Source_Data.xlsx": "869d0d1108ac8c2c22c759c8f6378e4cb9568b51b152da6644cb3145a8631a6e",
-    "Software_and_Evidence.zip": "f3467f332bbb9fbb3d804aba67c3c9afa63c288315b6638d705314da089b1f9d"
+    "Manuscript.docx": "516a9aeda2064afb7cec002f11e2965e4cebd075de1f89a261b7ee3579737447",
+    "Manuscript.pdf": "80061c0dc92dea98e3d12f59105adeaaf30e17bf65c3964d35e443a980dceb4f",
+    "Manuscript.txt": "42a649a16f3445a90b540722e18e25a5a134bc081e70d5789a225d90690a7bc8",
+    "Supplementary_Information.docx": "f414ee3ae7bd44c51a7d9c501ee68e92b464a27cfc8a8a62e3eb546e1e3ca19c",
+    "Supplementary_Information.pdf": "f9edaaa6a97d047c5e5fa174e7ff09ccf1149f52bcf65e7a3f59ee54227beaef",
+    "Source_Data.xlsx": "869d0d1108ac8c2c22c759c8f6378e4cb9568b51b152da6644cb3145a8631a6e"
   }
 }

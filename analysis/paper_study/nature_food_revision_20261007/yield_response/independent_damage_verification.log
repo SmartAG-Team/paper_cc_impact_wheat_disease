@@ -1,8 +1,0 @@
-{
-  "status": "All independently reconstructed exponential predictions, log-ratio fits, NNLS KKT conditions, memberships, weights and arithmetic metrics passed",
-  "fixed_candidate_specifications_evaluated": 1,
-  "training_fold_fits_verified": 26,
-  "held_out_predictions_verified": 338,
-  "input_hashes_verified": 5,
-  "method": "Standard-library logarithms, exponentials and sums; independent NNLS KKT gradients; no imports from response_estimator or candidate runner"
-}

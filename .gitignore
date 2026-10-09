@@ -60,3 +60,15 @@ node_modules/
 # These exclusions take precedence over analysis source-file exceptions.
 **/node_modules/
 **/__pycache__/
+
+# Superseded working copies and generated inspection artifacts
+**/source_snapshot/
+**/runtime_source_snapshot/
+**/aborted_*/
+**/render_check/
+**/figure_preview/
+**/pooled_figure_preview/
+**/staging/
+
+# Optional submission bundle duplicates the maintained repository files.
+/publication/european_wheat_stb/Software_and_Evidence.zip

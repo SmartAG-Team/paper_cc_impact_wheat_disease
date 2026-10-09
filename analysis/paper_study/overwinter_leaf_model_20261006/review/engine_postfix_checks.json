@@ -1,8 +1,0 @@
-{
-  "late_start_rejected": "Fresh-state weather coverage must begin at or before sowing.",
-  "clock_order_rejected": "Phenology checkpoint clocks must obey TPV <= TPP <= GDD.",
-  "clock_order_failed_restore_atomic": true,
-  "terminal_output_rejected": "Checkpoint development clocks disagree with terminal daily output.",
-  "terminal_output_failed_restore_atomic": true,
-  "nonzero_empty_state_rejected": "Empty checkpoint differs from canonical initial component states."
-}

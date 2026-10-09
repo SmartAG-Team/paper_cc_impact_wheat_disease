@@ -1,4 +1,4 @@
-Wheat phenology partly offsets projected increases in Septoria damage across Europe
+Climate change reshapes Septoria tritici blotch damage across European wheat-growing regions
 
 Gang Zhao*
 
@@ -124,13 +124,13 @@ Annual outputs record input-weather identities, model configurations, grid-cell 
 
 Data availability
 
-Dataset references identify the public disease archives, NEX-GDDP-CMIP6v2 climate data, GGCMI calendars, SPAM2020 wheat area and EEA environmental boundaries. Source_Data.xlsx contains completed grid summaries, environmental-region and country statistics, area shares by direction of change, pooled field evaluation and published canopy–yield evidence. Original labels and assessment definitions remain in the underlying records. [16, 17, 18, 19, 20, 21]
+Source data and numerical evidence supporting the findings are publicly available at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease, with the manuscript-specific files in publication/european_wheat_stb. Dataset references identify the public disease archives, NEX-GDDP-CMIP6v2 climate data, GGCMI calendars, SPAM2020 wheat area and EEA environmental boundaries. Source_Data.xlsx contains completed grid summaries, environmental-region and country statistics, area shares by direction of change, pooled field evaluation and published canopy–yield evidence. Original labels and assessment definitions remain in the underlying records. [16, 17, 18, 19, 20, 21]
 
-The software archive includes completed summaries, selected diagnostic outputs, input and output hashes, and numerical evidence for document regeneration. The complete raw climate and annual-output archives are external because of their size. Model reruns require the recorded climate products and adjustment files. Raw plot observations and physiological measurements unavailable in the source studies are not reconstructed.
+The repository includes completed summaries, selected diagnostic outputs, input and output hashes, and numerical evidence for document regeneration. The complete raw climate and annual-output archives are external because of their size. Model reruns require the recorded climate products and adjustment files. Raw plot observations and physiological measurements unavailable in the source studies are not reconstructed.
 
 Code availability
 
-Software_and_Evidence.zip contains simulation, statistical-analysis and document-generation code with evidence manifests. REPRODUCIBILITY.txt documents regeneration and model-rerun requirements. The supplementary model specification contains 29 numbered equations, and Parameter_inventory.csv records 84 fixed, fitted and scenario quantities. The working Git Hub repository is private pending publication.
+Simulation, statistical-analysis and document-generation code are publicly available at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease. The repository includes the accompanying evidence manifests. REPRODUCIBILITY.txt documents regeneration and model-rerun requirements. The supplementary model specification contains 29 numbered equations, and Parameter_inventory.csv records 84 fixed, fitted and scenario quantities.
 
 References
 

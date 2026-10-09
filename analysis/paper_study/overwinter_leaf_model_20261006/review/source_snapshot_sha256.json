@@ -1,6 +1,0 @@
-{
-  "model/seasonal_septoria/overwinter.py": "4d649bc60c86513fdbb38bfc5b2c6ec2119d819e4880e275163ece6edaed93f0",
-  "model/seasonal_septoria/leaf_phenology.py": "236690309dd396a46ffb5d30776b592bf114bc9ed0bb406f1b5529d580620ff3",
-  "tests/test_overwinter.py": "2bb43d420080aad330db3bcb4181b836e378d2bfeb070badeab5f0346acb0e1f",
-  "tests/test_leaf_phenology.py": "765c769a06b1d916a35a374f70fea86b75805964b810862f04776958c0795da6"
-}

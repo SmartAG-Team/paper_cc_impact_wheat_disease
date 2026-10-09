@@ -2,20 +2,20 @@
   "style_id": "http://www.zotero.org/styles/nature",
   "citations": {
     "EEA2016": "<sup>19</sup>",
+    "Chaloner2021|Pequeno2024|ShawRoyle1989|LovellCanopy2004|Lovell2004": "<sup>4–8</sup>",
     "SuffertSache2011|Baccar2011|Parker2004|Foulkes2006|vanDenBerg2017|Bryson1997": "<sup>2,9–13</sup>",
-    "NEXGDDPCmip6V2": "<sup>18</sup>",
+    "Chaloner2021|Pequeno2024|Silva2026": "<sup>3–5</sup>",
+    "Parker2004|Foulkes2006": "<sup>2,11</sup>",
+    "Holst2022BASF|HolstDonner2022Corteva": "<sup>20,21</sup>",
     "Holst2022BASF|HolstDonner2022Corteva|NEXGDDPCmip6V2|GGCMIPhase32021|SPAM2020|EEA2016": "<sup>16–21</sup>",
-    "Savary2019|Parker2004|Silva2026": "<sup>1–3</sup>",
+    "Foulkes2006": "<sup>11</sup>",
     "SuffertSache2011|ShawRoyle1989|LovellCanopy2004|Baccar2011|Lovell2004": "<sup>6–10</sup>",
     "McDonald2022|ECVision2025": "<sup>14,15</sup>",
-    "Holst2022BASF|HolstDonner2022Corteva": "<sup>20,21</sup>",
     "SPAM2020|GGCMIPhase32021": "<sup>16,17</sup>",
-    "Parker2004|Foulkes2006": "<sup>2,11</sup>",
-    "Chaloner2021|Pequeno2024|ShawRoyle1989|LovellCanopy2004|Lovell2004": "<sup>4–8</sup>",
-    "Foulkes2006": "<sup>11</sup>",
+    "NEXGDDPCmip6V2": "<sup>18</sup>",
+    "Parker2004|vanDenBerg2017": "<sup>2,12</sup>",
     "Parker2004|Foulkes2006|vanDenBerg2017": "<sup>2,11,12</sup>",
-    "Chaloner2021|Pequeno2024|Silva2026": "<sup>3–5</sup>",
-    "Parker2004|vanDenBerg2017": "<sup>2,12</sup>"
+    "Savary2019|Parker2004|Silva2026": "<sup>1–3</sup>"
   },
   "bibliography_ids": [
     "Savary2019",

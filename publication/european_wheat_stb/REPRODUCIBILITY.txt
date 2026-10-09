@@ -6,7 +6,9 @@ pandas, pyarrow, matplotlib, geopandas, python-docx, openpyxl, Pillow, reportlab
 and PyMuPDF. The scientific runtime additionally uses the frozen project
 dependencies and the external daily climate forcing and bias-alignment files.
 
-From the extracted archive root:
+Public repository: https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease
+
+From the repository or extracted archive root:
 
 python -m analysis.paper_study.nature_food_impact_20261008.build --output publication/european_wheat_stb_regenerated --documents-only
 python -m analysis.paper_study.nature_food_impact_20261008.verify --output publication/european_wheat_stb_regenerated
@@ -32,3 +34,5 @@ integrity; they do not independently validate biological predictions or absolute
 field yields.
 
 Climate results distinguish crop phenology, disease symptoms, assumed canopy-function loss and the inferred yield response. Wheat phenology describes leaf appearance and unfolding, flowering and soft dough. Disease-induced HAD loss integrates assumed functional green-leaf-area loss over time. Normalized HAD loss expresses this quantity as equivalent days of reference canopy function lost after division by maximum reference upper-canopy LAI. The unit-LAI scenario retains the completed numerical values. Disease damage does not feed back into developmental rates, and yield estimates concern the disease component under the published linear relationship.
+
+The public package excludes superseded drafts, duplicate code snapshots and unused outputs. Retained dated analysis folders are dependencies of the current workflow and preserve source provenance. Node.js is required for the bundled citation renderer.

@@ -13,7 +13,6 @@ from . import data,figures,tables,sections
 from analysis.paper_study.nature_food_submission_20261008 import build as base
 
 BASE_CURATE=base._curated_figures
-BASE_PACKAGE=base._package
 MAIN_ORDER=['abstract.txt','introduction.txt','climate_results.txt','field_results.txt','baseline_results.txt',
             'discussion_field_and_limits.txt','methods.txt','availability.txt']
 
@@ -106,40 +105,51 @@ def source_workbook(destination,canonical='publication/european_wheat_stb'):
 
 
 def package(destination,evidence_archive=None):
+    """Package only maintained files recorded in the public repository manifest."""
+    destination=Path(destination)
     shutil.copy2(data.HERE/'Reproducibility.txt',destination/'REPRODUCIBILITY.txt')
-    BASE_PACKAGE(destination,evidence_archive)
-    target=destination/'Software_and_Evidence.zip';temporary=destination/'Software_and_Evidence.extended.tmp'
-    additional={}
-    for directory in [data.DERIVED,data.GRID]:
-        for path in directory.iterdir():
-            if path.is_file():additional[path.relative_to(data.ROOT).as_posix()]=path
-    specification=data.ROOT/'analysis/paper_study/nature_food_fix_20261007/specification'
-    for path in specification.rglob('*'):
-        if path.is_file() and 'node_modules' not in path.parts and '__pycache__' not in path.parts:
-            additional[path.relative_to(data.ROOT).as_posix()]=path
-    additional[(data.HERE/'Reproducibility.txt').relative_to(data.ROOT).as_posix()]=data.HERE/'Reproducibility.txt'
-    for relative in ['analysis/paper_study/full_grid_climate_20261008/run_configuration.json',
-                     'analysis/paper_study/nature_food_revision_20261007/continental_replay/configuration_before_results.json']:
-        path=data.ROOT/relative
-        if path.exists():additional[relative]=path
+    manifest_path=data.ROOT/'repository_manifest.json'
+    repository=json.loads(manifest_path.read_text())
+    publication=Path('publication/european_wheat_stb')
+    excluded={'Software_and_Evidence.zip','publication_receipt.json',
+              'verification_receipt.json','reproduction_receipt.json'}
+    files={}
+    for name in repository['files']:
+        relative=Path(name)
+        if relative.is_absolute() or '..' in relative.parts:
+            raise ValueError('Invalid repository manifest path: '+name)
+        if relative.is_relative_to(publication):
+            if relative.name in excluded:continue
+            path=destination/relative.relative_to(publication)
+        else:path=data.ROOT/relative
+        if not path.is_file():raise FileNotFoundError(path)
+        files[name]=path
+    # Include outputs from this build, including newly added figure source tables.
+    for path in destination.rglob('*'):
+        if path.is_file() and path.name not in excluded and path.suffix!='.tmp':
+            files[(publication/path.relative_to(destination)).as_posix()]=path
+    files['REPRODUCIBILITY.txt']=destination/'REPRODUCIBILITY.txt'
+    files['Publication_requirements.txt']=destination/'Publication_requirements.txt'
+    temporary=destination/'Software_and_Evidence.tmp'
     members={}
-    with zipfile.ZipFile(target) as source,zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED,compresslevel=4) as output:
-        def write(name,content):
-            output.writestr(name,content)
+    with zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED,compresslevel=4) as output:
+        for name,path in sorted(files.items()):
+            content=path.read_bytes();output.writestr(name,content)
             members[name]={'sha256':hashlib.sha256(content).hexdigest(),'bytes':len(content)}
-        for record in source.infolist():
-            if record.is_dir() or record.filename=='PACKAGE_MANIFEST.json' or record.filename in additional:continue
-            if record.filename=='REPRODUCIBILITY.txt':write(record.filename,(data.HERE/'Reproducibility.txt').read_bytes())
-            elif record.filename=='publication/european_wheat_stb/REPRODUCIBILITY.txt':
-                write(record.filename,(destination/'REPRODUCIBILITY.txt').read_bytes())
-            else:write(record.filename,source.read(record))
-        for name,path in additional.items():write(name,path.read_bytes())
-        manifest={'package':'European wheat full-grid climate-impact manuscript',
+        # Enables another full package build from an extracted release.
+        repository=dict(repository,files=dict(members))
+        repository.pop('publication_archive_sha256',None)
+        content=(json.dumps(repository,indent=2)+'\n').encode()
+        output.writestr('repository_manifest.json',content)
+        members['repository_manifest.json']={'sha256':hashlib.sha256(content).hexdigest(),'bytes':len(content)}
+        manifest={'package':'European wheat climate-impact public research package',
+            'repository':'https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease',
             'entry_point':'analysis/paper_study/nature_food_impact_20261008/build.py',
             'publication_command':'python -m analysis.paper_study.nature_food_impact_20261008.build --output publication/european_wheat_stb_regenerated --documents-only',
-            'member_count_excluding_manifest':len(members),'checksums_exclude_this_manifest':True,'members':members}
+            'member_count_excluding_manifest':len(members),
+            'checksums_exclude_this_manifest':True,'members':members}
         output.writestr('PACKAGE_MANIFEST.json',json.dumps(manifest,indent=2)+'\n')
-    temporary.replace(target)
+    temporary.replace(destination/'Software_and_Evidence.zip')
 
 
 def build(destination,documents_only=False,evidence_archive=None):

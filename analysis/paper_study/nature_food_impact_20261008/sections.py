@@ -4,7 +4,7 @@ from .data import HERE,ROOT,GRID,DERIVED,CANOPY,SEVERITY,ONSET,FREQUENCY,YIELD,S
 from analysis.paper_study.nature_food_submission_20261008.sections import (
     sections as previous_sections,AUTHOR,AFFILIATION,EMAIL)
 
-TITLE='Wheat phenology partly offsets projected increases in Septoria damage across Europe'
+TITLE='Climate change reshapes Septoria tritici blotch damage across European wheat-growing regions'
 
 
 def sections():
@@ -132,10 +132,10 @@ def sections():
     ]
     text['availability.txt']=[
         'Data availability',
-        'Dataset references identify the public disease archives, NEX-GDDP-CMIP6v2 climate data, GGCMI calendars, SPAM2020 wheat area and EEA environmental boundaries. Source_Data.xlsx contains completed grid summaries, environmental-region and country statistics, area shares by direction of change, pooled field evaluation and published canopy–yield evidence. Original labels and assessment definitions remain in the underlying records. [[Holst2022BASF|HolstDonner2022Corteva|NEXGDDPCmip6V2|GGCMIPhase32021|SPAM2020|EEA2016]]',
-        'The software archive includes completed summaries, selected diagnostic outputs, input and output hashes, and numerical evidence for document regeneration. The complete raw climate and annual-output archives are external because of their size. Model reruns require the recorded climate products and adjustment files. Raw plot observations and physiological measurements unavailable in the source studies are not reconstructed.',
+        'Source data and numerical evidence supporting the findings are publicly available at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease, with the manuscript-specific files in publication/european_wheat_stb. Dataset references identify the public disease archives, NEX-GDDP-CMIP6v2 climate data, GGCMI calendars, SPAM2020 wheat area and EEA environmental boundaries. Source_Data.xlsx contains completed grid summaries, environmental-region and country statistics, area shares by direction of change, pooled field evaluation and published canopy–yield evidence. Original labels and assessment definitions remain in the underlying records. [[Holst2022BASF|HolstDonner2022Corteva|NEXGDDPCmip6V2|GGCMIPhase32021|SPAM2020|EEA2016]]',
+        'The repository includes completed summaries, selected diagnostic outputs, input and output hashes, and numerical evidence for document regeneration. The complete raw climate and annual-output archives are external because of their size. Model reruns require the recorded climate products and adjustment files. Raw plot observations and physiological measurements unavailable in the source studies are not reconstructed.',
         'Code availability',
-        'Software_and_Evidence.zip contains simulation, statistical-analysis and document-generation code with evidence manifests. REPRODUCIBILITY.txt documents regeneration and model-rerun requirements. The supplementary model specification contains 29 numbered equations, and Parameter_inventory.csv records 84 fixed, fitted and scenario quantities. The working GitHub repository is private pending publication.',
+        'Simulation, statistical-analysis and document-generation code are publicly available at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease. The repository includes the accompanying evidence manifests. REPRODUCIBILITY.txt documents regeneration and model-rerun requirements. The supplementary model specification contains 29 numbered equations, and Parameter_inventory.csv records 84 fixed, fitted and scenario quantities.',
     ]
     text['declarations.txt']=old['declarations.txt']
     return text

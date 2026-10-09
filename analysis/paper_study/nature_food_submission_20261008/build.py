@@ -48,6 +48,9 @@ def sha(path: Path) -> str:
 
 
 def polish(text: str) -> str:
+    parts = re.split(r'(https?://[^\s<>]+)', text)
+    if len(parts) > 1:
+        return ''.join(part if re.match(r'https?://', part) else polish(part) for part in parts)
     text = re.sub(r'(?<=[a-z])(?=\d)', ' ', text)
     text = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', text)
     text = re.sub(r'(?<=[A-Za-z])(?=[+−]\d)', ' ', text)

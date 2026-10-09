@@ -22,7 +22,7 @@
   "full_grid_domain_check": {
     "status": "passed",
     "comparisons": 60,
-    "source": "Annual simulation outputs",
+    "source": "Bundled paired grid values and valid-year counts",
     "period": "2071-2100"
   },
   "PDF_pages": {
@@ -31,5 +31,12 @@
     "Supplementary_Model_Specification.pdf": 7
   },
   "source_workbook_sheets": 40,
-  "archived_members_checked": 1054
+  "archived_members_checked": null,
+  "reproduction_environment": "Isolated extraction of maintained code and bundled evidence; original raw climate and annual outputs absent",
+  "tests": {
+    "passed": 306,
+    "warnings": 7
+  },
+  "manuscript_scientific_content_matches_working_build": true,
+  "availability_statement_updated_after_reproduction": true
 }
