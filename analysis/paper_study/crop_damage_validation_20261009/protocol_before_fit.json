@@ -1,0 +1,46 @@
+{
+  "analysis": "Leaf-damage and yield associations in the expanded public field collection",
+  "source_hashes": {
+    "data/stb_collection_20261009/analysis_ready/combined_severity_yield_assessments.csv": "4cff987f57a1894c67bb24a972fa20c55a5b2b55290fcf219589bfa884e0ba4d",
+    "data/stb_collection_20261009/sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_plot_seasons.csv": "f5f75f2b42c82eece4d89936e66273c090ac655d7da3c62b5fc71b5dab76b760",
+    "data/stb_collection_20261009/sources/public_septoria/paper-model-data-20261009/derived/tunisia2019_protected_reference_yield_contrasts.csv": "30ffca5b0b7077bd112e98e4bc4a4a45ad136e47018ef506955bcf985d7fe581"
+  },
+  "models": {
+    "training_mean": [],
+    "composition_ridge": [
+      "INRAT100",
+      "karim",
+      "salim",
+      "monastir"
+    ],
+    "flag_ridge": [
+      "severity_flag"
+    ],
+    "lower_ridge": [
+      "severity_lower"
+    ],
+    "two_leaf_ridge": [
+      "severity_flag",
+      "severity_lower"
+    ],
+    "composition_two_leaf_ridge": [
+      "INRAT100",
+      "karim",
+      "salim",
+      "monastir",
+      "severity_flag",
+      "severity_lower"
+    ],
+    "nonnegative_damage": [
+      "severity_flag",
+      "severity_lower"
+    ]
+  },
+  "ridge_penalty": 0.1,
+  "primary": "Whole-year transfer of absolute yield; both directions, two years at one site.",
+  "secondary": "Within-2019 protected-reference response, holding out whole mixtures or source replicate groups.",
+  "weights": "Equal held-out groups, then equal plot outcomes; repeated leaf measurements share one outcome.",
+  "model_selection": "All specified models reported; no performance-based promotion into climate yield conversion.",
+  "missing": "No severity values invented for protected plots; no severity-to-HAD conversion.",
+  "uncertainty": "Two environments cannot support a reliable environmental confidence interval."
+}

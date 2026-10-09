@@ -54,6 +54,8 @@ def curate(captions,folder):
         'The sampled analysis is separate from the full-grid estimates and does not measure intervention benefits.')
     captions['figS20_pooled_field_evaluation']=figures.pooled_validation_figure(folder)
     captions['figS21_study_domain']=figures.study_context(folder)
+    from analysis.paper_study.crop_damage_validation_20261009.publication import supplementary_figures
+    captions.update(supplementary_figures(folder))
     # Full-grid source tables are archived separately; obsolete sampled source
     # CSVs from the predecessor figure selection do not enter this publication.
     return FigureCaptions(captions)
@@ -75,6 +77,8 @@ def source_workbook(destination,canonical='publication/european_wheat_stb'):
                 destination/'Main_Table1.csv']
     sources += sorted((destination/'figures').glob('*.csv'))+sorted((destination/'figures').glob('*.csv.gz'))
     sources += sorted((destination/'supplementary_figures').glob('*.csv'))+sorted((destination/'supplementary_figures').glob('*.csv.gz'))
+    from analysis.paper_study.crop_damage_validation_20261009.publication import source_paths
+    sources += source_paths()
     workbook=Workbook(write_only=True);manifest=[]
     for i,path in enumerate(sources,1):
         frame=pd.read_csv(path)
@@ -142,7 +146,7 @@ def package(destination,evidence_archive=None):
         content=(json.dumps(repository,indent=2)+'\n').encode()
         output.writestr('repository_manifest.json',content)
         members['repository_manifest.json']={'sha256':hashlib.sha256(content).hexdigest(),'bytes':len(content)}
-        manifest={'package':'European wheat climate-impact public research package',
+        manifest={'package':'European wheat climate-impact manuscript research package',
             'repository':'https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease',
             'entry_point':'analysis/paper_study/nature_food_impact_20261008/build.py',
             'publication_command':'python -m analysis.paper_study.nature_food_impact_20261008.build --output publication/european_wheat_stb_regenerated --documents-only',

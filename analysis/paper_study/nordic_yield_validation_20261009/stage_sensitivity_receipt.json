@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "protocol_sha256": "533f75103a418ab5699be6858edd190c5eeb2e9681a179e178145f3e5d00b56d",
+  "negative_conditional_stage_model_slopes": 3,
+  "stage_model_folds": 4,
+  "additional_test_type": "Post-diagnostic sensitivity",
+  "source_code_sha256": {
+    "run.py": "dac94d39ef961501e946bcc4cdced179bfaa26bfd700db206f6f0358e88fbddd",
+    "stage_sensitivity.py": "d50c783bb0223bb26bcdfd81963ab9dde30e722bd7cc31330fd52622526d4298"
+  }
+}

@@ -1,0 +1,13 @@
+field,definition
+assessment_id,Unique row identifier in combined assessment table
+yield_unit_id,Repeated assessments sharing a yield; must stay together in validation
+source_grain,plot versus published treatment mean; retain as an analytical distinction
+environment_id,Trial-year grouping for evaluation; distinct groups need not be independent locations
+severity_percent,Percent coverage; definition differs between sources and remains explicit
+yield_t_ha,Grain yield converted to tonnes per hectare; moisture bases remain source-specific
+yield_moisture_basis,15% for NFTS; unknown for Tunisia; no moisture correction applied
+leaf_rank,Blank means unconfirmed; no canopy or flag-leaf scope inferred
+growth_stage,Source GS retained; unusual values require review before time-based fitting
+source_duplicate_control,True identifies the known NFTS pooled-control alias
+independent_unit_eligible,False for known duplicate control only; True is not a complete statistical eligibility decision
+source_record,Exact source keys or HTML cell location

@@ -1,6 +1,6 @@
 # Climate impacts on European wheat disease and production
 
-Research code, numerical evidence and submission files for **Climate change reshapes Septoria tritici blotch damage across European wheat-growing regions**, by Gang Zhao, Northwest A&F University.
+Research code, numerical evidence and submission files for **Wheat phenology partly offsets projected increases in Septoria damage across Europe**, by Gang Zhao, Northwest A&F University.
 
 The study examines climate and weather effects on crop development, Septoria-related canopy damage and conditional yield responses across European wheat-growing land-use grids. The completed experiment contains 810 annual jobs, 14,941 reference wheat cells and 14,932 cells with eligible winter-wheat calendars. It combines three climate models, SSP1–2.6, SSP2–4.5 and SSP5–8.5, and the periods 1991–2020, 2031–2060 and 2071–2100.
 
@@ -26,7 +26,7 @@ The main results cover grid-scale climate impacts, environmental-region and coun
 | `analysis/paper_study/nature_food_impact_20261008/` | Current publication builder, pooled evaluation and verification |
 | `publication/european_wheat_stb/` | Current manuscript, supplementary material, figures and source data |
 
-The repository contains the current manuscript, maintained code and supporting numerical evidence. Superseded manuscript drafts, duplicated code snapshots and unused analysis outputs have been removed from the active tree. Dated folders that remain contain dependencies of the current workflow; their names preserve recorded source paths and provenance. The current submission is the publication folder linked above. Local environments, redundant backups, raw climate forcing and the complete archive of full-grid annual outputs remain outside Git. Their source paths and checksums remain in the recorded acquisition and completion receipts. Selected archived diagnostic and example outputs remain available as publication evidence. `repository_manifest.json` records the evidence and tracked-file scope. The optional `Software_and_Evidence.zip` submission bundle duplicates these files and is generated locally rather than stored in Git.
+The repository contains the current manuscript, maintained code and supporting numerical evidence. Superseded manuscript drafts, duplicated code snapshots and unused analysis outputs have been removed from the active tree. Dated folders that remain contain dependencies of the current workflow; their names preserve recorded source paths and provenance. The current submission is the publication folder linked above. Local environments, redundant backups, raw climate forcing and the complete archive of full-grid annual outputs remain outside Git. Their source paths and checksums remain in the recorded acquisition and completion receipts. Selected archived diagnostic and example outputs remain available as publication evidence. `repository_manifest.json` records the evidence and tracked-file scope. The software-and-evidence submission bundle contains maintained code, numerical evidence and source provenance; the corresponding files also remain directly inspectable in the repository.
 
 ## Clone and dependencies
 
@@ -63,4 +63,25 @@ The daily model API and restart contract are documented in [WHEAT_STB_ENGINE.md]
 
 ## Access and third-party materials
 
-The code, source-data workbook and selected numerical evidence are publicly accessible at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease. Complete raw climate forcing and annual model outputs are not hosted in this repository; their provenance and rerun requirements are recorded in the evidence files. Third-party data, software and references retain their original provenance and applicable terms. No new open-source or data-redistribution licence is assigned by this repository.
+The code, source-data workbook and selected numerical evidence are deposited in the private manuscript repository at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease. Complete raw climate forcing and annual model outputs are not hosted in this repository; their provenance and rerun requirements are recorded in the evidence files. Third-party data, software and references retain their original provenance and applicable terms. No new open-source or data-redistribution licence is assigned by this repository.
+
+### Expanded field-yield evidence
+
+The field-yield companion preserves crop type, leaf scope, severity definition,
+moisture basis and plot versus treatment-mean grain. Tunisia supplies 82
+unprotected plot-season yields with two leaf assessments and 40 protected
+references in 2019; the Nordic extension supplies 62 treatment contrasts in
+five trials after source-specific exclusions. German original-site data add
+3,264 cultivar–management comparisons across 16 site-years at five locations.
+Repeated assessments and shared controls remain grouped during validation.
+
+- [Executed validation notebook](analysis/paper_study/crop_damage_validation_20261009/Field_yield_validation.ipynb)
+- [Readable validation HTML](analysis/paper_study/crop_damage_validation_20261009/Field_yield_validation.html)
+- [Expanded field analysis](analysis/paper_study/crop_damage_validation_20261009/)
+- [Nordic trial analysis](analysis/paper_study/nordic_yield_validation_20261009/)
+
+The new comparisons do not validate a universal severity-to-yield coefficient.
+No protected severity is imputed, and endpoint percentages do not supply HAD
+trajectories. Crop-growth and physiological yield-loss validation remain
+separate from the frozen climate simulations. The source collection and
+correspondence drafts are local evidence; no correspondence has been sent.

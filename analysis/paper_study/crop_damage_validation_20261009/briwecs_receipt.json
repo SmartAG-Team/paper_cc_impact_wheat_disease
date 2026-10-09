@@ -1,0 +1,26 @@
+{
+  "quality": {
+    "source_files": 29,
+    "source_rows": 32250,
+    "non_numeric_severity_excluded": 1,
+    "paired_cultivar_management_contrasts": 3264,
+    "source_site_years": 16,
+    "locations": 5,
+    "negative_responses": 300,
+    "pairs_with_protected_severity": 954,
+    "reference_yield_basis": "dry mass",
+    "grain_unit": "Source dt ha-1 at 100% dry mass; relative response cancels common units",
+    "severity_unit": "Source metadata: percent leaf area, whole-plot assessment; source decimals preserved",
+    "moisture_conversion": "None; no absolute yields pooled with Tunisia or Nordic 15% moisture data",
+    "management": "Same source location, year, cultivar, nitrogen and water regime; treatment means, not paired physical plots",
+    "limitations": [
+      "Disease dates and final-leaf ranks are undocumented in the location tables.",
+      "Some severity means and harvest means have different replicate coverage.",
+      "Protection targets multiple diseases; treatment responses do not identify STB-specific losses.",
+      "Whole-site validation uses five or fewer geographic sites and does not validate stage-dependent canopy physiology.",
+      "Site-level rating comparability and source-coded water assignment remain transfer limitations; no source rating is rescaled or rounded."
+    ]
+  },
+  "protocol_sha256": "fc99492cc8518dbca453b061eb1272b01ad0d578aa877776731d0418e79ad93e",
+  "climate_yield_conversion_changed": false
+}

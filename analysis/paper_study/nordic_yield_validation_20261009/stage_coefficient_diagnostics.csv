@@ -1,0 +1,5 @@
+registry_id,held_out_assessment_stage,conditional_response_derivative,expected_positive_damage_direction
+71999,72.0,0.44521056344119786,True
+74100,75.0,-0.1739614146938582,False
+74300,77.0,-0.2759400998447807,False
+74660,77.0,-0.2754512284137718,False

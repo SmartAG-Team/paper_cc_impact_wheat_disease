@@ -1,0 +1,95 @@
+{
+  "source": "BRIWECS original site files; publication-rounded outputs excluded",
+  "source_hashes": {
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/DKI_2016.csv": "551fdf586ffcfd9f52c88014f69c06795f1bf28f2fa9e308217ed1eb932fab60",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/DKI_2017.csv": "1fbeb84470e32959420e71da4a81af21411fed5c353183b471431ccb15d3c46a",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/DKI_2019.csv": "1cd457ffff9109fdf3385f8c99a830663f616b31d6718847e2d39eece235f3a9",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/GGE_2015.csv": "0b9a8ff4fc458ba57829823e606a6896ba3fd8589e0f3420ad913c04a3510a38",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/GGE_2016.csv": "327ef02659c51c046570322410ff2749b31cdacd148caee406da7ebaa7092a5d",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/GGE_2017.csv": "776063747be437724331be43b5120f02a2db5af6624a26e9b4e0372a1cd1149f",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/GGE_2018.csv": "89323272bfec054c8c841f6b0b25e5d91b78fecfb60340d5dc54ea20406318d8",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/GGE_2019.csv": "8a760a269a085f1cf84ccd7556582bd667d06d3b0d6af5299d35030410db959a",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/HAN_2015.csv": "85f763fca266ae9ab53d41acd82d78757c6df9e740c4b535b967bdf77d18b752",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/HAN_2016.csv": "75f27353833023f382eda56fe2c378ba979688911b289dddac9c091042bdf9f9",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/HAN_2017.csv": "e5464a733002a0117a2b518f97db90586b2ccf29440480b362792b185353c2ec",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/HAN_2018.csv": "e221e2265a6e1042742b58d83ca22821c15f2d73e6b0fed60011d69b4e818a80",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/HAN_2019.csv": "a70a52598cc65859abf4102ed6dfb7b97c614a507f24b192e161b69c217802e6",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KAL_2015.csv": "d92c904bc8c4200c3378320ae3b1662810bd9a18cd62d654532301f2d3f7e115",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KAL_2016.csv": "cde97885a9a2b6b668ceb5f624a0ab5c43d7e29dbcf344e5157924f7933134dd",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KAL_2017.csv": "b36e084b32d6a9eb2cc0d8f033cb29b2ad7b804fd4786a07dd7ef1e7da86d75a",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KAL_2018.csv": "fb8a26dae69c6f247625a5b34775845c87627df74ffca59770a3eb2fd91df2f2",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KAL_2019.csv": "b95a2433c1631e386cb9b576b8febcd095fd3102eba0db7792a347639542af73",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KAL_2020.csv": "d018af037b970cad2bdd6bd6eeb323ffb013c9ccfd6605401ce385beb34799b6",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KIE_2015.csv": "1c80ecd551e1ea452984e10f8718213e549e09a47b6fc268c078ad497781fb4b",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KIE_2016.csv": "61acf37f7c86d9a424b804a8d83329af060134e65c0025e439d123c64fdc477d",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KIE_2017.csv": "24a8a42960bead668f7971ad5044b0e5a50559aa2b25ea286e90c7820d7e302c",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KIE_2018.csv": "d3b298433ac3b71086ad159912b3250e7bd1165173edc30334dff3398053081e",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/KIE_2019.csv": "e8fd25b732828e60f5c8639f3381f1084c8b72267d33b2e629c1bf5390703861",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/QLB_2015.csv": "80df631b48531f29f8bc565942a0f6fa8d3fed5ca928f427da79ac38d529fa79",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/QLB_2016.csv": "b4d8467405252a5b3daeeb7611d3a393abcc99368b049ef20414d5c67799f456",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/QLB_2017.csv": "db8a5cc50068eafe3b355a961c502b10949cee0b0031b4a0a0c215d8cb06db95",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/RHH_2015.csv": "573af0911502e87472d582714c3786057c5103fad39e8ca41ec7be939976b514",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/RHH_2016.csv": "c0e6d2bdc8af8a80063d5692e5845a609b39e5a46e72a7682fe2a1fecf9f3774",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/RHH_2017.csv": "79d8aed4c11b694e664aaedc9586235b1b22fc6cfaea84f0d368eab477faf774",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/RHH_2018.csv": "96bcb14b6f9238268093846f65911b43a850082b78c4c930da5d02cc7746ffa5",
+    "data/stb_collection_20261009/sources/public_septoria/briwecs-2025/extracted/Briwecs_data/data/locations/RHH_2019.csv": "9a776ff7a2762b7a8f7c3939969784420c2db88b46285c089131a0ef17726aea"
+  },
+  "unit_metadata_sha256": "ae23697314471d6596f2ba54d7da39367dea64497827b0f1f58e17f874350c61",
+  "treatment_correction_sha256": "55096890d9c65b96ebd8a7709338c2cd9a6356c68bc94ba648fec68c7c534952",
+  "response": "1 - unprotected cultivar treatment-mean yield / protected cultivar treatment-mean yield",
+  "pairing_keys": [
+    "Location",
+    "Year",
+    "water_regime",
+    "nitrogen",
+    "BRISONr"
+  ],
+  "source_treatments": [
+    "HN_NF",
+    "HN_WF",
+    "LN_NF",
+    "LN_WF"
+  ],
+  "drought_suffix": "Excluded: drought-suffixed WF references are not pooled with unsuffixed WF plots.",
+  "severity": "Unprotected severity alone unless protected severity is actually observed; missing stays unknown.",
+  "validation": [
+    "Whole site-year exclusion",
+    "Whole geographic-site exclusion",
+    "2015-2017 training, 2018-2019 testing"
+  ],
+  "weights": "Equal site-years for primary and temporal comparisons; equal locations for location-held-out comparison; equal contrasts within each group.",
+  "models": {
+    "unprotected_endpoint": {
+      "training_mean": [],
+      "management_ridge": [
+        "low_nitrogen",
+        "irrigated"
+      ],
+      "severity_ridge": [
+        "severity_unprotected"
+      ],
+      "severity_management_ridge": [
+        "severity_unprotected",
+        "low_nitrogen",
+        "irrigated"
+      ],
+      "nonnegative_damage": [
+        "severity_unprotected"
+      ]
+    },
+    "observed_reduction": {
+      "training_mean": [],
+      "severity_ridge": [
+        "severity_unprotected"
+      ],
+      "reduction_ridge": [
+        "severity_reduction"
+      ],
+      "nonnegative_damage": [
+        "severity_reduction"
+      ]
+    }
+  },
+  "ridge_penalty": 0.1,
+  "inference": "Associational treatment-response validation; no leaf-stage damage function or climate model coefficient promoted."
+}

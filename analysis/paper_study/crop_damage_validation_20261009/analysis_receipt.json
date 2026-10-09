@@ -1,0 +1,53 @@
+{
+  "data_quality": {
+    "combined_assessment_records": 423,
+    "combined_source_yield_units": 272,
+    "combined_clean_assessment_records": 412,
+    "combined_clean_yield_units": 263,
+    "tunisia_plot_yields": 82,
+    "tunisia_leaf_assessments": 164,
+    "tunisia_years": 2,
+    "tunisia_locations": 1,
+    "tunisia_reference_contrasts": 40,
+    "tunisia_negative_reference_contrasts": 1,
+    "protected_yield_observations": 40,
+    "protected_severity_observations": 0,
+    "nordic_postharvest_assessments_excluded": 8,
+    "nordic_pooled_control_alias_assessments_excluded": 3,
+    "leaf_stage_scope": [
+      {
+        "year": 2018,
+        "assessment_GS_flag": 75,
+        "assessment_GS_flag_minus_1": 61
+      },
+      {
+        "year": 2019,
+        "assessment_GS_flag": 75,
+        "assessment_GS_flag_minus_1": 73
+      }
+    ],
+    "limitations": [
+      "Protected-plot disease severity is unobserved; no zero severity or severity reduction is imputed.",
+      "Flag and lower leaves were assessed on different dates; one observation per leaf rank cannot establish HAD or AUDPC.",
+      "The lower-leaf stage differs between years (GS61 versus GS73); leaf, stage and environmental effects cannot be separately identified.",
+      "Within-2019 mixture and replicate holdouts remain within one environment, rather than external environmental validation.",
+      "Tunisia durum wheat and Nordic bread-wheat treatment means differ in crop type, grain and severity definition.",
+      "Tunisian yield moisture is unspecified; no cross-source absolute-yield or severity coefficient is fitted.",
+      "Treatment-associated yield contrasts do not identify a cause-specific STB coefficient."
+    ]
+  },
+  "protocol_sha256": "213f93858f3ca94888e2d33da97e7ca6f6d8c3f9ee70d31db357b1c961db03df",
+  "analysis_inputs": {
+    "data/stb_collection_20261009/analysis_ready/combined_severity_yield_assessments.csv": "4cff987f57a1894c67bb24a972fa20c55a5b2b55290fcf219589bfa884e0ba4d",
+    "data/stb_collection_20261009/sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_plot_seasons.csv": "f5f75f2b42c82eece4d89936e66273c090ac655d7da3c62b5fc71b5dab76b760",
+    "data/stb_collection_20261009/sources/public_septoria/paper-model-data-20261009/derived/tunisia2019_protected_reference_yield_contrasts.csv": "30ffca5b0b7077bd112e98e4bc4a4a45ad136e47018ef506955bcf985d7fe581"
+  },
+  "outputs": {
+    "model_comparison_metrics.csv": "a7502ce0d71fe12aadca72901bc7f56f5e665fdcae2b7250bf1d7e2f7be44429",
+    "tunisia_plot_features.csv": "4d0fb89466df31e7223474e94de1a58d631bfebb0adfb8b80d74bd85061d15b8",
+    "held_out_predictions.csv": "efc73a2dc81d81f42bd1236cea5533c8b3060743062877d8532df9e886bff257",
+    "tunisia_reference_features.csv": "05363d889f0df745641d16540ef9f3c4595df0eb7ef5049a993ce592d4c85790"
+  },
+  "climate_yield_conversion_changed": false,
+  "interpretation": "Grouped tests of severity/yield associations; no externally validated leaf-specific physiological yield-loss function."
+}

@@ -1,0 +1,8 @@
+{
+  "analysis": "Secondary sensitivity following inspection of initial model coefficient directions",
+  "positive_stage_model": "Nonnegative coefficients on severity reduction and severity reduction times (85 - recorded assessment stage)/10",
+  "stage_scale": "Empirical recorded-stage basis, not elapsed time or measured crop carbon allocation",
+  "zero_reduction": "Zero predicted response when both severity-reduction predictors are zero",
+  "validation": "Leave one entire trial out on the same four-trial common population",
+  "selection": "No post-diagnostic model promoted to the climate simulation"
+}

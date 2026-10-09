@@ -1,0 +1,86 @@
+{
+  "source_sha256": "cc60f524eb8bc310f7315a723843e220ec51c449ffdea8d2ce5a04d41379face",
+  "response": "1 - untreated yield / treatment yield; signed fraction",
+  "analysis_unit": "One trial-treatment harvest yield; contrasts sharing a control stay in the same fold",
+  "weighting": "Equal trials, then equal contrasts within a trial",
+  "validation": [
+    "Leave-one-entire-trial-out",
+    "Nested training-trial model selection",
+    "Train on 2024, evaluate 2025"
+  ],
+  "candidates": {
+    "endpoint": {
+      "zero_response": [],
+      "training_mean": [],
+      "origin_linear": [
+        "delta_severity"
+      ],
+      "origin_exponential": [
+        "delta_severity"
+      ],
+      "affine_ridge": [
+        "delta_severity"
+      ],
+      "stem_nonnegative": [
+        "delta_severity",
+        "stem_interaction"
+      ],
+      "lead_ridge": [
+        "delta_severity",
+        "lead_interaction"
+      ],
+      "multiple_disease_nonnegative": [
+        "delta_severity",
+        "delta_brown",
+        "delta_yellow",
+        "delta_mildew",
+        "delta_tan"
+      ]
+    },
+    "stage_known": {
+      "zero_response": [],
+      "training_mean": [],
+      "origin_linear": [
+        "delta_severity"
+      ],
+      "origin_exponential": [
+        "delta_severity"
+      ],
+      "affine_ridge": [
+        "delta_severity"
+      ],
+      "stage_ridge": [
+        "delta_severity",
+        "stage_interaction"
+      ]
+    },
+    "two_assessments": {
+      "zero_response": [],
+      "training_mean": [],
+      "origin_linear": [
+        "delta_severity"
+      ],
+      "origin_exponential": [
+        "delta_severity"
+      ],
+      "affine_ridge": [
+        "delta_severity"
+      ],
+      "two_stage_nonnegative": [
+        "early_delta_severity",
+        "delta_severity"
+      ],
+      "two_stage_ridge": [
+        "early_delta_severity",
+        "delta_severity"
+      ]
+    }
+  },
+  "fixed_ridge_penalty": 0.1,
+  "zero_stage": "Missing; no phenological stage inferred from calendar date",
+  "missing_assessment": "No missing severity filled with zero; no trajectory integrated across undocumented leaf ranks",
+  "postharvest_assessments": "Excluded",
+  "pooled_source_controls": "Excluded",
+  "source_leaf_definitions": "Preserved; no undocumented final-leaf rank assigned",
+  "model_claim": "Predictive treatment-response diagnostic; neither infection-date validation nor validation of HAD or cause-specific STB losses"
+}

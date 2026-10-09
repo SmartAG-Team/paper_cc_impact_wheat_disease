@@ -138,6 +138,8 @@ def supplementary_tables():
     tables.append((rows,'Table S16 | Full-grid wheat-land-use and environmental-region coverage. '
       'Areas sum the fixed SPAM2020 all-wheat harvested-area registry. Calendar eligibility uses the imposed GGCMI winter-wheat rainfed scenario. '
       'Environmental assignment follows cell centroids; missing and outside-region assignments remain explicit.'))
+    from analysis.paper_study.crop_damage_validation_20261009.publication import supplementary_tables as field_yield_tables
+    tables.extend(field_yield_tables())
     def key(item):
         m=re.match(r'Table S(\d+)([a-z]?)',item[1]);return int(m.group(1)),m.group(2)
     def wording(value):

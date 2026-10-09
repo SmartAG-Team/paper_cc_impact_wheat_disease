@@ -1,0 +1,28 @@
+STB FIELD DATA AND YIELD-LOSS EVIDENCE COLLECTION
+9 October 2026
+
+STB_data_collection.xlsx is the main entry point. Its 15 sheets contain the source catalogue, request register, data dictionary, combined severity/yield records, source-specific observations and published summaries, and model comparison. dataset_catalogue.csv contains the same 17 source groups. These groups include documentation and model inputs; they do not represent 17 independent observational datasets.
+
+requests/ contains three unsent email drafts for van den Bosch, Bancal and Collin. The principal request is van_den_bosch_data_request.txt. The request register records the correspondence address printed in the van den Bosch paper; current deliverability is unverified. No message has been sent and no contact address has been invented for the other drafts.
+
+analysis_ready/combined_severity_yield_assessments.csv contains 423 assessment records: 164 leaf-rank assessments linked to 82 Tunisian plot-season yields, and 259 Nordic assessments linked to 190 published treatment-mean yield keys. Yield is expressed in t/ha. Nordic yield is at 15% moisture; the Tunisian moisture basis is not established. Severity definitions, source grain and provenance remain explicit.
+
+analysis_ready/combined_yield_units.csv contains 272 yield keys before excluding one known pooled-control alias, leaving 271 keys. These counts are not numbers of independent environments. Three assessment rows carry the alias flag. Repeated dates and leaf ranks share yield outcomes and must remain grouped during validation. Plot observations and published treatment means have different uncertainty and cannot be pooled as exchangeable replicates. The independent_unit_eligible flag excludes the known alias only; it does not certify complete modelling eligibility.
+
+The combined tables cover the two sources whose severity/yield joins and units have been checked: Tunisia and the 2023–2025 Nordic extension. The other source families are consolidated with their original files and documentation for further source-specific harmonization. No synthetic measurements, imputed protected severities or inferred HAD time series have been added. The assembly script preserves the original source data and records copied-file provenance.
+
+sources/public_septoria/ contains the earlier public field archives and the latest paper-linked package. BRIWECS includes both its original ZIP and extracted contents; these are copies of the same observations. The Nordic/Baltic 2012–2016 source includes yield, development and weather files. AGENT supplies the three identified STB workbooks. The Orellana subset contains field-severity files F1–F3 with source documentation. Karisto field measurements retain their original hierarchy. Paper materials include Bancal aggregates, the Taylor fitted curve and the model review. Model inputs and fitted curves remain separate from observed trial data.
+
+sources/other_field_sources/ contains public ADAS regional survey data, Defra survey workbooks and documentation, and the Corteva field archive. ADAS and Defra may overlap and cannot be counted as independent evidence without resolving lineage. These files do not establish paired STB severity and grain-yield availability at plot level.
+
+sources/published_yield_evidence/ contains Parker and Foulkes tables. Parker's 150 cultivar-by-site-year cells contain 117 nonmissing yield-loss contrasts. Foulkes' eight paired summaries are mixed-model predicted means. Neither table is a raw plot dataset. Bancal's 13 treatment aggregates include mixed STB/leaf-rust damage, and the reported STB integral includes senescence. The 201-point Taylor curve is fitted output rather than 201 observations.
+
+The California archive is auxiliary only: its mixed-pathogen score is unsuitable for STB-specific fitting. BSA material comprises article and supplementary PDFs; no original trial-level dataset was obtained. Material gaps and reuse conditions remain documented in the source records. Existing licence notices, including conflicts, are preserved; this local consolidation does not grant redistribution rights.
+
+Source-specific limitations remain consequential: BRIWECS processing changes score precision and missingness; AGENT lacks grain yield and populated assessment dates; Nordic leaf scopes and anomalous growth-stage codes need review; multiple diseases may influence Nordic treatment responses. The Tunisian reference contrasts compare management packages, and its previously flagged 2019 weather file has 2017–18 dates. Neither archive establishes an isolated causal STB yield-loss coefficient.
+
+The collection is scoped to downloaded public field disease, canopy-damage and yield evidence relevant to this request, plus its supporting model documentation. It is not a backup of all project files. Private trial material, climate grids, model predictions and unrelated pathogen-process archives are outside this collection. Existing files elsewhere in the workspace remain unchanged.
+
+assembly_checks.json reports table counts and checks. source_copy_manifest.csv maps packaged copies to their original project paths. file_inventory.csv records file sizes and SHA-256 checksums. verification.json records workbook and CSV consistency checks. The ZIP preserves the whole collection folder and its relative paths.
+
+To rebuild the combined tables and workbook, run assemble_collection.py in a Python environment with pandas and openpyxl. In the original project, use .venv/bin/python data/stb_collection_20261009/assemble_collection.py. Existing paper and Nordic extraction scripts remain beside their source files.

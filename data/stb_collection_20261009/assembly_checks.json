@@ -1,0 +1,33 @@
+{
+  "catalogue_entries": 17,
+  "combined_assessment_rows": 423,
+  "yield_unit_keys_including_known_alias": 272,
+  "known_duplicate_control_yield_keys": 1,
+  "assessment_rows_flagged_duplicate_control": 3,
+  "yield_unit_keys_after_known_alias_exclusion": 271,
+  "source_grains": {
+    "plot": 82,
+    "published treatment mean": 190
+  },
+  "parker_nonmissing_contrasts": 117,
+  "workbook_sheets": {
+    "Catalogue": 17,
+    "Requests": 3,
+    "Dictionary": 12,
+    "Combined_assessments": 423,
+    "Yield_units": 272,
+    "Tunisia_plot_seasons": 82,
+    "Tunisia_reference_gaps": 40,
+    "Nordic_source_matches": 259,
+    "Bancal2007_aggregates": 13,
+    "Parker2004_contrasts": 150,
+    "Parker2004_slopes": 25,
+    "Foulkes2006_predicted_means": 8,
+    "Taylor2023_fitted_curve": 201,
+    "ADAS_regional_disease": 463,
+    "Models": 10
+  },
+  "source_files_copied_and_sha256_verified": 469,
+  "statistical_note": "Row/key counts are inventory counts, not independent environments or exchangeable observations.",
+  "request_status": "Three local drafts; no messages sent."
+}

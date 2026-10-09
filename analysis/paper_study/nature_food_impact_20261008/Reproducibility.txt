@@ -6,7 +6,7 @@ pandas, pyarrow, matplotlib, geopandas, python-docx, openpyxl, Pillow, reportlab
 and PyMuPDF. The scientific runtime additionally uses the frozen project
 dependencies and the external daily climate forcing and bias-alignment files.
 
-Public repository: https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease
+Private manuscript repository: https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease
 
 From the repository or extracted archive root:
 
@@ -35,4 +35,33 @@ field yields.
 
 Climate results distinguish crop phenology, disease symptoms, assumed canopy-function loss and the inferred yield response. Wheat phenology describes leaf appearance and unfolding, flowering and soft dough. Disease-induced HAD loss integrates assumed functional green-leaf-area loss over time. Normalized HAD loss expresses this quantity as equivalent days of reference canopy function lost after division by maximum reference upper-canopy LAI. The unit-LAI scenario retains the completed numerical values. Disease damage does not feed back into developmental rates, and yield estimates concern the disease component under the published linear relationship.
 
-The public package excludes superseded drafts, duplicate code snapshots and unused outputs. Retained dated analysis folders are dependencies of the current workflow and preserve source provenance. Node.js is required for the bundled citation renderer.
+The manuscript package excludes superseded drafts, duplicate code snapshots and unused outputs. Retained dated analysis folders are dependencies of the current workflow and preserve source provenance. Node.js is required for the bundled citation renderer.
+
+The expanded public-source field-yield analysis is reproduced with:
+
+python -m zipfile -e data/STB_research_sources_20261009.zip data
+
+python -m analysis.paper_study.nordic_yield_validation_20261009.run
+python -m analysis.paper_study.nordic_yield_validation_20261009.stage_sensitivity
+python -m analysis.paper_study.crop_damage_validation_20261009.run
+python -m analysis.paper_study.crop_damage_validation_20261009.briwecs
+python -m analysis.paper_study.crop_damage_validation_20261009.verify
+python -m analysis.paper_study.crop_damage_validation_20261009.notebook
+
+The executed notebook Field_yield_validation.ipynb retains tables and native
+scientific figures. Fixed pre-fit protocols, source keys, raw-source numerical
+checks and held-out predictions accompany the model comparisons. Publication
+Source Data contains source-specific features and complete score tables; long
+prediction tables remain CSVs in the analysis directories.
+
+Tunisia retains plot outcomes, Nordic records retain treatment-mean outcomes,
+and BRIWECS comparisons match cultivar and source management. Repeated leaf
+measurements share one harvest result. No protected severity is imputed, and no
+HAD trajectory is reconstructed from endpoint percentages. Infection dates are
+not observed. The expanded tests do not modify the frozen climate simulations
+or establish an independently validated physiological yield-loss coefficient.
+
+The repository source ZIP preserves measured field data and removes unused
+third-party map-script keys from downloaded HTML wrappers. Original and
+packaged source hashes identify the 24 wrapper redactions. The supplied local
+collection archive remains unchanged.

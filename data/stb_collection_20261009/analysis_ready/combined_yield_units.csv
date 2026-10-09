@@ -1,0 +1,273 @@
+dataset_id,yield_unit_id,source_grain,environment_id,year,treatment,replicate,yield_t_ha,yield_moisture_basis,source_duplicate_control,independent_unit_eligible,source_file
+tunisia2020,tunisia2020_2018_1_1,plot,tunisia_2018,2018,1,1,1.8263809523809522,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_1_2,plot,tunisia_2018,2018,1,2,1.3756190476190477,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_1_3,plot,tunisia_2018,2018,1,3,2.068285714285714,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_2_1,plot,tunisia_2018,2018,2,1,1.9515809523809524,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_2_2,plot,tunisia_2018,2018,2,2,1.3754095238095239,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_2_3,plot,tunisia_2018,2018,2,3,2.431047619047619,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_3_1,plot,tunisia_2018,2018,3,1,1.7990666666666666,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_3_2,plot,tunisia_2018,2018,3,2,1.6247809523809527,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_3_3,plot,tunisia_2018,2018,3,3,1.5705714285714285,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_4_1,plot,tunisia_2018,2018,4,1,2.6445714285714286,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_4_2,plot,tunisia_2018,2018,4,2,2.2236,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_4_3,plot,tunisia_2018,2018,4,3,2.7588380952380955,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_5_1,plot,tunisia_2018,2018,5,1,2.286857142857142,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_5_2,plot,tunisia_2018,2018,5,2,1.8122285714285713,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_5_3,plot,tunisia_2018,2018,5,3,2.9592761904761904,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_6_1,plot,tunisia_2018,2018,6,1,2.863980952380952,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_6_2,plot,tunisia_2018,2018,6,2,3.069047619047619,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_6_3,plot,tunisia_2018,2018,6,3,3.2935238095238097,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_7_1,plot,tunisia_2018,2018,7,1,2.2721904761904765,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_7_2,plot,tunisia_2018,2018,7,2,3.2275047619047617,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_7_3,plot,tunisia_2018,2018,7,3,2.891504761904762,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_8_1,plot,tunisia_2018,2018,8,1,3.0300380952380954,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_8_2,plot,tunisia_2018,2018,8,2,2.5860380952380955,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_8_3,plot,tunisia_2018,2018,8,3,2.5548571428571427,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_9_1,plot,tunisia_2018,2018,9,1,3.0114285714285716,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_9_2,plot,tunisia_2018,2018,9,2,2.7118285714285713,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_9_3,plot,tunisia_2018,2018,9,3,2.8649333333333336,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_10_1,plot,tunisia_2018,2018,10,1,2.2601904761904756,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_10_2,plot,tunisia_2018,2018,10,2,1.8361904761904764,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_10_3,plot,tunisia_2018,2018,10,3,3.000685714285714,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_11_1,plot,tunisia_2018,2018,11,1,2.1333333333333333,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_11_2,plot,tunisia_2018,2018,11,2,2.0231428571428576,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_11_3,plot,tunisia_2018,2018,11,3,2.612666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_12_1,plot,tunisia_2018,2018,12,1,2.737219047619047,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_12_2,plot,tunisia_2018,2018,12,2,2.4121142857142854,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_12_3,plot,tunisia_2018,2018,12,3,3.0630857142857137,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_13_1,plot,tunisia_2018,2018,13,1,2.978361904761905,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_13_2,plot,tunisia_2018,2018,13,2,2.0335238095238095,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_13_3,plot,tunisia_2018,2018,13,3,2.659238095238095,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_14_1,plot,tunisia_2018,2018,14,1,2.149409523809524,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_14_2,plot,tunisia_2018,2018,14,2,2.8768,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2018_14_3,plot,tunisia_2018,2018,14,3,3.6425904761904757,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_1_1,plot,tunisia_2019,2019,1,1,4.386666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_1_2,plot,tunisia_2019,2019,1,2,7.251666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_1_3,plot,tunisia_2019,2019,1,3,7.160000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_1_4,plot,tunisia_2019,2019,1,4,4.890000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_2_1,plot,tunisia_2019,2019,2,1,4.958333333333334,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_2_2,plot,tunisia_2019,2019,2,2,5.166666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_2_3,plot,tunisia_2019,2019,2,3,5.081666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_2_4,plot,tunisia_2019,2019,2,4,5.1433333333333335,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_3_1,plot,tunisia_2019,2019,3,1,5.045000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_3_2,plot,tunisia_2019,2019,3,2,5.040000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_3_3,plot,tunisia_2019,2019,3,3,6.473333333333334,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_3_4,plot,tunisia_2019,2019,3,4,4.818333333333334,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_4_1,plot,tunisia_2019,2019,4,1,5.360000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_4_2,plot,tunisia_2019,2019,4,2,4.985000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_4_3,plot,tunisia_2019,2019,4,3,5.080000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_4_4,plot,tunisia_2019,2019,4,4,4.9,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_5_1,plot,tunisia_2019,2019,5,1,5.926666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_5_2,plot,tunisia_2019,2019,5,2,5.536666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_5_3,plot,tunisia_2019,2019,5,3,5.266666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_5_4,plot,tunisia_2019,2019,5,4,5.705000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_6_1,plot,tunisia_2019,2019,6,1,6.080000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_6_2,plot,tunisia_2019,2019,6,2,5.35,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_6_3,plot,tunisia_2019,2019,6,3,5.696666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_6_4,plot,tunisia_2019,2019,6,4,5.198333333333334,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_7_1,plot,tunisia_2019,2019,7,1,5.800000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_7_2,plot,tunisia_2019,2019,7,2,5.918333333333334,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_7_3,plot,tunisia_2019,2019,7,3,5.690000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_7_4,plot,tunisia_2019,2019,7,4,6.1433333333333335,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_8_1,plot,tunisia_2019,2019,8,1,6.651666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_8_2,plot,tunisia_2019,2019,8,2,5.770000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_8_3,plot,tunisia_2019,2019,8,3,6.406666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_8_4,plot,tunisia_2019,2019,8,4,6.375000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_9_1,plot,tunisia_2019,2019,9,1,5.996666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_9_2,plot,tunisia_2019,2019,9,2,5.256666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_9_3,plot,tunisia_2019,2019,9,3,5.513333333333334,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_9_4,plot,tunisia_2019,2019,9,4,5.653333333333334,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_10_1,plot,tunisia_2019,2019,10,1,6.645000000000001,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_10_2,plot,tunisia_2019,2019,10,2,4.996666666666668,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_10_3,plot,tunisia_2019,2019,10,3,5.446666666666667,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+tunisia2020,tunisia2020_2019_10_4,plot,tunisia_2019,2019,10,4,6.905,not established,False,True,sources/public_septoria/paper-model-data-20261009/derived/tunisia2020_damage_yield_leaf_records.csv
+nfts2023_2025,nfts_69306_1,published treatment mean,nfts_69306,2023,1,,7.120000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69306_2,published treatment mean,nfts_69306,2023,2,,8.13,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69306_3,published treatment mean,nfts_69306,2023,3,,7.920000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69306_4,published treatment mean,nfts_69306,2023,4,,7.81,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69306_5,published treatment mean,nfts_69306,2023,5,,7.98,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69306_6,published treatment mean,nfts_69306,2023,6,,8.38,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69306_7,published treatment mean,nfts_69306,2023,7,,9.36,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69306_8,published treatment mean,nfts_69306,2023,8,,7.490000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69307_1,published treatment mean,nfts_69307,2023,1,,6.010000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69307_2,published treatment mean,nfts_69307,2023,2,,6.34,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69307_3,published treatment mean,nfts_69307,2023,3,,6.15,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69307_4,published treatment mean,nfts_69307,2023,4,,6.33,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69307_5,published treatment mean,nfts_69307,2023,5,,6.050000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69307_6,published treatment mean,nfts_69307,2023,6,,6.73,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69307_7,published treatment mean,nfts_69307,2023,7,,7.53,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_69307_8,published treatment mean,nfts_69307,2023,8,,6.2700000000000005,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_2,published treatment mean,nfts_71289,2024,2,,9.42,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_3,published treatment mean,nfts_71289,2024,3,,10.920000000000002,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_4,published treatment mean,nfts_71289,2024,4,,10.670000000000002,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_5,published treatment mean,nfts_71289,2024,5,,9.53,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_6,published treatment mean,nfts_71289,2024,6,,10.1,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_7,published treatment mean,nfts_71289,2024,7,,10.26,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_9,published treatment mean,nfts_71289,2024,9,,9.85,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_12,published treatment mean,nfts_71289,2024,12,,10.39,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_13,published treatment mean,nfts_71289,2024,13,,9.79,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_14,published treatment mean,nfts_71289,2024,14,,10.090000000000002,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_15,published treatment mean,nfts_71289,2024,15,,10.31,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_16,published treatment mean,nfts_71289,2024,16,,10.07,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_17,published treatment mean,nfts_71289,2024,17,,9.14,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_18,published treatment mean,nfts_71289,2024,18,,10.82,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_19,published treatment mean,nfts_71289,2024,19,,9.89,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_20,published treatment mean,nfts_71289,2024,20,,10.31,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_21,published treatment mean,nfts_71289,2024,21,,10.79,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_22,published treatment mean,nfts_71289,2024,22,,9.28,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_23,published treatment mean,nfts_71289,2024,23,,9.47,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_25,published treatment mean,nfts_71289,2024,25,,10.19,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_26,published treatment mean,nfts_71289,2024,26,,10.46,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_27,published treatment mean,nfts_71289,2024,27,,11.14,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_28,published treatment mean,nfts_71289,2024,28,,10.03,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_29,published treatment mean,nfts_71289,2024,29,,10.95,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_30,published treatment mean,nfts_71289,2024,30,,9.81,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_31,published treatment mean,nfts_71289,2024,31,,9.78,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_32,published treatment mean,nfts_71289,2024,32,,11.11,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_33,published treatment mean,nfts_71289,2024,33,,10.04,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_34,published treatment mean,nfts_71289,2024,34,,8.270000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_35,published treatment mean,nfts_71289,2024,35,,10.54,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_36,published treatment mean,nfts_71289,2024,36,,10.46,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_37,published treatment mean,nfts_71289,2024,37,,10.71,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_38,published treatment mean,nfts_71289,2024,38,,9.79,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_39,published treatment mean,nfts_71289,2024,39,,9.58,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_40,published treatment mean,nfts_71289,2024,40,,10.52,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_41,published treatment mean,nfts_71289,2024,41,,10.11,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_42,published treatment mean,nfts_71289,2024,42,,11.1,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_43,published treatment mean,nfts_71289,2024,43,,12.13,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_44,published treatment mean,nfts_71289,2024,44,,10.25,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_45,published treatment mean,nfts_71289,2024,45,,11.15,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_46,published treatment mean,nfts_71289,2024,46,,10.46,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_47,published treatment mean,nfts_71289,2024,47,,10.28,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_48,published treatment mean,nfts_71289,2024,48,,9.91,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_49,published treatment mean,nfts_71289,2024,49,,9.62,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_50,published treatment mean,nfts_71289,2024,50,,9.61,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_52,published treatment mean,nfts_71289,2024,52,,9.66,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_53,published treatment mean,nfts_71289,2024,53,,9.49,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_54,published treatment mean,nfts_71289,2024,54,,10.04,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_55,published treatment mean,nfts_71289,2024,55,,10.55,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_56,published treatment mean,nfts_71289,2024,56,,10.64,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_57,published treatment mean,nfts_71289,2024,57,,11.590000000000002,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_58,published treatment mean,nfts_71289,2024,58,,11.38,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71289_59,published treatment mean,nfts_71289,2024,59,,10.83,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71300_1,published treatment mean,nfts_71300,2024,1,,4.88,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71300_2,published treatment mean,nfts_71300,2024,2,,4.32,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71300_3,published treatment mean,nfts_71300,2024,3,,4.69,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71300_4,published treatment mean,nfts_71300,2024,4,,5.120000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71300_5,published treatment mean,nfts_71300,2024,5,,5.010000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71300_6,published treatment mean,nfts_71300,2024,6,,5.140000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71300_7,published treatment mean,nfts_71300,2024,7,,5.170000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71300_8,published treatment mean,nfts_71300,2024,8,,4.5600000000000005,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_1,published treatment mean,nfts_71999,2024,1,,8.48,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_2,published treatment mean,nfts_71999,2024,2,,9.9,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_3,published treatment mean,nfts_71999,2024,3,,9.91,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_4,published treatment mean,nfts_71999,2024,4,,9.9,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_5,published treatment mean,nfts_71999,2024,5,,9.91,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_6,published treatment mean,nfts_71999,2024,6,,9.24,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_7,published treatment mean,nfts_71999,2024,7,,9.73,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_8,published treatment mean,nfts_71999,2024,8,,9.7,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_9,published treatment mean,nfts_71999,2024,9,,9.83,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_10,published treatment mean,nfts_71999,2024,10,,9.72,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_11,published treatment mean,nfts_71999,2024,11,,9.86,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_12,published treatment mean,nfts_71999,2024,12,,9.36,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_13,published treatment mean,nfts_71999,2024,13,,9.21,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_71999_14,published treatment mean,nfts_71999,2024,14,,9.42,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_1,published treatment mean,nfts_72044,2024,1,,8.8,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_5,published treatment mean,nfts_72044,2024,5,,9.6,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_12,published treatment mean,nfts_72044,2024,12,,9.25,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_13,published treatment mean,nfts_72044,2024,13,,8.8,15%,True,False,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_2,published treatment mean,nfts_72044,2024,2,,9.4,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_3,published treatment mean,nfts_72044,2024,3,,9.41,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_4,published treatment mean,nfts_72044,2024,4,,9.68,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_6,published treatment mean,nfts_72044,2024,6,,9.15,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_7,published treatment mean,nfts_72044,2024,7,,9.4,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_8,published treatment mean,nfts_72044,2024,8,,9.4,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_9,published treatment mean,nfts_72044,2024,9,,9.35,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_10,published treatment mean,nfts_72044,2024,10,,9.44,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_72044_11,published treatment mean,nfts_72044,2024,11,,9.29,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_1,published treatment mean,nfts_73257,2025,1,,13.130000000000004,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_2,published treatment mean,nfts_73257,2025,2,,13.78,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_3,published treatment mean,nfts_73257,2025,3,,13.18,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_4,published treatment mean,nfts_73257,2025,4,,11.95,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_5,published treatment mean,nfts_73257,2025,5,,11.9,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_6,published treatment mean,nfts_73257,2025,6,,13.45,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_7,published treatment mean,nfts_73257,2025,7,,12.9,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_8,published treatment mean,nfts_73257,2025,8,,13.11,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_9,published treatment mean,nfts_73257,2025,9,,12.87,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_10,published treatment mean,nfts_73257,2025,10,,13.67,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_11,published treatment mean,nfts_73257,2025,11,,13.75,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_12,published treatment mean,nfts_73257,2025,12,,13.53,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_13,published treatment mean,nfts_73257,2025,13,,13.68,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_14,published treatment mean,nfts_73257,2025,14,,14.19,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_15,published treatment mean,nfts_73257,2025,15,,14.07,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73257_16,published treatment mean,nfts_73257,2025,16,,12.94,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_1,published treatment mean,nfts_73363,2025,1,,5.890000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_2,published treatment mean,nfts_73363,2025,2,,6.36,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_3,published treatment mean,nfts_73363,2025,3,,5.550000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_4,published treatment mean,nfts_73363,2025,4,,5.73,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_5,published treatment mean,nfts_73363,2025,5,,4.960000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_6,published treatment mean,nfts_73363,2025,6,,5.09,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_7,published treatment mean,nfts_73363,2025,7,,5.54,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_8,published treatment mean,nfts_73363,2025,8,,6.5,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_9,published treatment mean,nfts_73363,2025,9,,5.710000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_10,published treatment mean,nfts_73363,2025,10,,5.04,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_11,published treatment mean,nfts_73363,2025,11,,4.510000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_12,published treatment mean,nfts_73363,2025,12,,5.510000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_13,published treatment mean,nfts_73363,2025,13,,5.620000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_14,published treatment mean,nfts_73363,2025,14,,5.45,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_15,published treatment mean,nfts_73363,2025,15,,5.170000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_16,published treatment mean,nfts_73363,2025,16,,4.57,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_17,published treatment mean,nfts_73363,2025,17,,4.65,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_18,published treatment mean,nfts_73363,2025,18,,3.4000000000000004,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73363_19,published treatment mean,nfts_73363,2025,19,,3.71,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_1,published treatment mean,nfts_73438,2025,1,,7.490000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_2,published treatment mean,nfts_73438,2025,2,,8.520000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_3,published treatment mean,nfts_73438,2025,3,,8.8,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_4,published treatment mean,nfts_73438,2025,4,,7.640000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_5,published treatment mean,nfts_73438,2025,5,,9.1,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_6,published treatment mean,nfts_73438,2025,6,,8.540000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_7,published treatment mean,nfts_73438,2025,7,,8.23,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_8,published treatment mean,nfts_73438,2025,8,,8.06,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_9,published treatment mean,nfts_73438,2025,9,,9.04,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_73438_10,published treatment mean,nfts_73438,2025,10,,8.05,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_1,published treatment mean,nfts_74100,2025,1,,10.18,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_2,published treatment mean,nfts_74100,2025,2,,11.3,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_3,published treatment mean,nfts_74100,2025,3,,11.15,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_4,published treatment mean,nfts_74100,2025,4,,11.16,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_5,published treatment mean,nfts_74100,2025,5,,11.090000000000002,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_6,published treatment mean,nfts_74100,2025,6,,11.240000000000002,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_7,published treatment mean,nfts_74100,2025,7,,11.29,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_8,published treatment mean,nfts_74100,2025,8,,11.2,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_9,published treatment mean,nfts_74100,2025,9,,11.07,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_10,published treatment mean,nfts_74100,2025,10,,11.07,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_11,published treatment mean,nfts_74100,2025,11,,11.19,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_12,published treatment mean,nfts_74100,2025,12,,11.03,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_13,published treatment mean,nfts_74100,2025,13,,11.590000000000002,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74100_14,published treatment mean,nfts_74100,2025,14,,11.39,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_1,published treatment mean,nfts_74300,2025,1,,7.96,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_2,published treatment mean,nfts_74300,2025,2,,8.01,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_3,published treatment mean,nfts_74300,2025,3,,8.26,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_4,published treatment mean,nfts_74300,2025,4,,8.16,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_5,published treatment mean,nfts_74300,2025,5,,8.03,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_6,published treatment mean,nfts_74300,2025,6,,8.05,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_7,published treatment mean,nfts_74300,2025,7,,7.990000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_8,published treatment mean,nfts_74300,2025,8,,8.61,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_9,published treatment mean,nfts_74300,2025,9,,8.15,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_10,published treatment mean,nfts_74300,2025,10,,8.48,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_11,published treatment mean,nfts_74300,2025,11,,7.98,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_12,published treatment mean,nfts_74300,2025,12,,7.57,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_13,published treatment mean,nfts_74300,2025,13,,7.840000000000001,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74300_14,published treatment mean,nfts_74300,2025,14,,8.0,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_1,published treatment mean,nfts_74660,2025,1,,8.89,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_2,published treatment mean,nfts_74660,2025,2,,10.14,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_3,published treatment mean,nfts_74660,2025,3,,10.18,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_4,published treatment mean,nfts_74660,2025,4,,9.8,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_5,published treatment mean,nfts_74660,2025,5,,9.89,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_6,published treatment mean,nfts_74660,2025,6,,9.840000000000002,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_7,published treatment mean,nfts_74660,2025,7,,9.9,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_8,published treatment mean,nfts_74660,2025,8,,9.52,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_9,published treatment mean,nfts_74660,2025,9,,9.37,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_10,published treatment mean,nfts_74660,2025,10,,9.85,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_11,published treatment mean,nfts_74660,2025,11,,9.41,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_12,published treatment mean,nfts_74660,2025,12,,9.8,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv
+nfts2023_2025,nfts_74660_13,published treatment mean,nfts_74660,2025,13,,9.86,15%,False,True,sources/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv

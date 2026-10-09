@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "quality": {
+    "source_records": 259,
+    "source_trial_treatment_outcomes": 190,
+    "source_trials": 12,
+    "postharvest_records": 8,
+    "duplicate_control_records": 3,
+    "eligible_records": 248,
+    "eligible_yield_outcomes": 181,
+    "eligible_trials": 11,
+    "unknown_stage_records": 22,
+    "explicitly_documented_leaf_number_records": 61,
+    "disease_control_yield_outcomes": 67,
+    "disease_control_contrasts": 62,
+    "disease_control_trials": 5,
+    "source_scope": "Published treatment means at 15% grain moisture; repeated dates share one yield outcome",
+    "limitations": [
+      "Disease-control contrasts do not isolate STB from other diseases or fungicide-associated physiology.",
+      "Disease assessment dates are not infection dates.",
+      "Leaf area, absorbed radiation and crop carbon balance are not measured in the matched CSV.",
+      "Source-defined leaf numbers cannot be assigned to the undocumented disease-control records.",
+      "Reported source yield intervals do not supply the covariance of contrasts sharing one control."
+    ]
+  },
+  "protocol_sha256": "a6f0a46c597ab684d770e2501ebcccd89a44d16c6ad26ce71fc941a1cac63799",
+  "source_sha256": {
+    "data/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv": "cc60f524eb8bc310f7315a723843e220ec51c449ffdea8d2ce5a04d41379face",
+    "data/public_septoria/nfts-extension-20261009/nfts_disease_observations_long.csv": "76c60afc9215285c1ebd2e43a6ec4d1a8e230ed8925405d3c9f7eddd4f875188",
+    "data/public_septoria/nfts-extension-20261009/nfts_trial_metadata.json": "f773f5bd2ca84e81f42e21ffda7e19d2c29678e445f1a2f99e585b284cba1125",
+    "analysis/paper_study/nordic_yield_validation_20261009/run.py": "c101f0688d62351ebb718186964137bee0ae30ecf374fb94ad074b511ae68dc0"
+  },
+  "models_promoted_to_climate_simulation": false,
+  "leaf_specific_coefficients_identifiable": false,
+  "infection_dates_observed": false,
+  "had_measured": false,
+  "trial_group_predictions": 1769,
+  "note": "A positive skill score describes conditional treatment-response prediction on the declared cohort; independent crop-yield and canopy-function validation remains separate."
+}

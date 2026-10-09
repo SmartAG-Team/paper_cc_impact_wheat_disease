@@ -1,0 +1,23 @@
+{
+  "source_records": 259,
+  "source_trial_treatment_outcomes": 190,
+  "source_trials": 12,
+  "postharvest_records": 8,
+  "duplicate_control_records": 3,
+  "eligible_records": 248,
+  "eligible_yield_outcomes": 181,
+  "eligible_trials": 11,
+  "unknown_stage_records": 22,
+  "explicitly_documented_leaf_number_records": 61,
+  "disease_control_yield_outcomes": 67,
+  "disease_control_contrasts": 62,
+  "disease_control_trials": 5,
+  "source_scope": "Published treatment means at 15% grain moisture; repeated dates share one yield outcome",
+  "limitations": [
+    "Disease-control contrasts do not isolate STB from other diseases or fungicide-associated physiology.",
+    "Disease assessment dates are not infection dates.",
+    "Leaf area, absorbed radiation and crop carbon balance are not measured in the matched CSV.",
+    "Source-defined leaf numbers cannot be assigned to the undocumented disease-control records.",
+    "Reported source yield intervals do not supply the covariance of contrasts sharing one control."
+  ]
+}

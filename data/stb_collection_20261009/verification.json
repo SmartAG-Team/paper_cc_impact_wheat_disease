@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "source_files_verified": 469,
+  "workbook_sheets_verified": 15,
+  "checks": [
+    "workbook row counts",
+    "no spreadsheet formulas",
+    "CSV-workbook numeric agreement",
+    "source-to-combined severity and yield agreement",
+    "unique assessment keys",
+    "catalogue local paths",
+    "draft completeness",
+    "source-copy SHA256 equality"
+  ],
+  "assessment_rows": 423,
+  "yield_unit_keys": 272,
+  "known_alias_yield_keys": 1,
+  "drafts_sent": 0
+}

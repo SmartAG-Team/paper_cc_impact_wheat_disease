@@ -1,4 +1,4 @@
-Climate change reshapes Septoria tritici blotch damage across European wheat-growing regions
+Wheat phenology partly offsets projected increases in Septoria damage across Europe
 
 Gang Zhao*
 
@@ -42,7 +42,11 @@ Yield changes inferred from canopy damage
 
 Applying the reference HAD–yield coefficient converted the late-century SSP5–8.5 HAD change into an estimated disease-related yield change of -47.8 kg ha⁻¹ per unit reference upper-canopy LAI. The three-climate-model range was -82.3 to -22.2 kg ha⁻¹ per reference LAI. At coefficients of 0.0141–0.0207 t ha⁻¹ per green-leaf-area-index day (GLAI-day), the same canopy response produced a conversion range of -55.0 to -37.4 kg ha⁻¹ per reference LAI. A negative change indicates greater estimated disease-related yield loss. These estimates depend on the assumed canopy area and linear HAD–yield relationship (Fig. 3b; Supplementary Fig. S13).
 
-Evaluation of the canopy–yield relationship showed limited prediction accuracy across genetic backgrounds. Eight treatment-mean contrasts across five genetic backgrounds gave leave-one-background-out relative-yield RMSE of 5.16 percentage points and R² of 0.247, but absolute-yield RMSE of 0.617 t ha⁻¹ and R² of −0.432. Two contrasts concerned STB alone; the other six involved yellow rust or mixed diseases. Models based on disease severity also had larger errors than their training-mean benchmarks. The grid estimates provide a disease-related yield index under specified assumptions. Total wheat yield and national production changes require additional crop-yield modelling and validation (Supplementary Figs. S9–S11; Supplementary Tables S5–S8). [2, 11]
+Evaluation of the canopy–yield relationship showed limited prediction accuracy across genetic backgrounds. Eight treatment-mean contrasts across five genetic backgrounds gave leave-one-background-out relative-yield RMSE of 5.16 percentage points and R² of 0.247, but absolute-yield RMSE of 0.617 t ha⁻¹ and R² of −0.432. Two contrasts concerned STB alone; the other six involved yellow rust or mixed diseases. The grid estimates provide a disease-related yield index under specified assumptions. Total wheat yield and national production changes require additional crop-yield modelling and validation (Supplementary Figs. S9–S11; Supplementary Tables S5–S8). [2, 11]
+
+Severity-based yield responses transfer poorly across field environments. In five Nordic trials, 62 treated–untreated contrasts gave trial-held-out RMSE of 4.83 percentage points for severity regression and 5.02 for the training mean. Adding assessment stage reduced error to 3.99 points in the four-trial subset with recorded stages, but the paired difference interval included zero and three of four conditional severity slopes opposed a monotone damage response. In Tunisia, flag- and lower-leaf severity gave cross-year yield RMSE of 3.32 t ha⁻¹, compared with 3.24 for the training mean across 82 plot-season yields (Supplementary Figs. S22 and S23; Supplementary Tables S17–S19). [14, 15]
+
+German field data provided a broader test across 3,264 cultivar–management comparisons in 16 site-years at five locations. Endpoint Septoria severity had geographic-site-held-out yield-response RMSE of 18.51 percentage points, compared with 18.48 for the training mean. Nitrogen and water regime reduced forward-transfer error from 19.56 to 17.55 points; adding severity changed it to 17.51 points. These responses concerned protection against multiple diseases. Endpoint severity supplied little additional predictive information beyond crop management, and none of the field comparisons validated the conversion from simulated HAD loss to grain yield (Supplementary Fig. S24; Supplementary Table S20). [16]
 
 Wheat phenology offsets part of the increase in disease damage
 
@@ -66,17 +70,19 @@ The regional contrasts identify areas where crop and disease observations would 
 
 The link from disease damage to grain yield is the least directly validated part of the analysis. Disease-assessment percentages, functional canopy loss and grain yield describe different quantities. The assumed conversion from disease damage to functional loss requires physiological measurements, and the published HAD–yield coefficients were fitted to a wider growth-stage interval than the main flowering-to-soft-dough calculation. The available treatment means span mixed diseases and give poor absolute-yield predictions across genetic backgrounds. Canopy-based yield estimates remain conditional indices, with actual production losses requiring compatible measurements of leaf area, canopy function and grain yield. [2, 11, 12]
 
+A physiological yield calculation requires crop condition as well as disease severity. Layer-specific green leaf area determines light interception, while grain formation depends on pre-anthesis reserves, grain number and assimilate supply during grain filling. Published damage frameworks represent these pathways within crop-growth models, including WOFOST and DSSAT formulations. The field comparisons support this distinction: lower regression error alone does not establish a physiological loss function, and observations without compatible leaf area and timing cannot identify its parameters. Crop-growth calibration and evaluation of disease-related yield loss require separate field environments. [17, 18, 19]
+
 Disease-model performance adds substantial uncertainty. The model had greater symptom-onset error than the phenology benchmark and underestimated measured disease severity. High symptom-detection sensitivity with low specificity is consistent with the near-universal symptom occurrence in the simulations. Added developmental stages, including the end of the grain-filling interval, have limited informative field observations. Agreement among climate models cannot establish epidemic prediction accuracy. Reconstructed humidity, fixed inoculum assumptions, cultivar resistance and future pathogen adaptation also affect the applicability of the projected changes.
 
-Regional adaptation assessments for European wheat need to consider disease resistance alongside crop phenology and canopy persistence. Coordinated observations of crop stages, disease symptoms, healthy leaf area and harvested grain would help identify whether adaptation reduces exposure, prevents damage or improves yield tolerance. Resistance and calendar trials across contrasting regions can evaluate these mechanisms under consistent measurement definitions. Intervention effectiveness and effects on production require validation in field trials. [14, 15]
+Regional adaptation assessments for European wheat need to consider disease resistance alongside crop phenology and canopy persistence. Coordinated observations of crop stages, disease symptoms, healthy leaf area and harvested grain would help identify whether adaptation reduces exposure, prevents damage or improves yield tolerance. Resistance and calendar trials across contrasting regions can evaluate these mechanisms under consistent measurement definitions. Intervention effectiveness and effects on production require validation in field trials. [20, 21]
 
 Methods
 
 Wheat-growing area and climate data
 
-The European SPAM2020 all-wheat registry contains 14,941 cells with positive harvested wheat area at 0.25° resolution. A fixed GGCMI winter-wheat rainfed calendar is available for 14,932 cells; nine cells have unavailable simulation outcomes. The all-wheat area mask combined with a winter-wheat rainfed calendar defines the crop-management scenario. It is not a census of observed winter-wheat management. Harvested area provides fixed weights for spatial aggregation. Supplementary Fig. S21 shows the study area, field-observation locations and environmental regions. [16, 17]
+The European SPAM2020 all-wheat registry contains 14,941 cells with positive harvested wheat area at 0.25° resolution. A fixed GGCMI winter-wheat rainfed calendar is available for 14,932 cells; nine cells have unavailable simulation outcomes. The all-wheat area mask combined with a winter-wheat rainfed calendar defines the crop-management scenario. It is not a census of observed winter-wheat management. Harvested area provides fixed weights for spatial aggregation. Supplementary Fig. S21 shows the study area, field-observation locations and environmental regions. [22, 23]
 
-Daily NEX-GDDP-CMIP6v2 data represent ACCESS-CM2, MPI-ESM1-2-HR and MRI-ESM2-0 under SSP1–2.6, SSP2–4.5 and SSP5–8.5. The harvest periods are 1991–2020, 2031–2060 and 2071–2100. The 810 model–scenario–year combinations cover 12,094,920 calendar-eligible grid-seasons. Monthly adjustment coefficients align climate variables with the reference weather data, with separate historical adjustments for each SSP continuation. Daily series include the preceding calendar year to represent overwintering seasons. Input files, adjustment coefficients and model configurations are identified by checksums. [18]
+Daily NEX-GDDP-CMIP6v2 data represent ACCESS-CM2, MPI-ESM1-2-HR and MRI-ESM2-0 under SSP1–2.6, SSP2–4.5 and SSP5–8.5. The harvest periods are 1991–2020, 2031–2060 and 2071–2100. The 810 model–scenario–year combinations cover 12,094,920 calendar-eligible grid-seasons. Monthly adjustment coefficients align climate variables with the reference weather data, with separate historical adjustments for each SSP continuation. Daily series include the preceding calendar year to represent overwintering seasons. Input files, adjustment coefficients and model configurations are identified by checksums. [24]
 
 Disease calculations use daily temperature, relative humidity and rainfall. A synthetic reconstruction of humidity within each day estimates moisture exposure from daily forcing; it does not supply measured leaf wetness. Missing weather and daily mean temperatures above 40 °C produce unavailable outcomes under the model input rules.
 
@@ -92,11 +98,13 @@ Symptom frequency is the fraction of complete simulated seasons with detectable 
 
 The disease-damage fraction after symptom detection is treated as the fraction of reference leaf area that has lost function. This assumption connects modelled disease to canopy damage. HAD loss integrates this fraction multiplied by daily reference leaf area across the flag leaf and two leaves below it. The primary interval is flowering to soft dough (GS65–85), with GS31–85 used for sensitivity analysis. HAD and disease-induced HAD loss have units of green leaf area index multiplied by days (GLAI-days). Normalized HAD loss divides the time-integrated functional loss by maximum reference upper-canopy LAI and expresses it as equivalent days of reference canopy function lost. With reference LAI equal to one, normalization leaves numerical values unchanged. Relative HAD loss is HAD loss divided by reference HAD, expressed as a percentage; it describes average accumulated canopy-function loss, not instantaneous lesion percentage. [2, 12]
 
+Flowering provides a reference for grain filling rather than the start of disease simulation or a universal crop-protection threshold. Disease calculations begin during crop establishment and include upper-leaf appearance and unfolding before flowering. Stem extension and upper-leaf emergence define earlier exposure relevant to canopy protection. The GS65–85 integral describes grain-filling canopy damage; it does not quantify every effect of pre-flowering disease on grain number or assimilate reserves. [2, 17]
+
 Historical–future comparisons and spatial summaries
 
 Each future harvest year is paired with the corresponding position in the 30-year historical period for the same climate model and SSP. This indexing supports comparisons of period means without identifying historical and future years as the same physical event. A pair is included only when both metric values are finite. For grid i, x_i is the sum of valid paired differences divided by 30, and z_i is the number of valid pairs divided by 30. The grid mean change is x_i/z_i. Reference and future means use the same valid pairs. The valid seasons may differ among symptom timing, symptom frequency and canopy metrics.
 
-For domain indicator I_i and fixed harvested area w_i, the mean change is Σw_i I_i x_i / Σw_i I_i z_i. Separate estimates for each climate model give the reported three-model mean and range. EEA 2016 boundaries assign environmental regions from wheat-cell centroids. Country assignment uses the dominant SPAM source-country label of each cell; cross-border cells are not divided among countries. Country estimates apply only to represented wheat cells within the study domain. Source Data includes all eight named environmental regions, outside-region and unassigned cells, and all country groups. [19]
+For domain indicator I_i and fixed harvested area w_i, the mean change is Σw_i I_i x_i / Σw_i I_i z_i. Separate estimates for each climate model give the reported three-model mean and range. EEA 2016 boundaries assign environmental regions from wheat-cell centroids. Country assignment uses the dominant SPAM source-country label of each cell; cross-border cells are not divided among countries. Country estimates apply only to represented wheat cells within the study domain. Source Data includes all eight named environmental regions, outside-region and unassigned cells, and all country groups. [25]
 
 Maps show model means at the native 0.25° grid resolution, without interpolation or filling unavailable cells. Area shares by direction of change use fixed harvested-area weights over cells with complete three-model estimates. Model ranges describe spread among three climate models and are not confidence intervals. All wheat cells are simulated, so full-grid estimates have no spatial-sampling Monte Carlo error. Other uncertainties include climate-model choice, model parameters, observations and the canopy–yield relationship. The twelve countries in Fig. 3 are selected by reference wheat area independently of the projected change.
 
@@ -112,11 +120,17 @@ The phenology offset is −100 times the phenology contribution divided by the w
 
 Field evaluation
 
-Disease observations from the two public field archives are pooled after exclusion of calibration records and application of geographic eligibility criteria. The evaluation contains 2,033 assessments from 188 field seasons in 140 coordinate-years and 136 symptom-onset histories from 78 field seasons in 62 coordinate-years. Onset histories concern source-defined leaves 1–3 and have observations bracketing symptom appearance. Original identifiers, units and percentage denominators remain in the evidence files. Source leaf numbers do not establish a common final-leaf rank across archives. [20, 21]
+Disease observations from the two public field archives are pooled after exclusion of calibration records and application of geographic eligibility criteria. The evaluation contains 2,033 assessments from 188 field seasons in 140 coordinate-years and 136 symptom-onset histories from 78 field seasons in 62 coordinate-years. Onset histories concern source-defined leaves 1–3 and have observations bracketing symptom appearance. Original identifiers, units and percentage denominators remain in the evidence files. Source leaf numbers do not establish a common final-leaf rank across archives. [26, 27]
 
 Evaluation weights are equal among coordinate-years, fields within coordinate-years, source leaves within fields and assessments within leaves. Symptom-onset error measures distance outside the two-sided observation interval, with the predefined penalty for missed positive observations. Severity predictions are compared with the calibration-leaf-mean benchmark; timing and detection use the phenology benchmark selected on calibration data. Model and benchmark predictions are compared on identical records. The 95% intervals use 20,000 paired bootstrap resamples of entire coordinate-year groups. They describe uncertainty in these fixed predictions on reused retrospective observations and exclude parameter-selection uncertainty. Duplicate coordinate-year identities are grouped across archives.
 
 Wheat phenological stage dates are evaluated on 40,878 matched events from German stations held out of calibration, at BBCH 10, 31, 51 and 85. Added leaf stages use pooled field observation intervals, with calibration observations reported separately. Evaluation of the canopy–yield relationship uses eight published treatment-mean contrasts across five genetic backgrounds, including STB, yellow rust and mixed disease. Leaving each background out of fitting gives backgrounds equal evaluation weight. Severity-based yield models use their specified held-out trial or year comparisons and corresponding training-mean benchmarks. [11]
+
+Additional yield-response tests retain the measurement hierarchy of each public source. Nordic assessment dates sharing a treatment yield remain in the same trial fold; eight post-harvest assessments and three rows of a pooled-control alias are excluded. Stage zero remains missing. Tunisia supplies 82 unprotected plot-season yields with two leaf assessments per outcome and 40 protected references in 2019. Flag and lower leaves were assessed on different dates. Protected-plot severity is unobserved and is not assigned zero. Whole-year transfer tests absolute yield, while mixture and replicate holdouts test relative protected-reference gaps within 2019. [14, 15, 28]
+
+German original site files supply protection comparisons matched by location, year, cultivar, nitrogen and source-coded water regime. Unsuffixed HN/LN × NF/WF treatments enter; drought-suffixed references remain separate. Original fractional disease scores and missing values are preserved. Harvest treatment means use all eligible positive yield observations; severity means use only recorded assessments, with their replicate coverage retained. The relative response is 1 − unprotected yield / protected yield. German dry-mass yields are not pooled with other sources for absolute-yield fitting. Entire site-years or geographic sites are excluded from fitting, and forward transfer fits 2015–2017 and evaluates 2018–2019. Cultivar identities may occur in both training and evaluation; these comparisons test environmental transfer rather than prediction for unseen cultivars. [16]
+
+All prespecified candidate models are compared with their corresponding training-mean benchmark. Weights are equal among held-out trial, year or location groups and then among outcomes within groups. Ridge models standardize predictors using training data and use a fixed penalty of 0.1. Nordic model choice uses inner training-trial validation. Paired Nordic intervals resample entire trials conditional on fixed predictions; they exclude refitting uncertainty. The nonnegative assessment-stage model is a secondary diagnostic following inspection of the stage-regression slopes. Infection dates, functional canopy trajectories and cause-specific STB losses are not validation targets of these severity-based comparisons.
 
 Reproducibility
 
@@ -124,13 +138,13 @@ Annual outputs record input-weather identities, model configurations, grid-cell 
 
 Data availability
 
-Source data and numerical evidence supporting the findings are publicly available at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease, with the manuscript-specific files in publication/european_wheat_stb. Dataset references identify the public disease archives, NEX-GDDP-CMIP6v2 climate data, GGCMI calendars, SPAM2020 wheat area and EEA environmental boundaries. Source_Data.xlsx contains completed grid summaries, environmental-region and country statistics, area shares by direction of change, pooled field evaluation and published canopy–yield evidence. Original labels and assessment definitions remain in the underlying records. [16, 17, 18, 19, 20, 21]
+Source data and numerical evidence supporting the findings are deposited at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease, with the manuscript-specific files in publication/european_wheat_stb. The repository is private during manuscript preparation. Dataset references identify the public disease archives, the Nordic Field Trial System, Tunisian cultivar-mixture observations, German multi-environment field data, NEX-GDDP-CMIP6v2 climate data, GGCMI calendars, SPAM2020 wheat area and EEA environmental boundaries. Source_Data.xlsx contains completed grid summaries, environmental-region and country statistics, area shares by direction of change, pooled field evaluation, published canopy–yield evidence and the additional grouped yield-response tests. Original labels and assessment definitions remain in the underlying records. [14, 16, 22, 23, 24, 25, 26, 27, 28]
 
 The repository includes completed summaries, selected diagnostic outputs, input and output hashes, and numerical evidence for document regeneration. The complete raw climate and annual-output archives are external because of their size. Model reruns require the recorded climate products and adjustment files. Raw plot observations and physiological measurements unavailable in the source studies are not reconstructed.
 
 Code availability
 
-Simulation, statistical-analysis and document-generation code are publicly available at https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease. The repository includes the accompanying evidence manifests. REPRODUCIBILITY.txt documents regeneration and model-rerun requirements. The supplementary model specification contains 29 numbered equations, and Parameter_inventory.csv records 84 fixed, fitted and scenario quantities.
+Simulation, statistical-analysis and document-generation code are deposited in the same repository, which remains private during manuscript preparation. The repository includes evidence manifests and an executed field-yield validation notebook. REPRODUCIBILITY.txt documents regeneration and model-rerun requirements. The supplementary model specification contains 29 numbered equations, and Parameter_inventory.csv records 84 fixed, fitted and scenario quantities.
 
 References
 
@@ -160,21 +174,35 @@ References
 
 13. Bryson, R. J., Paveley, N. D., Clark, W. S., Sylvester-Bradley, R. & Scott, R. K. Use of in-field measurements of green leaf area and incident radiation to estimate the effects of yellow rust epidemics on the yield of winter wheat. European Journal of Agronomy 7, 53–62 (1997).
 
-14. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
+14. Nordic Field Trial System. Nordic Field Trial System: wheat disease assessments and harvest-yield treatment means, 2023–2025. (2026).
 
-15. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
+15. Ben M’Barek, S. et al. Improved control of septoria tritici blotch in durum wheat using cultivar mixtures. Plant Pathology 69, 1655–1665 (2020).
 
-16. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
+16. Wang, T.-C. et al. Multi-environment field trials for wheat yield, stability and breeding progress in Germany. https://doi.org/10.6084/m9.figshare.27910269.v1 (2025).
 
-17. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
+17. Bancal, M.-O., Robert, C. & Ney, B. Modelling wheat growth and yield losses from late epidemics of foliar diseases using loss of green leaf area per layer and pre-anthesis reserves. Annals of Botany 100, 777–789 (2007).
 
-18. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
+18. Bancal, P., Bancal, M.-O., Collin, F. & Gouache, D. Identifying traits leading to tolerance of wheat to Septoria tritici blotch. Field Crops Research 180, 176–185 (2015).
 
-19. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
+19. Bregaglio, S. et al. Comparing process-based wheat growth models in their simulation of yield losses caused by plant diseases. Field Crops Research 265, 108108 (2021).
 
-20. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+20. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
 
-21. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
+21. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
+
+22. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
+
+23. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
+
+24. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
+
+25. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
+
+26. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+
+27. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
+
+28. Karisto, P. et al. Improved control of Septoria tritici blotch in durum wheat using cultivar mixtures. https://doi.org/10.5061/dryad.r2280gbb5 (2020).
 
 Author contributions
 

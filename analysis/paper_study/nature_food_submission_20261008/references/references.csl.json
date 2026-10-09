@@ -1710,5 +1710,295 @@
     },
     "URL": "https://www.eea.europa.eu/data-and-maps/data/biogeographical-regions-europe-2005",
     "version": "1"
+  },
+  {
+    "id": "Bregaglio2021",
+    "type": "article-journal",
+    "title": "Comparing process-based wheat growth models in their simulation of yield losses caused by plant diseases",
+    "container-title": "Field Crops Research",
+    "author": [
+      {
+        "family": "Bregaglio",
+        "given": "Simone"
+      },
+      {
+        "family": "Willocquet",
+        "given": "Laetitia"
+      },
+      {
+        "family": "Kersebaum",
+        "given": "Kurt Christian"
+      },
+      {
+        "family": "Ferrise",
+        "given": "Roberto"
+      },
+      {
+        "family": "Stella",
+        "given": "Tommaso"
+      },
+      {
+        "family": "Ferreira",
+        "given": "Thiago Berton"
+      },
+      {
+        "family": "Pavan",
+        "given": "Willingthon"
+      },
+      {
+        "family": "Asseng",
+        "given": "Senthold"
+      },
+      {
+        "family": "Savary",
+        "given": "Serge"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          15
+        ]
+      ]
+    },
+    "volume": "265",
+    "page": "108108",
+    "DOI": "10.1016/j.fcr.2021.108108",
+    "URL": "https://doi.org/10.1016/j.fcr.2021.108108"
+  },
+  {
+    "id": "NFTS2026",
+    "type": "dataset",
+    "title": "Nordic Field Trial System: wheat disease assessments and harvest-yield treatment means, 2023–2025",
+    "author": [
+      {
+        "literal": "Nordic Field Trial System"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    },
+    "URL": "https://nfts.dlbr.dk/Forms/Forside.aspx",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "Bancal2007",
+    "type": "article-journal",
+    "title": "Modelling wheat growth and yield losses from late epidemics of foliar diseases using loss of green leaf area per layer and pre-anthesis reserves",
+    "author": [
+      {
+        "given": "Marie-Odile",
+        "family": "Bancal"
+      },
+      {
+        "given": "Corinne",
+        "family": "Robert"
+      },
+      {
+        "given": "Bertrand",
+        "family": "Ney"
+      }
+    ],
+    "container-title": "Annals of Botany",
+    "volume": "100",
+    "issue": "4",
+    "page": "777–789",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "DOI": "10.1093/aob/mcm163",
+    "URL": "https://doi.org/10.1093/aob/mcm163"
+  },
+  {
+    "id": "BenMbarek2020",
+    "type": "article-journal",
+    "title": "Improved control of septoria tritici blotch in durum wheat using cultivar mixtures",
+    "author": [
+      {
+        "given": "Sarrah",
+        "family": "Ben M’Barek"
+      },
+      {
+        "given": "Petteri",
+        "family": "Karisto"
+      },
+      {
+        "given": "Wided",
+        "family": "Abdedayem"
+      },
+      {
+        "given": "Marwa",
+        "family": "Laribi"
+      },
+      {
+        "given": "Moez",
+        "family": "Fakhfakh"
+      },
+      {
+        "given": "Hajer",
+        "family": "Kouki"
+      },
+      {
+        "given": "Alexey",
+        "family": "Mikaberidze"
+      },
+      {
+        "given": "Amor",
+        "family": "Yahyaoui"
+      }
+    ],
+    "container-title": "Plant Pathology",
+    "volume": "69",
+    "issue": "9",
+    "page": "1655–1665",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.1111/ppa.13247",
+    "URL": "https://doi.org/10.1111/ppa.13247"
+  },
+  {
+    "id": "TunisiaDryad2020",
+    "type": "dataset",
+    "title": "Improved control of Septoria tritici blotch in durum wheat using cultivar mixtures",
+    "author": [
+      {
+        "given": "Petteri",
+        "family": "Karisto"
+      },
+      {
+        "given": "Sarrah",
+        "family": "Ben M'Barek"
+      },
+      {
+        "given": "Wided",
+        "family": "Abdedayem"
+      },
+      {
+        "given": "Marwa",
+        "family": "Laribi"
+      },
+      {
+        "given": "Moez",
+        "family": "Fakhfakh"
+      },
+      {
+        "given": "Hajer",
+        "family": "Kouki"
+      },
+      {
+        "given": "Alexey",
+        "family": "Mikaberidze"
+      },
+      {
+        "given": "Amor",
+        "family": "Yahyaoui"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.5061/dryad.r2280gbb5",
+    "URL": "https://doi.org/10.5061/dryad.r2280gbb5"
+  },
+  {
+    "id": "BRIWECS2025",
+    "type": "dataset",
+    "title": "Multi-environment field trials for wheat yield, stability and breeding progress in Germany",
+    "author": [
+      {
+        "given": "Tien-Cheng",
+        "family": "Wang"
+      },
+      {
+        "given": "Till",
+        "family": "Rose"
+      },
+      {
+        "given": "Holger",
+        "family": "Zetzsche"
+      },
+      {
+        "given": "Agim",
+        "family": "Ballvora"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Friedt"
+      },
+      {
+        "given": "Henning",
+        "family": "Kage"
+      },
+      {
+        "given": "Jens",
+        "family": "Léon"
+      },
+      {
+        "given": "Carolin",
+        "family": "Lichthardt"
+      },
+      {
+        "given": "Frank",
+        "family": "Ordon"
+      },
+      {
+        "given": "Rod J.",
+        "family": "Snowdon"
+      },
+      {
+        "given": "Andreas",
+        "family": "Stahl"
+      },
+      {
+        "given": "Hartmut",
+        "family": "Stützel"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Wittkop"
+      },
+      {
+        "given": "Tsu-Wei",
+        "family": "Chen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.6084/m9.figshare.27910269.v1",
+    "URL": "https://doi.org/10.6084/m9.figshare.27910269.v1"
   }
 ]

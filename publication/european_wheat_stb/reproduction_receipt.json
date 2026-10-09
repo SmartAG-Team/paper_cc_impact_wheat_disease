@@ -1,42 +1,9 @@
 {
   "status": "passed",
-  "scope": "Numerical reporting and provenance; biological and absolute-yield predictions remain unvalidated",
-  "abstract_words": 144,
-  "main_figures": 4,
-  "main_tables": 1,
-  "Results_focus": "Full-grid climate impacts",
-  "pooled_evaluation": {
-    "symptom_onset_days": {
-      "model": 5.321639784946236,
-      "benchmark": 2.7854838709677416
-    },
-    "severity": {
-      "model_rmse": 31.193442472743396,
-      "model_bias": -17.564907593118328,
-      "benchmark_rmse": 29.834334924666734,
-      "benchmark_bias": -5.369027971273411
-    },
-    "assessment_records": 2033,
-    "onset_histories": 136
-  },
-  "full_grid_domain_check": {
-    "status": "passed",
-    "comparisons": 60,
-    "source": "Bundled paired grid values and valid-year counts",
-    "period": "2071-2100"
-  },
-  "PDF_pages": {
-    "Manuscript.pdf": 15,
-    "Supplementary_Information.pdf": 55,
-    "Supplementary_Model_Specification.pdf": 7
-  },
-  "source_workbook_sheets": 40,
-  "archived_members_checked": null,
-  "reproduction_environment": "Isolated extraction of maintained code and bundled evidence; original raw climate and annual outputs absent",
-  "tests": {
-    "passed": 306,
-    "warnings": 7
-  },
-  "manuscript_scientific_content_matches_working_build": true,
-  "availability_statement_updated_after_reproduction": true
+  "archive_members_verified": 1127,
+  "field_source_verification": "passed from extracted curated source archive",
+  "document_regeneration": "passed",
+  "scientific_text_reproduction": "byte-identical",
+  "climate_evidence": "Bundled paired summaries; annual forcing archives remain external",
+  "source_archive_redactions": "Unused map-script keys only; numerical source cells preserved"
 }

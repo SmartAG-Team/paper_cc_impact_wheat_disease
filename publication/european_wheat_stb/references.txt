@@ -26,18 +26,32 @@ References
 
 13. Bryson, R. J., Paveley, N. D., Clark, W. S., Sylvester-Bradley, R. & Scott, R. K. Use of in-field measurements of green leaf area and incident radiation to estimate the effects of yellow rust epidemics on the yield of winter wheat. European Journal of Agronomy 7, 53–62 (1997).
 
-14. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
+14. Nordic Field Trial System. Nordic Field Trial System: wheat disease assessments and harvest-yield treatment means, 2023–2025. (2026).
 
-15. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
+15. Ben M’Barek, S. et al. Improved control of septoria tritici blotch in durum wheat using cultivar mixtures. Plant Pathology 69, 1655–1665 (2020).
 
-16. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
+16. Wang, T.-C. et al. Multi-environment field trials for wheat yield, stability and breeding progress in Germany. https://doi.org/10.6084/m9.figshare.27910269.v1 (2025).
 
-17. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
+17. Bancal, M.-O., Robert, C. & Ney, B. Modelling wheat growth and yield losses from late epidemics of foliar diseases using loss of green leaf area per layer and pre-anthesis reserves. Annals of Botany 100, 777–789 (2007).
 
-18. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
+18. Bancal, P., Bancal, M.-O., Collin, F. & Gouache, D. Identifying traits leading to tolerance of wheat to Septoria tritici blotch. Field Crops Research 180, 176–185 (2015).
 
-19. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
+19. Bregaglio, S. et al. Comparing process-based wheat growth models in their simulation of yield losses caused by plant diseases. Field Crops Research 265, 108108 (2021).
 
-20. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+20. McDonald, A. J. et al. Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India. Nat. Food 3, 542–551 (2022).
 
-21. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
+21. European Commission. A Vision for Agriculture and Food. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025DC0075 (2025).
+
+22. International Food Policy Research Institute. Global Spatially-Disaggregated Crop Production Statistics Data for 2020, SPAM2020 v2r2. Harvard Dataverse https://doi.org/10.7910/DVN/SWPENT (2026).
+
+23. Jägermeyr, J., Müller, C., Minoli, S., Ray, D. & Siebert, S. GGCMI Phase 3 crop calendar. Zenodo https://doi.org/10.5281/zenodo.5062513 (2021).
+
+24. NASA Center for Climate Simulation. NEX-GDDP-CMIP6 Version 2 Technical Note. https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf (2025).
+
+25. European Environment Agency. Biogeographical regions, Europe 2016, version 1. (2016).
+
+26. Holst, N. Data from 56 fungicide trials in wheat fields across Europe 2017–2019. Zenodo https://doi.org/10.5281/zenodo.6521175 (2022).
+
+27. Holst, N. & Donner, M. Data from 168 fungicide trials in wheat fields across Europe 2014–2018. Zenodo https://doi.org/10.5281/zenodo.6352615 (2022).
+
+28. Karisto, P. et al. Improved control of Septoria tritici blotch in durum wheat using cultivar mixtures. https://doi.org/10.5061/dryad.r2280gbb5 (2020).

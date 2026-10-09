@@ -26,10 +26,10 @@
     "period": "2071-2100"
   },
   "PDF_pages": {
-    "Manuscript.pdf": 15,
-    "Supplementary_Information.pdf": 55,
+    "Manuscript.pdf": 16,
+    "Supplementary_Information.pdf": 64,
     "Supplementary_Model_Specification.pdf": 7
   },
-  "source_workbook_sheets": 40,
-  "archived_members_checked": 1054
+  "source_workbook_sheets": 56,
+  "archived_members_checked": 1127
 }
