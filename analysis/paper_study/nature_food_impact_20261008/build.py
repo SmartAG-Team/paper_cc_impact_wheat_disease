@@ -47,8 +47,8 @@ def curate(captions,folder):
     captions['figS15_climate_robustness']=figures.sensitivity_figure(folder)
     figures.contribution_figure(folder,'figS16_weather_host_decomposition',full=True)
     captions['figS16_weather_host_decomposition']=(
-        'Figure S16 | Weather and wheat-development contributions and offsets. '
-        '(a) Weather, crop-development and net HAD contributions with the full interaction shown separately. '
+        'Figure S16 | Weather and wheat-phenology contributions and offsets. '
+        '(a) Weather, crop-phenology and net HAD contributions with the full interaction shown separately. '
         'The interaction is already allocated equally between the two Shapley contributions and is not added again to the net. '
         'Gray segments span climate-model means; colored whiskers show one spatial Monte Carlo standard error. '
         '(b) Model-specific offsets and their ensemble-contribution ratio. The same 5,731 supported paired seasons underlie all HAD terms. '
@@ -91,7 +91,9 @@ def source_workbook(destination,canonical='publication/european_wheat_stb'):
     for row in [
       ['Full-grid population','14,941 fixed all-wheat cells; 14,932 imposed winter-wheat rainfed crop calendars.'],
       ['Full-grid paired change','Fixed harvested-area-weighted change over valid paired seasons, followed by three-model averaging.'],
-      ['Normalized HAD loss','HAD loss divided by maximum reference upper-three-leaf LAI; units are days. Numerical values are unchanged when reference LAI equals one.'],
+      ['Wheat phenology','Timing of leaf appearance and unfolding, flowering and soft dough; these trajectories determine leaf availability and grain-filling weather exposure.'],
+      ['Disease-induced HAD loss','Time-integrated loss of assumed functional green leaf area relative to the reference canopy; units are GLAI-days.'],
+      ['Normalized HAD loss','Disease-induced HAD loss divided by maximum reference upper-three-leaf LAI; equivalent days of reference canopy function lost. Numerical values are unchanged when reference LAI equals one.'],
       ['Country group','Dominant SPAM source-country label of a quarter-degree cell; study-domain subset only.'],
       ['Symptom frequency','Fraction of complete simulated grid-seasons with flag-leaf symptoms before soft dough.'],
       ['Relative HAD loss','HAD loss divided by reference HAD; percentage of assumed canopy function lost during grain filling, distinct from lesion percentage.'],

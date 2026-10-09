@@ -1,6 +1,6 @@
 # Climate impacts on European wheat disease and production
 
-Research code, numerical evidence and submission files for **Wheat development partly offsets projected increases in Septoria damage across Europe**, by Gang Zhao, Northwest A&F University.
+Research code, numerical evidence and submission files for **Wheat phenology partly offsets projected increases in Septoria damage across Europe**, by Gang Zhao, Northwest A&F University.
 
 The study examines climate and weather effects on crop development, Septoria-related canopy damage and conditional yield responses across European wheat-growing land-use grids. The completed experiment contains 810 annual jobs, 14,941 reference wheat cells and 14,932 cells with eligible winter-wheat calendars. It combines three climate models, SSP1–2.6, SSP2–4.5 and SSP5–8.5, and the periods 1991–2020, 2031–2060 and 2071–2100.
 
@@ -13,7 +13,7 @@ The study examines climate and weather effects on crop development, Septoria-rel
 - [Supplementary model specification](publication/european_wheat_stb/Supplementary_Model_Specification.pdf)
 - [Numerical verification receipt](publication/european_wheat_stb/verification_receipt.json)
 
-The main results cover grid-scale climate impacts, environmental-region and country contrasts, disease occurrence and functional canopy damage, and conditional disease-related yield responses. Field evaluation records are pooled in manuscript statistics; original source identifiers remain in the numerical evidence for traceability. Model evaluation limitations and the conditional nature of the canopy–yield conversion are retained in the manuscript. Wheat development supplies leaf availability and seasonal timing to the disease model. Disease damage is mapped to assumed canopy-function loss, followed by a canopy-based estimate of the disease-related yield component. Normalized HAD loss is reported in days; measured lesion percentage and total grain yield are distinct quantities. Disease damage does not feed back into crop-development rates.
+The main results cover grid-scale climate impacts, environmental-region and country contrasts, disease occurrence and functional canopy damage, and conditional disease-related yield responses. Field evaluation records are pooled in manuscript statistics; original source identifiers remain in the numerical evidence for traceability. Model evaluation limitations and the conditional nature of the canopy–yield conversion are retained in the manuscript. Wheat phenology describes the timing of leaf appearance and unfolding, flowering and soft dough; it supplies leaf availability and seasonal timing to the disease model. Disease damage is mapped to assumed canopy-function loss, followed by a canopy-based estimate of the disease-related yield component. Disease-induced HAD loss integrates assumed functional green-leaf-area loss over time. Normalized HAD loss expresses this quantity as equivalent days of reference canopy function lost; measured lesion percentage and total grain yield are distinct quantities. Disease damage does not feed back into crop-development rates.
 
 ## Repository contents
 

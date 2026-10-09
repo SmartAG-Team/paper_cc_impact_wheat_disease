@@ -1,6 +1,6 @@
 Supplementary Information
 
-Wheat development partly offsets projected increases in Septoria damage across Europe
+Wheat phenology partly offsets projected increases in Septoria damage across Europe
 
 Gang Zhao
 
@@ -8,9 +8,9 @@ Supplementary Methods
 
 Crop, disease and yield relationships
 
-Daily climate data drive wheat-development and Septoria-disease calculations. Wheat development determines leaf appearance, unfolding and the flowering-to-soft-dough interval. The disease model predicts damage on those leaves; its damage does not feed back into crop-development rates. After symptom detection, damage is mapped to an assumed loss of leaf function. Integration gives HAD loss, and a published coefficient converts HAD loss to a conditional disease-related yield estimate. This final calculation is separate from a complete crop-yield model.
+Daily climate data drive wheat-phenology and Septoria-disease calculations. Wheat phenology determines leaf appearance, unfolding and the flowering-to-soft-dough interval. The disease model predicts damage on those leaves; its damage does not feed back into crop-development rates. After symptom detection, damage is mapped to an assumed loss of leaf function. Integration gives HAD loss, and a published coefficient converts HAD loss to a conditional disease-related yield estimate. This final calculation is separate from a complete crop-yield model.
 
-The reference upper-three-leaf canopy has maximum LAI of one. HAD loss has units of GLAI-days; division by maximum reference LAI gives normalized HAD loss in days. Numerical values are identical in the unit-LAI scenario. Relative HAD loss is the ratio of HAD loss to reference HAD and describes loss of assumed canopy function over the integration interval. Measured leaf-lesion percentage has a different denominator and temporal meaning.
+The reference upper-three-leaf canopy has maximum LAI of one. Disease-induced HAD loss integrates the assumed loss of functional green leaf area over time, with units of GLAI-days. Division by maximum reference LAI gives normalized HAD loss, expressed as equivalent days of reference canopy function lost. Numerical values are identical in the unit-LAI scenario. Relative HAD loss is the ratio of HAD loss to reference HAD and describes loss of assumed canopy function over the integration interval. Measured leaf-lesion percentage has a different denominator and temporal meaning.
 
 Full-grid climate estimates
 
@@ -32,9 +32,9 @@ Published protected and unprotected treatment means retain their leaf coverage, 
 
 The grid yield estimate is a linear conversion of HAD loss under the assumed upper-three-leaf canopy. Fixed coefficients and alternative GS31–85 and GS65–85 intervals assess dependence on these assumptions. The primary interval is shorter than the source coefficient interval, so the conversion requires field validation. Positive projected yield changes denote a decrease in the estimated disease-loss component; they do not establish a gain in total yield under future climate.
 
-Weather and crop-development contributions
+Weather and wheat-phenology contributions
 
-The separate decomposition uses four historical–future combinations of disease weather and wheat-development trajectories in the 64-draw sample. Twenty pairs exceeding the accepted temperature range in a recombined trajectory are excluded. The two Shapley contributions share the interaction equally and sum to the net change on the same valid pairs. Development offsets use the identical pair set in numerator and denominator. The three-model ensemble offset is a ratio of mean contributions.
+The separate decomposition uses four historical–future combinations of disease weather and wheat-phenology trajectories in the 64-draw sample. Twenty pairs exceeding the accepted temperature range in a recombined trajectory are excluded. The two Shapley contributions share the interaction equally and sum to the net change on the same valid pairs. Phenology offsets use the identical pair set in numerator and denominator. The three-model ensemble offset is a ratio of mean contributions.
 
 The main maps and regional estimates describe the completed full-grid experiment. Decomposition and structural sensitivity describe the separate sampled analysis. Field figures describe prediction errors on retrospective observations, and published yield figures describe treatment-mean contrasts. These datasets support different quantities and do not define a single overall model-accuracy percentage.
 
@@ -460,7 +460,7 @@ Table S12a | Four-combination Shapley decomposition for GS65–85 upper-three-le
 
 Component	Mean (HAD days)	GCM range	Spatial MCSE	Coverage	Draw-year pairs
 Weather contribution	+9.004	+6.528 to +12.221	0.621	99.20–99.86%	1909–1912
-Host-development contribution	-6.360	-7.774 to -5.244	0.377	99.20–99.86%	1909–1912
+Wheat-phenology contribution	-6.360	-7.774 to -5.244	0.377	99.20–99.86%	1909–1912
 Net HAD change	+2.644	+1.285 to +4.447	0.329	99.20–99.86%	1909–1912
 Weather × host interaction	-2.784	-3.119 to -2.372	0.300	99.20–99.86%	1909–1912
 
@@ -654,13 +654,13 @@ Unassigned	657	653	0.4664
 
 Supplementary figures
 
-Figure S1 | Field evaluation of wheat development dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
+Figure S1 | Field evaluation of wheat phenological stage dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
 
-Figure S2 | Field evaluation of wheat development dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
+Figure S2 | Field evaluation of wheat phenological stage dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
 
-Figure S3 | Calibration of wheat development dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
+Figure S3 | Calibration of wheat phenological stage dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
 
-Figure S4 | Calibration of wheat development dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
+Figure S4 | Calibration of wheat phenological stage dates. Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. Intervals express observation resolution rather than statistical confidence.
 
 Figure S5 | Retained T–P–V predictions on the German station test cohort at BBCH 10, 31, 51 and 85. Every common matched test event is represented, including date-error tails. Both axes use days from the recorded sowing anchor to avoid calendar-year ambiguity. Hexagon colour shows count on a shared logarithmic scale; axis ranges vary by stage. Missing predictions remain in the coverage tables. The station holdout concerns realized-weather phenology, rather than disease or field-yield forecasts.
 
@@ -684,9 +684,9 @@ Figure S14 | Historical simulated disease timing and canopy damage across the fu
 
 Figure S15 | Sensitivity of simulated climate responses to structural and reporting assumptions. (a) Flag-leaf symptom timing relative to flowering. (b) Normalized HAD loss during grain filling. All fourteen settings retain their common paired late-century SSP5–8.5 diagnostic population. Gray segments span three climate-model means; colored whiskers show one spatial Monte Carlo standard error for 64 area-proportional draws. Settings describe selected model assumptions rather than a probability distribution of future disease outcomes; precise settings and coverage remain in Supplementary Table S10.
 
-Figure S16 | Weather and wheat-development contributions and offsets. (a) Weather, crop-development and net HAD contributions with the full interaction shown separately. The interaction is already allocated equally between the two Shapley contributions and is not added again to the net. Gray segments span climate-model means; colored whiskers show one spatial Monte Carlo standard error. (b) Model-specific offsets and their ensemble-contribution ratio. The same 5,731 supported paired seasons underlie all HAD terms. The sampled analysis is separate from the full-grid estimates and does not measure intervention benefits.
+Figure S16 | Weather and wheat-phenology contributions and offsets. (a) Weather, crop-phenology and net HAD contributions with the full interaction shown separately. The interaction is already allocated equally between the two Shapley contributions and is not added again to the net. Gray segments span climate-model means; colored whiskers show one spatial Monte Carlo standard error. (b) Model-specific offsets and their ensemble-contribution ratio. The same 5,731 supported paired seasons underlie all HAD terms. The sampled analysis is separate from the full-grid estimates and does not measure intervention benefits.
 
-Figure S17 | Relationships among climate, wheat development, Septoria disease and the estimated yield response. Weather drives wheat development and disease. Leaf availability and seasonal timing connect crop development to infection and damage. Disease damage is mapped to an assumed loss of canopy function and integrated as HAD loss. A published coefficient provides a conditional disease-related yield estimate. The model has no disease feedback on crop-development rates and no complete crop carbon-balance calculation.
+Figure S17 | Relationships among climate, wheat phenology, Septoria disease and the estimated yield response. Wheat phenology comprises leaf appearance, unfolding, flowering and soft dough. Weather drives these stage dates and disease. Leaf availability and seasonal timing connect wheat phenology to infection and damage. Disease damage is mapped to an assumed loss of canopy function and integrated as HAD loss. A published coefficient provides a conditional disease-related yield estimate. The model has no disease feedback on crop-development rates and no complete crop carbon-balance calculation.
 
 Figure S18 | Evaluation of retained crop-development stages. (a) German station-held-out date errors at BBCH 10, 31, 51 and 85. Boxes span the interquartile range; whiskers span the fifth to ninety-fifth percentiles. (b) Pooled field errors outside genuine two-sided developmental-stage intervals, with all informative records represented. The station and field endpoints have different observation resolutions. Counts beneath stages give sample sizes; observation intervals do not define statistical confidence intervals.
 

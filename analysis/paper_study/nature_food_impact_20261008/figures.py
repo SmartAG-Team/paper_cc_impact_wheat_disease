@@ -137,7 +137,7 @@ def contribution_figure(destination,stem='fig4_weather_and_crop_contributions',f
     data=pd.read_csv(source).set_index('component')
     offsets=pd.read_csv(ROOT/'analysis/paper_study/nature_food_submission_20261008/derived/weather_host_offset.csv')
     components=['weather_shapley','host_shapley','total_change']+(['interaction'] if full else [])
-    labels=['Weather effect','Wheat development','Net change']+(['Weather × crop interaction'] if full else [])
+    labels=['Weather effect','Wheat phenology','Net change']+(['Weather × phenology'] if full else [])
     fig,axes=plt.subplots(1,2,figsize=(9.3,4.5),gridspec_kw={'width_ratios':[1,1]})
     fig.subplots_adjust(left=.15,right=.96,bottom=.21,top=.88,wspace=.59)
     for y,key,color in zip(range(len(components)),components,[BLUE,GREEN,GOLD,GREY]):
@@ -148,15 +148,15 @@ def contribution_figure(destination,stem='fig4_weather_and_crop_contributions',f
     axes[0].set_yticks(range(len(labels)),labels,fontsize=9);axes[0].invert_yaxis()
     axes[0].axvline(0,color=GREY,ls='--',lw=.8);clean(axes[0])
     axes[0].set_xlabel('Contribution to normalized HAD loss (days)',fontsize=8.8)
-    axes[0].set_title('a   Weather and wheat-development effects',loc='left',fontsize=10,fontweight='bold',pad=14)
+    axes[0].set_title('a   Weather and wheat-phenology effects',loc='left',fontsize=10,fontweight='bold',pad=14)
     part=offsets[offsets.climate_model.ne('Three-model ensemble')]
     axes[1].barh(range(3),part.host_offset_percent,color=GREEN,height=.52)
     axes[1].set_yticks(range(3),part.climate_model,fontsize=8.4);axes[1].invert_yaxis()
     for y,value in enumerate(part.host_offset_percent):axes[1].text(value+1.5,y,f'{value:.1f}%',va='center',fontsize=9)
     ensemble=float(offsets[offsets.climate_model.eq('Three-model ensemble')].host_offset_percent.iloc[0])
     axes[1].axvline(ensemble,color=GREY,ls='--',lw=.9);axes[1].set_xlim(0,103)
-    axes[1].set_xlabel('Weather contribution offset by crop development (%)',fontsize=8.7)
-    axes[1].set_title('b   Offset from wheat development',loc='left',fontsize=10,fontweight='bold',pad=14);clean(axes[1])
+    axes[1].set_xlabel('Weather contribution offset by wheat phenology (%)',fontsize=8.7)
+    axes[1].set_title('b   Offset from wheat phenology',loc='left',fontsize=10,fontweight='bold',pad=14);clean(axes[1])
     axes[1].text(.02,-.22,f'Ensemble: {ensemble:.1f}%',transform=axes[1].transAxes,fontsize=9,color=GREEN)
     export(fig,destination,stem)
     data.reset_index().to_csv(destination/f'{stem}_components.csv',index=False)
@@ -173,10 +173,10 @@ def main(destination):
     domain_figure(destination,regions,country)
     contribution_figure(destination)
     captions={
-      'fig1_grid_climate_canopy_impacts': 'Figure 1 | Projected changes in Septoria-related canopy damage across European wheat-growing areas. (a–f) Three-climate-model mean changes in normalized healthy-area-duration (HAD) loss during flowering to soft dough for two future periods relative to 1991–2020. HAD loss is divided by maximum reference upper-three-leaf LAI and expressed in days. Each 0.25° pixel represents a separately simulated wheat-growing cell. Positive values indicate increasing accumulated canopy damage; negative values indicate decreasing damage. The six maps share a symmetric colour scale. The fixed SPAM2020 all-wheat mask contains 14,941 cells, of which 14,932 have a winter-wheat rainfed calendar. Grey wheat pixels have unavailable estimates. Country and regional summaries use fixed harvested-area weights. Supplementary Fig. S19 shows agreement among climate models.',
+      'fig1_grid_climate_canopy_impacts': 'Figure 1 | Projected changes in Septoria-related canopy damage across European wheat-growing areas. (a–f) Three-climate-model mean changes in normalized loss of healthy-area duration (HAD) during flowering to soft dough for two future periods relative to 1991–2020. HAD loss is divided by maximum reference upper-three-leaf LAI and expressed in days. Each 0.25° pixel represents a separately simulated wheat-growing cell. Positive values indicate increasing accumulated canopy damage; negative values indicate decreasing damage. The six maps share a symmetric colour scale. The fixed SPAM2020 all-wheat mask contains 14,941 cells, of which 14,932 have a winter-wheat rainfed calendar. Grey wheat pixels have unavailable estimates. Country and regional summaries use fixed harvested-area weights. Supplementary Fig. S19 shows agreement among climate models.',
       'fig2_disease_frequency_timing_severity': 'Figure 2 | Projected changes in Septoria symptoms and canopy damage. Panels show three-model mean changes under SSP5–8.5 in 2071–2100 relative to 1991–2020. (a) Frequency of seasons with flag-leaf symptoms before soft dough. (b) First symptoms relative to flowering; negative changes indicate earlier symptoms. (c) Relative HAD loss, the fraction of reference healthy-area duration lost during grain filling, expressed as a percentage-point change. This modelled loss of canopy function differs from measured lesion percentage. (d) Days from the fixed sowing date to first symptoms; negative changes indicate a shorter interval. Each panel has its own symmetric colour scale. Timing requires symptoms in both paired seasons, whereas frequency includes complete seasons without symptoms. Grey wheat pixels have unavailable estimates.',
       'fig3_regional_and_country_impacts': 'Figure 3 | Regional differences in canopy damage and inferred yield response. (a) Harvested-area-weighted changes in normalized HAD loss within eight EEA biogeographical regions. (b) Estimated disease-related yield changes for the twelve countries with the largest reference wheat area within the study domain. Both panels compare 2071–2100 with 1991–2020 under three emissions pathways. Points show three-model means; whiskers span model-specific estimates and are not confidence intervals. Country assignment follows the dominant SPAM source-country label of each cell. The yield estimate uses the change in HAD loss and the fixed coefficient 0.018 t ha⁻¹ per GLAI-day, normalized to unit reference upper-canopy LAI. Negative values indicate increased estimated disease-related yield loss. These estimates require validation of the canopy–yield relationship and do not describe total national production. Source Data includes all country groups.',
-      'fig4_weather_and_crop_contributions': 'Figure 4 | Wheat development offsets part of the weather contribution to Septoria damage. (a) Weather and wheat-development contributions to normalized HAD loss during grain filling, and their sum, under late-century SSP5–8.5. The analysis uses 64 harvested-area-proportional draws at 62 cells and 5,731 valid season pairs. Grey segments span climate-model means; coloured whiskers show one spatial Monte Carlo standard error. Each Shapley contribution includes half of the weather–development interaction, shown separately in Supplementary Fig. S16. (b) Percentage of the weather contribution offset by wheat development in each climate model. The dashed line shows the ratio of ensemble contributions, 70.6%. These comparisons separate effects within the model; they do not estimate the effectiveness of changing sowing dates or cultivars.',
+      'fig4_weather_and_crop_contributions': 'Figure 4 | Wheat phenology offsets part of the weather contribution to Septoria damage. (a) Weather and wheat-phenology contributions to normalized HAD loss during grain filling, and their sum, under late-century SSP5–8.5. The phenology contribution includes changes in upper-leaf appearance and unfolding and the flowering-to-soft-dough interval. The analysis uses 64 harvested-area-proportional draws at 62 cells and 5,731 valid season pairs. Grey segments span climate-model means; coloured whiskers show one spatial Monte Carlo standard error. Each Shapley contribution includes half of the weather–phenology interaction, shown separately in Supplementary Fig. S16. (b) Percentage of the weather contribution offset by wheat phenology in each climate model. The dashed line shows the ratio of ensemble contributions, 70.6%. These comparisons separate effects within the model; they do not estimate the effectiveness of changing sowing dates or cultivars.',
     }
     (destination/'captions.json').write_text(json.dumps(captions,indent=2)+'\n')
     return captions
@@ -205,7 +205,7 @@ def field_panels(destination,exporter,stages,stem,cohort,number):
         ax.set_aspect('equal');ax.set_title(f'{letter}   {STAGES[stage]} (BBCH {stage})',loc='left',fontsize=9.7,fontweight='bold')
         ax.tick_params(labelsize=8.5);ax.xaxis.label.set_size(8.6);ax.yaxis.label.set_size(8.6);ax.grid(color='#ededed',lw=.6)
     exporter(fig,destination,stem)
-    return (f'Figure S{number} | {cohort} of wheat development dates. '
+    return (f'Figure S{number} | {cohort} of wheat phenological stage dates. '
             'Horizontal segments show observed two-sided stage intervals; their centers locate markers and are not treated as exact event dates. '
             'The dashed diagonal denotes equal dates, and an interval intersecting it contains the prediction. '
             'Counts give compatible intervals among all informative records. Observations from both field archives are pooled; calibration and evaluation remain separate. '
@@ -470,18 +470,18 @@ def supplementary_framework(destination):
     def arrow(start,end,color=GREY):
         ax.add_patch(FancyArrowPatch(start,end,arrowstyle='-|>',mutation_scale=13,color=color,lw=1.4))
     box(.025,.43,.18,.18,'Climate and weather\nTemperature, humidity\nand rainfall','#e6eef4')
-    box(.275,.71,.25,.20,'Wheat development\nLeaf appearance and unfolding\nFlowering and soft dough','#e8f0eb')
+    box(.275,.71,.25,.20,'Wheat phenology\nLeaf appearance and unfolding\nFlowering and soft dough','#e8f0eb')
     box(.275,.15,.25,.20,'Septoria disease\nInfection and progression\nSymptoms and leaf damage','#e6eef4')
-    box(.635,.60,.32,.22,'Loss of healthy canopy\nDamage-to-function assumption\nHealthy-area-duration loss','#e8f0eb')
+    box(.635,.60,.32,.22,'Loss of healthy canopy\nDamage-to-function assumption\nLoss of healthy-area duration','#e8f0eb')
     box(.635,.13,.32,.22,'Disease-related yield estimate\nPublished HAD–yield coefficient\nConditional on canopy assumptions','#f2ebde')
     arrow((.21,.57),(.27,.79),BLUE);arrow((.21,.46),(.27,.26),BLUE)
     arrow((.40,.70),(.40,.36),GREEN)
     ax.text(.41,.52,'Leaf availability\nand seasonal exposure',ha='left',va='center',fontsize=8.5,color=GREEN)
     arrow((.535,.81),(.63,.76),GREEN);arrow((.535,.25),(.63,.64),BLUE)
     arrow((.80,.59),(.80,.36),GOLD)
-    ax.text(.03,.035,'Crop development drives disease exposure; disease damage does not feed back into developmental rates.',fontsize=8.5,color=GREY)
+    ax.text(.03,.035,'Wheat phenology drives disease exposure; disease damage does not feed back into developmental rates.',fontsize=8.5,color=GREY)
     export(fig,destination,'figS17_framework')
-    return 'figS17_framework',('Figure S17 | Relationships among climate, wheat development, Septoria disease and the estimated yield response. '
-      'Weather drives wheat development and disease. Leaf availability and seasonal timing connect crop development to infection and damage. '
+    return 'figS17_framework',('Figure S17 | Relationships among climate, wheat phenology, Septoria disease and the estimated yield response. '
+      'Wheat phenology comprises leaf appearance, unfolding, flowering and soft dough. Weather drives these stage dates and disease. Leaf availability and seasonal timing connect wheat phenology to infection and damage. '
       'Disease damage is mapped to an assumed loss of canopy function and integrated as HAD loss. A published coefficient provides a conditional disease-related yield estimate. '
       'The model has no disease feedback on crop-development rates and no complete crop carbon-balance calculation.')

@@ -148,6 +148,12 @@ def supplementary_tables():
                         ('HAD3 is GLAI-days per unit nominal upper-three-leaf LAI','Normalized HAD loss is expressed in days'),
                         ('common paired support','identical valid season pairs'),
                         ('Disease-weather contribution','Weather contribution'),
+                        ('Wheat-development','Wheat-phenology'),
+                        ('wheat-development','wheat-phenology'),
+                        ('Wheat development','Wheat phenology'),
+                        ('wheat development','wheat phenology'),
+                        ('Host-development','Wheat-phenology'),
+                        ('Crop-development','Wheat-phenology'),
                         ('supported-forcing population','seasons meeting the weather input rules')]:
             value=value.replace(old,new)
         return value

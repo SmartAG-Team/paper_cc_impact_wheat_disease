@@ -2,9 +2,9 @@ Supplementary Methods
 
 Crop, disease and yield relationships
 
-Daily climate data drive wheat-development and Septoria-disease calculations. Wheat development determines leaf appearance, unfolding and the flowering-to-soft-dough interval. The disease model predicts damage on those leaves; its damage does not feed back into crop-development rates. After symptom detection, damage is mapped to an assumed loss of leaf function. Integration gives HAD loss, and a published coefficient converts HAD loss to a conditional disease-related yield estimate. This final calculation is separate from a complete crop-yield model.
+Daily climate data drive wheat-phenology and Septoria-disease calculations. Wheat phenology determines leaf appearance, unfolding and the flowering-to-soft-dough interval. The disease model predicts damage on those leaves; its damage does not feed back into crop-development rates. After symptom detection, damage is mapped to an assumed loss of leaf function. Integration gives HAD loss, and a published coefficient converts HAD loss to a conditional disease-related yield estimate. This final calculation is separate from a complete crop-yield model.
 
-The reference upper-three-leaf canopy has maximum LAI of one. HAD loss has units of GLAI-days; division by maximum reference LAI gives normalized HAD loss in days. Numerical values are identical in the unit-LAI scenario. Relative HAD loss is the ratio of HAD loss to reference HAD and describes loss of assumed canopy function over the integration interval. Measured leaf-lesion percentage has a different denominator and temporal meaning.
+The reference upper-three-leaf canopy has maximum LAI of one. Disease-induced HAD loss integrates the assumed loss of functional green leaf area over time, with units of GLAI-days. Division by maximum reference LAI gives normalized HAD loss, expressed as equivalent days of reference canopy function lost. Numerical values are identical in the unit-LAI scenario. Relative HAD loss is the ratio of HAD loss to reference HAD and describes loss of assumed canopy function over the integration interval. Measured leaf-lesion percentage has a different denominator and temporal meaning.
 
 Full-grid climate estimates
 
@@ -26,8 +26,8 @@ Published protected and unprotected treatment means retain their leaf coverage, 
 
 The grid yield estimate is a linear conversion of HAD loss under the assumed upper-three-leaf canopy. Fixed coefficients and alternative GS31–85 and GS65–85 intervals assess dependence on these assumptions. The primary interval is shorter than the source coefficient interval, so the conversion requires field validation. Positive projected yield changes denote a decrease in the estimated disease-loss component; they do not establish a gain in total yield under future climate.
 
-Weather and crop-development contributions
+Weather and wheat-phenology contributions
 
-The separate decomposition uses four historical–future combinations of disease weather and wheat-development trajectories in the 64-draw sample. Twenty pairs exceeding the accepted temperature range in a recombined trajectory are excluded. The two Shapley contributions share the interaction equally and sum to the net change on the same valid pairs. Development offsets use the identical pair set in numerator and denominator. The three-model ensemble offset is a ratio of mean contributions.
+The separate decomposition uses four historical–future combinations of disease weather and wheat-phenology trajectories in the 64-draw sample. Twenty pairs exceeding the accepted temperature range in a recombined trajectory are excluded. The two Shapley contributions share the interaction equally and sum to the net change on the same valid pairs. Phenology offsets use the identical pair set in numerator and denominator. The three-model ensemble offset is a ratio of mean contributions.
 
 The main maps and regional estimates describe the completed full-grid experiment. Decomposition and structural sensitivity describe the separate sampled analysis. Field figures describe prediction errors on retrospective observations, and published yield figures describe treatment-mean contrasts. These datasets support different quantities and do not define a single overall model-accuracy percentage.
