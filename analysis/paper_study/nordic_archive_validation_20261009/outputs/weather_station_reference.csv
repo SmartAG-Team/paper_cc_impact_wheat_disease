@@ -1,0 +1,32 @@
+source_station_index,station,region,station_key,source_row
+1,DK_6019_Silstrup,DK_Midt- og Vestjylland,DK_6019_SILSTRUP,2
+2,DK_7430_Ikast,DK_Midt- og Vestjylland,DK_7430_IKAST,3
+3,DK_6031_Tylstrup,DK_Nordjylland,DK_6031_TYLSTRUP,4
+4,DK_6065_Års,DK_Nordjylland,DK_6065_ÅRS,5
+5,DK_6116_Jyndevad,DK_Sønderjylland,DK_6116_JYNDEVAD,6
+6,DK_4200_Slagelse,DK_Øerne,DK_4200_SLAGELSE,7
+7,DK_4960_Holeby,DK_Øerne,DK_4960_HOLEBY,8
+8,DK_6126_Årslev,DK_Øerne,DK_6126_ÅRSLEV,9
+9,DK_6135_Flakkebjerg,DK_Øerne,DK_6135_FLAKKEBJERG,10
+10,DK_6141_Abed,DK_Øerne,DK_6141_ABED,11
+11,DK_6156_Holbæk,DK_Øerne,DK_6156_HOLBÆK,12
+12,DK_6197_Nexø,DK_Øerne,DK_6197_NEXØ,13
+13,DK_9330_Dronninglund,DK_Øerne,DK_9330_DRONNINGLUND,14
+14,DK_6072_Ødum,DK_Østjylland,DK_6072_ØDUM,15
+15,DK_6102_Horsens,DK_Østjylland,DK_6102_HORSENS,16
+16,DK_8700_Horsens,DK_Østjylland,DK_8700_HORSENS,17
+17,FI_101787_SiikajokiRuukki,FI_Norra,FI_101787_SIIKAJOKIRUUKKI,18
+18,FI_101104_Jokioinen,FI_Sydvästra,FI_101104_JOKIOINEN,19
+19,FI_101486_Ylistaro,FI_Västra,FI_101486_YLISTARO,20
+20,LT_0001_DotnuvaWS,LT_Kaunas,LT_0001_DOTNUVAWS,21
+21,NO_53_Aarnes,NO_Akershus,NO_53_AARNES,22
+22,NO_11_Apelsvoll,NO_Oppland,NO_11_APELSVOLL,23
+23,NO_38_Ramnes,NO_Vestfold,NO_38_RAMNES,24
+24,NO_50_Tjolling,NO_Vestfold,NO_50_TJOLLING,25
+25,NO_118_Osaker,NO_Østfold,NO_118_OSAKER,26
+26,SE_1636_Sturup,SE_Skåne,SE_1636_STURUP,27
+27,SE_1801_Tomelilla,SE_Skåne,SE_1801_TOMELILLA,28
+28,SE_1458_Uppsala,SE_Uppsala,SE_1458_UPPSALA,29
+29,SE_0001_Bjertorp,SE_Västra Götaland,SE_0001_BJERTORP,30
+30,SE_1542_Hällum,SE_Västra Götaland,SE_1542_HÄLLUM,31
+31,SE_1562_Malmslätt,SE_Östergötland,SE_1562_MALMSLÄTT,32

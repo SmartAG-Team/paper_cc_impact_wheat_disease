@@ -1,0 +1,215 @@
+{
+  "status": "passed",
+  "contract_test_output": "...............\n----------------------------------------------------------------------\nRan 15 tests in 0.023s\n\nOK",
+  "checks": [
+    {
+      "check": "code_hash_core.py",
+      "passed": true,
+      "detail": "062128455adbf2cd689615fd8a3a948749e327e5894c782aa0cb735a2ce269ca"
+    },
+    {
+      "check": "code_hash_run.py",
+      "passed": true,
+      "detail": "300f46531b220f1d043ab9886a0bea311aa8a663e0bd231e3688ef35d46875bc"
+    },
+    {
+      "check": "artifact_hash_analysis_checks.csv",
+      "passed": true,
+      "detail": "dec7ef8a6509279a1ab94b3c38c1c026e890deb9b76da346db1e68ee30bf1c92"
+    },
+    {
+      "check": "artifact_hash_applicability.json",
+      "passed": true,
+      "detail": "0c14b6fb34512a7694759199dc81c29c5421f069ab75ef410e2d864ef9da0a76"
+    },
+    {
+      "check": "artifact_hash_french_contrasts.csv",
+      "passed": true,
+      "detail": "2761695a3c448aa50650c699c17f071c2086cfd9bd0c5cbc639433f501e3888b"
+    },
+    {
+      "check": "artifact_hash_french_dependency_groups.csv",
+      "passed": true,
+      "detail": "aca107879539eab2b66797624ed3fb19d69207cdcd080fb21fd7508b50163100"
+    },
+    {
+      "check": "artifact_hash_french_exclusions.csv",
+      "passed": true,
+      "detail": "004a7567fcbecd787f66f97cdec0220efb45a74d3f08a9abf32d83f36af31e5d"
+    },
+    {
+      "check": "artifact_hash_french_hindsight_selection.csv",
+      "passed": true,
+      "detail": "6944d4e9ad8bcbcebed49fc51a0dfad396d3f825472ce427e527836401fb1ae3"
+    },
+    {
+      "check": "artifact_hash_french_influence.csv",
+      "passed": true,
+      "detail": "760f2c1fde63a4f3cee207c6d8506392f85448a67112c31e8560390786dc6355"
+    },
+    {
+      "check": "artifact_hash_french_measured_tradeoffs.csv",
+      "passed": true,
+      "detail": "122af44c14250ff1bbe0bd2f1dee638240bc98dde56ea21e0f69da2960d317a8"
+    },
+    {
+      "check": "artifact_hash_french_plots.csv",
+      "passed": true,
+      "detail": "be04ba0f4816d7b1a3a7b9b911f35fdc7cf443af5fe950f84caf2960a5420993"
+    },
+    {
+      "check": "artifact_hash_french_raw_grid_eligibility.csv",
+      "passed": true,
+      "detail": "1ed5a473729085d08453f6abe31a1461fd86c4568c200aeac75c3fa29033b3e3"
+    },
+    {
+      "check": "artifact_hash_french_summary.csv",
+      "passed": true,
+      "detail": "54bcf50d133bdceaece9deaddf505d2bb1f0279528c19cdd61de503a1adba395"
+    },
+    {
+      "check": "artifact_hash_swiss_check_summary.csv",
+      "passed": true,
+      "detail": "90a51a5d80fc892f05a6f98a9cb3655314289b6e7db119c2796698a1c4adc63c"
+    },
+    {
+      "check": "artifact_hash_swiss_constituent_coverage.csv",
+      "passed": true,
+      "detail": "d6a93f3c1b60f47cd9ae7dd51430bfb1488be6a4da932526bc6bf49ecaa1f29c"
+    },
+    {
+      "check": "artifact_hash_swiss_contrasts.csv",
+      "passed": true,
+      "detail": "fcc8158f2ec102b066144ce4eeaf41ede927d4e7058ab2f49b3ff112b3f17d7d"
+    },
+    {
+      "check": "artifact_hash_swiss_environments.csv",
+      "passed": true,
+      "detail": "8bcc97697d6f3e66d4dcae3ce2c5021fc87b473912dbcffccbc2b0afaf5f4d13"
+    },
+    {
+      "check": "artifact_hash_swiss_measured_tradeoffs.csv",
+      "passed": true,
+      "detail": "13e8e41692fd97650bb88f376784018f3b9ef2c8fae829939cf8b36dfa3c5c70"
+    },
+    {
+      "check": "artifact_hash_swiss_mixture_eligibility.csv",
+      "passed": true,
+      "detail": "b20afe4901dc4cc6acd76b83a18ebef6797de3bd67e5529b033674ec4931a999"
+    },
+    {
+      "check": "artifact_hash_swiss_records.csv",
+      "passed": true,
+      "detail": "1aaae49a20b689268272f0347e2de70a9d97177e5dab1c0aee640ffe5cb67af5"
+    },
+    {
+      "check": "artifact_hash_swiss_release_mapping.csv",
+      "passed": true,
+      "detail": "485ad4e3de2ad52925c077c89f05d7f89c0b58192b29517eba54e18be9efa16d"
+    },
+    {
+      "check": "artifact_hash_swiss_same_block_checks.csv",
+      "passed": true,
+      "detail": "5c7875c3aca3280d428f562ed7e4e36f88ae5bf01b8fbcb7ff017471ef72eec4"
+    },
+    {
+      "check": "artifact_hash_swiss_same_trial_constituent_gate.csv",
+      "passed": true,
+      "detail": "1b8751090dad92197d23a1a6e9c8bfd8a0d4b191a39edea944824219a14bab3e"
+    },
+    {
+      "check": "artifact_hash_swiss_source_groups.csv",
+      "passed": true,
+      "detail": "c851e2c17f3dba6b56dcb79f72a548c62a4ece635af1dc2eb9b85867452088d2"
+    },
+    {
+      "check": "artifact_hash_swiss_summary.csv",
+      "passed": true,
+      "detail": "b5e51fc94063df0a7981c35c86f8e0aaa9f69b85c4c9c47ad45d7064ce00b1ca"
+    },
+    {
+      "check": "artifact_hash_swiss_transfer_predictions.csv",
+      "passed": true,
+      "detail": "156fbbb0307b7243fec4b455dd4a6eb1d28148e04ea2445e1160268bd55b518d"
+    },
+    {
+      "check": "artifact_hash_swiss_transfer_summary.csv",
+      "passed": true,
+      "detail": "ebc7abe77fd3d8b36fa92ad78fd1a4cabe4b6ddb690e5cf3d111596dfd3586c9"
+    },
+    {
+      "check": "French_direct_raw_reconstruction",
+      "passed": true,
+      "detail": "All raw plot means, constituent baselines, differences and percentages reconstructed using CSV rows without pipeline estimators"
+    },
+    {
+      "check": "French_no_pseudoreplicated_row_count",
+      "passed": true,
+      "detail": "381 author-retained physical plots; 195 complete comparisons, not 4x counts"
+    },
+    {
+      "check": "French_no_disease_conditioning",
+      "passed": true,
+      "detail": "137 contrasts retained without a mixture STB score"
+    },
+    {
+      "check": "French_dependency_dominance_retained",
+      "passed": true,
+      "detail": "189/195 comparisons in largest shared-control component"
+    },
+    {
+      "check": "French_CI_not_manufactured",
+      "passed": true,
+      "detail": "Intervals unavailable; influence ranges are separately labeled"
+    },
+    {
+      "check": "French_genotype_deletion_includes_all_shared_controls",
+      "passed": true,
+      "detail": "Every comparison sharing each omitted constituent removed"
+    },
+    {
+      "check": "Swiss_exact_source_line_reconstruction",
+      "passed": true,
+      "detail": "All unique current payloads compared with exact prior-release rows; source yield units independently converted"
+    },
+    {
+      "check": "Swiss_controls_never_cross_environment_or_trial_code",
+      "passed": true,
+      "detail": "All 147 diagnostic plot-control-group comparisons directly recomputed from named references"
+    },
+    {
+      "check": "Swiss_constituent_gate_fails_honestly",
+      "passed": true,
+      "detail": "0/637 binary harvest plots have complete same-trial constituent baselines"
+    },
+    {
+      "check": "Swiss_no_causal_flags",
+      "passed": true,
+      "detail": "All external comparisons noncausal"
+    },
+    {
+      "check": "Swiss_equal_trial_and_composition_weights",
+      "passed": true,
+      "detail": "Replicates -> composition -> environment -> equal environment mean, independently reconstructed"
+    },
+    {
+      "check": "Swiss_transfer_group_leakage_absent",
+      "passed": true,
+      "detail": "All training memberships and training-only predictions checked"
+    },
+    {
+      "check": "Unsupported_claims_machine_readable",
+      "passed": true,
+      "detail": "No validated climate adaptation, STB grain-loss mediation or European production claim"
+    },
+    {
+      "check": "Byte_identical_replay",
+      "passed": true,
+      "detail": "25 output tables/JSON files reproduce without external data or prior-module imports"
+    }
+  ],
+  "analysis_receipt_sha256": "3d804019b463a6cb1aca4b6753a17b95ab0881dc51bdbde2334b513704c05040",
+  "verifier_sha256": "cc5cdcf4927b2e05b0d1b3cf24880e325f904f18bf0db03906b223ff27caa8a7",
+  "test_sha256": "593be715dfb622386cde903b075aee899412ec77bc47f1c82a23810054a5dbde",
+  "limits": "Computational verification does not validate exchangeability, adaptation, disease-mediated loss or environmental transfer"
+}

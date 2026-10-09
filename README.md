@@ -28,6 +28,10 @@ The main results distinguish predictive support, climate-driven canopy damage, f
 | `analysis/paper_study/nature_food_impact_20261008/` | Current publication builder, pooled evaluation and verification |
 | `analysis/paper_study/food_security_exposure_20261009/` | Production exposure, fractional source-country weights and coverage sensitivity |
 | `analysis/paper_study/yield_transfer_audit_20261009/` | Additional field-source audit and yield-validation requirements |
+| `analysis/paper_study/climate_robustness_20261009/` | Year-pairing and complete-population sensitivity; annual canopy-damage distributions |
+| `analysis/paper_study/nordic_archive_validation_20261009/` | Older Nordic/Baltic management-grain contrasts and grouped benchmarks |
+| `analysis/paper_study/mixture_adaptation_20261009/` | French mixture grain comparisons and Swiss control-comparability diagnostics |
+| `analysis/paper_study/physiological_evidence_20261009/` | Physiological-source compatibility inventory and empty observation-intake schema |
 | `publication/european_wheat_stb/` | Current manuscript, supplementary material, figures and source data |
 
 The repository contains the current manuscript, maintained code and supporting numerical evidence. Superseded manuscript drafts, duplicated code snapshots and unused analysis outputs have been removed from the active tree. Dated folders that remain contain dependencies of the current workflow; their names preserve recorded source paths and provenance. The current submission is the publication folder linked above. Local environments, redundant backups, raw climate forcing and the complete archive of full-grid annual outputs remain outside Git. Their source paths and checksums remain in the recorded acquisition and completion receipts. Selected archived diagnostic and example outputs remain available as publication evidence. `repository_manifest.json` records the evidence and tracked-file scope. The software-and-evidence submission bundle contains maintained code, numerical evidence and source provenance; the corresponding files also remain directly inspectable in the repository.
@@ -110,3 +114,41 @@ future physiological validation. The compact sources retain CC BY 4.0
 attribution. Neither production exposure nor those regressions establish
 STB-attributable tonnes lost or adaptation efficacy. The [milestone table](analysis/paper_study/nature_food_impact_20261008/derived/research_milestones.csv)
 records which research-plan requirements remain unresolved.
+
+### Annual climate-impact robustness
+
+The [annual sensitivity analysis](analysis/paper_study/climate_robustness_20261009/METHODS.md)
+preserves exact canopy-damage values from all 810 annual files in a compact NPZ
+bundle. It evaluates all 30 cyclic year pairings, separate-period and common-cell
+means, rainfed-production weights, and annual regional damage distributions.
+Common cells are complete in every year and all three climate models.
+
+```sh
+.venv/bin/python -m analysis.paper_study.climate_robustness_20261009.run \
+  --output /tmp/climate-sensitivity-reproduction
+```
+
+These outputs quantify sensitivity of the existing conditional climate results.
+High-damage-year frequencies concern canopy function; harvested-yield downside
+risk remains a separate validation target. Model ranges are not confidence
+intervals or calibrated probabilities.
+
+### Observed management-grain comparisons
+
+The [Nordic/Baltic archive analysis](analysis/paper_study/nordic_archive_validation_20261009/README.md)
+retains 307 grain contrasts from 263 reported trial identifiers, with shared
+controls and grouped validation. The [mixture analysis](analysis/paper_study/mixture_adaptation_20261009/README.md)
+compares 195 French mixtures with constituent pure stands and checks Swiss
+control comparability. These are observed management outcomes; they do not
+calibrate STB-specific loss or future climate-adaptation benefits.
+
+```sh
+.venv/bin/python analysis/paper_study/nordic_archive_validation_20261009/verify_reproduction.py
+.venv/bin/python analysis/paper_study/mixture_adaptation_20261009/verify.py
+```
+
+The [physiological evidence inventory](analysis/paper_study/physiological_evidence_20261009/COMPATIBILITY_REPORT.md)
+records a bounded 16-source screen, exact missing measurements and concrete
+experimental leads. It contains no new qualifying physiological observations.
+Empty intake templates and structural checks support future observed inputs;
+they are not fitted crop-growth or disease-loss models.

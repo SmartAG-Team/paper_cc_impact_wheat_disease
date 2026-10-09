@@ -1,0 +1,54 @@
+table_or_scope,field,unit_or_type,definition,interpretation_limit
+all,environment_id,identifier,"Source country plus site and harvest year; France has only FR_Mauguio_2018",An environment is not a plot
+all,site_id,identifier,"Mauguio or Swiss postcode string",Swiss postcode does not identify an external trial population
+all,year,harvest_year,2018 France or 2019/2020 Swiss mixture experiment,No future climate treatment
+french_plots,plot_id,physical_plot_season,"Grid row and column within Mauguio 2018",Four harvest rows are one plot
+swiss_records,plot_id,identifier,"Recovered original physical identifier where available; otherwise CH_pub_lines_ plus current source lines",Anonymous controls are source-record proxies without verified physical plot identity
+swiss_records,physical_plot_id_recovered,boolean,Physical identifier exists in earlier source,False does not imply independent plot replication
+swiss_records,current_source_lines,CSV_line_numbers,One-based file lines including header; pipe separates duplicate aliases,Aliases are not replicates
+swiss_records,previous_source_lines,CSV_line_numbers,Exact matched earlier-release lines; pipe separates identical aliases,Earlier release does not add observations
+swiss_release_mapping,_payload_id,integer,Unique current-release shared-field payload,Multiple candidate mapping rows may represent one ambiguous payload
+swiss_release_mapping,mapping_status,enum,unique or ambiguous or unmatched,Only unique matches are eligible
+french_plots,raw_source_lines,CSV_line_numbers,Four row representations in raw_yield_variables.csv,Monoculture pooled samples are duplicated across paired row representations
+french_plots,author_source_line,CSV_line_number,Source GY_RAW_RYT.csv row for original inclusion and adjusted estimate,The source RAW_GY name denotes a spatial BLUP
+french_plots,n_finite_yield_rows,count,Number of nonmissing raw grain yields out of four,Four finite row values required for primary endpoint
+french_plots,yield_t_ha,t/ha,Mean of four equal-area GY values in g/m2 multiplied by 0.01,Dried grain with unspecified moisture percentage
+swiss_records,yield_t_ha,t/ha,Source yield_dtha multiplied by 0.1,Prior archive states 15 percent moisture; not independently specified in current README
+all,composition_id,identifier,Sorted constituent identities separated by a pipe,No genotype-based climate transfer inference
+swiss_records,control_group,source_ww_code,Earlier-release trial code retained as a separate control population,External code meanings and management regimes unresolved
+swiss_contrasts,block,source_replicate,Mixture-trial block from earlier release,Block numbers are not aligned across external trials
+swiss_contrasts,control_1_ids,identifier_list,All available constituent-1 pure source records within identical environment and trial code,No cross-code pooling
+swiss_contrasts,control_2_ids,identifier_list,All available constituent-2 pure source records within identical environment and trial code,No cross-code pooling
+swiss_contrasts,control_1_n,count,Number of finite constituent-1 control records used,Anonymous source records are not independently validated plot identities
+swiss_contrasts,control_2_n,count,Number of finite constituent-2 control records used,Replication is averaged within constituent first
+french_contrasts,baseline_t_ha,t/ha,Arithmetic mean of two matching same-trial pure-stand yields,Only complete constituent controls are eligible
+swiss_contrasts,baseline_t_ha,t/ha,Arithmetic mean of two constituent control means within the same environment and ww code,Noncausal external-source reference
+all contrasts,delta_t_ha,t/ha,Mixture yield minus constituent baseline,Total harvest difference not disease-specific loss
+all contrasts,relative_percent,percent,100 times delta divided by constituent baseline,Mean paired ratios differs from ratio of grand means
+french_contrasts,raw_component_ryt,dimensionless,Mean of two component-specific mixture/pure yield ratios,Not the plot-total yield ratio
+french_contrasts,author_component_ryt,dimensionless,Source RYT_GY based on component spatial BLUPs,Not an independent field observation
+french_contrasts,author_blup_t_ha,t/ha,Source RAW_GY multiplied by 0.01,Whole-trial spatial model estimate
+french_contrasts,blup_delta_t_ha,t/ha,Adjusted mixture minus mean adjusted pure controls on primary eligible comparisons,Descriptive sensitivity; not held-out prediction
+french_contrasts,dependency_group,identifier,Connected component of the constituent-sharing graph,189/195 contrasts share the largest component
+all contrasts,hindsight_best_delta_t_ha,t/ha,Mixture yield minus higher observed constituent mean,Selection on observed yields; not prospective management policy
+french_summary,below_baseline_fraction,fraction_0_1,Count of plot comparisons with negative difference divided by eligible comparisons,Observed sample downside; not future failure probability
+swiss_summary,equal_trial_below_baseline_fraction,fraction_0_1,Average across environments of the fraction of replicate-averaged compositions below baseline,Not plot-weighted or a probability of future crop failure
+french_summary,empirical_p10_delta_t_ha,t/ha,Linear empirical 10th percentile across eligible plot comparisons,Not an annual-production tail estimate
+swiss_summary,mean_environment_p10_delta_t_ha,t/ha,Mean of environment-specific empirical 10th percentiles across composition means,Not the pooled plot percentile
+swiss_summary,cluster_stability_lower,t/ha,2.5th percentile from 10000 seeded site-cluster bootstrap means,Noncausal descriptive stability; few sites
+swiss_summary,cluster_stability_upper,t/ha,97.5th percentile from 10000 seeded site-cluster bootstrap means,Null when fewer than two sites
+french_summary,ci_lower,t/ha,Missing because independent environmental or shared-control cluster uncertainty is unsupported,No interval imputed
+french_summary,ci_upper,t/ha,Missing because independent environmental or shared-control cluster uncertainty is unsupported,No interval imputed
+french_influence,mean_delta_t_ha,t/ha,Mean after all mixture/control comparisons touching deleted genotype or coordinate are removed,Influence diagnostic not confidence interval
+swiss_transfer_predictions,prediction,t/ha,Equal-environment training mean within the same source code,No held-out environment used for fitting
+swiss_transfer_predictions,training_environments,identifier_list,Pipe-separated training environment IDs,Leave-site-out and forward-year schemes remain distinct
+french_plots,stb_ordinal,ordinal_0_to_3,Source early GS30 mixture score averaged over constituents,Disease context only; later fungicide; not percent leaf area
+swiss_records,septo_2,source_ordinal,Source final Septoria score preserved unchanged,No dates; source scale documentation conflicts; no physiological conversion
+swiss_contrasts,prot_delta,percentage_points_dry_matter,Mixture protein minus complete matched-source constituent baseline,Noncausal measured-trait difference
+swiss_contrasts,phl_delta,kg/hl,Mixture specific weight minus complete matched-source constituent baseline,Noncausal measured-trait difference
+french_contrasts,tkw_g,g,Sum grain mass divided by sum grain mass/TKW across equal-area harvest rows,Measured yield component not milling-quality grade
+french_contrasts,tkw_baseline_g,g,Equal-land constituent grain mass divided by inferred kernel number,Not arithmetic mean of TKW values
+french_contrasts,tkw_delta_g,g,Mixture thousand-kernel weight minus constituent kernel-number baseline,No price or protein inference
+applicability,causal_constituent_contrast,boolean,Conditional within-trial support in France; false for Swiss external controls,Read causal_scope and all endpoint-specific flags
+applicability,validated_climate_adaptation,boolean,false in both datasets,No future-climate intervention experiment or validated transfer
+applicability,stb_mediated_grain_loss,boolean,false in both datasets,No identified mediation or compatible seasonal disease-loss reference

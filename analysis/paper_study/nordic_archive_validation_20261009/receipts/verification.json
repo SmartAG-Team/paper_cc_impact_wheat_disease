@@ -1,0 +1,74 @@
+{
+  "verified_utc": "2026-10-09T19:34:10.415407+00:00",
+  "runs": [
+    {
+      "name": "run",
+      "command": [
+        "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/.venv/bin/python",
+        "run_analysis.py"
+      ],
+      "started_utc": "2026-10-09T19:34:07.151636+00:00",
+      "finished_utc": "2026-10-09T19:34:08.356580+00:00",
+      "return_code": 0,
+      "log": "run.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/nordic_archive_validation_20261009/receipts/test_tmp",
+        "test_analysis.py"
+      ],
+      "started_utc": "2026-10-09T19:34:08.356597+00:00",
+      "finished_utc": "2026-10-09T19:34:09.223643+00:00",
+      "return_code": 0,
+      "log": "tests.log"
+    }
+  ],
+  "standalone_return_code": 0,
+  "standalone_original_data_and_network_access": "blocked by Python audit hook",
+  "standalone_compared_outputs": [
+    "analysis_receipt.json",
+    "benchmark_metrics.csv",
+    "compatibility.json",
+    "cross_source_join_audit.csv",
+    "descriptive_summary.csv",
+    "excluded_source_records.csv",
+    "fold_membership.csv",
+    "fold_receipt.csv",
+    "holdout_predictions.csv",
+    "paired_management_grain.csv",
+    "possible_reused_controls.csv",
+    "regional_stage_join_audit.csv",
+    "regional_stage_reference.csv",
+    "sas_only_records.csv",
+    "sas_source_records.csv",
+    "sensitivity_benchmark_metrics.csv",
+    "sensitivity_fold_membership.csv",
+    "sensitivity_fold_receipt.csv",
+    "sensitivity_pairs.csv",
+    "sensitivity_predictions.csv",
+    "source_documentation.txt",
+    "source_group_audit.csv",
+    "station_join_audit.csv",
+    "uncertainty.json",
+    "weather_station_reference.csv",
+    "yield_source_records.csv"
+  ],
+  "comparison": "Byte identity except analysis execution timestamp",
+  "tested_files_sha256": {
+    "run_analysis.py": "c8af11e639b3553d767f8b1c278a037e791e7ab9e324796f2e3f579170b3a709",
+    "test_analysis.py": "66b3a4eb15071dcd0e9ac855a7f047ec6c57841e731afefa9c9f748643108c7e",
+    "verify_reproduction.py": "125143478e0f1e8f69c0175f8bdf1c170511d3e8e5304b56cd250c53ca29cd1b",
+    "PROTOCOL.md": "feecd03ed672db2254fef19df356dcf81491cf5ed79626f9c958f91b8e9a58e4",
+    "requirements.txt": "fe2b7dec1f8d40356799e57c34d87171fed7a3a39ea5b59ab17592733e952d9f"
+  },
+  "source_bundle_sha256": "290493e673ad3a076a86ae1754c9d01872e2c1bcb6b3fd4c5c0044f081a386af",
+  "test_scope": "All tests in the standalone owned module; other parallel-worker modules are outside this run."
+}

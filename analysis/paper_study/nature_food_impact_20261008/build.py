@@ -33,6 +33,8 @@ def prepare():
     read_timing()
     from analysis.paper_study.food_security_exposure_20261009.exposure import read as read_exposure
     read_exposure()
+    from analysis.paper_study.climate_robustness_20261009.run import read as read_robustness
+    read_robustness('annual_distribution_ensemble')
 
 
 def curate(captions,folder):
@@ -77,6 +79,8 @@ def curate(captions,folder):
     captions[stem]=caption
     stem,caption=supplementary_diagnostics(folder)
     captions[stem]=caption
+    from analysis.paper_study.climate_robustness_20261009.publication import supplementary_figures as robustness_figures
+    captions.update(robustness_figures(folder))
     # Full-grid source tables are archived separately; obsolete sampled source
     # CSVs from the predecessor figure selection do not enter this publication.
     return FigureCaptions(captions)
@@ -102,6 +106,11 @@ def source_workbook(destination,canonical='publication/european_wheat_stb'):
     sources += source_paths()
     from analysis.paper_study.food_security_exposure_20261009.exposure import source_paths as exposure_sources
     sources += exposure_sources()
+    from analysis.paper_study.climate_robustness_20261009.publication import source_paths as robustness_sources
+    sources += robustness_sources()
+    from .management_evidence import source_paths as management_sources
+    sources += management_sources()
+    sources += [data.ROOT/'analysis/paper_study/physiological_evidence_20261009/source_inventory.csv']
     audit=data.ROOT/'analysis/paper_study/yield_transfer_audit_20261009'
     for name in ['source_profile.csv','source_readiness.csv','evidence_gate.csv','swiss_model_comparison.csv',
                  'site_paired_errors.csv','site_bootstrap_stability.csv','duplicate_checks.csv']:
@@ -133,6 +142,9 @@ def source_workbook(destination,canonical='publication/european_wheat_stb'):
       ['All-model increase exposure','Baseline production in cells with strictly positive HAD changes in every one of the three climate models; the denominator retains all baseline production.'],
       ['Production-weighted HAD change','Production times valid-pair counts weights each model-specific domain mean; the three model means then receive equal weight.'],
       ['Common-population timing','Symptom, flowering and soft-dough dates are finite in both complete paired seasons; all date differences use this identical population.'],
+      ['Year-pairing sensitivity','Thirty circular shifts change which historical and future missing seasons intersect; they are sensitivity comparisons, not independent replicates.'],
+      ['Complete annual population','The same cells have finite canopy outcomes in every historical and future year and all three climate models, separately for each scenario and future period.'],
+      ['High-damage year frequency','Fraction of 30 future annual regional canopy-damage means above the same climate model’s historical 90th quantile; not a calibrated grain-loss probability.'],
       ['Sampled diagnostics','Weather-crop decomposition and structural sensitivity retain 64 draws at 62 cells.'],
       ['Pooled field scores','Equal coordinate-year, field, source-leaf and assessment weight; calibration excluded.'],
       ['Pooled intervals','20,000 paired coordinate-year bootstrap resamples; source conventions retained.']]:sheet.append(row)

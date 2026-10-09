@@ -120,6 +120,63 @@ def exposure_and_timing_arithmetic():
         production_interpretation='Fixed baseline production located in exposed cells; not estimated grain loss')
 
 
+def annual_risk_arithmetic():
+    from analysis.paper_study.climate_robustness_20261009.run import inputs,read,MODELS,SCENARIOS,WEIGHTS
+    registry,raw=inputs()
+    published=read('annual_distribution_by_gcm')
+    count=0
+    for r in published.itertuples():
+        mi,si=MODELS.index(r.model),SCENARIOS.index(r.scenario)
+        start=30 if r.period=='2031-2060' else 60
+        common=np.isfinite(raw[:,si,:30]).all(axis=(0,1)) & np.isfinite(raw[:,si,start:start+30]).all(axis=(0,1))
+        domain=np.ones(len(registry),bool) if r.environment_region=='Europe' else registry.environment_region.fillna('Unassigned').eq(r.environment_region).to_numpy()
+        use=common & domain
+        w=registry[WEIGHTS[r.weighting]].to_numpy()[use]
+        historical=raw[mi,si,:30][:,use]@w/w.sum()
+        future=raw[mi,si,start:start+30][:,use]@w/w.sum()
+        threshold=np.quantile(historical,.9)
+        direct=[historical.mean(),future.mean(),threshold,np.quantile(future,.9),
+                np.mean(future>threshold),np.sort(future)[-3:].mean(),
+                w.sum()/registry.loc[domain,WEIGHTS[r.weighting]].sum()]
+        reported=[r.historical_mean,r.future_mean,r.historical_q90,r.future_q90,
+                  r.future_exceedance_fraction,r.future_top3_mean,r.complete_support_fraction]
+        np.testing.assert_allclose(direct,reported,atol=1e-10,rtol=0)
+        count+=len(direct)
+    sensitivity=read('pairing_sensitivity')
+    support=read('support_ensemble').pivot(index=['scenario','period','weighting','environment_region'],columns='method',values='change')
+    assert sensitivity.direction_consistent.all()
+    assert not (support.complete_common_cells*support.positional_pairs<0).any()
+    return dict(status='passed',independent_annual_statistics=count,
+        complete_population='Same cells across both 30-year periods and all three climate models',
+        scope='Conditional annual canopy damage; no grain-loss or adaptation validation')
+
+
+def management_grain_arithmetic():
+    from .management_evidence import NORDIC,MIXTURE,read,headline
+    nordic=read(NORDIC,'paired_management_grain.csv')
+    french=read(MIXTURE,'french_contrasts.csv')
+    n,f,_=headline()
+    assert len(nordic)==307 and nordic.trial_key.nunique()==263
+    np.testing.assert_allclose(nordic.treated_yield_t_ha-nordic.control_yield_t_ha,nordic.gain_t_ha,atol=1e-9,rtol=0)
+    np.testing.assert_allclose(nordic.groupby('trial_key').trial_weight.sum(),1,atol=1e-12,rtol=0)
+    direct=nordic.groupby('trial_key').gain_t_ha.mean().mean()
+    np.testing.assert_allclose(direct,n.mean_gain_t_ha,atol=1e-9,rtol=0)
+    plots=read(MIXTURE,'french_plots.csv').set_index('plot_id')
+    assert not plots.index.duplicated().any() and len(french)==195
+    baseline=(plots.loc[french.control_1_id,'yield_t_ha'].to_numpy()+plots.loc[french.control_2_id,'yield_t_ha'].to_numpy())/2
+    delta=plots.loc[french.plot_id,'yield_t_ha'].to_numpy()-baseline
+    np.testing.assert_allclose(delta,french.delta_t_ha,atol=1e-9,rtol=0)
+    np.testing.assert_allclose(delta.mean(),f.loc['raw_primary','mean_delta_t_ha'],atol=1e-9,rtol=0)
+    assert int((delta<0).sum())==79 and french.environment_id.nunique()==1
+    applicability=read(MIXTURE,'applicability.json')
+    for source in ['france','swiss']:
+        assert not applicability[source]['validated_climate_adaptation']
+        assert not applicability[source]['stb_mediated_grain_loss']
+    return dict(status='passed',nordic_contrasts=len(nordic),nordic_trial_identifiers=263,
+        french_constituent_comparisons=len(french),french_environments=1,
+        scope='Observed management-associated grain outcomes; source populations are not pooled')
+
+
 def verify(output):
     output=Path(output).resolve();main=(output/'Manuscript.txt').read_text();si=(output/'Supplementary_Information.txt').read_text()
     abstract=(output/'abstract.txt').read_text().strip()
@@ -134,16 +191,16 @@ def verify(output):
     assert not re.search(r'BASF|Corteva|sampling weights|draw identities|area-proportional draws',result)
     assert not result.startswith('European wheat area')
     captions=json.loads((output/'figures/captions.json').read_text())
-    assert len(captions)==4 and len(list((output/'figures').glob('*.png')))==4
+    assert len(captions)==5 and len(list((output/'figures').glob('*.png')))==5
     for stem,caption in captions.items():
         assert len(caption.split())<=220 and all((output/'figures'/f'{stem}.{ext}').exists() for ext in ['png','pdf','svg'])
     assert 'harvested area and field' not in list(captions.values())[0].lower()
     order=[int(n) for n in re.findall(r'(?<!Supplementary )Fig\. (\d+)',main.split('Figure legends')[0])]
-    assert list(dict.fromkeys(order))==[1,2,3,4]
+    assert list(dict.fromkeys(order))==[1,2,3,4,5]
     declared=set(re.findall(r'^Table (S\d+[a-z]?) \|',si,flags=re.M))
     for identifier in re.findall(r'(?:Table|Tables) (S\d+[a-z]?)',main):
         assert identifier in declared or any(x.startswith(identifier) for x in declared),identifier
-    doc=Document(output/'Manuscript.docx');assert len(doc.inline_shapes)==4 and len(doc.tables)==1
+    doc=Document(output/'Manuscript.docx');assert len(doc.inline_shapes)==5 and len(doc.tables)==1
     word='\n'.join(p.text for p in doc.paragraphs);assert abstract in word
     i=next(i for i,p in enumerate(doc.paragraphs) if p.text==abstract)
     assert doc.paragraphs[i+1].paragraph_format.page_break_before
@@ -165,10 +222,14 @@ def verify(output):
                 content=z.read(name);assert hashlib.sha256(content).hexdigest()==record['sha256'] and len(content)==record['bytes'],name
             archive_count=len(manifest['members'])
     arithmetic=pooled_arithmetic();domains=domain_arithmetic();exposure=exposure_and_timing_arithmetic()
+    annual=annual_risk_arithmetic()
+    management=management_grain_arithmetic()
     report=dict(status='passed',scope='Numerical reporting, provenance and outcome-specific evaluation; end-to-end grain-loss predictive validity is not established',
-        abstract_words=len(abstract.split()),main_figures=4,main_tables=1,Results_focus='Predictive support, canopy damage, production exposure and crop–disease timing',
+        abstract_words=len(abstract.split()),main_figures=5,main_tables=1,Results_focus='Predictive support, canopy damage, production exposure, annual risk, crop–disease timing and observed management responses',
         pooled_evaluation=arithmetic,full_grid_domain_check=domains,PDF_pages=pages,
         production_exposure_and_timing=exposure,
+        annual_canopy_risk=annual,
+        observed_management_grain=management,
         source_workbook_sheets=len(workbook.sheetnames),archived_members_checked=archive_count)
     (output/'verification_receipt.json').write_text(json.dumps(report,indent=2)+'\n')
     return report

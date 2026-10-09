@@ -1,0 +1,15 @@
+{
+  "decision": "No physiological-model fitting justified from newly acquired evidence",
+  "eligible_new_raw_rows": 0,
+  "eligible_new_environments": 0,
+  "source_inventory_entries": 16,
+  "priority_leads": [
+    "bancal2015/collin2018/bosch2022_tolerance",
+    "uk_had120",
+    "phenotol2019_2021",
+    "uk_canopy14"
+  ],
+  "modeling_performed": false,
+  "contact_performed": false,
+  "next_condition": "Concrete public raw cohort with auditable same-unit joins and independent environments"
+}

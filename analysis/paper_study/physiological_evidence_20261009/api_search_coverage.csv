@@ -1,0 +1,16 @@
+provider,query,total_results,returned_records,exact_url,local_response,all_reported_results_returned
+DataCite,Bancal,501,100,https://api.datacite.org/dois?query=Bancal&page%5Bsize%5D=100,metadata/datacite_bancal.json,False
+DataCite,Foulkes septoria,0,0,https://api.datacite.org/dois?query=Foulkes+septoria&page%5Bsize%5D=100,metadata/datacite_foulkes.json,True
+DataCite,Bregaglio wheat diseases,0,0,https://api.datacite.org/dois?query=Bregaglio+wheat+diseases&page%5Bsize%5D=100,metadata/datacite_bregaglio.json,True
+Recherche Data Gouv,Bancal,6,6,https://entrepot.recherche.data.gouv.fr/api/search?q=Bancal&type=dataset&per_page=100,metadata/rdg_bancal_search.json,True
+DataCite,Bancal AND (wheat OR septoria),13,13,https://api.datacite.org/dois?query=Bancal+AND+%28wheat+OR+septoria%29&page%5Bsize%5D=100,metadata/datacite_bancal_wheat.json,True
+DataCite,"wheat AND (""green leaf area"" OR ""healthy area duration"")",25,25,https://api.datacite.org/dois?query=wheat+AND+%28%22green+leaf+area%22+OR+%22healthy+area+duration%22%29&page%5Bsize%5D=100,metadata/datacite_physiology.json,True
+DataCite,Foulkes AND tolerance,5,5,https://api.datacite.org/dois?query=Foulkes+AND+tolerance&page%5Bsize%5D=100,metadata/datacite_foulkes_tolerance.json,True
+Recherche Data Gouv,septoria AND yield,1,1,https://entrepot.recherche.data.gouv.fr/api/search?q=septoria+AND+yield&type=dataset&per_page=100,metadata/rdg_septoria_search.json,True
+Recherche Data Gouv,"wheat AND ""green area""",0,0,https://entrepot.recherche.data.gouv.fr/api/search?q=wheat+AND+%22green+area%22&type=dataset&per_page=100,metadata/rdg_green_area_search.json,True
+DataCite,PHENOTOL,0,0,https://api.datacite.org/dois?query=PHENOTOL&page%5Bsize%5D=100,metadata/datacite_phenotol.json,True
+DataCite,Corkley AND wheat,0,0,https://api.datacite.org/dois?query=Corkley+AND+wheat&page%5Bsize%5D=100,metadata/datacite_corkley_wheat.json,True
+DataCite,"""10.1111/ppa.14080""",0,0,https://api.datacite.org/dois?query=%2210.1111%2Fppa.14080%22&page%5Bsize%5D=100,metadata/datacite_corkley_related.json,True
+DataCite,"""10.1111/ppa.13509"" OR ""10.1094/PHYTO-96-0680"" OR ""10.1016/j.fcr.2017.11.022""",0,0,https://api.datacite.org/dois?query=%2210.1111%2Fppa.13509%22+OR+%2210.1094%2FPHYTO-96-0680%22+OR+%2210.1016%2Fj.fcr.2017.11.022%22&page%5Bsize%5D=100,metadata/datacite_tolerance_related.json,True
+DataCite,"""10.1093/aob/mcm163"" OR ""10.1016/j.fcr.2015.05.006"" OR ""10.1016/j.eja.2021.126421""",0,0,https://api.datacite.org/dois?query=%2210.1093%2Faob%2Fmcm163%22+OR+%2210.1016%2Fj.fcr.2015.05.006%22+OR+%2210.1016%2Fj.eja.2021.126421%22&page%5Bsize%5D=100,metadata/datacite_bancal_related.json,True
+Recherche Data Gouv,PHENOTOL,0,0,https://entrepot.recherche.data.gouv.fr/api/search?q=PHENOTOL&type=dataset&per_page=100,metadata/rdg_phenotol_search.json,True

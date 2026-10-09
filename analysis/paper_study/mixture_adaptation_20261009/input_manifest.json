@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "bundle": "public_inputs.zip",
+  "bundle_sha256": "2026005f3f0c57b79f23d08be000f36f6940aca391f64aa73ab27ed33c1aa29a",
+  "parent_bundle_sha256": "141798cea97d642f31c143fb263e64e12f8a516bbfe0dbbb5ad43b05c4f0c8ee",
+  "members": [
+    {
+      "member": "ATTRIBUTION.txt",
+      "bytes": 910,
+      "sha256": "105b0277411821aafdc8926f6908188d5539aa0f6df4e75c75316b45736ceea5",
+      "dataset_doi": null,
+      "license": "original attribution/local archived provenance retained",
+      "role": "archived provenance; not independent evidence",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::ATTRIBUTION.txt"
+    },
+    {
+      "member": "context/START_HERE.txt",
+      "bytes": 6885,
+      "sha256": "c375c2817d642090ed1f55fc7af3e52174ceb1fbca398f487c937a4780ef4633",
+      "dataset_doi": null,
+      "license": "original attribution/local archived provenance retained",
+      "role": "archived provenance; not independent evidence",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::context/START_HERE.txt"
+    },
+    {
+      "member": "context/french_archive_verification.json",
+      "bytes": 804,
+      "sha256": "7f988417f9bfd7988e00a4c487ab40c5d55f37250104ca256f62655eda32ccb5",
+      "dataset_doi": null,
+      "license": "original attribution/local archived provenance retained",
+      "role": "archived provenance; not independent evidence",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::context/french_archive_verification.json"
+    },
+    {
+      "member": "source_code/Allelic_richness_phenotypic_file_prep.R",
+      "bytes": 7447,
+      "sha256": "67cddc3520b4601df5c6bff887d49b25877b136e01e8af5d76594382ecdc7704",
+      "dataset_doi": "10.5281/zenodo.5393959",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::source_code/Allelic_richness_phenotypic_file_prep.R"
+    },
+    {
+      "member": "source_code/Spatial_analyses_yield_variables.R",
+      "bytes": 5415,
+      "sha256": "b8616adf4782a145500c0f1f3e3c52e30c40570611535a0052f16e72ab1edce6",
+      "dataset_doi": "10.5281/zenodo.5393959",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::source_code/Spatial_analyses_yield_variables.R"
+    },
+    {
+      "member": "sources/montazeaud2022/GY_RAW_RYT.csv",
+      "bytes": 50763,
+      "sha256": "c7e0a22cd5ffe745490f822a2dafb5f270443966ae40547cba7ab7e5df31841f",
+      "dataset_doi": "10.5281/zenodo.5393959",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/montazeaud2022/GY_RAW_RYT.csv"
+    },
+    {
+      "member": "sources/montazeaud2022/STB_RAW_RYT.csv",
+      "bytes": 13243,
+      "sha256": "1fcf145f5553739a393d1eeab525e2ce89266b6083ec50b4fe1335b02c217e4d",
+      "dataset_doi": "10.5281/zenodo.5393959",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/montazeaud2022/STB_RAW_RYT.csv"
+    },
+    {
+      "member": "sources/montazeaud2022/STB_symptoms.csv",
+      "bytes": 13159,
+      "sha256": "19f2201faf981d6719f04fae2fce313d4819d6c540ce581af14e2a86ee25d69a",
+      "dataset_doi": "10.5281/zenodo.5393959",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/montazeaud2022/STB_symptoms.csv"
+    },
+    {
+      "member": "sources/montazeaud2022/raw_yield_variables.csv",
+      "bytes": 97079,
+      "sha256": "04339c16478ffef26699b731b5810f339800ffcaa42c6e74c2bedb8aa18da173",
+      "dataset_doi": "10.5281/zenodo.5393959",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/montazeaud2022/raw_yield_variables.csv"
+    },
+    {
+      "member": "sources/swiss-mixtures-v1/blendit_full.csv",
+      "bytes": 391310,
+      "sha256": "53ead25b335def3b270c05f0e44a95aa3881886b88df53117fec7c6c6006da3a",
+      "dataset_doi": "10.5281/zenodo.10209176",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/swiss-mixtures-v1/blendit_full.csv"
+    },
+    {
+      "member": "sources/swiss-mixtures/README.txt",
+      "bytes": 6045,
+      "sha256": "9564aa4be67781cebf056bdd0b18978f36aba5efab2969455c0bde3bf4c63a03",
+      "dataset_doi": "10.5281/zenodo.17432866",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/swiss-mixtures/README.txt"
+    },
+    {
+      "member": "sources/swiss-mixtures/blendit_full_pub.csv",
+      "bytes": 266361,
+      "sha256": "d5f1abf6c9e6d24fb2ae4d6e1cde66ebd595768e7a2534a35369bfe84a517227",
+      "dataset_doi": "10.5281/zenodo.17432866",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/swiss-mixtures/blendit_full_pub.csv"
+    },
+    {
+      "member": "sources/zenodo_10209176.json",
+      "bytes": 3379,
+      "sha256": "c3aead438fe2031cfa8d58a1186da855e49f2b2d783217ac08133fbea70c6054",
+      "dataset_doi": "10.5281/zenodo.10209176",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/zenodo_10209176.json"
+    },
+    {
+      "member": "sources/zenodo_17432866.json",
+      "bytes": 9203,
+      "sha256": "b8d4ca1fbe2b2f9133950495c171cf1909062da614b46abef072c903a879516e",
+      "dataset_doi": "10.5281/zenodo.17432866",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/zenodo_17432866.json"
+    },
+    {
+      "member": "sources/zenodo_5393959.json",
+      "bytes": 10218,
+      "sha256": "ad06be96e26ec2ed278f694f22e4abd97457262656299e3d2afc626784638ed2",
+      "dataset_doi": "10.5281/zenodo.5393959",
+      "license": "CC-BY-4.0",
+      "role": "source measurements or metadata",
+      "origin": "yield_transfer_audit_20261009/public_source_subset.zip::sources/zenodo_5393959.json"
+    }
+  ],
+  "datasets": [
+    {
+      "doi": "10.5281/zenodo.17432866",
+      "creators": "Laura Stefan; Dario Fossati; Karl-Heinz Camp; Didier Pellet; Flavio Foiada; Lilia Levy Häner",
+      "role": "Swiss current public observations"
+    },
+    {
+      "doi": "10.5281/zenodo.10209176",
+      "creators": "Laura Stefan",
+      "role": "Swiss identifiers; same observations, not replication"
+    },
+    {
+      "doi": "10.5281/zenodo.5393959",
+      "creators": "Germain Montazeaud; Timothée Flutre; Elsa Ballini; Jean-Benoit Morel; Jacques David; Johanna Girodolle; Aline Rocher; Aurélie Ducasse; Cyrille Violle; Florian Fort; Hélène Fréville",
+      "role": "French raw and adjusted phenotypes and original processing code"
+    }
+  ],
+  "methods_verification": {
+    "doi": "10.1111/nph.17915",
+    "url": "https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.17915",
+    "access_date": "2026-10-09",
+    "sections": [
+      "Experimental design",
+      "Productivity measurements",
+      "Symptom measurements",
+      "Relative yield total computation"
+    ],
+    "journal": "New Phytologist",
+    "journal_scope": "recognized leading specialist plant-science journal",
+    "stored_article_copy": false
+  },
+  "literature_policy": "No MDPI/Frontiers sources; Swiss associated article is archived provenance only. Dataset records are primary sources."
+}

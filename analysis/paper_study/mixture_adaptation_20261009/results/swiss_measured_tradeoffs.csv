@@ -1,0 +1,13 @@
+control_group,trait,unit,n_plot_comparisons,n_environments,equal_environment_mean_delta,inference_class
+1,prot,percentage_points_dry_matter,37,4,-0.21625,noncausal_complete_trait_subset
+1,phl,kg_hl,37,4,2.91552083333,noncausal_complete_trait_subset
+31,prot,percentage_points_dry_matter,12,4,0.3875,noncausal_complete_trait_subset
+31,phl,kg_hl,12,4,1.25,noncausal_complete_trait_subset
+32,prot,percentage_points_dry_matter,22,4,-0.0125,noncausal_complete_trait_subset
+32,phl,kg_hl,22,4,-0.0739583333333,noncausal_complete_trait_subset
+40,prot,percentage_points_dry_matter,52,6,-0.0516666666667,noncausal_complete_trait_subset
+40,phl,kg_hl,52,6,-0.1325,noncausal_complete_trait_subset
+42,prot,percentage_points_dry_matter,21,2,-0.680833333333,noncausal_complete_trait_subset
+42,phl,kg_hl,21,2,0.556666666667,noncausal_complete_trait_subset
+43,prot,percentage_points_dry_matter,3,1,0.0166666666667,noncausal_complete_trait_subset
+43,phl,kg_hl,3,1,5.93333333333,noncausal_complete_trait_subset

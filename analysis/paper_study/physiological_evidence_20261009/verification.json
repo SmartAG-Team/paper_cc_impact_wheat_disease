@@ -1,0 +1,60 @@
+{
+  "verified_utc": "2026-10-09T19:28:07.908130+00:00",
+  "checks": {
+    "python_syntax": "passed",
+    "json_parse": "passed",
+    "csv_shapes": "passed",
+    "expected_inventory_and_empty_templates": "passed",
+    "audits": "passed; no-observation exit 2 expected",
+    "read_only_archive_size_and_mtime": "unchanged from initial scope record",
+    "rejected_input_counts": [
+      13,
+      8,
+      201,
+      948
+    ],
+    "retrieval_payload_hashes": "all successful payloads verified",
+    "temporary_signed_urls": "not retained in URL fields",
+    "three_pdf_signatures": "passed",
+    "prior_archive_members": "34 recorded members match their initial SHA-256 values"
+  },
+  "artifact_row_counts": {
+    "repository_file_inventory.csv": 102,
+    "web_search_log.csv": 28,
+    "source_inventory.csv": 16,
+    "local_archive_review.csv": 34,
+    "api_search_coverage.csv": 15,
+    "screening_exclusions.csv": 1,
+    "data_dictionary.csv": 105,
+    "templates/biomass_reserves.csv": 0,
+    "templates/stages.csv": 0,
+    "templates/environments.csv": 0,
+    "templates/treatments.csv": 0,
+    "templates/canopy.csv": 0,
+    "templates/weather.csv": 0,
+    "templates/management.csv": 0,
+    "templates/reference_pairs.csv": 0,
+    "templates/harvest.csv": 0,
+    "templates/plots.csv": 0,
+    "templates/disease.csv": 0,
+    "templates/sources.csv": 0
+  },
+  "audit_runs": [
+    {
+      "command": "python3 audit_existing_sources.py",
+      "expected_exit_code": 0,
+      "exit_code": 0,
+      "stdout": "{\"source_row_counts\": [13, 8, 201, 948], \"raw_observations_newly_acquired\": 0}",
+      "stderr": ""
+    },
+    {
+      "command": "python3 audit_inputs.py",
+      "expected_exit_code": 2,
+      "exit_code": 2,
+      "stdout": "{\"status\": \"no_observations\", \"tables\": 12, \"observation_rows\": 0, \"physiological_comparison_ready\": false, \"errors\": 0}",
+      "stderr": ""
+    }
+  ],
+  "scope": "Checks confined to owned output and read-only source inputs; no repository-wide integrity claim.",
+  "scientific_result": "No eligible acquired observations; physiological comparison not performed."
+}

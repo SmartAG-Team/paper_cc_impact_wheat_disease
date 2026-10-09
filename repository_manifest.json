@@ -28,8 +28,8 @@
       "sha256": "3bb0d0ebe46cb3c802ec6c90c9590017bb637cef04ca7ec54025af763134ba6a"
     },
     "README.md": {
-      "bytes": 9900,
-      "sha256": "2d9b72b23eb41ee45a6134ecd5733bdc76858e7d00600efbf64d4f879b3ddd80"
+      "bytes": 12454,
+      "sha256": "43f5fd39e3e93709d6c0cc6b3cad17c2376270c39673161da313ae983c079bdd"
     },
     "WHEAT_STB_ENGINE.md": {
       "bytes": 9916,
@@ -70,6 +70,86 @@
     "analysis/paper_study/climate/verify_downloads.py": {
       "bytes": 4666,
       "sha256": "9436bf9830d10cd6bbf4e5e025aaea7aa0f94a8d504158104bd0b4f19b6da109"
+    },
+    "analysis/paper_study/climate_robustness_20261009/METHODS.md": {
+      "bytes": 3940,
+      "sha256": "a05f0826a2f92526c39116d8d2a471634ab800af8f588de0a762f180d593c853"
+    },
+    "analysis/paper_study/climate_robustness_20261009/__init__.py": {
+      "bytes": 82,
+      "sha256": "57ac860d3b2064e6516f47512f28b1980ecf70504dad215f78b0b82528132321"
+    },
+    "analysis/paper_study/climate_robustness_20261009/annual_canopy_inputs.npz": {
+      "bytes": 91895089,
+      "sha256": "16781846332ad8b3006da194887cdda8426b77a5fc058cc4dac42894763a40dd"
+    },
+    "analysis/paper_study/climate_robustness_20261009/annual_distribution_by_gcm.csv": {
+      "bytes": 209960,
+      "sha256": "aad9a1fc4c62904d40943512189c59834d1074c346b292093d495fe7b2ee6228"
+    },
+    "analysis/paper_study/climate_robustness_20261009/annual_distribution_ensemble.csv": {
+      "bytes": 159776,
+      "sha256": "ee90326ce14d91231388715e4b4b5014f64ac332d75b551b9e93f1f22c4b1878"
+    },
+    "analysis/paper_study/climate_robustness_20261009/annual_domain_values.csv": {
+      "bytes": 3891418,
+      "sha256": "ba0a6c6409604945bff4419ded3c42291876e3cd9ef5b1fec78db7b3b6db9143"
+    },
+    "analysis/paper_study/climate_robustness_20261009/complete_population_coverage.csv": {
+      "bytes": 20938,
+      "sha256": "b998b75355c8b538d8e51acd369e63f62bcc52c0d7fa8de2a10f229bcb1a6485"
+    },
+    "analysis/paper_study/climate_robustness_20261009/crop_population_coverage.csv": {
+      "bytes": 1351,
+      "sha256": "1f109fae0fe4b1110265ef645d103efd32806987989747e81abfbada02340b06"
+    },
+    "analysis/paper_study/climate_robustness_20261009/input_receipt.json": {
+      "bytes": 160125,
+      "sha256": "63813cea39dd378d4cd043bf8b63ace4627f285c598e134cdc5daba9324bbf1a"
+    },
+    "analysis/paper_study/climate_robustness_20261009/pairing_sensitivity.csv": {
+      "bytes": 36802,
+      "sha256": "d291044485a995b20335ac1104cb97bbd2b257cee5ba57b4732830120c92118f"
+    },
+    "analysis/paper_study/climate_robustness_20261009/protocol.json": {
+      "bytes": 2432,
+      "sha256": "b3f2d52f6c71b6bca42af2d886f34d480e89a1d789ba1132f733f86425c0f84f"
+    },
+    "analysis/paper_study/climate_robustness_20261009/publication.py": {
+      "bytes": 9024,
+      "sha256": "4c45b177bffb9a20ec3a30d760fc6905e72ca42b5f879806feb150e40d796c92"
+    },
+    "analysis/paper_study/climate_robustness_20261009/receipt.json": {
+      "bytes": 2009,
+      "sha256": "191c88d976c9015b9725308ea77f8923e22ca9bafdc29beda7e5d5fd801ff118"
+    },
+    "analysis/paper_study/climate_robustness_20261009/run.py": {
+      "bytes": 13488,
+      "sha256": "6e383fa34c6fb270b9c19319c78af1ecc11321c79228c651d11561beb01421e5"
+    },
+    "analysis/paper_study/climate_robustness_20261009/statistics.py": {
+      "bytes": 3769,
+      "sha256": "903f39ad54471ff43ac1dd2d8018f5bc2d88ed7a6e3df99e5ddf4ebaa7997c3e"
+    },
+    "analysis/paper_study/climate_robustness_20261009/support_by_gcm.csv": {
+      "bytes": 285940,
+      "sha256": "0c4f977fc56da7d975aaf4f32272ebf82eba14987d4cbd7109582ef5fb925c84"
+    },
+    "analysis/paper_study/climate_robustness_20261009/support_ensemble.csv": {
+      "bytes": 166285,
+      "sha256": "c10d9f6d73e33a36fa62342442f456610e7db5caa6ebc95dcae0645e4cbc8d29"
+    },
+    "analysis/paper_study/climate_robustness_20261009/test_robustness.py": {
+      "bytes": 4292,
+      "sha256": "af73c0685220d57a192fb5ec4e5139749d390d2b7538c597396140080714d502"
+    },
+    "analysis/paper_study/climate_robustness_20261009/year_pairing_by_gcm.csv": {
+      "bytes": 2505318,
+      "sha256": "aabecfbb4196d5d0f98dcef1b98cedeaf713fe320a0cabbdf93ad643c461ef40"
+    },
+    "analysis/paper_study/climate_robustness_20261009/year_pairing_ensemble.csv": {
+      "bytes": 1550819,
+      "sha256": "5a8408b0e28689ebcab138f30a47f50b8b57e0a198129729dfc715f182c51f85"
     },
     "analysis/paper_study/corteva_external_seasonal_v1/external_input_membership.csv": {
       "bytes": 32825,
@@ -172,8 +252,8 @@
       "sha256": "a2479bf3b7245d1fedbec920ae0f36e264342b8f35d59ac491fefdf71150ab75"
     },
     "analysis/paper_study/crop_damage_validation_20261009/source_readiness.csv": {
-      "bytes": 6127,
-      "sha256": "99a71bbe8f7e170d447ada3de70763da2044e4b2cf9495971beb1fe455bc8649"
+      "bytes": 6428,
+      "sha256": "e3836f421e190efad88435cbac2de3e4987cddaef60cc6b01e4a2cf1f430d46c"
     },
     "analysis/paper_study/crop_damage_validation_20261009/test_briwecs.py": {
       "bytes": 2026,
@@ -196,8 +276,8 @@
       "sha256": "98c95a708533a191cfbbec95837b9b5495c5e832d06cb93ec2223bfc4d21e2c8"
     },
     "analysis/paper_study/crop_damage_validation_20261009/verify.py": {
-      "bytes": 13523,
-      "sha256": "de99a152c771bfcc91d8afb312b9831c610c6e2eee4cce9a9c1fa4c294ba9e12"
+      "bytes": 14542,
+      "sha256": "5429750c8684616134784d82eaeb1a30b5a25ed57c7171ce6ee25bfc6680b5a6"
     },
     "analysis/paper_study/food_security_exposure_20261009/METHODS.md": {
       "bytes": 8207,
@@ -578,6 +658,166 @@
     "analysis/paper_study/map_restoration_20261007/text.py": {
       "bytes": 10817,
       "sha256": "270c8c707c955c65255049a4410c7555ce94731bdd1f801c5c44facf7134e95a"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/CLAIMS.md": {
+      "bytes": 2098,
+      "sha256": "999d17e93bbac1d829cfb6006bf3c31fc33f3e1b4ebb1471a93958bc412fdd95"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/PROTOCOL.md": {
+      "bytes": 10781,
+      "sha256": "b5331666ee50def2d4014e059720a4db9e5368eb8735920058a55fb525be3d9d"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/README.md": {
+      "bytes": 4777,
+      "sha256": "83ed8a622385e51dbd60ceeadad10e6fe393e2ad3abac829f2bb5f5d5cbc8505"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/RESULTS.md": {
+      "bytes": 9039,
+      "sha256": "3a88739033903ce07659b42c39c4c3185358938d1b2dfeb26020995c5aa884b7"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/core.py": {
+      "bytes": 9252,
+      "sha256": "062128455adbf2cd689615fd8a3a948749e327e5894c782aa0cb735a2ce269ca"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/data_dictionary.csv": {
+      "bytes": 8003,
+      "sha256": "1e373d8942524346b5e2e68ffd01109f73602fa7d2dac54e6a65c1ee7ae2bdf9"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/input_manifest.json": {
+      "bytes": 7901,
+      "sha256": "5b7062b8d2cbd6ff2190a224149ee68eec4f13bc68eb53b03304cb8c3ab09f09"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/prepare_inputs.py": {
+      "bytes": 4202,
+      "sha256": "b9bf3aa9abe0ce847912d6c8c42bd092baebb8cee7b13ee9ede8283007fb0753"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/protocol_lock.json": {
+      "bytes": 517,
+      "sha256": "e0a807046b8e5452775807918a3970df6624494986ac39b948cf3525fed447db"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/public_inputs.zip": {
+      "bytes": 160404,
+      "sha256": "2026005f3f0c57b79f23d08be000f36f6940aca391f64aa73ab27ed33c1aa29a"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/analysis_checks.csv": {
+      "bytes": 244,
+      "sha256": "dec7ef8a6509279a1ab94b3c38c1c026e890deb9b76da346db1e68ee30bf1c92"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/analysis_receipt.json": {
+      "bytes": 3128,
+      "sha256": "3d804019b463a6cb1aca4b6753a17b95ab0881dc51bdbde2334b513704c05040"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/applicability.json": {
+      "bytes": 3206,
+      "sha256": "0c14b6fb34512a7694759199dc81c29c5421f069ab75ef410e2d864ef9da0a76"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_contrasts.csv": {
+      "bytes": 110781,
+      "sha256": "2761695a3c448aa50650c699c17f071c2086cfd9bd0c5cbc639433f501e3888b"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_dependency_groups.csv": {
+      "bytes": 273,
+      "sha256": "aca107879539eab2b66797624ed3fb19d69207cdcd080fb21fd7508b50163100"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_exclusions.csv": {
+      "bytes": 535,
+      "sha256": "004a7567fcbecd787f66f97cdec0220efb45a74d3f08a9abf32d83f36af31e5d"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_hindsight_selection.csv": {
+      "bytes": 207,
+      "sha256": "6944d4e9ad8bcbcebed49fc51a0dfad396d3f825472ce427e527836401fb1ae3"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_influence.csv": {
+      "bytes": 20043,
+      "sha256": "760f2c1fde63a4f3cee207c6d8506392f85448a67112c31e8560390786dc6355"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_measured_tradeoffs.csv": {
+      "bytes": 237,
+      "sha256": "122af44c14250ff1bbe0bd2f1dee638240bc98dde56ea21e0f69da2960d317a8"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_plots.csv": {
+      "bytes": 95058,
+      "sha256": "be04ba0f4816d7b1a3a7b9b911f35fdc7cf443af5fe950f84caf2960a5420993"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_raw_grid_eligibility.csv": {
+      "bytes": 14559,
+      "sha256": "1ed5a473729085d08453f6abe31a1461fd86c4568c200aeac75c3fa29033b3e3"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/french_summary.csv": {
+      "bytes": 695,
+      "sha256": "54bcf50d133bdceaece9deaddf505d2bb1f0279528c19cdd61de503a1adba395"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_check_summary.csv": {
+      "bytes": 292,
+      "sha256": "90a51a5d80fc892f05a6f98a9cb3655314289b6e7db119c2796698a1c4adc63c"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_constituent_coverage.csv": {
+      "bytes": 144828,
+      "sha256": "d6a93f3c1b60f47cd9ae7dd51430bfb1488be6a4da932526bc6bf49ecaa1f29c"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_contrasts.csv": {
+      "bytes": 75976,
+      "sha256": "fcc8158f2ec102b066144ce4eeaf41ede927d4e7058ab2f49b3ff112b3f17d7d"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_environments.csv": {
+      "bytes": 2695,
+      "sha256": "8bcc97697d6f3e66d4dcae3ce2c5021fc87b473912dbcffccbc2b0afaf5f4d13"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_measured_tradeoffs.csv": {
+      "bytes": 990,
+      "sha256": "13e8e41692fd97650bb88f376784018f3b9ef2c8fae829939cf8b36dfa3c5c70"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_mixture_eligibility.csv": {
+      "bytes": 42980,
+      "sha256": "b20afe4901dc4cc6acd76b83a18ebef6797de3bd67e5529b033674ec4931a999"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_records.csv": {
+      "bytes": 580283,
+      "sha256": "1aaae49a20b689268272f0347e2de70a9d97177e5dab1c0aee640ffe5cb67af5"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_release_mapping.csv": {
+      "bytes": 82846,
+      "sha256": "485ad4e3de2ad52925c077c89f05d7f89c0b58192b29517eba54e18be9efa16d"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_same_block_checks.csv": {
+      "bytes": 225256,
+      "sha256": "5c7875c3aca3280d428f562ed7e4e36f88ae5bf01b8fbcb7ff017471ef72eec4"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_same_trial_constituent_gate.csv": {
+      "bytes": 20390,
+      "sha256": "1b8751090dad92197d23a1a6e9c8bfd8a0d4b191a39edea944824219a14bab3e"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_source_groups.csv": {
+      "bytes": 6759,
+      "sha256": "c851e2c17f3dba6b56dcb79f72a548c62a4ece635af1dc2eb9b85867452088d2"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_summary.csv": {
+      "bytes": 1597,
+      "sha256": "b5e51fc94063df0a7981c35c86f8e0aaa9f69b85c4c9c47ad45d7064ce00b1ca"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_transfer_predictions.csv": {
+      "bytes": 4699,
+      "sha256": "156fbbb0307b7243fec4b455dd4a6eb1d28148e04ea2445e1160268bd55b518d"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/results/swiss_transfer_summary.csv": {
+      "bytes": 822,
+      "sha256": "ebc7abe77fd3d8b36fa92ad78fd1a4cabe4b6ddb690e5cf3d111596dfd3586c9"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/run.py": {
+      "bytes": 24497,
+      "sha256": "300f46531b220f1d043ab9886a0bea311aa8a663e0bd231e3688ef35d46875bc"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/test_adaptation.py": {
+      "bytes": 6404,
+      "sha256": "593be715dfb622386cde903b075aee899412ec77bc47f1c82a23810054a5dbde"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/verification_receipt.json": {
+      "bytes": 7858,
+      "sha256": "d517c2f0cc9f345abb98e9538c4b5d2e90266cd65991bad472daab0c02ef67b3"
+    },
+    "analysis/paper_study/mixture_adaptation_20261009/verify.py": {
+      "bytes": 10360,
+      "sha256": "cc5cdcf4927b2e05b0d1b3cf24880e325f904f18bf0db03906b223ff27caa8a7"
     },
     "analysis/paper_study/model_review/source_snapshot_regional/model/seasonal_septoria/regional.py": {
       "bytes": 6850,
@@ -2220,16 +2460,16 @@
       "sha256": "b57ce18bdcce7bf7f7713d98499151c2833742410809eb2d033c0c958f2a7621"
     },
     "analysis/paper_study/nature_food_impact_20261008/Reproducibility.txt": {
-      "bytes": 6475,
-      "sha256": "a516060be506516598e684030af70c82682d2a98499ba8b88bd675706aea94b1"
+      "bytes": 8509,
+      "sha256": "e7d165b6d27740edfb7a0f64d17825e44570e5dc63bd2cb204a285acea375d38"
     },
     "analysis/paper_study/nature_food_impact_20261008/__init__.py": {
       "bytes": 76,
       "sha256": "1fefdeb9fa96a7dc0bb4b7bae5b3c920d77b884fb9ec5f0842148d87c20a74ff"
     },
     "analysis/paper_study/nature_food_impact_20261008/build.py": {
-      "bytes": 15089,
-      "sha256": "9bedd46d31717de7d6ace06ad415dcf9b64d732b1bc6051c25f276c0bc1c9e93"
+      "bytes": 16342,
+      "sha256": "3804824fdb5acaef8ebadf11dc9895e1a206cc7fc3f724a96f954a144fd8eda7"
     },
     "analysis/paper_study/nature_food_impact_20261008/data.py": {
       "bytes": 6499,
@@ -2304,8 +2544,8 @@
       "sha256": "45fb412032a865a187cda0d3517ee2c50d80e1b5de7be2e8f5b4b35968c9c3e7"
     },
     "analysis/paper_study/nature_food_impact_20261008/derived/research_milestones.csv": {
-      "bytes": 1776,
-      "sha256": "0d553b65d1b183434788dfdbc716a73e0211277166fadd2f2734b37c90244d68"
+      "bytes": 2065,
+      "sha256": "7ac21baab4b664f4f3365830cc2bb4cec84b3a08e1c545d8211409b0605f0d05"
     },
     "analysis/paper_study/nature_food_impact_20261008/diagnose_onset_scale.py": {
       "bytes": 4756,
@@ -2320,16 +2560,20 @@
       "sha256": "0f91e39134e717073c620d10ddd49a743af379df6c830e45318177c5a05c47fb"
     },
     "analysis/paper_study/nature_food_impact_20261008/impact_figures.py": {
-      "bytes": 28224,
-      "sha256": "0510c1bc138f1610baa6244b75b60fffed8071655ba8d8ecafd894aba55b8996"
+      "bytes": 28863,
+      "sha256": "12312d69712b0bd535abbde24fbb0918921a4dcf129caa3dc7084a4a331b8401"
+    },
+    "analysis/paper_study/nature_food_impact_20261008/management_evidence.py": {
+      "bytes": 9311,
+      "sha256": "a9b0921f31adacb59ac5d934648d984f682f19189e54b837293fc594a0019c3c"
     },
     "analysis/paper_study/nature_food_impact_20261008/sections.py": {
-      "bytes": 52709,
-      "sha256": "61a5337ef78a106c2282f3016ca4c346cfb55b39ba81dc9d93bef4291b0c2e3d"
+      "bytes": 64119,
+      "sha256": "10859fceb7f14a953632cbe5f0e7ff127f4fe6f1145db92bb01acc6015db1d6b"
     },
     "analysis/paper_study/nature_food_impact_20261008/tables.py": {
-      "bytes": 20617,
-      "sha256": "07b3a689893d756901e401bb8bdf92df3feb3f27b8bceb456e2b5de35609e044"
+      "bytes": 20877,
+      "sha256": "d397568b69eef919b1f0d4c3f8ecd2475b01d0c45f5e39deb9a226cb15142a45"
     },
     "analysis/paper_study/nature_food_impact_20261008/test_figure_scale.py": {
       "bytes": 731,
@@ -2344,8 +2588,8 @@
       "sha256": "828c7a93200f1ce92f8caa48a28ae3400f1726d7562a19f48bbe918c7c4ce71b"
     },
     "analysis/paper_study/nature_food_impact_20261008/verify.py": {
-      "bytes": 12254,
-      "sha256": "a1e54652e5fb09bdc781eb53fed9f0dc685b9d00452a3d0a896d1003250519ce"
+      "bytes": 16141,
+      "sha256": "fbf09157333c6ef937d9b753b4541a9d99fb49eaaab181bb6ec066f38ae83faf"
     },
     "analysis/paper_study/nature_food_revision_20261007/basf_crop_response/protocol_before_fit.json": {
       "bytes": 1016,
@@ -2492,12 +2736,12 @@
       "sha256": "45592412124252b45302f25ef44ef66268f7f69bdaf27ed581b3f0feed12cb94"
     },
     "analysis/paper_study/nature_food_submission_20261008/citation_input.json": {
-      "bytes": 30730,
-      "sha256": "5cf7829177d9cf82c4a6b72a86eec08a86d9689502925bef7ee41b7c92634289"
+      "bytes": 32291,
+      "sha256": "f825343b57fb9fbac3da7ae240e58662d8c5d45a9c116245b28e0ea06fd5d4b2"
     },
     "analysis/paper_study/nature_food_submission_20261008/citation_rendered.json": {
-      "bytes": 11848,
-      "sha256": "a346223b8446288e3528f1abfc822164066c4a0f55117e0ddef1a930987dda87"
+      "bytes": 12676,
+      "sha256": "b128a0cb8c1caf83303d35a368549cf2131fb78d29efb73d1019cdc9af7001c7"
     },
     "analysis/paper_study/nature_food_submission_20261008/derived/map_canopy_changes.csv": {
       "bytes": 41642,
@@ -2568,12 +2812,12 @@
       "sha256": "15b1272a3c360168e0b51ab9257534b08ced67190ed57be7a1c32cea8fc87be8"
     },
     "analysis/paper_study/nature_food_submission_20261008/references/references.bib": {
-      "bytes": 20002,
-      "sha256": "7e7ff50a770ff006c5909356709e12aa1deb24dac7ab23d73ae28757d9d825a9"
+      "bytes": 20524,
+      "sha256": "db64ec5ff80f7a4aed388f75ab30898a310dea26d89257b4387c55c2f0fc01f7"
     },
     "analysis/paper_study/nature_food_submission_20261008/references/references.csl.json": {
-      "bytes": 43165,
-      "sha256": "8073f9cf685603af208e7ffe937674630bb057af1786972c54224667041c418a"
+      "bytes": 44105,
+      "sha256": "9157ee89ba755d75bfb3fa97fb79cbd2feb957bacf7a2fbb28a9b1523a817e3e"
     },
     "analysis/paper_study/nature_food_submission_20261008/references/s41558-023-01902-2.crossref.json": {
       "bytes": 41662,
@@ -2606,6 +2850,166 @@
     "analysis/paper_study/nature_food_submission_20261008/tables.py": {
       "bytes": 3658,
       "sha256": "65ac4d21912f9e65f5d6f4677e652eaee69bf4425eaf532f54a60e87870f9b54"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/METHODS_AND_RESULTS.md": {
+      "bytes": 10694,
+      "sha256": "a4ba56f6f6646d59e3f6ee756a9570586fca191cb930eb9bb16c8f6b8aea1a0e"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/PROTOCOL.md": {
+      "bytes": 8196,
+      "sha256": "feecd03ed672db2254fef19df356dcf81491cf5ed79626f9c958f91b8e9a58e4"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/README.md": {
+      "bytes": 2539,
+      "sha256": "d1daec50cb6f9d73b1d9f227894a97f5e41a7f46dd28cf0cd037d0d1ff9a05c2"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/RESEARCH_PLAN_EVIDENCE.md": {
+      "bytes": 2612,
+      "sha256": "80f6bb4ba09fec944688e315ae308b0d36613b854497a2f9c8bd6b31c1fe7d8b"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/analysis_receipt.json": {
+      "bytes": 6656,
+      "sha256": "59d76ec5b003ec610b43dd5e9bff14a9549e2cc2938f8ad237fe9c4a55f0d57c"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/benchmark_metrics.csv": {
+      "bytes": 1564,
+      "sha256": "aca02061d1abbb0e0e0d475f84c427e61647300f0ce426d39b9d1f991065e9ac"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/compatibility.json": {
+      "bytes": 1615,
+      "sha256": "af3aa310cbfbab2d6c8812dd13d27c904bf6a8c2c868723263d412f0b214e3ef"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/cross_source_join_audit.csv": {
+      "bytes": 146404,
+      "sha256": "f70b70e74dff9d66b0d94f5ebcefae6a522243c284ceed40f65d4a0ff7ff93ed"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/descriptive_summary.csv": {
+      "bytes": 1365,
+      "sha256": "adcc2273433089436a18664f7a1c465573a495b938e8c697fdc8c48602cae45e"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/excluded_source_records.csv": {
+      "bytes": 9890,
+      "sha256": "f62e5b3588cdea019bcf9497f624a61758ae3534301d485cf96a1d975c89da70"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/fold_membership.csv": {
+      "bytes": 1216092,
+      "sha256": "d93f871acff4bcbd0906d068fdb3673b1f694d719468ce84bb34c45b02e9b48a"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/fold_receipt.csv": {
+      "bytes": 2995,
+      "sha256": "34e9140ec25c604bb0b3ffb62741e7e92cabe33ca8ac6366a6e781882965f527"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/holdout_predictions.csv": {
+      "bytes": 559766,
+      "sha256": "6431b8a937708c8809b3b32c71d8047c2b1aac4888256de1c477b9f5bf8828c3"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/paired_management_grain.csv": {
+      "bytes": 54960,
+      "sha256": "5e5eb38a9d50fc673e6a9c5946df6dacab9f7baf12334041438e571cdca00a21"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/possible_reused_controls.csv": {
+      "bytes": 8111,
+      "sha256": "ab6e2be4e18f58b35832ac0df3b6a1399135b77cf76921a3cbb2c64a9d50ae89"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/regional_stage_join_audit.csv": {
+      "bytes": 18489,
+      "sha256": "5237df42e40599b69e9caae26052e2d6b7c96671f4d62845958f8504db88e07f"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/regional_stage_reference.csv": {
+      "bytes": 5611,
+      "sha256": "27c6b70a252bdd923a162112a16db4908da688350f9bece9f278dd4871bf121e"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/sas_only_records.csv": {
+      "bytes": 1406,
+      "sha256": "07f15a86c96dc98a93c87e57d78464bb37f67048efafbac7f51e57eb44936da9"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/sas_source_records.csv": {
+      "bytes": 138923,
+      "sha256": "508913c26ca9cb9deb3ffb92f93d4ef3312ff2c6b0c3d6c6146118f3fd5d54fb"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/sensitivity_benchmark_metrics.csv": {
+      "bytes": 515,
+      "sha256": "9040bfdc2be58cb10740bab6e69473ac34b29091d8a04a81dd13fb2e2a83429f"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/sensitivity_fold_membership.csv": {
+      "bytes": 841271,
+      "sha256": "22f3e0dc008fc9de0d81c0d1df544f76ece56efb047e18c43747a80de8860fd0"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/sensitivity_fold_receipt.csv": {
+      "bytes": 2150,
+      "sha256": "d383ab025e348be47b179953cbfb3b6ab311595fbc99815da180239588a28100"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/sensitivity_pairs.csv": {
+      "bytes": 54781,
+      "sha256": "1052b7222d96b778e63fed88998cf43cce1fc3f1fea3efbdbdd31c3c90835ed5"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/sensitivity_predictions.csv": {
+      "bytes": 161128,
+      "sha256": "6073718b31a7c7fe2f0960161d288594217d87ca97c433c3167fef4b2b5155fb"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/source_documentation.txt": {
+      "bytes": 5830,
+      "sha256": "aa250be763a1eb2b6cc68e64b5476b14b66df9a542d2dc2390af6092cb49e14b"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/source_group_audit.csv": {
+      "bytes": 17704,
+      "sha256": "5cdd90665a9fc75bfc2a8ec844232f27ff739e9574a3dc5373137d81485d3c59"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/station_join_audit.csv": {
+      "bytes": 174632,
+      "sha256": "68a6bcfac3da34044bd6a0a5a4c20f8d53c3431c965e6f16285dcbc9050fbd7a"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/uncertainty.json": {
+      "bytes": 813,
+      "sha256": "84fed2e016426bd2ac068f384dbe15f716d13ed515dc383f37716e5348022c1e"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/weather_station_reference.csv": {
+      "bytes": 1665,
+      "sha256": "762700506c853865b30103b8e9aa4aee2032014863d231583891d0d09b56aef1"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/outputs/yield_source_records.csv": {
+      "bytes": 56959,
+      "sha256": "e90d8fe43a2702b90bf566366a64b5fffd51a97ac1d98cb14d0ecea4d06d1cf9"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/receipts/protocol_fixed.json": {
+      "bytes": 252,
+      "sha256": "02648eb9fa1c3ad137b31140c903f4e5e230a71366eb9fed1148ad48547cffc3"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/receipts/tests_initial_red.txt": {
+      "bytes": 27491,
+      "sha256": "844175382dad98588c8c5eb9e80d2e74ed38051c8279dfc4c7493c5a823cc053"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/receipts/verification.json": {
+      "bytes": 2764,
+      "sha256": "cdbf482d6b39c6971159786626477f141a0dc4a2411eaa57ba13406ed4c40b8b"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/requirements.txt": {
+      "bytes": 69,
+      "sha256": "fe2b7dec1f8d40356799e57c34d87171fed7a3a39ea5b59ab17592733e952d9f"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/run_analysis.py": {
+      "bytes": 31014,
+      "sha256": "c8af11e639b3553d767f8b1c278a037e791e7ab9e324796f2e3f579170b3a709"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/source_bundle/LICENSE_AND_PROVENANCE.md": {
+      "bytes": 1961,
+      "sha256": "2ad8c3143d289b2cfcda0cfeb4c3a91d52549b6bb75b49b5992e69120a504922"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/source_bundle/manifest.json": {
+      "bytes": 9619,
+      "sha256": "eebafeab904fff9be3f67c6826ba87cdcb254e00d71e4c4e780fb242148e64dd"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/source_bundle/nordic_public_sources.zip": {
+      "bytes": 167763,
+      "sha256": "290493e673ad3a076a86ae1754c9d01872e2c1bcb6b3fd4c5c0044f081a386af"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/test_analysis.py": {
+      "bytes": 11211,
+      "sha256": "66b3a4eb15071dcd0e9ac855a7f047ec6c57841e731afefa9c9f748643108c7e"
+    },
+    "analysis/paper_study/nordic_archive_validation_20261009/verify_reproduction.py": {
+      "bytes": 4806,
+      "sha256": "125143478e0f1e8f69c0175f8bdf1c170511d3e8e5304b56cd250c53ca29cd1b"
     },
     "analysis/paper_study/nordic_yield_validation_20261009/Nordic_yield_validation.pdf": {
       "bytes": 34993,
@@ -3222,6 +3626,250 @@
     "analysis/paper_study/phenology_assumptions_20261006/run.py": {
       "bytes": 26753,
       "sha256": "9333d1e4b80dc78d2863aeee886b911328c973fa0a4e2750f188042d48a56d06"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/.gitignore": {
+      "bytes": 101,
+      "sha256": "bcb9babe77965b17fc3d3a87922af7effb9b44cddaf9489c5dde32b972ef596b"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/COMPATIBILITY_REPORT.md": {
+      "bytes": 10012,
+      "sha256": "60432adb61ce528b5a4857cde4fde35b7ceadbd89c50d34db827c5a6a3691fbc"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/README.md": {
+      "bytes": 4413,
+      "sha256": "7f26f88b4b7960404963632ef887a20ba43f1d805de697a2a0141e27fb0c8bb6"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/acquire.py": {
+      "bytes": 2372,
+      "sha256": "05db402c19acade53572317570e4e12a6d4c09c6bac31998bc86f1d217e26830"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/acquisition_summary.json": {
+      "bytes": 8093,
+      "sha256": "fa65203e6ea8a89a969e17fa2c98753bbc385b7eec184c567021d05ba632b805"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/api_search_coverage.csv": {
+      "bytes": 2833,
+      "sha256": "53a1b0d4b3c1d7bdddf190246d08c80202ca5b6ab06daa4e86e20a409fc25440"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/audit_existing_sources.py": {
+      "bytes": 3063,
+      "sha256": "369ae2ea49195136cc46d707d8abcd98c2c766e93aff872aa493d1456b34f384"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/audit_inputs.py": {
+      "bytes": 8570,
+      "sha256": "faddcfa057f55a7d6fd3390027ab0dd66607bef9ded81a74591b282da14eb741"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/build_inventory.py": {
+      "bytes": 24755,
+      "sha256": "5f9b70f390f4a526d6810cad5a2a3dd5b826ec50e7ceb249c338bce64a15b415"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/build_templates.py": {
+      "bytes": 12276,
+      "sha256": "2ac92e4557bac665c6032c0e017035a41fa79aa3922923c9c3281321d7982c85"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/comparison_protocol.json": {
+      "bytes": 4582,
+      "sha256": "004ca8987aabafbe5ee0068a9123135e0ff31d7d2368124b370f356bfa9fa81e"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/data_dictionary.csv": {
+      "bytes": 12326,
+      "sha256": "10421bbd9bb9b4d359fc7f11bc7e4acd2118b9ad04c196f86bfd100db46e742a"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/existing_rejection_audit.json": {
+      "bytes": 4354,
+      "sha256": "c4bf4af42add3e430daaad91c621ec6fb3685fe5a199150afa21ffd7f7caf288"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/file_manifest.csv": {
+      "bytes": 6552,
+      "sha256": "e08ebf608fdf85d811f9781a78855a65707bb62365b7a942a7f9ced5ca3a6c16"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/input_audit.json": {
+      "bytes": 6764,
+      "sha256": "2591032dfa2efe1a5d5a0ccc5438ba8df52137ac78f457de237d9ee645087039"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/local_archive_review.csv": {
+      "bytes": 10440,
+      "sha256": "411304c5af7f7e33abbf1aaf282d10ff25c964e9e6b23ba092bd71c3b32e6552"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/bancal2022_hal.json": {
+      "bytes": 2559,
+      "sha256": "3f551216004cfc0260cffdc0c2ffb8755b1164e2799e4288a6829b3eb1417c78"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_bancal.json": {
+      "bytes": 391539,
+      "sha256": "7a8c04a72df5509266c98cba6dd4a673aef79117d5f306e4169bd5d2b7df3328"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_bancal_related.json": {
+      "bytes": 236,
+      "sha256": "b39def8a2db0c06856af4020affdbce45ccdaccf2bd0984b775f3d1567d33613"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_bancal_wheat.json": {
+      "bytes": 81463,
+      "sha256": "6d7071eec7d2c71e33632634da0e57f5a13d208f7ffccdd23a0bc4c9f40b34b8"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_bregaglio.json": {
+      "bytes": 158,
+      "sha256": "d3493fa7cb363b788430d7c69ecb3f17ac267aa2c97a76885385ecf93f738773"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_corkley_related.json": {
+      "bytes": 159,
+      "sha256": "61f47ffcc43a656724680fc4d2a4991bc2404db52fd3a0c74deff55a384d790d"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_corkley_wheat.json": {
+      "bytes": 151,
+      "sha256": "588c253579d7e11b723a71430e9e0e8c42317a79e4c192e72f3d0848c8c16d73"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_foulkes.json": {
+      "bytes": 150,
+      "sha256": "5c44a777fac52ffdb6c3b29800a615dfdde0fb93aa3f5f20da0956c6d968edd2"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_foulkes_tolerance.json": {
+      "bytes": 171759,
+      "sha256": "534cb39051219a5c5f64ab03d2f953fda304af170520651ba5eac36962e3a6da"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_phenotol.json": {
+      "bytes": 142,
+      "sha256": "86e743f1e62c5b3c2fb41575e32530daf01dd31252b30e523e5752071810b795"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_physiology.json": {
+      "bytes": 249481,
+      "sha256": "199693674c38714fc63a42adcd78fc51a4e55044165d06e8bedb5f087c8d054f"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/datacite_tolerance_related.json": {
+      "bytes": 229,
+      "sha256": "6ab22fbc59ef0bedce646b88ec3e0d8f378a6d881b5b9e757df6d90661f713a4"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/eth_segmentation_data.json": {
+      "bytes": 3166,
+      "sha256": "8fb268fd17c6ca7c7334b3083b9a343c2c6076b010cd36b2880fa8fa64e03118"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/eth_segmentation_repository.json": {
+      "bytes": 5775,
+      "sha256": "e41a5753e3f9d46a39ffd2b4707137831c91bf6b2f1a2b878beb6179bfc3c95e"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/eth_segmentation_tree.json": {
+      "bytes": 2860,
+      "sha256": "6695d503ba27ba671f29a43b2b1db9575460124ee0d62b0463f6be6f4ae4c769"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/hal_leads.json": {
+      "bytes": 9949,
+      "sha256": "97604aeafa6dcf219a075cbd1f4b9fafc7a7419e293179dc95cc0a734bd84456"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/rdg_bancal_search.json": {
+      "bytes": 14394,
+      "sha256": "546d1d6add273564a3576c41b400792689f9d8bbcfaab446c356aa1fa60495cb"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/rdg_green_area_search.json": {
+      "bytes": 141,
+      "sha256": "49dc6926a74faffefa178c58e47abc0903498a91f217869c47cb3a6e57d567c1"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/rdg_phenotol_search.json": {
+      "bytes": 125,
+      "sha256": "149e4cf74c5c69862543ae1a92be4a5189d7c26741a38bdd94e3c21990e0ee9e"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/rdg_septoria_search.json": {
+      "bytes": 3788,
+      "sha256": "0dc68b23d80c26499e3fb731c7092a6ddbb7c3bc65ef7bcd426d52e23e63d48a"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/rdg_stics_french_wheat.json": {
+      "bytes": 21624,
+      "sha256": "14ad83e6716f637ff00c36183ccde1139c8d57432a5f2387e2526a42dd9a6375"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/taylor_repository.json": {
+      "bytes": 5599,
+      "sha256": "9e2a800d52e4e1790a0ba3bb4993569af6f0f73b6d0095e801a2d8a172d03a8d"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/metadata/taylor_repository_tree_master.json": {
+      "bytes": 19713,
+      "sha256": "e6f302c16502e2828c73ca7458bdbedd548a8ee0d90fd40c1ff214124b3f2669"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/parent_handoff.json": {
+      "bytes": 495,
+      "sha256": "e62745800d9dbbfddf16e221ed7c56aa776f5405841e5890a719a7e29bf602bf"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/repository_file_inventory.csv": {
+      "bytes": 20184,
+      "sha256": "4b8d822ac1fed4166fd6a1d29fabc44c3af6f3807b39279db8f060de7d492368"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/retrieval_log.jsonl": {
+      "bytes": 18829,
+      "sha256": "da12d73e8acf9ea58228c35fe4edb81001e3288404b42467498ae05855cd67b2"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/schema.json": {
+      "bytes": 6595,
+      "sha256": "7ad9ad95e321dbdcc8bc3b3ca84719f972100181689768e95b6f94a3a6969a17"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/scope.json": {
+      "bytes": 879,
+      "sha256": "c9f50ec6722f9cc06d7a81337e1dcef3d5e56497e4b52591b85e08c20450415d"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/screening_exclusions.csv": {
+      "bytes": 193,
+      "sha256": "1c4404dd00621402a984c05e0843e417b57feff0f10ad8d89b6c9894f8d7ba48"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/source_inventory.csv": {
+      "bytes": 17955,
+      "sha256": "e55956bcf4c8fcfd82c00e69a49219a87b0be0bf7e80013e9169246d6814c322"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/biomass_reserves.csv": {
+      "bytes": 139,
+      "sha256": "5ea022233c5aedec827c773b18236cfa3462cff4ae16c72efd7ea86a55d93477"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/canopy.csv": {
+      "bytes": 216,
+      "sha256": "0eae3c661f189f8ed3e26556c74098f6531dab906538c28e8e84b72f714759fa"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/disease.csv": {
+      "bytes": 182,
+      "sha256": "7627188b770a795b8ae51fa5efb1e03cd68a68ef3cbe6d56541c47f46efa0533"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/environments.csv": {
+      "bytes": 137,
+      "sha256": "8c8e725d0fa8105b291a82584c61d21273ce03e76f8302777a53c96a7e520073"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/harvest.csv": {
+      "bytes": 134,
+      "sha256": "fb8ef299926383fb5b8edf618f3aa201b27b3240d0f4e56cd2b9ff2c1d7d0a22"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/management.csv": {
+      "bytes": 110,
+      "sha256": "56c7ae79bdea4084326a92c8c8bcb6a9648f61fec4b15aaca679837c33768314"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/plots.csv": {
+      "bytes": 127,
+      "sha256": "4511bddacf07475ddfe5e9285996e9a5af2863c3acaa1a5aeb80367ba6b194d8"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/reference_pairs.csv": {
+      "bytes": 108,
+      "sha256": "b2edce652a99ca98cda402e0f00086f50bef0ce63c99639c4f8a8791abf38fc3"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/sources.csv": {
+      "bytes": 72,
+      "sha256": "88d93b9d8e8e7ba149be103a541c2b0ad6063178fe374a120ef7037294afd16f"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/stages.csv": {
+      "bytes": 80,
+      "sha256": "d92303c784a5e1d948b040472c88ad8e195f9ffe2bd6aad0eec26ed3b881bd1b"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/treatments.csv": {
+      "bytes": 99,
+      "sha256": "a893c1b8da8f5d5d3949259a6b64e817f9b81434b650826ad73b36f3253b2fa2"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/templates/weather.csv": {
+      "bytes": 142,
+      "sha256": "456f5ec0354992b4c37466a08218594400bbeb9545f8b68ea364e372104cdf18"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/verification.json": {
+      "bytes": 2120,
+      "sha256": "2011948c61997007cd301edde3867d814f494e64bc7f8bca103db884e27fa321"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/web_evidence.json": {
+      "bytes": 2148,
+      "sha256": "e218eeaab60360f67eb9e8ae46f29261dd5b3e7c4b33dd278bc75e460a2b5cef"
+    },
+    "analysis/paper_study/physiological_evidence_20261009/web_search_log.csv": {
+      "bytes": 6477,
+      "sha256": "a3a535492578c9d43f9db6419ff977a14fc2661d2b480093ded96ac620cb2be7"
     },
     "analysis/paper_study/refine_seasonal_accuracy.py": {
       "bytes": 16705,
@@ -4076,16 +4724,16 @@
       "sha256": "564331cc3d9a1b53cb6611ca227208da967f988b00cb9a17170cf2700d875fc4"
     },
     "publication/european_wheat_stb/Manuscript.docx": {
-      "bytes": 1000154,
-      "sha256": "ffe24a404d22d5da88e55d39efe2aadac72329bcd068a4e3845c8f6119420913"
+      "bytes": 1204995,
+      "sha256": "52993161096db39b45d415d33d6fae028dd5aa10fb62f6a6131d90d2f5d48ecc"
     },
     "publication/european_wheat_stb/Manuscript.pdf": {
-      "bytes": 1388656,
-      "sha256": "822f11c1e4e2144b8a077ee42475d3fea7adb4f2845439b0be37fe3962be99ce"
+      "bytes": 1631884,
+      "sha256": "9601916a30379262e889c90dd51281d13c46808454584497970f222b80cd8844"
     },
     "publication/european_wheat_stb/Manuscript.txt": {
-      "bytes": 49222,
-      "sha256": "16014dd8d0825486e8dba87942a99c93f08393e0ae5f8620dd9aade012c33aa8"
+      "bytes": 59382,
+      "sha256": "2c8bc7fd032a2e4a0faaf8b0957c07aa188d2213faee5e232ed1a59bde52d1dd"
     },
     "publication/european_wheat_stb/Parameter_inventory.csv": {
       "bytes": 23756,
@@ -4096,24 +4744,24 @@
       "sha256": "e09d31afd3c822d7daff69f070ffbcb866d52d1da5ea7c488b65bca18ba11319"
     },
     "publication/european_wheat_stb/REPRODUCIBILITY.txt": {
-      "bytes": 6475,
-      "sha256": "a516060be506516598e684030af70c82682d2a98499ba8b88bd675706aea94b1"
+      "bytes": 8509,
+      "sha256": "e7d165b6d27740edfb7a0f64d17825e44570e5dc63bd2cb204a285acea375d38"
     },
     "publication/european_wheat_stb/Source_Data.xlsx": {
-      "bytes": 77581049,
-      "sha256": "62b922329d0d51e9d4a82655a6d4939f6f294a8554525a4b74b313eebc5e45e1"
+      "bytes": 79932895,
+      "sha256": "81f019af479f94d0f44fd46ae5049a6bc13794f125453d439cce22fed92db8fe"
     },
     "publication/european_wheat_stb/Supplementary_Information.docx": {
-      "bytes": 7532520,
-      "sha256": "71dbf4e51efa6e457c4740d7542b6bd54e5daa743587adf3d5ccf84b79cb0a89"
+      "bytes": 7776723,
+      "sha256": "a5c47e5fbefa5c1c50ecb6d385ababae5ec1378a7a2241bc9d9ddee6fbf863e0"
     },
     "publication/european_wheat_stb/Supplementary_Information.pdf": {
-      "bytes": 9427849,
-      "sha256": "b7ae65ef44da5c3bbcaaf5852390524a48b5ba18ffdbd40e6ec376b708309235"
+      "bytes": 9825345,
+      "sha256": "e09237d38e414c416f9947807a305e60a446ffde48d64f9ba720bb92680080eb"
     },
     "publication/european_wheat_stb/Supplementary_Information.txt": {
-      "bytes": 92830,
-      "sha256": "6ea4386b7b144f2dd8fe7cc106664d589ed14b18f6084ef80a443f7c6ba5ed0f"
+      "bytes": 102224,
+      "sha256": "805bb50920d10c80f7180dcdd1ca9430a9564735f789169f694ba515df8848da"
     },
     "publication/european_wheat_stb/Supplementary_Model_Specification.docx": {
       "bytes": 56874,
@@ -4128,36 +4776,36 @@
       "sha256": "1222a099b1b4afbbe68bd50b7fa4610f812044a35b33803782202ffcc750862e"
     },
     "publication/european_wheat_stb/abstract.txt": {
-      "bytes": 1120,
-      "sha256": "833e56a4ad4f7b56e8cf5f030ce0e312f8067a5b4d6fbf23aeedac86aa72923b"
+      "bytes": 1117,
+      "sha256": "e6b541df7d9438a8707a94383734584534be8204e83e3a8f9668ad37f4e7a7be"
     },
     "publication/european_wheat_stb/availability.txt": {
-      "bytes": 1879,
-      "sha256": "4dd2b117834330ecc10c21495a8cdad4d227730c771eaf2791bed5e108eb48c8"
+      "bytes": 2085,
+      "sha256": "82d34a6232d80248c6c436ec7ba2691eb87e34bd2eaceeb8f69220b17b93d2b8"
     },
     "publication/european_wheat_stb/baseline_results.txt": {
       "bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     "publication/european_wheat_stb/climate_results.txt": {
-      "bytes": 10405,
-      "sha256": "68787e3ee59371beb1a51798c1d1fbd4b2321c760eb3d851807bab2c0b325d81"
+      "bytes": 13409,
+      "sha256": "5941f10c3c470b7cc8e9695b080e085662d9c4936f8dde50d9a40d67779ae126"
     },
     "publication/european_wheat_stb/declarations.txt": {
       "bytes": 234,
       "sha256": "08b4d669fcf40b22339185200f581fe371bce01ee743c906b6882bce9e2dc997"
     },
     "publication/european_wheat_stb/discussion_field_and_limits.txt": {
-      "bytes": 4275,
-      "sha256": "d2c7d258339a7e757e669756b7c7301ebbe07c609036529181a99dac804452ba"
+      "bytes": 5296,
+      "sha256": "e7975e2b2149b1bd52acd977bef1064b80b75f4c1fea543553b448b9d6643268"
     },
     "publication/european_wheat_stb/field_results.txt": {
       "bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     "publication/european_wheat_stb/figures/captions.json": {
-      "bytes": 4891,
-      "sha256": "cf630bcaf5eccff9be114ceeb5ffa90367ac0cc69e4c1bbe8e10721268562f9d"
+      "bytes": 6297,
+      "sha256": "3c77c295efd9f4b2cb66cb75fc0cf0afa90e49932a4aad6913b7ef517be0ded9"
     },
     "publication/european_wheat_stb/figures/fig1_predictive_support.csv": {
       "bytes": 3863,
@@ -4165,7 +4813,7 @@
     },
     "publication/european_wheat_stb/figures/fig1_predictive_support.pdf": {
       "bytes": 33093,
-      "sha256": "fe54a335002a3f4eb1e6064f8890597cb9417a1ac81073dd455f00f5bc7165e9"
+      "sha256": "0b0db7a89ceec827567b2dcb474654e55e2d3d1f78abdacc21f6d03ed6455862"
     },
     "publication/european_wheat_stb/figures/fig1_predictive_support.png": {
       "bytes": 238000,
@@ -4173,11 +4821,11 @@
     },
     "publication/european_wheat_stb/figures/fig1_predictive_support.svg": {
       "bytes": 36400,
-      "sha256": "8ab9de11e332af2d645096e25a7bbc9435c2c1f4ac6f7c2eb415c816355e349d"
+      "sha256": "239f7844e50c7c6e93529eec845a8213fdd43f8a305f7e22c3e4dbc523fafa0b"
     },
     "publication/european_wheat_stb/figures/fig2_climate_damage_and_agreement.pdf": {
       "bytes": 260768,
-      "sha256": "d04b156456e1de64b2909624972527c6b85498a43fa4ad2242e72524e03442e7"
+      "sha256": "b146955ce2c1e4e30fcd44a37a9f2fba43ab5a6d8ec807769845c1fd9f914102"
     },
     "publication/european_wheat_stb/figures/fig2_climate_damage_and_agreement.png": {
       "bytes": 324343,
@@ -4185,7 +4833,7 @@
     },
     "publication/european_wheat_stb/figures/fig2_climate_damage_and_agreement.svg": {
       "bytes": 618923,
-      "sha256": "79aeaf5c9cbebb37a2d2ce4a7c3ee745a8cdb89b846ec2793abed62d56d85617"
+      "sha256": "32fbbfef7295af5d1bdf1a2e31ad30ab1bc1e9f2eac22bbd4ccbb726178a02aa"
     },
     "publication/european_wheat_stb/figures/fig2_climate_damage_and_agreement_europe.csv": {
       "bytes": 1636,
@@ -4197,7 +4845,7 @@
     },
     "publication/european_wheat_stb/figures/fig3_crop_relative_timing_and_mechanism.pdf": {
       "bytes": 150643,
-      "sha256": "e11765a73d638c324c0591ed9f0a991fb026f943fccdb69a78f5556feaabe6f4"
+      "sha256": "4bd19817945cb4fc0dafbde3c3ad24a997f0e220627ae8909525027f5567a664"
     },
     "publication/european_wheat_stb/figures/fig3_crop_relative_timing_and_mechanism.png": {
       "bytes": 299828,
@@ -4205,7 +4853,7 @@
     },
     "publication/european_wheat_stb/figures/fig3_crop_relative_timing_and_mechanism.svg": {
       "bytes": 343421,
-      "sha256": "061f49d2d4e0a290bd5dce697d5ccebea6a14833f9d610caa2ba0f6320108c7c"
+      "sha256": "62d9b31b65ee61bbe494290a10994f0cc46493d8f0b8c4b8abd6e91dc320b9dc"
     },
     "publication/european_wheat_stb/figures/fig3_crop_relative_timing_and_mechanism_components.csv": {
       "bytes": 1224,
@@ -4224,16 +4872,20 @@
       "sha256": "5711cc74b4cdf00c949c19b840c8bc2510f2c98d6a62e1cc2abb6d8158971e2b"
     },
     "publication/european_wheat_stb/figures/fig4_wheat_production_exposure.pdf": {
-      "bytes": 30386,
-      "sha256": "c1b99db769f85c3acd489d28f5bd910c450650b6d67af2e57a4b1d4ab2a25a6d"
+      "bytes": 32673,
+      "sha256": "0a0190c50eba66a194217a16a484c840f376fe9332838ab96f5c115249e79e01"
     },
     "publication/european_wheat_stb/figures/fig4_wheat_production_exposure.png": {
-      "bytes": 207884,
-      "sha256": "ecfa3f78327f25a1a2e8c455cc726d58349d24227391d57260504bcdc4e33a96"
+      "bytes": 210247,
+      "sha256": "7a6d7b16a60777c8aee64068c2286f13bf1e5ba0fddc0a614d695e8bd9876cbc"
     },
     "publication/european_wheat_stb/figures/fig4_wheat_production_exposure.svg": {
-      "bytes": 39983,
-      "sha256": "58a7f2d935cf482b6b3860ae88b059565b1223a4722320aba923c3bd224efb06"
+      "bytes": 42444,
+      "sha256": "d8245890ae6156f1ae3eee1e6756ab597f07c79cdff2cbec427e93e9df5463ea"
+    },
+    "publication/european_wheat_stb/figures/fig4_wheat_production_exposure_annual_tails.csv": {
+      "bytes": 3323,
+      "sha256": "24c9f1b1b61d4222e513426ad03d3e11e40cde394f7462bce40800436955745e"
     },
     "publication/european_wheat_stb/figures/fig4_wheat_production_exposure_europe.csv": {
       "bytes": 3549,
@@ -4243,33 +4895,53 @@
       "bytes": 6798,
       "sha256": "cc4a2ab177b15ace7ee106fdfa32077cde825373a59c4b69d7033af082f7d2fb"
     },
+    "publication/european_wheat_stb/figures/fig5_observed_management_grain_responses.pdf": {
+      "bytes": 34246,
+      "sha256": "3dbca6b4a8f7ae8b9598c0956c7d65297399c8c2873a7a3c8d0b0ca3260f9eef"
+    },
+    "publication/european_wheat_stb/figures/fig5_observed_management_grain_responses.png": {
+      "bytes": 216452,
+      "sha256": "1e0bd7de7d96457525b181ab9053a22a344f3f5f5a7d8cb20ef5ebdfc1acb320"
+    },
+    "publication/european_wheat_stb/figures/fig5_observed_management_grain_responses.svg": {
+      "bytes": 45002,
+      "sha256": "17609123c1427778b2f645f23ed1c7f81dd5ed74696fa6938df561d2ac0d8da2"
+    },
+    "publication/european_wheat_stb/figures/fig5_observed_management_grain_responses_france.csv": {
+      "bytes": 110815,
+      "sha256": "033660a8baa4d9e7615bab998f30c42258da56a93e2a69c084cfffe277f9c2da"
+    },
+    "publication/european_wheat_stb/figures/fig5_observed_management_grain_responses_nordic.csv": {
+      "bytes": 56502,
+      "sha256": "875f21354ee78ef632196e4aeb878d41ee9987b554a19683bc88917b36b995c4"
+    },
     "publication/european_wheat_stb/introduction.txt": {
       "bytes": 2321,
       "sha256": "4c97f183ebe863a0b3dee67cbaf391858405059fd0539494b7893027d3ce66d0"
     },
     "publication/european_wheat_stb/methods.txt": {
-      "bytes": 17137,
-      "sha256": "63cffd0d24d1d1e48e47e382bfc7874c04848489bf14e1337ea79fa06818d37f"
+      "bytes": 21479,
+      "sha256": "4cc18c048b13d2fc5b49586bc15621e9265efef3995914dae4ff739546bd9fbd"
     },
     "publication/european_wheat_stb/publication_receipt.json": {
-      "bytes": 963,
-      "sha256": "a842835a31870aad893f922e468dda82eee9ed4b4a966d031ecc538eb87aa127"
+      "bytes": 964,
+      "sha256": "1036b7e6b50c4e8fe175c02f750fbd407c6c40d207ddfa25cd33e0156247c5dd"
     },
     "publication/european_wheat_stb/references.bib": {
-      "bytes": 20002,
-      "sha256": "7e7ff50a770ff006c5909356709e12aa1deb24dac7ab23d73ae28757d9d825a9"
+      "bytes": 20524,
+      "sha256": "db64ec5ff80f7a4aed388f75ab30898a310dea26d89257b4387c55c2f0fc01f7"
     },
     "publication/european_wheat_stb/references.csl.json": {
-      "bytes": 554,
-      "sha256": "5a7d8b7bf6929fcbcb37e291261d1f497f2490f5ccc1af8895536a5e5a56e50b"
+      "bytes": 611,
+      "sha256": "a2fe0a996e62d03b57fefe869f9f31244aa669a1a31b778a9d9bbfb66e73e701"
     },
     "publication/european_wheat_stb/references.txt": {
-      "bytes": 5469,
-      "sha256": "9749f6f981ca075538564ed381f39ea323eee415cd9095064411ca9f3c9dd383"
+      "bytes": 5716,
+      "sha256": "4139133685143ff34538f4ecb33544c56b8ff8ed9b86826b4e0ed0fca8e17529"
     },
     "publication/european_wheat_stb/reproduction_receipt.json": {
-      "bytes": 2873,
-      "sha256": "754e38dd1be7d213743fa88f73b69a56dac219bee8aa3b089c110e0aa570f96a"
+      "bytes": 3595,
+      "sha256": "9e5a7284e1f89173b3f58baa37c7235cf9dfb73538856635fd1864b477638edd"
     },
     "publication/european_wheat_stb/supplementary_figures/fig2_field_stage_intervals.csv": {
       "bytes": 87097,
@@ -4285,7 +4957,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS10_top3_yield_response_coefficients.pdf": {
       "bytes": 23340,
-      "sha256": "f13974aeb0222653118cc833108e93a4436c5adc5259bfbf55c7aee0bf918a13"
+      "sha256": "f46a8c95901659fb2f7259bf1e86968721b7ab24a6e913b1b8d12778e1208d08"
     },
     "publication/european_wheat_stb/supplementary_figures/figS10_top3_yield_response_coefficients.png": {
       "bytes": 172095,
@@ -4293,7 +4965,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS10_top3_yield_response_coefficients.svg": {
       "bytes": 32311,
-      "sha256": "01d7e8d0e9d492e91b880b641c79054b5900ef773a38294dd18a25762739d43f"
+      "sha256": "d64c2d0825d9faf99bdc6db55ef2023a7574f31a513f6cc5961a83cd0134bfe9"
     },
     "publication/european_wheat_stb/supplementary_figures/figS11_published_yield_group_holdout.caption.txt": {
       "bytes": 704,
@@ -4301,7 +4973,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS11_published_yield_group_holdout.pdf": {
       "bytes": 20143,
-      "sha256": "49c552bdfa282c5a07c58948a5183c4bc1c9d7c62d3cb1748490341027f47b87"
+      "sha256": "c8628914cc96953b4b632a01a7c6f3de577765e30b57061b020b99b491fb04b8"
     },
     "publication/european_wheat_stb/supplementary_figures/figS11_published_yield_group_holdout.png": {
       "bytes": 197307,
@@ -4309,7 +4981,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS11_published_yield_group_holdout.svg": {
       "bytes": 28509,
-      "sha256": "8b8d09907b7d846ccd56b279721cd58c863f5b1bc894e016cd93bf9df2100c1e"
+      "sha256": "f112e6e7d0bb84f6e32f7708ae73f3935df95e19c070d33d6578196bd79fb13d"
     },
     "publication/european_wheat_stb/supplementary_figures/figS12_spatial_symptom_changes.caption.txt": {
       "bytes": 611,
@@ -4317,11 +4989,11 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS12_spatial_symptom_changes.csv.gz": {
       "bytes": 3631613,
-      "sha256": "864f4e5bac4a12ed95b05a5bd9d5c2fdd9825171f49619936725f0ec6e4f6185"
+      "sha256": "fa97ec2405e95a442768f7f5abc74c3bb3d1408ae7d23e4650646181b0d389c8"
     },
     "publication/european_wheat_stb/supplementary_figures/figS12_spatial_symptom_changes.pdf": {
       "bytes": 713399,
-      "sha256": "1bc301f86cf3088b8cdc3627006b7ac7170bba2d6958298032904d3545985175"
+      "sha256": "7e2c9635b441d2b7be85eb42ad6cb3ecc776ef7c18eeb81fc5bdc545601c0e49"
     },
     "publication/european_wheat_stb/supplementary_figures/figS12_spatial_symptom_changes.png": {
       "bytes": 567252,
@@ -4329,7 +5001,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS12_spatial_symptom_changes.svg": {
       "bytes": 1806305,
-      "sha256": "4809accbe8621692f8b32757ee1dc094a2b4cc5e241500f16b23d68f129e9270"
+      "sha256": "e9314b980a5f687dda6890cdd43a9618217a87a9ce9197823aeb5748939f84cb"
     },
     "publication/european_wheat_stb/supplementary_figures/figS13_spatial_yield_transfers.caption.txt": {
       "bytes": 633,
@@ -4337,11 +5009,11 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS13_spatial_yield_transfers.csv.gz": {
       "bytes": 6757488,
-      "sha256": "97b872eed1bbd7f29872104f216ce25e6a56f1f56edb9bd8aed390ef14728deb"
+      "sha256": "44951b3a514e4c018e2d6997a0b7b89a558df082a2fe7fe75f8149767261bbdc"
     },
     "publication/european_wheat_stb/supplementary_figures/figS13_spatial_yield_transfers.pdf": {
       "bytes": 708337,
-      "sha256": "4272814c9bc16a55565f0ba5ac23caa025eb2c4caddf3a66baad45cbe577281a"
+      "sha256": "7a72cbb63d843fe6644fd64ece300a181c84b39cf4ba68e9ee9a580ef21f124d"
     },
     "publication/european_wheat_stb/supplementary_figures/figS13_spatial_yield_transfers.png": {
       "bytes": 554210,
@@ -4349,7 +5021,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS13_spatial_yield_transfers.svg": {
       "bytes": 1792399,
-      "sha256": "c69743b710a85fc3cbb53fcf8b168d859bd833e3680dac17f24d259c74c63e23"
+      "sha256": "5fc632385c88508a6474af318a1c7bd3925813a35121bd5e71c8cea75fd20c7a"
     },
     "publication/european_wheat_stb/supplementary_figures/figS14_historical_disease_patterns.caption.txt": {
       "bytes": 486,
@@ -4357,7 +5029,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS14_historical_disease_patterns.pdf": {
       "bytes": 306154,
-      "sha256": "5c9d8191e9a175745a4efe0e8ae6fa10c6bf27f84eefb39c7a23a5022c76a5dc"
+      "sha256": "70087d39d66816d41295a9d1a7a82c5d910f8ca145e29e13c54da9871e6f0546"
     },
     "publication/european_wheat_stb/supplementary_figures/figS14_historical_disease_patterns.png": {
       "bytes": 327138,
@@ -4365,7 +5037,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS14_historical_disease_patterns.svg": {
       "bytes": 687057,
-      "sha256": "5b53a5204ab25f70420f11a75a2367e0e42ec41e2dbef687a541746921d78ba0"
+      "sha256": "d3e61c2c23410c23a3f4623e9985a7a327d5d9e4be38947cbcb1463394f66e92"
     },
     "publication/european_wheat_stb/supplementary_figures/figS15_climate_robustness.caption.txt": {
       "bytes": 607,
@@ -4377,7 +5049,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS15_climate_robustness.pdf": {
       "bytes": 32596,
-      "sha256": "e6afe1e486dd0d554710d0a314f1e3afbf1c334dc3cafb4e0bf2bf0ae7118c58"
+      "sha256": "4161e861a26b05cab7f941bacd09629e57067f92864c907dd6bfe21911e710f4"
     },
     "publication/european_wheat_stb/supplementary_figures/figS15_climate_robustness.png": {
       "bytes": 190344,
@@ -4385,7 +5057,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS15_climate_robustness.svg": {
       "bytes": 46781,
-      "sha256": "6a911bc4c499890c7a8b7782a243bfb3fd65f84f0d6d7768dd6be029b46edf80"
+      "sha256": "16abf954583c372529ffc3879943b3aecb436718918ed44aae38d821573d86b8"
     },
     "publication/european_wheat_stb/supplementary_figures/figS16_weather_host_decomposition.caption.txt": {
       "bytes": 622,
@@ -4393,7 +5065,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS16_weather_host_decomposition.pdf": {
       "bytes": 32900,
-      "sha256": "9d36600800f0216144168e675de8ba89c4d7c913692c768526d3b2db4af068af"
+      "sha256": "3bb6bd8d98aba38d111c00e04859ff98ddb896c99fd0dead78d433efa6800410"
     },
     "publication/european_wheat_stb/supplementary_figures/figS16_weather_host_decomposition.png": {
       "bytes": 132964,
@@ -4401,7 +5073,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS16_weather_host_decomposition.svg": {
       "bytes": 21436,
-      "sha256": "c41410b1b8932c55be74d5a690acbd9f5ee46272de9b9c1b0455159cfaf0ac7d"
+      "sha256": "338040cb48541175410bcfd7c5ac8668966c4e0a18c2073e6715a30324000d25"
     },
     "publication/european_wheat_stb/supplementary_figures/figS16_weather_host_decomposition_components.csv": {
       "bytes": 1224,
@@ -4417,7 +5089,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS17_framework.pdf": {
       "bytes": 18470,
-      "sha256": "5fb814421fd6ee7f3c214d039ac26667450240bd4c824478640d041f66b5a746"
+      "sha256": "e261876d3308436dcc8955c752808b3bac45c520c3ec0b591b2152d02bf50893"
     },
     "publication/european_wheat_stb/supplementary_figures/figS17_framework.png": {
       "bytes": 194461,
@@ -4425,7 +5097,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS17_framework.svg": {
       "bytes": 8840,
-      "sha256": "3a822f45b1f9358102e744176d3cc8503a57b62d4c38dee0415783fead9efb9f"
+      "sha256": "c30da20ae2aaa669c5e69d4d864e853dec38dfc9db758b4ed7a18dd7b74698a3"
     },
     "publication/european_wheat_stb/supplementary_figures/figS18_flag_stage_validation.caption.txt": {
       "bytes": 523,
@@ -4433,7 +5105,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS18_flag_stage_validation.pdf": {
       "bytes": 34340,
-      "sha256": "422050e584f6bcae7bcc3a69cb022016e65a5834009569a2346422771b9bc8b6"
+      "sha256": "4ed02ba04f0b9acbfb9c5ddf9d401b9155a810f3dbe5dd808e6536b480382001"
     },
     "publication/european_wheat_stb/supplementary_figures/figS18_flag_stage_validation.png": {
       "bytes": 214413,
@@ -4441,7 +5113,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS18_flag_stage_validation.svg": {
       "bytes": 68361,
-      "sha256": "4c540a06a0e6d07dcf221907f163663f78878af0620095900ce642fd550cf722"
+      "sha256": "af94c60a00607950b90639541515a08688bdc210bf0ba3cd04deca48213520e1"
     },
     "publication/european_wheat_stb/supplementary_figures/figS19_environmental_region_responses.caption.txt": {
       "bytes": 516,
@@ -4449,7 +5121,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS19_environmental_region_responses.pdf": {
       "bytes": 694385,
-      "sha256": "5ff8a1d7b6f9353e560dc328258eaf424338a96b2348efa28783a2fb480b3ea7"
+      "sha256": "a1818d197a33a6f5273de85ae6cc440db08faf8fd75a8fc2af2927fccf05328d"
     },
     "publication/european_wheat_stb/supplementary_figures/figS19_environmental_region_responses.png": {
       "bytes": 560128,
@@ -4457,7 +5129,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS19_environmental_region_responses.svg": {
       "bytes": 1759355,
-      "sha256": "72975f9163bfaee37b68817204840486ab3e46fe1c7eab9d1191d39330e48d93"
+      "sha256": "36214d0ce7fe90f25e0cca0d1fc873d9805e8b9cf5382f1dc183ec45a0a9d8e2"
     },
     "publication/european_wheat_stb/supplementary_figures/figS1_field_early_stages.caption.txt": {
       "bytes": 529,
@@ -4465,7 +5137,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS1_field_early_stages.pdf": {
       "bytes": 25582,
-      "sha256": "a359dd751890cdd671afc39a1de2094f41e77dac66e322406d0076f0feea1ecb"
+      "sha256": "eb64b69f3f7762dc7c5aac601dde0dc54d19fd5ff45ddacde80d34d6458ceb61"
     },
     "publication/european_wheat_stb/supplementary_figures/figS1_field_early_stages.png": {
       "bytes": 276587,
@@ -4473,7 +5145,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS1_field_early_stages.svg": {
       "bytes": 54666,
-      "sha256": "584bd10289b7a42eecb65564b6c168a5f115355b58f4efffe277a0e7108c1885"
+      "sha256": "e13dcee67216870677ee42572ce02f5bb1a7647f546e667a7c3b4f244e4a05a4"
     },
     "publication/european_wheat_stb/supplementary_figures/figS20_pooled_field_evaluation.caption.txt": {
       "bytes": 841,
@@ -4481,7 +5153,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS20_pooled_field_evaluation.pdf": {
       "bytes": 26893,
-      "sha256": "8bb14f1ff9ba40c7db3fc061c51558bccd1fded78be7aa5d35dacb7684123617"
+      "sha256": "914c04548e7f3177e95eb573f2633fad8a68cc32f20b63ddc3e8ebca8c36bf79"
     },
     "publication/european_wheat_stb/supplementary_figures/figS20_pooled_field_evaluation.png": {
       "bytes": 142831,
@@ -4489,7 +5161,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS20_pooled_field_evaluation.svg": {
       "bytes": 29100,
-      "sha256": "d57ab71702a589b9ec2707f3da48576bb9b8b0688e1e82f118a4b33eb9e99871"
+      "sha256": "ec27d7d1256f2ac569ae340688c4c3b31af6245a0916d33ada5953ed12a9eb1d"
     },
     "publication/european_wheat_stb/supplementary_figures/figS21_study_domain.caption.txt": {
       "bytes": 558,
@@ -4497,7 +5169,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS21_study_domain.pdf": {
       "bytes": 296072,
-      "sha256": "1f12179cff66ef952a042b911a172e5b8b4ae4aec17a2a1e42e64279d3b21a6a"
+      "sha256": "c5ab9baa6bba67be4c0e4401cf645d0b3bd3fcb0e407cd790eeb9a01d8b137d0"
     },
     "publication/european_wheat_stb/supplementary_figures/figS21_study_domain.png": {
       "bytes": 417863,
@@ -4505,7 +5177,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS21_study_domain.svg": {
       "bytes": 706760,
-      "sha256": "1190d5d39a0eb9280a323c81073a7697c9ce774d0942027d18c3d7ec496f06e6"
+      "sha256": "b54f82bd4a9b6fce94a99545e988e7d22f980c8979cacaab0d585ed6bce508a0"
     },
     "publication/european_wheat_stb/supplementary_figures/figS22_nordic_yield_validation.caption.txt": {
       "bytes": 781,
@@ -4513,7 +5185,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS22_nordic_yield_validation.pdf": {
       "bytes": 34993,
-      "sha256": "a0c7a86491658d310b0b6eac80da2d3120b48f1cd983e2eb0124dbc3fcc6c9c1"
+      "sha256": "56bdf36a0219f6ea15e52cd8b6a0ab3075532e631dde23b454fee85d028dab8c"
     },
     "publication/european_wheat_stb/supplementary_figures/figS22_nordic_yield_validation.png": {
       "bytes": 242940,
@@ -4521,7 +5193,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS22_nordic_yield_validation.svg": {
       "bytes": 46853,
-      "sha256": "8c41670bd6cadc407f1e6b6b2816d078cb29d895b240e4e0014c0070b52ce135"
+      "sha256": "c944f294c309639c28e950bd0a19fb14a46842f31a6735bedcaaed2c1613f70a"
     },
     "publication/european_wheat_stb/supplementary_figures/figS23_leaf_yield_validation.caption.txt": {
       "bytes": 719,
@@ -4529,7 +5201,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS23_leaf_yield_validation.pdf": {
       "bytes": 38537,
-      "sha256": "7396d5621e7eada729db5c73088674141119b1413c3ff86bdd3cf1fc4f14e682"
+      "sha256": "b9d7bb9d7eb658d9398ba63fb5738327b131f9f6dc590473e62cdee5e8430894"
     },
     "publication/european_wheat_stb/supplementary_figures/figS23_leaf_yield_validation.png": {
       "bytes": 247536,
@@ -4537,7 +5209,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS23_leaf_yield_validation.svg": {
       "bytes": 49650,
-      "sha256": "d84bd19a05bc282d248c1ef81f27abffdd8b6baef8b725a0390a7505a8aae72f"
+      "sha256": "736b42ad2a65c99cb1cd7638e5f234a7152bdd706189517e06f51482ec59137c"
     },
     "publication/european_wheat_stb/supplementary_figures/figS24_german_yield_validation.caption.txt": {
       "bytes": 837,
@@ -4545,7 +5217,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS24_german_yield_validation.pdf": {
       "bytes": 94937,
-      "sha256": "5a0c8dfe17426b5cb9ca5748c88387914e3c11756b27511b583c80080d91f915"
+      "sha256": "27279708247c11c04729cdb9c69082a5655c7c297e88a142e4445212458b7a22"
     },
     "publication/european_wheat_stb/supplementary_figures/figS24_german_yield_validation.png": {
       "bytes": 300342,
@@ -4553,7 +5225,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS24_german_yield_validation.svg": {
       "bytes": 119976,
-      "sha256": "7a7a45ac0978a94d70009ea17403612ee3864f57068b62bf00dccfe99ebedcac"
+      "sha256": "3a0d01cb84750e4ee5f460a159649f428ea460f526b77c4a4abf8eefeab539d2"
     },
     "publication/european_wheat_stb/supplementary_figures/figS25_full_scenario_canopy_damage.caption.txt": {
       "bytes": 490,
@@ -4561,11 +5233,11 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS25_full_scenario_canopy_damage.csv.gz": {
       "bytes": 6451957,
-      "sha256": "549387abade3b5437dc7d55ed221b346c455957d6711a5ecb07d567b68c3452a"
+      "sha256": "5555808f024a9041319597bb25e02fa362bbf3897591b25039f023a118b1b07f"
     },
     "publication/european_wheat_stb/supplementary_figures/figS25_full_scenario_canopy_damage.pdf": {
       "bytes": 708241,
-      "sha256": "45c5d25aeb46990e7f1957d743dc97cdc13818cd42b380a1b7d14fd4e9794c42"
+      "sha256": "043b2af4b74d6f50f92596bb8982c7873f0e8ead66532cdb8330720aefd8c34f"
     },
     "publication/european_wheat_stb/supplementary_figures/figS25_full_scenario_canopy_damage.png": {
       "bytes": 554815,
@@ -4573,7 +5245,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS25_full_scenario_canopy_damage.svg": {
       "bytes": 1796995,
-      "sha256": "77f31e4f1671a0401f5ce7d02eea5265b61c1a2904aa63ebccb9b222da9f4276"
+      "sha256": "cc980e05cd760470b1f84d4dc324aa659aa70b2494711aa3f0049a929f37f078"
     },
     "publication/european_wheat_stb/supplementary_figures/figS26_common_pair_timing.caption.txt": {
       "bytes": 1063,
@@ -4581,7 +5253,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS26_common_pair_timing.pdf": {
       "bytes": 28699,
-      "sha256": "e166076e3e61ee39660ae2ca0cc1595f7db6a9e30ffbace979f1f0a73c5a4423"
+      "sha256": "44c6474bb60d1b5d9c2e0f2a5318f84e69e5a684191ee9f87b618ae255f8806c"
     },
     "publication/european_wheat_stb/supplementary_figures/figS26_common_pair_timing.png": {
       "bytes": 150964,
@@ -4589,7 +5261,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS26_common_pair_timing.svg": {
       "bytes": 23209,
-      "sha256": "704509997d03c12ab2845d6bae0d83d267fb4b1812aa8debeb6f53e9546144ab"
+      "sha256": "4fd380596ce2b47873028df60b58671dfb5934f66141a1cfc450eeac725e21e4"
     },
     "publication/european_wheat_stb/supplementary_figures/figS26_common_pair_timing_components.csv": {
       "bytes": 1224,
@@ -4609,7 +5281,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS27_frequency_canopy_and_calendar_diagnostics.pdf": {
       "bytes": 380690,
-      "sha256": "7132b396e7a46f56c9def224b03d4a00372ca4404fcae9416b964e061d185bbb"
+      "sha256": "c674ccbbda3f0a77cd8863d7d0a3e38312f3b005a5bfb5c139060b32952aad0d"
     },
     "publication/european_wheat_stb/supplementary_figures/figS27_frequency_canopy_and_calendar_diagnostics.png": {
       "bytes": 369387,
@@ -4617,7 +5289,51 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS27_frequency_canopy_and_calendar_diagnostics.svg": {
       "bytes": 929481,
-      "sha256": "c740dd6811577f3815e71bafe102e8c0c97a458ad07c6833f499b1fe1c74e06a"
+      "sha256": "5d9e711ddfe385e4ec8a9197f5d627347eba810bd741417612a4dbcaa70171b0"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS28_year_pairing_and_population.caption.txt": {
+      "bytes": 731,
+      "sha256": "33ea7beb0ee7b426688d2506f76e853a9f5c44569d1c8cc620949cb08245b012"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS28_year_pairing_and_population.pdf": {
+      "bytes": 23203,
+      "sha256": "ec2b8ce9298f587a04de3697017b2169f5843cde5cada4bb292514aa232e1699"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS28_year_pairing_and_population.png": {
+      "bytes": 136830,
+      "sha256": "f45884ed25f5a2bd497a18be6957ffe0e8668868b5f10f5b37eaf8fc9f042a53"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS28_year_pairing_and_population.svg": {
+      "bytes": 23809,
+      "sha256": "56fa6b7c6de81fec44f6e67279190523441d83ef7b446062f3160194da2d7215"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS28_year_pairing_and_population_pairing.csv": {
+      "bytes": 1801,
+      "sha256": "a45ab4a56b7c0dfb324d1d59e05bacc72feae05af00cca94b13a2440fbbf1d8a"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS28_year_pairing_and_population_support.csv": {
+      "bytes": 9437,
+      "sha256": "7f16d6157baeba6f8f24cac25cf7432903d58b9a4685040facc802e5de40669a"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS29_annual_canopy_damage_distribution.caption.txt": {
+      "bytes": 734,
+      "sha256": "9cfaa785e2bb27a36bff678c63d199d8d663d17f7c0d37eeec5d87aef2dd7e53"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS29_annual_canopy_damage_distribution.csv": {
+      "bytes": 8125,
+      "sha256": "f0e2e96d0968f177636dcaabf5ae1dbfec60a4eeda791f2336438b5cc8587269"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS29_annual_canopy_damage_distribution.pdf": {
+      "bytes": 32652,
+      "sha256": "5b5b10927517920e58155c3bc2c368b1880fae8335db5971645f8517ff10a1a3"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS29_annual_canopy_damage_distribution.png": {
+      "bytes": 153055,
+      "sha256": "804a674b1851848cae07cbf16dac2360245505240a463ab3b57e5c0bf1dc8057"
+    },
+    "publication/european_wheat_stb/supplementary_figures/figS29_annual_canopy_damage_distribution.svg": {
+      "bytes": 29370,
+      "sha256": "1ade047b620d6ea9b95c78715a961d5100b72a78ea315a84e7abb0aab966f243"
     },
     "publication/european_wheat_stb/supplementary_figures/figS2_field_late_stages.caption.txt": {
       "bytes": 529,
@@ -4625,7 +5341,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS2_field_late_stages.pdf": {
       "bytes": 29180,
-      "sha256": "d069d22132b378b510b46596d0d5a3f0090b5649bca927e782052f1f050437ab"
+      "sha256": "762c9e14092ecb1b75da553776df67d4ac4bfed00648b6384bfda0ab8c718a84"
     },
     "publication/european_wheat_stb/supplementary_figures/figS2_field_late_stages.png": {
       "bytes": 333184,
@@ -4633,7 +5349,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS2_field_late_stages.svg": {
       "bytes": 105316,
-      "sha256": "d7abc380cff73b5d930ec2eb1814d10fc72911e81712fa6fe9621dc6e7e83b83"
+      "sha256": "51b1a90244dae99842467083afd2a74b27a09cadaae34e4909298d9f2d2fbec1"
     },
     "publication/european_wheat_stb/supplementary_figures/figS3_calibration_early_stages.caption.txt": {
       "bytes": 524,
@@ -4641,7 +5357,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS3_calibration_early_stages.pdf": {
       "bytes": 24814,
-      "sha256": "0618301f83de000b8aa74f70f4c3cdb1eef91ce31ad9d94992522c5fec4239d0"
+      "sha256": "31c94a778596986ecb52499a674d5afee65c3298bf84035b98c048e719a80389"
     },
     "publication/european_wheat_stb/supplementary_figures/figS3_calibration_early_stages.png": {
       "bytes": 277455,
@@ -4649,7 +5365,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS3_calibration_early_stages.svg": {
       "bytes": 47680,
-      "sha256": "5e3aaf617c9a42c3e1689034b269738fbdf0a890e120ab37f5c130f25dbf9fcf"
+      "sha256": "de1889049890de46e0a0c69ddcdc6de703ab36695d5a4f3b445a1153a4c3cb5c"
     },
     "publication/european_wheat_stb/supplementary_figures/figS4_calibration_late_stages.caption.txt": {
       "bytes": 524,
@@ -4657,7 +5373,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS4_calibration_late_stages.pdf": {
       "bytes": 26439,
-      "sha256": "4b39a5092b2282f02317520d18ae38477ff76fde8537ea8b4839c7abc2092cce"
+      "sha256": "a796c4b47a7ba106e19ea370816e63b5f818227ef69366b670ca731bddc933d7"
     },
     "publication/european_wheat_stb/supplementary_figures/figS4_calibration_late_stages.png": {
       "bytes": 292127,
@@ -4665,7 +5381,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS4_calibration_late_stages.svg": {
       "bytes": 56358,
-      "sha256": "1db1714b0df34d13f563a3acd2a7c29d3157b44ae495a648ff1aa193e29a92b5"
+      "sha256": "7552cfa423ee359db874adbc5366d178ef01c31cfd441f56a457817cabf757f5"
     },
     "publication/european_wheat_stb/supplementary_figures/figS5_german_event_dates.caption.txt": {
       "bytes": 504,
@@ -4673,7 +5389,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS5_german_event_dates.pdf": {
       "bytes": 33963,
-      "sha256": "ff59ad952303c58af3e2536fd097e019e7db92e9b8ff7535cd4ff482e5e96cdc"
+      "sha256": "f21ec2185c11fc1bf9eea8c0a7ab2c97648590ec48faa3ccae9fa0342c0abbb4"
     },
     "publication/european_wheat_stb/supplementary_figures/figS5_german_event_dates.png": {
       "bytes": 506102,
@@ -4681,7 +5397,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS5_german_event_dates.svg": {
       "bytes": 295732,
-      "sha256": "6dfbd1a7ef2f073140fd21bedcd62e3c9c19fe10dd8faa191717db92d1fe6bb9"
+      "sha256": "9888ef805fdd913659f0eed02fe406fe1738a1fe20bdbe3c1c560624c783e7cc"
     },
     "publication/european_wheat_stb/supplementary_figures/figS6_leaf_onset_distances.caption.txt": {
       "bytes": 456,
@@ -4693,7 +5409,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS6_leaf_onset_distances.pdf": {
       "bytes": 15481,
-      "sha256": "cb3a1fe73a306fdd08e9a028ed7fbd106ef37bc5aacd28167fbb8d9f01188100"
+      "sha256": "12a2091d0c23e7843fce7b5340aff1b8b3ba77979893675a86c17775ab1c58e4"
     },
     "publication/european_wheat_stb/supplementary_figures/figS6_leaf_onset_distances.png": {
       "bytes": 121977,
@@ -4701,7 +5417,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS6_leaf_onset_distances.svg": {
       "bytes": 51186,
-      "sha256": "f6e325fde82b1f73490d82940fca6a871383f7a11bcc2862077b9393f0c60150"
+      "sha256": "a0f838c94a047458dc26f11ae3fb19d8da0a4a25c6832ee8e7528b5019d2fc87"
     },
     "publication/european_wheat_stb/supplementary_figures/figS7_stage_identification_profiles.caption.txt": {
       "bytes": 544,
@@ -4709,7 +5425,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS7_stage_identification_profiles.pdf": {
       "bytes": 22823,
-      "sha256": "eca16f32ff59d1a54a1e879a7c534dc5df6f56bab2b4f7663d17e99c937f9c84"
+      "sha256": "6d874508d0b23731a9a34322361190d60179ac306602217521987cdf1d1f8743"
     },
     "publication/european_wheat_stb/supplementary_figures/figS7_stage_identification_profiles.png": {
       "bytes": 279898,
@@ -4717,7 +5433,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS7_stage_identification_profiles.svg": {
       "bytes": 60021,
-      "sha256": "b575482525e337156b6838513aff6a1685518f421cc37224f975c9afa24d10bc"
+      "sha256": "5932a2f636733d44dd3d1e188a1ed69f3f84ef9b0384f2e526df5bd8d12da47e"
     },
     "publication/european_wheat_stb/supplementary_figures/figS8_field_grainfill_exposure.caption.txt": {
       "bytes": 445,
@@ -4725,7 +5441,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS8_field_grainfill_exposure.pdf": {
       "bytes": 34687,
-      "sha256": "fa3ace5adafe7657c90350a83d33fe0b0f903ef623e174689ae516b82fbd58c2"
+      "sha256": "169f4bd79c426bf5c2b4fb0f9a8c840ebf33e85238b7fc192a4a48b544e590e9"
     },
     "publication/european_wheat_stb/supplementary_figures/figS8_field_grainfill_exposure.png": {
       "bytes": 260236,
@@ -4733,7 +5449,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS8_field_grainfill_exposure.svg": {
       "bytes": 81520,
-      "sha256": "483b7c397d48d7cd8a06c9c11da71cce36f6df5d8520127ae8572bdb533bc23c"
+      "sha256": "7d2dc3977b3038cfaf2a13e945c5e2060e095050ba16b32876bb0a43d348a2f2"
     },
     "publication/european_wheat_stb/supplementary_figures/figS9_published_STB_yield_contrasts.caption.txt": {
       "bytes": 491,
@@ -4741,7 +5457,7 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS9_published_STB_yield_contrasts.pdf": {
       "bytes": 42476,
-      "sha256": "1ff23b333c633afdb7274616ac63db2d34ae7a02c2d2ec3ee03a49abed7312cf"
+      "sha256": "5fd70aba9ee774d7c43744f49737933c42960fc26be66801af9e67ce7f017484"
     },
     "publication/european_wheat_stb/supplementary_figures/figS9_published_STB_yield_contrasts.png": {
       "bytes": 154549,
@@ -4749,19 +5465,19 @@
     },
     "publication/european_wheat_stb/supplementary_figures/figS9_published_STB_yield_contrasts.svg": {
       "bytes": 45825,
-      "sha256": "1dc22b4c391b0f682b2ca105a4e9b956c44fe7298eba56735f61dfcca76f5f14"
+      "sha256": "dfd3b14ec7d0514d1a2f81411bf9e6d209216930b9ed652d50dce2b7f721a296"
     },
     "publication/european_wheat_stb/supplementary_figures/supplementary_captions.json": {
-      "bytes": 17793,
-      "sha256": "cf6a03b8ba9a25a0fd1082d484efe9d7a8debebb58002880cd62548e20dad1e8"
+      "bytes": 19362,
+      "sha256": "84f156b3f5277f55c0c159e72fd7e8f168b1d593fae609dff46a62cc67faff7a"
     },
     "publication/european_wheat_stb/supplementary_methods.txt": {
-      "bytes": 8584,
-      "sha256": "f1517a762c18906f0a2abbcace711f0c1489a1a3869ab8d1e24e34e18d925489"
+      "bytes": 9374,
+      "sha256": "279de238db6da87bd728522bacb87b5f676f952bed222fa93def909dc68a7e97"
     },
     "publication/european_wheat_stb/verification_receipt.json": {
-      "bytes": 1390,
-      "sha256": "38685a1d8a5406dd99f40970c773b7e567d7a6f32205577cc175645e48759c1e"
+      "bytes": 2039,
+      "sha256": "1ae530be2c30a4fd8c568c55728925d7975e426917463a1b8260db30d6a3125a"
     },
     "pyproject.toml": {
       "bytes": 560,
@@ -4941,10 +5657,10 @@
   },
   "current_test_verification": {
     "status": "passed",
-    "total": 336,
-    "command": ".venv/bin/python -m pytest -q --import-mode=importlib tests analysis/paper_study/crop_damage_validation_20261009 analysis/paper_study/nordic_yield_validation_20261009 analysis/paper_study/nature_food_impact_20261008 analysis/paper_study/food_security_exposure_20261009 analysis/paper_study/yield_transfer_audit_20261009"
+    "total": 395,
+    "command": "python -m pytest -q --import-mode=importlib tests analysis/paper_study/crop_damage_validation_20261009 analysis/paper_study/nordic_yield_validation_20261009 analysis/paper_study/nature_food_impact_20261008 analysis/paper_study/food_security_exposure_20261009 analysis/paper_study/yield_transfer_audit_20261009 analysis/paper_study/climate_robustness_20261009 analysis/paper_study/nordic_archive_validation_20261009 analysis/paper_study/mixture_adaptation_20261009"
   },
-  "archived_local_evidence_files": 1224,
+  "archived_local_evidence_files": 1403,
   "vendored_dependency_files_available_in_archive": 0,
   "onset_map_scale_audit": {
     "valid_cells": 14905,
@@ -4978,21 +5694,36 @@
     "exposure_receipt": "analysis/paper_study/food_security_exposure_20261009/receipt.json",
     "additional_yield_evidence": "analysis/paper_study/yield_transfer_audit_20261009/verification_receipt.json",
     "common_pair_timing": "analysis/paper_study/nature_food_impact_20261008/derived/common_pair_timing_receipt.json",
-    "source_workbook_sheets": 94,
+    "source_workbook_sheets": 119,
     "physiological_grain_loss_validated": false,
     "adaptation_benefit_validated": false
   },
   "new_evidence_scan": {
     "status": "passed",
-    "checked_new_files_and_members": 102,
+    "checked_new_files_and_members": 191,
     "credential_patterns_detected": []
   },
   "tracked_file_reproduction": {
     "status": "passed",
     "receipt": "publication/european_wheat_stb/reproduction_receipt.json",
     "document_text_identical": true,
-    "main_and_supplementary_raster_figures_identical": 31,
-    "source_csv_files_identical": 23,
+    "main_and_supplementary_raster_figures_identical": 34,
+    "source_csv_files_identical": 29,
+    "archived_members_verified": 1403,
+    "all_four_new_module_dependencies_packaged": true,
     "raw_simulations_rerun": false
+  },
+  "remaining_plan_evidence": {
+    "climate_robustness_receipt": "analysis/paper_study/climate_robustness_20261009/receipt.json",
+    "nordic_management_receipt": "analysis/paper_study/nordic_archive_validation_20261009/receipts/verification.json",
+    "mixture_receipt": "analysis/paper_study/mixture_adaptation_20261009/verification_receipt.json",
+    "physiological_source_inventory": "analysis/paper_study/physiological_evidence_20261009/source_inventory.csv",
+    "main_figures": 5,
+    "supplementary_figures": 29,
+    "nordic_observed_grain_contrasts": 307,
+    "french_constituent_comparisons": 195,
+    "new_compatible_physiological_cohorts": 0,
+    "physiological_grain_loss_validated": false,
+    "future_adaptation_benefit_validated": false
   }
 }

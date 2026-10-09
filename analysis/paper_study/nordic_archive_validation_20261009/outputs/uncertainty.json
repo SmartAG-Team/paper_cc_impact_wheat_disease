@@ -1,0 +1,27 @@
+{
+  "seed": 20261009,
+  "bootstrap_draws": 2000,
+  "resampling_unit": "country_year",
+  "intervals": [
+    {
+      "estimand": "trial_weighted_mean_gain_t_ha",
+      "estimate": 0.9797781737424042,
+      "lower": 0.8039614538316481,
+      "upper": 1.1417401436441317
+    },
+    {
+      "estimand": "management_mean_minus_training_mean_rmse_t_ha",
+      "estimate": 0.007850663321919527,
+      "lower": -0.00874187631766612,
+      "upper": 0.02359908683200792
+    },
+    {
+      "estimand": "crop_management_mean_minus_training_mean_rmse_t_ha",
+      "estimate": 0.010098782482167112,
+      "lower": -0.007383924788187235,
+      "upper": 0.024819763554302467
+    }
+  ],
+  "fitting_uncertainty_included": false,
+  "interpretation": "Evaluation intervals condition on fixed out-of-fold predictions; no refitting."
+}

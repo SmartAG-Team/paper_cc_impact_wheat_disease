@@ -1,0 +1,119 @@
+{
+  "raw_observations_newly_acquired": 0,
+  "prior_sources_unchanged": true,
+  "checks": [
+    {
+      "source": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/STB_consolidated_collection_20261009.zip",
+      "member": "stb_collection_20261009/sources/public_septoria/paper-model-data-20261009/derived/bancal2007_treatment_aggregates.csv",
+      "sha256": "2ca03880404750e446ae1c5fba54cecb098d58c94eb497dde4735b93500d007b",
+      "rows": 13,
+      "columns": [
+        "year",
+        "treatment",
+        "rust_AUDPC_as_published",
+        "STB_plus_senescence_AUDPC_diseased",
+        "STB_plus_senescence_AUDPC_control",
+        "GLAI_duration_diseased_m2_m2_degC_day",
+        "GLAI_duration_control_m2_m2_degC_day",
+        "HI_healthy_mean_pct",
+        "HI_healthy_sd_pct",
+        "HI_diseased_mean_pct",
+        "HI_diseased_sd_pct",
+        "HI_pairwise_significance",
+        "stem_sugars_healthy_g_m2",
+        "stem_sugars_diseased_g_m2",
+        "reallocated_proteins_healthy_g_m2",
+        "reallocated_proteins_diseased_g_m2",
+        "preanthesis_DM_reallocated_healthy_g_m2",
+        "preanthesis_DM_reallocated_diseased_g_m2",
+        "reserves_contribution_healthy_pct",
+        "reserves_contribution_diseased_pct",
+        "paper_doi",
+        "evidence_level"
+      ],
+      "evidence_type": "published_treatment_aggregates",
+      "admissible_independent_plot_harvests": 0,
+      "unique_years": [
+        "1995",
+        "1997",
+        "1998",
+        "1999",
+        "2001"
+      ],
+      "unique_treatments": 13
+    },
+    {
+      "source": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/STB_consolidated_collection_20261009.zip",
+      "member": "stb_collection_20261009/sources/published_yield_evidence/stb_independent/foulkes2006_table2_paired_predicted_means.csv",
+      "sha256": "57eba3c07759127541c73a4153a63af8bee8a0f2a30bbd543dad87c601729e1e",
+      "rows": 8,
+      "columns": [
+        "source_key",
+        "doi",
+        "source_table",
+        "printed_page",
+        "pdf_page_one_based",
+        "genotype",
+        "healthy_HAD_GLAI_day",
+        "diseased_HAD_GLAI_day",
+        "healthy_yield_t_ha_15pct_moisture",
+        "diseased_yield_t_ha_15pct_moisture",
+        "derived_HAD_loss_GLAI_day",
+        "derived_HAD_loss_fraction",
+        "derived_yield_loss_t_ha",
+        "derived_yield_loss_fraction",
+        "leaf_scope",
+        "time_scope",
+        "statistical_status",
+        "model_analysis_experiments",
+        "genotype_observed_sites",
+        "genotype_observed_target_diseases",
+        "genotype_observed_years",
+        "genotype_observed_site_year_count"
+      ],
+      "evidence_type": "mixed_model_predicted_means",
+      "admissible_independent_plot_harvests": 0
+    },
+    {
+      "source": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/STB_consolidated_collection_20261009.zip",
+      "member": "stb_collection_20261009/sources/public_septoria/paper-model-data-20261009/taylor_cunniffe2023_S1_Data.csv",
+      "sha256": "7b4b64c48e721ee93ec05129841706f232082831c9c3a8f4f184e9bfc99dc128",
+      "rows": 201,
+      "columns": [
+        "disease_severity",
+        "yield"
+      ],
+      "evidence_type": "fitted_response_grid",
+      "admissible_independent_plot_harvests": 0,
+      "unique_severity_values": 201,
+      "min_severity": 0.0,
+      "max_severity": 100.0,
+      "increments": [
+        0.5
+      ]
+    },
+    {
+      "source": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/STB_paper_followup_20261009/analysis_ready/additional_ordinal_stb_yield_948.csv",
+      "sha256": "056b0de8889661ef5da9787238577cb471797a93353c2b1f7c282531a6f3a385",
+      "rows": 948,
+      "columns": [
+        "dataset_id",
+        "record_id",
+        "site_year",
+        "year",
+        "stb_score_ordinal",
+        "stb_scale",
+        "assessment_date",
+        "yield_t_ha",
+        "yield_moisture_basis",
+        "fungicide_status",
+        "source_doi",
+        "severity_percent",
+        "disease_attributable_yield_loss_percent"
+      ],
+      "evidence_type": "existing_plot_pairs_not_new_acquisition",
+      "admissible_physiological_trajectories": 0,
+      "classification_basis": "Supplied START_HERE.txt and prior yield_transfer_audit; no new yield analysis"
+    }
+  ]
+}

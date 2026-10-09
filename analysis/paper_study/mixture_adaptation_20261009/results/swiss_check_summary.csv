@@ -1,0 +1,3 @@
+check,n_plot_comparisons,n_environments,equal_environment_mean_delta_t_ha,status
+HANSWIN,637,10,0.00748484848485,diagnostic; pure_check_corandomization_unconfirmed; not_diversity_effect
+MONTALBANO,637,10,0.180303030303,diagnostic; pure_check_corandomization_unconfirmed; not_diversity_effect

@@ -1,0 +1,656 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFF                                             [100%]
+=================================== FAILURES ===================================
+___________ test_shared_control_not_duplicated_as_independent_yield ____________
+
+    def test_shared_control_not_duplicated_as_independent_yield():
+>       p, excluded = a.build_pairs(records())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:27: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+___________ test_denominators_have_distinct_hand_calculated_meanings ___________
+
+    def test_denominators_have_distinct_hand_calculated_meanings():
+>       p, _ = a.build_pairs(records())
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+_____ test_duplicate_treatment_key_excludes_whole_trial_without_averaging ______
+
+    def test_duplicate_treatment_key_excludes_whole_trial_without_averaging():
+        d = pd.concat([records(), records().iloc[[1]]], ignore_index=True)
+        d.loc[3, 'yield_kg_ha'] = 9999
+>       p, ex = a.build_pairs(d)
+                ^^^^^^^^^^^^^^^^
+
+test_analysis.py:45: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               2000.0
+3  2012      SE  2012SE01  ...          6  Yield.xlsx               1000.0
+
+[4 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+___________ test_no_control_is_not_reconstructed_from_reported_gain ____________
+
+    def test_no_control_is_not_reconstructed_from_reported_gain():
+>       p, ex = a.build_pairs(records().iloc[1:])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+1  2012      SE  2012SE01  ...          6  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[2 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+_______________ test_invalid_control_denominator_fails_closed[0] _______________
+
+bad = 0
+
+    @pytest.mark.parametrize('bad', [0, -1, np.nan, np.inf])
+    def test_invalid_control_denominator_fails_closed(bad):
+        d = records(); d.loc[0, 'yield_kg_ha'] = bad
+>       p, ex = a.build_pairs(d)
+                ^^^^^^^^^^^^^^^^
+
+test_analysis.py:59: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+______________ test_invalid_control_denominator_fails_closed[-1] _______________
+
+bad = -1
+
+    @pytest.mark.parametrize('bad', [0, -1, np.nan, np.inf])
+    def test_invalid_control_denominator_fails_closed(bad):
+        d = records(); d.loc[0, 'yield_kg_ha'] = bad
+>       p, ex = a.build_pairs(d)
+                ^^^^^^^^^^^^^^^^
+
+test_analysis.py:59: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+______________ test_invalid_control_denominator_fails_closed[nan] ______________
+
+bad = nan
+
+    @pytest.mark.parametrize('bad', [0, -1, np.nan, np.inf])
+    def test_invalid_control_denominator_fails_closed(bad):
+        d = records(); d.loc[0, 'yield_kg_ha'] = bad
+>       p, ex = a.build_pairs(d)
+                ^^^^^^^^^^^^^^^^
+
+test_analysis.py:59: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+______________ test_invalid_control_denominator_fails_closed[inf] ______________
+
+bad = inf
+
+    @pytest.mark.parametrize('bad', [0, -1, np.nan, np.inf])
+    def test_invalid_control_denominator_fails_closed(bad):
+        d = records(); d.loc[0, 'yield_kg_ha'] = bad
+>       p, ex = a.build_pairs(d)
+                ^^^^^^^^^^^^^^^^
+
+test_analysis.py:59: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+________ test_missing_treatment_yield_does_not_discard_valid_other_arm _________
+
+    def test_missing_treatment_yield_does_not_discard_valid_other_arm():
+        d = records(); d.loc[1, 'yield_kg_ha'] = np.nan
+>       p, ex = a.build_pairs(d)
+                ^^^^^^^^^^^^^^^^
+
+test_analysis.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+______ test_negative_gain_preserved_and_source_error_not_used_as_response ______
+
+    def test_negative_gain_preserved_and_source_error_not_used_as_response():
+        d = records(); d.loc[1, 'yield_kg_ha'] = 7000
+>       p, _ = a.build_pairs(d)
+               ^^^^^^^^^^^^^^^^
+
+test_analysis.py:73: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+_______________________ test_mismatched_crop_never_pairs _______________________
+
+    def test_mismatched_crop_never_pairs():
+        d = records(); d.loc[1, 'crop'] = 'SW'
+>       p, ex = a.build_pairs(d)
+                ^^^^^^^^^^^^^^^^
+
+test_analysis.py:81: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+___________ test_post_2016_records_preserved_only_in_exclusion_audit ___________
+
+    def test_post_2016_records_preserved_only_in_exclusion_audit():
+        d = records(); d['year'] = 2017; d['trial_id'] = '2017SE01'
+>       p, ex = a.build_pairs(d)
+                ^^^^^^^^^^^^^^^^
+
+test_analysis.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2017      SE  2017SE01  ...          5  ...               1000.0
+2  2017      SE  2017SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+______________ test_year_country_trial_all_part_of_pair_identity _______________
+
+    def test_year_country_trial_all_part_of_pair_identity():
+        d = records(); e = records(); e['year'] = 2013
+        e['yield_kg_ha'] += 100
+>       p, _ = a.build_pairs(pd.concat([d, e], ignore_index=True))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:94: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+records =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+5  2013      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[6 rows x 12 columns]
+
+    def build_pairs(records):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:5: NotImplementedError
+______________ test_ambiguous_sas_join_cannot_expand_primary_rows ______________
+
+    def test_ambiguous_sas_join_cannot_expand_primary_rows():
+        y = records(); sas = pd.concat([y, y.iloc[[1]]], ignore_index=True)
+>       joined = a.audit_sas_join(y, sas)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:102: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+yields =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+sas =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               2000.0
+3  2012      SE  2012SE01  ...          6  Yield.xlsx               1000.0
+
+[4 rows x 12 columns]
+
+    def audit_sas_join(yields, sas):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:9: NotImplementedError
+________ test_unmatched_sas_row_is_not_guessed_from_similar_trial_name _________
+
+    def test_unmatched_sas_row_is_not_guessed_from_similar_trial_name():
+        y = records(); sas = records(); sas['trial_id'] = '2012SE02'
+>       joined = a.audit_sas_join(y, sas)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+yields =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+sas =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE02  ...          5  ...               1000.0
+2  2012      SE  2012SE02  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def audit_sas_join(yields, sas):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:9: NotImplementedError
+_____________ test_sas_rounding_is_distinguished_from_disagreement _____________
+
+    def test_sas_rounding_is_distinguished_from_disagreement():
+        y = records(); sas = records(); sas.loc[0, 'yield_kg_ha'] += .5
+        sas.loc[1, 'yield_kg_ha'] += 5
+>       joined = a.audit_sas_join(y, sas)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:118: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+yields =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+sas =    year country  trial_id  ... source_row source_file  reported_gain_kg_ha
+0  2012      SE  2012SE01  ...          5  ...               1000.0
+2  2012      SE  2012SE01  ...          7  Yield.xlsx               2000.0
+
+[3 rows x 12 columns]
+
+    def audit_sas_join(yields, sas):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:9: NotImplementedError
+_________ test_mean_training_weights_do_not_overweight_shared_controls _________
+
+    def test_mean_training_weights_do_not_overweight_shared_controls():
+>       pred, levels = a.benchmark_predict(train_fixture(), train_fixture(), 'training_mean')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:130: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+train =    gain_t_ha  trial_weight crop treatment_code
+0        1.0           0.5   WW              B
+1        3.0           0.5   WW              C
+2       10.0           1.0   SW              B
+test =    gain_t_ha  trial_weight crop treatment_code
+0        1.0           0.5   WW              B
+1        3.0           0.5   WW              C
+2       10.0           1.0   SW              B
+model = 'training_mean'
+
+    def benchmark_predict(train, test, model):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:13: NotImplementedError
+__________ test_management_and_unseen_crop_fallback_use_training_only __________
+
+    def test_management_and_unseen_crop_fallback_use_training_only():
+        test = pd.DataFrame(dict(crop=['SW', 'XX'], treatment_code=['C', 'B'], gain_t_ha=[999., 999.]))
+>       pred, levels = a.benchmark_predict(train_fixture(), test, 'crop_management_mean')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+train =    gain_t_ha  trial_weight crop treatment_code
+0        1.0           0.5   WW              B
+1        3.0           0.5   WW              C
+2       10.0           1.0   SW              B
+test =   crop treatment_code  gain_t_ha
+0   SW              C      999.0
+1   XX              B      999.0
+model = 'crop_management_mean'
+
+    def benchmark_predict(train, test, model):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:13: NotImplementedError
+_______________________ test_empty_training_fails_closed _______________________
+
+    def test_empty_training_fails_closed():
+        with pytest.raises(ValueError):
+>           a.benchmark_predict(train_fixture().iloc[:0], train_fixture(), 'training_mean')
+
+test_analysis.py:146: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+train = Empty DataFrame
+Columns: [gain_t_ha, trial_weight, crop, treatment_code]
+Index: []
+test =    gain_t_ha  trial_weight crop treatment_code
+0        1.0           0.5   WW              B
+1        3.0           0.5   WW              C
+2       10.0           1.0   SW              B
+model = 'training_mean'
+
+    def benchmark_predict(train, test, model):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:13: NotImplementedError
+_ test_all_environment_splits_keep_controls_and_trials_together[leave_country_year_out] _
+
+scheme = 'leave_country_year_out'
+
+    @pytest.mark.parametrize('scheme', ['leave_country_year_out', 'leave_country_out', 'leave_year_out', 'forward_year'])
+    def test_all_environment_splits_keep_controls_and_trials_together(scheme):
+        d = split_fixture(); seen = []
+>       for label, tr, te in a.make_splits(d, scheme):
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:165: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+pairs =    country  year  trial_key   control_id environment_group      pair_id
+0       SE  2012  SE:2012:1  SE:2012:1:A      ...6:2  DK:2016:2:A           DK:2016  DK:2016:2:B
+39      DK  2016  DK:2016:2  DK:2016:2:A           DK:2016  DK:2016:2:C
+scheme = 'leave_country_year_out'
+
+    def make_splits(pairs, scheme):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:17: NotImplementedError
+_ test_all_environment_splits_keep_controls_and_trials_together[leave_country_out] _
+
+scheme = 'leave_country_out'
+
+    @pytest.mark.parametrize('scheme', ['leave_country_year_out', 'leave_country_out', 'leave_year_out', 'forward_year'])
+    def test_all_environment_splits_keep_controls_and_trials_together(scheme):
+        d = split_fixture(); seen = []
+>       for label, tr, te in a.make_splits(d, scheme):
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:165: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+pairs =    country  year  trial_key   control_id environment_group      pair_id
+0       SE  2012  SE:2012:1  SE:2012:1:A      ...6:2  DK:2016:2:A           DK:2016  DK:2016:2:B
+39      DK  2016  DK:2016:2  DK:2016:2:A           DK:2016  DK:2016:2:C
+scheme = 'leave_country_out'
+
+    def make_splits(pairs, scheme):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:17: NotImplementedError
+_ test_all_environment_splits_keep_controls_and_trials_together[leave_year_out] _
+
+scheme = 'leave_year_out'
+
+    @pytest.mark.parametrize('scheme', ['leave_country_year_out', 'leave_country_out', 'leave_year_out', 'forward_year'])
+    def test_all_environment_splits_keep_controls_and_trials_together(scheme):
+        d = split_fixture(); seen = []
+>       for label, tr, te in a.make_splits(d, scheme):
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:165: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+pairs =    country  year  trial_key   control_id environment_group      pair_id
+0       SE  2012  SE:2012:1  SE:2012:1:A      ...6:2  DK:2016:2:A           DK:2016  DK:2016:2:B
+39      DK  2016  DK:2016:2  DK:2016:2:A           DK:2016  DK:2016:2:C
+scheme = 'leave_year_out'
+
+    def make_splits(pairs, scheme):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:17: NotImplementedError
+_ test_all_environment_splits_keep_controls_and_trials_together[forward_year] __
+
+scheme = 'forward_year'
+
+    @pytest.mark.parametrize('scheme', ['leave_country_year_out', 'leave_country_out', 'leave_year_out', 'forward_year'])
+    def test_all_environment_splits_keep_controls_and_trials_together(scheme):
+        d = split_fixture(); seen = []
+>       for label, tr, te in a.make_splits(d, scheme):
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:165: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+pairs =    country  year  trial_key   control_id environment_group      pair_id
+0       SE  2012  SE:2012:1  SE:2012:1:A      ...6:2  DK:2016:2:A           DK:2016  DK:2016:2:B
+39      DK  2016  DK:2016:2  DK:2016:2:A           DK:2016  DK:2016:2:C
+scheme = 'forward_year'
+
+    def make_splits(pairs, scheme):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:17: NotImplementedError
+_____________ test_explicit_shared_environment_leakage_is_rejected _____________
+
+    def test_explicit_shared_environment_leakage_is_rejected():
+        d = split_fixture()
+        with pytest.raises(ValueError):
+>           a.assert_no_leakage(d.iloc[[0]], d.iloc[[1]])
+
+test_analysis.py:179: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+train =   country  year  trial_key   control_id environment_group      pair_id
+0      SE  2012  SE:2012:1  SE:2012:1:A           SE:2012  SE:2012:1:B
+test =   country  year  trial_key   control_id environment_group      pair_id
+1      SE  2012  SE:2012:1  SE:2012:1:A           SE:2012  SE:2012:1:C
+forward = False
+
+    def assert_no_leakage(train, test, forward=False):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:21: NotImplementedError
+____________________ test_forward_time_leakage_is_rejected _____________________
+
+    def test_forward_time_leakage_is_rejected():
+        d = split_fixture()
+        with pytest.raises(ValueError):
+>           a.assert_no_leakage(d[d.year.eq(2016)], d[d.year.eq(2015)], forward=True)
+
+test_analysis.py:185: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+train =    country  year  trial_key   control_id environment_group      pair_id
+16      SE  2016  SE:2016:1  SE:2016:1:A      ...6:2  DK:2016:2:A           DK:2016  DK:2016:2:B
+39      DK  2016  DK:2016:2  DK:2016:2:A           DK:2016  DK:2016:2:C
+test =    country  year  trial_key   control_id environment_group      pair_id
+12      SE  2015  SE:2015:1  SE:2015:1:A      ...5:2  DK:2015:2:A           DK:2015  DK:2015:2:B
+35      DK  2015  DK:2015:2  DK:2015:2:A           DK:2015  DK:2015:2:C
+forward = True
+
+    def assert_no_leakage(train, test, forward=False):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:21: NotImplementedError
+________ test_recommendations_do_not_unlock_observed_disease_validation ________
+
+    def test_recommendations_do_not_unlock_observed_disease_validation():
+>       gate = a.compatibility_gate(['year', 'yield_kg_ha', 'r85h14', 'day6', 'average_stage_doy'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+columns = ['year', 'yield_kg_ha', 'r85h14', 'day6', 'average_stage_doy']
+
+    def compatibility_gate(columns):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:25: NotImplementedError
+____________ test_source_bundle_verifies_and_tampering_fails_closed ____________
+
+tmp_path = PosixPath('/private/var/folders/0m/lsykt8m92d7b3ppx5cx_9y500000gn/T/pytest-of-gangzhao/pytest-705/test_source_bundle_verifies_an0')
+
+    def test_source_bundle_verifies_and_tampering_fails_closed(tmp_path):
+        bundle = HERE / 'source_bundle/nordic_public_sources.zip'
+        manifest = HERE / 'source_bundle/manifest.json'
+>       data = a.verify_bundle(bundle, manifest)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:198: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+bundle = PosixPath('/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/nordic_archive_validation_20261009/source_bundle/nordic_public_sources.zip')
+manifest = PosixPath('/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/nordic_archive_validation_20261009/source_bundle/manifest.json')
+
+    def verify_bundle(bundle, manifest):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:29: NotImplementedError
+____________ test_archived_primary_measurement_unit_is_unambiguous _____________
+
+    def test_archived_primary_measurement_unit_is_unambiguous():
+>       data = a.verify_bundle(HERE / 'source_bundle/nordic_public_sources.zip', HERE / 'source_bundle/manifest.json')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_analysis.py:206: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+bundle = PosixPath('/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/nordic_archive_validation_20261009/source_bundle/nordic_public_sources.zip')
+manifest = PosixPath('/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/nordic_archive_validation_20261009/source_bundle/manifest.json')
+
+    def verify_bundle(bundle, manifest):
+>       raise NotImplementedError
+E       NotImplementedError
+
+run_analysis.py:29: NotImplementedError
+=========================== short test summary info ============================
+FAILED test_analysis.py::test_shared_control_not_duplicated_as_independent_yield
+FAILED test_analysis.py::test_denominators_have_distinct_hand_calculated_meanings
+FAILED test_analysis.py::test_duplicate_treatment_key_excludes_whole_trial_without_averaging
+FAILED test_analysis.py::test_no_control_is_not_reconstructed_from_reported_gain
+FAILED test_analysis.py::test_invalid_control_denominator_fails_closed[0] - N...
+FAILED test_analysis.py::test_invalid_control_denominator_fails_closed[-1] - ...
+FAILED test_analysis.py::test_invalid_control_denominator_fails_closed[nan]
+FAILED test_analysis.py::test_invalid_control_denominator_fails_closed[inf]
+FAILED test_analysis.py::test_missing_treatment_yield_does_not_discard_valid_other_arm
+FAILED test_analysis.py::test_negative_gain_preserved_and_source_error_not_used_as_response
+FAILED test_analysis.py::test_mismatched_crop_never_pairs - NotImplementedError
+FAILED test_analysis.py::test_post_2016_records_preserved_only_in_exclusion_audit
+FAILED test_analysis.py::test_year_country_trial_all_part_of_pair_identity - ...
+FAILED test_analysis.py::test_ambiguous_sas_join_cannot_expand_primary_rows
+FAILED test_analysis.py::test_unmatched_sas_row_is_not_guessed_from_similar_trial_name
+FAILED test_analysis.py::test_sas_rounding_is_distinguished_from_disagreement
+FAILED test_analysis.py::test_mean_training_weights_do_not_overweight_shared_controls
+FAILED test_analysis.py::test_management_and_unseen_crop_fallback_use_training_only
+FAILED test_analysis.py::test_empty_training_fails_closed - NotImplementedError
+FAILED test_analysis.py::test_all_environment_splits_keep_controls_and_trials_together[leave_country_year_out]
+FAILED test_analysis.py::test_all_environment_splits_keep_controls_and_trials_together[leave_country_out]
+FAILED test_analysis.py::test_all_environment_splits_keep_controls_and_trials_together[leave_year_out]
+FAILED test_analysis.py::test_all_environment_splits_keep_controls_and_trials_together[forward_year]
+FAILED test_analysis.py::test_explicit_shared_environment_leakage_is_rejected
+FAILED test_analysis.py::test_forward_time_leakage_is_rejected - NotImplement...
+FAILED test_analysis.py::test_recommendations_do_not_unlock_observed_disease_validation
+FAILED test_analysis.py::test_source_bundle_verifies_and_tampering_fails_closed
+FAILED test_analysis.py::test_archived_primary_measurement_unit_is_unambiguous
+28 failed in 0.29s

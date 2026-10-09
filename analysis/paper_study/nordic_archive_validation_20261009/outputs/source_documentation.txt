@@ -1,0 +1,160 @@
+Weather data description.docx (paragraph text)
+Weather file content
+
+Field
+Value, example
+Description
+FullId
+6135_FLAKKEBJERG_2001
+Station id
+Station
+2016_6135_FLAKKEBJERG
+Station name
+Year
+2001
+Year
+yDay
+90
+Day no.
+avgW
+xx
+Average wind speed
+maxW
+xx
+Max wind speed
+avgT
+5,6
+Average temperature
+minT
+1,6
+Min temperature
+maxT
+9,1
+Max temperature
+avgRh
+88,3
+Average Rh
+minRh
+77
+Min Rh
+maxRh
+97
+Max Rh
+avgLw
+26
+Average leaf wetness
+minLw
+0
+Min leaf wetness
+maxLw
+60
+Max leaf wetness
+mm
+0,3
+Precipitation (mm)
+rad
+8,36
+Radiation
+RhPack
+8;10;13;14;15;19;36/97;96;95;93;89;88;88/6
+Packed 8-36 hour Rh values
+LwPack
+8;10;11;12;36/60;31;9;0;0/4
+Packed 8-36 hour Lw values
+
+
+SAS script (unmodified text)
+*PROGRAM SEWW_0.33_1trt_350Nc0.sas; 
+*Example program for sensitivity analysis with historical data.;
+* The ending _350Nc0 means >350 kg yield increase was required for classification as yield gain
+      in this run.;
+* Field trial data from all partners (wheat) 2012-2017 and results from runs with excel software,;
+     i.e. calculated number of recommended treatments.;
+* Contents of the data set WWheatDataNew0: Line Wst_ID $ year country $ Group SpotID $ FungTrt $ WstName $ 
+     WstYrNo Region $ Crop $ TrtCode $ yield Gain Gain1 Gain2 WstnSite $ r85h14 r85h16 r85h18 r85h20 
+     r85h22 r85h24 r90h14 r90h16 r90h18 r90h20 r90h22 r90h24 day4 day5 day6 d6h30 d8h36 d10h36;
+* For the file repository, the SAS data sets were exported to .xls, so they can be seen without using SAS.;
+* The data is sorted by country year region;
+
+OPTIONS Pagesize=300 Linesize=100;
+
+DATA GoBinary; 
+set TestMod.WWheatDataNew0;                     * SWheatDataNew0 for spring wheat data;
+ If trtcode = 'A' or trtcode='C' then delete;   * Analyse treatment B now, change to 'B' for analysis of C;
+ If country ^= 'SE' then delete;                * Analyse one country at a time;
+ ;
+ If r85h14 >0.33 then SP8514=1;      *r8514h means 14 hours with rel. humidity>85% and if the average number
+                                       of treatment recommendations over three runs was >0.33 SP8514=1;
+    else SP8514=0;                   *I no treatment was recommended SP8514=0.;
+ If r85h16 >0.33 then SP8516=1;
+    else SP8516=0;                                
+ If r85h18 >0.33 then SP8518=1;
+    else SP8518=0;                                
+ If r85h20 >0.33 then SP8520=1;
+    else SP8520=0;                                
+ If r85h22 >0.33 then SP8522=1;
+    else SP8522=0;                                
+ If r85h24 >0.33 then SP8524=1;
+    else SP8524=0;                                
+;
+ If r90h14 >0.33 then SP9014=1;     * Same as above but with rel. humidity >90%;
+    else SP9014=0;
+ If r90h16 >0.33 then SP9016=1;
+    else SP9016=0;
+ If r90h18 >0.33 then SP9018=1;
+    else SP9018=0; 
+ if r90h20 >0.33 then SP9020=1;
+    else SP9020=0;
+ if r90h22 >0.33 then SP9022=1;
+    else SP9022=0;
+ If r90h24 >0.33 then SP9024=1;
+    else SP9024=0;
+	;
+ if day4 >0.33 then SPday4=1;      * day4 day5 and day6 are the variables for days with precipitation;
+    else SPday4=0;                 * SPday4=1 if treatment was recommended, else =0.;
+ If day5 >0.33 then SPday5=1;
+    else SPday5=0;
+ if day6 >0.33 then SPday6=1;
+    else SPday6=0;
+ If d6h30 >0.33 then SP630=1; 
+    else SP630=0;
+ if d8h36 >0.33 then SP836=1;
+    else SP836=0;
+ If d10h36 >0.33 then SP1036=1;
+    else SP1036=0;
+ 
+ If gain1 >350 then NetGain_1=1;  *Have to change gain threshold between trt B and C above;
+    else NetGain_1=0;             *The gain threshold can be varied according to circumstances;
+	                          *NetGain_1 =1 if there is yield gain from 1 trt.; *Use NetGain_2 for 2 trt;
+                                  *NetGain =1 if there is yield gain from any no. of treatments;
+
+PROC FREQ;                       *Gives frequencies of true and false positive predictions, and true and 
+                                    false negative predictions;
+   tables SP8514*NetGain_1;
+   tables SP8516*NetGain_1;
+   tables SP8518*NetGain_1;
+   tables SP8520*NetGain_1;
+   tables SP8522*NetGain_1;
+   tables SP8524*NetGain_1;
+   tables SP9014*NetGain_1;
+   tables SP9016*NetGain_1;
+   tables SP9018*NetGain_1;
+   tables SP9020*NetGain_1;
+   tables SP9022*NetGain_1;
+   tables SP9024*NetGain_1;
+   tables SPday4*NetGain_1;
+   tables SPday5*NetGain_1;
+   tables SPday6*NetGain_1;
+   tables SP630*NetGain_1;
+   tables SP836*NetGain_1;
+   tables SP1036*NetGain_1;
+    title 'Net gain 2012-2016, WW, SE, 0.33=0 >350 kg, 1 trt';
+* Results are entered into tables;
+Run;
+
+
+Andersson, Björn (2022). Data set for weather, development stage and yield. figshare. Dataset. https://doi.org/10.6084/m9.figshare.19203377.v4
+Weatherdata.txt:<div>Weather data 2012 - 2016 from locations in Denmark, Finland, Lithuania, Norway and Finland.</div><div><br></div><div>Weather data description.doc</div><div>Description of the weather data included in Weatherdata.xlsx.<br><div><br><div><p>Development stage.xlsx:<br></p><p>Development stages and corresponding average dates for winter and spring wheat in Denmark, Finland, Lithuania, Norway and Sweden<br></p><p><br></p><p>Weather stations.xlsx:</p></div></div><div>Weather station in Denmark, Finland, Lithuania, Norway and Sweden and their corresponding regions.<br></div></div><div><br></div><div>Yield.xlsx:</div><div>Yield data from fungicide efficacy trials conducted in Denmark, Finland, Lithuania, Norway and Sweden 2012-2016<br></div><div><br></div>
+
+Andersson, Björn (2022). SAS script and input files. figshare. Dataset. https://doi.org/10.6084/m9.figshare.19203398.v3
+SAS script and input files for calculations of sensitivity and specificity based on different model settings and weather data in the weather data file supplied here.

@@ -98,3 +98,38 @@ future compatible observations without certifying predictive validity.
 The development milestones in docs/Nature_Food_Review_and_Research_Plan_20261009.md
 remain the scientific submission criteria. Fixed-production exposure and
 improved figures do not complete the missing grain-loss or adaptation tests.
+
+Annual canopy-risk and aggregation sensitivity
+
+python -m analysis.paper_study.climate_robustness_20261009.run --output /tmp/climate-sensitivity-reproduction
+
+The compact NPZ bundle contains exact float64 canopy-damage values from all 810
+annual files, with source hashes and missing seasons retained. No raw forcing
+or annual-output archive is required for this sensitivity reproduction. The
+analysis tests 30 circular year shifts, separate-period means, identical cells
+complete in both periods and all three climate models, and rainfed-production
+weighting. Annual regional statistics use that identical complete population.
+Future high-damage-year frequencies compare each model's 30 future years with
+its own historical 90th quantile. They are conditional canopy indicators, not
+validated grain-yield downside probabilities. All three climate models retain
+equal ensemble weight.
+
+Observed management-grain evidence
+
+python analysis/paper_study/nordic_archive_validation_20261009/verify_reproduction.py
+python analysis/paper_study/mixture_adaptation_20261009/verify.py
+
+The older Nordic/Baltic archive supplies 307 observed grain contrasts with
+trial weights, shared controls and country/year holdouts. The French mixture
+analysis uses 195 complete constituent comparisons within one experiment,
+including harvests without disease ratings; it overlaps the earlier French
+source cohort. Swiss external trial controls remain explicitly noncausal.
+Both analyses include exact compact public-source inputs and standalone replay.
+Neither supports physiological STB-loss or future-climate adaptation claims.
+
+The physiological_evidence_20261009 source inventory records 16 screened
+entries and zero newly acquired eligible raw cohorts. Its empty intake tables
+return a no-observations status, not successful biological validation. Local
+documentation caches have source URLs and hashes; third-party article copies
+are excluded from the public Git release. Metadata and analytical inventories
+are available directly in the repository.

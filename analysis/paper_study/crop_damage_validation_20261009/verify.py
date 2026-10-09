@@ -163,6 +163,16 @@ def collection_and_readiness():
             original_comparisons+=1
     catalogue=pd.read_csv(COLLECTION/'dataset_catalogue.csv')
     catalogue['modelling_scope']=catalogue.evidence_type
+    # Preserve the archived source catalogue; current readiness must include
+    # the subsequently completed analysis of the original BRIWECS site files.
+    german=catalogue.dataset_id.eq('briwecs2025')
+    catalogue.loc[german,'coverage']='3,264 cultivar-management contrasts; 16 site-years; 5 locations'
+    catalogue.loc[german,'use_status']='analyzed; grouped protection-response prediction'
+    catalogue.loc[german,'modelling_scope']='Management-associated yield response; endpoint severity evaluated in grouped holdouts; no STB-specific physiological validation'
+    older=catalogue.dataset_id.eq('nordic2012_2016')
+    catalogue.loc[older,'coverage']='307 observed grain contrasts; 263 reported trial identifiers; 25 country-year groups'
+    catalogue.loc[older,'use_status']='harmonized; grouped management-grain benchmarks evaluated'
+    catalogue.loc[older,'modelling_scope']='Observed treated-minus-untreated grain response; no observed disease severity, leaf identity or physiological canopy trajectory'
     catalogue.to_csv(HERE/'source_readiness.csv',index=False)
     briwecs=COLLECTION/'sources/public_septoria/briwecs-2025/extracted/Briwecs_data'
     rows=[]

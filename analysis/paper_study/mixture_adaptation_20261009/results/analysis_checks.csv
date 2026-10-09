@@ -1,0 +1,7 @@
+check,passed,value
+French physical plots unique,True,381
+French complete constituent contrasts,True,195
+French one environment,True,1
+Swiss no causal flags,True,147
+Swiss exact mapping only,True,3780
+No France-Switzerland effect pooling,True,2

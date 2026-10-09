@@ -1,0 +1,8 @@
+control_group,scheme,n_test_environments,training_mean_rmse_t_ha,zero_difference_rmse_t_ha,status
+1,forward_year,2,1.7140283002,1.9256604098,noncausal_diagnostic_transfer; not_adaptation_validation
+1,leave_site_out,4,1.5503449157,1.38495561752,noncausal_diagnostic_transfer; not_adaptation_validation
+31,leave_site_out,4,0.588937891043,0.522751135819,noncausal_diagnostic_transfer; not_adaptation_validation
+32,leave_site_out,4,0.570328581923,0.454963750082,noncausal_diagnostic_transfer; not_adaptation_validation
+40,forward_year,3,0.246573049051,0.424239242863,noncausal_diagnostic_transfer; not_adaptation_validation
+40,leave_site_out,6,0.359209415154,0.397659477676,noncausal_diagnostic_transfer; not_adaptation_validation
+42,forward_year,1,0.186666666667,0.64,noncausal_diagnostic_transfer; not_adaptation_validation

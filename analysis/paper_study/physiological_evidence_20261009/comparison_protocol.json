@@ -1,0 +1,46 @@
+{
+  "status": "not_executable_no_eligible_observations",
+  "fitting_performed": false,
+  "observational_unit": "One harvested plot. Leaves, dates, sensor pixels and article versions are nested measurements, not independent harvests.",
+  "environment_unit": "Site \u00d7 harvest year; shared weather and duplicate publications share an independent_environment_group.",
+  "minimum_evidence": "At least two genuinely independent eligible environments; two is an intake minimum, not enough to establish broad transfer or robust uncertainty.",
+  "joins": {
+    "canopy_disease": "Join only verified plot/date/final-leaf-rank records; keep disease identities separate. Different dates require explicit temporal alignment, never a leaf-rank substitution.",
+    "harvest": "Many dates/leaves to exactly one observed harvest per plot. Aggregate predictors before joining harvest for model fitting.",
+    "reference": "Predefined affected/reference plots in the same design context. Shared reference plots imply correlated contrasts.",
+    "weather": "Environment to weather_series_id/date with complete forcing for the supported window; station/reanalysis origin and gaps explicit."
+  },
+  "required_units": {
+    "green_area": "m2 green lamina per m2 ground for each measured leaf layer; percentage greenness/lesion scores are not LAI.",
+    "functional_area": "Independent function-based measurement or validated observation operator; green tissue does not alone quantify photosynthetic efficiency.",
+    "calendar_HAD": "Integral of observed green/functional LAI over calendar days: m2 m-2 day.",
+    "thermal_HAD": "Integral over thermal time: m2 m-2 degC day, with base temperature and date origin specified. Coefficients cannot be transferred from calendar HAD.",
+    "yield": "Reported values and moisture retained. Multipliers to kg/ha: kg_ha=1, t_ha=1000, dt_ha=100, g_m2=10. Dry yield = reported kg/ha \u00d7 (1 - reported moisture percent/100). Unknown moisture prevents conversion.",
+    "radiation": "Global solar MJ m-2 day-1 distinct from PAR; interception/HAA require justified conversion and leaf-layer coverage."
+  },
+  "stage_windows": {
+    "primary_comparison": [
+      "GS31-GS85",
+      "GS65-GS85"
+    ],
+    "eligibility": "Observed or explicitly justified stage dates and bracketing canopy observations at both window boundaries, per retained leaf layer. Gap and interpolation sensitivity specified before fitting.",
+    "unsupported_substitutions": [
+      "GS59 is not GS65",
+      "GS83 or generic senescence is not GS85",
+      "Anthesis/heading-based thermal integrals do not establish GS31 coverage"
+    ],
+    "failure_action": "Report a restricted observed window. No extrapolation across unobserved developmental periods."
+  },
+  "comparators": [
+    "Training-only crop-management and endpoint-severity benchmarks on identical eligible harvests.",
+    "Parsimonious stage- and leaf-aware model using actual observed canopy area.",
+    "Healthy-area-duration baseline with documented units; reconcile current normalized HAD conversion before any absolute yield comparison.",
+    "Crop-growth physiological damage formulation only if crop/weather/soil/initial-state inputs and training observations identify its parameters."
+  ],
+  "calibration": "Protected/reference crop growth and yield calibrated separately from incremental disease-associated loss; disease-free status requires observed evidence. Reserve/sink extensions require measured reserve/biomass/grain-growth constraints.",
+  "validation": "Lock environment allocations before fitting. Fit preprocessing, imputation and parameter selection within training folds; hold out whole environment groups. Assess protected yield, affected yield, paired absolute difference and relative loss with common grain moisture units.",
+  "uncertainty": "Cluster by independent environment and preserve shared-reference dependence. Few environments limit transfer and interval interpretation; no plot-level bootstrap masquerading as environmental validation.",
+  "attribution": "Default to management-package or mixed-disease protection contrast unless measurements and experimental design support STB-specific attribution. Negative contrasts remain.",
+  "next_gate": "Parent coordination after a concrete eligible raw cohort and join/measurement audit, before expansive modeling.",
+  "additional_crop_model_inputs": "Model-specific soil layers, hydraulic properties, initial water/N, sowing and nutrient/water operations remain necessary; the generic templates are not a complete WOFOST/DSSAT configuration."
+}

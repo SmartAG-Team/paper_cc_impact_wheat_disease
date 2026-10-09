@@ -135,6 +135,7 @@ def climate_response(destination, data, regions, countries, cells):
 
 def production_exposure(destination):
     from analysis.paper_study.food_security_exposure_20261009.exposure import read
+    from analysis.paper_study.climate_robustness_20261009.run import read as read_robustness
     data = read()['domain_summary'].query("analysis_mode == 'primary_any_paired_year'")
     late = data[data.period.eq('2071-2100')]
     regions = late[late.domain_type.eq('environment_region') & late.scenario.eq('ssp585') & late.domain.isin(REGIONS)]
@@ -166,29 +167,34 @@ def production_exposure(destination):
     ax.legend(frameon=False, ncol=2, loc='upper center', bbox_to_anchor=(.5, -.20), fontsize=8)
     ax = fig.add_subplot(gs[1, :])
     europe = late[late.domain_type.eq('Europe')].set_index('scenario').loc[SCENARIOS].reset_index()
+    tails=read_robustness('annual_distribution_ensemble').query(
+        "period == '2071-2100' and environment_region == 'Europe' and weighting == 'baseline_production'").set_index('scenario').loc[SCENARIOS]
     x = np.arange(3)
-    ax.bar(x-.18, europe.all3positive_production_tonnes/1e6, width=.32, color=GOLD, label='All three models increase')
-    ax.bar(x+.18, europe.ensemble_increasing_production_tonnes/1e6, width=.32, color='#d1b789', label='Ensemble mean increases')
-    for offset, column in [(-.18, 'all3positive_production_tonnes'), (.18, 'ensemble_increasing_production_tonnes')]:
-        for pos, value in zip(x+offset, europe[column]/1e6):
-            ax.text(pos, value+2, f'{value:.1f}', ha='center', fontsize=9)
-    ax.set_xticks(x, LABELS); ax.set_ylim(0, max(europe.ensemble_increasing_production_tonnes/1e6)*1.27)
-    ax.set_ylabel('Production exposed to increasing\ndamage (million tonnes)', fontsize=8.8)
-    ax.set_title('c   European exposure across emissions pathways', loc='left', weight='bold', fontsize=10, pad=12)
-    ax.legend(frameon=False, ncol=2, loc='upper left', fontsize=8.5)
+    values=100*tails.future_exceedance_fraction
+    for pos,value,(_,row),color in zip(x,values,tails.iterrows(),COLORS):
+        ax.errorbar(pos,value,yerr=[[value-100*row.future_exceedance_fraction_gcm_min],
+            [100*row.future_exceedance_fraction_gcm_max-value]],color=color,marker='o',capsize=5,ms=6)
+        ax.text(pos+.07,value,f'{value:.1f}%',ha='left',va='center',fontsize=9,color=color)
+    ax.axhline(10,color=GREY,ls='--',lw=.9,label='Historical upper-decile reference')
+    ax.set_xticks(x,LABELS);ax.set_ylim(-3,103);ax.set_xlim(-.45,2.5)
+    ax.set_ylabel('Future years above historical\n90th-percentile damage (%)',fontsize=8.8)
+    ax.set_title('c   Frequency of high-damage years in Europe',loc='left',weight='bold',fontsize=10,pad=12)
+    ax.legend(frameon=False,loc='upper left',fontsize=8.5)
     ax.grid(axis='y', color='#e8ecee', lw=.65); ax.set_axisbelow(True)
     stem = 'fig4_wheat_production_exposure'
     export(fig, destination, stem)
     regions.to_csv(destination/f'{stem}_regions.csv', index=False)
     europe.to_csv(destination/f'{stem}_europe.csv', index=False)
-    return stem, ('Figure 4 | Production exposure changes the regional interpretation of disease impacts. '
+    tails.reset_index().to_csv(destination/f'{stem}_annual_tails.csv',index=False)
+    return stem, ('Figure 4 | Production exposure and high-damage years. '
         '(a) Production-weighted change in normalized HAD loss under SSP5–8.5 in 2071–2100 relative to 1991–2020. '
         'Points are equal three-climate-model means after production and valid-season weighting; whiskers span model estimates. '
         '(b) Fixed SPAM2020 production in the same environmental regions, partitioned by agreement in the sign of cell-level changes. '
         'Regions are ordered by baseline production. Mixed signs and zero responses are combined for display and retained separately in Source Data. '
-        '(c) European baseline production in cells with positive changes in all three models or in their ensemble mean under each emissions pathway. '
-        'The two criteria overlap and are shown as separate bars, not additive categories. '
-        'All amounts are baseline production located in exposed cells, not estimated tonnes lost or future production. '
+        '(c) Fraction of 2071–2100 years with European production-weighted canopy damage above each climate model’s historical 90th percentile. '
+        'Both periods retain the same cells, complete in all 60 years and all three models. These cells represent 99.0–99.7% of baseline production across pathways. '
+        'Points average three model-specific frequencies; whiskers span their range. Thirty years per model define empirical frequencies, not calibrated probabilities. '
+        'Exposed tonnes and annual canopy damage do not measure grain lost or future production. '
         'The fixed all-wheat baseline is represented by imposed winter-wheat rainfed calendars; missing responses remain explicit in the denominators. '
         'Eight named regions are displayed; European totals also include outside-region and unassigned cells.')
 
@@ -331,10 +337,12 @@ def supplementary_diagnostics(destination):
 
 
 def main(destination):
+    from .management_evidence import empirical_management_figure
     style(); data, regions, _ = grid_data()
     countries = gpd.read_file(ROOT/'data/geography/ne_110m_admin_0_countries.zip')
     cells = data.drop_duplicates('cell_id')
     captions = dict([prediction_support(destination), climate_response(destination, data, regions, countries, cells),
-                     timing_mechanism(destination,data,countries,cells),production_exposure(destination)])
+                     timing_mechanism(destination,data,countries,cells),production_exposure(destination),
+                     empirical_management_figure(destination)])
     (destination/'captions.json').write_text(json.dumps(captions, indent=2)+'\n')
     return captions

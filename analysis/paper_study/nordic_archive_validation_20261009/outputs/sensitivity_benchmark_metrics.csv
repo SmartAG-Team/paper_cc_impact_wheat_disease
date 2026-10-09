@@ -1,0 +1,4 @@
+scheme,model,pairs,trials,environment_groups,rmse_t_ha,mae_t_ha,mean_error_t_ha,country_year_balanced_rmse_t_ha,mse_skill_vs_training_mean
+leave_country_year_out,crop_management_mean,306,262,25,0.639346166059,0.495844036343,-0.0180170702514,0.611751604665,-0.0319908394143
+leave_country_year_out,management_mean,306,262,25,0.637055634702,0.493223550901,-0.00828491178106,0.599291476164,-0.0246096328107
+leave_country_year_out,training_mean,306,262,25,0.629358560877,0.488011580611,-0.0047220202983,0.598952454672,0

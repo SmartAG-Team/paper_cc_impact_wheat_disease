@@ -1,0 +1,155 @@
+{
+  "analysis": "Nordic/Baltic 2012–2016 archived management-grain response",
+  "executed_utc": "2026-10-09T19:34:08.319987+00:00",
+  "protocol_fixed_utc": "2026-10-09T19:11:23.190370+00:00",
+  "protocol_sha256": "feecd03ed672db2254fef19df356dcf81491cf5ed79626f9c958f91b8e9a58e4",
+  "code_sha256": "c8af11e639b3553d767f8b1c278a037e791e7ab9e324796f2e3f579170b3a709",
+  "source_bundle_sha256": "290493e673ad3a076a86ae1754c9d01872e2c1bcb6b3fd4c5c0044f081a386af",
+  "manifest_sha256": "eebafeab904fff9be3f67c6826ba87cdcb254e00d71e4c4e780fb242148e64dd",
+  "python": "3.12.14",
+  "package_versions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "openpyxl": "3.1.5",
+    "xlrd": "2.0.2"
+  },
+  "execution_inputs": "Bundled public-source subset only; no original archive or network reads.",
+  "source_yield_records": 662,
+  "source_sas_records": 677,
+  "source_sas_trial_records": 664,
+  "year_counts": {
+    "2012": 94,
+    "2013": 122,
+    "2014": 96,
+    "2015": 103,
+    "2016": 161,
+    "2017": 86
+  },
+  "exclusion_counts": {
+    "outside_2012_2016": 86,
+    "ambiguous_treatment_key": 3,
+    "invalid_control_yield": 2,
+    "missing_control": 1
+  },
+  "eligible_pairs": 307,
+  "eligible_trials": 263,
+  "country_year_groups": 25,
+  "countries": [
+    "DK",
+    "FI",
+    "LT",
+    "NO",
+    "SE"
+  ],
+  "crop_counts": {
+    "WW": 258,
+    "SW": 49
+  },
+  "shared_controls": 44,
+  "negative_pairs": 9,
+  "sum_trial_weights": 263.0,
+  "substantive_gain_inconsistency_trials": [
+    "DK:2016:2016DK31"
+  ],
+  "unique_cross_source_matches": 657,
+  "yield_rounding_max_absolute_difference_kg_ha": 0.5,
+  "cross_source_join_status": {
+    "unique_match": 657,
+    "no_sas_match": 3,
+    "ambiguous_primary_key": 2
+  },
+  "sas_only_trial_records": 5,
+  "regional_reference_rows": 72,
+  "regional_reference_calendar_discrepancy_rows": 72,
+  "full_station_join_status": {
+    "exact_full_id": 604,
+    "unresolved": 60
+  },
+  "source_group_ids_with_verified_country_year_scope": 307,
+  "possible_reused_control_records": 43,
+  "possible_reused_control_signatures": 20,
+  "observed_disease_records": 0,
+  "observed_trial_stage_records": 0,
+  "observed_plot_identifiers": 0,
+  "disease_species": "not_recorded",
+  "recommendation_evaluation": "not_performed; source-derived fields preserved for provenance only",
+  "headline_descriptive": {
+    "group_by": "all",
+    "group": "all",
+    "pairs": 307,
+    "trials": 263,
+    "environment_groups": 25,
+    "mean_gain_t_ha": 0.9797781737424042,
+    "mean_gain_pct_untreated": 14.067601844038725,
+    "mean_contrast_pct_treated": 11.656525157777267,
+    "negative_pairs": 9,
+    "zero_pairs": 1,
+    "negative_pair_fraction_trial_weighted": 0.022813688212927757
+  },
+  "primary_metrics": [
+    {
+      "scheme": "leave_country_year_out",
+      "model": "crop_management_mean",
+      "pairs": 307,
+      "trials": 263,
+      "environment_groups": 25,
+      "rmse_t_ha": 0.6382965663350827,
+      "mae_t_ha": 0.4948591902727251,
+      "mean_error_t_ha": -0.017576693878750733,
+      "country_year_balanced_rmse_t_ha": 0.6113761908596927,
+      "mse_skill_vs_training_mean": -0.032410033119992354
+    },
+    {
+      "scheme": "leave_country_year_out",
+      "model": "management_mean",
+      "pairs": 307,
+      "trials": 263,
+      "environment_groups": 25,
+      "rmse_t_ha": 0.636048447174835,
+      "mae_t_ha": 0.49230750422649033,
+      "mean_error_t_ha": -0.00790625584925576,
+      "country_year_balanced_rmse_t_ha": 0.5989032786515661,
+      "mse_skill_vs_training_mean": -0.025150418760579996
+    },
+    {
+      "scheme": "leave_country_year_out",
+      "model": "training_mean",
+      "pairs": 307,
+      "trials": 263,
+      "environment_groups": 25,
+      "rmse_t_ha": 0.6281977838529155,
+      "mae_t_ha": 0.48668785079400545,
+      "mean_error_t_ha": -0.004571615730736299,
+      "country_year_balanced_rmse_t_ha": 0.5985709200791747,
+      "mse_skill_vs_training_mean": 0.0
+    }
+  ],
+  "claim_boundary": "Retrospective management-grain contrasts and benchmark transport; no disease-severity, healthy-yield, STB-specific, physiological or climate-response validation.",
+  "output_sha256": {
+    "benchmark_metrics.csv": "aca02061d1abbb0e0e0d475f84c427e61647300f0ce426d39b9d1f991065e9ac",
+    "compatibility.json": "af3aa310cbfbab2d6c8812dd13d27c904bf6a8c2c868723263d412f0b214e3ef",
+    "cross_source_join_audit.csv": "f70b70e74dff9d66b0d94f5ebcefae6a522243c284ceed40f65d4a0ff7ff93ed",
+    "descriptive_summary.csv": "adcc2273433089436a18664f7a1c465573a495b938e8c697fdc8c48602cae45e",
+    "excluded_source_records.csv": "f62e5b3588cdea019bcf9497f624a61758ae3534301d485cf96a1d975c89da70",
+    "fold_membership.csv": "d93f871acff4bcbd0906d068fdb3673b1f694d719468ce84bb34c45b02e9b48a",
+    "fold_receipt.csv": "34e9140ec25c604bb0b3ffb62741e7e92cabe33ca8ac6366a6e781882965f527",
+    "holdout_predictions.csv": "6431b8a937708c8809b3b32c71d8047c2b1aac4888256de1c477b9f5bf8828c3",
+    "paired_management_grain.csv": "5e5eb38a9d50fc673e6a9c5946df6dacab9f7baf12334041438e571cdca00a21",
+    "possible_reused_controls.csv": "ab6e2be4e18f58b35832ac0df3b6a1399135b77cf76921a3cbb2c64a9d50ae89",
+    "regional_stage_join_audit.csv": "5237df42e40599b69e9caae26052e2d6b7c96671f4d62845958f8504db88e07f",
+    "regional_stage_reference.csv": "27c6b70a252bdd923a162112a16db4908da688350f9bece9f278dd4871bf121e",
+    "sas_only_records.csv": "07f15a86c96dc98a93c87e57d78464bb37f67048efafbac7f51e57eb44936da9",
+    "sas_source_records.csv": "508913c26ca9cb9deb3ffb92f93d4ef3312ff2c6b0c3d6c6146118f3fd5d54fb",
+    "sensitivity_benchmark_metrics.csv": "9040bfdc2be58cb10740bab6e69473ac34b29091d8a04a81dd13fb2e2a83429f",
+    "sensitivity_fold_membership.csv": "22f3e0dc008fc9de0d81c0d1df544f76ece56efb047e18c43747a80de8860fd0",
+    "sensitivity_fold_receipt.csv": "d383ab025e348be47b179953cbfb3b6ab311595fbc99815da180239588a28100",
+    "sensitivity_pairs.csv": "1052b7222d96b778e63fed88998cf43cce1fc3f1fea3efbdbdd31c3c90835ed5",
+    "sensitivity_predictions.csv": "6073718b31a7c7fe2f0960161d288594217d87ca97c433c3167fef4b2b5155fb",
+    "source_documentation.txt": "aa250be763a1eb2b6cc68e64b5476b14b66df9a542d2dc2390af6092cb49e14b",
+    "source_group_audit.csv": "5cdd90665a9fc75bfc2a8ec844232f27ff739e9574a3dc5373137d81485d3c59",
+    "station_join_audit.csv": "68a6bcfac3da34044bd6a0a5a4c20f8d53c3431c965e6f16285dcbc9050fbd7a",
+    "uncertainty.json": "84fed2e016426bd2ac068f384dbe15f716d13ed515dc383f37716e5348022c1e",
+    "weather_station_reference.csv": "762700506c853865b30103b8e9aa4aee2032014863d231583891d0d09b56aef1",
+    "yield_source_records.csv": "e90d8fe43a2702b90bf566366a64b5fffd51a97ac1d98cb14d0ecea4d06d1cf9"
+  }
+}

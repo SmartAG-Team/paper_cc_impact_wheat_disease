@@ -1,0 +1,73 @@
+source_file,source_row,region,crop,reference_stage,published_average_day_number,reference_date_cell,reference_date_day_of_year,day_number_discrepancy,actual_trial_observation,reference_duration_days
+Development stage.xlsx,4,DK_Midt- og Vestjylland,WW,32,134,2022-05-15,135,1,False,48
+Development stage.xlsx,4,DK_Midt- og Vestjylland,WW,71,182,2022-07-02,183,1,False,48
+Development stage.xlsx,4,DK_Midt- og Vestjylland,SW,30,135,2022-05-16,136,1,False,44
+Development stage.xlsx,4,DK_Midt- og Vestjylland,SW,65,179,2022-06-29,180,1,False,44
+Development stage.xlsx,5,DK_Nordjylland,WW,32,134,2022-05-15,135,1,False,48
+Development stage.xlsx,5,DK_Nordjylland,WW,71,182,2022-07-02,183,1,False,48
+Development stage.xlsx,5,DK_Nordjylland,SW,30,135,2022-05-16,136,1,False,44
+Development stage.xlsx,5,DK_Nordjylland,SW,65,179,2022-06-29,180,1,False,44
+Development stage.xlsx,6,DK_Sønderjylland,WW,32,134,2022-05-15,135,1,False,48
+Development stage.xlsx,6,DK_Sønderjylland,WW,71,182,2022-07-02,183,1,False,48
+Development stage.xlsx,6,DK_Sønderjylland,SW,30,135,2022-05-16,136,1,False,44
+Development stage.xlsx,6,DK_Sønderjylland,SW,65,179,2022-06-29,180,1,False,44
+Development stage.xlsx,7,DK_Øerne,WW,32,134,2022-05-15,135,1,False,48
+Development stage.xlsx,7,DK_Øerne,WW,71,182,2022-07-02,183,1,False,48
+Development stage.xlsx,7,DK_Øerne,SW,30,135,2022-05-16,136,1,False,44
+Development stage.xlsx,7,DK_Øerne,SW,65,179,2022-06-29,180,1,False,44
+Development stage.xlsx,8,DK_Østjylland,WW,32,134,2022-05-15,135,1,False,48
+Development stage.xlsx,8,DK_Østjylland,WW,71,182,2022-07-02,183,1,False,48
+Development stage.xlsx,8,DK_Østjylland,SW,30,135,2022-05-16,136,1,False,44
+Development stage.xlsx,8,DK_Østjylland,SW,65,179,2022-06-29,180,1,False,44
+Development stage.xlsx,9,FI_Norra,WW,32,145,2022-05-26,146,1,False,44
+Development stage.xlsx,9,FI_Norra,WW,71,189,2022-07-09,190,1,False,44
+Development stage.xlsx,9,FI_Norra,SW,30,166,2022-06-16,167,1,False,32
+Development stage.xlsx,9,FI_Norra,SW,65,198,2022-07-18,199,1,False,32
+Development stage.xlsx,10,FI_Sydvästra,WW,32,145,2022-05-26,146,1,False,44
+Development stage.xlsx,10,FI_Sydvästra,WW,71,189,2022-07-09,190,1,False,44
+Development stage.xlsx,10,FI_Sydvästra,SW,30,162,2022-06-12,163,1,False,32
+Development stage.xlsx,10,FI_Sydvästra,SW,65,194,2022-07-14,195,1,False,32
+Development stage.xlsx,11,FI_Södre,WW,32,145,2022-05-26,146,1,False,44
+Development stage.xlsx,11,FI_Södre,WW,71,189,2022-07-09,190,1,False,44
+Development stage.xlsx,11,FI_Södre,SW,30,161,2022-06-11,162,1,False,32
+Development stage.xlsx,11,FI_Södre,SW,65,193,2022-07-13,194,1,False,32
+Development stage.xlsx,12,FI_Västra,WW,32,145,2022-05-26,146,1,False,44
+Development stage.xlsx,12,FI_Västra,WW,71,189,2022-07-09,190,1,False,44
+Development stage.xlsx,12,FI_Västra,SW,30,163,2022-06-13,164,1,False,32
+Development stage.xlsx,12,FI_Västra,SW,65,195,2022-07-15,196,1,False,32
+Development stage.xlsx,13,LT_Kaunas,WW,32,138,2022-05-19,139,1,False,46
+Development stage.xlsx,13,LT_Kaunas,WW,71,184,2022-07-04,185,1,False,46
+Development stage.xlsx,13,LT_Kaunas,SW,30,149,2022-05-30,150,1,False,37
+Development stage.xlsx,13,LT_Kaunas,SW,65,186,2022-07-06,187,1,False,37
+Development stage.xlsx,14,NO_Akershus,WW,32,140,2022-05-21,141,1,False,53
+Development stage.xlsx,14,NO_Akershus,WW,71,193,2022-07-13,194,1,False,53
+Development stage.xlsx,14,NO_Akershus,SW,30,161,2022-06-11,162,1,False,32
+Development stage.xlsx,14,NO_Akershus,SW,65,193,2022-07-13,194,1,False,32
+Development stage.xlsx,15,NO_Oppland,WW,32,140,2022-05-21,141,1,False,46
+Development stage.xlsx,15,NO_Oppland,WW,71,186,2022-07-06,187,1,False,46
+Development stage.xlsx,15,NO_Oppland,SW,30,161,2022-06-11,162,1,False,30
+Development stage.xlsx,15,NO_Oppland,SW,65,191,2022-07-11,192,1,False,30
+Development stage.xlsx,16,NO_Vestfold,WW,32,140,2022-05-21,141,1,False,46
+Development stage.xlsx,16,NO_Vestfold,WW,71,186,2022-07-06,187,1,False,46
+Development stage.xlsx,16,NO_Vestfold,SW,30,161,2022-06-11,162,1,False,26
+Development stage.xlsx,16,NO_Vestfold,SW,65,187,2022-07-07,188,1,False,26
+Development stage.xlsx,17,NO_Østfold,WW,32,140,2022-05-21,141,1,False,51
+Development stage.xlsx,17,NO_Østfold,WW,71,191,2022-07-11,192,1,False,51
+Development stage.xlsx,17,NO_Østfold,SW,30,161,2022-06-11,162,1,False,21
+Development stage.xlsx,17,NO_Østfold,SW,65,182,2022-07-02,183,1,False,21
+Development stage.xlsx,18,SE_Skåne,WW,32,134,2022-05-15,135,1,False,48
+Development stage.xlsx,18,SE_Skåne,WW,71,182,2022-07-02,183,1,False,48
+Development stage.xlsx,18,SE_Skåne,SW,30,148,2022-05-29,149,1,False,31
+Development stage.xlsx,18,SE_Skåne,SW,65,179,2022-06-29,180,1,False,31
+Development stage.xlsx,19,SE_Uppsala,WW,32,145,2022-05-26,146,1,False,44
+Development stage.xlsx,19,SE_Uppsala,WW,71,189,2022-07-09,190,1,False,44
+Development stage.xlsx,19,SE_Uppsala,SW,30,164,2022-06-14,165,1,False,22
+Development stage.xlsx,19,SE_Uppsala,SW,65,186,2022-07-06,187,1,False,22
+Development stage.xlsx,20,SE_Västra Götaland,WW,32,140,2022-05-21,141,1,False,45
+Development stage.xlsx,20,SE_Västra Götaland,WW,71,185,2022-07-05,186,1,False,45
+Development stage.xlsx,20,SE_Västra Götaland,SW,30,156,2022-06-06,157,1,False,29
+Development stage.xlsx,20,SE_Västra Götaland,SW,65,185,2022-07-05,186,1,False,29
+Development stage.xlsx,21,SE_Östergötland,WW,32,140,2022-05-21,141,1,False,45
+Development stage.xlsx,21,SE_Östergötland,WW,71,185,2022-07-05,186,1,False,45
+Development stage.xlsx,21,SE_Östergötland,SW,30,158,2022-06-08,159,1,False,27
+Development stage.xlsx,21,SE_Östergötland,SW,65,185,2022-07-05,186,1,False,27

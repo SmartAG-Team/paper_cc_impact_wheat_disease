@@ -1,0 +1,228 @@
+{
+  "reviewed_date": "2026-10-09",
+  "retrieval_attempts": 35,
+  "successful_payloads": 30,
+  "failed_attempts": 5,
+  "successful_bytes": 7826368,
+  "payload_roles": {
+    "repository_or_search_metadata": 24,
+    "documentation": 6
+  },
+  "new_raw_field_observations": 0,
+  "eligible_new_independent_environments": 0,
+  "physiological_fitting_performed": false,
+  "payloads": [
+    {
+      "local_path": "metadata/hal_leads.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 9949,
+      "sha256": "97604aeafa6dcf219a075cbd1f4b9fafc7a7419e293179dc95cc0a734bd84456"
+    },
+    {
+      "local_path": "metadata/datacite_bancal.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 391539,
+      "sha256": "7a8c04a72df5509266c98cba6dd4a673aef79117d5f306e4169bd5d2b7df3328"
+    },
+    {
+      "local_path": "metadata/datacite_foulkes.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 150,
+      "sha256": "5c44a777fac52ffdb6c3b29800a615dfdde0fb93aa3f5f20da0956c6d968edd2"
+    },
+    {
+      "local_path": "metadata/datacite_bregaglio.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 158,
+      "sha256": "d3493fa7cb363b788430d7c69ecb3f17ac267aa2c97a76885385ecf93f738773"
+    },
+    {
+      "local_path": "metadata/rdg_bancal_search.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 14394,
+      "sha256": "546d1d6add273564a3576c41b400792689f9d8bbcfaab446c356aa1fa60495cb"
+    },
+    {
+      "local_path": "metadata/rdg_stics_french_wheat.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 21624,
+      "sha256": "14ad83e6716f637ff00c36183ccde1139c8d57432a5f2387e2526a42dd9a6375"
+    },
+    {
+      "local_path": "metadata/datacite_bancal_wheat.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 81463,
+      "sha256": "6d7071eec7d2c71e33632634da0e57f5a13d208f7ffccdd23a0bc4c9f40b34b8"
+    },
+    {
+      "local_path": "metadata/datacite_physiology.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 249481,
+      "sha256": "199693674c38714fc63a42adcd78fc51a4e55044165d06e8bedb5f087c8d054f"
+    },
+    {
+      "local_path": "metadata/datacite_foulkes_tolerance.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 171759,
+      "sha256": "534cb39051219a5c5f64ab03d2f953fda304af170520651ba5eac36962e3a6da"
+    },
+    {
+      "local_path": "metadata/rdg_septoria_search.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 3788,
+      "sha256": "0dc68b23d80c26499e3fb731c7092a6ddbb7c3bc65ef7bcd426d52e23e63d48a"
+    },
+    {
+      "local_path": "metadata/rdg_green_area_search.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 141,
+      "sha256": "49dc6926a74faffefa178c58e47abc0903498a91f217869c47cb3a6e57d567c1"
+    },
+    {
+      "local_path": "metadata/foulkes_repository.html",
+      "role": "repository_or_search_metadata",
+      "bytes": 40744,
+      "sha256": "266df78d4790ed8b4c2ceb3849c751d5842e1150fed25553b9b0ee7d0ddb369b"
+    },
+    {
+      "local_path": "metadata/taylor_repository.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 5599,
+      "sha256": "9e2a800d52e4e1790a0ba3bb4993569af6f0f73b6d0095e801a2d8a172d03a8d"
+    },
+    {
+      "local_path": "metadata/eth_segmentation_data.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 3166,
+      "sha256": "8fb268fd17c6ca7c7334b3083b9a343c2c6076b010cd36b2880fa8fa64e03118"
+    },
+    {
+      "local_path": "metadata/eth_segmentation_repository.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 5775,
+      "sha256": "e41a5753e3f9d46a39ffd2b4707137831c91bf6b2f1a2b878beb6179bfc3c95e"
+    },
+    {
+      "local_path": "metadata/bancal2022_hal.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 2559,
+      "sha256": "3f551216004cfc0260cffdc0c2ffb8755b1164e2799e4288a6829b3eb1417c78"
+    },
+    {
+      "local_path": "documentation/stics_readme.pdf",
+      "role": "documentation",
+      "bytes": 199211,
+      "sha256": "27725521799781e7ae24ffcfabc38cdaccc6f2cb2bf80082f5d49d5390dd08c1"
+    },
+    {
+      "local_path": "metadata/taylor_repository_tree_master.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 19713,
+      "sha256": "e6f302c16502e2828c73ca7458bdbedd548a8ee0d90fd40c1ff214124b3f2669"
+    },
+    {
+      "local_path": "metadata/eth_segmentation_tree.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 2860,
+      "sha256": "6695d503ba27ba671f29a43b2b1db9575460124ee0d62b0463f6be6f4ae4c769"
+    },
+    {
+      "local_path": "documentation/bancal2022_author_manuscript.response",
+      "role": "documentation",
+      "bytes": 973695,
+      "sha256": "5ba930fc8d995e40d173eed00b37ee56cc451f20af73368ec72a677ccadf161c"
+    },
+    {
+      "local_path": "documentation/taylor_repository_README.md",
+      "role": "documentation",
+      "bytes": 1710,
+      "sha256": "b72af19495ac372588bbc1fbc4ea1044ccae7c2a5a39a220dcb1ec6f381e7183"
+    },
+    {
+      "local_path": "documentation/eth_segmentation_README.md",
+      "role": "documentation",
+      "bytes": 748,
+      "sha256": "7204f7b280a0105b0d1fbbf53ae5674ff9bc2100f904917a7f329281a46666f1"
+    },
+    {
+      "local_path": "documentation/phenotol2024.pdf",
+      "role": "documentation",
+      "bytes": 5566194,
+      "sha256": "3bd8b00e7ba58bc615be19ed2b24fcd44fa06230f65ad797f0ee4d0788f16e45"
+    },
+    {
+      "local_path": "documentation/bregaglio2021_TUM.html",
+      "role": "documentation",
+      "bytes": 58906,
+      "sha256": "46108e82d4c3d66c92d0229b90aaeb3feae0bc135d73188f4360d6f547ba7683"
+    },
+    {
+      "local_path": "metadata/datacite_phenotol.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 142,
+      "sha256": "86e743f1e62c5b3c2fb41575e32530daf01dd31252b30e523e5752071810b795"
+    },
+    {
+      "local_path": "metadata/datacite_corkley_wheat.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 151,
+      "sha256": "588c253579d7e11b723a71430e9e0e8c42317a79e4c192e72f3d0848c8c16d73"
+    },
+    {
+      "local_path": "metadata/datacite_corkley_related.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 159,
+      "sha256": "61f47ffcc43a656724680fc4d2a4991bc2404db52fd3a0c74deff55a384d790d"
+    },
+    {
+      "local_path": "metadata/datacite_tolerance_related.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 229,
+      "sha256": "6ab22fbc59ef0bedce646b88ec3e0d8f378a6d881b5b9e757df6d90661f713a4"
+    },
+    {
+      "local_path": "metadata/datacite_bancal_related.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 236,
+      "sha256": "b39def8a2db0c06856af4020affdbce45ccdaccf2bd0984b775f3d1567d33613"
+    },
+    {
+      "local_path": "metadata/rdg_phenotol_search.json",
+      "role": "repository_or_search_metadata",
+      "bytes": 125,
+      "sha256": "149e4cf74c5c69862543ae1a92be4a5189d7c26741a38bdd94e3c21990e0ee9e"
+    }
+  ],
+  "failures": [
+    {
+      "requested_url": "https://api.github.com/repos/nt409/quantitative-resistance/git/trees/main?recursive=1",
+      "state": "failed",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "requested_url": "https://nottingham-repository.worktribe.com/output/918103",
+      "state": "failed",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "requested_url": "https://repository.rothamsted.ac.uk/download/51fc2be00ea4c4fb19ca1165893fe27d56df872c17aefbe26a80b8de0ca90be4/5501429/DoseSplittingProof060824.pdf",
+      "state": "failed",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "requested_url": "https://www.sciencedirect.com/science/article/pii/S1161030121001921",
+      "state": "failed",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "requested_url": "https://www.sciencedirect.com/science/article/pii/S0378429015001628",
+      "state": "failed",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

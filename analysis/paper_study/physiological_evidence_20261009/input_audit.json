@@ -1,0 +1,272 @@
+{
+  "status": "no_observations",
+  "input_directory": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/physiological_evidence_20261009/templates",
+  "table_profiles": {
+    "sources": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "environments": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "treatments": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "plots": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "canopy": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "disease": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "stages": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "harvest": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "weather": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "reference_pairs": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "management": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    },
+    "biomass_reserves": {
+      "rows": 0,
+      "duplicate_key_rows": 0,
+      "rows_missing_required_values": 0
+    }
+  },
+  "join_checks": [
+    {
+      "child": "plots",
+      "child_key": "environment_id",
+      "parent": "environments",
+      "parent_key": "environment_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "plots",
+      "child_key": "treatment_id",
+      "parent": "treatments",
+      "parent_key": "treatment_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "canopy",
+      "child_key": "plot_id",
+      "parent": "plots",
+      "parent_key": "plot_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "disease",
+      "child_key": "plot_id",
+      "parent": "plots",
+      "parent_key": "plot_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "stages",
+      "child_key": "plot_id",
+      "parent": "plots",
+      "parent_key": "plot_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "harvest",
+      "child_key": "plot_id",
+      "parent": "plots",
+      "parent_key": "plot_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "management",
+      "child_key": "plot_id",
+      "parent": "plots",
+      "parent_key": "plot_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "biomass_reserves",
+      "child_key": "plot_id",
+      "parent": "plots",
+      "parent_key": "plot_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "reference_pairs",
+      "child_key": "affected_plot_id",
+      "parent": "plots",
+      "parent_key": "plot_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "reference_pairs",
+      "child_key": "reference_plot_id",
+      "parent": "plots",
+      "parent_key": "plot_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "environments",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "treatments",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "plots",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "canopy",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "disease",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "stages",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "harvest",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "weather",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "reference_pairs",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "management",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    },
+    {
+      "child": "biomass_reserves",
+      "child_key": "source_id",
+      "parent": "sources",
+      "parent_key": "source_id",
+      "child_rows": 0,
+      "unmatched_rows": 0,
+      "match_rate": null
+    }
+  ],
+  "errors": [],
+  "independent_environment_groups": 0,
+  "repeated_plot_leaf_series": 0,
+  "unique_canopy_plots": 0,
+  "canopy_plots_with_harvest": 0,
+  "physiological_comparison_ready": false,
+  "unautomated_requirements": [
+    "Observed stage-window coverage and temporal gaps",
+    "Measured disease in reference plots and source-supported attribution",
+    "Weather completeness/units and soil/initial-state inputs for the chosen crop model",
+    "Actual leaf-area normalization, layer completeness and green versus functional area",
+    "Reserve parameter identifiability and independent calibration/evaluation allocation",
+    "Parent coordination before expansive modeling"
+  ],
+  "inference": "No observations is not a passed join audit. Structural checks cannot establish physiological validity."
+}

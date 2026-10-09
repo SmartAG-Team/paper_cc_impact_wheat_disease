@@ -1,0 +1,223 @@
+{
+  "bundle": "nordic_public_sources.zip",
+  "sha256": "290493e673ad3a076a86ae1754c9d01872e2c1bcb6b3fd4c5c0044f081a386af",
+  "files": [
+    {
+      "bundle_member": "nordic-baltic-2012-2016/Development stage.xlsx",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/Development stage.xlsx",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 12629,
+      "sha256": "81afc1558805521147c68a3449afdbf59f1b8a5504eeddff56a5ca0821742b14",
+      "md5": "9a4bd6c08a2f1dc24d475b055839f770",
+      "doi": "10.6084/m9.figshare.19203377.v4",
+      "title": "Data set for weather, development stage and yield",
+      "file_id": 34115168,
+      "download_url": "https://ndownloader.figshare.com/files/34115168",
+      "publisher_md5": "9a4bd6c08a2f1dc24d475b055839f770",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    },
+    {
+      "bundle_member": "nordic-baltic-2012-2016/SAS Script Sens Spec SEWW_0.33_1trt_350.txt",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/SAS Script Sens Spec SEWW_0.33_1trt_350.txt",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 3922,
+      "sha256": "c15fa19e6c35388dda81d7543be4fa8702093f4b2c24aa1c14e3da4fa27c1fd7",
+      "md5": "f6ec1f974d3efa7636fd69bc3e3c12c0",
+      "doi": "10.6084/m9.figshare.19203398.v3",
+      "title": "SAS script and input files",
+      "file_id": 34115159,
+      "download_url": "https://ndownloader.figshare.com/files/34115159",
+      "publisher_md5": "f6ec1f974d3efa7636fd69bc3e3c12c0",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    },
+    {
+      "bundle_member": "nordic-baltic-2012-2016/Spring_Wheat_sasdataset_extr.xls",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/Spring_Wheat_sasdataset_extr.xls",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 71680,
+      "sha256": "8fed2fe209a0b8c86f07d58f5d4cda79a7aa29a0ad38482341f0f6775cc40a1d",
+      "md5": "ff018dd45b93060103a42c7efc76a3b5",
+      "doi": "10.6084/m9.figshare.19203398.v3",
+      "title": "SAS script and input files",
+      "file_id": 34115156,
+      "download_url": "https://ndownloader.figshare.com/files/34115156",
+      "publisher_md5": "ff018dd45b93060103a42c7efc76a3b5",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    },
+    {
+      "bundle_member": "nordic-baltic-2012-2016/Weather data description.docx",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/Weather data description.docx",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 18256,
+      "sha256": "ecddc4d2eb5878ae85b7dd74dddb8d80b55a31b7fc72786240218c43a9044c45",
+      "md5": "4456db956de303aaa7032f6e8083bf54",
+      "doi": "10.6084/m9.figshare.19203377.v4",
+      "title": "Data set for weather, development stage and yield",
+      "file_id": 34115171,
+      "download_url": "https://ndownloader.figshare.com/files/34115171",
+      "publisher_md5": "4456db956de303aaa7032f6e8083bf54",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    },
+    {
+      "bundle_member": "nordic-baltic-2012-2016/Weather stations.xlsx",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/Weather stations.xlsx",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 13957,
+      "sha256": "9d9e43aba3966f63faf383cdcb859d6e5d9bbd781790445e4b3ecdb713c11b01",
+      "md5": "03206c2c2baf26ed308cd96c9c7e5f02",
+      "doi": "10.6084/m9.figshare.19203377.v4",
+      "title": "Data set for weather, development stage and yield",
+      "file_id": 34115177,
+      "download_url": "https://ndownloader.figshare.com/files/34115177",
+      "publisher_md5": "03206c2c2baf26ed308cd96c9c7e5f02",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    },
+    {
+      "bundle_member": "nordic-baltic-2012-2016/Winter_Wheat_sasdataset_extr.xls",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/Winter_Wheat_sasdataset_extr.xls",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 256512,
+      "sha256": "e78a5c2bf5821bea2cdd20e8cf87b40104cecfd5274b194587d3eafdc0ef0f34",
+      "md5": "f6ba44b514eb506d5313b709288f6a57",
+      "doi": "10.6084/m9.figshare.19203398.v3",
+      "title": "SAS script and input files",
+      "file_id": 34115153,
+      "download_url": "https://ndownloader.figshare.com/files/34115153",
+      "publisher_md5": "f6ba44b514eb506d5313b709288f6a57",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    },
+    {
+      "bundle_member": "nordic-baltic-2012-2016/Yield.xlsx",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/Yield.xlsx",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 57812,
+      "sha256": "a88f792654e9ff420bbb8f293e5ef88927e8a8669826c4b6d39a0009a1b98d00",
+      "md5": "5efa3f449ce730d55117a7a825fe3873",
+      "doi": "10.6084/m9.figshare.19203377.v4",
+      "title": "Data set for weather, development stage and yield",
+      "file_id": 34115180,
+      "download_url": "https://ndownloader.figshare.com/files/34115180",
+      "publisher_md5": "5efa3f449ce730d55117a7a825fe3873",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    },
+    {
+      "bundle_member": "nordic-baltic-2012-2016/figshare-19203377-metadata.json",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/figshare-19203377-metadata.json",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 5085,
+      "sha256": "79db858f05abb44379fbd82dbb5e1d6fa7768035ae34b61b9275c5b9765cfde9",
+      "md5": "3616b4177861c4b885159cc382a33721",
+      "doi": "10.6084/m9.figshare.19203377.v4",
+      "title": "Data set for weather, development stage and yield",
+      "metadata_for_dataset": true,
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    },
+    {
+      "bundle_member": "nordic-baltic-2012-2016/figshare-19203398-metadata.json",
+      "archive_member": "stb_collection_20261009/sources/public_septoria/nordic-baltic-2012-2016/figshare-19203398-metadata.json",
+      "original_archives": [
+        "STB_consolidated_collection_20261009.zip",
+        "STB_research_sources_20261009.zip"
+      ],
+      "archive_copies_identical": true,
+      "size_bytes": 3647,
+      "sha256": "e53bbb5c31bab8a7b32a1a4ba2f405ee83f7bf3911a27faa2d3045428b5a0138",
+      "md5": "73af2a91dff270fb116f2c5196600582",
+      "doi": "10.6084/m9.figshare.19203398.v3",
+      "title": "SAS script and input files",
+      "metadata_for_dataset": true,
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": "Björn Andersson"
+    }
+  ],
+  "excluded_files": [
+    {
+      "name": "Weather data.txt",
+      "reason": "Raw weather not used in this management-yield analysis; file remains in original archives and public repository."
+    }
+  ],
+  "citations": [
+    "Andersson, Björn (2022). Data set for weather, development stage and yield. figshare. Dataset. https://doi.org/10.6084/m9.figshare.19203377.v4",
+    "Andersson, Björn (2022). SAS script and input files. figshare. Dataset. https://doi.org/10.6084/m9.figshare.19203398.v3"
+  ],
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "redistributed_content": "Exact unmodified public-source bytes; harmonized outputs are derivatives. Metadata snapshots are copied unchanged.",
+  "created_utc": "2026-10-09T19:12:50.116490+00:00"
+}

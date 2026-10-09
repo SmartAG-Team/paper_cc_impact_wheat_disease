@@ -1,0 +1,2 @@
+trait,unit,n_comparisons,mean_delta,lower_than_baseline_fraction,yield_positive_tkw_negative_n,interpretation
+thousand_kernel_weight,g,195,0.494657266829,0.410256410256,31,measured yield component; not milling quality or economic return

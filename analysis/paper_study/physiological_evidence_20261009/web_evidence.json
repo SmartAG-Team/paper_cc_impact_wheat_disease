@@ -1,0 +1,41 @@
+{
+  "reviewed_date": "2026-10-09",
+  "records": [
+    {
+      "source_id": "collin2018",
+      "url": "https://nottingham-repository.worktribe.com/output/918103/wheat-lines-exhibiting-variation-in-tolerance-of-septoria-tritici-blotch-differentiated-by-grain-source-limitation",
+      "access_mode": "search-indexed official institutional record; direct read 403",
+      "location": "Files",
+      "finding": "One manuscript PDF, 438 KB, CC BY-NC-ND 4.0; no raw file identified."
+    },
+    {
+      "source_id": "uk_canopy14",
+      "url": "https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.14080",
+      "access_mode": "search-indexed publisher full text; direct web timeout",
+      "location": "Section 2.3 and Data Availability Statement",
+      "finding": "Historical canopy archive described; no public Dataset 1 accession. AHDB Dataset 2 restrictions are separate. Harvest linkage unverified."
+    },
+    {
+      "source_id": "bancal2022",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1161030121001921",
+      "access_mode": "search-indexed publisher; corroborated by acquired HAL manuscript pp.3-4",
+      "location": "Dataset",
+      "finding": "Experimental database reused from Bancal2015; not an independent additional cohort."
+    },
+    {
+      "source_id": "bancal2015",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378429015001628",
+      "access_mode": "search-indexed publisher; direct publisher 403",
+      "location": "Abstract",
+      "finding": "Paired treated/untreated plots and temporal green lamina observations described; original files not acquired."
+    },
+    {
+      "source_id": "bregaglio2021",
+      "url": "https://www.sciencedirect.com/science/article/pii/S037842902100054X",
+      "access_mode": "publisher search result; corroborated by saved TUM record",
+      "location": "Abstract and Field experiment",
+      "finding": "Observed attainable growth calibrates models; imposed disease profiles generate disease-loss comparisons."
+    }
+  ],
+  "limitation": "Search-indexed content is distinguished from a successfully retrieved current file."
+}

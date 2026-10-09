@@ -145,7 +145,7 @@ def supplementary_tables():
     tables.extend(field_yield_tables())
     from analysis.paper_study.food_security_exposure_20261009.exposure import read as exposure_read
     from .timing import read as timing_read
-    exposure=exposure_read()['domain_summary'].query("analysis_mode == 'primary_any_paired_year'").query("analysis_mode == 'primary_any_paired_year'")
+    exposure=exposure_read()['domain_summary'].query("analysis_mode == 'primary_any_paired_year'")
     q=exposure[exposure.domain_type.eq('Europe')]
     rows=[['SSP','Period','Baseline (Mt)','Ensemble-increase exposure (Mt)',
            'All-model increase exposure (Mt)','Unavailable (Mt)','Production-weighted HAD change (days)']]
@@ -173,7 +173,7 @@ def supplementary_tables():
          'Feasible management comparisons with grain yield, heat/water exposure and costs'],
         ['Disease-attributable grain loss','Conditional canopy damage; limited treatment-mean yield evidence',
          'Matched functional canopy and harvest observations; independent crop-growth and disease-loss evaluation'],
-        ['Avoided production loss or input-reduction targets','No validated intervention-effect estimate',
+        ['Avoided production loss or input-reduction targets','Observed management-grain contrasts; no climate-validated intervention effect',
          'Paired crop-growth scenarios with and without disease, field intervention trials and implementation costs']])
     tables.append((rows,'Table S23 | Decision relevance and unresolved evidence requirements. '
         'Production exposure supports conditional prioritization of observation and evaluation. The weather–phenology decomposition '
@@ -203,6 +203,10 @@ def supplementary_tables():
         'The protocol was specified after source inspection and before fitting, without external preregistration. '
         'Five-site descriptive resampling of the incremental STB comparison includes both improvement and deterioration. '
         'These retrospective associations do not identify STB-attributable yield loss or management efficacy.'))
+    from analysis.paper_study.climate_robustness_20261009.publication import supplementary_tables as robustness_tables
+    tables.extend(robustness_tables())
+    from .management_evidence import supplementary_tables as management_tables
+    tables.extend(management_tables())
     def key(item):
         m=re.match(r'Table S(\d+)([a-z]?)',item[1]);return int(m.group(1)),m.group(2)
     def wording(value):

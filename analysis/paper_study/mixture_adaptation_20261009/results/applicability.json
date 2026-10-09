@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "france": {
+    "validated_climate_adaptation": false,
+    "stb_mediated_grain_loss": false,
+    "european_production_benefit": false,
+    "independent_environment_validation": false,
+    "validated_commercial_adoption": false,
+    "measured_economic_return": false,
+    "annual_production_stability": false,
+    "disease_yield_mediation_identified": false,
+    "randomized_within_trial_allocation": true,
+    "causal_constituent_contrast": true,
+    "causal_scope": "randomized_within_trial_complete_cases_only; composition_unreplicated; interference_and_missingness_assumptions_required; no_claim_of_statistical_significance",
+    "descriptive_association": true,
+    "selection_on_observed_yields": "hindsight_best_constituent_only",
+    "independent_combination_replication": false,
+    "environment_count": 1,
+    "population": "Mauguio 2018 durum inbred lines; alternating rows; post-assessment fungicide",
+    "uncertainty_status": "No defensible independent-environment or shared-control cluster interval; influence ranges only",
+    "allowed_claim": "Within-trial observed yield difference against matching constituent pure stands, conditional on observed complete harvests",
+    "measured_tradeoffs": [
+      "raw yield downside",
+      "thousand-kernel weight as yield component"
+    ]
+  },
+  "swiss": {
+    "validated_climate_adaptation": false,
+    "stb_mediated_grain_loss": false,
+    "european_production_benefit": false,
+    "independent_environment_validation": false,
+    "validated_commercial_adoption": false,
+    "measured_economic_return": false,
+    "annual_production_stability": false,
+    "disease_yield_mediation_identified": false,
+    "randomized_within_trial_allocation": false,
+    "mixture_only_randomization_documented": true,
+    "pure_check_corandomization_documented": false,
+    "causal_constituent_contrast": false,
+    "descriptive_association": true,
+    "selection_on_observed_yields": "hindsight_best_constituent_only",
+    "source_control_exchangeability": false,
+    "control_group": "year x postcode x ww; ww management meaning unresolved",
+    "allowed_claim": "Noncausal, same-environment matched-source diagnostic, separated by source trial code",
+    "uncertainty_status": "site-cluster bootstrap stability only; nonexchangeability remains",
+    "measured_tradeoffs": [
+      "observed yield downside",
+      "protein percent dry matter",
+      "specific weight kg/hl"
+    ]
+  },
+  "claim_classes": {
+    "descriptive_association": {
+      "france": "supported_within_observed_sample",
+      "swiss": "supported_within_matched_source_groups"
+    },
+    "randomized_within_trial_effect": {
+      "france": "conditional_on_complete_case_and_interference_assumptions; no_independent_combination_replication",
+      "swiss": "not_supported_for_external_constituent_controls"
+    },
+    "selection_on_observed_yields": {
+      "france": "hindsight_diagnostic_only",
+      "swiss": "hindsight_diagnostic_only"
+    },
+    "climate_adaptation": {
+      "france": "not_validated",
+      "swiss": "not_validated"
+    },
+    "disease_mediated_grain_loss": {
+      "france": "not_identified",
+      "swiss": "not_identified"
+    }
+  }
+}

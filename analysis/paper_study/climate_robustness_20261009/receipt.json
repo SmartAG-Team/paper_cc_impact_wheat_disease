@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "protocol_sha256": "b3f2d52f6c71b6bca42af2d886f34d480e89a1d789ba1132f733f86425c0f84f",
+  "input_receipt_sha256": "63813cea39dd378d4cd043bf8b63ace4627f285c598e134cdc5daba9324bbf1a",
+  "input_bundle_sha256": "16781846332ad8b3006da194887cdda8426b77a5fc058cc4dac42894763a40dd",
+  "registry_sha256": "11782120d1bddda36f4edeebc70a021bb17bf48d4488569a1160fbe938d64451",
+  "prior_aggregation_comparisons": 198,
+  "complete_support_pairing_invariance_checked": true,
+  "models": [
+    "ACCESS-CM2",
+    "MPI-ESM1-2-HR",
+    "MRI-ESM2-0"
+  ],
+  "scenarios": [
+    "ssp126",
+    "ssp245",
+    "ssp585"
+  ],
+  "cyclic_pairings": 30,
+  "model_refitted": false,
+  "raw_simulations_rerun": false,
+  "grain_loss_validated": false,
+  "adaptation_validated": false,
+  "output_sha256": {
+    "year_pairing_by_gcm.csv": "aabecfbb4196d5d0f98dcef1b98cedeaf713fe320a0cabbdf93ad643c461ef40",
+    "support_by_gcm.csv": "0c4f977fc56da7d975aaf4f32272ebf82eba14987d4cbd7109582ef5fb925c84",
+    "annual_domain_values.csv": "ba0a6c6409604945bff4419ded3c42291876e3cd9ef5b1fec78db7b3b6db9143",
+    "annual_distribution_by_gcm.csv": "aad9a1fc4c62904d40943512189c59834d1074c346b292093d495fe7b2ee6228",
+    "complete_population_coverage.csv": "b998b75355c8b538d8e51acd369e63f62bcc52c0d7fa8de2a10f229bcb1a6485",
+    "year_pairing_ensemble.csv": "5a8408b0e28689ebcab138f30a47f50b8b57e0a198129729dfc715f182c51f85",
+    "pairing_sensitivity.csv": "d291044485a995b20335ac1104cb97bbd2b257cee5ba57b4732830120c92118f",
+    "support_ensemble.csv": "c10d9f6d73e33a36fa62342442f456610e7db5caa6ebc95dcae0645e4cbc8d29",
+    "annual_distribution_ensemble.csv": "ee90326ce14d91231388715e4b4b5014f64ac332d75b551b9e93f1f22c4b1878",
+    "crop_population_coverage.csv": "1f109fae0fe4b1110265ef645d103efd32806987989747e81abfbada02340b06"
+  },
+  "code_sha256": {
+    "run.py": "6e383fa34c6fb270b9c19319c78af1ecc11321c79228c651d11561beb01421e5",
+    "statistics.py": "903f39ad54471ff43ac1dd2d8018f5bc2d88ed7a6e3df99e5ddf4ebaa7997c3e"
+  }
+}

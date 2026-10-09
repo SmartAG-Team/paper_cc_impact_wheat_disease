@@ -1,10 +1,10 @@
 {
   "status": "passed",
   "scope": "Numerical reporting, provenance and outcome-specific evaluation; end-to-end grain-loss predictive validity is not established",
-  "abstract_words": 145,
-  "main_figures": 4,
+  "abstract_words": 135,
+  "main_figures": 5,
   "main_tables": 1,
-  "Results_focus": "Predictive support, canopy damage, production exposure and crop\u2013disease timing",
+  "Results_focus": "Predictive support, canopy damage, production exposure, annual risk, crop\u2013disease timing and observed management responses",
   "pooled_evaluation": {
     "symptom_onset_days": {
       "model": 5.321639784946236,
@@ -22,12 +22,12 @@
   "full_grid_domain_check": {
     "status": "passed",
     "comparisons": 60,
-    "source": "Annual simulation outputs",
+    "source": "Bundled paired grid values and valid-year counts",
     "period": "2071-2100"
   },
   "PDF_pages": {
-    "Manuscript.pdf": 17,
-    "Supplementary_Information.pdf": 72,
+    "Manuscript.pdf": 20,
+    "Supplementary_Information.pdf": 82,
     "Supplementary_Model_Specification.pdf": 7
   },
   "production_exposure_and_timing": {
@@ -36,6 +36,20 @@
     "timing_population": "Identical complete pairs for all event and interval means",
     "production_interpretation": "Fixed baseline production located in exposed cells; not estimated grain loss"
   },
-  "source_workbook_sheets": 94,
+  "annual_canopy_risk": {
+    "status": "passed",
+    "independent_annual_statistics": 4158,
+    "complete_population": "Same cells across both 30-year periods and all three climate models",
+    "scope": "Conditional annual canopy damage; no grain-loss or adaptation validation"
+  },
+  "observed_management_grain": {
+    "status": "passed",
+    "nordic_contrasts": 307,
+    "nordic_trial_identifiers": 263,
+    "french_constituent_comparisons": 195,
+    "french_environments": 1,
+    "scope": "Observed management-associated grain outcomes; source populations are not pooled"
+  },
+  "source_workbook_sheets": 119,
   "archived_members_checked": null
 }

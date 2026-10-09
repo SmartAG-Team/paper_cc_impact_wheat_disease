@@ -1,0 +1,49 @@
+{
+  "observed_severity_yield_pairs": {
+    "available": false,
+    "status": "not_identifiable_from_fixed_source_release",
+    "missing_required_fields": [
+      "assessment_date",
+      "disease_species",
+      "observed_severity"
+    ],
+    "reason": "Fixed source documentation provides no compatible measured disease/canopy observations."
+  },
+  "leaf_stage_repeated_comparison": {
+    "available": false,
+    "status": "not_identifiable_from_fixed_source_release",
+    "missing_required_fields": [
+      "assessment_date",
+      "disease_species",
+      "leaf_identity",
+      "observed_crop_stage",
+      "observed_severity"
+    ],
+    "reason": "Fixed source documentation provides no compatible measured disease/canopy observations."
+  },
+  "functional_canopy": {
+    "available": false,
+    "status": "not_identifiable_from_fixed_source_release",
+    "missing_required_fields": [
+      "assessment_date",
+      "measured_green_area",
+      "measured_lai"
+    ],
+    "reason": "Fixed source documentation provides no compatible measured disease/canopy observations."
+  },
+  "healthy_yield_validation": {
+    "available": false,
+    "status": "not_identifiable_from_fixed_source_release",
+    "missing_required_fields": [
+      "observed_healthy_reference_yield",
+      "verified_disease_free_reference"
+    ],
+    "reason": "Fixed source documentation provides no compatible measured disease/canopy observations."
+  },
+  "management_grain_pairs": {
+    "available": true,
+    "pairs": 307,
+    "unit": "reported_trial_treatment_summary",
+    "outcome": "observed_management_associated_grain_response"
+  }
+}

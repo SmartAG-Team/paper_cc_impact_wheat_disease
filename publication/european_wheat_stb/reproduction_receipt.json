@@ -1,16 +1,16 @@
 {
   "status": "passed",
-  "verified_at_utc": "2026-10-09T18:55:35.700932+00:00",
-  "scope": "Document and figure regeneration using only tracked repository files; raw climate simulations were not rerun.",
+  "verified_at_utc": "2026-10-09T19:46:28.423600+00:00",
+  "scope": "Document and figure regeneration from an extracted archive of maintained repository files; raw climate simulations were not rerun.",
   "environment": "Existing project Python dependencies and Node.js; no ignored raw inputs, local evidence directories or node_modules copied.",
-  "copied_tracked_files": 1224,
-  "source_manifest_sha256": "647a2733ad78df9c6b5cd179efe45ac817e2942421019fd9a62c247363e2233d",
+  "archived_members_verified": 1403,
   "commands": [
     "python -m analysis.paper_study.nature_food_impact_20261008.build --output OUTPUT --documents-only",
     "python -m analysis.paper_study.nature_food_impact_20261008.verify --output OUTPUT"
   ],
   "document_content": {
     "Manuscript.txt": "identical",
+    "Supplementary_Information.txt": "identical",
     "Manuscript.pdf": "identical text on every page",
     "Supplementary_Information.pdf": "identical text on every page",
     "Supplementary_Model_Specification.pdf": "identical text on every page",
@@ -18,18 +18,18 @@
     "Supplementary_Information.docx": "identical paragraph and table text"
   },
   "identical_source_and_raster_files": {
-    "csv": 17,
+    "csv": 23,
     "csv_gz": 6,
-    "png": 31,
-    "caption": 27
+    "png": 34,
+    "caption": 31
   },
   "verification": {
     "status": "passed",
     "scope": "Numerical reporting, provenance and outcome-specific evaluation; end-to-end grain-loss predictive validity is not established",
-    "abstract_words": 145,
-    "main_figures": 4,
+    "abstract_words": 135,
+    "main_figures": 5,
     "main_tables": 1,
-    "Results_focus": "Predictive support, canopy damage, production exposure and crop\u2013disease timing",
+    "Results_focus": "Predictive support, canopy damage, production exposure, annual risk, crop\u2013disease timing and observed management responses",
     "pooled_evaluation": {
       "symptom_onset_days": {
         "model": 5.321639784946236,
@@ -51,8 +51,8 @@
       "period": "2071-2100"
     },
     "PDF_pages": {
-      "Manuscript.pdf": 17,
-      "Supplementary_Information.pdf": 72,
+      "Manuscript.pdf": 20,
+      "Supplementary_Information.pdf": 82,
       "Supplementary_Model_Specification.pdf": 7
     },
     "production_exposure_and_timing": {
@@ -61,8 +61,23 @@
       "timing_population": "Identical complete pairs for all event and interval means",
       "production_interpretation": "Fixed baseline production located in exposed cells; not estimated grain loss"
     },
-    "source_workbook_sheets": 94,
+    "annual_canopy_risk": {
+      "status": "passed",
+      "independent_annual_statistics": 4158,
+      "complete_population": "Same cells across both 30-year periods and all three climate models",
+      "scope": "Conditional annual canopy damage; no grain-loss or adaptation validation"
+    },
+    "observed_management_grain": {
+      "status": "passed",
+      "nordic_contrasts": 307,
+      "nordic_trial_identifiers": 263,
+      "french_constituent_comparisons": 195,
+      "french_environments": 1,
+      "scope": "Observed management-associated grain outcomes; source populations are not pooled"
+    },
+    "source_workbook_sheets": 119,
     "archived_members_checked": null
   },
-  "comparison_basis": "PDF and DOCX text, uncompressed CSV bytes, exact PNG and caption bytes. Archive timestamps and PDF creation metadata need not match."
+  "comparison_basis": "PDF and DOCX text, uncompressed CSV bytes, exact PNG and caption bytes. Archive timestamps and PDF creation metadata need not match.",
+  "archive_sha256": "00947cf171cc8ccc707cec54975fdb2b0879b852e37160d15c1551d5eaf1c07c"
 }

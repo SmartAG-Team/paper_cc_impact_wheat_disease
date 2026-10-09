@@ -2106,5 +2106,51 @@
     },
     "DOI": "10.5281/zenodo.5393959",
     "URL": "https://doi.org/10.5281/zenodo.5393959"
+  },
+  {
+    "id": "NordicBalticGrain2022",
+    "type": "dataset",
+    "title": "Data set for weather, development stage and yield",
+    "author": [
+      {
+        "given": "Björn",
+        "family": "Andersson"
+      }
+    ],
+    "publisher": "Figshare",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          19
+        ]
+      ]
+    },
+    "DOI": "10.6084/m9.figshare.19203377.v4",
+    "URL": "https://doi.org/10.6084/m9.figshare.19203377.v4"
+  },
+  {
+    "id": "NordicBalticAnalysis2022",
+    "type": "dataset",
+    "title": "SAS script and input files",
+    "author": [
+      {
+        "given": "Björn",
+        "family": "Andersson"
+      }
+    ],
+    "publisher": "Figshare",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          19
+        ]
+      ]
+    },
+    "DOI": "10.6084/m9.figshare.19203398.v3",
+    "URL": "https://doi.org/10.6084/m9.figshare.19203398.v3"
   }
 ]

@@ -1,0 +1,18 @@
+{
+  "response":{
+    "numFound":1,
+    "start":0,
+    "maxScore":5.569745,
+    "numFoundExact":true,
+    "docs":[{
+      "docid":"3660399",
+      "title_s":["Towards a global characterization of winter wheat cultivars behavior in response to stressful environments during grain-filling"],
+      "abstract_s":["Starting from grain yield, quality and resistance against multiple diseases, the characterization of the cultivar’s behavior increased in recent decades. Needs in quantitative assessments of a larger range of criteria has greatly evolved towards yield stability in a large range of fluctuating environments. Using a large dataset crossing cultivars and environments, we thus explored the relationships between yield and Healthy Area Duration (HAD), as affected by genotype, environment and septoria caused by Zygmoseptoria tritici. A set of indexes was then proposed to properly profile cultivar’s behavior. A curvilinear relationship relating HAD to potential yield was first parameterized. It allows quantifying HAD efficiency. Susceptibility (HAD loss) was differentiated from total tolerance (the ratio between yield loss and HAD loss). Finally the specific tolerance, i.e. not due to HAD level, was quantified. Correlations between indexes pointed out that no trade-off was shown between total tolerance and actual or potential yield as well as disease susceptibility. These correlations partially depended on the nitrogen status of crops, underlining other G×E interactions indexes may trap. Finally, as HAD efficiency appeared more highly linked to actual yield than potential yield we proposed an alternative set on indexes based on Healthy Area Absorption (HAA) that accounted for meteorological variability. Interestingly, these last indexes were insensitive to nitrogen nutrition as well as to cultivar susceptibility to Z. tritici. The developed indexes allowed profiling the cultivars’ behavior under a common range of environments. HAA-based indexes open the way to a useful global characterization of cultivars by breeders. Moreover, HAA can be assessed using high-throughput phenotyping tools. A thorough evaluation of this last point needs to be done."],
+      "uri_s":"https://agroparistech.hal.science/hal-03660399v1",
+      "doiId_s":"10.1016/j.eja.2021.126421",
+      "fileMain_s":"https://agroparistech.hal.science/hal-03660399/document",
+      "licence_s":"https://about.hal.science/hal-authorisation-v1/",
+      "files_s":["https://agroparistech.hal.science/hal-03660399/file/Tol%C3%A9rance-05052022.pdf"]
+    }]
+  }
+}

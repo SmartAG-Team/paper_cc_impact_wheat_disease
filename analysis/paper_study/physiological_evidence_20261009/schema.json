@@ -1,0 +1,326 @@
+{
+  "sources": {
+    "primary_key": [
+      "source_id"
+    ],
+    "columns": [
+      "source_id",
+      "source_url",
+      "source_file_sha256",
+      "raw_data_license",
+      "evidence_type"
+    ],
+    "required_columns": [
+      "source_id",
+      "source_url",
+      "source_file_sha256",
+      "raw_data_license",
+      "evidence_type"
+    ],
+    "optional_table": false
+  },
+  "environments": {
+    "primary_key": [
+      "environment_id"
+    ],
+    "columns": [
+      "environment_id",
+      "site_id",
+      "harvest_year",
+      "independent_environment_group",
+      "weather_series_id",
+      "latitude_deg",
+      "longitude_deg",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "environment_id",
+      "site_id",
+      "harvest_year",
+      "independent_environment_group",
+      "weather_series_id",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "treatments": {
+    "primary_key": [
+      "treatment_id"
+    ],
+    "columns": [
+      "treatment_id",
+      "protection_role",
+      "management_package_id",
+      "treatment_description",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "treatment_id",
+      "protection_role",
+      "management_package_id",
+      "treatment_description",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "plots": {
+    "primary_key": [
+      "plot_id"
+    ],
+    "columns": [
+      "plot_id",
+      "environment_id",
+      "treatment_id",
+      "cultivar_id",
+      "block_id",
+      "replicate_id",
+      "plot_area_m2",
+      "harvested_area_m2",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "plot_id",
+      "environment_id",
+      "treatment_id",
+      "cultivar_id",
+      "block_id",
+      "replicate_id",
+      "plot_area_m2",
+      "harvested_area_m2",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "canopy": {
+    "primary_key": [
+      "plot_id",
+      "observation_date",
+      "leaf_rank_from_flag"
+    ],
+    "columns": [
+      "plot_id",
+      "observation_date",
+      "leaf_rank_from_flag",
+      "total_lai_m2_m2",
+      "green_lai_m2_m2",
+      "natural_senescent_lai_m2_m2",
+      "functional_lai_m2_m2",
+      "area_basis",
+      "measurement_method",
+      "sampling_support",
+      "n_sampled_leaves",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "plot_id",
+      "observation_date",
+      "leaf_rank_from_flag",
+      "area_basis",
+      "measurement_method",
+      "sampling_support",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "disease": {
+    "primary_key": [
+      "plot_id",
+      "observation_date",
+      "leaf_rank_from_flag",
+      "disease_identity"
+    ],
+    "columns": [
+      "plot_id",
+      "observation_date",
+      "leaf_rank_from_flag",
+      "disease_identity",
+      "severity_pct",
+      "symptom_area_index_m2_m2",
+      "severity_denominator",
+      "assessment_method",
+      "n_sampled_leaves",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "plot_id",
+      "observation_date",
+      "leaf_rank_from_flag",
+      "disease_identity",
+      "severity_denominator",
+      "assessment_method",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "stages": {
+    "primary_key": [
+      "plot_id",
+      "stage_code"
+    ],
+    "columns": [
+      "plot_id",
+      "stage_code",
+      "stage_scale",
+      "stage_date",
+      "date_status",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "plot_id",
+      "stage_code",
+      "stage_scale",
+      "stage_date",
+      "date_status",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "harvest": {
+    "primary_key": [
+      "plot_id"
+    ],
+    "columns": [
+      "plot_id",
+      "harvest_date",
+      "grain_yield_reported",
+      "grain_yield_unit",
+      "grain_moisture_pct",
+      "moisture_basis",
+      "harvest_method",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "plot_id",
+      "harvest_date",
+      "grain_yield_reported",
+      "grain_yield_unit",
+      "grain_moisture_pct",
+      "moisture_basis",
+      "harvest_method",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "weather": {
+    "primary_key": [
+      "weather_series_id",
+      "date"
+    ],
+    "columns": [
+      "weather_series_id",
+      "date",
+      "tmin_degC",
+      "tmax_degC",
+      "solar_radiation_MJ_m2_day",
+      "precipitation_mm_day",
+      "weather_origin",
+      "station_id",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "weather_series_id",
+      "date",
+      "tmin_degC",
+      "tmax_degC",
+      "solar_radiation_MJ_m2_day",
+      "precipitation_mm_day",
+      "weather_origin",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "reference_pairs": {
+    "primary_key": [
+      "comparison_id"
+    ],
+    "columns": [
+      "comparison_id",
+      "affected_plot_id",
+      "reference_plot_id",
+      "matching_basis",
+      "attribution_scope",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "comparison_id",
+      "affected_plot_id",
+      "reference_plot_id",
+      "matching_basis",
+      "attribution_scope",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "management": {
+    "primary_key": [
+      "event_id"
+    ],
+    "columns": [
+      "event_id",
+      "plot_id",
+      "event_date",
+      "event_type",
+      "operation_description",
+      "input_value",
+      "input_unit",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "event_id",
+      "plot_id",
+      "event_date",
+      "event_type",
+      "operation_description",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": false
+  },
+  "biomass_reserves": {
+    "primary_key": [
+      "plot_id",
+      "observation_date",
+      "organ"
+    ],
+    "columns": [
+      "plot_id",
+      "observation_date",
+      "organ",
+      "dry_biomass_g_m2",
+      "water_soluble_carbohydrate_g_m2",
+      "nitrogen_g_m2",
+      "measurement_method",
+      "source_id",
+      "source_locator"
+    ],
+    "required_columns": [
+      "plot_id",
+      "observation_date",
+      "organ",
+      "dry_biomass_g_m2",
+      "measurement_method",
+      "source_id",
+      "source_locator"
+    ],
+    "optional_table": true
+  }
+}

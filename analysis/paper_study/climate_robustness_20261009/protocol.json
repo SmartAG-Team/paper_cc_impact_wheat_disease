@@ -1,0 +1,20 @@
+{
+  "status": "specified_before_new_sensitivity_calculations",
+  "date": "2026-10-09",
+  "primary_metric": "GS65_85_lost_had3",
+  "unit": "equivalent days of normalized healthy-area duration lost",
+  "climate_models": ["ACCESS-CM2", "MPI-ESM1-2-HR", "MRI-ESM2-0"],
+  "scenarios": ["ssp126", "ssp245", "ssp585"],
+  "historical_period": "1991-2020",
+  "future_periods": ["2031-2060", "2071-2100"],
+  "domains": "Europe and all source environmental-region labels, including unassigned cells",
+  "weights": ["harvested_area", "baseline_production", "rainfed_production"],
+  "year_pairing": "All 30 circular shifts of future-year positions against historical-year positions, with original shift zero retained. These are deterministic sensitivity comparisons, not 30 independent replicates or all possible permutations.",
+  "support_comparisons": ["original positional finite pairs", "separately available historical and future seasons", "identical cells complete in all 60 seasons and all three climate models for each scenario and future period"],
+  "interannual_statistics": "On identical complete-support cells: 30 annual regional weighted means, mean, sample standard deviation, median, 10th and 90th empirical quantiles, average of the three largest values, and fraction of future years exceeding the historical 90th quantile; thresholds fixed separately within each climate model.",
+  "ensemble": "Equal three-climate-model means; climate-model min–max ranges kept separate from pairing sensitivity and empirical annual spread.",
+  "irrigation_sensitivity": "Replace all-wheat production weights by observed SPAM2020 rainfed production weights. This changes aggregation weights only; it does not simulate irrigation or distinguish winter and spring wheat.",
+  "missingness": "Invalid or nonfinite canopy values remain missing. All-empty domains stay missing, never zero. Coverage denominators include the complete fixed source population.",
+  "checks": "Cell identity and annual-file hashes; shift-zero regional results against prior published aggregation; analytical invariance under full support; production-weight mass; independent brute-force fixtures.",
+  "claim_limits": ["conditional canopy response, not harvested grain loss", "annual damage-tail statistics, not food-production downside risk", "no climate-model probability interpretation", "no adaptation benefit inferred", "no calibration or disease model changed"]
+}

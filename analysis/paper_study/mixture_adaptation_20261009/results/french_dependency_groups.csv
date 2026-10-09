@@ -1,0 +1,5 @@
+dependency_group,n_mixtures,n_genotypes,mean_delta_t_ha,share_of_comparisons
+component_01,189,147,0.395181035377,0.969230769231
+component_02,1,2,0.600840336134,0.00512820512821
+component_03,4,5,-0.46218487395,0.0205128205128
+component_04,1,2,0.27731092437,0.00512820512821

@@ -1,0 +1,8 @@
+{
+  "protocol_version": 1,
+  "frozen_at_utc": "2026-10-09T19:11:21.661635+00:00",
+  "protocol_sha256": "b5331666ee50def2d4014e059720a4db9e5368eb8735920058a55fb525be3d9d",
+  "parent_plan_sha256": "eff1ac71fa856052173045424c8b01ac8bdf3af00a457ad4f8bb58660f019278",
+  "prior_bundle_sha256": "141798cea97d642f31c143fb263e64e12f8a516bbfe0dbbb5ad43b05c4f0c8ee",
+  "pre_freeze_inspection": "Design, schema, source published findings, missingness and dependency structure only; no module outcome contrast or fitted model."
+}

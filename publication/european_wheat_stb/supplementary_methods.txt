@@ -12,6 +12,10 @@ The experiment includes all 14,941 wheat land-use cells, with eligible calendars
 
 Spatial means divide the harvested-area-weighted sum of paired changes by the harvested-area-weighted number of valid pairs. Historical and future means use these same pairs. Climate-model ranges span three independently aggregated estimates. The full-grid calculation has no spatial sampling error. Environmental regions follow EEA centroid assignment and countries follow dominant SPAM source-country labels; outside-region and unassigned cells remain explicit.
 
+Sensitivity of annual and period aggregation
+
+The compact annual bundle preserves exact float 64 canopy-damage values and missing seasons from all 810 annual files, checked against their source hashes. Original positional aggregation reproduces 198 previously reported region–model–scenario–period means. Thirty circular year shifts evaluate the influence of missing-season intersection; complete-support tests retain a single cell population across 60 seasons and all three models. The fixed production baseline is used for every annual mean. Annual quantile changes, high-damage-year frequencies and model ranges are conditional canopy-response diagnostics and do not validate disease-attributable production risk.
+
 Field observations and prediction scores
 
 Pooled disease evaluation excludes calibration records and combines geographically eligible records from both archives. Source identifiers and assessment definitions remain in the evidence files. Calibration and evaluation have no shared field identifiers. Coordinate-year identities define geographic bootstrap groups, with overlapping identities treated as the same group.
@@ -34,7 +38,7 @@ The Tunisian plot table contains incidence-weighted lesion area on flag and imme
 
 German source harmonization preserves the original site-table precision and follows the documented source treatment coding, while excluding drought-suffixed WF references from unsuffixed NF/WF pairs. One nonnumeric severity token remains unavailable. Treatment means retain yield and severity replicate counts separately; missing protected severity is not imputed. The primary endpoint population contains 3,264 comparisons across 16 site-years and five locations. The subset with observed severity on both management groups contains 954 comparisons across seven site-years and four locations. Common-population benchmarks accompany each comparison. The primary and temporal comparisons give site-years equal weight; geographic transfer gives locations equal weight. Site-specific rating comparability and incomplete assessment timing remain limitations.
 
-The complete source inventory includes raw field observations, regional survey aggregates, published model-adjusted means, fitted curves and model inputs. Fitted response grids, duplicate archive copies and published parameter tables do not increase observational sample size. Older Nordic/Baltic yield and weather-derived recommendation tables do not provide observed severity–yield pairs. New data-source identities, eligibility, fixed protocols, held-out predictions and independent numerical checks are retained with the current source data.
+The complete source inventory includes raw field observations, regional survey aggregates, published model-adjusted means, fitted curves and model inputs. Fitted response grids, duplicate archive copies and published parameter tables do not increase observational sample size. Older Nordic/Baltic yield tables supply 307 management-grain contrasts after harmonization, but weather-derived recommendation tables do not provide observed severity–yield pairs. New data-source identities, eligibility, fixed protocols, held-out predictions and independent numerical checks are retained with the current source data.
 
 Weather and wheat-phenology contributions
 

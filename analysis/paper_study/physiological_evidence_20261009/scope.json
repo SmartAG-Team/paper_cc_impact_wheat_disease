@@ -1,0 +1,14 @@
+{
+  "task_date": "2026-10-09",
+  "worktree": "/private/tmp/wheat-research-plan-20261009/worktree",
+  "owned_directory": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/physiological_evidence_20261009",
+  "source_archive": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/STB_consolidated_collection_20261009.zip",
+  "source_archive_size_bytes": 48441257,
+  "source_archive_mtime_ns": 1791556144513544154,
+  "followup_archive_directory": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/STB_paper_followup_20261009",
+  "literal_data_path_exists": false,
+  "independent_unit": "site \u00d7 harvest year; weather-shared trials are grouped",
+  "required_observation_unit": "plot \u00d7 date \u00d7 final leaf rank with harvest linked by plot key",
+  "no_author_contact": true,
+  "raw_observations_acquired": 0
+}

@@ -1,0 +1,106 @@
+table,column,data_type,unit,required_if_table_populated,meaning
+sources,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+sources,source_url,url,,True,Exact public source URL or DOI landing page.
+sources,source_file_sha256,text,,True,SHA-256 of the original numerical observation file.
+sources,raw_data_license,text,,True,License/permission applying to raw observations; manuscript license is insufficient.
+sources,evidence_type,enum,,True,"field_plot_observation only; model outputs, curves and summary means are ineligible."
+environments,environment_id,text,,True,Unique site and harvest-year environment; separate management trials remain linked.
+environments,site_id,text,,True,Stable site identity across years and publications.
+environments,harvest_year,integer,year,True,Actual harvest year; no inferred calendar year from publication date.
+environments,independent_environment_group,text,,True,Holdout group for shared site-year/weather and overlapping publications.
+environments,weather_series_id,text,,True,Foreign key for the meteorological time series used by this environment.
+environments,latitude_deg,number,decimal degrees north,False,Documented site coordinate; missing is not zero.
+environments,longitude_deg,number,decimal degrees east,False,Documented site coordinate; missing is not zero.
+environments,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+environments,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+treatments,treatment_id,text,,True,Stable treatment identifier; must include experiment context if labels recur.
+treatments,protection_role,enum,,True,"protected, affected, or other; protected is not a measured disease-free status."
+treatments,management_package_id,text,,True,"Identify management bundle so fungicide, N, water and source-sink changes remain separable."
+treatments,treatment_description,text,,True,Source-supported treatment description including non-target disease control.
+treatments,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+treatments,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+plots,plot_id,text,,True,"Globally unique harvested experimental unit across site, season and archive versions."
+plots,environment_id,text,,True,Unique site and harvest-year environment; separate management trials remain linked.
+plots,treatment_id,text,,True,Stable treatment identifier; must include experiment context if labels recur.
+plots,cultivar_id,text,,True,Original cultivar or mixture identity with component proportions retained separately if needed.
+plots,block_id,text,,True,Original randomized block; not interchangeable with an independent environment.
+plots,replicate_id,text,,True,Biological plot replication; leaf subsamples are not harvest replicates.
+plots,plot_area_m2,number,m2 ground,True,Actual plot ground area.
+plots,harvested_area_m2,number,m2 ground,True,Area used to calculate grain yield; exclude borders/destructive samples as documented.
+plots,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+plots,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+canopy,plot_id,text,,True,"Globally unique harvested experimental unit across site, season and archive versions."
+canopy,observation_date,date,YYYY-MM-DD,True,Actual field date; thermal time must not replace the calendar date.
+canopy,leaf_rank_from_flag,integer,rank; flag=1,True,"Final leaf rank: 1 flag, 2 flag-minus-one; do not combine numbering systems."
+canopy,total_lai_m2_m2,number,m2 lamina m-2 ground,False,Area for this leaf layer. Whole-canopy values must not be duplicated over ranks.
+canopy,green_lai_m2_m2,number,m2 green lamina m-2 ground,False,"Observed green area for this leaf layer, with measured ground-area normalization."
+canopy,natural_senescent_lai_m2_m2,number,m2 lamina m-2 ground,False,Separately attributed natural senescence; not all non-green area.
+canopy,functional_lai_m2_m2,number,m2 equivalent functional leaf m-2 ground,False,Only with an independently justified functional measurement; greenness alone does not establish function.
+canopy,area_basis,text,,True,Lamina-only and ground-area normalization; explain any stem/ear contributions separately.
+canopy,measurement_method,text,,True,Method and normalization; flag sensor-derived estimates versus direct observations.
+canopy,sampling_support,text,,True,Parent plot and destructive microplot/leaf subsample relationship; do not invent repeated identical leaves.
+canopy,n_sampled_leaves,integer,leaves,False,Original sampling count; does not increase independent harvest n.
+canopy,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+canopy,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+disease,plot_id,text,,True,"Globally unique harvested experimental unit across site, season and archive versions."
+disease,observation_date,date,YYYY-MM-DD,True,Actual field date; thermal time must not replace the calendar date.
+disease,leaf_rank_from_flag,integer,rank; flag=1,True,"Final leaf rank: 1 flag, 2 flag-minus-one; do not combine numbering systems."
+disease,disease_identity,text,,True,"Observed disease identity; separate STB, rust, mildew and mixed/unidentified symptoms."
+disease,severity_pct,number,%,False,Measured symptom fraction; ordinal scores cannot be silently converted to percent.
+disease,symptom_area_index_m2_m2,number,m2 symptomatic lamina m-2 ground,False,"Separate observed symptom area when available, with overlap conventions."
+disease,severity_denominator,text,,True,"All leaves versus selected infected leaves, original lamina versus surviving green area."
+disease,assessment_method,text,,True,Scoring method and diagnosis basis; retain incidence separately when severity is conditional.
+disease,n_sampled_leaves,integer,leaves,False,Original sampling count; does not increase independent harvest n.
+disease,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+disease,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+stages,plot_id,text,,True,"Globally unique harvested experimental unit across site, season and archive versions."
+stages,stage_code,integer,BBCH/Zadoks code,True,Actual stage observation; do not substitute GS59/83 for GS65/85.
+stages,stage_scale,enum,,True,BBCH or Zadoks; source mapping required before harmonization.
+stages,stage_date,date,YYYY-MM-DD,True,Date stage was reached in the corresponding plot.
+stages,date_status,enum,,True,observed or interpolated; source-supported interpolation and uncertainty required.
+stages,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+stages,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+harvest,plot_id,text,,True,"Globally unique harvested experimental unit across site, season and archive versions."
+harvest,harvest_date,date,YYYY-MM-DD,True,Date of the grain measurement.
+harvest,grain_yield_reported,number,see grain_yield_unit,True,"Original measured grain yield, not BLUP/predicted mean or reconstructed loss."
+harvest,grain_yield_unit,enum,,True,"kg_ha, t_ha, dt_ha, or g_m2; convert mass area first, then moisture basis."
+harvest,grain_moisture_pct,number,% wet mass,True,Moisture of reported grain yield; 0 only if dry-matter basis explicitly documented.
+harvest,moisture_basis,text,,True,Reported moisture correction or dry-matter method; unknown remains missing.
+harvest,harvest_method,text,,True,Combine/sample method; distinguish harvest samples from pooled/duplicated row representations.
+harvest,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+harvest,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+weather,weather_series_id,text,,True,Foreign key for the meteorological time series used by this environment.
+weather,date,date,YYYY-MM-DD,True,Meteorological local calendar day.
+weather,tmin_degC,number,degC,True,Daily minimum air temperature.
+weather,tmax_degC,number,degC,True,Daily maximum air temperature.
+weather,solar_radiation_MJ_m2_day,number,MJ m-2 day-1,True,"Daily global solar radiation, not PAR; any conversion requires a documented method."
+weather,precipitation_mm_day,number,mm day-1,True,Daily precipitation; irrigation is a separate management event.
+weather,weather_origin,text,,True,"Station or named reanalysis; gap-filling flagged explicitly, never treated as a field measurement."
+weather,station_id,text,,False,Documented meteorological station identifier.
+weather,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+weather,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+reference_pairs,comparison_id,text,,True,Unique predefined affected/reference contrast.
+reference_pairs,affected_plot_id,text,,True,Plot receiving the affected management condition; reference uses a separate plot key.
+reference_pairs,reference_plot_id,text,,True,Observed protected comparator from same site-year and cultivar/design context.
+reference_pairs,matching_basis,text,,True,Source-supported design pairing; same replicate number alone does not prove matching.
+reference_pairs,attribution_scope,enum,,True,"STB_specific, mixed_disease_protection, or management_package; STB attribution needs evidence."
+reference_pairs,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+reference_pairs,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+management,event_id,text,,True,Unique management event identifier.
+management,plot_id,text,,True,"Globally unique harvested experimental unit across site, season and archive versions."
+management,event_date,date,YYYY-MM-DD,True,Actual operation date; no inferred dates for missing records.
+management,event_type,text,,True,"Sowing, fertilization, irrigation, crop protection, or other operation."
+management,operation_description,text,,True,Original operation description; preserve co-interventions.
+management,input_value,number,see input_unit,False,Original operation amount if reported.
+management,input_unit,text,,False,Unit of the reported operation amount.
+management,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+management,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."
+biomass_reserves,plot_id,text,,True,"Globally unique harvested experimental unit across site, season and archive versions."
+biomass_reserves,observation_date,date,YYYY-MM-DD,True,Actual field date; thermal time must not replace the calendar date.
+biomass_reserves,organ,text,,True,"Grain, stem, leaf, ear or total; totals cannot be added to constituent organs."
+biomass_reserves,dry_biomass_g_m2,number,g dry matter m-2 ground,True,Observed dry biomass; optional table for crop-growth identification.
+biomass_reserves,water_soluble_carbohydrate_g_m2,number,g carbohydrate m-2 ground,False,Measured reserve pool; absent data cannot justify fitted reserve-remobilization parameters.
+biomass_reserves,nitrogen_g_m2,number,g N m-2 ground,False,"Measured organ nitrogen, if available."
+biomass_reserves,measurement_method,text,,True,Method and normalization; flag sensor-derived estimates versus direct observations.
+biomass_reserves,source_id,text,,True,"Stable source accession, not a paper-level replacement for plot identity."
+biomass_reserves,source_locator,text,,True,"Original file, sheet/table, row and source key; supports reversal of every transformation."

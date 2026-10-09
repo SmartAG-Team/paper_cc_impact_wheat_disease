@@ -1,0 +1,41 @@
+{
+  "protocol_sha256": "b5331666ee50def2d4014e059720a4db9e5368eb8735920058a55fb525be3d9d",
+  "input_bundle_sha256": "2026005f3f0c57b79f23d08be000f36f6940aca391f64aa73ab27ed33c1aa29a",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "source_code_sha256": {
+    "core.py": "062128455adbf2cd689615fd8a3a948749e327e5894c782aa0cb735a2ce269ca",
+    "run.py": "300f46531b220f1d043ab9886a0bea311aa8a663e0bd231e3688ef35d46875bc"
+  },
+  "results_sha256": {
+    "analysis_checks.csv": "dec7ef8a6509279a1ab94b3c38c1c026e890deb9b76da346db1e68ee30bf1c92",
+    "applicability.json": "0c14b6fb34512a7694759199dc81c29c5421f069ab75ef410e2d864ef9da0a76",
+    "french_contrasts.csv": "2761695a3c448aa50650c699c17f071c2086cfd9bd0c5cbc639433f501e3888b",
+    "french_dependency_groups.csv": "aca107879539eab2b66797624ed3fb19d69207cdcd080fb21fd7508b50163100",
+    "french_exclusions.csv": "004a7567fcbecd787f66f97cdec0220efb45a74d3f08a9abf32d83f36af31e5d",
+    "french_hindsight_selection.csv": "6944d4e9ad8bcbcebed49fc51a0dfad396d3f825472ce427e527836401fb1ae3",
+    "french_influence.csv": "760f2c1fde63a4f3cee207c6d8506392f85448a67112c31e8560390786dc6355",
+    "french_measured_tradeoffs.csv": "122af44c14250ff1bbe0bd2f1dee638240bc98dde56ea21e0f69da2960d317a8",
+    "french_plots.csv": "be04ba0f4816d7b1a3a7b9b911f35fdc7cf443af5fe950f84caf2960a5420993",
+    "french_raw_grid_eligibility.csv": "1ed5a473729085d08453f6abe31a1461fd86c4568c200aeac75c3fa29033b3e3",
+    "french_summary.csv": "54bcf50d133bdceaece9deaddf505d2bb1f0279528c19cdd61de503a1adba395",
+    "swiss_check_summary.csv": "90a51a5d80fc892f05a6f98a9cb3655314289b6e7db119c2796698a1c4adc63c",
+    "swiss_constituent_coverage.csv": "d6a93f3c1b60f47cd9ae7dd51430bfb1488be6a4da932526bc6bf49ecaa1f29c",
+    "swiss_contrasts.csv": "fcc8158f2ec102b066144ce4eeaf41ede927d4e7058ab2f49b3ff112b3f17d7d",
+    "swiss_environments.csv": "8bcc97697d6f3e66d4dcae3ce2c5021fc87b473912dbcffccbc2b0afaf5f4d13",
+    "swiss_measured_tradeoffs.csv": "13e8e41692fd97650bb88f376784018f3b9ef2c8fae829939cf8b36dfa3c5c70",
+    "swiss_mixture_eligibility.csv": "b20afe4901dc4cc6acd76b83a18ebef6797de3bd67e5529b033674ec4931a999",
+    "swiss_records.csv": "1aaae49a20b689268272f0347e2de70a9d97177e5dab1c0aee640ffe5cb67af5",
+    "swiss_release_mapping.csv": "485ad4e3de2ad52925c077c89f05d7f89c0b58192b29517eba54e18be9efa16d",
+    "swiss_same_block_checks.csv": "5c7875c3aca3280d428f562ed7e4e36f88ae5bf01b8fbcb7ff017471ef72eec4",
+    "swiss_same_trial_constituent_gate.csv": "1b8751090dad92197d23a1a6e9c8bfd8a0d4b191a39edea944824219a14bab3e",
+    "swiss_source_groups.csv": "c851e2c17f3dba6b56dcb79f72a548c62a4ece635af1dc2eb9b85867452088d2",
+    "swiss_summary.csv": "b5e51fc94063df0a7981c35c86f8e0aaa9f69b85c4c9c47ad45d7064ce00b1ca",
+    "swiss_transfer_predictions.csv": "156fbbb0307b7243fec4b455dd4a6eb1d28148e04ea2445e1160268bd55b518d",
+    "swiss_transfer_summary.csv": "ebc7abe77fd3d8b36fa92ad78fd1a4cabe4b6ddb690e5cf3d111596dfd3586c9"
+  },
+  "random_seed": 20261009,
+  "site_bootstrap_draws": 10000,
+  "status": "empirical_evidence_with_explicit_design_limits; no_validated_climate_adaptation"
+}
