@@ -1,0 +1,23 @@
+{
+  "status": "verified",
+  "parent_selected_family": "tcn",
+  "parent_selected_seeds": [
+    17,
+    29,
+    43
+  ],
+  "selection_basis": "Explicit parent instruction: validation-only selection; decision artifact confirms selected family",
+  "decision_path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/wheat_dl_phenology_20261009/results/decision.json",
+  "decision_sha256": "46505d2869a25644bff49af4c8b278a1414aaa7d7cb595f796a7b46d4214c8ff",
+  "evaluation_sha256": "4330abac63fbf73fc144144a0ab83df7090554c80bb3724c433b3d5634672aad",
+  "checkpoint_calibration_hashes_match_prepared": true,
+  "checkpoint_training_array_identity_consistent": true,
+  "source_hashes_checked": 12,
+  "independently_recomputed_interval_scores": 1498,
+  "torch_tests": "11 passed",
+  "wheat_tests": "9 passed; 2 torch-dependent tests skipped",
+  "original_horizons_preserved": true,
+  "thresholds_refitted": false,
+  "external_field_selection": false,
+  "interpretation": "Mixed frozen-threshold transfer; auxiliary late-stage proxies and sparse GS85 two-sided support prevent a general late-stage validation claim"
+}

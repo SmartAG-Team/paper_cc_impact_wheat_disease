@@ -1,0 +1,254 @@
+{
+  "status": "prepared",
+  "stages": [
+    31,
+    39,
+    65,
+    85
+  ],
+  "features": [
+    "t_mean",
+    "t_max",
+    "t_min",
+    "daylength",
+    "CUMVER",
+    "Cumulative_GDD",
+    "Cumulative_t_pp_v_GDD",
+    "elapsed_fraction"
+  ],
+  "horizon": 384,
+  "thermal_scale": 1760.39,
+  "frozen_thresholds": {
+    "31": 542.3,
+    "39": 807.799125,
+    "65": 1165.925558,
+    "85": 1760.39
+  },
+  "normalized": false,
+  "normalizer_source": "Each selected checkpoint metadata; never field weather",
+  "forcing_scope": "observed_horizon",
+  "field_counts": {
+    "calibration": 28,
+    "reused_development_2019": 45,
+    "reused_external_strict": 143
+  },
+  "counts": [
+    {
+      "partition": "calibration",
+      "stage": 31,
+      "original_fields": 28,
+      "constrained_fields": 27,
+      "two_sided": 0,
+      "left_only": 27,
+      "right_only": 0,
+      "no_eligible_constraint": 1,
+      "archived_missing_predictions": 0
+    },
+    {
+      "partition": "calibration",
+      "stage": 39,
+      "original_fields": 28,
+      "constrained_fields": 27,
+      "two_sided": 9,
+      "left_only": 18,
+      "right_only": 0,
+      "no_eligible_constraint": 1,
+      "archived_missing_predictions": 0
+    },
+    {
+      "partition": "calibration",
+      "stage": 65,
+      "original_fields": 28,
+      "constrained_fields": 27,
+      "two_sided": 20,
+      "left_only": 4,
+      "right_only": 3,
+      "no_eligible_constraint": 1,
+      "archived_missing_predictions": 1
+    },
+    {
+      "partition": "calibration",
+      "stage": 85,
+      "original_fields": 28,
+      "constrained_fields": 27,
+      "two_sided": 0,
+      "left_only": 0,
+      "right_only": 27,
+      "no_eligible_constraint": 1,
+      "archived_missing_predictions": 28
+    },
+    {
+      "partition": "reused_development_2019",
+      "stage": 31,
+      "original_fields": 45,
+      "constrained_fields": 45,
+      "two_sided": 0,
+      "left_only": 45,
+      "right_only": 0,
+      "no_eligible_constraint": 0,
+      "archived_missing_predictions": 0
+    },
+    {
+      "partition": "reused_development_2019",
+      "stage": 39,
+      "original_fields": 45,
+      "constrained_fields": 45,
+      "two_sided": 4,
+      "left_only": 40,
+      "right_only": 1,
+      "no_eligible_constraint": 0,
+      "archived_missing_predictions": 0
+    },
+    {
+      "partition": "reused_development_2019",
+      "stage": 65,
+      "original_fields": 45,
+      "constrained_fields": 45,
+      "two_sided": 35,
+      "left_only": 7,
+      "right_only": 3,
+      "no_eligible_constraint": 0,
+      "archived_missing_predictions": 3
+    },
+    {
+      "partition": "reused_development_2019",
+      "stage": 85,
+      "original_fields": 45,
+      "constrained_fields": 42,
+      "two_sided": 0,
+      "left_only": 0,
+      "right_only": 42,
+      "no_eligible_constraint": 3,
+      "archived_missing_predictions": 45
+    },
+    {
+      "partition": "reused_external_strict",
+      "stage": 31,
+      "original_fields": 143,
+      "constrained_fields": 116,
+      "two_sided": 3,
+      "left_only": 113,
+      "right_only": 0,
+      "no_eligible_constraint": 27,
+      "archived_missing_predictions": 0
+    },
+    {
+      "partition": "reused_external_strict",
+      "stage": 39,
+      "original_fields": 143,
+      "constrained_fields": 116,
+      "two_sided": 30,
+      "left_only": 85,
+      "right_only": 1,
+      "no_eligible_constraint": 27,
+      "archived_missing_predictions": 0
+    },
+    {
+      "partition": "reused_external_strict",
+      "stage": 65,
+      "original_fields": 143,
+      "constrained_fields": 116,
+      "two_sided": 65,
+      "left_only": 37,
+      "right_only": 14,
+      "no_eligible_constraint": 27,
+      "archived_missing_predictions": 5
+    },
+    {
+      "partition": "reused_external_strict",
+      "stage": 85,
+      "original_fields": 143,
+      "constrained_fields": 116,
+      "two_sided": 5,
+      "left_only": 0,
+      "right_only": 111,
+      "no_eligible_constraint": 27,
+      "archived_missing_predictions": 137
+    }
+  ],
+  "weather_rows_available": 71720,
+  "weather_days_used": 54110,
+  "fields_beyond_training_horizon": 1,
+  "field_stage_rows": 864,
+  "native_constraint_rows": 752,
+  "eligible_constraints": 749,
+  "temperature_definition": "t_mean = recorded tmean_c; not (tmin_c+tmax_c)/2",
+  "gdd_definition": "0 below 0; tmean through 20; 20 through 30; 20-2*(tmean-30) above 30; reject above 40",
+  "date_index": "Position 1 is sowing day; elapsed_fraction = position/366 including horizons >366",
+  "archived_tpv_reconciliation": {
+    "rows": 864,
+    "different": 0
+  },
+  "archived_score_reconciliation": {
+    "rows": 749,
+    "different": 0
+  },
+  "sources": {
+    "membership": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/overwinter_leaf_model_20261006/phenology/original_input_membership.csv",
+      "sha256": "40a3e2eea7ef5c87f871f41610d98f7a80de0971a942de30a86c0430fdd70ade"
+    },
+    "basf_registry": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/seasonal_calibration_v1/field_season_membership.csv",
+      "sha256": "ba5692f7da331680875358ae151d1973729e0b870218800de7ae8094a581dff2"
+    },
+    "external_registry": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/corteva_external_seasonal_v1/external_input_membership.csv",
+      "sha256": "dfd972dfe2fc839f0931e13d2352587404ed15046709160f51467eb803785206"
+    },
+    "constraints": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/full_validation_20261007/field_stage_constraints_all.csv",
+      "sha256": "989d1114e850887c12fb2cdbcf800597507f59b79c4c90de3831b9e8145bc9e5"
+    },
+    "predictions": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/overwinter_leaf_model_20261006/phenology/predicted_stage_dates.csv",
+      "sha256": "b4e0b4b8477970f19509546dcd32da867aea431c7107c69801bff1f6993da552"
+    },
+    "archived_scores": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/full_validation_20261007/field_stage_scores_all.csv",
+      "sha256": "e54dc4c25262ab4129da44e3f934d466710919480f6230886922a225bb26241c"
+    },
+    "thresholds": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/overwinter_leaf_model_20261006/phenology/calibrated_stage_thresholds.json",
+      "sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4"
+    },
+    "weather": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/data/paper_study/field_weather_completed/daily_weather.parquet",
+      "sha256": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63"
+    },
+    "process_parameters": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/process_model/parameters/calibration.json",
+      "sha256": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a"
+    },
+    "process_transform": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/process_model/calibrate.py",
+      "sha256": "bbdeaac1f96a2b831c137b68a3e7c4bd52be4e230cb481296658bd45912e6fda"
+    },
+    "packing": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/wheat_dl_phenology_20261009/prepare.py",
+      "sha256": "5bc5d8810ee955c66c0af39d147b7350c006a1e4e2541e2373925273d74f1fff"
+    },
+    "network": {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/model/wheat_phenology_dl/network.py",
+      "sha256": "b1394fc8b0c38f4419867953f062f5d1dda4fa7b99d7127b9a726113f82cfdcd"
+    }
+  },
+  "artifacts": {
+    "arrays.npz": "35cc4356cf3173ce070d6e7febdf687ca873174c0dc7de01c9ece8a186f22186",
+    "fields.csv": "a1e5e16ab8f725156c02810be4dbf8413dcdc726d4ffbfba8eb7965171b40e44",
+    "constraints_and_tpv.csv": "71da0e46beef8e248436597592dfc6637eb42c2c42f6a8f735d7ec4cd9a2d493",
+    "tpv_reconciliation.csv": "52ae3f7349cf2b40235a624231d1d0bf67993acfc4d0fbcf4a18d67481c67d73"
+  },
+  "preparation_code_sha256": "610ee149ae1490b867dd46a7b238a53e8cffdd4f8c0b6a213c451c3852879b86",
+  "limits": [
+    "Retrospective realized-weather transfer with calendar-scenario sowing dates, not observed sowing dates.",
+    "Original observed forcing horizons only; no extension to full season or forced event dates.",
+    "GS39/65 are existing auxiliary thresholds transferred to neural progress; no German GS39/65 truths.",
+    "Calibration, reused BASF validation and location-disjoint external fields remain separate.",
+    "Strict external denotes the original location split, not untouched stage evidence; prior analyses used these records.",
+    "Interval distances are constraint violations, not exact event-date errors; missing events supply only lower bounds.",
+    "The caller selects three seeds of one encoder on German validation only; field results must not select checkpoints.",
+    "No normalizer, threshold, sowing date, or model parameter is fitted to fields.",
+    "Original horizons beyond 366 days are retained and flagged as sequence-length extrapolation."
+  ]
+}

@@ -7,7 +7,8 @@
     "Scenario-specific climate alignment inputs",
     "Raw land-use products",
     "Raw crop-calendar products",
-    "Complete full-grid annual-output archive; selected archived example files are included"
+    "Complete full-grid annual-output archive; selected archived example files are included",
+    "Full German causal daily archive used for wheat DL training; compact inference and field-transfer inputs are included"
   ],
   "external_input_provenance": "analysis/paper_study/full_grid_climate_20261008/results/completion_receipt.json",
   "file_scope": "Current manuscript, maintained model and analysis dependencies, frozen configurations, tests and numerical evidence. Superseded drafts, duplicated source snapshots and unused outputs are excluded.",
@@ -28,8 +29,8 @@
       "sha256": "3bb0d0ebe46cb3c802ec6c90c9590017bb637cef04ca7ec54025af763134ba6a"
     },
     "README.md": {
-      "bytes": 12454,
-      "sha256": "43f5fd39e3e93709d6c0cc6b3cad17c2376270c39673161da313ae983c079bdd"
+      "bytes": 13066,
+      "sha256": "3a14c15765cacbe66a23b11e0e742218b5ae98d774ff616d95710571eb573339"
     },
     "WHEAT_STB_ENGINE.md": {
       "bytes": 9916,
@@ -3923,6 +3924,314 @@
       "bytes": 26697,
       "sha256": "510e171e906f2466dd6d946ce5857595ca2715c4ffb035a33512db15cbc80f4e"
     },
+    "analysis/paper_study/wheat_dl_phenology_20261009/README.md": {
+      "bytes": 7895,
+      "sha256": "e70a6166474e58b79736ea52b1b1133fc3dc092b7dc90dedd7a6a8157b8593ab"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/architecture_provenance.json": {
+      "bytes": 840,
+      "sha256": "1a4f8246eaeac58839ac2cc72f23c5e23242fa148c94ddde9f5f342918482020"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/artifacts.py": {
+      "bytes": 5360,
+      "sha256": "0fa7f792b76993c36ca56a7989622b594deba7bd915f6fa584caed3f9545ec7c"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/environments.csv": {
+      "bytes": 1133964,
+      "sha256": "5b703c29b9aecbc9c40dc4a1353784a34f7283b1e99e67a002122269de3c94cf"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/evaluate.py": {
+      "bytes": 10803,
+      "sha256": "81b0ebf6aa16751a2ccd2c4cf07bd5fba4e1fd4b0196d272da28b52244ed71f7"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/example.json": {
+      "bytes": 287,
+      "sha256": "5d0e4522e645407740c4cc67e56f9c52807b41876bbe8d8768239f8f4717d146"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/example_prediction.json": {
+      "bytes": 1542,
+      "sha256": "4f8d757c9a6a195c386e196f8aad04b011118ebe9f52fc46888f73311d35d8a0"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/example_weather.csv": {
+      "bytes": 24031,
+      "sha256": "6dac0d4364e979ee9d2cf72bc2959627b49ec15f8ca3e7d31ae81f6323401dee"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/exclusions.csv": {
+      "bytes": 188795,
+      "sha256": "8a29d35befc44a030d41a60a965aa5782a5c9a1e035e6df4b4f7a7ea3dc50d05"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/evaluation/evaluation.json": {
+      "bytes": 4512,
+      "sha256": "4330abac63fbf73fc144144a0ab83df7090554c80bb3724c433b3d5634672aad"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/evaluation/field_stage_comparison.csv": {
+      "bytes": 358383,
+      "sha256": "0eaa9360772500fb8f0efd4578b9ade7dfc7030f461ec11a422e67c25fd9af85"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/evaluation/interval_metrics.csv": {
+      "bytes": 8858,
+      "sha256": "403df64f67b5a2f5fc3499d18894258081191c7e0f39cc05bd9231f543154437"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/evaluation/neural_predictions.csv": {
+      "bytes": 64192,
+      "sha256": "5748618690e8d400d8a990e65e818043bd4ffd02c506891ebca0a8fd8e72760b"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/evaluation/selection_and_forcing_verification.json": {
+      "bytes": 1127,
+      "sha256": "e7e6b5aeb0f7ac5bfcbb00425976900573365828d1bbb04b9f8b99c8688b89ab"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/length_366_verification.json": {
+      "bytes": 3026,
+      "sha256": "1911c5f3ddd4b6702219c0269450a99bde1adeded7fd7a7daefdc969871300ba"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/prepared/arrays.npz": {
+      "bytes": 1221065,
+      "sha256": "35cc4356cf3173ce070d6e7febdf687ca873174c0dc7de01c9ece8a186f22186"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/prepared/constraints_and_tpv.csv": {
+      "bytes": 295718,
+      "sha256": "71da0e46beef8e248436597592dfc6637eb42c2c42f6a8f735d7ec4cd9a2d493"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/prepared/fields.csv": {
+      "bytes": 53448,
+      "sha256": "a1e5e16ab8f725156c02810be4dbf8413dcdc726d4ffbfba8eb7965171b40e44"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/prepared/metadata.json": {
+      "bytes": 9131,
+      "sha256": "a307bcb1f2b9aaf028aaf864b0a6e1fc8e1c9732d01b84aab95be0e6cc3e97fb"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/prepared/tpv_reconciliation.csv": {
+      "bytes": 67389,
+      "sha256": "52ae3f7349cf2b40235a624231d1d0bf67993acfc4d0fbcf4a18d67481c67d73"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/release_dependency_audit.json": {
+      "bytes": 13533,
+      "sha256": "f5fe3a1d34c6b2b53c4e17b4a7fe7d30f648c516ebb8f80afcc81f6fbb5704de"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence/reproduced_evaluation.json": {
+      "bytes": 4494,
+      "sha256": "c1e6722c3c909e066767878b21c7e2008b35143eae02c9ae101bc549393ae9b9"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/field_transfer.py": {
+      "bytes": 33451,
+      "sha256": "1a66daa1832aecd06018ce9d27103a43288c89a9589d9434ed437d8627cbb478"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s17.json": {
+      "bytes": 1119,
+      "sha256": "0571b4d59c5d942713a4e420d7e283ab667fbee86ac0a10edfec5c3991df607a"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s17.pt": {
+      "bytes": 28507,
+      "sha256": "3bf14732d1776c422cbd21ba51c68e163ebda21128c23874310299c3c60eeb78"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s17_history.csv": {
+      "bytes": 2349,
+      "sha256": "e8dd3d49c73528e7afabedfb2288648366a550aba869d5b9d14f20ba5b4ce065"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s29.json": {
+      "bytes": 1120,
+      "sha256": "fc9395c15e30631e6fbb7c31aa441f05f3f3d823f4709e436dbece4c5952d1f2"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s29.pt": {
+      "bytes": 28507,
+      "sha256": "c7e098126372a613101cb98ba4e61c50d89f782dc530387492df1acaf25a1a8f"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s29_history.csv": {
+      "bytes": 2349,
+      "sha256": "aa69afbd200d229cbbfd7a27151d2fa58cec70214702e8f1fc687f80e2cc427b"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s43.json": {
+      "bytes": 1119,
+      "sha256": "84413f8e913c942380a9af9d66ae6675da0e65c6e4d3136cd0f4202508627e97"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s43.pt": {
+      "bytes": 28507,
+      "sha256": "f983f59267f33777fb32576624ccd6d2d4754ea4543f95760b2fa4265b12a751"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/lstm_s43_history.csv": {
+      "bytes": 1939,
+      "sha256": "4e6ce3762ee94c1728239576761b3bf17c84b7ac4908dfb90d636dfbf9797d25"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s17.json": {
+      "bytes": 1118,
+      "sha256": "10c052465f8749b87d65a41b4ab1d08e4fb9a00ccc8aad8206153fd49006750d"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s17.pt": {
+      "bytes": 58937,
+      "sha256": "93d50f26620cf8b196ca53d787413d7b717e14c0d74e5aaaf3f277866e946d15"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s17_history.csv": {
+      "bytes": 2327,
+      "sha256": "b25f38f9f12488dd9b517cf4ac822fb1b507db28eb43a0f68a4ff69e589a62a0"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s29.json": {
+      "bytes": 1119,
+      "sha256": "57dc28fe87b128cf58defc0a96f66f1f60202154db06508a5322e3ad595db9b0"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s29.pt": {
+      "bytes": 58937,
+      "sha256": "432ff44e838af209bc76c2ce5aa2ef1c8469abd1a94c89dae89cc1f842a0bb49"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s29_history.csv": {
+      "bytes": 2344,
+      "sha256": "7036c02ae124046c1c37b46a0d04315e5a3d0789c342901d76cd38b8938ee8df"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s43.json": {
+      "bytes": 1119,
+      "sha256": "d2b1b12d0e6ccf596a3db747c19887dc3354d9ee1c8117a3debac742591ebcf3"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s43.pt": {
+      "bytes": 58937,
+      "sha256": "8d834a72e91a70c3ba09c6d430555afe9d3650989ee2aad65c8385398c95e368"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s43_history.csv": {
+      "bytes": 2338,
+      "sha256": "9b515e10521bb2ee3886ae84b8d042d1043d10c20b3e8f0169f7ad11f74f274a"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/input_metadata.json": {
+      "bytes": 3288,
+      "sha256": "aa98d8f515ee7c0ece02a22c8ec2b4479b8999ebb0d0b0797184acc1ba5f26cb"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/input_reproduction.json": {
+      "bytes": 812,
+      "sha256": "8ef1979c4a071b608338bd3bf915fec8f340599c91eba00bc692bc3ad32294cc"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/prepare.py": {
+      "bytes": 9368,
+      "sha256": "5bc5d8810ee955c66c0af39d147b7350c006a1e4e2541e2373925273d74f1fff"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/protocol.json": {
+      "bytes": 2273,
+      "sha256": "ba858f6a9bbe71057cacee03301452a0fe39874904d9301ab3d424f040991631"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/public_reproduction.json": {
+      "bytes": 1818,
+      "sha256": "07878d0c4fbd325f1faea595cd259fd86bc12283e819141433cfc07943d2d50e"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/replay_environments.csv": {
+      "bytes": 950,
+      "sha256": "ce3cffa684b7dfcbe4abad04b4397fda95acb47ccfa7d5c358925c41d4c32ecf"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/replay_expected.npz": {
+      "bytes": 4097,
+      "sha256": "f2619aa2192bdef40a42a42cfdeae8644590e6eef232d40e8ac2d31b04913893"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/replay_inputs.npz": {
+      "bytes": 304848,
+      "sha256": "d4d66831510ad4f9aadb002d8102d814243dfd8472db3f9a740ce6fb9ddd45ed"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/replay_manifest.json": {
+      "bytes": 561,
+      "sha256": "978e1f30e35672983e992fe3d09d2b4680f36543e6f339eba2f07975abc7f6d4"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/requirements.txt": {
+      "bytes": 45,
+      "sha256": "0f2f4fe174fe0583ab6dc70240b69e7ab252e0f256ebcd5e4fbeba2b635d2d7d"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/Wheat_DL_phenology_comparison.caption.txt": {
+      "bytes": 580,
+      "sha256": "5fec4836a08fc8cf19b49916aefe39e3863b29d3f26e29722df9509b3e118ac2"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/Wheat_DL_phenology_comparison.pdf": {
+      "bytes": 19458,
+      "sha256": "fb6451fe3a8387fbbb3c1d0bf586fafd5e643504bc8b1be976deff4df64b12cc"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/Wheat_DL_phenology_comparison.png": {
+      "bytes": 157280,
+      "sha256": "105d08de1f915f4ba3ae03a7dc2088737160d8827460562a05754ecaa7e28c69"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/Wheat_DL_phenology_comparison.svg": {
+      "bytes": 65806,
+      "sha256": "d10d16d76d9b47e63d51262f4ed5905540f905ac8e6ba573b114703cd25f48e9"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/common_overall_metrics.csv": {
+      "bytes": 184,
+      "sha256": "32e7c1d7d05c31dbf1262eb9c3de35f7abd2265de2a295a301f8a275443a1775"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/common_stage_metrics.csv": {
+      "bytes": 2563,
+      "sha256": "12922aa894069e830d058b1caf03da6325ee05a7bb5bd672f1cad7421bdcfe1a"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/decision.json": {
+      "bytes": 4527,
+      "sha256": "46505d2869a25644bff49af4c8b278a1414aaa7d7cb595f796a7b46d4214c8ff"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/event_predictions.csv.gz": {
+      "bytes": 2922445,
+      "sha256": "8ed22d42aa57fa87c21dc6ef3408f39bf9602fdaa6397628be7bd0553e59eb5f"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/population_coverage.csv": {
+      "bytes": 153,
+      "sha256": "9a11d539af0473367fc75050a81bd2a1e28aa4d1afd70624efebf0aefa69c62f"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/receipt.json": {
+      "bytes": 2031,
+      "sha256": "d66f3c06a92858f1a5e7c183344419e2587bda60eec87fd59bc8585d33603691"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/selection_before_test.json": {
+      "bytes": 3581,
+      "sha256": "e61d63fdb12c4b9b26eb8beedf39077f8617885e99e45971f5b8cdcbabd081c9"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/stage_metrics.csv": {
+      "bytes": 2569,
+      "sha256": "fd73923a2a82788570737cb715becdccd90a4681fc4fa6ce5c07a1fee2ad1f16"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/testing_lstm_predictions.npz": {
+      "bytes": 424695,
+      "sha256": "aee6fb9ad9c7e1fd8df5df436d1031fc8b96063c0952c019588ce55fecedecde"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/testing_tcn_predictions.npz": {
+      "bytes": 425353,
+      "sha256": "79fd40b66c3c56a042d8a9c5f2c6adce305ae65fc450adc1e45cf4937362a5b1"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/validation_lstm_predictions.npz": {
+      "bytes": 401406,
+      "sha256": "88e6a9648924ddf258d4e80466bff43822183816dc0efe15a4f9952269d70b9c"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/results/validation_tcn_predictions.npz": {
+      "bytes": 402199,
+      "sha256": "0789e1e9739a3284d39fe2b618a92bdfa0c38a805ef57c4e1b567c19ac42fdf5"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/runtime_versions.json": {
+      "bytes": 112,
+      "sha256": "d738e04d119df1f77325c46ac15ec7adc7b1894c0e37df37c5e8e63e27c05847"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/source_audit.json": {
+      "bytes": 40326,
+      "sha256": "ac1c9e00ed1e3aabcfa195803cab59f27c882dc959f57b946c21f272eb2c8c72"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/test_data.py": {
+      "bytes": 1380,
+      "sha256": "88edf73865d61f1adb5d71fd826f3a882b4e89482f880d00dbf81d95a07ab413"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/test_evaluation.py": {
+      "bytes": 1205,
+      "sha256": "854d06e8e51afcf73741c12910d494038f431f0a82b7dc293e7477a436971d19"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/test_field_transfer.py": {
+      "bytes": 13517,
+      "sha256": "4f78495b135066217d0aa22df69b3e49b592ca7a005acea497f33fb1d0594c20"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/test_model.py": {
+      "bytes": 1964,
+      "sha256": "4ed20f2df48bd4db0fa665678df09d8067feb50bb3543ea3fa5397ade94abd0a"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/test_predict.py": {
+      "bytes": 930,
+      "sha256": "0418543f079eeb451290baecadc507e82ed8ed878fa7853c3d68a1e90d532dcf"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/train.py": {
+      "bytes": 7327,
+      "sha256": "2b4d01eaa0cc7376586894c71c28587f4d8066c6f70ef49a54b02d3cb594b027"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/verification.json": {
+      "bytes": 460,
+      "sha256": "453c74b7919bd218f8af49eddcb1da30c84220ab449de43ade4734623e4f9f76"
+    },
+    "analysis/paper_study/wheat_dl_phenology_20261009/verify.py": {
+      "bytes": 4760,
+      "sha256": "a3af9bd60a1de27a9e980cea8797847dfa16017d4d6b0035d66efedd8b2ddc5b"
+    },
     "analysis/paper_study/wheat_production_download.py": {
       "bytes": 3522,
       "sha256": "a32e8763f1d00dbc20b8462e5f9b650bafcc687153ab868f53636f8c1ade681f"
@@ -4586,6 +4895,18 @@
     "model/seasonal_septoria/yield_relevance.py": {
       "bytes": 5907,
       "sha256": "61b943a1ba747174de18cc7d163b455c7c14c5b9529ca9db90183282911c3bba"
+    },
+    "model/wheat_phenology_dl/__init__.py": {
+      "bytes": 83,
+      "sha256": "2a86a33aca8812402cf6eaaea3cd3c503dfc2af327ac585b146a0c7d70f71d41"
+    },
+    "model/wheat_phenology_dl/network.py": {
+      "bytes": 3522,
+      "sha256": "b1394fc8b0c38f4419867953f062f5d1dda4fa7b99d7127b9a726113f82cfdcd"
+    },
+    "model/wheat_phenology_dl/predict.py": {
+      "bytes": 5015,
+      "sha256": "c12b1fd487fd4d2026485b4d28927e0d0626cf73a282f207c1cfc01a10ad7d14"
     },
     "model/wheat_stb/__init__.py": {
       "bytes": 450,
@@ -5657,8 +5978,20 @@
   },
   "current_test_verification": {
     "status": "passed",
-    "total": 395,
-    "command": "python -m pytest -q --import-mode=importlib tests analysis/paper_study/crop_damage_validation_20261009 analysis/paper_study/nordic_yield_validation_20261009 analysis/paper_study/nature_food_impact_20261008 analysis/paper_study/food_security_exposure_20261009 analysis/paper_study/yield_transfer_audit_20261009 analysis/paper_study/climate_robustness_20261009 analysis/paper_study/nordic_archive_validation_20261009 analysis/paper_study/mixture_adaptation_20261009"
+    "total": 457,
+    "suites": [
+      {
+        "total": 424,
+        "runtime": "existing wheat Python environment",
+        "command": "python -m pytest -q --import-mode=importlib tests process_model/tests analysis/paper_study/crop_damage_validation_20261009 analysis/paper_study/nordic_yield_validation_20261009 analysis/paper_study/nature_food_impact_20261008 analysis/paper_study/food_security_exposure_20261009 analysis/paper_study/yield_transfer_audit_20261009 analysis/paper_study/climate_robustness_20261009 analysis/paper_study/nordic_archive_validation_20261009 analysis/paper_study/mixture_adaptation_20261009"
+      },
+      {
+        "total": 33,
+        "runtime": "Torch runtime recorded in wheat_dl_phenology_20261009/runtime_versions.json",
+        "command": "python -m pytest -q --import-mode=importlib analysis/paper_study/wheat_dl_phenology_20261009",
+        "relocated_copy": true
+      }
+    ]
   },
   "archived_local_evidence_files": 1403,
   "vendored_dependency_files_available_in_archive": 0,
@@ -5725,5 +6058,29 @@
     "new_compatible_physiological_cohorts": 0,
     "physiological_grain_loss_validated": false,
     "future_adaptation_benefit_validated": false
+  },
+  "wheat_dl_phenology": {
+    "comparison": "analysis/paper_study/wheat_dl_phenology_20261009/README.md",
+    "protocol": "analysis/paper_study/wheat_dl_phenology_20261009/protocol.json",
+    "decision": "analysis/paper_study/wheat_dl_phenology_20261009/results/decision.json",
+    "reproduction_receipt": "analysis/paper_study/wheat_dl_phenology_20261009/public_reproduction.json",
+    "wheat_fitted_checkpoints": 6,
+    "selected_family": "tcn",
+    "test_common_events_all_three_models": 40874,
+    "test_common_pooled_MAE_days": {
+      "T-P-V": 8.023902645431667,
+      "lstm": 7.169594363164848,
+      "tcn": 7.1605666193668345
+    },
+    "native_stage_replacement_gate_passed": false,
+    "disease_engine_replaced": false,
+    "climate_archive_changed": false,
+    "observed_grain_loss_model_improved": false,
+    "external_flowering_transfer_improved": false,
+    "release_credential_scan": {
+      "status": "passed",
+      "text_files_scanned": 66,
+      "credential_patterns_detected": []
+    }
   }
 }

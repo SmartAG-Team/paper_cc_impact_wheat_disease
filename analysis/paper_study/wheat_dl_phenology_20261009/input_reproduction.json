@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "Fresh array reconstruction from the archived causal wheat CSV; no model fitting repeated",
+  "files": {
+    "arrays.npz": {
+      "sha256": "28bd933622adc32a60430eb12deff48049e7b831f5dfd7eabe2d25666089542d",
+      "bytes": 318143105,
+      "byte_identical": true
+    },
+    "environments.csv": {
+      "sha256": "5b703c29b9aecbc9c40dc4a1353784a34f7283b1e99e67a002122269de3c94cf",
+      "bytes": 1133964,
+      "byte_identical": true
+    },
+    "exclusions.csv": {
+      "sha256": "8a29d35befc44a030d41a60a965aa5782a5c9a1e035e6df4b4f7a7ea3dc50d05",
+      "bytes": 188795,
+      "byte_identical": true
+    },
+    "metadata.json": {
+      "sha256": "aa98d8f515ee7c0ece02a22c8ec2b4479b8999ebb0d0b0797184acc1ba5f26cb",
+      "bytes": 3288,
+      "byte_identical": true
+    }
+  }
+}

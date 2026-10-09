@@ -1,0 +1,102 @@
+{
+  "status": "evaluated",
+  "encoder": "tcn",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "caller_selection_contract": "Encoder and three checkpoints selected on German validation only; no selection implemented here",
+  "selection_independence_verified": false,
+  "field_results_used_for_selection": false,
+  "selection_independence_limit": "External parent selection history cannot be established from checkpoint payloads alone",
+  "checkpoints": [
+    {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s17.pt",
+      "sha256": "93d50f26620cf8b196ca53d787413d7b717e14c0d74e5aaaf3f277866e946d15",
+      "config": {
+        "encoder": "tcn",
+        "seed": 17,
+        "width": 32,
+        "maximum_epochs": 40,
+        "learning_rate": 0.001,
+        "patience": 8,
+        "batch_size": 128
+      },
+      "best_epoch": 37,
+      "validation_crps": 5.261913909864015,
+      "metadata_sha256": "bae120a9774d949e4803319ca933f64a40da0a91f3d895febc87968bd0af5b3d",
+      "sigma": 0.11645972728729248
+    },
+    {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s29.pt",
+      "sha256": "432ff44e838af209bc76c2ce5aa2ef1c8469abd1a94c89dae89cc1f842a0bb49",
+      "config": {
+        "encoder": "tcn",
+        "seed": 29,
+        "width": 32,
+        "maximum_epochs": 40,
+        "learning_rate": 0.001,
+        "patience": 8,
+        "batch_size": 128
+      },
+      "best_epoch": 34,
+      "validation_crps": 5.259526875519882,
+      "metadata_sha256": "bae120a9774d949e4803319ca933f64a40da0a91f3d895febc87968bd0af5b3d",
+      "sigma": 0.12305383384227753
+    },
+    {
+      "path": "/private/tmp/wheat-research-plan-20261009/worktree/analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s43.pt",
+      "sha256": "8d834a72e91a70c3ba09c6d430555afe9d3650989ee2aad65c8385398c95e368",
+      "config": {
+        "encoder": "tcn",
+        "seed": 43,
+        "width": 32,
+        "maximum_epochs": 40,
+        "learning_rate": 0.001,
+        "patience": 8,
+        "batch_size": 128
+      },
+      "best_epoch": 36,
+      "validation_crps": 5.245257369858871,
+      "metadata_sha256": "bae120a9774d949e4803319ca933f64a40da0a91f3d895febc87968bd0af5b3d",
+      "sigma": 0.12655338644981384
+    }
+  ],
+  "field_counts": {
+    "calibration": 28,
+    "reused_development_2019": 45,
+    "reused_external_strict": 143
+  },
+  "eligible_constraints": 749,
+  "comparison_rows": 864,
+  "forcing_scope": "observed_horizon",
+  "frozen_thresholds": {
+    "31": 542.3,
+    "39": 807.799125,
+    "65": 1165.925558,
+    "85": 1760.39
+  },
+  "ensemble": "Mean of three per-seed log-state Gaussian CDFs, then first median crossing within original forcing",
+  "normalizer": "Each checkpoint metadata mean/std; raw thermal increments remain unnormalized",
+  "fields_beyond_training_horizon": 1,
+  "prepared_metadata_sha256": "a307bcb1f2b9aaf028aaf864b0a6e1fc8e1c9732d01b84aab95be0e6cc3e97fb",
+  "evaluation_code_sha256": "610ee149ae1490b867dd46a7b238a53e8cffdd4f8c0b6a213c451c3852879b86",
+  "network_sha256": "b1394fc8b0c38f4419867953f062f5d1dda4fa7b99d7127b9a726113f82cfdcd",
+  "artifacts": {
+    "neural_predictions.csv": "5748618690e8d400d8a990e65e818043bd4ffd02c506891ebca0a8fd8e72760b",
+    "field_stage_comparison.csv": "0eaa9360772500fb8f0efd4578b9ade7dfc7030f461ec11a422e67c25fd9af85",
+    "interval_metrics.csv": "403df64f67b5a2f5fc3499d18894258081191c7e0f39cc05bd9231f543154437"
+  },
+  "limits": [
+    "Retrospective realized-weather transfer with calendar-scenario sowing dates, not observed sowing dates.",
+    "Original observed forcing horizons only; no extension to full season or forced event dates.",
+    "GS39/65 are existing auxiliary thresholds transferred to neural progress; no German GS39/65 truths.",
+    "Calibration, reused BASF validation and location-disjoint external fields remain separate.",
+    "Strict external denotes the original location split, not untouched stage evidence; prior analyses used these records.",
+    "Interval distances are constraint violations, not exact event-date errors; missing events supply only lower bounds.",
+    "The caller selects three seeds of one encoder on German validation only; field results must not select checkpoints.",
+    "No normalizer, threshold, sowing date, or model parameter is fitted to fields.",
+    "Original horizons beyond 366 days are retained and flagged as sequence-length extrapolation."
+  ]
+}

@@ -152,3 +152,13 @@ records a bounded 16-source screen, exact missing measurements and concrete
 experimental leads. It contains no new qualifying physiological observations.
 Empty intake templates and structural checks support future observed inputs;
 they are not fitted crop-growth or disease-loss models.
+
+### Wheat DL phenology candidates
+
+The [wheat DL comparison](analysis/paper_study/wheat_dl_phenology_20261009/README.md)
+adapts the `maize_phen_dl` LSTM and temporal-convolution architectures to native
+wheat observations. Six wheat-only fits and a validation-selected TCN ensemble
+reduce common-event date MAE from 8.02 to 7.16 days. External flowering transfer
+and stage-specific coverage remain inadequate for unrestricted replacement of
+the current disease/climate phenology. Runnable candidate checkpoints, a raw-weather
+prediction CLI, full comparison records and compact reproduction inputs are included.

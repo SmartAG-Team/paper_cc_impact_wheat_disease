@@ -1,0 +1,101 @@
+{
+  "selected": "tcn",
+  "validation_scores": {
+    "lstm": {
+      "observed": 38749,
+      "matched": 38249,
+      "pooled_mae": 7.1002117702423595,
+      "macro_mae": 7.1340302230133625,
+      "macro_penalized_mae": 10.965053826763564,
+      "stages": [
+        {
+          "observed": 13158,
+          "matched": 12745,
+          "mae_days": 4.372145939584151,
+          "rmse_days": 6.671352479038149,
+          "bias_days": -1.04833267948215,
+          "penalized_mae_days": 15.722830217358261
+        },
+        {
+          "observed": 11276,
+          "matched": 11257,
+          "mae_days": 11.230612063604868,
+          "rmse_days": 14.82044078440222,
+          "bias_days": -0.3605756418228658,
+          "penalized_mae_days": 11.82839659453707
+        },
+        {
+          "observed": 11710,
+          "matched": 11654,
+          "mae_days": 6.1686116354899605,
+          "rmse_days": 8.70204010411187,
+          "bias_days": 0.9616440707053372,
+          "penalized_mae_days": 7.889410760034159
+        },
+        {
+          "observed": 2605,
+          "matched": 2593,
+          "mae_days": 6.764751253374469,
+          "rmse_days": 8.867169065426863,
+          "bias_days": -0.693790975703818,
+          "penalized_mae_days": 8.41957773512476
+        }
+      ]
+    },
+    "tcn": {
+      "observed": 38749,
+      "matched": 38267,
+      "pooled_mae": 7.077795489586328,
+      "macro_mae": 7.1130573223807305,
+      "macro_penalized_mae": 10.873163541471673,
+      "stages": [
+        {
+          "observed": 13158,
+          "matched": 12762,
+          "mae_days": 4.360993574674816,
+          "rmse_days": 6.664944535444746,
+          "bias_days": -1.3766650995141827,
+          "penalized_mae_days": 15.244794041647667
+        },
+        {
+          "observed": 11276,
+          "matched": 11258,
+          "mae_days": 11.223751998578788,
+          "rmse_days": 14.819962362299306,
+          "bias_days": -0.5085272694972464,
+          "penalized_mae_days": 11.790085136573254
+        },
+        {
+          "observed": 11710,
+          "matched": 11656,
+          "mae_days": 6.121825669183253,
+          "rmse_days": 8.627480793694826,
+          "bias_days": 0.33167467398764583,
+          "penalized_mae_days": 7.781383432963279
+        },
+        {
+          "observed": 2605,
+          "matched": 2591,
+          "mae_days": 6.745658047086067,
+          "rmse_days": 8.832591134659458,
+          "bias_days": -0.0015438054805094559,
+          "penalized_mae_days": 8.676391554702494
+        }
+      ]
+    }
+  },
+  "rule": "Smallest validation stage-equal MAE; an unreached median incurs a 366-day diagnostic failure penalty",
+  "checkpoint_stopping": "Stage-equal validation CRPS, fixed patience and maximum epochs",
+  "prediction_ensemble": "Equal mixture of three fixed-seed CDFs, then median crossing",
+  "test_scores_used": false,
+  "protocol_sha256": "ba858f6a9bbe71057cacee03301452a0fe39874904d9301ab3d424f040991631",
+  "evaluator_sha256": "81b0ebf6aa16751a2ccd2c4cf07bd5fba4e1fd4b0196d272da28b52244ed71f7",
+  "checkpoints": {
+    "lstm_s17.pt": "3bf14732d1776c422cbd21ba51c68e163ebda21128c23874310299c3c60eeb78",
+    "lstm_s29.pt": "c7e098126372a613101cb98ba4e61c50d89f782dc530387492df1acaf25a1a8f",
+    "lstm_s43.pt": "f983f59267f33777fb32576624ccd6d2d4754ea4543f95760b2fa4265b12a751",
+    "tcn_s17.pt": "93d50f26620cf8b196ca53d787413d7b717e14c0d74e5aaaf3f277866e946d15",
+    "tcn_s29.pt": "432ff44e838af209bc76c2ce5aa2ef1c8469abd1a94c89dae89cc1f842a0bb49",
+    "tcn_s43.pt": "8d834a72e91a70c3ba09c6d430555afe9d3650989ee2aad65c8385398c95e368"
+  }
+}

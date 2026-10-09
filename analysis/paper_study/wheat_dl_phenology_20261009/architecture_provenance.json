@@ -1,0 +1,21 @@
+{
+  "source_project": "maize_phen_dl",
+  "source_files": {
+    "maize_clock/extensions.py": "48ef301cb14a8666ce166953eca42a7ce4abc6d7067841532bbf0794cc7b81de",
+    "maize_clock/references.py": "7c586520ef3a07b18fd27f63eef4b59d3139bb47dd13ad685b941a8bb8f08aa1"
+  },
+  "reused_structure": [
+    "Causal residual temporal convolution",
+    "LSTM sequence encoder",
+    "Positive bounded thermal-progress multiplier",
+    "Log-progress stage CDF and CRPS training"
+  ],
+  "wheat_adaptations": [
+    "Four native wheat stages instead of seven maize endpoints",
+    "Frozen wheat T-P-V increments and thresholds instead of maize thermal sums",
+    "Shared uncertainty scale to preserve ordering of stage CDFs",
+    "Fresh wheat-only weights and frozen station holdouts"
+  ],
+  "maize_checkpoints_used": false,
+  "maize_project_modified": false
+}

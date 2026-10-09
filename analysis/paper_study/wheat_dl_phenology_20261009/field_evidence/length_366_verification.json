@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "field_id": "corteva-2014-2018-external|2015-58|2015",
+  "partition": "reused_external_strict",
+  "sowing_date": "2014-10-12",
+  "original_weather_days": 384,
+  "truncated_weather_days": 366,
+  "selected_family": "tcn",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "frozen_thresholds": {
+    "31": 542.3,
+    "39": 807.799125,
+    "65": 1165.925558,
+    "85": 1760.39
+  },
+  "procedure": "Run each selected checkpoint separately with actual 384-day and physically truncated 366-day X/G tensors; retain checkpoint normalization and days/366; average three threshold CDFs before first median crossing.",
+  "seed_prefix_checks": [
+    {
+      "seed": 17,
+      "checkpoint_sha256": "93d50f26620cf8b196ca53d787413d7b717e14c0d74e5aaaf3f277866e946d15",
+      "max_prefix_state_absolute_difference": 1.1920928955078125e-07,
+      "max_prefix_cdf_absolute_difference": 1.1920928955078125e-07,
+      "prefix_cdf_bitwise_identical": false
+    },
+    {
+      "seed": 29,
+      "checkpoint_sha256": "432ff44e838af209bc76c2ce5aa2ef1c8469abd1a94c89dae89cc1f842a0bb49",
+      "max_prefix_state_absolute_difference": 1.1920928955078125e-07,
+      "max_prefix_cdf_absolute_difference": 0.0,
+      "prefix_cdf_bitwise_identical": true
+    },
+    {
+      "seed": 43,
+      "checkpoint_sha256": "8d834a72e91a70c3ba09c6d430555afe9d3650989ee2aad65c8385398c95e368",
+      "max_prefix_state_absolute_difference": 1.1920928955078125e-07,
+      "max_prefix_cdf_absolute_difference": 0.0,
+      "prefix_cdf_bitwise_identical": true
+    }
+  ],
+  "crossings": [
+    {
+      "stage": 31,
+      "full_384_median_day": 214,
+      "truncated_366_median_day": 214,
+      "median_date": "2015-05-13",
+      "matches_selected_result": true
+    },
+    {
+      "stage": 39,
+      "full_384_median_day": 242,
+      "truncated_366_median_day": 242,
+      "median_date": "2015-06-10",
+      "matches_selected_result": true
+    },
+    {
+      "stage": 65,
+      "full_384_median_day": 263,
+      "truncated_366_median_day": 263,
+      "median_date": "2015-07-01",
+      "matches_selected_result": true
+    },
+    {
+      "stage": 85,
+      "full_384_median_day": 304,
+      "truncated_366_median_day": 304,
+      "median_date": "2015-08-11",
+      "matches_selected_result": true
+    }
+  ],
+  "all_four_actual_median_crossings_unchanged": true,
+  "all_four_crossings_before_day_366": true,
+  "prefix_comparison_absolute_tolerance": 1e-06,
+  "prepared_arrays_sha256": "35cc4356cf3173ce070d6e7febdf687ca873174c0dc7de01c9ece8a186f22186",
+  "selected_predictions_sha256": "5748618690e8d400d8a990e65e818043bd4ffd02c506891ebca0a8fd8e72760b",
+  "evaluation_manifest_sha256": "4330abac63fbf73fc144144a0ab83df7090554c80bb3724c433b3d5634672aad",
+  "network_sha256": "b1394fc8b0c38f4419867953f062f5d1dda4fa7b99d7127b9a726113f82cfdcd",
+  "torch_version": "2.14.1",
+  "device": "cpu",
+  "scope": "One original 384-day field only; this confirms length sensitivity and prefix causality for these checkpoints and inputs, not general extrapolation validity."
+}

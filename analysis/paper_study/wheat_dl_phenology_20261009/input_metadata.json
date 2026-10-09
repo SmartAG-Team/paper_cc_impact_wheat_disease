@@ -1,0 +1,109 @@
+{
+  "status": "prepared",
+  "stages": [
+    10,
+    31,
+    51,
+    85
+  ],
+  "features": [
+    "t_mean",
+    "t_max",
+    "t_min",
+    "daylength",
+    "CUMVER",
+    "Cumulative_GDD",
+    "Cumulative_t_pp_v_GDD",
+    "elapsed_fraction"
+  ],
+  "horizon": 366,
+  "model_source": {
+    "maize_clock/extensions.py": "48ef301cb14a8666ce166953eca42a7ce4abc6d7067841532bbf0794cc7b81de",
+    "maize_clock/references.py": "7c586520ef3a07b18fd27f63eef4b59d3139bb47dd13ad685b941a8bb8f08aa1"
+  },
+  "maize_weights_loaded": false,
+  "mean": [
+    9.226546730130258,
+    12.816029765997772,
+    5.651835145094856,
+    12.006121542693315,
+    106.27763738811089,
+    1241.4628965578897,
+    905.9780463999392,
+    0.4952918139991152
+  ],
+  "std": [
+    7.394231225738806,
+    8.537738911688859,
+    6.582539644661903,
+    2.9070821386293075,
+    55.37883826072737,
+    1015.4202362016459,
+    902.7695313488838,
+    0.2860583394769719
+  ],
+  "thermal_scale": 1760.39,
+  "thresholds": [
+    0.08066962434460545,
+    0.30805673742750184,
+    0.5604723953214912,
+    1.0
+  ],
+  "source_hashes": {
+    "analysis/paper_study/full_validation_20261007/german_calibration_tpv_events.parquet": "316143f9cd8ab5e263d34fd65e93f7b6a15b8c9413bf028a420981fd34db9bca",
+    "analysis/paper_study/full_validation_20261007/german_validation_tpv_events.parquet": "06c6a080b2952c16a52862432f2455aea1d6b3f04ed0d0afb2e39f6469293ddc",
+    "analysis/paper_study/full_validation_20261007/german_testing_tpv_events.parquet": "995f74569cd129a477b8bfe723912051f0bd8f589d11f35578985518453607f4",
+    "external_causal_daily_weather": "f093d5d7eafb4b5e7dec45adf60c45f4fb669c9e6f70e7e90efbad6fa713fc31",
+    "process_model/parameters/calibration.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "process_model/parameters/station_split.json": "7d3965debafbaa9459fb2b6bf8684bc6242ab0089338a63fa7572158a3394956"
+  },
+  "protocol_sha256": "ba858f6a9bbe71057cacee03301452a0fe39874904d9301ab3d424f040991631",
+  "source_daily_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dataset/calibrated_causal/data_cleaned.csv",
+  "source_daily_bytes": 4147490157,
+  "input_arrays_sha256": "28bd933622adc32a60430eb12deff48049e7b831f5dfd7eabe2d25666089542d",
+  "environments_sha256": "5b703c29b9aecbc9c40dc4a1353784a34f7283b1e99e67a002122269de3c94cf",
+  "date_index": "Position 1 is sowing day; elapsed days after sowing = position - 1",
+  "counts": {
+    "calibration": {
+      "environments": 5797,
+      "observed_targets": 18179,
+      "stage_targets": [
+        5699,
+        5159,
+        5352,
+        1969
+      ]
+    },
+    "validation": {
+      "environments": 14713,
+      "observed_targets": 38749,
+      "stage_targets": [
+        13158,
+        11276,
+        11710,
+        2605
+      ]
+    },
+    "testing": {
+      "environments": 15360,
+      "observed_targets": 41492,
+      "stage_targets": [
+        13961,
+        12126,
+        12624,
+        2781
+      ]
+    }
+  },
+  "baseline_float32_check": {
+    "compared": 127556,
+    "different": 0,
+    "maximum_difference_days": 0.0
+  },
+  "limits": [
+    "Station holdout, not forward-year validation",
+    "No German GS39 or GS65 truth",
+    "Weather is realized, not issue-time forecast",
+    "Training weather source remains external"
+  ]
+}

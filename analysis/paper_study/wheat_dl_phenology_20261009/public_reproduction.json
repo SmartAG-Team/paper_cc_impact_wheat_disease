@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scope": "Relocated source-only copy with published dependencies; no original maize data, maize weights or German full training archive required",
+  "native_replay": {
+    "status": "passed",
+    "independent_stage_metric_rows": 48,
+    "original_source_event_dates": 83714,
+    "checkpoint_hashes_verified": 6,
+    "public_replay_environments": 32,
+    "external_training_arrays_required": false,
+    "device": "cpu",
+    "verifier_sha256": "a3af9bd60a1de27a9e980cea8797847dfa16017d4d6b0035d66efedd8b2ddc5b",
+    "scope": "Stored event/date calculations and checkpoint inference; independent biological or climate validation is not implied"
+  },
+  "field_files_byte_identical": {
+    "prepared/arrays.npz": "35cc4356cf3173ce070d6e7febdf687ca873174c0dc7de01c9ece8a186f22186",
+    "prepared/fields.csv": "a1e5e16ab8f725156c02810be4dbf8413dcdc726d4ffbfba8eb7965171b40e44",
+    "prepared/constraints_and_tpv.csv": "71da0e46beef8e248436597592dfc6637eb42c2c42f6a8f735d7ec4cd9a2d493",
+    "prepared/tpv_reconciliation.csv": "52ae3f7349cf2b40235a624231d1d0bf67993acfc4d0fbcf4a18d67481c67d73",
+    "evaluation/neural_predictions.csv": "5748618690e8d400d8a990e65e818043bd4ffd02c506891ebca0a8fd8e72760b",
+    "evaluation/field_stage_comparison.csv": "0eaa9360772500fb8f0efd4578b9ade7dfc7030f461ec11a422e67c25fd9af85",
+    "evaluation/interval_metrics.csv": "403df64f67b5a2f5fc3499d18894258081191c7e0f39cc05bd9231f543154437"
+  },
+  "field_evaluation_code_sha256": "1a66daa1832aecd06018ce9d27103a43288c89a9589d9434ed437d8627cbb478",
+  "original_field_evaluation_code_sha256": "610ee149ae1490b867dd46a7b238a53e8cffdd4f8c0b6a213c451c3852879b86",
+  "field_evaluation_manifest_sha256": "c1e6722c3c909e066767878b21c7e2008b35143eae02c9ae101bc549393ae9b9",
+  "raw_weather_example_predictions_identical": true
+}

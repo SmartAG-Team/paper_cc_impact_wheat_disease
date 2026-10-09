@@ -1,0 +1,29 @@
+{
+  "config": {
+    "encoder": "tcn",
+    "seed": 29,
+    "width": 32,
+    "maximum_epochs": 40,
+    "learning_rate": 0.001,
+    "patience": 8,
+    "batch_size": 128
+  },
+  "protocol_sha256": "ba858f6a9bbe71057cacee03301452a0fe39874904d9301ab3d424f040991631",
+  "input_arrays_sha256": "28bd933622adc32a60430eb12deff48049e7b831f5dfd7eabe2d25666089542d",
+  "network_sha256": "b1394fc8b0c38f4419867953f062f5d1dda4fa7b99d7127b9a726113f82cfdcd",
+  "trainer_sha256": "2b4d01eaa0cc7376586894c71c28587f4d8066c6f70ef49a54b02d3cb594b027",
+  "training_ids_sha256": "88e723003503a06bbd5e04fbaf72f807c1380d80045a9acfe1f6373fdd271259",
+  "tuning_ids_sha256": "2f18d7345c4ae66f33271d00c3889d15cf9029098bd8d3330e0150084725ff3a",
+  "status": "complete",
+  "best_epoch": 34,
+  "epochs_run": 40,
+  "validation_crps": 5.259526875519882,
+  "training_environments": 5794,
+  "tuning_environments": 13652,
+  "test_labels_used": false,
+  "device": "mps",
+  "torch_version": "2.14.1",
+  "elapsed_seconds": 74.88540816307068,
+  "checkpoint_sha256": "432ff44e838af209bc76c2ce5aa2ef1c8469abd1a94c89dae89cc1f842a0bb49",
+  "parameter_count": 12738
+}

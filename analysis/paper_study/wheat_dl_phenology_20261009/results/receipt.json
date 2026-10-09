@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "input_arrays_sha256": "28bd933622adc32a60430eb12deff48049e7b831f5dfd7eabe2d25666089542d",
+  "selection_sha256": "e61d63fdb12c4b9b26eb8beedf39077f8617885e99e45971f5b8cdcbabd081c9",
+  "evaluator_sha256": "81b0ebf6aa16751a2ccd2c4cf07bd5fba4e1fd4b0196d272da28b52244ed71f7",
+  "inference_device": "cpu",
+  "torch_version": "2.14.1",
+  "output_sha256": {
+    "Wheat_DL_phenology_comparison.caption.txt": "5fec4836a08fc8cf19b49916aefe39e3863b29d3f26e29722df9509b3e118ac2",
+    "Wheat_DL_phenology_comparison.pdf": "fb6451fe3a8387fbbb3c1d0bf586fafd5e643504bc8b1be976deff4df64b12cc",
+    "Wheat_DL_phenology_comparison.png": "105d08de1f915f4ba3ae03a7dc2088737160d8827460562a05754ecaa7e28c69",
+    "Wheat_DL_phenology_comparison.svg": "d10d16d76d9b47e63d51262f4ed5905540f905ac8e6ba573b114703cd25f48e9",
+    "common_overall_metrics.csv": "32e7c1d7d05c31dbf1262eb9c3de35f7abd2265de2a295a301f8a275443a1775",
+    "common_stage_metrics.csv": "12922aa894069e830d058b1caf03da6325ee05a7bb5bd672f1cad7421bdcfe1a",
+    "decision.json": "46505d2869a25644bff49af4c8b278a1414aaa7d7cb595f796a7b46d4214c8ff",
+    "event_predictions.csv.gz": "8ed22d42aa57fa87c21dc6ef3408f39bf9602fdaa6397628be7bd0553e59eb5f",
+    "population_coverage.csv": "9a11d539af0473367fc75050a81bd2a1e28aa4d1afd70624efebf0aefa69c62f",
+    "selection_before_test.json": "e61d63fdb12c4b9b26eb8beedf39077f8617885e99e45971f5b8cdcbabd081c9",
+    "stage_metrics.csv": "fd73923a2a82788570737cb715becdccd90a4681fc4fa6ce5c07a1fee2ad1f16",
+    "testing_lstm_predictions.npz": "aee6fb9ad9c7e1fd8df5df436d1031fc8b96063c0952c019588ce55fecedecde",
+    "testing_tcn_predictions.npz": "79fd40b66c3c56a042d8a9c5f2c6adce305ae65fc450adc1e45cf4937362a5b1",
+    "validation_lstm_predictions.npz": "88e6a9648924ddf258d4e80466bff43822183816dc0efe15a4f9952269d70b9c",
+    "validation_tcn_predictions.npz": "0789e1e9739a3284d39fe2b618a92bdfa0c38a805ef57c4e1b567c19ac42fdf5"
+  },
+  "artifact_generator_sha256": "0fa7f792b76993c36ca56a7989622b594deba7bd915f6fa584caed3f9545ec7c"
+}

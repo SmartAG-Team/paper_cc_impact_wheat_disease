@@ -1,0 +1,8 @@
+{
+  "selection": "First 32 test environments in source station/sowing order; no error-based selection",
+  "scope": "Inference replay only; full fitting requires the hashed external daily source",
+  "inputs_sha256": "d4d66831510ad4f9aadb002d8102d814243dfd8472db3f9a740ce6fb9ddd45ed",
+  "expected_sha256": "f2619aa2192bdef40a42a42cfdeae8644590e6eef232d40e8ac2d31b04913893",
+  "environments_sha256": "ce3cffa684b7dfcbe4abad04b4397fda95acb47ccfa7d5c358925c41d4c32ecf",
+  "input_metadata_sha256": "aa98d8f515ee7c0ece02a22c8ec2b4479b8999ebb0d0b0797184acc1ba5f26cb"
+}

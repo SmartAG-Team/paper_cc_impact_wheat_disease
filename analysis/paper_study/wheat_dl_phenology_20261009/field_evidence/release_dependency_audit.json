@@ -1,0 +1,383 @@
+{
+  "status": "audited",
+  "branch": "research/wheat-dl-phenology-20261009",
+  "default_sources": [
+    {
+      "name": "membership",
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/phenology/original_input_membership.csv",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 50486,
+      "sha256": "40a3e2eea7ef5c87f871f41610d98f7a80de0971a942de30a86c0430fdd70ade",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "basf_registry",
+      "path": "analysis/paper_study/seasonal_calibration_v1/field_season_membership.csv",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 15198,
+      "sha256": "ba5692f7da331680875358ae151d1973729e0b870218800de7ae8094a581dff2",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "external_registry",
+      "path": "analysis/paper_study/corteva_external_seasonal_v1/external_input_membership.csv",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 32825,
+      "sha256": "dfd972dfe2fc839f0931e13d2352587404ed15046709160f51467eb803785206",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "constraints",
+      "path": "analysis/paper_study/full_validation_20261007/field_stage_constraints_all.csv",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 586652,
+      "sha256": "989d1114e850887c12fb2cdbcf800597507f59b79c4c90de3831b9e8145bc9e5",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "predictions",
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/phenology/predicted_stage_dates.csv",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 186768,
+      "sha256": "b4e0b4b8477970f19509546dcd32da867aea431c7107c69801bff1f6993da552",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "archived_scores",
+      "path": "analysis/paper_study/full_validation_20261007/field_stage_scores_all.csv",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 1238369,
+      "sha256": "e54dc4c25262ab4129da44e3f934d466710919480f6230886922a225bb26241c",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "thresholds",
+      "path": "analysis/paper_study/overwinter_leaf_model_20261006/phenology/calibrated_stage_thresholds.json",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 7482,
+      "sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "weather",
+      "path": "data/paper_study/field_weather_completed/daily_weather.parquet",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 1146027,
+      "sha256": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+      "git_filter": "lfs",
+      "same_as_HEAD_git_blob": false,
+      "content_matches_HEAD": true,
+      "lfs_sha256": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+      "lfs_bytes": 1146027,
+      "lfs_hydrated": true
+    },
+    {
+      "name": "process_parameters",
+      "path": "process_model/parameters/calibration.json",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 3455,
+      "sha256": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "process_transform",
+      "path": "process_model/calibrate.py",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 13135,
+      "sha256": "bbdeaac1f96a2b831c137b68a3e7c4bd52be4e230cb481296658bd45912e6fda",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "packing",
+      "path": "analysis/paper_study/wheat_dl_phenology_20261009/prepare.py",
+      "tracked": false,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 9368,
+      "sha256": "5bc5d8810ee955c66c0af39d147b7350c006a1e4e2541e2373925273d74f1fff",
+      "git_filter": "unspecified"
+    },
+    {
+      "name": "network",
+      "path": "model/wheat_phenology_dl/network.py",
+      "tracked": false,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 3522,
+      "sha256": "b1394fc8b0c38f4419867953f062f5d1dda4fa7b99d7127b9a726113f82cfdcd",
+      "git_filter": "unspecified"
+    }
+  ],
+  "default_sources_all_tracked": false,
+  "default_data_and_parameter_inputs_all_tracked": true,
+  "ignored_default_dependencies": [],
+  "external_filesystem_default_dependencies": [],
+  "lfs_default_dependencies": [
+    "data/paper_study/field_weather_completed/daily_weather.parquet"
+  ],
+  "untracked_default_code": [
+    "analysis/paper_study/wheat_dl_phenology_20261009/prepare.py",
+    "model/wheat_phenology_dl/network.py"
+  ],
+  "additional_code_and_checkpoints": [
+    {
+      "name": "additional_code_or_checkpoint",
+      "path": "process_model/sowing.py",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 3532,
+      "sha256": "5e9411c5808f7db50daca798df2338135a93f9f1158f72d2c8e94c2227d9eb64",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "additional_code_or_checkpoint",
+      "path": "process_model/_support/station_split.py",
+      "tracked": true,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 4029,
+      "sha256": "ddd75789f5218e2fd757e1daeed41075a49f2050ead68cc8899188296b6e31fd",
+      "git_filter": "unspecified",
+      "same_as_HEAD_git_blob": true,
+      "content_matches_HEAD": true
+    },
+    {
+      "name": "additional_code_or_checkpoint",
+      "path": "analysis/paper_study/wheat_dl_phenology_20261009/field_transfer.py",
+      "tracked": false,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 33406,
+      "sha256": "610ee149ae1490b867dd46a7b238a53e8cffdd4f8c0b6a213c451c3852879b86",
+      "git_filter": "unspecified"
+    },
+    {
+      "name": "additional_code_or_checkpoint",
+      "path": "analysis/paper_study/wheat_dl_phenology_20261009/test_field_transfer.py",
+      "tracked": false,
+      "ignored": false,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 11065,
+      "sha256": "53b9392812113944e378759a4e102d0aa9ead91f9c5f010b6379d959022cf011",
+      "git_filter": "unspecified"
+    },
+    {
+      "name": "additional_code_or_checkpoint",
+      "path": "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s17.pt",
+      "tracked": false,
+      "ignored": true,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 58937,
+      "sha256": "93d50f26620cf8b196ca53d787413d7b717e14c0d74e5aaaf3f277866e946d15",
+      "git_filter": "unspecified"
+    },
+    {
+      "name": "additional_code_or_checkpoint",
+      "path": "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s29.pt",
+      "tracked": false,
+      "ignored": true,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 58937,
+      "sha256": "432ff44e838af209bc76c2ce5aa2ef1c8469abd1a94c89dae89cc1f842a0bb49",
+      "git_filter": "unspecified"
+    },
+    {
+      "name": "additional_code_or_checkpoint",
+      "path": "analysis/paper_study/wheat_dl_phenology_20261009/fits/tcn_s43.pt",
+      "tracked": false,
+      "ignored": true,
+      "exists": true,
+      "external": false,
+      "symlink": false,
+      "bytes": 58937,
+      "sha256": "8d834a72e91a70c3ba09c6d430555afe9d3650989ee2aad65c8385398c95e368",
+      "git_filter": "unspecified"
+    }
+  ],
+  "bundle_source_root": "/tmp/wheat-dl-20261009/field",
+  "suggested_parent_destination": "analysis/paper_study/wheat_dl_phenology_20261009/field_evidence",
+  "bundle_files": [
+    {
+      "relative_path": "prepared/arrays.npz",
+      "bytes": 1221065,
+      "sha256": "35cc4356cf3173ce070d6e7febdf687ca873174c0dc7de01c9ece8a186f22186",
+      "destination_git_filter": "lfs"
+    },
+    {
+      "relative_path": "prepared/constraints_and_tpv.csv",
+      "bytes": 295718,
+      "sha256": "71da0e46beef8e248436597592dfc6637eb42c2c42f6a8f735d7ec4cd9a2d493",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "prepared/fields.csv",
+      "bytes": 53448,
+      "sha256": "a1e5e16ab8f725156c02810be4dbf8413dcdc726d4ffbfba8eb7965171b40e44",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "prepared/metadata.json",
+      "bytes": 9131,
+      "sha256": "a307bcb1f2b9aaf028aaf864b0a6e1fc8e1c9732d01b84aab95be0e6cc3e97fb",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "prepared/tpv_reconciliation.csv",
+      "bytes": 67389,
+      "sha256": "52ae3f7349cf2b40235a624231d1d0bf67993acfc4d0fbcf4a18d67481c67d73",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "tcn_selected/evaluation.json",
+      "bytes": 4512,
+      "sha256": "4330abac63fbf73fc144144a0ab83df7090554c80bb3724c433b3d5634672aad",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "tcn_selected/field_stage_comparison.csv",
+      "bytes": 358383,
+      "sha256": "0eaa9360772500fb8f0efd4578b9ade7dfc7030f461ec11a422e67c25fd9af85",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "tcn_selected/interval_metrics.csv",
+      "bytes": 8858,
+      "sha256": "403df64f67b5a2f5fc3499d18894258081191c7e0f39cc05bd9231f543154437",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "tcn_selected/neural_predictions.csv",
+      "bytes": 64192,
+      "sha256": "5748618690e8d400d8a990e65e818043bd4ffd02c506891ebca0a8fd8e72760b",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "tcn_selected/selection_and_forcing_verification.json",
+      "bytes": 1127,
+      "sha256": "e7e6b5aeb0f7ac5bfcbb00425976900573365828d1bbb04b9f8b99c8688b89ab",
+      "destination_git_filter": "unspecified"
+    },
+    {
+      "relative_path": "length_366_verification.json",
+      "bytes": 3026,
+      "sha256": "1911c5f3ddd4b6702219c0269450a99bde1adeded7fd7a7daefdc969871300ba",
+      "destination_git_filter": "unspecified"
+    }
+  ],
+  "bundle_bytes": 2086849,
+  "include_audit_file_itself": "release_dependency_audit.json",
+  "prepared_arrays_shape": [
+    216,
+    384,
+    8
+  ],
+  "field_counts": {
+    "calibration": 28,
+    "reused_development_2019": 45,
+    "reused_external_strict": 143
+  },
+  "runtime_dependencies": {
+    "preparation": [
+      "Python",
+      "numpy",
+      "pandas",
+      "pyarrow"
+    ],
+    "evaluation": [
+      "Python",
+      "numpy",
+      "pandas",
+      "torch"
+    ]
+  },
+  "portability_notes": [
+    "All nine default field data/parameter inputs and the process transform are tracked; contents match HEAD, including the hydrated LFS weather object.",
+    "The weather parquet is a Git LFS dependency: a pointer-only checkout is insufficient for preparation.",
+    "prepare.py and network.py are new untracked code dependencies, not ignored or external data; include them with the parent release.",
+    "Include the three selected TCN checkpoints separately for rerunning neural evaluation; they are not in prepared/ or tcn_selected/.",
+    "The maize project supplies only the current Python environment; field preparation/evaluation does not read maize data or weights.",
+    "The German training raw donor is not accessed by field preparation or evaluation; normalizers are carried in checkpoints.",
+    "Prepared arrays and CSVs load from a supplied directory; stored absolute source/checkpoint paths are provenance references and are not dereferenced by load_prepared.",
+    "Retain JSON provenance and checksums as archived; relocation does not change data file hashes.",
+    "CLI output creation is currently restricted to /tmp/wheat-dl-20261009/field; copied evidence can be loaded from another path.",
+    "Release actual NPZ/checkpoint payloads or make their LFS objects available; Git LFS pointers alone do not constitute runnable inputs.",
+    "No repository files were copied or edited during this sensitivity/audit task."
+  ]
+}

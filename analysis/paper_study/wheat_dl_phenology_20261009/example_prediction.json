@@ -1,0 +1,56 @@
+{
+  "stages": [
+    {
+      "BBCH": 10,
+      "lower90_date": "1985-09-27",
+      "median_date": "1985-09-30",
+      "upper90_date": "1985-10-11",
+      "probability_reached_by_last_weather_day": 1.0
+    },
+    {
+      "BBCH": 31,
+      "lower90_date": "1986-05-02",
+      "median_date": "1986-05-14",
+      "upper90_date": "1986-05-24",
+      "probability_reached_by_last_weather_day": 1.0
+    },
+    {
+      "BBCH": 51,
+      "lower90_date": "1986-06-03",
+      "median_date": "1986-06-15",
+      "upper90_date": "1986-06-28",
+      "probability_reached_by_last_weather_day": 1.0
+    },
+    {
+      "BBCH": 85,
+      "lower90_date": "1986-07-18",
+      "median_date": "1986-08-02",
+      "upper90_date": "1986-08-15",
+      "probability_reached_by_last_weather_day": 0.9999451637268066
+    }
+  ],
+  "weather_days": 360,
+  "sowing": "1985-09-19",
+  "latitude": 54.6167,
+  "checkpoints": [
+    {
+      "file": "tcn_s17.pt",
+      "sha256": "93d50f26620cf8b196ca53d787413d7b717e14c0d74e5aaaf3f277866e946d15",
+      "encoder": "tcn",
+      "seed": 17
+    },
+    {
+      "file": "tcn_s29.pt",
+      "sha256": "432ff44e838af209bc76c2ce5aa2ef1c8469abd1a94c89dae89cc1f842a0bb49",
+      "encoder": "tcn",
+      "seed": 29
+    },
+    {
+      "file": "tcn_s43.pt",
+      "sha256": "8d834a72e91a70c3ba09c6d430555afe9d3650989ee2aad65c8385398c95e368",
+      "encoder": "tcn",
+      "seed": 43
+    }
+  ],
+  "scope": "Native wheat stage hindcast conditional on supplied weather and fitted weights; GS39/65 are not native outputs; no fixed-date fallback"
+}

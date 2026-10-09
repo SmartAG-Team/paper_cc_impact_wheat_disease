@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_stage_metric_rows": 48,
+  "original_source_event_dates": 83714,
+  "checkpoint_hashes_verified": 6,
+  "public_replay_environments": 32,
+  "external_training_arrays_required": false,
+  "device": "cpu",
+  "verifier_sha256": "a3af9bd60a1de27a9e980cea8797847dfa16017d4d6b0035d66efedd8b2ddc5b",
+  "scope": "Stored event/date calculations and checkpoint inference; independent biological or climate validation is not implied"
+}

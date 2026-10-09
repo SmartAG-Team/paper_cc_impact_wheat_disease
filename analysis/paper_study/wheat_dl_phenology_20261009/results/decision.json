@@ -1,0 +1,139 @@
+{
+  "selected_family": "tcn",
+  "native_stage_gate": {
+    "validation_improves": true,
+    "test_improves": true,
+    "paired_upper95_below_zero": true,
+    "soft_dough_not_worse": true,
+    "matched_coverage_not_worse": false
+  },
+  "native_stage_candidate_supported": false,
+  "disease_engine_replacement": false,
+  "climate_archive_changed": false,
+  "reason": "Full disease-engine replacement additionally requires field-stage transfer and climate-applicability evidence.",
+  "baseline_test": {
+    "observed": 41492,
+    "matched": 40898,
+    "pooled_mae": 8.020441055297852,
+    "macro_mae": 7.974458813667297,
+    "macro_penalized_mae": 12.427497625350952,
+    "stages": [
+      {
+        "observed": 13961,
+        "matched": 13471,
+        "mae_days": 6.029693603515625,
+        "rmse_days": 10.284989356994629,
+        "bias_days": 1.9037933349609375,
+        "penalized_mae_days": 18.663848876953125
+      },
+      {
+        "observed": 12126,
+        "matched": 12115,
+        "mae_days": 11.587865829467773,
+        "rmse_days": 15.263434410095215,
+        "bias_days": -0.8370614647865295,
+        "penalized_mae_days": 11.909368515014648
+      },
+      {
+        "observed": 12624,
+        "matched": 12553,
+        "mae_days": 6.841711044311523,
+        "rmse_days": 9.537842750549316,
+        "bias_days": 0.46490877866744995,
+        "penalized_mae_days": 8.861692428588867
+      },
+      {
+        "observed": 2781,
+        "matched": 2759,
+        "mae_days": 7.438564777374268,
+        "rmse_days": 9.609161376953125,
+        "bias_days": -0.2685755789279938,
+        "penalized_mae_days": 10.275080680847168
+      }
+    ]
+  },
+  "selected_test": {
+    "observed": 41492,
+    "matched": 41020,
+    "pooled_mae": 7.1393466601657725,
+    "macro_mae": 7.167753380467744,
+    "macro_penalized_mae": 10.86945341210738,
+    "stages": [
+      {
+        "observed": 13961,
+        "matched": 13589,
+        "mae_days": 4.405695783354184,
+        "rmse_days": 6.563585412693138,
+        "bias_days": -1.3876664949591582,
+        "penalized_mae_days": 14.0406131365948
+      },
+      {
+        "observed": 12126,
+        "matched": 12116,
+        "mae_days": 11.061901617695609,
+        "rmse_days": 14.549763197795286,
+        "bias_days": -0.8849455265764279,
+        "penalized_mae_days": 11.354609929078014
+      },
+      {
+        "observed": 12624,
+        "matched": 12557,
+        "mae_days": 6.382894003344748,
+        "rmse_days": 9.03845764785489,
+        "bias_days": 0.0782033925300629,
+        "penalized_mae_days": 8.291508238276299
+      },
+      {
+        "observed": 2781,
+        "matched": 2758,
+        "mae_days": 6.8205221174764326,
+        "rmse_days": 8.898692573302029,
+        "bias_days": 0.09535895576504713,
+        "penalized_mae_days": 9.791082344480403
+      }
+    ]
+  },
+  "paired_station_intervals": {
+    "validation": {
+      "lstm": {
+        "difference_days": -0.779170461439341,
+        "lower95": -0.8651612423268451,
+        "upper95": -0.7007588748352626,
+        "stations": 1169,
+        "matched_events": 38124,
+        "bootstrap_draws": 2000,
+        "scope": "Candidate minus T-P-V absolute error on common events; station-cluster resampling conditional on fitted models"
+      },
+      "tcn": {
+        "difference_days": -0.7999283061069049,
+        "lower95": -0.8833673566687703,
+        "upper95": -0.7177658785600665,
+        "stations": 1168,
+        "matched_events": 38129,
+        "bootstrap_draws": 2000,
+        "scope": "Candidate minus T-P-V absolute error on common events; station-cluster resampling conditional on fitted models"
+      }
+    },
+    "testing": {
+      "lstm": {
+        "difference_days": -0.781442917697373,
+        "lower95": -0.8571797573843036,
+        "upper95": -0.7126020150216759,
+        "stations": 1126,
+        "matched_events": 40877,
+        "bootstrap_draws": 2000,
+        "scope": "Candidate minus T-P-V absolute error on common events; station-cluster resampling conditional on fitted models"
+      },
+      "tcn": {
+        "difference_days": -0.799440032922324,
+        "lower95": -0.8738826439269783,
+        "upper95": -0.7293094385428817,
+        "stations": 1126,
+        "matched_events": 40883,
+        "bootstrap_draws": 2000,
+        "scope": "Candidate minus T-P-V absolute error on common events; station-cluster resampling conditional on fitted models"
+      }
+    }
+  },
+  "evaluation_scope": "Retrospective station-held-out wheat evaluation; not a new temporal or climate-extrapolation validation"
+}
