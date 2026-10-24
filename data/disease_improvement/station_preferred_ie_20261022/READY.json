@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "9b09255db2452edc2c08e304f06950a565f41ac8bcfa9cf0ed2497e16f209908",
+  "predictors_sha256": "21e19e7c44e0dcbde5b063010916164944f65e2c38c82547997a786a051fc748",
+  "verification_sha256": "554433e73d1ca30faeadbaa321cd593726841ce7e59e379b11dd316f4dd10634",
+  "qualification_source_manifest_sha256": "814f2636fa1bcab8725bc6c15bd1a86d0f26f0916a4ad44a8738402564e8179d",
+  "completed_utc": "2026-10-22T04:14:47.018863+00:00",
+  "immutable": true
+}

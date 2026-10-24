@@ -7,7 +7,7 @@ import pytest
 
 def field():
     try:
-        return importlib.import_module('calibration.primary_secondary.field_data')
+        return importlib.import_module('models.calibration.primary_secondary.field_data')
     except ModuleNotFoundError:
         pytest.fail('Chronological field preparation is not implemented')
 

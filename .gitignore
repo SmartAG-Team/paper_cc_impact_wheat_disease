@@ -1,4 +1,4 @@
-# Local environments, caches and credentials
+# Local environment, credentials, caches and build products
 .DS_Store
 .venv/
 __pycache__/
@@ -17,58 +17,23 @@ __pycache__/
 credentials.json
 client_secret*.json
 node_modules/
-
-# Raw inputs remain local; selected archived inputs are explicitly tracked.
-/data/
-
-# Only the current submission is retained as publication output.
-/publication/*
-!/publication/european_wheat_stb/
-
-# Analysis outputs are tracked selectively; source files remain discoverable.
-/analysis/**
-!/analysis/**/
-!/analysis/**/*.py
-!/analysis/**/*.js
-!/analysis/**/*.cjs
-!/analysis/**/*.sh
-!/analysis/**/*.R
-!/analysis/**/*.md
-!/analysis/**/*.csl
-!/analysis/**/*.bib
-!/analysis/**/README*
-!/analysis/**/requirements*.txt
-!/analysis/**/package.json
-!/analysis/**/package-lock.json
-
-# Local copies, previous submissions and visual inspection exports
-**/before*/
-**/pre_review/
-**/backups/
-**/clean_reproduction/
-**/midcentury_evidence/
-**/reviewed_publication/
-**/final_publication/
-**/checked_publication/
-**/visual_review*/
-**/publication_build_before*/
-/analysis/septoria-report/
-**/annual_outputs/
 *.log
 *.tmp
 
-# These exclusions take precedence over analysis source-file exceptions.
-**/node_modules/
-**/__pycache__/
+# Large final forcing stays local; its JSON source receipts remain discoverable.
+/data/paper_study/climate/nasa_v2/daily/**/*.parquet
+/data/paper_study/climate/nasa_v2/daily
 
-# Superseded working copies and generated inspection artifacts
-**/source_snapshot/
-**/runtime_source_snapshot/
-**/aborted_*/
-**/render_check/
-**/figure_preview/
-**/pooled_figure_preview/
-**/staging/
+# French historical weather archives stay local; keep URLs, hashes and metadata receipts.
+/data/external_weather_validation_20261022/meteo_france/*.csv.gz
+/data/external_weather_validation_20261022/meteo_france/*.partial
+/data/external_weather_validation_20261022/meteo_france/station_metadata.geojson
 
-# Optional submission bundle duplicates the maintained repository files.
-/publication/european_wheat_stb/Software_and_Evidence.zip
+# New simulation output and temporary work are outside the retained evidence.
+/outputs/
+/scratch/
+**/annual_outputs/
+
+
+# Locally regenerated paper runs
+/data/reproductions/

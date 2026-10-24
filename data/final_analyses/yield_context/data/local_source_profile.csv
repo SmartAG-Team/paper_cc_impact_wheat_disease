@@ -1,0 +1,7 @@
+source_id,path,sha256,rows,columns,candidate_key,duplicate_key_rows,fixed_effect_slopes_with_SE,distinct_year,distinct_composition_id,distinct_site_year,distinct_sites
+Parker2004,data/final_study/evidence/yield_evidence/parker2004_table5_yield_slopes.csv,55d7c0d589607c25b32ad4b2d907242bb478a7abc91c144e5c5e6cccb2d3b518,25,12,cultivar,0.0,21.0,,,,
+Foulkes2006,data/final_study/evidence/yield_evidence/stb_independent/foulkes2006_table2_paired_predicted_means.csv,57eba3c07759127541c73a4153a63af8bee8a0f2a30bbd543dad87c601729e1e,8,22,genotype,0.0,,,,,
+Tunisia2020_Dryad,data/final_study/evidence/crop_damage_validation/tunisia_reference_features.csv,05363d889f0df745641d16540ef9f3c4595df0eb7ef5049a993ce592d4c85790,40,20,plot_season_id,0.0,,1.0,10.0,,
+Swiss_BLENDIT,data/final_study/inputs/STB_paper_followup_20261009/analysis_ready/swiss_stb_yield_724.csv,9f8e260e61014c27770b56a93e6ceb5040598da2ec3c6306ee2ddefebe70bfaa,724,40,record_id,0.0,,2.0,,10.0,5.0
+France_Mauguio,data/final_study/inputs/STB_paper_followup_20261009/analysis_ready/france_stb_yield_224.csv,f22e4552aad69bf70591e54845f7327d6f35c23caaf7e780259b39484c1c8bf4,224,37,record_id,0.0,,1.0,,1.0,
+Nordic_NFTS_recent,data/final_study/inputs/public_septoria/nfts-extension-20261009/nfts_stb_severity_yield_matched.csv,cc60f524eb8bc310f7315a723843e220ec51c449ffdea8d2ce5a04d41379face,259,49,,,,,,,

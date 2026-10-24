@@ -1,5 +1,5 @@
 import numpy as np
-from calibration.seasonal_septoria.spatial_estimation import anchored_parameter_means, stratified_mcse
+from models.calibration.seasonal_septoria.spatial_estimation import anchored_parameter_means, stratified_mcse
 
 
 def test_exact_full_grid_point_anchor_and_constant_parameter_perturbation():

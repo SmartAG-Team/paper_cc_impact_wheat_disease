@@ -1,0 +1,23 @@
+Host exposure windows shape projected Septoria damage and regional sowing adaptation in European wheat
+
+Package contents
+Manuscript.docx/pdf and Supplementary_Information.docx/pdf share their corresponding Markdown sources. Mathematical_Model_Specification.docx supplies editable equations. Figures are supplied as single 300-dpi PNGs, 19 cm wide with 12 pt text. The data/fig1–fig10 and data/figs1–figs3 folders retain plotting variables, units, panel identities and displayed intervals. publication_manifest.json authenticates every delivered file.
+
+Scientific scope
+Monitoring uses strictly earlier own-field disease and previous-day weather. Its 17.15/17.31 percentage-point temporal/spatial RMSEs do not validate the separate autonomous climate process. Qualified F1 checks reuse the original calibration/evaluation memberships. The climate endpoint is a normalized affected-tissue integral, not measured physiological damage or grain-yield loss. Fixed wheat area and production weights describe the reference agricultural geography. Calibration, evaluation, temporal support and statistical weights remain explicit in the supplementary information and numerical records.
+
+Portable checks
+Use Python 3.12 and install code/requirements.txt. Each destination must be new. Commands below run from this package directory:
+
+  python code/replay_f1.py --output /tmp/wheat_f1_replay
+  python code/replay_onset.py --output /tmp/wheat_onset_replay
+  python code/replay_onset_cohorts.py --output /tmp/wheat_onset_cohorts
+  python code/recompute_endpoint_scores.py --output /tmp/wheat_endpoint_scores
+
+These scripts reconstruct flag-leaf process states, bracketed onset histories, all 55 F1 field-seasons and the retained endpoint comparisons using bundled forcing and frozen parameters. They perform no model fitting.
+
+Full repository
+The repository README.md documents installation, saved monitoring-fold replay, figure/document generation and continental climate replay. Full climate simulation requires the 687 large forcing files identified by data/final_climate/scientific_manifest.json; those files are not included in this portable package. Historical source paths in immutable records identify original provenance. Current repository inputs are organized under data/final_monitoring/, data/final_analyses/, data/final_climate/ and data/final_study/.
+
+Unified repository workflow
+From the repository root, python paper/run.py --output data/reproductions/my_run replays the shared models, recomputes analyses and regenerates all figures and documents. --full-climate --deep-process additionally rebuilds the continental and sampled process simulations from daily forcing. paper/figure_index.csv maps every figure to its plotting data, rendering script and upstream analysis. All model code is under models/ and all numerical inputs/assets under data/.

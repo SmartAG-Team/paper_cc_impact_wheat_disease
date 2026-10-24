@@ -1,0 +1,8 @@
+field_id,source,season_year,phase,site_id,assessments,observation_status,observed_positive,first_assessment_date,last_assessment_date,last_zero_state_day,first_positive_state_day,bracket_width_days,model_state_day,model_onset_date,model_onset_detected,observational_constraint_compatible,constraint_excess_days,signed_interval_excess_days,interval_excess_days
+basf-wheat-diseases|11|2017,BASF,2017,calibration,era5loc_c36c557e4afc,4,zero_to_positive,True,2017-05-22,2017-06-30,204.0,227.0,23.0,224,2017-06-11,True,True,0.0,0.0,0.0
+basf-wheat-diseases|2|2017,BASF,2017,calibration,era5loc_98874af9c8d8,3,zero_to_positive,True,2017-05-22,2017-07-03,219.0,248.0,29.0,238,2017-06-10,True,True,0.0,0.0,0.0
+basf-wheat-diseases|35|2019,BASF,2019,evaluation,era5loc_cb5f84b33b84,3,zero_to_positive,True,2019-06-06,2019-06-24,247.0,255.0,8.0,242,2019-06-01,True,False,6.0,-6.0,6.0
+basf-wheat-diseases|38|2019,BASF,2019,evaluation,era5loc_760a53435625,3,zero_to_positive,True,2019-05-24,2019-06-17,236.0,254.0,18.0,240,2019-05-28,True,True,0.0,0.0,0.0
+basf-wheat-diseases|45|2019,BASF,2019,evaluation,era5loc_9df6a8624376,5,zero_to_positive,True,2019-04-29,2019-06-24,181.0,195.0,14.0,194,2019-05-12,True,True,0.0,0.0,0.0
+basf-wheat-diseases|4|2017,BASF,2017,calibration,era5loc_a3b551fcca14,4,zero_to_positive,True,2017-05-15,2017-06-16,222.0,234.0,12.0,237,2017-06-09,True,False,3.0,3.0,3.0
+basf-wheat-diseases|66|2019,BASF,2019,evaluation,era5loc_da90f16ecea0,4,zero_to_positive,True,2019-05-30,2019-07-01,223.0,234.0,11.0,215,2019-06-02,True,False,9.0,-9.0,9.0

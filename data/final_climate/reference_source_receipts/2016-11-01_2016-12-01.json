@@ -1,0 +1,84 @@
+{
+  "source_collection": "ECMWF/ERA5/HOURLY",
+  "source_catalog": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_HOURLY",
+  "window_start": "2016-11-01",
+  "window_end_exclusive": "2016-12-01",
+  "hourly_images": 721,
+  "source_projection": {
+    "type": "Projection",
+    "crs": "EPSG:4326",
+    "transform": [
+      0.25,
+      0,
+      -180.125,
+      0,
+      -0.25,
+      90.125
+    ]
+  },
+  "target_transform": [
+    0.25,
+    0,
+    -180,
+    0,
+    -0.25,
+    90
+  ],
+  "resampling": "Daily continuous fields bilinearly interpolated from native ERA5 grid to common centres",
+  "temperature": "Mean/minimum/maximum of 24 hourly 2m temperatures at 00–23 UTC; K minus 273.15",
+  "relative_humidity": "Daily arithmetic mean of 24 hourly values: 100exp(17.625Td/(243.04+Td)-17.625T/(243.04+T)), T/Td in °C; hourly RH clipped to 0–100%",
+  "precipitation": "Sum of 24 one-hour accumulations ending 01 UTC on day D through 00 UTC on D+1; m×1000; total rain+snow water equivalent",
+  "units": {
+    "tmean_c": "degC",
+    "tmin_c": "degC",
+    "tmax_c": "degC",
+    "precipitation_mm": "mm/day",
+    "rh_mean_pct": "%"
+  },
+  "attribution": "Contains modified Copernicus Climate Change Service information; supplied via Google Earth Engine",
+  "license_url": "https://apps.ecmwf.int/datasets/licences/copernicus/",
+  "registry_path": "data/paper_study/wheat_area/europe_wheat_cells_025.parquet",
+  "registry_sha256": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+  "download_bytes": 6611789,
+  "download_sha256": "e02816b71ee0b0a025cc5e8ff6f3222882f6311b09e8e3e2f27b7d9f37afd735",
+  "download_URL_policy": "Ephemeral signed URL excluded from provenance",
+  "raw_raster_retention": "Transient in memory; extracted positive-wheat cell values archived",
+  "numeric_adjustments": {
+    "precipitation_negative_cells": 10987,
+    "precipitation_raw_min_mm": -8.381903171539307e-06
+  },
+  "quality": {
+    "rows": 448230,
+    "days": 30,
+    "cells": 14941,
+    "date_min": "2016-11-01",
+    "date_max": "2016-11-30",
+    "missing_values": {
+      "tmean_c": 0,
+      "tmax_c": 0,
+      "precipitation_mm": 0,
+      "rh_mean_pct": 0
+    },
+    "ranges": {
+      "tmean_c": {
+        "min": -29.01325798034668,
+        "max": 23.24212074279785
+      },
+      "tmax_c": {
+        "min": -24.30912971496582,
+        "max": 27.20708656311035
+      },
+      "precipitation_mm": {
+        "min": 0.0,
+        "max": 180.76007080078125
+      },
+      "rh_mean_pct": {
+        "min": 18.623315811157227,
+        "max": 99.92906951904297
+      }
+    }
+  },
+  "parquet_sha256": "ae00e8b283e507aeed6d4a667c054e88172d55586eb78ee8652e778851721b3a",
+  "parquet_bytes": 11293815,
+  "retrieved_utc": "2026-10-05T12:20:38.072547+00:00"
+}

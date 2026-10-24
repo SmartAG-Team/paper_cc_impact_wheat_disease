@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "records": 57600,
+  "baseline_season_comparisons": 180,
+  "maximum_baseline_difference": 1.4210854715202004e-14,
+  "all_option_three_gcm_common_draw_years": 1656,
+  "common_unique_cells": 57,
+  "zero_overlap_complete_seasons": 556,
+  "delta_columns_verified": [
+    "delta_whole_proxy_days",
+    "delta_shared_proxy_days",
+    "delta_whole_reference_days",
+    "delta_shared_reference_days",
+    "delta_grain_fill_days",
+    "delta_grain_fill_mean_temperature_c",
+    "delta_grain_fill_tmax_above30_days",
+    "delta_grain_fill_rainfall_mm",
+    "delta_shared_window_days"
+  ],
+  "validation": "independently recomputed common support, weighted endpoint/contrast means and training-only regional choices",
+  "source_sha256": "717d49e687874dbd6e10490b3581622855b7967cae505d77517a40028fc66109",
+  "receipt_sha256": "1eb251865467ea3988ac49f12adfa56523ba61c6a998cda894cfb9be784bb479"
+}

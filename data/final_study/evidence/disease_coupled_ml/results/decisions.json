@@ -1,0 +1,1282 @@
+{
+  "selected_pipeline": {
+    "primary_candidate": "selected_pipeline",
+    "magnitude_support": true,
+    "independent_validation": false,
+    "prospective_validation": false,
+    "climate_adoption": false,
+    "functional_canopy_validated": false,
+    "yield_validated": false,
+    "onset_changed_by_ml": false,
+    "criteria": [
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -4.090758176686773,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -7.566049842417814,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.043641449814366,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -9.93766371147149,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -171.50412359288683,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -143.4724552526058,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -196.01812336292352,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -193.4415847416211,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -3.423391089703603,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -6.597210359473083,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.509999701423098,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -8.447348602465787,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -150.93556862745817,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -136.32410419489486,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -215.2412155288722,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -206.6637625790429,
+        "passed": true
+      }
+    ],
+    "all_outcomes_previously_examined": true,
+    "history_conditioned": true,
+    "information_setting": "Rolling assessment-conditioned prediction with weather/crop cold-start fallback",
+    "whole_season_forecast_issued_at_first_assessment": false
+  },
+  "fold_leaf_mean": {
+    "primary_candidate": "fold_leaf_mean",
+    "magnitude_support": false,
+    "independent_validation": false,
+    "prospective_validation": false,
+    "climate_adoption": false,
+    "functional_canopy_validated": false,
+    "yield_validated": false,
+    "onset_changed_by_ml": false,
+    "criteria": [
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 4.880347922500981,
+        "passed": false
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": 0.0,
+        "passed": false
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 0.0,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 0.0,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -1.3694812558205653,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": 0.0,
+        "passed": false
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 0.0,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 0.0,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 4.585973618343653,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": 0.0,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 0.0,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 0.0,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 20.428590325448557,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": 0.0,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 0.0,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 0.0,
+        "passed": true
+      }
+    ],
+    "all_outcomes_previously_examined": true,
+    "history_conditioned": false,
+    "information_setting": "Weather/crop-only",
+    "whole_season_forecast_issued_at_first_assessment": false
+  },
+  "state_baseline": {
+    "primary_candidate": "state_baseline",
+    "magnitude_support": false,
+    "independent_validation": false,
+    "prospective_validation": false,
+    "climate_adoption": false,
+    "functional_canopy_validated": false,
+    "yield_validated": false,
+    "onset_changed_by_ml": false,
+    "criteria": [
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 3.74779675069358,
+        "passed": false
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -0.2107945607126036,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -0.8060688571999144,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -0.9948442027379123,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -107.02223086696137,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -62.61136258983254,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -146.6695364926369,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -310.1324362338775,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 4.07820190287713,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": 0.29795958212148393,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -0.9950766038408112,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -0.13728258001086147,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -119.6518987675485,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -92.32215316600319,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -167.1663070026692,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -429.64035765706,
+        "passed": true
+      }
+    ],
+    "all_outcomes_previously_examined": true,
+    "history_conditioned": true,
+    "information_setting": "Rolling assessment-conditioned prediction with weather/crop cold-start fallback",
+    "whole_season_forecast_issued_at_first_assessment": false
+  },
+  "weather_rf": {
+    "primary_candidate": "weather_rf",
+    "magnitude_support": false,
+    "independent_validation": false,
+    "prospective_validation": false,
+    "climate_adoption": false,
+    "functional_canopy_validated": false,
+    "yield_validated": false,
+    "onset_changed_by_ml": false,
+    "criteria": [
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 2.8252607099272686,
+        "passed": false
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -0.11387860531485709,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -1.3741008149295588,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -2.109015350702549,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 174.28701558607023,
+        "passed": false
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": 701.6921735445499,
+        "passed": false
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -27.557521295634615,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 439.94522393787986,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 3.119216632311513,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": 0.6023542207891526,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -2.0738709190935722,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -0.9458038469967605,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": 209.68617854163065,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": 791.3567519883339,
+        "passed": false
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -31.746137692124023,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": 574.1798157117262,
+        "passed": false
+      }
+    ],
+    "all_outcomes_previously_examined": true,
+    "history_conditioned": false,
+    "information_setting": "Weather/crop-only",
+    "whole_season_forecast_issued_at_first_assessment": false
+  },
+  "history_rf": {
+    "primary_candidate": "history_rf",
+    "magnitude_support": true,
+    "independent_validation": false,
+    "prospective_validation": false,
+    "climate_adoption": false,
+    "functional_canopy_validated": false,
+    "yield_validated": false,
+    "onset_changed_by_ml": false,
+    "criteria": [
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -4.132614940109657,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -7.637347244867876,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.049032898710788,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -9.916576708757734,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -171.0588280454377,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -137.6682161725283,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -200.9093184788989,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -165.38639825529162,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -3.4589140255353628,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -6.852553364300922,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.67097144671942,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -8.56597605254651,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -158.42213642976506,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -139.54367713371505,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -220.79748806851913,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -172.65409692792048,
+        "passed": true
+      }
+    ],
+    "all_outcomes_previously_examined": true,
+    "history_conditioned": true,
+    "information_setting": "Rolling assessment-conditioned prediction with weather/crop cold-start fallback",
+    "whole_season_forecast_issued_at_first_assessment": false
+  },
+  "history_hgb": {
+    "primary_candidate": "history_hgb",
+    "magnitude_support": true,
+    "independent_validation": false,
+    "prospective_validation": false,
+    "climate_adoption": false,
+    "functional_canopy_validated": false,
+    "yield_validated": false,
+    "onset_changed_by_ml": false,
+    "criteria": [
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -4.164330867975809,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -7.6462167157398016,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.043641449814366,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -10.09934335155171,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -172.93256309718058,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -145.27303974359646,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -196.01812336292352,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -195.20037496260954,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -3.4761418489200917,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -6.64486006047975,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.509999701423098,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -8.555096795813771,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -153.83165971123086,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -137.84181420462642,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -215.2412155288722,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -208.01367644708864,
+        "passed": true
+      }
+    ],
+    "all_outcomes_previously_examined": true,
+    "history_conditioned": true,
+    "information_setting": "Rolling assessment-conditioned prediction with weather/crop cold-start fallback",
+    "whole_season_forecast_issued_at_first_assessment": false
+  },
+  "mixture_uniform": {
+    "primary_candidate": "mixture_uniform",
+    "magnitude_support": true,
+    "independent_validation": false,
+    "prospective_validation": false,
+    "climate_adoption": false,
+    "functional_canopy_validated": false,
+    "yield_validated": false,
+    "onset_changed_by_ml": false,
+    "criteria": [
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -1.773912848766877,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -5.521107944431914,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -4.863576957832553,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.301148442100544,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -155.29008780593477,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -105.78670977939166,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -144.36421444874208,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -136.16848238413354,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -1.3776828412312343,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -5.00616086342799,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -5.291795101907926,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -6.270641812737878,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -144.6115963047808,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -107.729858590396,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -156.17678302910463,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -138.89175098685268,
+        "passed": true
+      }
+    ],
+    "all_outcomes_previously_examined": true,
+    "history_conditioned": true,
+    "information_setting": "Rolling assessment-conditioned prediction with weather/crop cold-start fallback",
+    "whole_season_forecast_issued_at_first_assessment": false
+  },
+  "mixture_composite": {
+    "primary_candidate": "mixture_composite",
+    "magnitude_support": true,
+    "independent_validation": false,
+    "prospective_validation": false,
+    "climate_adoption": false,
+    "functional_canopy_validated": false,
+    "yield_validated": false,
+    "onset_changed_by_ml": false,
+    "criteria": [
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -4.1466517259068745,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -7.631052077717576,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.083415062482146,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -9.94149908717721,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -171.73615099684423,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -128.44944077517206,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -196.71619792292788,
+        "passed": true
+      },
+      {
+        "population": "all_future_records",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -155.0249190369525,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -3.4416030526143437,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -6.6827971977814675,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -7.580988242001176,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "assessment",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -8.458885193631037,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "joint",
+        "rule": "paired_upper_below_zero",
+        "value": -153.72720441852385,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "pooled",
+        "reference": "fold_leaf_mean",
+        "rule": "paired_upper_below_zero",
+        "value": -126.5849158471239,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "BASF",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -215.8552887867978,
+        "passed": true
+      },
+      {
+        "population": "new_sites",
+        "endpoint": "window_integral",
+        "source": "Corteva",
+        "reference": "fold_leaf_mean",
+        "rule": "point_error_does_not_increase",
+        "value": -155.9393121552564,
+        "passed": true
+      }
+    ],
+    "all_outcomes_previously_examined": true,
+    "history_conditioned": true,
+    "information_setting": "Rolling assessment-conditioned prediction with weather/crop cold-start fallback",
+    "whole_season_forecast_issued_at_first_assessment": false
+  }
+}

@@ -2,7 +2,7 @@ from types import SimpleNamespace
 import numpy as np
 import pandas as pd
 import pytest
-from calibration.seasonal_septoria import infection_priority as p
+from models.calibration.seasonal_septoria import infection_priority as p
 
 
 def inputs():

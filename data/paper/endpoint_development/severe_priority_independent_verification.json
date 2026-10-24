@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "source_hashes_verified": 74,
+  "all_source_hashes_match": true,
+  "new_replay_artifact_hashes_verified": 54,
+  "new_replay_artifacts_match": true,
+  "prior_replay_artifacts_verified": 52,
+  "prior_experiment_unchanged": true,
+  "saved_fold_model_replays": 20,
+  "saved_prediction_exact_equality": true,
+  "original_evaluation_weights_exact": true,
+  "training_weights_verified_fixed_2x": true,
+  "all_fits_converged": true,
+  "repository_tests": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 547,
+    "failed": 0,
+    "warnings": 7,
+    "seconds": 45.34,
+    "warnings_summary": "Existing NumPy generic-timedelta deprecation in process_model/sowing.py:30"
+  },
+  "test_sha256": "92f7c94b07faf1977a4bd47e639cd64af292112054b0ed167437bcbedef62ebd",
+  "frontier_artifact_sha256": "0b1918c0d927bf06d43c5fc97d56f98e6a3d59d8d78c9c3cfa54df2edbc2eb87",
+  "climate_and_active_pointers_unchanged": true
+}

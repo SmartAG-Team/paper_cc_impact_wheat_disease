@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "cells": 14941,
+  "wheat_positive_cells": 14941,
+  "calendar_eligible_cells": 14932,
+  "non_wheat_cells_in_registry": 0,
+  "mask": "positive SPAM2020 harvested area for all wheat",
+  "calendar": "GGCMI winter-wheat rainfed; imposed common management scenario",
+  "future_land_use": "fixed baseline; no future relocation or area change",
+  "map_geometry": "whole native0.25degree cell footprint; response represents its wheat component",
+  "area_weighting": "harvested wheat area, with valid-pair adjustment where specified",
+  "diagnostic_thresholds": [
+    {
+      "physical_wheat_fraction_below": 0.001,
+      "cells": 1331,
+      "harvested_wheat_area_percent": 0.02960502702243092
+    },
+    {
+      "physical_wheat_fraction_below": 0.01,
+      "cells": 3370,
+      "harvested_wheat_area_percent": 0.92102103454637
+    },
+    {
+      "physical_wheat_fraction_below": 0.05,
+      "cells": 7459,
+      "harvested_wheat_area_percent": 11.607269240943888
+    },
+    {
+      "physical_wheat_fraction_below": 0.1,
+      "cells": 10338,
+      "harvested_wheat_area_percent": 31.30733218429506
+    }
+  ],
+  "thresholds_used_for_exclusion": false,
+  "simulation_membership_changed": false,
+  "simulations_rerun": false,
+  "source_sha256": {
+    "data/final_climate/cells.parquet": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+    "data/final_climate/calendars.parquet": "0a876eb6725dc141877a3d23f98e040fa8c6afb1046065bec624aff08207283b",
+    "analysis/final_climate/run.py": "04084131e23fd2413e780d924839a8053fb71269ed2cba85dbd3c26e280bfec8"
+  }
+}

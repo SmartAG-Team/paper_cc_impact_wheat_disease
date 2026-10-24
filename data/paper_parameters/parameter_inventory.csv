@@ -1,0 +1,26 @@
+parameter,value,scope
+primary_scale,0.001,Retained disease-process setting
+secondary_scale,10.0,Retained disease-process setting
+latent_reference_days,20.0,Retained disease-process setting
+latent_stages,3.0,Retained disease-process setting
+nonsporulating_reference_days,3.0,Retained disease-process setting
+infectious_reference_days,21.0,Retained disease-process setting
+residue_maturation_reference_days,30.0,Retained disease-process setting
+residue_decay_reference_days,90.0,Retained disease-process setting
+initial_ready_fraction,0.5,Retained disease-process setting
+rank_distance_scale,2.0,Retained disease-process setting
+rain_scale_mm,2.0,Retained disease-process setting
+local_airborne_fraction,0.1,Retained disease-process setting
+contact_fraction,0.2,Retained disease-process setting
+rank_spacing_units,120.0,Effective development-clock spacing; not measured phyllochron
+constant_imported_pressure,0.1,Assumed effective source pressure
+rain_rate_mm_hour,0.45,Meteorology-only duration proxy
+threshold_10,142.01,Retained model stage gate; not numerical distance in BBCH
+threshold_31,542.3,Retained model stage gate; not numerical distance in BBCH
+threshold_32,633.39175,Retained model stage gate; not numerical distance in BBCH
+threshold_33,664.4962499999999,Retained model stage gate; not numerical distance in BBCH
+threshold_37,702.266,Retained model stage gate; not numerical distance in BBCH
+threshold_39,807.799125,Retained model stage gate; not numerical distance in BBCH
+threshold_51,986.65,Retained model stage gate; not numerical distance in BBCH
+threshold_65,1165.925558,Retained model stage gate; not numerical distance in BBCH
+threshold_85,1760.39,Retained model stage gate; not numerical distance in BBCH

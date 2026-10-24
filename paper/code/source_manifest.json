@@ -1,0 +1,97 @@
+[
+  {
+    "source": "models/seasonal_septoria/climate_alignment.py",
+    "snapshot": "code/model/seasonal_septoria/climate_alignment.py",
+    "sha256": "efaeaeebb2a156a9352e9bb97b0069818362e0aca042f2f4c2416f0529ba0e9a"
+  },
+  {
+    "source": "models/seasonal_septoria/structural.py",
+    "snapshot": "code/model/seasonal_septoria/structural.py",
+    "sha256": "d3e21ce6bfc679e714575593072ad1ff03c885baf0378a331e8f45e6e68ca1f4"
+  },
+  {
+    "source": "models/seasonal_septoria/rolling_diagnostics.py",
+    "snapshot": "code/model/seasonal_septoria/rolling_diagnostics.py",
+    "sha256": "2e4d1d003477575dd162917e1c7004b13460ba319e7e8043d8c03376d52fe98f"
+  },
+  {
+    "source": "models/seasonal_septoria/infection_events.py",
+    "snapshot": "code/model/seasonal_septoria/infection_events.py",
+    "sha256": "2f715d842d57b0c0be974fbd4887f591fa5d8f19141fe6b516a71214855b1a39"
+  },
+  {
+    "source": "models/seasonal_septoria/host.py",
+    "snapshot": "code/model/seasonal_septoria/host.py",
+    "sha256": "0be889d8b8e871169db0570df240da5a1be9613abe4c288ef91c3561875ed8ea"
+  },
+  {
+    "source": "models/seasonal_septoria/regional.py",
+    "snapshot": "code/model/seasonal_septoria/regional.py",
+    "sha256": "c5538812bcb2b8a45c3ec639b78b2e89a7e20b07fce7261575946897368c5a62"
+  },
+  {
+    "source": "models/seasonal_septoria/__init__.py",
+    "snapshot": "code/model/seasonal_septoria/__init__.py",
+    "sha256": "a9a0c8604a0b3d3707d5b485c7bf9e5e37fdedfc6a1938a707ac07e4982064e5"
+  },
+  {
+    "source": "models/seasonal_septoria/core.py",
+    "snapshot": "code/model/seasonal_septoria/core.py",
+    "sha256": "8a3586e61c20967280650f950b32a78664b09ad46a188de8a300e8fc22b8a65d"
+  },
+  {
+    "source": "models/seasonal_septoria/counterfactual.py",
+    "snapshot": "code/model/seasonal_septoria/counterfactual.py",
+    "sha256": "cf57a678566fbf307268c96e780083492ad8d2801447a851264274ca26f13794"
+  },
+  {
+    "source": "models/seasonal_septoria/leaf_phenology.py",
+    "snapshot": "code/model/seasonal_septoria/leaf_phenology.py",
+    "sha256": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f"
+  },
+  {
+    "source": "models/seasonal_septoria/regional_compact.py",
+    "snapshot": "code/model/seasonal_septoria/regional_compact.py",
+    "sha256": "22e9b55a9a560ba8d52bd177c44f115d3251eeebb6ad2a54562a728a7a81251f"
+  },
+  {
+    "source": "models/seasonal_septoria/overwinter.py",
+    "snapshot": "code/model/seasonal_septoria/overwinter.py",
+    "sha256": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7"
+  },
+  {
+    "source": "models/seasonal_septoria/wetness.py",
+    "snapshot": "code/model/seasonal_septoria/wetness.py",
+    "sha256": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6"
+  },
+  {
+    "source": "models/seasonal_septoria/terminal_ensemble.py",
+    "snapshot": "code/model/seasonal_septoria/terminal_ensemble.py",
+    "sha256": "7356d23a86617d6b80ece972fe2e0102e7931e10b8eb082b83af09c3de33fabd"
+  },
+  {
+    "source": "models/seasonal_septoria/yield_relevance.py",
+    "snapshot": "code/model/seasonal_septoria/yield_relevance.py",
+    "sha256": "61b943a1ba747174de18cc7d163b455c7c14c5b9529ca9db90183282911c3bba"
+  },
+  {
+    "source": "models/climate/kernel.py",
+    "snapshot": "code/analysis/final_climate/kernel.py",
+    "sha256": "52a6d138826a455df9b5ce1c9dce794952065581af7c068351d3b40bbd2ad543"
+  },
+  {
+    "source": "models/climate/__init__.py",
+    "snapshot": "code/analysis/final_climate/__init__.py",
+    "sha256": "81ae103015b4724da2e56bbf8fd200757bb1e2f948f933b8110eaf7baf03bf84"
+  },
+  {
+    "source": "models/monitoring/climate_prefix.py",
+    "snapshot": "code/analysis/disease_improvement/climate_prefix.py",
+    "sha256": "8a97ab2e5e92e12cd127810eac65fbf8e0207b293a578fc867348571cb30cb20"
+  },
+  {
+    "source": "models/monitoring/__init__.py",
+    "snapshot": "code/analysis/disease_improvement/__init__.py",
+    "sha256": "3f82a8d164c2fa5a1aa72d94fd33e0a8491c9d549c64390e3ae3a25fc6a43d93"
+  }
+]

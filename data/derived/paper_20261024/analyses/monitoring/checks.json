@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "saved_models_replayed": 20,
+  "records_per_design": 2017,
+  "maximum_absolute_prediction_difference": 0.0,
+  "models_fitted": false,
+  "information_setting": "strictly earlier own-field monitoring",
+  "model_implementation": "models/monitoring/discrepancy_experiment.py"
+}

@@ -1,0 +1,12 @@
+{
+  "achieved": false,
+  "gates": {
+    "temporal_ten_percent_rmse": false,
+    "temporal_severe_rmse_improves": true,
+    "temporal_severe_absolute_bias_improves": true,
+    "spatial_50km_ten_percent_rmse": false,
+    "spatial_50km_severe_rmse_improves": false,
+    "spatial_50km_severe_absolute_bias_improves": true
+  },
+  "independent_external_validation": false
+}

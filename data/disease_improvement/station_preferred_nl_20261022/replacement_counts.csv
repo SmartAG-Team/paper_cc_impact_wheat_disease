@@ -1,0 +1,4 @@
+source,variable,replaced_days,policy
+KNMI,precipitation_mm,487,measured complete UTC-day total precipitation
+KNMI,rain_mm,486,station total; Tmin>2C liquid assumption or original reanalysis liquid/total phase ratio; otherwise fallback
+KNMI,rain_hours_gt_0_1mm,461,"complete measured hourly support under warm-liquid assumption, or zero measured total; otherwise original duration"

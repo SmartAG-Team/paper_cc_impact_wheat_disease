@@ -1,0 +1,7 @@
+{
+  "command": ".venv/bin/python -m pytest -q",
+  "passed": 569,
+  "failed": 0,
+  "inherited_deprecation_warnings": 7,
+  "elapsed_seconds": 39.81
+}

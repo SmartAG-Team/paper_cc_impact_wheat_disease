@@ -1,0 +1,40 @@
+{
+  "study_scope": "Frozen European STB model census; fixed SPAM2020 all-wheat area and imposed winter/rainfed calendar",
+  "baseline": "1991-2020",
+  "future_periods": [
+    "2031-2060",
+    "2071-2100"
+  ],
+  "metric_units": {
+    "GS65_85_lost_had3": "days; normalized symptom-tissue proxy, calculated as symptom-gated model damage weighted by reference upper-three-leaf area and divided by nominal three-leaf area (legacy source field GS65_85_lost_had3)",
+    "F1_symptom_relative_anthesis_days": "days; positive = later F1 symptoms relative to modelled GS65 gate",
+    "mean_temperature_grain_fill_c": "degrees Celsius; mean over each member's modelled GS65-85 window",
+    "rainfall_grain_fill_mm": "mm; accumulated over each member's modelled GS65-85 window",
+    "grain_fill_days": "days from modelled GS65 through GS85 inclusive",
+    "GS65_85_functional_lost_fraction": "unitless modelled fraction of GS65-85 reference healthy-area days lost"
+  },
+  "aggregation": "Per-member sum(area * valid_year_pairs/30 * cell change) / sum(area * valid_year_pairs/30); then arithmetic mean of exactly three GCMs",
+  "pairing": "Frozen year-index pairing:1991 with2031/2071 through2020 with2060/2100; only common finite years within each cell-member. Climate/duration/fraction/loss share complete-season pairs. Timing aggregates use their own pair counts. Timing associations and curves retain only cell-members whose timing counts equal complete-season counts, guaranteeing identical years because symptom validity is a subset of complete-season validity.",
+  "denominator": "All14941 fixed-landuse cells retained; missing metric values are not zero; each table reports valid paired-area-time support",
+  "latitude_plot_support": "1-degree bins; >=0.1% of fixed domain wheat area and >=90% area-time coverage in every GCM; tails retained in data",
+  "response_regimes": "Increase/decrease require strictly positive/negative cell mean change in all three GCMs; Mixed includes zero or disagreement; Unavailable retains missing GCMs",
+  "directional_contributions": "Within each GCM, positive area*pair_fraction*change contributions and absolute negative contributions each have their own domain denominator; equal-GCM mean shares",
+  "timing_plot_support": "2-day bins; displayed only if >=0.5% of domain paired-area weight in the respective GCM; remaining bins retained in data",
+  "association_models": "Descriptive weighted linear regressions fitted separately in all18 model/scenario/period members; climate-only, plusduration, plustiming compared on identical cell/pair support after excluding cell-members with unequal symptom-timing and canopy year-pair counts",
+  "spatial_validation": "5-fold spatial CV using5-degree and10-degree latitude-longitude blocks; three deterministic fold assignments; cellwise p-values prohibited",
+  "bootstrap": "500 resamples of complete5-degree spatial blocks; 2.5/97.5 percentiles measure sensitivity to spatial composition, not total uncertainty",
+  "cautions": [
+    "Window climate incorporates climate change and shifts in modelled phenology; it is not a fixed-calendar climate-change estimate.",
+    "Accumulated rainfall also depends on window duration; neither drying nor warming is causally isolated.",
+    "F1 timing is a frozen-model state entering damage integration; its association is not independent process validation or causal mediation.",
+    "Modelled GS65 gate was not independently validated as anatomical anthesis; no observed anthesis claim is made.",
+    "GCM ranges are ensemble spread, not confidence intervals; block resampling excludes structural and forcing uncertainty.",
+    "Cold-edge coverage is incomplete in some bins; unsupported bins are not displayed but remain in source exports.",
+    "No model refit, forcing modification, climate download, calendar adaptation or absolute-yield prediction occurs."
+  ],
+  "panel_mapping": {
+    "a": "2031-2060 latitude changes",
+    "b": "2071-2100 latitude changes",
+    "c": "SSP5-8.5 late-century directional environmental contributions"
+  }
+}

@@ -1,0 +1,4558 @@
+
+PDF_PAGE=1
+ 
+SOMMAIRE 
+ 
+Fertilisation azotée : trouver le bon compromis entre productivité, qualité et gestion des charges . Erreur ! 
+Signet non défini. 
+Calculer sa dose prévisionnelle d’azote ...................................................................................... Erreur ! Signet non défini. 
+L’efficience technique, un premier critère de choix ................................................................... Erreur ! Signet non défini. 
+Apporter la bonne dose au bon moment ................................................................................... Erreur ! Signet non défini. 
+Et les biostimulants ? .................................................................................................................. Erreur ! Signet non défini. 
+Minimiser la volatilisation ammoniacale .................................................................................... Erreur ! Signet non défini. 
+Limiter ses émissions de gaz à effet de serre ............................................................................. Erreur ! Signet non défini. 
+Vigilance : la réglementation a évolué ....................................................................................... Erreur ! Signet non défini. 
+Des ressources gratuites à votre disposition .............................................................................. Erreur ! Signet non défini. 
+Construire sa stratégie de protection contre les maladies ........................................................................ 8 
+Etape 1 : Limiter la pression parasitaire et évaluer son risque a priori ............................................................................ 10 
+Etape 2 : construire sa stratégie fongicide ....................................................................................................................... 17 
+Les apprentissages de 2024 dans la lutte contre les maladies et la gestion des résistances ........................................... 20 
+Programmes régionaux pour 2025 ................................................................................................................................... 22 
+Etape 3 : Ajuster son programme à la pression parataire ................................................................................................ 26 
+Gérer le risque verse sur blé tendre ...................................................................................................... 29 
+Privilégier une variete peu sensible en situation a risque ................................................................................................ 29 
+Eviter les erreurs techniques ............................................................................................................................................ 30 
+Estimer le risque de verse dans vos parcelles fin tallage .................................................................................................. 30 
+prendre en compte les conditions climatiques à montaison............................................................................................ 30 
+Si nécessaire, un seul traitement est suffisant ................................................................................................................. 31 
+Gérer le risque ravageur au printemps .................................................................................................. 32 
+Période d'activité et seuil de traitement en végétation ................................................................................................... 32 
+Focus sur les Cécidomyies orange (Sitodiplosis mosellana) ............................................................................................. 33 
+Focus sur les Pucerons des épis (Sitobion avenae) ........................................................................................................... 37 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHAMPAGNE-ARDENNE  
+Préconisations régionales 
+campagne 2025-2026 
+
+
+PDF_PAGE=2
+SOMMAIRE 
+ 
+Fertilisation azotée :  assurer rendement et qualité................................................................................. 1 
+Calculer sa dose prévisionnelle d’azote .............................................................................................................................. 1 
+Apporter la bonne dose au bon moment ........................................................................................................................... 1 
+Piloter la fertilisation en cours de campagne avec un outil de diagnostic ......................................................................... 3 
+Viser l’efficience technique par le choix de sa forme d’azote, et la diminution de la volatilisation .................................. 3 
+Et les engrais foliaires ? ...................................................................................................................................................... 5 
+Qu’attendre des biostimulants ? ........................................................................................................................................ 5 
+Limiter ses émissions de gaz à effet de serre (GES) ............................................................................................................ 6 
+Rappel : La réglementation en vigueur ............................................................................................................................... 7 
+Des ressources gratuites à votre disposition ...................................................................................................................... 7 
+Pour aller plus loin .............................................................................................................................................................. 7 
+Protection contre les maladies : résultats du Réseau Performance  Blé 2025 ............................................ 8 
+Une septoriose DISCRETE en 2025 ..................................................................................................................................... 8 
+Une résistance QUI PROGRESSE OU MARQUE LE PAS SUIVANT LES SITUATIONS .............................................................. 9 
+Construire sa stratégie de protection contre les maladies ...................................................................... 10 
+Etape 1 : Limiter la pression parasitaire et évaluer son risque a priori ............................................................................ 10 
+Etape 2 : construire sa stratégie fongicide ....................................................................................................................... 17 
+Programmes régionaux pour 2026 ................................................................................................................................... 22 
+Etape 3 : Ajuster son programme à la pression parasitaire .............................................................................................. 26 
+Gérer le risque verse sur blé tendre ...................................................................................................... 29 
+Privilégier une variete peu sensible en situation a risque ................................................................................................ 29 
+Eviter les erreurs techniques ............................................................................................................................................ 30 
+Estimer le risque de verse dans vos parcelles fin tallage .................................................................................................. 30 
+Prendre en compte les conditions climatiques à montaison ............................................................................................ 30 
+Si nécessaire, un seul traitement est suffisant ................................................................................................................. 31 
+Gérer le risque ravageur au printemps .................................................................................................. 32 
+Période d'activité et seuil de traitement en végétation ................................................................................................... 32 
+Focus sur les Cécidomyies orange (Sitodiplosis mosellana) ............................................................................................. 33 
+Focus sur les Pucerons des épis (Sitobion avenae) ........................................................................................................... 37 
+ 
+
+
+PDF_PAGE=3
+1 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Fertilisation azotée :  
+assurer rendement et qualité 
+CALCULER SA DOSE PREVISIONNELLE D’AZOTE 
+La dose prévisionnelle d’azote est calculée pour assurer 
+un rendement et une qualité optimale en fonction des 
+objectifs de production de la culture. Elle tient compte des 
+reliquats azotés sortie d’hiver (RSH) qu’il faut estimer le 
+plus précisément possible et ce sur tous les horizons 
+exploitables par les racines. Nous vous recommandons 
+de calculer cette dose prévisionnelle avec un outil d’aide 
+à la décision afin de bénéficier des dernières avancées 
+de la recherche. Privilégiez les outils labellisés PREV’N 
+par le COMIFER : https://comifer.asso.fr/label-
+prevn/outils-labelises/, jugés comme conformes à la 
+règlementation en zones vulnérables (ZV) et en zones 
+d’actions renforcées (ZAR). 
+Avec des semis 2025 plutôt précoces et des conditions 
+climatiques encore inconnues pour les mois à venir, les 
+biomasses produites d’ici la sortie d’hiver et l’azote 
+absorbé 
+par 
+les 
+céréales 
+seront 
+des 
+éléments 
+incontournables à prendre en compte dans le calcul de la 
+dose prévisionnelle d’azote. Dans cette situation, il sera 
+opportun, en complément de la mesure de Reliquats 
+Sortie Hiver (=RSH), d’utiliser des outils permettant une 
+estimation fine de la quantité d’azote déjà absorbée par 
+la culture en sortie d’hiver pour ajuster au mieux la dose 
+totale d’azote à apporter et la bonne stratégie de 
+fractionnement à adopter. 
+ 
+ 
+Figure 1 : Un indicateur pour savoir si la dose optimale technique d’azote à apporter est en adéquation avec le 
+contexte économique 
+Le tableau ci-dessous présente, en fonction du contexte économique de prix de vente du blé et de prix d’achat de l’engrais, 
+l’écart entre la dose d’azote optimale à apporter pour ne pas être limitant pour le rendement et la dose à apporter pour 
+être à l’optimum économique (en renonçant parfois à certains quintaux chers à produire). On estime qu’un changement 
+de pratique est nécessaire lorsque l’on dépasse les +20 ou –20 kgN/ha. Tout en sachant qu’il est interdit de majorer la 
+dose totale prévisionnelle sauf en cas d’utilisation d’OAD. Dans un grand nombre de cas, il n’y a pas d’écart entre les 
+deux et la dose bilan reste la plus intéressante agronomiquement et économiquement. 
+ 
+ 
+Pour faire face aux incertitudes économiques et climatiques, il est important de viser une bonne efficacité 
+des apports azotés. 
+APPORTER LA BONNE DOSE AU BON MOMENT 
+Viser des apports au plus proche des besoins du blé  
+
+
+PDF_PAGE=4
+2 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Chaque unité d’azote apportée compte et doit être 
+valorisée au mieux en l’apportant au bon stade et dans de 
+bonnes conditions de valorisation, afin de maintenir le 
+statut azoté de la culture. En blé, les besoins en azote 
+sont relativement faibles durant le tallage, mais ils 
+augmentent fortement durant la montaison et restent 
+élevés jusqu’à la fin de la phase de remplissage des 
+grains. Par ailleurs, il ne faut pas négliger l’importance du 
+dernier apport, qui contribue grandement à la teneur en 
+protéines des grains et donc à la rémunération du blé. 
+Dans les situations où la dose totale est faible (< 80 kg 
+N/ha), l’apport à privilégier est celui à Epi1cm pour 
+soutenir les besoins de la plante et favoriser l’élaboration 
+du rendement. 
+Ainsi, la réussite d’une stratégie de fractionnement 
+repose sur la capacité à mettre à disposition de la 
+culture la bonne dose d’azote au bon moment. Arvalis 
+conduit des expérimentations spécifiques à l’échelle 
+nationale depuis plusieurs années pour préciser le poids 
+des différents déterminants de l’efficience d’utilisation de 
+l’azote. 
+ 
+ 
+Figure 2 : Viser les périodes d’apports favorables à la croissance du blé et à une absorption maximale 
+ 
+
+
+PDF_PAGE=5
+3 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+S’adapter au climat sans trop anticiper les apports 
+Il n’est pas toujours facile de trouver le bon équilibre des 
+priorités entre apporter l’azote au bon stade et s’assurer 
+qu’une pluie intervienne après l’apport, notamment dans 
+le contexte de climat changeant que nous traversons. 
+Celui-ci peut avoir tendance à inciter à la sécurisation 
+avec un solde précoce des apports d’azote. Néanmoins, 
+compte tenu de l’inadéquation de ce type de pratiques 
+avec la dynamique des besoins en azote de la culture, 
+cette stratégie n’est payante que dans des contextes où 
+les apports après Epi1cm seraient réalisés dans des 
+mauvaises conditions de valorisation, faute de créneaux 
+favorables.  
+ 
+Arvalis a étudié cette stratégie d’apports précoces en 
+comparaison avec un fractionnement classique en 3 
+apports et une stratégie de pilotage intégral des apports 
+azotés sur 2023, 2024 et 2025. Ainsi, en moyenne sur 25 
+essais, la perte de rendement associée à une tactique 
+très sécuritaire visant à effectuer un apport tallage 
+conséquent et à solder la dose d’azote à épi 1cm, fait 
+perdre -0.9 q/ha en comparaison à un fractionnement 
+classique en trois apports. Qui plus est, cette baisse de 
+rendement est associée à une baisse de -0.3% de 
+protéines. 
+Cette 
+pratique 
+« sécuritaire » 
+obtient 
+également des performances très en retrait par rapport à 
+une tactique de pilotage intégral basée sur l’outil FERTI-
+ADAPT-CHN (-2.6q/ha et -0.7% de protéines en 
+moyenne). Le fractionnement, visant à répondre au plus 
+près des besoins des plantes, semble ainsi plus 
+impactant que le cumul de précipitations après un apport, 
+sans toutefois remettre en cause l’impact de la pluie dans 
+la valorisation de l’azote. 
+ 
+A savoir : plus on fractionne et plus on est efficient !
+ 
+ 
+PILOTER LA FERTILISATION EN COURS DE CAMPAGNE AVEC UN OUTIL DE 
+DIAGNOSTIC 
+Les outils de pilotage visent à ajuster la dose d’azote à 
+apporter en cours de campagne par rapport au potentiel 
+de production de la parcelle, lié au contexte parcellaire, 
+aux pratiques culturales et au climat de l’année. 
+ 
+➢ 
+Les outils de pilotage du dernier apport : Ils 
+permettent d’ajuster la dose d’azote en fin de cycle. 
+Leur 
+principe 
+de 
+fonctionnement 
+s’appuie 
+généralement sur la mise en réserve préalable d’une 
+partie de la dose totale d’azote. La décision de 
+l’apport de cette mise en réserve, ou d’une fraction 
+de celle-ci, s’appuie sur un diagnostic de l’état de 
+croissance et/ou de nutrition azotée du couvert 
+courant montaison. Ce diagnostic permet de revoir à 
+la hausse ou à la baisse les besoins en azote de la 
+culture au regard du potentiel de production actualisé 
+et des objectifs de qualité (concentration en 
+protéines des grains).  
+Certains outils permettent également de moduler la 
+dose d’azote du dernier apport à une échelle intra 
+parcellaire. Les parcelles les plus hétérogènes 
+peuvent en tirer des bénéfices substantiels. 
+ 
+➢ 
+Les outils de pilotage intégral : Ils permettent 
+quant à eux de piloter tous les apports d’azote sur la 
+base de diagnostics de nutrition. L’outil FERTI-
+ADAPT-CHN, développé par Arvalis, est disponible 
+depuis le printemps 2025 dans une offre FARMSTAR 
+commercialisée par Airbus. 
+ 
+ 
+VISER L’EFFICIENCE TECHNIQUE PAR LE CHOIX DE SA FORME D’AZOTE, ET 
+LA DIMINUTION DE LA VOLATILISATION 
+ 
+1- Quelle performance des différentes formes d’azote ?  
+Le choix de la forme d’azote impacte le rendement mais 
+aussi la qualité de la récolte. De nombreuses études en 
+céréales ont montré que sur le plan de l’efficience de 
+l’absorption de l’azote, l’ammonitrate sort gagnant devant 
+l’urée et surtout devant les solutions azotées lorsque ces 
+deux dernières formes sont sans adjuvant ni enrobage.  
+ 
+En blé, il n’y a pas d’écart de rendement significatif entre 
+une fertilisation à base d’urée ou d’ammonitrate, mais 
+l’urée est moins efficace pour gagner en protéines (-0,23 
+% point de protéines par rapport à de l’ammonitrate). 
+Les solutions azotées sont moins efficientes tant sur les 
+plans du rendement que des teneurs en protéines avec, 
+en moyenne, 3,3 q/ha de rendement en moins qu’avec 
+l’ammonitrate, et plus d’un demi-point de protéines en 
+moins. 
+Cette moindre efficience de la solution azotée pourrait 
+s’expliquer par une plus grande propension de l’azote de 
+la solution azotée à être organisé par les micro-
+organismes du sol et davantage de pertes par 
+volatilisation ammoniacale.  
+ 
+
+
+PDF_PAGE=6
+4 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+ 
+Tableau 1 : Écarts de rendement et de taux de protéines observés en blé pour une fertilisation avec de l’urée ou 
+une solution azotée par rapport à de l’ammonitrate 
+Poids statistique des écarts : NS/ écart statistiquement non significatif ; ***/ écart très significatif. Synthèse d’essais 
+Acolyance, Arvalis, Chambre d‘agriculture du 37, Soufflet et Vivescia conduits de 2012 à 2019. 
+ 
+  
+UREE 
+(44 essais de 2012 à 
+2019) 
+SOLUTION AZOTEE 
+(34 essais de 2013 à 
+2019) 
+UREE + Inhibiteur 
+d’uréase 
+(53 essais de 2012 à 
+2019) 
+SOLUTION AZOTEE 
++ Inhibiteur d’uréase 
+(20 essais de 2013 à 2019) 
+Type de sol 
+Calcaire 
+Non 
+calcaire 
+Calcaire 
+Non 
+calcaire 
+Calcaire 
+Non 
+calcaire 
+Calcaire 
+Rendement 
+- 0,4 q/ha 
+NS 
+- 0,5 q/ha 
+NS 
+- 3,5 q/ha 
+*** 
+- 3,0 q/ha 
+*** 
++1.6 q/ha *** +0.4 q/ha 
+NS 
+-2.7 q/ha *** 
+Taux de 
+protéines 
+- 0,23 % 
+*** 
+- 0,33 % 
+*** 
+- 0,58 % 
+*** 
+- 0,51% 
+*** 
++0.05 % * 
+-0.09 % ** 
+-0.4 % *** 
+ 
+2- 
+Pourquoi essayer de minimiser la volatilisation ammoniacale ? 
+La volatilisation de l’ammonium (NH4+) contenu dans les 
+engrais en gaz ammoniac est une source de pollution et 
+diminue la valeur amendante de l’engrais. Elle est 
+favorisée par les sols de pH supérieur à 7,5, les 
+conditions 
+chaudes, 
+sèches 
+et 
+venteuses. 
+Ce 
+phénomène peut intervenir tant que l’azote apporté n’a 
+pas migré dans les couches inférieures du sol sous 
+l’action de la pluie.  Afin que chaque unité apportée 
+compte, il est important de réduire les pertes d’azote 
+(sous forme ammoniacale) par volatilisation.
+3- 
+Comment réduire la volatilisation ammoniacale ?  
+La volatilisation ammoniacale est drastiquement réduite 
+quand les engrais sont enfouis, même superficiellement 
+(5 cm), ou lorsque les apports sont réalisés avant un 
+épisode pluvieux significatif (10 à 15 mm dans les 30 jours 
+suivant l’apport). Une vigilance accrue est de mise pour 
+intervenir dans des conditions favorables. Le risque de 
+perte d’efficacité des apports d’azote minéral peut être 
+évalué avant chaque apport grâce à une grille 
+d’évaluation prenant en compte, entre autres, le type de 
+sol et les conditions climatiques au moment de l’apport. 
+Pour aller plus loin et télécharger la grille d’évaluation du 
+risque de perte d’efficacité des apports azotés 
+minéraux : https://comifer.asso.fr/wp-
+content/uploads/COMIFER_Grille-efficacite-apports-
+azotes-mineraux_09-2022.pdf 
+ 
+Les différentes formes d’azote ne sont pas soumises de 
+la même manière à la volatilisation. En effet la solution 
+azotée est plus soumise aux pertes par volatilisation que 
+les autres formes.   
+L’addition d’inhibiteur(s) d’uréase est également efficace 
+pour limiter les pertes par volatilisation. Cela explique que 
+les performances agronomiques des urées et des 
+solutions azotées additionnées d’inhibiteurs d’uréase 
+soient améliorées. Chez le blé, les urées additionnées de 
+NBPT ou de NBPT + NPPT s’avèrent même un peu plus 
+efficaces, en sols calcaires, que l’ammonitrate pour le 
+rendement, et ces deux formes sont équivalentes pour le 
+taux de protéines. En revanche, les performances des 
+solutions azotées restent très inférieures à celles de 
+l’ammonitrate, même additionnées d’inhibiteurs d’uréase, 
+car la volatilisation n’est pas le seul facteur de la baisse 
+d’efficience. 
+Une autre voie pour contenir la volatilisation consiste à 
+enrober l’engrais. Les urées enrobées, ou « engrais 
+protégés » libèrent l'azote minéral progressivement 
+pendant le cycle de la culture, limitant ainsi la quantité 
+d’azote directement exposée au risque de volatilisation. 
+Par ailleurs, cela peut permettre de s’affranchir en partie 
+du fractionnement et d’économiser ainsi un passage 
+d’épandeur, et donc du carburant. Selon une synthèse de 
+plus de 50 essais sur blé, l’urée enrobée testée (COTEN 
+3 41N) apporte un gain de rendement par rapport à 
+l’ammonitrate. 
+ 
+
+
+PDF_PAGE=7
+5 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+ 
+Zoom sur le réseau voisin de 7 essais 2025 en blé Arvalis + Partenaires Hauts de France (à titre informatif)
+Sur les modalités testées dans les essais, nous 
+comparons « tout en Ammonitrate » contre « tout en 
+solution azotée N39 ».
+ L’écart moyen entre «ammo» et « sol39 », sur les 7 
+essais mis en place en 2025, est de +5.3 q/ha et 0.8% 
+de protéines, avec près de 20% d’efficience en plus 
+pour l’Ammonitrate. 
+Résultats de 7 essais 2025 en blé : Arvalis Villers St Christophe, Agora Catenoy, Agora Breteuil, Agora Monchy, Ca02, 
+Groupe carre, Valépi. 
+La solution39 est très soumise aux pertes par 
+volatilisation ammoniacale. Ainsi le cumul de pluies 
+dans les 5,15 ou 30 jours suivant l’apport explique 
+beaucoup son efficacité. Sans pluie dans les 5 jours, 
+l’efficacité globale oscille entre 50 et 70% environ. A 
+partir de 20-25 mm dans les 5 à 15 jours, l’efficacité 
+passe entre 70% et 80%.  
+L’écart d’efficacité entre Sol39 et ammo est donc plus 
+ou moins important selon la pluie dans les quelques 
+jours (5 à 15) suivant l’apport : avec 20 mm et plus dans 
+les 5 à 15 jours, seuls quelques q/ha sont perdus en 
+solution azotée par rapport à l’ammo. En revanche, sans 
+pluie après chaque apport (et moins de 15 mm au 
+total), l’écart peut monter jusqu’à 14 q/ha.
+ET LES ENGRAIS FOLIAIRES ? 
+Certains engrais azotés se pulvérisent sous forme foliaire 
+(action systémique). L’azote peut s’y trouver sous forme 
+d’urée, de nitrate d’ammonium, d’amide et/ou d’urée 
+polymérisée. Selon une étude d’Arvalis, à dose 
+équivalente d’azote, ces engrais foliaires appliqués aux 
+doses recommandées par les fournisseurs au stade 
+« dernière feuille » du blé, après deux apports 
+d'ammonitrate (tallage puis épi 1 cm), ont été aussi 
+efficaces sur le plan du rendement que la stratégie de 
+référence 100% ammonitrate fractionnée en trois apports 
+(tallage, épi 1 cm et DFE). En revanche, ils obtiennent des 
+teneurs en protéines inférieures de 0,5 % en moyenne. 
+Toutefois, la plupart de ces engrais sont préconisés par 
+les fabricants à des doses de 20 à 100 L/ha, ce qui 
+correspond à des apports de 6 à 20 kg N/ha, insuffisants 
+pour les besoins en fin de montaison. Ainsi, l’obligation de 
+restreindre l’apport à de faibles quantités d’azote, pour 
+éviter les brûlures et leur coût à l’unité fertilisante, limitent 
+fortement l’intérêt technico-économique de ces produits.
+ 
+QU’ATTENDRE DES BIOSTIMULANTS ? 
+Plusieurs biostimulants revendiquent une amélioration de 
+la nutrition azotée des cultures par le biais de la fixation 
+de l’azote atmosphérique par des bactéries soit 
+rhizosphériques, soit colonisant les feuilles des cultures. 
+Ces produits mettraient ainsi à disposition en continu, de 
+l’ordre de 20 à 30 kg N/ha, selon les fabricants. Les essais 
+conduits sur blé par Arvalis et de nombreux partenaires 
+(Chambres d’agriculture, coopératives et négoces), dans 
+une large gamme de contextes pédoclimatiques et en 
+conditions 
+légèrement 
+limitantes 
+en 
+azote, 
+n’ont 
+démontré aucun gain significatif par rapport à cette même 
+dose d’azote minéral limitante sans biostimulant, ni sur le 
+rendement ni sur la teneur en protéines, et ce pour 
+chacun des biostimulants testés. Compte tenu de leur 
+coût, ces produits n’ont actuellement pas démontré leur 
+rentabilité. Ces dernières années, Arvalis a également 
+
+
+PDF_PAGE=8
+6 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+testé sur blé, dans une dizaine d’essais, des biostimulants 
+revendiquant une amélioration de l’efficience d’utilisation 
+des éléments minéraux ou de leur tolérance aux stress 
+climatiques. Sur les 12 produits évalués, seul Appetizer, 
+à base d’extraits d’algues, permet un gain significatif de 
+rendement (+ 1,1 q/ha). 
+ 
+LIMITER SES EMISSIONS DE GAZ A EFFET DE SERRE (GES) 
+Des émissions de GES variables selon les formes d’azote minéral 
+Les émissions de protoxyde d’azote (N2O) liées à la 
+fertilisation azotée minérale et organique représentent 
+plus des deux tiers de l’empreinte carbone des 
+grandes cultures. Or, des marges de manœuvre 
+existent pour réduire ces émissions de GES, en particulier 
+sur la fertilisation azotée minérale. Outre l’optimisation de 
+la dose totale et la maximisation de l’efficience de l’apport 
+azoté, le choix de la forme d’azote constitue un levier de 
+premier plan. 
+Arvalis a comparé les trois principales formes d’azote 
+minéral : l’ammonitrate, la solution azotée et l’urée avec 
+ou sans ajout d’inhibiteurs d’uréase et/ou de nitrification, 
+et avec ou sans enfouissement après apport. Ainsi, la 
+solution azotée se révèle être la plus émettrice de GES, 
+du fait de son processus de production très énergivore et 
+de son coût du transport (cet engrais étant moins dosé en 
+azote que d’autres engrais). Les inhibiteurs de 
+nitrification, en retardant la transformation de l’ammonium 
+en nitrate, permettent de réduire les émissions de GES 
+par rapport à l’ammonitrate 33,5. Enfouir l’engrais dans 
+les 12h (urée et solution azotée), lorsque c’est possible, 
+permet de réduire les émissions indirectes (volatilisation) 
+par rapport au même engrais non enfoui. Les inhibiteurs 
+d’uréase ont un impact proche de l’enfouissement de 
+l’urée sur les émissions de GES. 
+Le choix de la forme d’engrais est également raisonné par 
+des considérations logistiques et matérielles pour le 
+stockage et l’épandage, le prix et l’efficacité intrinsèque 
+des formes d’azote sur la teneur en protéines du blé. 
+ 
+Quel impact sur les émissions de 30 ha de blé tendre ? 
+ 
+Tableau 2 : Ecarts d'émissions de Gaz à Effet de Serre (GES) par rapport à une référence ammonitrate à 33,5 sur 
+une sole de 30 ha de blé tendre 
+Sources : Méthode Label Bas Carbone Grandes Cultures v1 (calculs engrais), Base empreinte ADEME (calcul voiture) 
+Si la valeur de réduction est positive, l’ammonitrate est moins émetteur. A l’inverse, si elle est négative, l’ammonitrate est plus émetteur. 
+La troisième colonne donne une équivalence en kilomètres parcourus par une voiture moyenne roulant au gazole. La valeur de référence, 
+de 227 g CO2 eq/km parcouru, inclus les étapes de combustion du carburant, de production du carburant et de production de la voiture. 
+(1) Les valeurs de référence pour les émissions de chacun des engrais incluent les émissions au champ et les émissions amont induites 
+par la production de ces engrais. 
+(2) L’ammonitrate émet 11,85 kg CO2 eq/kg N épandu. Pour une sole de 30 ha de BTH et 160 kg N/ha cela représente des émissions de 
+GES de 56,9 t de CO2 eq, soit des émissions équivalentes à 250 636 km parcourus par une voiture moyenne roulant au gazole. 
+Différentiel d'émissions de GES (en kg CO2 équivalent) 
+en remplaçant l'engrais (1) par de l'ammonitrate 33,5 (2) pour 
+une sole de 30 ha de blé tendre fertilisés avec 160 kg N/ha 
+Variation des émissions 
+de GES par rapport à 
+l’ammonitrate 33,5 (%) 
+Variation des émissions de 
+GES par rapport à 
+l’ammonitrate 33,5 
+En kg de CO2 eq pour 30 ha et 
+160 kg N/ha 
+Equivalence en km 
+parcourus par une 
+voiture moyenne 
+roulant au gazole 
+Ammonitrate avec inhibiteur de nitrification (33,5% N) 
+- 11,2 % 
+- 6 398 
+- 28 187 
+Urée avec inhibiteur de nitrification (46% N) 
+- 1,6 % 
+- 926 
+- 4 081 
+Solution azotée avec inhibiteur de nitrification (30% N) 
+0 % 
+- 21 
+- 93 
+Urée avec inhibiteur d'uréase (46% N) 
+5,7 % 
+3 236 
+14 254 
+Urée enfouie dans les 12 heures (46% N) 
+5,9 % 
+3 396 
+14 959 
+Solution azotée avec inhibiteur d’uréase (30% N) 
+8,8 % 
+5 037 
+22 189 
+Solution azotée enfouie dans les 12 heures (30% N) 
+9,0 % 
+5 115 
+22 532 
+Urée (46% N) 
+9,6 % 
+5 474 
+24 116 
+Solution azotée (30% N) 
+11,2 % 
+6 375 
+28 084 
+
+
+PDF_PAGE=9
+7 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+RAPPEL : LA REGLEMENTATION EN VIGUEUR 
+La 
+Directive 
+Nitrates 
+n°91/676/CEE 
+(1991) 
+est 
+transposée dans le droit français sous forme de 
+programmes d’actions national (PAN) et régionaux 
+(PAR), obligatoires en Zones Vulnérables (ZV) et en 
+Zones d’Actions Renforcées (ZAR). À la suite d'un 
+réexamen quadriennal, le 7ème programme d’actions 
+national est entré en application le 1er janvier 2024. Les 
+nouveaux programmes d’actions régionaux également 
+réexaminés sont entrés en vigueur courant 2024. Pour 
+consulter les textes réglementaires en vigueur, rendez-
+vous régulièrement sur les sites de la DRAAF et de la 
+DREAL de votre région. 
+ 
+DES RESSOURCES GRATUITES A VOTRE DISPOSITION
+L’Outil d’Aide à la Décision (OAD) « Fertiliser avec des 
+produits organiques ou biosourcés » calcule les effets 
+N, P, K et Mg de différents engrais organiques apportés 
+sur une culture à une période donnée, ainsi que leurs 
+effets amendant. Il permet de choisir la période 
+d’épandage la plus adaptée pour valoriser au mieux 
+l’azote qu’il contient en fonction de la culture réceptrice : 
+https://fertiorga.arvalis-infos.fr/fr 
+Les OAD « Choix des couverts » et « Les fiches 
+Couverts » vous guident pour déterminer quelles 
+espèces de couverts conviennent le mieux à votre 
+situation et à vos objectifs, quels sont leurs bénéfices et 
+leurs 
+valorisations 
+possibles 
+: 
+www.choix-des-
+couverts.arvalis-infos.fr et www.fiches.arvalis-infos.fr 
+La calculette d’échange paille-fumier calcule les 
+équivalences en termes de valeurs fertilisantes, de coûts, 
+de charges de mécanisation et de main-d’œuvre lors d’un 
+échange de paille fournie par un céréalier contre du 
+fumier fourni par un éleveur : www.paille-fumier.arvalis-
+infos.fr 
+La méthode MERCI calcule les fournitures en azote d’un 
+couvert pour la culture suivante à partir de prélèvements 
+de biomasse fraîche au champ et de la nature du sol, 
+mais aussi la dynamique de minéralisation attendue, les 
+quantités de phosphore, potassium, soufre et magnésium 
+remobilisées, la valeur fourragère du couvert, son pouvoir 
+méthanogène et son potentiel de stockage de carbone 
+dans le sol : https://methode-merci.fr. 
+Ile de France – Dans le cadre de l’initiative « Optimiser 
+les ressources en azote » menée conjointement par la 
+DRIAAF, la chambre d’agriculture, les instituts techniques 
+et les opérateurs économiques, des fiches pédagogiques 
+synthétisant les leviers mobilisables au cours de la 
+campagne sont disponibles en ligne : 
+https://driaaf.ile-de-france.agriculture.gouv.fr/reduire-sa-
+dependance-les-acteurs-du-monde-agricole-se-
+mobilisent-a3179.html 
+ 
+ 
+ 
+ 
+ 
+ 
+POUR ALLER PLUS LOIN  
+Deux outils gratuits sont disponibles en ligne : http://oad.arvalis-infos.fr/  
+pour simuler vos charges et vos coûts de production.  
+ 
+Estimez rapidement l’augmentation des charges de votre 
+exploitation. 
+Comparez les différents postes de charges en semences, 
+engrais azotés, carburant, énergie, irrigation, stockage et 
+séchage pour deux situations historiques et à venir. 
+Grâce à l’outil, vous obtiendrez rapidement : 
+ 
+Un coût par tonne produite 
+ 
+Vos charges par hectare 
+ 
+Vos marges  
+ 
+ 
+ 
+Estimez rapidement l’augmentation des coûts de 
+production des cultures de votre exploitation. 
+Comparez les postes de charges d’intrants, de carburant, 
+mais aussi si vous le souhaitez, les charges fixes et la 
+rémunération de la main d’œuvre familiale, dans trois 
+situations différentes. Evaluez également l’impact des 
+variations de rendements. 
+Grâce à l’outil, vous obtiendrez :  
+ 
+Un coût de production ou un seuil de 
+commercialisation en déduisant les aides 
+ 
+Une marge par hectare
+
+
+PDF_PAGE=10
+ 
+8 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Protection contre les maladies : 
+résultats du Réseau Performance  
+Blé 2025 
+En 2025, des échantillons de feuilles ont permis 
+d’étudier des populations de septoriose (Zymoseptoria 
+tritici) provenant de différents départements céréaliers. 
+Au total, 152 populations ont pu être exploitées. 
+Certains échantillons étaient non exploitables, ils ne 
+présentaient pas assez de symptômes ou se sont avérés 
+trop sales, contaminés à l’isolement (en particulier par 
+des bactéries), pour être analysés. Certains échantillons 
+présentaient également de « vieux symptômes ». 
+Nous tenons à remercier vivement les partenaires 
+régionaux qui ont participé à ce réseau.  
+ 
+UNE SEPTORIOSE DISCRETE EN 2025 
+En 2025, la sécheresse du printemps a été bénéfique en 
+termes 
+de 
+maladies, 
+puisqu’elle 
+a 
+limité 
+le 
+développement de la septoriose, contrairement à la 
+forte pression observée en 2024. Avec 12.2 q/ha, la 
+nuisibilité a été raisonnable.   
+ 
+ 
+ 
+Nuisibilité de la septoriose observée dans le Réseau Performance depuis 2004 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PDF_PAGE=11
+ 
+9 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+UNE RESISTANCE QUI PROGRESSE OU MARQUE LE PAS SUIVANT LES 
+SITUATIONS 
+Chaque année, des analyses réalisées par l’INRAe 
+permettent de faire un suivi de l’évolution de la 
+sensibilité des souches de septoriose vis-vis des 
+fongicides et de les classer de la façon suivante : 
+-les souches résistantes aux triazoles : 
+• 
+TriLR : souches faiblement Résistantes aux 
+triazoles 
+• 
+TriMR : souches Moyennement Résistantes aux 
+triazoles 
+• 
+TriHR : souches très résistantes à au moins un 
+triazole 
+• 
+MDR : (Multi Drogues Résistantes) souches 
+résistantes à plusieurs familles de substances 
+actives 
+-les souches résistantes aux SDHI : 
+• 
+CarR : toutes les souches Résistantes aux SDHI 
+quels que soient leurs facteurs de résistance 
+• 
+CarHR : souches très Résistantes aux SDHI 
+-Les souches résistances aux strobilurines (QoI), qui sont 
+toujours largement généralisées dans notre région.  
+Depuis de nombreuses années, les souches sensibles 
+aux IDM (triazoles) ne sont plus détectées, ce qui 
+confirme la généralisation de la résistance aux triazoles 
+dans les populations françaises. Les souches TriLR sont 
+maintenant anecdotiques et représentent moins de 1% 
+en moyenne de la population échantillonnée. En 2025, 
+les souches TriMR représentaient 5.5% en moyenne de 
+la population, contre 6% en 2024. 
+La fréquence moyenne des souches TriHR de 2025 a 
+cependant augmenté par rapport à 2024 (70% vs 64%) 
+et ces souches sont maintenant généralisées sur le 
+territoire (présence dans 100% de la population). Les 
+souches MDR sont stables et ont été détectées en 2025 
+dans 87% des échantillons, à la fréquence moyenne de 
+25% (30% en 2024). Les fortes fréquences moyennes de 
+ces 2 catégories sont observées en particulier dans la 
+grande moitié Nord de la France. 
+En 2025, la proportion de populations présentant des 
+souches résistantes aux SDHI est restée stable 
+(occurrence 92% en 2025 et en 93% en 2024). La 
+fréquence moyenne de souches CarR atteint 36% (41% 
+en 2024) et inclut potentiellement une grande diversité 
+de mutations. La fréquence moyenne des souches 
+CarHR est également stable, et atteint 14% (19% en 
+2024). 
+Il est important de rappeler que les SDHI sélectionnent 
+des souches de type MDR et qu’il est souhaitable 
+d’anticiper le risque de résistance multiple CarR + MDR. 
+Aucune 
+souche 
+résistante 
+spécifiquement 
+à 
+la 
+fenpicoxamide n’a été détectée en 2025.  
+A retenir : En 2025, la situation vis-à-vis de la 
+résistance aux IDM (triazoles) est en légère hausse et 
+est stable pour les SDHI par rapport à 2024. 
+En 2025, 7 souches sur 10 sont de type TriHR et 4 sur 
+10 de type CarR 
+ 
+Evolution des phénotypes les plus résistants (TriHR + MDR) de septoriose (Z. tritici) dans les échantillons 
+du Réseau Performance depuis 2010 (FR = facteur de résistance) 
+La gestion responsable des fongicides doit se poursuivre pour limiter la progression des souches résistantes : intervenir 
+uniquement si c’est nécessaire (l’utilisation d’un OAD est fortement conseillée) et si des interventions sont 
+indispensables, alterner les modes d’action : une seule application par programme de SDHI, de strobilurine, de 
+prothioconazole, de fenpicoxamide, et éviter d’utiliser deux fois la même matière active de triazoles, utiliser si possible 
+un multisite comme le soufre ou le folpel. 
+
+
+PDF_PAGE=12
+ 
+10 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Construire sa stratégie de protection 
+contre les maladies 
+La stratégie de lutte contre les maladies que nous vous proposons se bâtit en 
+trois étapes : 
+ 
+L’utilisation d’Outils d’Aide à la Décision est recommandée. 
+ 
+ETAPE 1 : LIMITER LA PRESSION PARASITAIRE ET EVALUER SON RISQUE A 
+PRIORI 
+Combiner les leviers pour limiter la pression 
+La pression des maladies cryptogamiques du blé est 
+fortement liée au climat, au secteur géographique, mais 
+aussi à de nombreux critères agronomiques. La date de 
+semis, la rotation, le travail du sol, la densité de semis 
+ou encore la fertilisation exercent une influence plus ou 
+moins importante sur le développement et la nuisibilité 
+de certaines maladies (tableau ci-dessous). Parmi les 
+techniques culturales qui impactent la pression maladie, 
+le choix variétal est le levier agronomique le plus 
+important.
+Principales 
+maladies 
+Incidence des techniques culturales mises en œuvre 
+Destruction des 
+repousses1 
+Rotation 
+Travail du sol/ 
+enfouissement 
+et/ou broyage 
+des résidus 
+Date de 
+semis2 
+Densité de 
+semis 
+Fertilisation 
+azotée 
+Choix 
+variétal 
+Mélanges 
+variétaux 
+Piétin échaudage 
+ 
++++ 
++ 
+++ 
+++ 
+-/+ 
+(+) 
+ 
+Piétin verse 
++ 
++++ 
++ 
+++ 
++ 
++ 
++++ 
+ 
+Oïdium 
++ 
+ 
+= 
+- 
++ 
+++ 
++++ 
++ 
+Septorioses  
+ 
++/= 
++ 
+++ 
+=/+ 
+=/+ 
+++ 
+ 
+Helminthosporiose 
+ 
++++ 
+++ 
+ 
+ 
++ 
++++ 
+ 
+Rouille jaune 
++ 
+ 
+= 
+-/+ 
++ 
+++ 
++++ 
++ 
+Rouille brune 
++ 
+ 
+= 
+++ 
+=/+ 
+++ 
++++ 
++ 
+Fusarioses épis 
+ 
++++ 
++++ 
++ 
++ 
++ 
+++ 
+ 
+1 La gestion des repousses par des opérations de déchaumage influence la survie estivale de la rouille brune. 
+2 Des semis tardifs peuvent favoriser l’oïdium et la rouille jaune et à l'inverse réduire le développement de la septoriose ou de la rouille 
+brune.     Incidence : +++ très forte   ++ moyenne   + faible (+) faible (à confirmer) +/= faible à nulle   = sans incidence   - incidence négative 
+ 
+ 
+
+
+PDF_PAGE=13
+ 
+11 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Evaluer les risques liés à la parcelle : focus sur le risque piétin verse 
+L’estimation du risque piétin verse est largement 
+déterminée par les conditions agronomiques de la 
+parcelle (potentiel infectieux, milieu physique, 
+variété et date de semis) et la prise en compte du 
+climat de la levée du blé jusqu’au début montaison. 
+Le meilleur moyen de lutte contre le piétin verse 
+est le choix variétal et/ou allonger la rotation avec 
+un retour moins fréquent des céréales à paille.  
+1) Valoriser la résistance variétale 
+Quand le risque piétin verse est élevé (limons, semis précoce, seconde paille… voir grille), il faut privilégier une 
+variété résistante, c’est à dire une variété ayant une note piétin verse supérieure ou égale à 5. 
+• 
+Variétés avec une note de résistance de 5 ou plus : Pas de traitement spécifique nécessaire (la rentabilité 
+n’est pas assurée). 
+• 
+Variétés avec une note de résistance comprise entre 1 et 4 : Evaluer le risque agronomique (étape 2). 
+Liste des variétés résistantes au piétin verse, notes ≥ 5 (liste non exhaustive) – 2025 
+BELZEBUTH 
+CAMPESINO 
+CONQUISTADOR 
+FABULOR 
+GEOPOLIS 
+GERRY 
+GODZILLA 
+GRAVELINE 
+GREKAU 
+ 
+INTENSITY  
+JUNIOR 
+KAKTUS 
+KARABOL 
+KWS ETOILE 
+KWS GLOBE 
+KWS SPHERE 
+KWS ULTIM 
+LG ABSALON 
+LG ACROBAT 
+LG AERO  
+LG AIKIDO 
+LG ARLETY 
+LG AUDACE 
+LG NIKLAS 
+LID PAVANE 
+OUTDOOR 
+PAILLEDOR 
+PONDOR 
+PRESTANCE 
+RGT LOOKEO 
+RGT LUXEO  
+RGT MONTECARLO 
+RGT PROFUSIO 
+SU HYSTORIC 
+SU PULSION 
+SY ADMIRATION 
+THERMIDOR 
+WPB MEDINA 
+   Variétés inscrites en 2025 
+ 
+2) Evaluer le risque agronomique de la parcelle à l’aide de la grille d’évaluation du risque piétin-
+verse 
+Des informations relatives aux indices climatiques TOP sont publiées chaque année dans les Bulletins 
+de Santé du Végétal (BSV). 
+Grille nationale d’évaluation du risque piétin verse avec prise en compte du climat de l’hiver 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+En cas de mélanges variétaux, faire la moyenne des notes piétin-verse des variétés composant le mélange pour compléter la case « effet variétal ». 
+Si les variétés ne sont pas connues, prendre le score de 4 de la grille. 
+ 
+ 
+ 
+
+
+PDF_PAGE=14
+ 
+12 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Si une intervention est nécessaire (risque élevé, plus de 
+35% de tiges atteintes…), elle devra se faire entre les 
+stades « épi 1 cm » et « 1-2 nœuds ». Après le stade 2 
+nœuds, il est trop tard pour intervenir. 
+Veillez à surveiller l’apparition de symptômes : en effet, 
+certaines parcelles ont fait l’objet d’une présence de la 
+maladie en 2024, engendrant des verses en fin de cycle. 
+En cas de traitement, les matières actives utilisables 
+contre le piétin verse sont d’abord la métrafénone et le 
+cyprodinil 
+et, 
+dans 
+une 
+moindre 
+mesure, 
+le 
+prothioconazole. Le cyprodinil et la métrafénone n'ont 
+pas d'efficacité contre la septoriose. Les solutions anti-
+piétin ont perdu en efficacité ces dernières années, et 
+atteignent aujourd’hui moins de 50% d’efficacité pour 
+les meilleures. 
+Evaluer le risque fusarioses pour garantir la qualité sanitaire 
+ 
+ 
+Les attaques d’épis sont causées par un complexe de 
+différentes espèces appartenant aux genres Fusarium et 
+Microdochium. Le complexe rencontré dans notre 
+région est principalement composé de Fusarium 
+graminerarum et Microdochium spp..  
+F. graminearum est l’espèce la plus problématique vis-
+à-vis de la qualité en raison de sa production de 
+mycotoxines dans les grains et particulièrement de 
+déoxynivalénol (DON).  
+ 
+ 
+L’accumulation de cette mycotoxine dans les grains de 
+blé résulte d’une combinaison de plusieurs facteurs de 
+risques aggravants :  
+- 
+Le climat est le facteur primordial dans les 
+processus de contamination. Il joue un rôle 
+déterminant dans la maturation de l’inoculum 
+(pluies et températures supérieures à 10°C) et 
+dans les conditions d’infection (pluie et vent). 
+Pour qu’il y ait une contamination, les 
+émissions d’ascospores doivent se produire 
+lorsque le blé est sensible, c’est-à-dire au stade 
+floraison.  
+- 
+Les résidus de culture sont la principale source 
+de contamination. Ainsi, les précédents maïs et 
+sorgho augmentent le potentiel infectieux. Le 
+maïs fourrage présente moins de risque que le 
+maïs grain (moins de résidus au sol). 
+Les maladies d’épis peuvent également avoir des 
+impacts sur le rendement, avec parfois des dégâts très 
+importants. 
+Les traitements fongicides sont un recours ultime et 
+sont loin d’être totalement efficaces. Les meilleures 
+protections fongicides arrivent à 50-60 % d’efficacité (en 
+baisse ces dernières années). Il est toujours important 
+de limiter le cumul des facteurs favorisant les maladies 
+d’épis. Pour cela, le travail du sol a toute son 
+importance. Le labour, permettant d’enfouir les résidus, 
+et secondairement le broyage, permettent d’accélérer 
+leur décomposition. Les deux techniques limitent le 
+potentiel infectieux, mais le labour reste la technique la 
+plus efficace.  
+ 
+Les différences variétales existent vis-à-vis de la 
+résistance à la fusariose F.graminearum et de 
+l’accumulation en mycotoxines. La résistance totale 
+n’existe pas : sans observer de la fusariose on peut avoir 
+de la DON même sur les variétés les plus résistantes en 
+situations très contaminées. La caractérisation des 
+variétés se limite à l’évaluation de la sensibilité aux 
+fusarioses productrices de toxines. Il n’existe pas 
+d’échelle de sensibilité variétale à Microdochium spp. 
+ 
+Il est illusoire d'imaginer régler la question avec un seul 
+levier. Il est important d'agir sur tous les leviers, ne 
+serait-ce que pour contrecarrer l'influence climatique, 
+par définition non maîtrisable et non prévisible. 
+ 
+ 
+ 
+ 
+ 
+ 
+Attention : 
+Le 
+règlement 
+européen 
+(CE) 
+N°1881/2006, fixant les teneurs maximales en 
+mycotoxines pour des céréales brutes, a fait l’objet 
+d’un réexamen concernant le DON, afin de réduire 
+l’exposition des consommateurs à cette toxine.  
+Depuis le 1er juillet 2024, le taux maximal de DON 
+autorisé sur le blé tendre est 1 000 µg/kg de grains 
+bruts (1 500 µg/kg pour le blé dur) 
+
+
+PDF_PAGE=15
+ 
+13 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+ 
+Résistance des variétés de blé tendre au risque DON* (Fusarium graminearum)  
+Pour notre région, nous préconisons d’utiliser des variétés de blé qui ont des notes de DON ≥ 5.5 pour les semis sur 
+précédent maïs. 
+ 
+Grille d’évaluation du risque d’accumulation du déoxynivalénol (DON) dans le grain de blé tendre et d’aide au 
+traitement contre la fusariose sur épi (Fusarium graminearum) 
+ 
+Pour les mélanges variétaux, compte tenu du risque sanitaire, il est conseillé de prendre en compte la variété la 
+plus sensible du mélange au niveau de la grille de risque.  
+ 
+La grille blé tendre estime le risque de 1 (risque DON le plus faible), à 7 (risque DON le plus fort). Une variété est 
+dite sensible si sa note d’accumulation en DON est inférieure ou égale à 3.5 et elle est dite peu sensible si cette 
+note est supérieure à 5.5. 
+Références
+Nouveautés et variétés récentes
+OREGRAIN
+HYLIGO
+APACHE
+6.5
+KWS MILLESIME
+LG ABILENE
+KWS SPHERE
+KWS PERCEPTIUM
+6
+CONQUISTADOR
+SU HYCLASS
+SU HYSTORIC
+ARCACHON
+ACCOMPLY
+CHAMDOR
+FABULOR
+KINGKONG
+LG NIKLAS
+PONDOR
+KWS ULTIM
+INTENSITY
+GARFIELD
+OLAF
+RGT MAJESKO
+SU HYANKEE
+THERMIDOR
+KAROQUE
+CHEVIGNON
+BALZAC
+AMPLEUR
+RGT PACTEO
+PRESTANCE
+LG AUDACE
+LG ABSALON
+AUCHY
+KWS GLOBE
+OUTDOOR
+RGT LOOKEO
+SU HYLORD
+SU HYREAL
+WINNER
+SHREK
+FACILITY
+KARDIGAN
+PAILLEDOR
+RGT INDEXO
+RGT SUNDEO
+RGT VALPARAISO
+SU ELECTRON
+SU HORIZON
+SU HYBISCUS
+SU PULSION
+KWS EXTASE
+KWS AGRUM
+JUNIOR
+CELEBRITY
+ACADEMY
+GENERIK
+INTRODUCTOR
+KARABOL
+KWS ETOILE
+RGT TWEETEO RGT LETSGO
+PIBRAC
+LG ARLETY
+LG ACROBAT
+RGT FARMEO
+RGT NOBELLO
+SPIROU
+SU MASTER
+SU SAUVIGNON
+WPB MEDINA
+COMPLICE
+3.5
+GEOPOLIS
+KAKTUS
+3
+BELZEBUTH
+LG AERO
+LID PAVANE
+RGT KOESIO
+RGT PROFUSIO
+Source : essais pluriannuels de  post-inscription (ARVALIS et partenaires) et d'inscription (CTPS/GEVES).
+5.5
+Variétés 
+peu 
+sensibles
+Variétés moyennement 
+sensibles
+Variétés peu sensibles
+Variétés sensibles
+Variétés 
+sensibles
+4
+4.5
+5
+
+
+PDF_PAGE=16
+ 
+14 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+* Pour limiter la présence de l’inoculum, il convient de réduire au maximum la présence de résidus lors de la 
+floraison des blés. Pour cela, plusieurs possibilités : le labour permet un bon enfouissement des résidus mais 
+d’autres techniques permettent un résultat proche du labour comme par exemple un broyage fin et une 
+incorporation en surface des résidus rapidement après récolte. 
+T = parcelles conseillées au traitement. Pour le choix du traitement, se reporter à nos pages de conseil 
+« préconisations régionales ». 
+ 
+Légende : Recommandations associées à chaque niveau de risque : 
+1 et 2 : Le risque fusariose est minimum et présage d’une excellente qualité sanitaire du grain vis-à-vis de la teneur en DON. 
+Pas de traitement spécifique vis-à-vis des fusarioses quelles que soient les conditions climatiques. 
+3 : Le risque peut être encore minimisé en choisissant une variété moins sensible. Traiter spécifiquement vis-à-vis des 
+fusarioses en cas de climat humide (cumul de pluies > 40 mm pendant la période entourant la floraison). 
+4 et 5 : Il est préférable de réaliser un labour pour revenir à un niveau de risque inférieur. A défaut, effectuer un broyage le 
+plus fin possible et une incorporation des résidus rapidement après la récolte. Pour ces deux niveaux de risque, envisager un 
+traitement avec un triazole* anti-fusarium efficace, sauf si le climat est très sec pendant la période de floraison (cumul de 
+pluies < 10 mm pendant les 7 jours entourant la floraison). 
+6 et 7 : Modifier le système de culture pour revenir à un niveau de risque inférieur. Labourer ou réaliser un broyage le plus 
+fin possible des résidus de culture, avec une incorporation rapidement après la récolte, sont les solutions techniques les plus 
+efficaces et qui doivent être considérées avant toute autre solution. Choisir une variété peu sensible à la fusariose. Traiter 
+systématiquement avec un triazole* anti-fusarium efficace. 
+* Traitements efficaces contre F. graminearum et F. culmorum : principalement produits à base de prothioconazole, 
+tébuconazole ou metconazole, utilisés début floraison à une dose suffisante (60 à 80 % de la dose homologuée minimum, 
+selon le produit utilisé). Notez que parmi les solutions efficaces contre les Fusarium spp. il existe des différences marquées 
+d’efficacité sur Microdochium spp. Une nuance qui peut s’avérer importante certaines années. En cas d’utilisation de 
+strobilurine, éviter l’azoxystrobine en T3 pour toutes les situations agronomiques où le risque fusariose est avéré. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PDF_PAGE=17
+ 
+15 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Résistance des variétés de blé tendre à la Rouille jaune - échelle 2025
+Adapter son programme fongicide aux sensibilités variétales : évaluer 
+les risques liés à la variété 
+ 
+Résistance des variétés de blé tendre aux rouilles 
+Des changements de comportements de certaines variétés dites « peu sensibles » à la rouille brune ou à la rouille jaune 
+ont été observés sur le printemps 2025. Malgré leur tolérance, des symptômes ont été signalés sur ces variétés concernées. 
+Leur note va être ré-évaluée cet hiver avec une perte de 1 à 2 points en début 2026. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Références
+Nouveautés et variétés récentes
+Résistants
+RGT MAJESKO (8)
+SHREK (8)
+RGT PROPULSO (8)
+INTENSITY (8)
+CONQUISTADOR (8) INTRODUCTOR (8)
+SY TRANSITION (8) LG AIKIDO (8)
+KWS ASTRUM (8)
+ACCOMPLY (7)
+KARABOL (7)
+KINGKONG (7)
+LG AERO (7)
+OLAF (7)
+PAILLEDOR (7)
+RGT INDEXO (7)
+RGT KOESIO (7)
+SU MASTER (7)
+THERMIDOR (7)
+Assez résistants
+KWS SPHERE (7) KWS EXTASE (7)
+KWS ERRUPTIUM (8)
+JUNIOR (7)
+ACADEMY (7)
+KAKTUS (7)
+KWS ETOILE (7)
+KWS GLOBE (7)
+SU ELECTRON (7)
+RGT PACTEO (7)
+LG ABRAZO (7)
+LG ABILENE (7)
+PONDOR (7)
+KWS ULTIM (7)
+ARCACHON (7)
+OUTDOOR (7)
+SU HYLORD (7)
+WPB MEDINA (7)
+KWS PERCEPTIUM (7) BALZAC (7)
+SU HYANKEE (6)
+Moyennement sensibles
+KAROQUE (6)
+GEOPOLIS (6)
+LG NIKLAS (7)
+RGT FARMEO (6) SU HYCLASS (6)
+SU PULSION (6)
+RGT LETSGO (6)
+LG AUDACE (6)
+LG ABSALON (6)
+SPIROU (6)
+SU SAUVIGNON (6)
+RGT LUXEO (6)
+FABULOR (6)
+RGT NOBELLO (6)
+RGT SUNDEO (6) SU HYSTORIC (6)
+Assez sensibles
+LG ARLETY (6)
+SU HYBISCUS (6)
+BELZEBUTH (7)
+FACILITY (6)
+KARDIGAN (6)
+SU HORIZON (7)
+JERIKO (7)
+CHEVIGNON (7)
+GENERIK (7)
+KWS MILLESIME (6) LID PAVANE (6)
+RGT PROFUSIO (6) RGT VALPARAISO (6)
+Très sensibles
+SU HYREAL (5)
+COMPLICE (5)
+CELEBRITY (6)
+CHAMDOR (7)
+LID MACUMBA (5)
+RGT LOOKEO (5)
+AUCHY (6)
+PRESTANCE (5)
+Variétés peu sensibles 
+Variétés sensibles 
+Variétés en couleur : Perte de résistance - Diminution 
+de cotations de 1 à 2 points prévue pour 2026 
+() à confirmer
+Source : essais pluriannuels de  post-inscription (ARVALIS et partenaires) et d'inscription (CTPS/GEVES).
+Résistance des variétés de blé tendre à la Rouille brune - échelle 2025
+Références
+Nouveautés et variétés récentes
+RGT PROPULSO
+RGT MAJESKO
+RGT SUNDEO
+ACCOMPLY
+RGT FARMEO
+RGT LOOKEO
+LG ARLETY
+GEOPOLIS
+RGT INDEXO
+RGT VALPARAISO
+JERIKO
+BALZAC
+FACILITY
+GODZILLA
+SU ELECTRON
+SU HORIZON
+SU HYSTORIC
+WINNER
+LG ABSALON
+KWS PERCEPTIUM
+KWS ASTRUM
+LG AIKIDO
+LG ABRAZO
+KWS SPHERE
+KWS EXTASE
+KWS GLOBE
+OLAF
+SPIROU
+SU HYBISCUS
+WPB MEDINA
+KWS ERRUPTIUM
+OUTDOOR
+PRESTANCE
+LG ABILENE (7) JUNIOR
+CHEVIGNON
+FABULOR
+KAKTUS
+KARDIGAN
+LG AERO
+RGT PROFUSIO
+SY TRANSITION SHREK
+RGT LETSGO (8)
+RGT TWEETEO
+KINGKONG
+KWS MILLESIME
+LID MACUMBA
+RGT NOBELLO SU MASTER
+INTRODUCTOR
+LG NIKLAS
+RGT KOESIO
+LG AUDACE
+HYLIGO
+PAILLEDOR
+SU HYANKEE
+SU HYREAL
+INTENSITY
+ARCACHON
+CHAMDOR
+KWS ETOILE
+LG ACROBAT
+LID PAVANE
+SU HYCLASS
+RGT PACTEO
+PIBRAC
+KAROQUE
+CELEBRITY
+BELZEBUTH
+CONQUISTADOR
+PONDOR
+SU PULSION
+SU SAUVIGNON
+RGT LUXEO
+KWS ULTIM
+COMPLICE
+AUCHY
+KARABOL
+SU HYLORD
+THERMIDOR
+ACADEMY (5)
+GENERIK (5) 
+() à confirmer
+Source : essais pluriannuels de  post-inscription (ARVALIS et partenaires) et d'inscription (CTPS/GEVES).
+Variétés peu sensibles
+Variétés sensibles
+Résistantes
+Assez résistantes
+Moyennement 
+ sensibles
+Assez 
+sensibles
+Très sensibles
+
+
+PDF_PAGE=18
+ 
+16 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+NB : rouille jaune : Une variété dite « résistante » 
+n’est pas une variété sans pustule ! Il n’est pas rare 
+d’observer des symptômes sur des variétés 
+considérées 
+comme 
+assez 
+résistantes 
+ou 
+partiellement résistantes (note de 7), en particulier 
+en cas de forte pression. Cela ne signifie pas 
+nécessairement que la résistance de ces variétés est 
+contournée. Le plus souvent ces symptômes cessent 
+rapidement d’évoluer et n’engendrent pas de perte 
+de production significative.
+ 
+ 
+Résistance des variétés de blé tendre à la septoriose 
+La plupart des variétés implantées en Champagne-Ardenne ont une bonne tolérance à la septoriose : une bonne proportion de la 
+sole en blé est cultivée avec une variété présentant une note ≥ 6.5.  
+ 
+ 
+ 
+ 
+ 
+Résistance des variétés de blé tendre à la septoriose - échelle 2025
+Références
+Nouveautés et variétés récentes
+SHREK (8)
+RGT MAJESKO
+LG ABSALON
+ACCOMPLY
+RGT KOESIO
+SPIROU
+THERMIDOR
+LG ACROBAT
+RGT INDEXO
+SU HYBISCUS
+BELZEBUTH
+CHAMDOR
+FABULOR
+GEOPOLIS
+GODZILLA (7.5)
+JERIKO
+BALZAC
+CONQUISTADOR
+RGT SUNDEO
+SU ELECTRON
+SU MASTER
+SU PULSION (7)
+SU HYREAL
+INTRODUCTOR
+KAKTUS
+RGT VALPARAISO
+LG ABILENE
+KWS SPHERE
+KWS ERRUPTIUM
+GENERIK
+KARDIGAN
+LID PAVANE
+OLAF
+RGT NOBELLO
+RGT LETSGO
+PRESTANCE (7)
+OUTDOOR
+KWS ASTRUM
+JUNIOR 
+LID MACUMBA
+RGT FARMEO
+SU HYANKEE
+SU HYLORD
+WPB MEDINA
+RGT LUXEO
+PAILLEDOR
+RGT PROFUSIO
+SU HORIZON (7)
+SU HYSTORIC
+PONDOR
+KWS PERCEPTIUM
+KWS EXTASE (6.5)
+KAROQUE
+ACADEMY
+FACILITY
+SU HYCLASS
+SU SAUVIGNON
+SY TRANSITION
+PIBRAC
+LG ARLETY
+LG ABRAZO
+KWS GLOBE
+KWS MILLESIME
+RGT TWEETEO
+INTENSITY (6.5)
+CHEVIGNON (6.5)
+ARCACHON
+KARABOL
+RGT LOOKEO
+WINNER (5.5)
+RGT PACTEO
+LG AUDACE
+AMPLEUR
+KINGKONG
+AUCHY
+KWS ETOILE (6)
+LG AERO
+LG NIKLAS
+COMPLICE (5.5)
+CELEBRITY (5)
+RGT PROPULSO
+LG AIKIDO
+KWS ULTIM
+() à confirmer
+Source : essais pluriannuels de  post-inscription (ARVALIS et partenaires) et d'inscription (CTPS/GEVES).
+Variétés sensibles
+Variétés peu sensibles
+Résistants
+Assez résistants
+Moyennement 
+sensibles
+Assez 
+sensibles
+Très sensibles
+Variétés en couleur – évolution des notes :  
+perte de 0.5 à 1 pt pour SU Horizon, SU Pulsion, Intensity, Chevignon, KWS 
+Extase, KWS Etoile, Winner, Celebrity et Complice  
+gain de 0.5 pt pour Shrek, Godzilla et Prestance 
+
+
+PDF_PAGE=19
+ 
+17 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Grâce au progrès génétique, de nombreuses variétés 
+cultivées présentent des profils de plus en plus 
+résistants aux maladies : près de 80% des variétés 
+cultivées en 2025 sont résistantes à la septoriose (note 
+≥6.5). Pour ces situations, hors présence de rouille 
+jaune, l’impasse du T1 devient la règle (exception en cas 
+de forte pression maladies comme celle connue en 
+2024, pour les variétés notées 6.5, où le T1 sera à 
+déclencher suivant l’OAD).  
+La nuisibilité des maladies dépend de la variété mais 
+aussi du milieu pédoclimatique. La tolérance des 
+variétés aux maladies peut être altérée au fur et à 
+mesure du temps. En conséquence, il est conseillé de 
+continuer à observer ses parcelles fréquemment au 
+cours de la campagne. Suite au changement de 
+comportement variétal observé en 2025 concernant la 
+rouille jaune, il est fortement recommandé de 
+surveiller sur le printemps 2026: Academy, Belzebuth, 
+Chevignon, Generik, Intensity, KWS Extase, KWS Ultim, 
+LG Acrobat, Pondor, RGT Koesio, RGT Majesko, Shrek, 
+SU Horizon, … 
+La résistance variétale, même si elle est parfois fragile 
+en raison d’une évolution des races, reste le moyen le 
+plus économique pour lutter contre les maladies.
+ 
+ETAPE 2 : CONSTRUIRE SA STRATEGIE FONGICIDE  
+Informations réglementaires 
+ Retraits à venir… 
+Le tébuconazole sera utilisable en 2026 et 2027 avec une fin d’utilisation probable saison 2027. 
+Le cyprodinil sera utilisable en 2026 et avec une dernière utilisation probable pour mai 2027.  
+ Modification d’AMM 
+TWIST SC 500 de Bayer reste uniquement utilisable sur orge avec possibilité de l’associer au KARDIX. Utilisable à 
+0.24 l/ha avec 50m de ZNT réductible à 5m (si buses antidérive). Utilisable à 0.5 l/ha avec ZNT 100m réductible à 
+20m (si buses antidérive).   
+ Restrictions d’usage 
+• 
+Restriction des mélanges concernant la pyraclostrobine à partir du 1er mai 2026, suite à l’ajout des 
+phrases de risque H302, H361d, H373. Conséquences directes, par exemple, pour les mélanges JUVENTUS 
++ COMET 200, LIBRAX/TEXAS + COMET 200/LYBRO qui ne seront plus autorisés.  
+Suite à ces modifications réglementaires, la firme BASF a obtenu une Autorisation de Mise au Marché de 
+mélanges spécifiques suite à l’évaluation d’un dossier de demande : ZOOM + COMET 200, REVYSTAR XL + COMET 
+200 et REVYSTAR XL + PRIAXOR EC sont autorisés. 
+• 
+Restriction des mélanges concernant la fenpropidine au 1er mai 2026, suite à l’ajout de la phrase de 
+risque H361d. Ce qui l’interdit en mélange avec certaines triazoles. Par exemple, les mélanges 
+JUVENTUS/SUNORG PRO + MELTOP ONE ou MYSTIC EW + MELTOP ONE seront interdits.  
+ 
+• 
+Restriction des mélanges concernant le folpel au 1er février 2027, suite à l’ajout de la phrase de risque 
+H372, ce qui l’interdit en mélange avec tout autre produit.  
+ 
+Avant 
+tout 
+mélange, 
+vérifier 
+la 
+possibilité 
+réglementaire 
+via 
+notre 
+site https://www.melanges.arvalisinstitutduvegetal.fr/.  
+Pour davantage de précisions, consultez https://ephy.anses.fr/ 
+Pour vous aider dans les distances de sécurité riverains à respecter en fonction des produits, vous pouvez utiliser 
+l’application ARVALIS en ligne : https://distance-riverains.arvalis.fr/#/ 
+ 
+
+
+PDF_PAGE=20
+ 
+18 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+ Nouveaux fongicides céréales utilisation printemps 2026 
+Bien qu’il n’y ait pas de nouvelle matière active disponible en 2026, de nouveaux produits fongicides sont 
+proposés et sont détaillés dans le tableau ci-dessous. 
+ 
+Quelle enveloppe fongicide pour 2026 ? 
+Le prix de vente du blé et le niveau de nuisibilité 
+attendus 
+sont 
+déterminants 
+dans 
+le 
+niveau 
+d’investissement pour le programme de protection. Nos 
+repères de dépenses optimales sont basés sur un 
+modèle qui intègre 62 essais de 2012 à 2017. Pour 
+rappel, dans ces essais dits « courbe de réponse », nous 
+faisons varier la dose de chaque fongicide utilisé en 
+programme, majoritairement en trois passages.  
+Pour une nuisibilité attendue de 15 q/ha (tableau ci-
+dessous), la dépense fongicide idéale s’échelonne de 53 
+à 84 €/ha selon le prix du blé retenu (pour gérer une 
+pression septoriose et rouille brune, en cas d’attaques 
+de rouille jaune, de fusarioses ou de piétin, une dépense 
+supplémentaire sera à envisager). 
+Pour un blé vendu à 17 €/q, la dépense optimale serait 
+de 64 €/ha, enveloppe de dépense à ajuster en fonction 
+de la pression de maladie observée en cours de saison.  
+Pour établir nos propositions de programmes pour la 
+saison 2025, nous avons retenu 17 €/q comme prix de 
+base du blé. Le prix du blé à horizon 2026 étant 
+difficilement prévisible et parfois contractualisé, vous 
+pouvez utiliser le tableau ci-dessous, en fonction de vos 
+propres estimations économiques.  
+A chacun d’augmenter ou de diminuer son enveloppe 
+fongicide à sa convenance. Quelles que soient les 
+situations, une protection de qualité sera recherchée, 
+tout en continuant d’adapter le nombre et la dose de 
+chaque application aux conditions de l’année, à la région 
+et à la variété. 
+Rappelons tout de même que la meilleure protection 
+reste la mise en œuvre des principes de protection 
+intégrée. Elle vise en effet à actionner tous les leviers 
+disponibles en amont pour éviter le développement et 
+la nuisibilité des maladies et de limiter le besoin 
+d’applications fongicides directes.  
+Une protection adaptée est la clé de la réussite. Il s’agira 
+donc d’adapter le nombre et la dose de chaque 
+application aux conditions de l’année, à la région et à la 
+variété en s’appuyant si besoin sur des Outils d’Aide à la 
+Décision et dans tous les cas, sur une observation des 
+parcelles. 
+A titre de repère, la dépense fongicide moyenne sur blé tendre 
+s’est établie en 2025 à 61 €/ha (2024 à 77 €/ha, 2023 à 70 €/ha, 
+2022 à 61€/ha, 2021 à 60 €/ha, 2020 à 59 €/ha, 2019 à 69 €/ha, 
+2018 à 70 €/ha, 2017 à 70 €/ha, 2016 à 84 €/ha, 2015 à 82 €/ha, 
+2014 à 87 €/ha et 2013 à 80 €/ha). Une pression de septoriose 
+précoce, associée à une inflation du prix des fongicides, ont 
+entrainé une augmentation de la dépense fongicide en 2023. 
+ 
+ 
+Dépense fongicide optimale théorique sur blé en fonction de la pression parasitaire attendue en 
+septoriose et rouille brune et sous 9 hypothèses du prix du quintal (62 essais 2012 à 2017) 
+ 
+Prix blé €/q
+5
+10
+15
+20
+25
+30
+35
+40
+13 €/q
+24
+37
+53
+67
+81
+95
+109
+123
+15 €/q
+28
+42
+59
+74
+89
+104
+120
+135
+17 €/q
+32
+47
+64
+81
+97
+114
+130
+146
+19 €/q
+35
+51
+70
+87
+105
+122
+139
+157
+21 €/q
+38
+55
+75
+93
+112
+130
+148
+167
+23 €/q
+41
+58
+80
+99
+119
+138
+157
+176
+25 €/q
+44
+62
+84
+104
+124
+144
+164
+184
+Nuisibilité attendue (q/ha)
+FRAC  
+COMPOSITION  
+AMM  
+NOM  
+FIRME  
+P07 & 3  
+Phosphonates de potassium 735 g/l + 
+prothioconazole 50 g/l  
+2250027  
+FIRUZA  
+DE SANGOSSE  
+11 & 3  
+Pyraclostrobine 100 g/l + 
+Méfentrifluconazole 95 g/l  
+2210567  
+LOMARA = EVREST   
+BASF  
+11 & 3  
+Azoxystrobine 150 g/l + Prothioconazole 
+150 g/l  
+En cours 
+d’évaluation  
+Lancement espéré 
+printemps 2026  
+NUFARM  
+3 & 3  
+Difénoconazole 125 g/l + 
+prothioconazole 175 g/l  
+En cours 
+d’évaluation  
+Lancement espéré 
+printemps 2026  
+ADAMA  
+
+
+PDF_PAGE=21
+ 
+19 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Quelques repères de construction pour la protection des blés tendres en 
+2026  
+ 
+Diversifier les modes d’actions ! 
+Pour minimiser les risques de résistance, alterner les 
+modes d’action en essayant de respecter les règles 
+suivantes : 
+- Pas plus d’un SDHI, d’un fenpicoxamid et d’une 
+strobilurine par campagne. 
+- Alterner les triazoles au cours de la saison : veiller à 
+utiliser chaque trizaole qu’une seule fois dans le 
+programme, en particulier le prothioconazole. Avec 
+l’arrivée de nombreuses spécialités à base de 
+prothioconazole, ce dernier a été largement utilisé en 
+2024 et parfois plusieurs fois sur la même parcelle. 
+- Introduire dans la mesure du possible les nouveaux 
+modes d’action (fenpicoxamid) dans les programmes.
+ 
+Un programme à 1, 2 ou 3 applications est à adapter régionalement et à 
+l’année !
+Traitement au stade « Epi 1cm » 
+Uniquement si présence de rouille jaune ! Les produits 
+à base de triazoles (ou double triazoles) ont une 
+efficacité très satisfaisante. Ils peuvent être complétés 
+éventuellement par une strobilurine. Si la variété est 
+sensible à la rouille brune, conserver la strobilurine pour 
+un positionnement à « Dernière Feuille Etalée ». Plus 
+que le produit, c’est le délai entre deux interventions qui 
+est important (pas plus de 20 jours en cas de pression 
+forte). Une enveloppe de 15 €/ha est suffisante pour 
+ralentir la progression de la maladie en début de cycle. 
+Attention : Il est indispensable de consulter les AMM des 
+produits avant toute utilisation pour vérifier qu’une 
+application est possible avant 1 nœud.  
+ 
+Traitement Courant montaison - « 2 nœuds-DFP » 
+- Sur septoriose : l’impasse à « 2 nœuds » reste la règle 
+pour les variétés résistantes à peu sensibles (note ≥ 
+6.5). Pour les autres variétés, c’est le pilotage par un 
+Outil d’Aide à la Décision qui décidera d’une 
+intervention ou non courant montaison, selon la date 
+d’apparition de la septoriose. 
+Les notes évoluant chaque année, vérifiez les notes de 
+vos variétés.  
+Dans ce cas, les solutions de biocontrôle (phosphonate 
+de potassium + soufre) contre septoriose sont efficaces 
+et à privilégier dans un contexte de résistance 
+généralisée aux triazoles sur la région. Elles sont à 
+associer à une strobilurine ou à une triazole en cas de 
+rouilles.  
+Autres solutions : les triazoles peuvent être associées à 
+un produit de contact pour renforcer leur efficacité sur 
+septoriose. Le soufre et le folpel étant des fongicides 
+multisites, ils présentent un risque de résistance limité. 
+En cas de positionnement plus tardif et nécessaire, vers 
+« Dernière Feuille Pointante », une application de soufre 
+unique peut être réalisée dans l’attente d’un relais à 
+« Dernière Feuille Etalée ».  
+- Sur rouille jaune : Uniquement si présence de la 
+maladie pour les variétés sensibles dont la note rouille 
+jaune est < 7.  
+- Sur piétin verse : Si une intervention est nécessaire 
+(risque élevé, > 35% de tiges atteintes), elle devra se 
+faire entre les stades « épi 1 cm » et « 1-2 nœuds ». 
+Passé le stade « 2 nœuds », il est trop tard pour 
+intervenir. En cas de traitement, les matières actives 
+utilisables sont la métrafenone et le cyprodinil, et dans 
+une moindre mesure le prothioconazole. Les efficacités 
+des solutions anti piétin ont perdu en efficacité ces 
+dernières années, et atteignent aujourd’hui moins de 
+50% d’efficacité pour les meilleures.  
+ 
+
+
+PDF_PAGE=22
+ 
+20 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+Traitement à « Dernière Feuille Etalée » 
+La protection au stade « Dernière Feuille Etalée » reste 
+le pivot de la protection fongicide et lève la majorité de 
+la nuisibilité. 
+En complément des IDM (triazoles), les SDHI, les QiI 
+(fenpicoxamid) et/ou les QoI (strobilurines) trouvent 
+leur place au stade « Dernière Feuille Etalée ». 
+Un fongicide contenant du prothioconazole peut 
+s’envisager à ce stade si aucune intervention avec cette 
+matière active n’est prévue par la suite, à floraison. Pour 
+rappel, les strobilurines n’ont aucun intérêt en l’absence 
+de rouilles. 
+En cas de risque rouille brune : l’adjonction d’une 
+strobilurine est recommandée (100g d'Azoxystrobine 
+ou 60g de Pyraclostrobine). Vérifier si la réglementation 
+des mélanges le permet. 
+ 
+ 
+Traitement à « Début Floraison » 
+Quel que soit le produit, le positionnement du fongicide 
+juste avant la contamination des épis par la fusariose, au 
+début de la sortie des étamines, est essentiel mais 
+parfois compliqué selon les conditions climatiques. 
+Prosaro/Kestrel (prothioconazole + tébuconazole) sont 
+les références sur épis, efficaces sur Fusarium 
+graminearum, Microdochium spp., septoriose et 
+rouilles. 
+Attention, éviter l’azoxystrobine en T3 pour toutes les 
+situations agronomiques où le risque fusariose est 
+avéré. Préférer dans ce cas la fluoxastrobine présente 
+dans le Fandango S.  
+Sur variétés sensibles, sur les secteurs les plus tardifs, un 
+relais septoriose peut être nécessaire certaines années, 
+comme ça a été le cas en 2024 dans notre région. Dans 
+ce 
+cas, 
+une 
+intervention 
+avec 
+les 
+produits 
+précédemment cités peut être envisagée dès épiaison. 
+Une association de triazoles (Ex : Joao + Wasan, Pecari + 
+Priori Gold) peut aussi convenir. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lutte contre les maladies en 2025 : 
+une faible pression septoriose (à 
+l’inverse de 2024) et une année 
+favorable aux rouilles, notamment à 
+la rouille brune.  
+Le climat 2025 (faible cumul de pluie, rayonnement 
+printanier record associé à des cumuls de 
+températures supérieurs à la médiane) est 
+favorable au développement de la rouille brune. 
+Sans oublier que notre sole est implantée avec des 
+variétés de plus en plus résistantes à la septoriose 
+mais plutôt sensibles à la rouille brune !  
+La nuisibilité moyenne est de 10 q/ha sur la 
+région, allant de 4 à plus de 25 q/ha en situations 
+avec présence de rouilles : le choix variétal reste un 
+levier incontournable de la lutte contre les maladies. 
+Encore en 2025, les solutions les plus efficaces pour 
+gérer cette maladie restent les strobilurines. Sur les 4 
+dernières années consécutives, nous observons une 
+baisse d’efficacité des SDHI qui nous laisse suspecter 
+une progression (constatée principalement entre 
+2021 et 2022 sur les essais du sud de la France) de 
+souches de rouille brune résistantes à ce mode 
+d’action. De ce fait, on ajoutera également une 
+strobilurine aux solutions à base de benzovindiflupyr 
+(Elatus Era, Aprovia plus…) en cas de forte attaque 
+rouille brune, ce qui n’était pas nécessaire 
+jusqu’alors. 
+Rappel sur 2024 : année record en 
+pression élevée en septoriose 
+Les solutions de biocontrôle à base de soufre et de 
+phosphonates bien appliquées en T1 ont confirmé 
+leur efficacité sur septoriose. 
+L’efficacité des solutions « SDHI + Triazole » est 
+d’autant plus limitée que la fréquence des souches 
+résistantes est élevée. Enfin, le mode d’action Qii 
+(fenpicoxamide), plus récemment introduit et pour 
+lequel aucune souche résistante n’a été détectée à ce 
+jour, se distingue par sa bonne efficacité sur 
+septoriose dans les essais. La poursuite d’une gestion 
+responsable des fongicides est donc indispensable 
+pour limiter la progression des souches résistantes. 
+En résumé, nos recommandations 
+pour la campagne prochaine : 
+➔ Septoriose :  
+On s’inquiète de l’accélération de la résistance qui 
+a commencé à se voir dans les parcelles en 2024 : 
+érosion globale des SDHI et triazoles, érosion 
+d’autant plus forte que beaucoup de solutions sont 
+appliquées 2 fois dans les programmes (double 
+tébuco, prothio). Donc on alterne et on associe les 
+
+
+PDF_PAGE=23
+ 
+21 
+Choisir & Décider                    Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+         CHAMPAGNE-ARDENNE 
+matières 
+actives 
+pour 
+éviter 
+de 
+griller 
+prématurément les substances qui marchent encore 
+! 
+Sur septoriose, on ne met plus de triazole solo au T1, 
+on ajoute un multisite efficace.  
+La hiérarchie des solutions au T2 a également évolué 
+: la fenpicoxamide sur septoriose tire son épingle du 
+jeu, mais il est impératif de l’associer pour la 
+préserver ! 
+Ce qui doit être la clef de vos traitement fongicides 
+dans les années à venir, reste l’adaptation des doses 
+à la pression de l’année : on augmente si c’est 
+nécessaire mais on s’adapte aussi si l’année n’est pas 
+propice aux maladies. 
+De même, on intervient aux bons stades de 
+protection et on assure une bonne cadence entre 
+traitements (~20j max) en cas d’année à pression 
+septoriose intense et durable. 
+➔ Sans oublier la rouille brune, qui est de plus 
+en plus fréquente 
+Au T2, si besoin on associe une strobilurine efficace 
+contre la rouille brune (100 g d’azoxystrobine ou 60 g 
+de pyraclostrobine). Vérifier si la réglementation des 
+mélanges le permet. 
+ 
+On veille à réaliser un relai à « début floraison » 
+contre les rouilles mais qui n’est pas à 
+systématiser… donc on surveille jusqu’en fin de 
+cycle la rouille brune, en plus de nos maladies 
+habituelles (septoriose et fusarioses). 
+ 
+ 
+
+
+PDF_PAGE=24
+ 
+22 
+Choisir & Décider                        
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+PROGRAMMES REGIONAUX POUR 2026 
+Le T2 est le pivot de la protection et lève la majorité de la nuisibilité : il est indispensable !  Le T3 est un relais contre la septoriose et les rouilles, maladies à 
+surveiller jusqu’en fin de cycle, et préconisé dans les situations à risque fusarioses.  Le T1 n’est pas systématique et se réalise si déclenchement sur septoriose 
+et/ou rouille jaune. Alterner les produits entre T1, T2 et T3. Ne pas intervenir 2 fois par campagne avec les mêmes matières actives (triazoles, SDHI, fenpicoxamide, 
+strobilurines…). 
+ 
+ 
+  
+Produits
+€/ha
+Produits
+Doses
+€/ha
+T3 à ne faire que si PAS de prothioconazole en T2 :
+T2 sans prothioconazole :
+ ≈ 8 € supplémentaires
+Produits
+Dose
+€/ha
+Aquino (=Questar) + Isix/Lomara
+0.9 + 0.45
+1 + 0.5
+57
+ ++
+Prosaro***
+0.6
+19
+Soufre
+3500g
+21
+Aquino (=Questar) + Aprovia (= Elatus) plus 
+0.9 + 0.45
+1 + 0.5 
+54
+ + 
+ +++ avec AMISTAR 0.4 
+Kestrel***
+0.5
+24
+Aquicine duo
+1.5 à 2
+20 à 27
+Jessico one (=Questar) + Silvron
+0.9 + 0.45
+1 + 0.5 
+56
+ -
+ ++ avec AMISTAR 0.4 
+Priori Gold + Pecari***
+0.5 + 0.3
+26
+Pygmalion + Soufre
+2L + 2100g
+35
+Revystar XL
+0.75
+0.9
+55
+ ++ 
+ +++ avec COMET 200 0.3
+Maxentis*** 
+0.5
+20
+Wasan + Joao***
+0.8 + 0.3
+37
+T2 avec prothioconazole :
+T3 à faire si prothioconazole déjà utilisé en T2   :
+Produits
+Dose
+€/ha
+Univoq  ***
+1
+1.2
+52
+ -
+ ++ avec AMISTAR 0.4 
++ Attention à alterner les triazoles avec le T1
+Aquicine duo + Amistar
+1.5 + 0.6
+32
+Avastel*** + Aquino (=Questar)
+0.5 + 1
+56
+ + 
+  +++ avec AMISTAR 0.4 
+Soleil = Sakura = Djembe
+0.9
+25
+Aquicine duo + tébuconazole* 1.5 + 125 gr
+~25
+Kardix ***
+0.9
+1
+52
+ -
+ ++ avec QUIBILIUM 0.3
+Priori Gold + Metcostar 60
+0.5 + 0.5
+27
+Juventus** + Soufre
+0.6 + 2400g
+34
+Elatus Era***
+0.9
+1
+56
+ + 
+ +++ avec STOROSO 0.4
+Metcostar 90 + Amistar
+0.5 + 0.4
+24
+Juventus** + Sesto
+0.6 + 1
+35
+Elatus plus ou Elatus Era a une bonne efficacité sur rouille jaune mais moyenne sur rouille brune
+Magnello
+0.7
+24
+Djembe* + Soufre
+0.6 + 2400
+32
+Djembe*  + Sesto
+0.6 + 1
+33
+Produits
+Doses
+€/ha
+Produits
+Doses
+€/ha
+Aquino (=Questar) + Isix
+1.1 + 0.55
+62
+Prosaro***
+0.8
+26
+Aquino (=Questar) + Aprovia plus
+1.1 + 0.55
+59
+Kestrel***
+0.7
+34
+Jessico one (=Questar) Silvron
+1.1 + 0.55
+62
+Wasan + Joao ***
+0.8 + 0.4
+39
+Revystar XL
+1.1
+67
+Univoq  ***
+1.3
+56
+Avastel*** + Aquino (=Questar) 
+0.55 + 1.1
+61
+Kardix ***
+1.2
+62
+*** Attention à alterner les matières actives : si prothioconazole au T2 alors pas au 
+T3 et inversement. Par exemple, pour un T3 avec du prothionazole, le T2 pourra 
+être Aquino + Lomara ou Révystar XL ou Questar + Elatus Plus (ou + Silvron)
+Si présence de septoriose et rouille jaune
+Si pression forte Septoriose  (mal contrôlée avec le T1) : montez les doses ! 
+Relais septoriose et risque fusarioses 
+Programmes ci-dessus en cas d'attaque rouille jaune modérée, sinon se 
+référer à la section "rouille jaune" 
+Soufre (biocontrôle) : Faeton SC, Heliosoufre S, Jubile, Microthiol SP 
+Liquide, Thiopron Rainfree, Thiovit Jet Microbilles
+Pygmalion (biocontrôle) : Phosphonate de potassium
+Aquicine duo (biocontrôle) : Phosphonate de potassium + Soufre
+* : 1 application max par campagne et vigilance à la réglementation 
+concernant le tébuconazole sur la limitation d'usage produit : se 
+référer à l'étiquette du produit
+** Pour alterner les matières actives, si application d'un Juventus 
+au T1, ne pas appliquer de produit à base de Metconazole au T2 et 
+au T3 (Turret 90, Plexeo 90  ou Metcostar par exemple)
+T1
+Doses
+Efficacités
+2 NŒUDS / DFP (pointante)
+Pression 
+faible
+Pression 
+moyenne 
+à forte
+Présence de septoriose uniquement 
+si déclenchement 
+Présence de septoriose uniquement 
+Contrôle rouilles
+Relais septoriose + rouille brune
+PROGRAMMES FONGICIDES BLE TENDRE 2026
+• Alterner les produits entre T1, T2 et T3. Maintenir 1 seule application par campagne de SDHI, de fenpicoxamide et  veiller à utiliser chaque triazole une seule fois par campagne (en particulier le prothioconazole).
+En l'absence de rouille, si pas de déclenchement 
+OAD,  l'impasse T1 reste la norme !
+T2
+T3
+DFE (dernière feuille étalée)
+FLORAISON
+Légende : 
++++ Très bonne efficacité 
+++ 
+Bonne efficacité 
++ 
+Efficacité moyenne 
+- 
+Faible efficacité 
+
+
+PDF_PAGE=25
+ 
+23 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+En cas de risque piétin verse, un traitement spécifique peut-être nécessaire : 
+ 
+ 
+ 
+En cas de risque oïdium précoce, un traitement spécifique peut-être nécessaire :  
+ 
+ 
+ 
+La gestion de la rouille jaune peut être complexe, le tableau ci-après vous présente les interventions 
+possibles et cadences à respecter : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dose
+€/ha
+0.5
+33
+1 + 0.3
+39
+Unix max + Flexity
+Risque piétin-verse 
+Epi1cm - 1 Nœud
+Les variétés notées 5 ou plus par le GEVES ne nécessitent pas de traitement. N'oubliez pas d'utiliser la grille de risque agronomique nationale (cf. chapitre Piétin Verse).
+Flexity
+Dose
+€/ha
+0.15
+15
+0.35
+18
+Dose
+€/ha
+0.25
+24
+0.3+0.15
+28
+0.3+0.15
+28
+Risque oïdium 
+Epi1cm - 1 Nœud
+Risque oïdium faible à moyen (+15 €/ha) : ajout au programme classique
+Nissodium
+Meltop One
+Risque oïdium moyen à fort (+25 €/ha) : ajout au programme classique
+Nissodium
+A partir du 1er mai 2026, la fenpropidine sera classée H361d donc interdit en mélange avec 
+Juventus, Mystic EW,… se référer à l'étiquette du produit
+Meltop One + Talendo
+Meltop One + Nissodium
+Pas d'intervention spécifique --> programme septo / rouille brune / fusarioses prévu
+Intervention à piloter selon arrivée de la maladie
+1 Nœud
+2 Nœuds
+en présence de foyer actifs
+20 jours
+20 jours
+20 jours
+20 jours
+En cas de traitement indispensable, veillez à ne pas utiliser 2 fois la même matière active et à alterner les matières actives dans une logique de programme multi-maladies
+Vigilance à la réglementation concernant le tébuconazole sur la limitation d'usage produit : se référer à l'étiquette du produit
+En cas de pression forte 
+à floraison (situation 
+exceptionnelle), 
+intervenir avec un 
+triazole efficace comme 
+le tébuconazole
+Arrivée précoce
+Arrivée tardive
+Risque Rouille Jaune
+Variété résistante (note RJ ≥ 7)
+Variété moyennement sensible ou sensible (note RJ ≤ 6)
+Epi1cm
+DFP
+DFE
+Epiaison / floraison
+dès les premières pustules
+Arrivée très 
+précoce
+Produit à base de 
+triazole efficace : 
+Tébuconazole (Ex : 
+Mystic EW 0.75 à  1 
+l/ha), voire metconazole
+Si T1 septo prévu avant DFE : prévoir une triazole efficace 
+(+ éventuellement strobilurine) associée à un multisite 
+contre septoriose (soufre, folpel, Aquicine duo), pour une 
+enveloppe de 30 €/ha
+Si pas de T1 septo prévu avant DFE : une triazole efficace 
+(+ éventuellement strobilurine) pour une enveloppe de 15-
+20 €/ha est suffisant
+Selon les produits utilisés : 
+- augmenter éventuellement la 
+dose prévue 
+ou 
+- ajouter une strobilurine 
+efficace :  60 g/ha de 
+pyraclostrobine (vigilance à la 
+réglementation mélange à partir du 
+01/05/26) ou 100g/ha d' 
+azoxystrobine
+Suite au changement de comportement observé en 2025, à surveiller tout de même en 2026 : Academy, Belzebuth, Chevignon, Generik, Intensity, Kws Extase, Kws Ultim, Lg 
+Acrobat, Pondor, Rgt Koesio, Rgt Majesko, Shrek, Su Horizon, …
+
+
+PDF_PAGE=26
+ 
+24 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+ 
+Efficacités par maladie des principaux fongicides ou associations utilisables sur blé 
+Produit 1 
+Produit 2 
+Dose 
+1 
+Dose 
+2 
+Prix 
+indic
+atif 
+2026 
+(€/ha) 
+Septoriose 
+Rouille 
+brune 
+Rouille 
+jaune 
+Fusariose épi 
+F. grami-
+nearum 
+Micro 
+dochium 
+spp 
+AMPLITUDE  
+PRIAXOR EC 
+0.6 
+0.6 
+60 
+++(+) 
++++ 
++++ 
+  
+  
+CURBATUR   
+COMET 200 
+0.5 
+0.5 
+NC 
+++ 
+++ 
+++ 
++ 
+- 
+AQUICINE DUO 
+ 
+2 
+ 
+27  
+++ 
+ 
+ 
+ 
+ 
+AVASTEL 
+ 
+0.75 
+ 
+34  
++ 
++ 
++ 
++ 
++ 
+AVASTEL 
+AMISTAR 
+0.7 
+0.4 
+40 
++ 
+++ 
+++ 
++ 
++ 
+AVASTEL 
+ 
+1.25 
+ 
+56 
+++ 
+++ 
+++ 
+++ 
+++ 
+AVIATOR XPRO 
+ 
+0.6 
+ 
+35 
++ 
++ 
++ 
+  
+  
+AVIATOR XPRO 
+ 
+0.75 
+ 
+44 
+++ 
+++ 
++ 
+  
+  
+CARAMBA STAR  
+1 
+ 
+31 
++ 
++ 
++ 
++ 
+ 
+CARAMBA STAR FAETON SC  
+0.6 
+3 
+34 
+++ 
++ 
++ 
+ 
+ 
+DJEMBE 
+HELIOSOUFRE S 
+0.8 
+3 
+39 
+++ 
++ 
++ 
+  
+  
+ELATUS ERA 
+ 
+0.75 
+ 
+42 
++(+) 
+++ 
++++ 
+  
+  
+ELATUS ERA 
+ 
+1 
+ 
+56 
+++ 
++++ 
++++ 
+  
+  
+ELATUS ERA 
+GRETEG 
+0.6 
+0.3 
+- 
+++ 
+++ 
++++ 
+ 
+ 
+ELATUS ERA 
+MIRROR 
+0.7 
+0.9 
+53 
+++(+) 
+++ 
++++ 
+  
+  
+ELATUS ERA 
+SESTO 
+0.7 
+0.9 
+53 
+ELATUS ERA 
+AMISTAR 
+0.7 
+0.5 
+49 
++(+) 
++++ 
++++ 
+  
+  
+ELATUS ERA 
+STOROSO 
+0.7 
+0.5 
+44 
++(+) 
++++ 
++++ 
+ 
+ 
+ELATUS PLUS 
+ARIOSTE 90 
+0.6 
+0.6 
+46 
+++ 
++++ 
++++ 
+  
+  
+ELATUS PLUS 
+QUESTAR 
+0.55 
+1.1 
+59 
++++ 
+++ 
++++ 
+  
+  
+FANDANGO S 
+ 
+1 
+ 
+32 
++ 
++ 
++ 
++ 
++ 
+FANDANGO S 
+ 
+1.6 
+ 
+51 
++ 
+++ 
+++ 
+++ 
+++ 
+FORAPRO 
+ 
+1 
+ 
+45 
++ 
+ 
+ 
+ 
+ 
+NEBBIA (JOAO) 
+ 
+0.4 
+ 
+9 
++ 
+ 
+ 
++ 
++ 
+JUVENTUS 
+COMET 200 
+0.8 
+0.4 
+- 
+++ 
+++ 
+++ 
+  
+  
+Mélange interdit à compter du 1 mai 2026 
+ 
+ 
+KARDIX 
+ 
+1.5 
+ 
+78 
+++(+) 
+++ 
+++ 
+  
+  
+KARDIX 
+ 
+0.9 
+ 
+47 
++(+) 
++ 
++ 
+  
+  
+KARDIX 
+ 
+0.7 
+ 
+36 
++(+) 
++ 
++ 
+  
+  
+KARDIX 
+QUIBILIUM 
+0.8 
+0.4 
+48 
++(+) 
++++ 
+++ 
+ 
+ 
+KARIKO 
+SENEX 
+0.7 
+0.4 
+NC 
+++ 
++++ 
++++ 
+ 
+ 
+KESTREL 
+ 
+0.5 
+ 
+24 
++ 
++ 
++ 
++ 
++ 
+KESTREL 
+ 
+1 
+ 
+48 
+++ 
+++ 
+++ 
+++ 
+++ 
+LIBRAX 
+COMET 200 
+0.8 
+0.4 
+- 
+++ 
++++ 
++++ 
+  
+  
+Mélange interdit à compter du 1 mai 2026  
+ 
+ 
+LIBRAX 
+ 
+0.8 
+ 
+37 
++(+) 
+++ 
+++ 
+  
+  
+LIBRAX 
+ 
+0.9 
+ 
+41 
+++ 
+++ 
+++ 
+  
+  
+LIBRAX 
+ 
+1 
+ 
+46 
+++ 
+++ 
+++ 
+  
+  
+LS PROTIM 
+ 
+1 
+ 
+- 
+++ 
+++ 
+ 
+ 
+ 
+MAXENTIS 
+ 
+1 
+ 
+40 
++ 
++++ 
+++ 
+++ 
++(+) 
+MELTOP ONE 
+ 
+0.5 
+ 
+26 
+  
+  
+  
+  
+  
+OXAR 
+CURBATUR 
+0.66 
+0.33 
+NC 
+++ 
++++ 
++++ 
+ 
+ 
+PROSARO 
+ 
+0.5 
+ 
+16 
++ 
++ 
++ 
++ 
++ 
+
+
+PDF_PAGE=27
+ 
+25 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+Produit 1 
+Produit 2 
+Dose 
+1 
+Dose 
+2 
+Prix 
+indic
+atif 
+2026 
+(€/ha) 
+Septoriose 
+Rouille 
+brune 
+Rouille 
+jaune 
+Fusariose épi 
+F. grami-
+nearum 
+Micro 
+dochium 
+spp 
+PROSARO 
+ 
+1 
+ 
+32 
+++ 
+++ 
+++ 
+++ 
+++ 
+PYGMALION 
+FAETON SC 
+2 
+3 
+36 
++ 
+  
+  
+  
+  
+PYGMALION 
+HELIOSOUFRE S 
+2 
+3 
+39 
++ 
+ 
+ 
+ 
+ 
+PYGMALION 
+THIOPRON 
+RAINFREE 
+2 
+3  
+35 
++ 
+  
+  
+  
+  
+QUESTAR 
+(AQUINO) 
+LOMARA  
+(ISIX)  
+1 
+0.5 
+NC 
+++ 
+++ 
+++ 
+ 
+ 
+QUESTAR 
+(APAVEQ) 
+TURRET 90 
+1.1 
+0.55 
+49 
++++ 
+++ 
+++ 
+  
+  
+REVYSTAR XL 
+ 
+1.5 
+ 
+91 
++++ 
++++ 
++++ 
+  
+  
+REVYSTAR XL 
+ 
+0.9 
+ 
+55 
++++ 
+++ 
+++ 
+  
+  
+REVYSTAR XL 
+ 
+0.75 
+ 
+46 
+++ 
+++ 
++ 
+  
+  
+REVYSTAR XL 
+COMET 200 
+0.7 
+0.35 
+53 
+++ 
++++ 
++++ 
+  
+  
+REVYSTAR XL 
+OXAR 
+0.5 
+0.5 
+NC  
+++(+) 
++++ 
++++ 
+  
+  
+JESSICO ONE 
+SILVRON 
+1.1 
+0.55 
+62 
++++ 
+++ 
+++ 
+ 
+ 
+SILVRON 
+KAPULCO 
+(MADISON) 
+0.55 
+0.625 
+52 
+++ 
+++ 
+++ 
+ 
+ 
+SILVRON 
+ATRIUM ENERGY 
+0.55 
+0.625 
+52 
+SOLEIL 
+ 
+1.2 
+ 
+33 
++ 
++ 
++ 
++ 
+  
+UNIVOQ 
+(QUENCH)  
+ 
+1 
+ 
+43 
++++ 
+++ 
+++ 
+ 
+ 
+UNIVOQ 
+AMISTAR 
+1 
+0.4 
+50 
++++ 
++++ 
++++ 
+  
+  
+UNIVOQ 
+TYMEX 
+1 
+0.4 
+53 
++++ 
++++ 
++++ 
+ 
+ 
+VARIANO XPRO 
+ 
+1.2 
+ 
+54 
+++ 
+++ 
++ 
+  
+  
+YANILA 
+ 
+1.4 
+ 
+NC 
+++ 
+++ 
++ 
++ 
++ 
+ZOOM 
+ 
+0.75 
+ 
+46 
+++ 
+++ 
++ 
+  
+  
+ZOOM 
+COMET 200 
+0.7 
+0.35 
+53 
+++ 
++++ 
++++ 
+  
+  
+ 
+ 
+ 
+Légende : 
++++ Très bonne efficacité 
+++ 
+Bonne efficacité 
++ 
+Efficacité moyenne 
+ 
+Faible efficacité 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sans intérêt ou non autorisé 
+ 
+(+) Entre parenthèses : croix supplémentaire à ne pas considérer dans les contextes à forte résistance.    
+NC : Prix non communiqué  
+ 
+ 
+ 
+ 
+
+
+PDF_PAGE=28
+ 
+26 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+ETAPE 3 : AJUSTER SON PROGRAMME A LA PRESSION PARASITAIRE 
+Des modèles agro-climatiques à votre service 
+La stratégie fongicide définie de façon prévisionnelle 
+nécessite des ajustements au contexte parasitaire de 
+l’année et de la parcelle. 
+Ces ajustements en cours de saison sont possibles grâce 
+à des modèles agro climatiques. TOP permet ainsi de 
+préciser le risque climatique de l’année en début 
+montaison pour le piétin verse. SEPTOLIS® permet de 
+compléter utilement les observations pour positionner 
+au mieux l’intervention contre la septoriose. 
+Les modèles maladies d’Arvalis-Institut du végétal sont 
+intégrés, en partie ou en totalité, dans de nombreux 
+Outils d’Aide à la Décision (Taméo, OptiProtect, 
+Xarvio…). 
+ 
+Le « Baromètre Maladies du blé tendre » : un outil en 
+accès libre 
+Cet outil en accès libre sur le site d’Arvalis-Infos.fr 
+permet de prévoir un risque associé aux principales 
+maladies du blé tendre sur une parcelle donnée. Il 
+calcule instantanément un niveau de risque sur 7 jours, 
+centré sur le jour de la simulation, pour 5 maladies : le 
+piétin verse, la septoriose, la rouille jaune, la rouille 
+brune et la fusariose des épis. Calculés grâce à des 
+modèles agro-climatiques, les risques indiquent le 
+développement probable de chaque maladie (risque 
+fort / moyen / faible) sur la période la plus pertinente 
+pour raisonner les interventions fongicides. Associés à 
+votre expertise, les résultats fournis par le Baromètre 
+Maladies vous aident à optimiser les interventions sur 
+vos parcelles. 
+ 
+ 
+ 
+Un Bulletin de Santé du Végétal hebdomadaire 
+Le « Bulletin de Santé du Végétal » (BSV) est un autre 
+outil utile pour estimer le risque de présence d’une 
+maladie sur ses parcelles. C’est un document 
+d’informations techniques, rédigé en collaboration avec 
+de nombreux partenaires impliqués dans la protection 
+des 
+cultures 
+: 
+instituts 
+techniques, 
+chambres 
+d’agriculture, coopératives… Il fournit chaque semaine 
+aux agriculteurs des informations relatives à la situation 
+phytosanitaire des principales productions végétales de 
+la région et propose une évaluation des risques 
+encourus par les cultures. 
+Recevez dans votre boîte mail, chaque semaine et tout 
+au long de la campagne, le BSV de votre région en vous 
+abonnant sur notre site à la lettre Arvalis-Infos.
+ 
+ 
+Observer pour décider 
+Des outils d’aide à la décision comme FONGISCOPE® 
+vous permettent également d’ajuster vos programmes à 
+l’année. Les règles de décision qui s’appuient sur des 
+observations au champ sont résumées dans le tableau 
+suivant. Les seuils de traitement tiennent compte de la 
+sensibilité variétale. 
+Pour en savoir plus, n’hésitez pas à consulter nos fiches 
+accidents et variétés. Ces fiches sont consultables 
+gratuitement sur www.Arvalis-infos.fr . 
+
+
+PDF_PAGE=29
+ 
+27 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+Seuils d’intervention  
+Les mélanges variétaux représentent environ 20% des surfaces cultivées en blé tendre à l’échelle nationale, 
+avec des régions à plus de 30% (Bourgogne, Pays de Loire, Normandie). ARVALIS propose, pour la campagne 
+2025-2026, des seuils d’intervention contre les bioagresseurs et une adaptation des grilles de risque pour les 
+mélanges variétaux. 
+MALADIES 
+SEUIL D’INTERVENTION 
+PIETIN VERSE 
+Le risque piétin verse est 
+largement déterminé par les 
+conditions agronomiques de la 
+parcelle (potentiel infectieux 
+du sol, fréquence de retour du 
+blé, 
+travail 
+du 
+sol…), 
+la 
+sensibilité 
+variétale 
+et 
+les 
+conditions 
+climatiques 
+de 
+l’automne hiver. 
+Se reporter à la grille agronomique 
+nationale afin de mieux évaluer le risque dans votre 
+parcelle.  
+ 
+ Pour les Variétés résistantes avec note GEVES ≥ 5 :  
+Intervention inutile même en cas de forte pression. 
+ 
+ Pour les variétés avec Note GEVES < 4 : 
+OBSERVER À PARTIR STADE EPI 1 CM les tiges principales sur une cinquantaine de pieds prélevés au 
+hasard dans la parcelle. Une tache de piétin verse est comptée lorsqu’elle a traversé au moins une 
+gaine. 
+CRITERE DETERMINANT : FREQUENCE DE TIGES ATTEINTES 
+SEUIL D’INTERVENTION : 
+ Si moins de 10% des tiges sont atteintes : ne pas traiter contre le piétin verse. 
+ Entre 10 et 35% de tiges atteintes : la rentabilité du traitement contre le piétin verse n’est pas 
+toujours assurée. 
+ Si 35% ou plus des tiges sont atteintes : une intervention est conseillée entre les stades « épi 
+1 cm » et « 2 nœuds ». Après le stade 2 nœuds, il est trop tard pour intervenir. 
+
+NOUVEAUTE : le seuil d’intervention est également applicable sur les mélanges variétaux.  
+Pour la grille de risque : faire la moyenne des notes piétin-verse des variétés composant le mélange 
+pour compléter la case « effet variétal ». Si les variétés ne sont pas connues, prendre le score de 4 de 
+la grille. 
+OÏDIUM 
+Sur T1 ou T2 
+L’oïdium 
+est 
+souvent 
+présent à la base des tiges, 
+mais c’est son évolution sur 
+feuilles qu’il faut surveiller. 
+Les parcelles abritées, fond 
+de vallée et surtout les terres de craie, lui sont 
+favorables. L’évolution est rapide en conditions de 
+forte hygrométrie nocturne et temps sec le jour.  
+OBSERVER À PARTIR du STADE EPI 1 CM les feuilles supérieures F1, F2 et F3 sur une vingtaine de 
+plantes. 
+CRITERE DETERMINANT : FREQUENCE DE FEUILLES ATTEINTES. 
+SEUIL D’INTERVENTION : 
+ Variétés sensibles : Si plus de 20% des F1 ou F2 ou F3 présentent des symptômes, ajouter un 
+traitement spécifique contre l’oïdium avant le stade 2 Nœuds. 
+ Autres variétés et mélanges variétaux : Si plus de 50% des F1 ou F2 ou F3 présentent des 
+symptômes, traiter spécifiquement contre l’oïdium avant le stade 2 Nœuds. 
+ 
+NOUVEAUTE : pour les mélanges variétaux prendre le seuil d’intervention « autres variétés » 
+(déclenchement si plus de 50% des 3 dernières feuilles présentent des symptômes). 
+ROUILLE JAUNE 
+Sur T1 ou T2 
+La rouille jaune est une 
+maladie qui peut s'étendre 
+très 
+rapidement 
+et 
+occasionner 
+des 
+dégâts 
+importants. 
+Elle apparaît par ronds de 
+quelques mètres carrés dans 
+la parcelle, et souvent à un stade précoce, en 
+début montaison.  
+OBSERVER À PARTIR du STADE EPI 1 CM les premiers foyers et se tenir informé de la situation 
+régionale (BSV). 
+CRITERE DETERMINANT : APPARITION DE LA MALADIE, pustules jaunes pulvérulentes alignées le 
+long des nervures. 
+SEUIL D’INTERVENTION : 
+Pour les variétés résistantes (note ≥ 7) : 
+- 
+Avant le stade 2 nœuds, ne pas intervenir. 
+- 
+Après le stade 2 nœuds, intervenir dès l’apparition de la maladie.  
+Pour les variétés sensibles (note ≤ 6) et les mélanges variétaux dès qu’il y a une variété sensible 
+dans le mélange : 
+- 
+Au stade « épi 1cm » uniquement en présence de foyer actif de rouille jaune (pustule 
+pulvérulente). 
+- 
+Au stade « 1 nœud », dès la présence des premières pustules dans la parcelle.  
+ 
+NOUVEAUTE : pour les mélanges variétaux prendre le seuil d’intervention « variétés sensibles » dès 
+qu’il y a une variété sensible dans le mélange.  
+ 
+
+
+PDF_PAGE=30
+ 
+28 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+ 
+MALADIES 
+SEUIL D’INTERVENTION 
+SEPTORIOSES 
+Sur T1, T2 ou T3 
+Les pluies abondantes et 
+répétées, sous l’action 
+éclaboussante des gouttelettes, 
+font monter la maladie des 
+feuilles basses vers le haut de la 
+plante. La sensibilité variétale 
+influe fortement sur la pression 
+de la maladie : les programmes 
+fongicides doivent donc être adaptés.  
+IMPASSE T1 devient la règle pour les variétés peu sensibles à la septoriose (note ≥6.5) et à la rouille 
+jaune (note ≥7) 
+OBSERVER À PARTIR du STADE 2 NŒUDS la F3 du moment sur 20 plantes. 
+CRITERE DETERMINANT : APPARITION DE LA MALADIE. 
+SEUIL D’INTERVENTION : Suivre les préconisations de l’outil Septolis® 
+ Au stade “ 2 nœuds” :  
+- variétés sensibles : 20% des F2 déployées du moment touchées,  
+- variétés peu sensibles : 50% des F2 déployées du moment touchées.  
+ Au stade “dernière feuille pointante” : 
+- variétés sensibles : 20% des F3 déployées du moment touchées,  
+ - variétés peu sensibles : 50 % des F3 déployées du moment touchées. 
+NOUVEAUTE : pour les mélanges variétaux, faire la moyenne des notes septoriose des variétés qui 
+composent le mélange. Si la moyenne des notes est supérieure ou égale à 6.5 alors le seuil variétés 
+peu sensibles s’applique, sinon c’est le seuil variétés sensibles.   
+ROUILLE BRUNE 
+Sur T2 ou T3 
+La rouille brune apparaît dans nos 
+régions depuis quelques années. 
+Elle arrive habituellement en fin de 
+cycle, mais quand elle apparaît tôt 
+comme en 2007, elle peut s'étendre 
+très rapidement et occasionner des 
+dégâts importants.  
+OBSERVER À PARTIR du STADE 2 NŒUDS les 3 feuilles supérieures. 
+CRITERE DETERMINANT : APPARITION DE LA MALADIE, pustules disposées aléatoirement, plutôt sur 
+la face supérieure. 
+SEUIL D’INTERVENTION en variétés pures et mélanges :  
+ Traiter dès les premières pustules sur l’une des 3 feuilles supérieures : Triazole efficace ou 
+compléter avec une dose minimale (50 à 75 g/ha) de strobilurine (0.2 ou 0.3 l/ha) si attaque grave. 
+L’ajout de strobilurine permet une meilleure efficacité en cas d’attaque importante. 
+ 
+NOUVEAUTE : le seuil d’intervention est également applicable sur les mélanges variétaux.  
+ 
+FUSARIOSE DES EPIS 
+Sur T3 
+A floraison (sortie des 1ères étamines) 
+Une humidité persistante 
+(pluies) 
+pendant 
+plusieurs 
+jours 
+au 
+moment 
+de 
+l’anthèse 
+(sortie 
+des 
+étamines) 
+favorise l’installation des 
+fusarioses. 
+Le 
+précédent 
+maïs 
+associé aux techniques 
+simplifiées de travail du 
+sol ainsi que l’utilisation 
+de variétés sensibles accroissent les risques de 
+dégâts de fusariose. 
+Se reporter à la grille agronomique. 
+ 
+OBSERVER À PARTIR du STADE DEBUT FLORAISON LA METEOROLOGIE. Attention, à l’apparition des 
+premiers symptômes, il est déjà trop tard pour traiter, les dégâts sont déjà faits. 
+CRITERE DETERMINANT : PERIODE PLUVIEUSE PENDANT L’EPIAISON-FLORAISON (ou détection sur 
+feuille de Microdochium spp. 
+SEUIL D’INTERVENTION :  
+Une forte humidité ou une période pluvieuse durant la phase épiaison - floraison (plus de 48 
+heures à 100% d’humidité) conduit à prendre en compte le risque fusarioses avec un traitement 
+fongicide au début de la floraison principalement si le risque agronomique est supérieur ou égal à 3.  
+ 
+NOUVEAUTE : pour les mélanges variétaux, compte tenu du risque sanitaire, il est conseillé de 
+prendre en compte la variété la plus sensible du mélange au niveau de la grille de risque.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PDF_PAGE=31
+ 
+29 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+Gérer le risque verse sur blé tendre 
+La verse, dite caulinaire, provient d’un défaut de 
+résistance de la tige par rapport aux contraintes 
+mécaniques exercées sur les parties aériennes de la 
+plante (poids de l’épi et/ou conditions climatiques 
+pluvieuses ou venteuses). Il convient de distinguer les 
+facteurs de prédisposition (résistance de la tige), qui se 
+mettent en place début et courant montaison, des 
+facteurs déclencheurs (forte pluie, vent), qui ne 
+s’expriment qu’à partir de l’épiaison et surtout de la 
+floraison. 
+La résistance de la tige s’acquiert au moment même de 
+sa constitution, c’est-à-dire entre les stades épi 1cm et 2 
+nœuds environ. Elle va être conditionnée à la fois par 
+l’allongement des entre-nœuds du bas de tige et par la 
+composition de la paroi de la tige (rapport C/N). 
+Différents paramètres génétiques (variétés), techniques 
+(pratiques culturales) et climatiques interviennent dans 
+ce phénomène. 
+Une verse peut engendrer d’importantes pertes de 
+rendement et nuire à la qualité du grain. Plus la verse 
+sera précoce, plus les conséquences seront importantes. 
+A l’inverse, l’utilisation inappropriée de régulateurs peut 
+entrainer des pertes de rendement (phytotoxicité 
+potentiellement 
+aggravée 
+par 
+d’autres 
+stress 
+climatiques, azotés...).  
+Un diagnostic du risque parcellaire est donc un 
+prérequis avant toute intervention. 
+Des outils d’Aide à la décision permettent d’évaluer ce 
+risque en cours de campagne (FARMSTAR…). 
+Tout comprendre à la verse en une vidéo ! 
+Fruit d’une collaboration ARVALIS/PAQ, cette vidéo a 
+été réalisée en 2022 dans le cadre de l’évolution du 
+cahier des charges Label Rouge Farine pour pain de 
+tradition du PAQ, qui encadre la production du blé.  
+ 
+Accessible ici : 
+https://www.youtube.com/watch?v=eUc9JzVUYD8 
+ 
+PRIVILEGIER UNE VARIETE PEU SENSIBLE EN SITUATION A RISQUE 
+Le facteur variétal constitue l’un des leviers les plus efficaces pour se 
+prémunir de la verse ! 
+Une synthèse a été réalisée à partir des blocs non traités régulateurs d’un grand nombre d’essais variétés de blé 
+tendre. On constate :  
+• 
+Au-delà d’une note de sensibilité variétale de 6.5 (variétés résistantes), le risque de verse est nul.   
+• 
+Le risque est faible pour les variétés ayant une note de sensibilité variétale entre 6 et 5.5.  
+• 
+Le risque devient plus important pour les variétés ≤ 5.  
+ 
+ 
+La résistance variétale à la verse physiologique : échelle 2025 
+ 
+
+
+PDF_PAGE=32
+ 
+30 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+EVITER LES ERREURS TECHNIQUES 
+Les dates et densités de semis 
+Les semis trop précoces (non adaptés aux exigences de 
+la variété) accentuent le risque de verse. Cette pratique 
+allonge de manière significative le cycle végétatif et 
+l’arrivée au stade épi 1 cm se fait précocement. En effet, 
+la montaison se fera en jours dits « courts ». Les tiges 
+auront tendance à s’étioler, du fait du déficit lumineux, 
+affaiblissant d’autant la tenue de tige. Phénomène 
+accentué par un tallage excessif. Les fortes densités de 
+semis ont un effet analogue et provoquent un 
+allongement des entre-nœuds de la base. 
+La gestion de la fumure azotée 
+Un excès d’azote accentue aussi l’aptitude de la variété 
+à la verse. Le risque de verse s’accroît avec le niveau de 
+fournitures du sol et la dose d’engrais. Un premier 
+apport d’azote excédentaire ou de forts reliquats sont 
+favorables au maintien de nombreuses talles, avec pour 
+conséquence des effets similaires aux fortes densités de 
+semis ou aux semis trop précoces. Il est conseillé de 
+minimiser le premier apport dans les situations à risque. 
+ESTIMER LE RISQUE DE VERSE DANS VOS PARCELLES FIN TALLAGE 
+L’utilisation d’un régulateur n’est pas systématique, en 
+particulier sur blé tendre. Avant de l’appliquer, il 
+convient d’abord d’estimer le risque de verse. Cette 
+grille régionalisée vous permet d’évaluer le risque verse 
+de vos parcelles.
+ 
+ 
+Exemple n°1 : Variété CHEVIGNON (+1), en sol de craie (+1), premier apport d’azote 40 kgN/ha (+0), peuplement normal (+1) à Score de 3 à Risque 
+faible, possibilité d’une impasse de traitement.   
+Exemple n°2 : situation similaire à l’exemple 1, avec dose d’azote au premier apport supérieure à 60 kgN/ha à Score de 5 à Risque moyen  
+ 
+PRENDRE EN COMPTE LES CONDITIONS CLIMATIQUES A MONTAISON 
+Le climat entre les stades Epi 1 cm et 2 nœuds est 
+déterminant dans la diminution ou l’augmentation du 
+risque de verse car c’est à cette période que se 
+définissent la longueur des entre-nœuds et leur solidité. 
+Des températures élevées, surtout lorsqu’elles sont 
+associées à un déficit hydrique, induisent une moindre 
+élongation des tiges ainsi qu’une régression des plus 
+jeunes talles. Un important rayonnement lors de la 
+montaison réduit l’étiolement des tiges en limitant la 
+concurrence précoce pour la lumière : chaque tige ayant 
+accès 
+à 
+une 
+quantité 
+suffisante 
+de 
+lumière, 
+l’allongement excessif des premiers entre-nœuds est 
+évité. 
+Si les conditions de fin-mars, début avril sont chaudes, 
+sèches avec de forts rayonnements, diminuer d’une 
+classe le risque évalué fin tallage avec la grille. 
+Et inversement, en cas de printemps favorable à la 
+verse (faible rayonnement, fort cumul de pluies), 
+augmenter d’une classe le risque. 
+ 
+ 
+
+
+PDF_PAGE=33
+ 
+31 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+SI NECESSAIRE, UN SEUL TRAITEMENT EST SUFFISANT 
+De l’impasse à la protection adaptée 
+Les régulateurs de croissance agissent sur l’élongation 
+des cellules de la tige, pour aboutir à des entre-nœuds 
+plus courts ou à des parois plus épaisses et donc à des 
+tiges plus solides. Ils n’ont d’intérêt que si le risque verse 
+est réel. 
+Le risque peut être nul : une variété résistante semée en 
+argilo-calcaire séchant à date de semis et densité 
+optimales n’a, en effet, que très peu de risque de verser 
+pour des causes physiologiques. Dans ce cas, il est 
+possible de faire l’impasse sur le régulateur. Quand le 
+risque est jugé faible à moyen, un seul passage est 
+suffisant. L’option la plus pratique pour passer à un 
+degré de protection supérieur consiste à compléter 
+cette intervention par un second passage. Effectué 
+courant montaison avec un anti-gibbérellique, ce 
+complément conduira à un programme à fort effet 
+raccourcisseur. 
+Il ne faut pas oublier que la stratégie la plus adaptée à la 
+situation peut être mise en défaut par des conditions de 
+fin de cycle très difficiles (orages, …). 
+Des maladies des pieds peuvent aussi fragiliser les tiges, 
+indépendamment du risque verse parcellaire
+.
+ 
+* Toutes les spécialités sont désormais interdites en mélange (classées H301). Se référer aux étiquettes 
+Intervenir dans des conditions optimales d’application 
+Pour accroître l’efficacité et limiter la phytotoxicité, 
+les applications sont à réaliser sur des cultures en 
+bon état (indemnes de viroses, alimentées 
+correctement en eau et azote) et dans des 
+conditions 
+climatiques 
+favorables 
+: 
+temps 
+poussant, lumineux et sans forte amplitude 
+thermique (écarts inférieurs à 15 à 20 °C). Il est 
+nécessaire de tenir compte des conditions climatiques le 
+jour de l’application mais aussi durant les 3 à 5 jours 
+suivants celle-ci. 
+ 
+Le jour du traitement 
+Pendant les 3 jours suivants 
+ 
+T° mini. 
+sup. à 
+T° moy. 
+requise sup. à 
+T° maxi. 
+inf. à 
+T° moy. 
+sup. à 
+Spécialité à base de chlorméquat de chlorure (C3, C5) 
+-1°C 
++10°C 
++20°C 
++10°C 
+BOGOTA PLUS 
++2°C 
++12°C 
++20°C 
++12°C 
+MEDAX MAX 
++2°C 
++8°C 
++25°C 
++8°C 
+MEDAX TOP 
++2°C 
++8°C 
++25°C 
++8°C 
+ORFEVRE / FABULIS OD 
++2°C 
++8°C 
++25°C 
++8°C 
+PROTEG DC / CISAM DC 
++2°C 
++10°C 
++18°C 
++10°C 
+TERPAL 
++2°C 
++12°C 
++20°C 
++12°C 
+TRIMAXX 
++2°C 
++10°C 
++18°C 
++10°C 
+Exemple de lecture : Pour une application à base de chlorméquat de chlorure, il faut que la température minimale 
+enregistrée le jour du traitement soit supérieure à -1°C et qu’elle atteigne au moins +10°C. Dans les 3 jours suivants, une 
+température moyenne supérieure à 10°C est favorable, sans dépasser une température maximale de 20°C. 
+ 
+
+
+PDF_PAGE=34
+ 
+32 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+Gérer le risque ravageur au printemps 
+PERIODE D'ACTIVITE ET SEUIL DE TRAITEMENT EN VEGETATION 
+ 
+POUR EN SAVOIR PLUS 
+ 
+- Bulletin de Santé du Végétal de votre région : sur le site internet de la DRAAF, de la Chambre d’Agriculture 
+Régionale ou sur www.arvalis.fr/ 
+- Fiches accidents du blé en accès libre sur https://www.arvalis.fr/outils-et-services/outils-et-fiches  
+- Efficacité des produits - dépliants annuels Arvalis « Protection des plantes » 
+
+
+PDF_PAGE=35
+ 
+33 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+FOCUS SUR LES CECIDOMYIES ORANGE (SITODIPLOSIS MOSELLANA) 
+Un ravageur sporadique 
+ 
+Présentation et cycle de développement de la cécidomyie orange 
+ 
+Cécidomyies orange des fleurs du blé 
+(Sitodiplosis mosellana) 
+ 
+Adultes femelles 
+(2-3 mm) 
+ 
+Larves (face 
+ventrale) 
+(2 mm) 
+(Dessins ACTA, 1981) 
+Espèces attaquées 
+Blé tendre et blé dur. 
+Dégâts et nuisibilité 
+1 larve par épi ≈ -1q/ha 
+Facteurs favorables aux attaques 
+Stade : entre épiaison et floraison. 
+Climat en soirée : 
+- vent < 7 km/h, 
+- températures > 15°C, 
+- temps lourd. 
+Localisée 
+uniquement 
+dans 
+certains 
+secteurs 
+géographiques, la présence de cécidomyies orange dans 
+le blé est très liée à la parcelle et aux conditions 
+climatiques de l’année. 
+Etant donné le caractère sporadique des attaques de 
+cécidomyies orange, il est important de pouvoir évaluer 
+le niveau de risque potentiel d’une parcelle en début de 
+campagne. 
+Une grille agronomique pour évaluer le risque 
+Cette grille s’appuie sur des données collectées en 
+France issues de l’épidémiosurveillance enregistrées 
+sous Vigicultures, ou d’expérimentations réalisées par 
+ARVALIS et ses partenaires. Une analyse statistique a 
+permis de confirmer l’impact de six facteurs de risque : 
+- La sensibilité variétale : les variétés résistantes 
+n'empêchent pas les adultes de voler et de pondre dans 
+les épis, mais inhibent le développement des larves au 
+niveau du grain, d'où l'absence totale de dégâts. 
+- L’historique de la parcelle : les parcelles ayant déjà 
+connu des dégâts de cécidomyies orange sont plus à 
+risque car elles présentent un stock de cocons dans le 
+sol. Ceux-ci sont formés à la fin du développement des 
+larves dans les épis, lorsqu’elles tombent au sol pour 
+hiverner jusqu’au printemps suivant. 
+- La fréquence de retour du blé dans la rotation : les 
+cécidomyies orange se reproduisant dans le blé, le stock 
+de cocons du sol s’enrichit après cette culture. Plus il y 
+aura de blé dans la rotation, plus le risque sera 
+important. A l’inverse, deux ans sans céréales 
+permettent de limiter la population larvaire de la 
+parcelle. 
+- Le type de sol : les sols argileux sont plus sensibles que 
+les autres. En retenant mieux l’eau, les conditions 
+d’humidité du sol indispensables à la pupaison sont plus 
+régulièrement atteintes. Les sols crayeux de Champagne 
+sont aussi plus sensibles et classés avec les sols argileux. 
+- Le travail du sol : si le labour n’a aucun effet sur le 
+nombre de cécidomyies qui vont émerger, il provoque 
+un étalement des émergences dans le temps. 
+- La date de semis : les semis précoces augmentent le 
+risque, très certainement par un effet de coïncidence 
+entre la phase sensible du blé et la phase de ponte des 
+femelles. 
+ 
+ 
+ 
+ 
+
+
+PDF_PAGE=36
+ 
+34 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+ 
+Grille agronomique d'évaluation du risque cécidomyies orange (ARVALIS - Institut du végétal, 2012) 
+ (*) Résistance aux cécidomyies orange. Attention, une autre cécidomyie existe : la jaune (Contarinia tritici), qui peut ponctuellement être présente 
+et occasionner des dégâts, même sur les variétés résistantes aux cécidomyies orange. 
+NB1 : Un semis précoce (avant le 10 octobre) augmente le risque de cécidomyies. 
+NB2 : Le labour provoque un étalement des émergences dans le temps rendant plus difficile leur contrôle. 
+ 
+Préconisations suivant la note de risque : 
+0 : Parcelle ne présentant aucun risque. Ne pas traiter. Rappel : les variétés résistantes n'empêchent pas les adultes de voler, mais 
+inhibent le développement des larves au niveau du grain, d'où l'absence de dégâts. 
+1 à 4 : Parcelle présentant un risque faible, la pose d'un piège est tout de même conseillée afin de surveiller les populations. 
+5 et 6 : Parcelle à risque. La pose de cuvettes jaunes doit être effectuée afin de surveiller si un traitement est nécessaire (seuil = 10 
+cécidomyies/piège/24h). 
+7 et 8 : Parcelles à fort risque d'attaque. Une observation toutes les 48h, voire journalière, à l'aide de cuvettes jaunes est préconisée 
+afin de déclencher le traitement à la bonne date. Le semis d'une variété résistante est conseillé. 
+Remarques : 
+- Si un traitement est déclenché, le faire seulement lorsque les cécidomyies sont en plein vol (au crépuscule et par temps calme). En 
+effet, aucun produit insecticide n'a d'effet ovicide. 
+- Une attaque de cécidomyies provoquera des dégâts seulement si elle a lieu pendant la période sensible du blé (début épiaison - fin 
+floraison) ; la pose de pièges en dehors de cette période n'est pas nécessaire. 
+- Le risque cécidomyies orange est fortement dépendant de la météo. S'il n'y a pas de pluie (ou irrigation) importante associée à des 
+températures chaudes en Avril-Mai, alors les émergences sont plus faibles. 
+ 
+ 
+Caractéristiques des cécidomyies orange et jaunes 
+ 
+Sensibilité variétale 
+Historique de 
+la parcelle 
+Rotation sur 
+la parcelle 
+Dominante du type 
+de sol 
+RISQUE 
+Variété résistante (*) 
+0 
+Variété sensible 
+Historique sans 
+cécidomyies 
+Rotation sans 
+Blé/Blé 
+Sableux 
+1 
+Limoneux 
+1 
+Argileux (+ craie) 
+2 
+Rotation avec 
+Blé/Blé 
+Sableux 
+3 
+Limoneux 
+3 
+Argileux (+ craie) 
+4 
+Historique avec 
+cécidomyies 
+Rotation sans 
+Blé/Blé 
+Sableux 
+5 
+Limoneux 
+5 
+Argileux (+ craie) 
+6 
+Rotation avec 
+Blé/Blé 
+Sableux 
+7 
+Limoneux 
+7 
+Argileux (+ craie) 
+8 
+
+
+PDF_PAGE=37
+ 
+35 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+Les moyens de lutte 
+Résistance variétale : une solution à privilégier 
+Dans les situations à forte infestation par les 
+cécidomyies orange, l’utilisation de variétés résistantes 
+est de loin la solution la plus efficace. Elle est à privilégier 
+notamment dans les parcelles ayant subi des attaques 
+par le passé ou limitrophes de parcelles touchées (les 
+cécidomyies orange ne se déplacent pas sur de grandes 
+distances mais peuvent, en se laissant porter par les 
+vents, parcourir plusieurs centaines de mètres). 
+ 
+ 
+Les variétés résistantes (liste non exhaustive) 
+Résistance confirmée dans les essais d'ARVALIS ou du CTPS/GEVES 
+ 
+Remarques : 
+Les cécidomyies peuvent voler et pondre sur une variété résistante mais la plante produit une toxine qui inhibe le 
+développement des jeunes larves. 
+Pour rappel, en 2024, les deux cécidomyies (orange et jaune) ont été observées dans certains secteurs et parfois de 
+façon concomitante. Il est donc important de savoir les distinguer, d’autant que les variétés résistantes à la cécidomyie 
+orange ne le sont pas à la cécidomyie jaune (Contarinia tritici). Ainsi, il est possible de retrouver des larves de 
+cécidomyie jaune dans des épis de blé d’une variété résistante à la cécidomyie orange (Sitodiplosis mosellana).  
+ 
+Attention : le caractère résistant des variétés ne présage pas leur comportement face à la cécidomyie jaune (Contarinia 
+tritici) qui peut ponctuellement être présente et occasionner des dégâts, y compris sur les variétés résistantes à la 
+cécidomyie orange (Sitodiplosis mosellana). 
+ 
+ 
+ 
+ 
+ 
+NOM
+Classe qualité 
+ARVALIS
+Précocité 
+montaison
+Précocité 
+épiaison
+NOM
+Classe qualité 
+ARVALIS
+Précocité 
+montaison
+Précocité 
+épiaison
+ACADEMY
+BPS
+2
+7
+LG ASTERION
+BPS
+(4)
+7.5
+AUCHY
+BPS
+(4)
+6.5
+LID MACUMBA
+BPS
+(4)
+7
+BELZEBUTH
+BP
+(3)
+6.5
+OREGRAIN
+BPS
+4
+7
+CELEBRITY
+BPS
+4
+7
+OUTDOOR
+BPS
+(2)
+6.5
+CONQUISTADOR
+BPS
+(3)
+7
+PAILLEDOR
+BP
+(4)
+6
+GARFIELD
+BPS
+2
+5.5
+PONDOR
+BPS
+3
+6
+GEOPOLIS
+BPS
+(3)
+5.5
+PRESTANCE
+BPS
+6
+7.5
+GRAVELINE
+BPS
+(2)
+5.5
+PROVIDENCE
+BPS
+4
+7
+GREKAU
+BPS
+5
+7.5
+RGT LOOKEO
+BPS
+2
+6.5
+INTENSITY
+BPS
+3
+6.5
+RGT MONTECARLO
+BP
+4
+8
+JERIKO
+BPS
+4
+6.5
+RGT SUNDEO
+BPS
+(3)
+7
+KAKTUS
+BPS
+(3)
+7
+RGT TWEETEO
+BPS
+2
+7
+KWS ASTRUM
+BP
+3
+6
+SU ADDICTION
+BPS
+3
+6
+KWS MILLESIME
+BPS
+(6)
+7
+SU HYREAL
+BPS
+3
+6.5
+KWS ULTIM
+BPS
+3
+7
+SY ADMIRATION
+BPS
+4
+6.5
+LG AERO
+BPS
+(2)
+5
+THERMIDOR
+BP
+4
+7
+LG AIKIDO
+BPS
+4
+7
+Précocité montaison :
+Précocité épiaison :
+Classe qualité
+0 - Très tardif
+4,5 - Très tardif
+BAF : Blé Améliorant ou de Force
+1 - Tardif
+5 - Tardif
+BPS : Blé Panifiable Supérieur
+2 - ½ tardif
+5,5 - ½ tardif
+BP : Blé Panifiable
+3 - ½ précoce
+6 - ½ tardif à ½ précoce
+BB : Blé Biscuitier
+4 - Précoce
+6,5 - ½ précoce
+BAU : Blé pour Autres Usages
+5 - Très précoce
+7 - Précoce
+6 - Ultra précoce
+7,5 - Très précoce
+8 - Ultra précoce
+variété nouvellement confirmée résistante
+
+
+PDF_PAGE=38
+ 
+36 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+Lutte chimique : Piéger pour décider 
+Pour les variétés sensibles, la lutte chimique est possible 
+mais compliquée à mettre en place car elle nécessite un 
+positionnement dans le temps très précis et les 
+efficacités sont souvent décevantes. La décision d’une 
+intervention doit se baser sur l’observation de la 
+présence du ravageur dans la parcelle et de son activité 
+de ponte. Pour cela, il est possible de suivre l’activité de 
+vol, et donc de ponte probable, de la cécidomyie orange 
+en piégeant les adultes à l’aide de cuvettes jaunes. Le 
+piégeage est représentatif de la population : s’il y a 
+beaucoup de captures un soir, l’activité est importante 
+ce soir-là. Chaque soirée de captures est indépendante 
+de la précédente. Le seuil d’intervention est basé sur un 
+nombre de captures dans le temps (10 par cuvette en 
+24h, ou 20 en 48h). Lorsqu’il est atteint, que les 
+conditions climatiques en soirée sont favorables aux 
+cécidomyies (temps orageux, chaud, vent faible) et que 
+des adultes en position de ponte (ou plus de 10 
+cécidomyies en vol dans le champ) sont observés, le 
+traitement pourra être déclenché (efficacité par 
+contact). Ce raisonnement pourra être renouvelé en cas 
+de vols répétés.  
+ 
+Utilisation des cuvettes jaunes 
+- Placer 2 cuvettes par parcelle entre le stade gaine 
+éclatée et floraison. 
+- Positionner le bord de la cuvette à hauteur de la base 
+des épis et la remplir avec un fond d’eau savonneuse et 
+du gros sel.  
+- Relever les cuvettes tous les 2 jours, le matin (ou le 
+soir), jusqu’à l’apparition des cécidomyies. 
+- Dès l’apparition des 1ères captures, effectuer un relevé 
+journalier le matin (ou le soir). 
+- Seuil d’intervention : 10 captures / cuvette jaune / 24H 
+ou 20 / 48H. 
+ 
+Remarque : dans l’état actuel de nos connaissances, 
+l’utilisation de pièges à phéromones n’est pas 
+recommandée pour le déclenchement d’un traitement 
+insecticide. Le seuil de 240 captures de cécidomyies / 48 
+h défini en Angleterre n’est pas fiable. Il est donc 
+préférable d’utiliser des cuvettes jaunes. 
+ 
+Les mécanismes de la lutte chimique : bien les comprendre pour la réussir 
+Même lorsque les conditions sont optimales, les 
+insecticides de contact ne permettent pas d’apporter 
+une protection satisfaisante en une application. Leur 
+persistance d’action est bien inférieure à la durée de vol 
+des cécidomyies qui peut s’étaler sur une quinzaine de 
+jours. Bien comprendre le fonctionnement de ces 
+produits pour les positionner au mieux permettra 
+néanmoins de maximiser les chances de réussite : 
+- L’adulte ne consomme pas le végétal, il n’y a donc pas 
+d’efficacité insecticide par ingestion. 
+- Les œufs et les larves, à l’intérieur des épis, ne sont pas 
+accessibles à l’insecticide. 
+- L’efficacité est moyenne à bonne lorsque l’insecticide, 
+qui a une action de contact, est appliqué le soir sur les 
+adultes en activité de ponte (l’insecte reçoit de 
+l’insecticide). 
+- L’efficacité est faible à nulle selon la persistance du 
+produit lorsque l’insecticide est appliqué avant le vol car, 
+dans ce cas, l’action de contact se fait essentiellement 
+par les pattes de l’insecte. L’insecte s’intoxique 
+éventuellement en se posant et/ou en se déplaçant sur 
+le végétal traité. 
+- L’efficacité est nulle lorsque l’insecticide est appliqué 
+après le vol. 
+Les périodes d’intervention possibles pour obtenir une 
+bonne efficacité de ces matières actives sont donc 
+restreintes. Sans compter que les conditions climatiques 
+propices au vol des femelles lors des pontes doivent être 
+réunies. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PDF_PAGE=39
+ 
+37 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+ 
+Insecticides en végétation autorisés sur cécidomyies des fleurs du blé 
+SPECIALITES 
+COMMERCIALES 
+FIRMES  
+Dose 
+homologuée 
+l ou kg/ha 
+SUBSTANCES 
+ACTIVES 
+Concentration 
+% (poudre) 
+g/l (liquide) 
+Dose 
+g/ha 
+DECIS EXPERT, SPLIT EXPERT, KESHET, 
+PEARL EXPERT (sauf épeautre) 
+Bayer CropScience, 
+Adama 
+0,063 l 
+Deltaméthrine 
+100 g/l 
+6.3 
+DECIS PROTECH, PEARL PROTECH, SPLIT 
+PROTECH (sauf épeautre) 
+Bayer CropScience 
+0,42 l 
+Deltaméthrine 
+15 g/l 
+6.3 
+DELTASTAR, VIVATRINE EW 
+Ascenza 
+0,42 l 
+Deltaméthrine 
+15 g/l 
+6.3 
+KARATE ZEON, KARATE XFLOW, KUSTI, 
+NINJA PRO, SENTINEL PRO, KARAIBE PRO 
+Syngenta 
+0,075 l 
+Lambda-cyhalothrine 
+100 g/l 
+7.5 
+KARIS 10 CS, SPARK, LAIDIR 
+FMC 
+0,075 l 
+Lambda-cyhalothrine 
+100 g/l 
+7.5 
+LAMBDASTAR, ENVERGURE, ESTAMINA, 
+PROFI LAMBDA 100 CS, TARAK, KONTESS 
+Life Scientific  
+0,075 l 
+Lambda-cyhalothrine 
+100 g/l 
+7.5 
+MAVRIK FLO, TALITA, MAVRIK SMART (a), 
+TALITA SMART (b), KLARTAN SMART (a) 
+Adama 
+0,15 l 
+Tau-fluvalinate 
+240 g/l 
+36 
+MAVRIK JET, TALITA JET, KLARTAN JET (b) 
+Adama 
+2 l 
+Tau-fluvalinate 
++ pirimicarbe 
+18 g/l 
++ 50 g/l 
+36 + 
+100 
+Source dépliant ARVALIS - Institut du végétal - 2025 
+(a) Changements mineurs de formulation permettant le mélange avec bore 
+(b) Les pailles de céréales traitées ne doivent pas être utilisées en alimentation animale 
+ 
+Légende : 
+  
+Efficacité moyenne 
+ 
+ 
+ 
+ 
+FOCUS SUR LES PUCERONS DES EPIS (SITOBION AVENAE) 
+Pucerons des épis (Sitobion avenae) 
+ 
+ 
+Aptère (2-3 mm) 
+ 
+ 
+Ailé (3-4 mm) 
+ 
+Dessins : ACTA 1984 
+Facteurs 
+favorables aux 
+attaques 
+Hiver doux (conservation d’adultes sur les repousses). 
+Printemps frais qui limite le développement des auxiliaires. 
+Pic de chaleur après épiaison. 
+Dégâts et 
+nuisibilité 
+Attaques par foyers 
+Colonisation des épis, Ponction des grains par les pucerons 
+Affaiblissement de la plante, Perte de PMG 
+Diminution du nombre de grains par épi en cas de fortes attaques 
+Dépôt de fumagine sur les épis, Chute de rendement jusque 30 q/ha 
+Lutte chimique 
+Insecticides entre épiaison et grain pâteux. 
+Seuil d’intervention : 1 épi sur 2 colonisés par au moins 1 puceron. 
+ 
+Mélange : Le seuil d’intervention est également applicable sur les mélanges 
+variétaux. 
+ 
+Un traitement au seuil est efficace avec la plupart des produits (pyréthrinoïdes). Un 
+traitement au-delà du seuil nécessite d’utiliser un produit à action de choc. Si le seuil 
+est à nouveau dépassé par la suite, un nouveau traitement s’impose. Attention aux 
+DAR (Délais Avant Récolte) (variables entre produits) avec les traitements tardifs ! 
+Lutte culturale 
+Limiter éventuellement les repousses mais les facteurs climatiques sont 
+prépondérants. 
+Remarques 
+D’une façon globale, les attaques tardives sont les moins nuisibles mais c’est surtout 
+le nombre maximum de pucerons par épis qui détermine la gravité de l’attaque. 
+ 
+ 
+ 
+ 
+ 
+
+
+PDF_PAGE=40
+ 
+38 
+Choisir & Décider 
+Interventions de printemps 2025-2026 
+Blé tendre d’hiver 
+CHAMPAGNE-ARDENNE 
+ 
+Insecticides en végétation autorisés sur pucerons des épis 
+SPECIALITES 
+COMMERCIALES 
+FIRMES 
+Dose 
+homologuée 
+l ou kg/ha 
+SUBSTANCES 
+ACTIVES 
+Concentration 
+% (poudre) 
+g/l (liquide) 
+Dose 
+g/ha 
+APHICAR 100 EW, CYPERFOR 100 EW, 
+SHERPA 100 EW (sauf orge et avoine) 
+SBM, De Sangosse, 
+Nufarm 
+0,25 l 
+Cyperméthrine 
+100 g/l 
+25 
+CYTHRINE L 
+UPL France 
+0,25 l 
+Cyperméthrine 
+100 g/l 
+25 
+CYTHRINE MAX, PROFI CYPERMAX, 
+CYPLAN MAX 
+UPL France 
+0,05 l 
+Cyperméthrine 
+500 g/l 
+25 
+DECIS EXPERT, SPLIT EXPERT, KESHET, 
+PEARL EXPERT (sauf épeautre) 
+Bayer CropScience, 
+Adama 
+0,063 l 
+Deltaméthrine 
+100 g/l 
+6.3 
+DECIS PROTECH, PEARL PROTECH, SPLIT 
+PROTECH (sauf épeautre) 
+Bayer CropScience 
+0,42 l 
+Deltaméthrine 
+15 g/l 
+6.3 
+DELTASTAR, VIVATRINE EW 
+Ascenza 
+0,42 l 
+Deltaméthrine 
+15 g/l 
+6.3 
+KARAKAS, ALICANTE, CORDOBA, 
+LAMBDATINE, ASTARIME (sauf avoine) 
+Ascenza 
+0,063  l 
+Lambda-cyhalothrine 
+100 g/l 
+6.3 
+KARATE K, OKAPI Liquide, OPEN 
+Syngenta  
+1 l 
+Lambda-cyhalothrine 
++ pirimicarbe 
+5 g/l 
++ 100 g/l 
+5 + 
+100 
+KARATE ZEON, KARATE XFLOW, KUSTI, 
+NINJA PRO, SENTINEL PRO, KARAIBE PRO 
+Syngenta 
+0,063 l 
+Lambda-cyhalothrine 
+100 g/l 
+6.3 
+KARIS 10 CS, SPARK 
+FMC 
+0,063 l 
+Lambda-cyhalothrine 
+100 g/l 
+6.3 
+LAMBDASTAR, ENVERGURE, ESTAMINA, 
+PROFI LAMBDA 100 CS, TARAK, KONTESS 
+Life Scientific 
+0,063 l 
+Lambda-cyhalothrine 
+100 g/l 
+6.3 
+MANDARIN GOLD, JUDOKA GOLD, TATAMI 
+GOLD, TOLEDE GOLD, COUNTRY GOLD (a) 
+Philagro 
+0,15 l 
+Esfenvalérate 
+50 g/l 
+7.5 
+MAVRIK FLO, TALITA MAVRIK SMART (b), 
+TALITA SMART (b), KLARTAN SMART (b) 
+Adama 
+0,15 l 
+Tau-fluvalinate 
+240 g/l 
+36 
+MAVRIK JET, TALITA JET, KLARTAN JET (c) 
+Adama 
+2 l 
+Tau -fluvalinate 
++ pirimicarbe 
+18 g/l 
++ 50 g/l 
+36 + 
+100 
+GORKI, JELSA (a) 
+Philagro 
+0,3 l 
+Esfenvalérate 
+25 g/l 
+7.5 
+TEPPEKI (sauf orge, avoine et seigle) 
+Belchim Crop 
+Protection 
+0,14 kg 
+Flonicamide 
+500 g/kg 
+70 
+Source dépliant ARVALIS - Institut du végétal - 2025 
+(a) Retrait progressif des produits à base d’esfenvalérate. Utilisation des stocks possible jusqu’au 28/02/2026 
+(b) Changements mineurs de formulation permettant le mélange avec bore  
+(c) Les pailles de céréales traitées ne doivent pas être utilisées en alimentation animale 
+ 
+Légende : 
+  
+Bonne efficacité  
+
+
+PDF_PAGE=41
+ 
+ 
+ 
+ 
+ 
+Pour plus d’informations, n’hésitez 
+pas à contacter l’équipe régionale 
+Champagne-Ardenne  
+Elyse CHAMPIGNEULLE 
+e.champigneulle@arvalis.fr  
+Alexis DECARRIER 
+a.decarrier@arvalis.fr  
+Mélanie FRANCHE 
+m.franche@arvalis.fr  
+Raphaël RAVERDY 
+r.raverdy@arvalis.fr  

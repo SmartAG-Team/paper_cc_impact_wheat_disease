@@ -1,7 +1,7 @@
 """Arithmetic and leakage checks for the external published-yield benchmark."""
 import numpy as np
 import pytest
-from calibration.yield_transfer import fit_group_balanced_slope, leave_group_out
+from models.calibration.yield_transfer import fit_group_balanced_slope, leave_group_out
 
 
 def test_genetic_backgrounds_have_equal_total_weight():

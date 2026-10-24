@@ -5,11 +5,11 @@ import json
 import numpy as np
 import pandas as pd
 
-from calibration.seasonal_septoria.empirical import assessment_features, WeightedRidge
+from models.calibration.seasonal_septoria.empirical import assessment_features, WeightedRidge
 
 
 def test_features_ignore_observed_disease_and_crop_stage_and_future_weather():
-    params = json.loads((Path(__file__).parents[1]/'process_model/parameters/calibration.json').read_text())
+    params = json.loads((Path(__file__).parents[1]/'data/phenology_parameters/calibration.json').read_text())
     targets = pd.DataFrame(dict(field_index=[0],day_index=[3],leaf_index=[0],
         date=[pd.Timestamp('2018-10-03')],value=[0.],stage_from=[10],stage_to=[10]))
     data = SimpleNamespace(metadata=pd.DataFrame(dict(field_index=[0],forcing_days=[8],

@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from model.seasonal_septoria.climate_alignment import apply_monthly_alignment
-from calibration.seasonal_septoria.climate_alignment import fit_monthly_alignment
+from models.seasonal_septoria.climate_alignment import apply_monthly_alignment
+from models.calibration.seasonal_septoria.climate_alignment import fit_monthly_alignment
 
 
 def test_alignment_uses_historical_forcing_and_preserves_declared_changes():

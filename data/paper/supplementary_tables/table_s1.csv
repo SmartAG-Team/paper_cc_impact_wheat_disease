@@ -1,0 +1,7 @@
+Component,Information available,Interpretation
+Monitoring,Earlier own-field disease and recorded stage; realized weather through the preceding day,Nominal source-native severity; conditional retrospective tracking
+Climate process,"Four daily weather variables, imposed sowing and simulated development",Normalized affected tissue; no disease-observation updates
+F1 check,Original 2019 BASF native code 0 and unchanged original calendar,Anatomically qualified flag leaf; no healthy-area or yield validation
+Onset check,Source-identified F1 histories in original calibration and evaluation populations,Observation censoring and bracketed symptom timing; distinct from monitoring severity and projected tissue integrals
+Attribution,Four weather–host corners on identical eight-setting valid pairs,"Conditional within-model contrasts, not causal field effects"
+Production exposure,Fixed baseline production and conditional grid responses,Production located in exposed cells; no tonnes of grain lost

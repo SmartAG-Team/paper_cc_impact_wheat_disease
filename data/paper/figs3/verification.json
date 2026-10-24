@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "passed": true,
+  "annual_rows": 22,
+  "original_pdf_sha256_matches": true,
+  "source": {
+    "path": "data/final_analyses/yield_context/sources/arvalis_performance_2025_champagne_ardenne.pdf",
+    "bytes": 2903441,
+    "sha256": "4ed9b15d8785e762123d12a1b2f1ea6483f1e225e8d8c4c52ecff366bf29b423"
+  },
+  "annual_values_from_printed_labels": true,
+  "annual_summaries_recomputed": true,
+  "missing_trial_counts_retained": true,
+  "missing_sampling_variances_retained": true,
+  "new_meta_analysis_claim": false,
+  "normalized_HAD_to_yield_conversion": false,
+  "historical_unplotted_trial_profiles_recomputed": false
+}

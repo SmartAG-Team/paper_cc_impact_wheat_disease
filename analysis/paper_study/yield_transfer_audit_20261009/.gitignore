@@ -1,8 +1,0 @@
-!*.csv
-!*.json
-!*.zip
-!*.txt
-!*.md
-!.gitignore
-__pycache__/
-.pytest_cache/

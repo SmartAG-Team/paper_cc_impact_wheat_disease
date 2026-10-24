@@ -10,8 +10,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from calibration.wheat_stb.configuration import make_configuration
-from model.wheat_stb import YieldParameters
+from models.calibration.wheat_stb.configuration import make_configuration
+from models.wheat_stb import YieldParameters
 
 
 def main():

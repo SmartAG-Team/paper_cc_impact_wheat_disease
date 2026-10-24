@@ -1,0 +1,17 @@
+evaluation,population,model,n,rmse,bias
+spatial_50km,all,baseline_prediction,2017,17.30622057488964,1.8057342113863613
+spatial_50km,all,endpoint_joint_mean,2017,17.1894403325496,0.8852204569512662
+spatial_50km,all,endpoint_native_growth,2017,17.504814629393387,1.1196832040672355
+spatial_50km,all,endpoint_severe_priority2,2017,17.771007071672088,3.3870306474976086
+spatial_50km,severe,baseline_prediction,286,32.61203949733274,-23.97699306314562
+spatial_50km,severe,endpoint_joint_mean,286,33.67005766633645,-25.035636369464854
+spatial_50km,severe,endpoint_native_growth,286,33.73395790834053,-24.833540834629027
+spatial_50km,severe,endpoint_severe_priority2,286,30.61114863153424,-21.374376075841884
+temporal,all,baseline_prediction,2017,17.151664891542353,2.1401327034495123
+temporal,all,endpoint_joint_mean,2017,16.964196070914863,1.355718643646667
+temporal,all,endpoint_native_growth,2017,17.264249070378128,1.6714779021631614
+temporal,all,endpoint_severe_priority2,2017,17.562615500191534,3.7998070296951734
+temporal,severe,baseline_prediction,286,32.51684824868262,-23.956149704395088
+temporal,severe,endpoint_joint_mean,286,33.2501990242453,-25.052782270049786
+temporal,severe,endpoint_native_growth,286,33.33244910616058,-24.57809279348689
+temporal,severe,endpoint_severe_priority2,286,30.18630786696947,-21.35502161427722

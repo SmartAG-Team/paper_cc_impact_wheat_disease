@@ -1,0 +1,1610 @@
+{
+  "model": "ACCESS-CM2",
+  "scenario": "ssp585",
+  "baseline_start": "1991-01-01",
+  "baseline_end": "2020-12-31",
+  "baseline_days": 10958,
+  "month_day_counts": [
+    930,
+    848,
+    930,
+    900,
+    930,
+    900,
+    930,
+    930,
+    900,
+    930,
+    900,
+    930
+  ],
+  "cells": 14941,
+  "future_forcing_used": false,
+  "reference_forcing": [
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-01-01_1991-02-01.parquet",
+      "sha256": "48b77c78eed27417319bc280fe885ad74cd6b84a7c4bd49ad6a6fdea2da2b366"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-02-01_1991-03-01.parquet",
+      "sha256": "eddc123385950d2326a48c9a1c1cb143659a1f76ea1287a18f4946f5e87e8dcd"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-03-01_1991-04-01.parquet",
+      "sha256": "348a8c9e7fa6135065170797fd97886bb2b6f8612bd4f0778ec3c240215bb1c6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-04-01_1991-05-01.parquet",
+      "sha256": "342a70903608a9e619462c03acd3425d4317b2d81ef308d331fe6d4e3f15edb0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-05-01_1991-06-01.parquet",
+      "sha256": "069f252c2ac74fe2906cb0a7619126d165841c005457f44e7eb9b5637268fe3a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-06-01_1991-07-01.parquet",
+      "sha256": "aa52b4642c0b5c67fb34c565bfd0e19adeeedcf21cbc24db53823e3f77d2f5fd"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-07-01_1991-08-01.parquet",
+      "sha256": "9bca889c8e5cd91e857114a3eccfc9142ca0afe6aca52726a258efd1d956f8f3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-08-01_1991-09-01.parquet",
+      "sha256": "3df2db6f383f3a9c356c2d33057e616ef952cb9ceec6820613319ccc947dc296"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-09-01_1991-10-01.parquet",
+      "sha256": "bb71509a7775c0840e4fe06f89b35f5a9fa48b1a5699fbd90d3e6b221f14b4ec"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-10-01_1991-11-01.parquet",
+      "sha256": "2fe2a2588ffafbc1819ad047e0222a68daec7ec3d619576a3564738b55e829bc"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-11-01_1991-12-01.parquet",
+      "sha256": "ad905a5e21653cfb7110c8bfe7f965c88144adf54c71041a2cf92d4d1b123ff8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1991-12-01_1992-01-01.parquet",
+      "sha256": "3bd714d1c002b9d7142fa18695dae5aab26930fa2913373294430d53f469cb9c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-01-01_1992-02-01.parquet",
+      "sha256": "e6c8c667def7baecd24f2aeaa42576b6bcd788d609d45c6e71d83408fefae3c8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-02-01_1992-03-01.parquet",
+      "sha256": "7a81ad1b6eb7aea9e544a48c782640a5e79bd65035d1243e821f47f173abddee"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-03-01_1992-04-01.parquet",
+      "sha256": "f524124a24f9ceb9241d95d2af2573f2005222eb82eb7d8d692c856826d49140"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-04-01_1992-05-01.parquet",
+      "sha256": "a1bd86350d9c8c95fdd1ee52b2f43ec08f1d07dba6df4334e839fb69ec4cfa9a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-05-01_1992-06-01.parquet",
+      "sha256": "b6dc51c455d27d3d3a3a5830229ee7cfb7246aa0cd982323b5d42878212f3540"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-06-01_1992-07-01.parquet",
+      "sha256": "f120604881ef741da6f580e4a437b6da8853f03c73212be29fe4f533e445bb72"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-07-01_1992-08-01.parquet",
+      "sha256": "3ecfae249ab8523d24885759cd41df44d3be3fdf9286e9dab59dc1bf83bbb06f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-08-01_1992-09-01.parquet",
+      "sha256": "ebce0578ce52a8ea97818908d0817aec3dc9c5484c2c685e08cf562f4a00cef6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-09-01_1992-10-01.parquet",
+      "sha256": "5bd05587dad1d6e9aa79bc8ffb2d08ced4a77319250f2ec21d2f2d92d3d24dd9"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-10-01_1992-11-01.parquet",
+      "sha256": "6951fd7883765177fb52c694ed31734c2e2dbf5abb3ce1cc9c7b04d8d8b45266"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-11-01_1992-12-01.parquet",
+      "sha256": "df72ff728c7f27c62935240560a8a3c4992e0e0fa729444dfc4f5612c2d1a5ac"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1992-12-01_1993-01-01.parquet",
+      "sha256": "5ae67bb4e0ff2aa894f7a5b23f8bbc53faa23e3f35776b65ec989555bb55023a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-01-01_1993-02-01.parquet",
+      "sha256": "56e2b469f7b010064cae65a3513050563201de8a4db7ea8cedea109fd691b7d8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-02-01_1993-03-01.parquet",
+      "sha256": "9a337d79b188d617340522a5a66415e65fcfa009d51839e7c0c254e8eefdfd03"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-03-01_1993-04-01.parquet",
+      "sha256": "319457b3890fc2be9478c1173a7c8faa4aa34bcace8530fb874d2758f137a6b8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-04-01_1993-05-01.parquet",
+      "sha256": "7dfe1ff75b825619272edf482ad015cad09b4b87ba71074358b95c48867ae1b4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-05-01_1993-06-01.parquet",
+      "sha256": "067fc5d0311e46588158f427731ab76de4f8dd12866d293338dac07e5266fb44"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-06-01_1993-07-01.parquet",
+      "sha256": "70d4dab2c4fad357c41886edc1cb20f3b26097f5c155126875d6ef75d584f0e5"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-07-01_1993-08-01.parquet",
+      "sha256": "d8718f61ab52b3faa21b061d786c18ed4c523b80ab430d1108abad6d0c72f046"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-08-01_1993-09-01.parquet",
+      "sha256": "2954728cb045641211617950290808061ae7ab0fa2d8a694d1988648f84a18fb"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-09-01_1993-10-01.parquet",
+      "sha256": "f17c2693e7e2fa87034a4540aa311d40313b01e7c74ce70034fb439629a6e098"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-10-01_1993-11-01.parquet",
+      "sha256": "68964c276754f1650ba02d782023326df0802cece01c97042a0ace3c38059d2e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-11-01_1993-12-01.parquet",
+      "sha256": "b653ce4036af073d4abef3c28b967284c06a921c0ba0babbb311b99c1122d12a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1993-12-01_1994-01-01.parquet",
+      "sha256": "13a2e1179f2681cc3e45e3292b954cbdd56ffe5e02370c805d2e5528756d2fe3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-01-01_1994-02-01.parquet",
+      "sha256": "91d5da682baafe4a5605b953dc85a055647db4a425f9420b591a115624c79128"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-02-01_1994-03-01.parquet",
+      "sha256": "c421b1e154049874cd77cd7e7781550ad9bca7ba975d88af4ad42b567428050a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-03-01_1994-04-01.parquet",
+      "sha256": "d3ad1a20b59ada72f08f3b97c7d1dd7bc620486d5e359b4a7e8000226af88329"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-04-01_1994-05-01.parquet",
+      "sha256": "17b7fe99e000a3d15bf83ef746006fcf9807302ff4a39b48576f47f9211c2e21"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-05-01_1994-06-01.parquet",
+      "sha256": "2fe232f6e4a07e30173014d753e6ffb6a660a07a50bc3c70c195b3f6921d7353"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-06-01_1994-07-01.parquet",
+      "sha256": "d0544529156e79509368d3634e29f2a41f3505a6e41d7a7a0b988814b66225e9"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-07-01_1994-08-01.parquet",
+      "sha256": "d27c18a9ee4126fa7764418978dc90c9736cf9db75eab759b4bd6d4ef217dab9"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-08-01_1994-09-01.parquet",
+      "sha256": "7d81fe84765996e03af33ef6e4179898565d5a2765534ffda19053f0030587ca"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-09-01_1994-10-01.parquet",
+      "sha256": "72f245b6d72ef9307025e37f73fca7d0d8e11b5bf541bf7dfe63760bffb2806e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-10-01_1994-11-01.parquet",
+      "sha256": "0645ffca375389083e5c6a21566fc8adbea72e475fd839d8449ed3165dff4fae"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-11-01_1994-12-01.parquet",
+      "sha256": "2c4cfce26d77649312204bd3ac24e4a9248c1b20c788731e39ca7db151338885"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1994-12-01_1995-01-01.parquet",
+      "sha256": "9e0661a21aeb2c5588a054bcc9e6202baea3fd5484f0ae6a84b2db0a4fd79ce0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-01-01_1995-02-01.parquet",
+      "sha256": "651a619af931500d816792877b311969085d9f6923a8ce7b05bfb5e0ccc9af05"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-02-01_1995-03-01.parquet",
+      "sha256": "058c94045525640b4d5783eeb7ce807b5107d744feafd163a7be2dd88063f8bb"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-03-01_1995-04-01.parquet",
+      "sha256": "bc80a40b819df7c3b41aff2f447287c03a38b19d2662102ede21717f5be35d99"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-04-01_1995-05-01.parquet",
+      "sha256": "711ba33a4523d145678c32b84ed177fa59bd85c777bbaf183303eba043f5ab17"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-05-01_1995-06-01.parquet",
+      "sha256": "b97f2d36d2094c2dae631c26c8d0d0cb818c410e557524bb8ce0a33ab59aedb7"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-06-01_1995-07-01.parquet",
+      "sha256": "88a5e08fcd26ff7ebb897eb7ceb029c10a946c657b8a65644c915fd0945b6db3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-07-01_1995-08-01.parquet",
+      "sha256": "259ad3c424259c98257dfe0b5763b63a3cf7383e4f510a860b6ab77771369ea5"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-08-01_1995-09-01.parquet",
+      "sha256": "5523632a59b2c92a9dd1624b2d705fcec2ecee8ace34fa476f7f0382d89b0925"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-09-01_1995-10-01.parquet",
+      "sha256": "d66b89d601c1b2e87257f8457327df80c00ff9f85647e57202ad51a181495856"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-10-01_1995-11-01.parquet",
+      "sha256": "54a5254612452747ddce54f18efd06b14eed25b5591c3eb8183c3b29e9802322"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-11-01_1995-12-01.parquet",
+      "sha256": "3590ee8deece4ee936b56a7f4e19a90843ec93c540da83ac917607e36328aeb3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1995-12-01_1996-01-01.parquet",
+      "sha256": "ebcb15c0b48fc332287d007d692effce8981ec2104597c30f46e2bfbdc811671"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-01-01_1996-02-01.parquet",
+      "sha256": "70d4b3e6320b25788780c0064fe918f0355d7ba0f71bb2ab38da7bad3f413d2a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-02-01_1996-03-01.parquet",
+      "sha256": "d126f3466879224e544803003740e2a82bc42b2d8c8cb5603558d2c42581447d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-03-01_1996-04-01.parquet",
+      "sha256": "b6f5f745e53e0361f75c64ac5a3a109b6eb69481dbdc8e2b0677d51945667f4a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-04-01_1996-05-01.parquet",
+      "sha256": "c856ccb3355d18da0269eac7ab831f42e536292aa25ba5d09dbdafb9da9db9aa"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-05-01_1996-06-01.parquet",
+      "sha256": "ddbeb18e6271fbd0d5cda2c0d99539a308a01c0f7bdfcc99c504ffbe3e17c0b8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-06-01_1996-07-01.parquet",
+      "sha256": "cd945dd951d9a60ef258254da2430887e612c1544ca660e683a1df818e8a803e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-07-01_1996-08-01.parquet",
+      "sha256": "fba2a5d5414a9ceb1d8ce799db67d2b1c2c01151fde0737a03d3f64ae79b1a3f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-08-01_1996-09-01.parquet",
+      "sha256": "ed5a781944064b07b79537f9d1abbf7f578aa42547106e2cde743dc20670f4cf"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-09-01_1996-10-01.parquet",
+      "sha256": "ee3af0b50782ebf6b828124ac3acf6eb43c8b06cab1be3979f5bc17980990327"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-10-01_1996-11-01.parquet",
+      "sha256": "adacfdcd93825c10007dbe6cf108a0f4a654d125616672e23e26f5a9a25c71e0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-11-01_1996-12-01.parquet",
+      "sha256": "c363cad305b9be221907f9d48f344d0e20774f65cb53e08e8111ca699877cf19"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1996-12-01_1997-01-01.parquet",
+      "sha256": "4165f80960a2ba75a06fdb22ab1720ceb87d9356981b0150a46e7fe807b57d7a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-01-01_1997-02-01.parquet",
+      "sha256": "f717fbe4cb5ea7f08105d7527386ceb554afa2b6e111ae1fe757c13db395efdb"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-02-01_1997-03-01.parquet",
+      "sha256": "677775a741770aa6b8bbd127926ea287a7067f28abd57711963b6e93794d8941"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-03-01_1997-04-01.parquet",
+      "sha256": "2ef50f3d88084daa095a033847ade03cd74e0be9899355bda0e8d303df6c2abf"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-04-01_1997-05-01.parquet",
+      "sha256": "b0c2a18c12742697d88535ad10231fca6f7485b751ba7e3770138b58a1d68c67"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-05-01_1997-06-01.parquet",
+      "sha256": "79616a2c6390ad8b0c8415f1d3fa7ba88d755e6f10c57c59bd8a1959792717ea"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-06-01_1997-07-01.parquet",
+      "sha256": "ca07537b84de164027d65f0000aad308d26d2bfeb1d9913fcb3ca1835f31f50f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-07-01_1997-08-01.parquet",
+      "sha256": "c4a8f31d69a763aad9216b5660f163bb4135c373b64715510d797e80e965af6b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-08-01_1997-09-01.parquet",
+      "sha256": "1c04c244f26fdb8168f90fed4e6bab07730c087351cca893a56c8f4b454caf65"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-09-01_1997-10-01.parquet",
+      "sha256": "a2ce86701ce3946f610bfba7d52c3e0841a413bd5e910b65e02b839dc81b9fce"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-10-01_1997-11-01.parquet",
+      "sha256": "f661750b2c6af291294a8e98bdd53371fa9b61e6e02b2745327651eaf54a1bcf"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-11-01_1997-12-01.parquet",
+      "sha256": "a4cc4b15cb4c0566ee1b7be4bdceb79edd6e8a440fa534f4d159bc593c5043a0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1997-12-01_1998-01-01.parquet",
+      "sha256": "1d52e8f229eaf5bec3f71dc624c31d1510b3705baed5dae33601e114ddc4c0f6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-01-01_1998-02-01.parquet",
+      "sha256": "7d4b1e0b04e6f65f87b53891f2a1d6095ef715962bd567aa3a35ccc9c6f17adb"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-02-01_1998-03-01.parquet",
+      "sha256": "af50a13f5d4e85fb89e5c7e8511f8997c8546837813523e811988ae507f8e0fc"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-03-01_1998-04-01.parquet",
+      "sha256": "994524d6b8c4c0800e34a799e33661eb3dc034fd9ebffa0e779d4eca61393c61"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-04-01_1998-05-01.parquet",
+      "sha256": "e1503e29adf75556e990591414f4ba8d38c16018a380e8fd28bcfaec1b1d16f0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-05-01_1998-06-01.parquet",
+      "sha256": "3dd5ee85f6feaf2ac5f860fcd91ce74ef07f7cc43e1cbf6a1d2db06ea49bb8ba"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-06-01_1998-07-01.parquet",
+      "sha256": "106415c77b1cd89682e587c17c4b924144a4f929fff40c1316b8d6d1bad25f31"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-07-01_1998-08-01.parquet",
+      "sha256": "54c38d9d8d63e56e464975fafecc16c4519c0d316e16ec4b6e88fb30368f0caf"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-08-01_1998-09-01.parquet",
+      "sha256": "6ef00dd5260f8b570cecf2fef179ee1dea7325e4efdfac43ed24676f258c7406"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-09-01_1998-10-01.parquet",
+      "sha256": "441b7e3974703974354fe225098cff0e3ba70e1690db4a4b6ad55a6716c98ab1"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-10-01_1998-11-01.parquet",
+      "sha256": "dbcb93a2d3b46f93f8f16026605d6b65c4b82c18cd2512b053980ede7392391a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-11-01_1998-12-01.parquet",
+      "sha256": "18918f201e80a330ebcdfb3a809ba7fc90fda10658dc7a85feb48609ccdebe61"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1998-12-01_1999-01-01.parquet",
+      "sha256": "6f84226fd11c8071372c9054fd101f633b11fb26e2f5a430e9ae6e49c5d3c760"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-01-01_1999-02-01.parquet",
+      "sha256": "90fddb278a81e10dde8d2e4d491a62c4636dc16de2adb7db03212106fd5994f4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-02-01_1999-03-01.parquet",
+      "sha256": "d3cd9c239a66b8010593ca0c8ea8f01734f07c9f41ddd31db652c1709df0529c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-03-01_1999-04-01.parquet",
+      "sha256": "bcbd3c14d7207063ea488155eac779baff2577f2c585a1b24ad7669d4ae051ee"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-04-01_1999-05-01.parquet",
+      "sha256": "06c6fb85295a6b0237c3813ed389719b0fe934596dfb121ad13b83572ab4df35"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-05-01_1999-06-01.parquet",
+      "sha256": "46a04cadcdd1351d1d15563f9f00dd17f2065ff795312aeeeee3f913e25c989d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-06-01_1999-07-01.parquet",
+      "sha256": "8bfbaf1259fca41be88abff0d25610297999f731042eb0a2a94d072ad13d32d2"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-07-01_1999-08-01.parquet",
+      "sha256": "c85740bacd530ab39f7c575daeb0b8528788756689b8198fa86a0e7584a3f8e3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-08-01_1999-09-01.parquet",
+      "sha256": "2747187deda1a1890624d6531a04c90d74e45da1c3f5b443b0f5af9673fe5b24"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-09-01_1999-10-01.parquet",
+      "sha256": "59d07e62673cb2510e1e4fcd474fc19ddd84bfb4d61569fa5c058092c65ab13b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-10-01_1999-11-01.parquet",
+      "sha256": "c0cb34831690aea526d343d6201d41d9598f63d7500910a91691a39a877e7dbc"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-11-01_1999-12-01.parquet",
+      "sha256": "4333ba458e8b956b9643875cfc1953db1dfa2bdd5c7ebe7d5152be98bdb40a3b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/1999-12-01_2000-01-01.parquet",
+      "sha256": "1c9fa99f36dbf97a8714fbfedbf2d6d8c76deb2b27a62a70829a32b7f4902c43"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-01-01_2000-02-01.parquet",
+      "sha256": "4fdd6da3d5832e1bb1df2508e2f17897503165cf35dc0c2e0d7c7718a4792420"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-02-01_2000-03-01.parquet",
+      "sha256": "c6f4ad4820e14887329f32e714be7fd1c5836fb6605a36996fd6f5aa816d45b9"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-03-01_2000-04-01.parquet",
+      "sha256": "5549f9178d35809f178604b616099f6ba582bbf3873fe964101a64794d4a2ae6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-04-01_2000-05-01.parquet",
+      "sha256": "9a5a10137c61111755e479cc8c3a074e4cd6741df1000ff20894fedcf2ea53c8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-05-01_2000-06-01.parquet",
+      "sha256": "7c5c9f310ee51d68e524e59ecea61190aa8d50e1226731a1953f0276f711c490"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-06-01_2000-07-01.parquet",
+      "sha256": "16692c7d1bed4a514a0572095435598b2d0f3d7629a4c9cb003b3ccb1bc8fe0d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-07-01_2000-08-01.parquet",
+      "sha256": "2a6d156d45f0b47af2a52503fe0a4e04b9da7d5a0643c9413196b21e0b98ef6c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-08-01_2000-09-01.parquet",
+      "sha256": "eef1566f4ff8997c84a1f6521d6e23b768ec0d35e57de9b03db0b5c1b77492b6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-09-01_2000-10-01.parquet",
+      "sha256": "d7316953eb5b81a7aef682fe4f8cf944c6aa44a5293aa6dc6a200d77e549fb7e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-10-01_2000-11-01.parquet",
+      "sha256": "81aaa45cbf7baceea3151fe8ca5d2db791138a6c1bb500cd0442921b2a16f103"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-11-01_2000-12-01.parquet",
+      "sha256": "412e2f93ca773a7d39d5665a21626a9e4855c37788ca96df25e1300c4612e0c6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2000-12-01_2001-01-01.parquet",
+      "sha256": "30b91a2c5e104f73638a9e5939c05bbf000cb3342c3001f50a83a85216d1ccb0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-01-01_2001-02-01.parquet",
+      "sha256": "2472e1eab0e03abe553ea636846801d0a253f63656e71d8966da1f9f268e65cf"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-02-01_2001-03-01.parquet",
+      "sha256": "b9e8fbf5f1445fa1a95e65309a05a4dec380801d0a97bc3d142c15c70d10adf3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-03-01_2001-04-01.parquet",
+      "sha256": "a2f5bb2898309a5163173a322013aafd1c99baa217519ea8262322a3a0755f2e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-04-01_2001-05-01.parquet",
+      "sha256": "df07f2539c39d4a0b25dcf42304a08c65c3aed9c8fb624272e30c66bc8503808"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-05-01_2001-06-01.parquet",
+      "sha256": "ef7f5e67e23520c31258a8c115c6d9ce39c7cf16f6ca574ac66ee98bd5727f11"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-06-01_2001-07-01.parquet",
+      "sha256": "c9c92fc8a0758180d3fa14f9e1a023f527d7cd87f753539857e4dcb7b3837112"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-07-01_2001-08-01.parquet",
+      "sha256": "6cfce4d09f6da37bf969f147991a44247509ed8f77c093c41e33c8e790fc8b4b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-08-01_2001-09-01.parquet",
+      "sha256": "a843232ac9a70777f679f074b3933dde1b9436e7ea03b1fcb9ce57271a905db7"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-09-01_2001-10-01.parquet",
+      "sha256": "c258657721cde8e61caba139ed89232372413ecc64e0e8ef2d775432771871bd"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-10-01_2001-11-01.parquet",
+      "sha256": "87ec1e5ab1eec706e9c118bca5949451f7ddf58cce65ce38c0183e6523becf99"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-11-01_2001-12-01.parquet",
+      "sha256": "722002842424f9b91cffcc464ed0faa0f077de1e311e478028a727e09baf5879"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2001-12-01_2002-01-01.parquet",
+      "sha256": "3de3a7d214f6de9bb350b9b42ee407ee9520de1133136e7dffd64214c85e6bab"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-01-01_2002-02-01.parquet",
+      "sha256": "a3c2c5f5c65737b32cf65e9e39328193509e8e30ef37dd87de973ec2029d9623"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-02-01_2002-03-01.parquet",
+      "sha256": "4dbca6ebd36810f2001803d72d42eefcccc51fef1287e90f3cb53983492961b3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-03-01_2002-04-01.parquet",
+      "sha256": "731916af168a1c980d0681ab0d7c4088d25f7d6236cd49134892f4c1950cc827"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-04-01_2002-05-01.parquet",
+      "sha256": "dcaca36b74b5978ea331a025b8359cc698bbc7e19fcb1be0bbb348239d6c8966"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-05-01_2002-06-01.parquet",
+      "sha256": "88c6a6e16406ef1895646b437bd0aca79210dcff6420651a828e82a2476f7766"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-06-01_2002-07-01.parquet",
+      "sha256": "e1f27dbb6a97eda91725f772de4f476fe4cc96a9d19efbe68adf8efb3d934784"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-07-01_2002-08-01.parquet",
+      "sha256": "2506e80743034002fbd382bdf5e96c458501b95c5b613b9380ac266f4fbd32bc"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-08-01_2002-09-01.parquet",
+      "sha256": "fdbbc0cee3d0061479da141fbe753a9207827cc1c543ace18cb5b5e635806207"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-09-01_2002-10-01.parquet",
+      "sha256": "5ea9fb86f459fba4f19455bfdc6c5c89413ceeb67b932e491faca19727da0ca2"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-10-01_2002-11-01.parquet",
+      "sha256": "f4808c80a53187dd1c011702a7d34238346041974508305286ce7c88b46a4276"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-11-01_2002-12-01.parquet",
+      "sha256": "0c33848387c8f33d08e80809f2ab6973c957ef4e02b794e4063fe20dd38d2e5b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2002-12-01_2003-01-01.parquet",
+      "sha256": "162960605eb0bb70202486333807c4eecb109cb96206b33a3f21bc7210b3ac03"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-01-01_2003-02-01.parquet",
+      "sha256": "f530f608c6b64127c13573b4bd6b09c1769a1a2b6960907e9c09ec6978a0125d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-02-01_2003-03-01.parquet",
+      "sha256": "9d4624c19eff7b319c2c620af0ee333a380ad33e026c130d2ade2388e4795122"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-03-01_2003-04-01.parquet",
+      "sha256": "9f6b3be0ac9ab3b3207e0d71d95d1eadefe7f8c28abbe9eef3486f84d87aa79f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-04-01_2003-05-01.parquet",
+      "sha256": "46e26517b4b298ede944fdb798f75479aa77324530ae4ff93df86af10f9db6c4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-05-01_2003-06-01.parquet",
+      "sha256": "d87939aa4d31492d30657fd42493569944d671a9500fbaae8def7dddc459999f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-06-01_2003-07-01.parquet",
+      "sha256": "d1f0db2100d686e7c2f80b251547d8a1d6847d1c4793310db4b610d1a0dedc1b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-07-01_2003-08-01.parquet",
+      "sha256": "d84424d0a0fb178d3000fb2350e9807708183c7358f8f8460d0769bde2814d75"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-08-01_2003-09-01.parquet",
+      "sha256": "7b23c1665a9114578941f407b27e6f9d2c4f81e3073d360254874be4a4cbb044"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-09-01_2003-10-01.parquet",
+      "sha256": "b8dc832d250bc492af14922279f2177ce31ad93450c1e2f8cb2f2b4142aa9f87"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-10-01_2003-11-01.parquet",
+      "sha256": "102a2f232ed1b8bdc25bc462881c6285dcd7477cd4bce326c4760fdbe7626ce3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-11-01_2003-12-01.parquet",
+      "sha256": "ad6cdf877158f15b7e88a21e4eb7d6d049c9399d4567800ddaa4b29cf58b1be9"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2003-12-01_2004-01-01.parquet",
+      "sha256": "b130dedb68274e004348be454c33e401482e8fb01e5720ec68c4a998451b9717"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-01-01_2004-02-01.parquet",
+      "sha256": "b932e33abdbea0d25b964974c79f609dbf159407d3fb1f69d1cbdd48095c8352"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-02-01_2004-03-01.parquet",
+      "sha256": "03a470a88e310e19a009b38eb8327fd28be89ebf890a35448eb74135b7e9cf0f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-03-01_2004-04-01.parquet",
+      "sha256": "e78df370822e75ee9110ba8c844dd89d8bcb71dc34009582e7c43f1648700909"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-04-01_2004-05-01.parquet",
+      "sha256": "697921036ecb65daf417448ee1fc979db8642c71889e3e0a37fa8eca36026071"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-05-01_2004-06-01.parquet",
+      "sha256": "d347b203b41227bfa202f6c40f1ad7ca06c9cbf2ef5eb92ef2cbd30bddfd5423"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-06-01_2004-07-01.parquet",
+      "sha256": "07fc83fdc78132f2fd782cc736f135cd64ddc97d62c17344327325f320daeca8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-07-01_2004-08-01.parquet",
+      "sha256": "4c543e7877cf4d8ab5a571fb83b01dd535de8ae908f9f3da0de0a4365885a841"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-08-01_2004-09-01.parquet",
+      "sha256": "513d71c04bc5d9159594826fe02af8c13f528b1894a775b6a70efcfa4b8c433e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-09-01_2004-10-01.parquet",
+      "sha256": "77df76810b441a7efd4cef8b629ac0fd5917ad13ef269ea4d3c6beaa18491629"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-10-01_2004-11-01.parquet",
+      "sha256": "0c43beb540cce03276081892bac556af060bc927aa14280851ac57944c4083b7"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-11-01_2004-12-01.parquet",
+      "sha256": "bece5e56f94b1e1e356cb5bdd8fd8f1fb7bd220313f7147a69f3ceaeedd33bfc"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2004-12-01_2005-01-01.parquet",
+      "sha256": "5ac0e3e8b02e7dd996819f81cc96dff1f6c9b0a84d2366fcf71a78f55d0d07a9"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-01-01_2005-02-01.parquet",
+      "sha256": "5ec09a131f23186d2e121688317ad86d2c6c5f079b02bd2916d5fcf1a9b280ad"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-02-01_2005-03-01.parquet",
+      "sha256": "c140559bea4a26839208aa187550de78998cd25b69760f5f0bdbf51e6fa62604"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-03-01_2005-04-01.parquet",
+      "sha256": "4dcd60360a9b1739fb27d5726c5e597430642bbef75b0e77d04e19e713b82470"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-04-01_2005-05-01.parquet",
+      "sha256": "e0c9192145c743d05d65fd39c35c336c7bc1043588b8d5dd9a815e901e3cadf3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-05-01_2005-06-01.parquet",
+      "sha256": "38fa7bed03ef03c85c9483d8db43afbe5d0bdbe56614fbb69dbc684d403c3970"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-06-01_2005-07-01.parquet",
+      "sha256": "9c75ef274debebc7dff584c1267e756f07311ca18f093d659cbe93529a62cd8d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-07-01_2005-08-01.parquet",
+      "sha256": "b505c2765ed1f0d68cd341f426ee9792ce0580c7661223d4b00182acf539dabc"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-08-01_2005-09-01.parquet",
+      "sha256": "03c4b4f2bd75ebd110f343bdc4d21438a92c6444e84ac2eba86e3a60394d7d00"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-09-01_2005-10-01.parquet",
+      "sha256": "a7e5e84ca7b491236a074fe80111fbc77fd8eaa195462c612bcaa400626c7d1f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-10-01_2005-11-01.parquet",
+      "sha256": "04abe789b569cad30353e65ed762bc5d03dd79317a2cf2b3320c76e1e0e8d9f0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-11-01_2005-12-01.parquet",
+      "sha256": "22014d8a52ece97acdc2f5c1d934450e2c4537e978cd8b7320fcbc6b86b3c3d7"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2005-12-01_2006-01-01.parquet",
+      "sha256": "32383aa9dcb4b74c79332397d14b83122af8570b6d54221145f80ff5cdeb25e4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-01-01_2006-02-01.parquet",
+      "sha256": "7993b356b109e5d98cc521dd503977f1265931689fa981e95fe04633cb716e17"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-02-01_2006-03-01.parquet",
+      "sha256": "9857ddf71b1f12f55850098fec005c91e39723080195c191d3eb3effa1de1471"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-03-01_2006-04-01.parquet",
+      "sha256": "1da4e428b952709ffa96221145ed9d5e5121152a2cdd48bb89c5f4281f8509d6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-04-01_2006-05-01.parquet",
+      "sha256": "bcac4bc8b94ba84c2116cfc44afbe0229cc721dfeeb4313e18570dac2f8952e6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-05-01_2006-06-01.parquet",
+      "sha256": "97652ee4d528c3728442679d41e5658127ba2163d2411bd5080fa957f6fd1ea5"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-06-01_2006-07-01.parquet",
+      "sha256": "e2b50c43b0b8cd21483005f78ae59a37c633f3f635f540ec2e818fda3387917d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-07-01_2006-08-01.parquet",
+      "sha256": "0c0f79399dfea974bcc057b9f35101a15c09e6f20202eb3e621f3b558af748ee"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-08-01_2006-09-01.parquet",
+      "sha256": "15bea32c589ddaf2552df32dc772a22fb41b46011053d4f0cec0ef8061c6595a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-09-01_2006-10-01.parquet",
+      "sha256": "fe349149b2c00168be57f9501c11ccb6d737b62e8318cf1be06b2e4250f537eb"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-10-01_2006-11-01.parquet",
+      "sha256": "c1e5e20d4b88de37955e95718890dc81dad26f9a2623ebaeb93a09596e977edf"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-11-01_2006-12-01.parquet",
+      "sha256": "c4eb155ef46448af013c1edd5c8b58ba1df5686193676fd09f2e03b2a6a714a3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2006-12-01_2007-01-01.parquet",
+      "sha256": "54da25803a7abce59c691bbb0963008c1eca311a0298a07ee10e8fa0b65c61e7"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-01-01_2007-02-01.parquet",
+      "sha256": "3d7c94ac2b2fd2147940176cc6106b1b7a6f25885d2cbb65e3fccb00ba877819"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-02-01_2007-03-01.parquet",
+      "sha256": "57a523facf8cb3ca8243be91a11773efd6d2bd1b7b584fdfdbdc347436c27c07"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-03-01_2007-04-01.parquet",
+      "sha256": "9fd509819d2c8a5d949b004cd4880bc402dc4ad792dbe6ac03e0324d67d51772"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-04-01_2007-05-01.parquet",
+      "sha256": "89cc49c694e2e6fbe349f293fca7da9a8ecef30c2ad932e31d9c1aef4847890b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-05-01_2007-06-01.parquet",
+      "sha256": "bd2ecd95d5cedaf9e30925fe2113e5cd2c0e94dd70ef43698ddd36070ee8ce9f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-06-01_2007-07-01.parquet",
+      "sha256": "102637140275bc23d6ffdb99e431cedba87cfcc3cb53df72d6cf450c3b799a7d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-07-01_2007-08-01.parquet",
+      "sha256": "b97f662bca48b7f2458f4e6efbb07fcdf52b79fae8e5d823d3f05a88394cc613"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-08-01_2007-09-01.parquet",
+      "sha256": "30517b7b8471ca291121b00c944dedc550e13236ae8c7b4c70af4c874711fd76"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-09-01_2007-10-01.parquet",
+      "sha256": "0c3d3bc044e09a7856b2a0592e2df6ab7b410dc0af9007de4397b142d58743f9"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-10-01_2007-11-01.parquet",
+      "sha256": "4b8697d812463f6709b7510c27339a54167dd455e6d509f9b19640ea76844683"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-11-01_2007-12-01.parquet",
+      "sha256": "02fe9e8231c0a46c875ce26e22920ace293b7237e31eeda9f6194d2c3d936b58"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2007-12-01_2008-01-01.parquet",
+      "sha256": "8b41d4fdacd849e41e2906449e1922aac42165eb04476151d794515031b0c719"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-01-01_2008-02-01.parquet",
+      "sha256": "2bf75339847aa04216862b707d2054308e230b2b7ca84a394eb6ce30e227ee24"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-02-01_2008-03-01.parquet",
+      "sha256": "35afe9044b236bc1117922ec08cef3e71ae044fc9870b550383525f08e253f9c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-03-01_2008-04-01.parquet",
+      "sha256": "3ad46f69b6a72a9d0ae9d7c85fdd17b2138a05bc28482dbe4f09f68c7641c1db"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-04-01_2008-05-01.parquet",
+      "sha256": "45d200fcc36ef02b7db9f6d7398cae7f88866d669c8603318e5d16d74c6393ae"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-05-01_2008-06-01.parquet",
+      "sha256": "b3686c820f40489af58aa3fb13e026f94a5299b511bc19f7c393ec728e5bd560"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-06-01_2008-07-01.parquet",
+      "sha256": "d381012e72f7acb01b7e50a64d53ce726bf3f878766c245359430dd11edeb01f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-07-01_2008-08-01.parquet",
+      "sha256": "7b2592305e5d217103a0849ee4b359912cab9d3ba51c3e539454999fff5ff65a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-08-01_2008-09-01.parquet",
+      "sha256": "5bb379945ae4fab27c44419ae4b23e69756a859ff09b7348735864f13abeea5a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-09-01_2008-10-01.parquet",
+      "sha256": "f3843cdff49d3b4ad8ebbd4e6f9ce6a60ff0489f5ed35a55fa37abd410f9e1fd"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-10-01_2008-11-01.parquet",
+      "sha256": "bfb91bf7e7da6ae2a25761659f33f09bffed9d326e08f9c01a55c057b63a0a65"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-11-01_2008-12-01.parquet",
+      "sha256": "82466ee3bca0dcd0a0bc91c98ffb50576338ced1df8bdf3db8f9a2a39b6c772b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2008-12-01_2009-01-01.parquet",
+      "sha256": "13dd1f847cb26740b1aff466a425ddbd0e24f9748742158a024aa099fab524b4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-01-01_2009-02-01.parquet",
+      "sha256": "807a48457f26d118bd16f9d6034469629bdc0dc3cdb1d69c199a56424459a405"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-02-01_2009-03-01.parquet",
+      "sha256": "d38cb2f4eed75b348bd7de581fe453f8900fb086446269214422a528b5710389"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-03-01_2009-04-01.parquet",
+      "sha256": "de940f27c71def225475c4b8142cfeaea4388ddde199592d646573e2edc10414"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-04-01_2009-05-01.parquet",
+      "sha256": "b447039f4158e84c71145dc611b434db7b2a26ae8c60ebccb0511d62e57ca717"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-05-01_2009-06-01.parquet",
+      "sha256": "9e85971fe6367be8e7c98e02a96cde57e6619bcb425ad94f8fa22013bf0082cd"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-06-01_2009-07-01.parquet",
+      "sha256": "5cfad946d57df3bf1891873737e9aadb3a70172bfdea2bc39da9bca754dc9c84"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-07-01_2009-08-01.parquet",
+      "sha256": "78b42e7fb719d3c0c0802f5f03616f7273d36ada52e94706902d3418a4e3f42e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-08-01_2009-09-01.parquet",
+      "sha256": "eb30c91f225ba4473b22632ae42c91d700c80295f1057d552d3dde189bb47fac"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-09-01_2009-10-01.parquet",
+      "sha256": "0a25c031a5eefd132cabbaa58f5737591277ad7fd48048bf11aad38afa95cb30"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-10-01_2009-11-01.parquet",
+      "sha256": "8ba2ead06ec9d8185131176f088a42af931e2568814282854eabaf7687d4fcfe"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-11-01_2009-12-01.parquet",
+      "sha256": "51c145e8146be404ac0416c5f19021276630a6fc574d6d96b3e0d792204b3387"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2009-12-01_2010-01-01.parquet",
+      "sha256": "97e9bc4fd0d7ea56d45a49ce4a5252514d8ff12f38496027f1d77a00dc6de0ab"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-01-01_2010-02-01.parquet",
+      "sha256": "7c6b9cb2070cd1c17c78a5a6b01baaf315c7ec876a28b204e916f70eb77014fe"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-02-01_2010-03-01.parquet",
+      "sha256": "09f04345f40a946311512fca0df70612f98e75e8a875fe4ca02d42ae304d084a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-03-01_2010-04-01.parquet",
+      "sha256": "39a68729a0c2c46ca390526247e522996eb04b5a2247388cd2c42fed7e20582e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-04-01_2010-05-01.parquet",
+      "sha256": "9ccfbbcbe0fb4669352902392d9830f894b511976fbf0756996fb594295987f4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-05-01_2010-06-01.parquet",
+      "sha256": "8c90eba94fc5bf4fab2dd899e2d0ac7726c942905ee8bbd453ccc1bfcccd3781"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-06-01_2010-07-01.parquet",
+      "sha256": "8d187da209c37b24fb931100bee2fed586a949118275385cbd2b369837bbb787"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-07-01_2010-08-01.parquet",
+      "sha256": "296bacf5753566c75ab43da93d60e9b1cbf52c44f6f4885509fe966afd97e7b8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-08-01_2010-09-01.parquet",
+      "sha256": "112f3c0871c552816df7c64d8799089ef0b3ea1d004f447b5a16238475fd7d8e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-09-01_2010-10-01.parquet",
+      "sha256": "caeeca6974a3f89c1e8dfa4a6d0969442a78f94552fa14430e479bc9ec09e605"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-10-01_2010-11-01.parquet",
+      "sha256": "cbd4969df3ce64d476c7cd38beba22ad9276241358a9adb15768063b875d8d80"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-11-01_2010-12-01.parquet",
+      "sha256": "496595f70b976331f2ccc549033e2ab37591ceb1e6facd96ed9636ae33bc14a3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2010-12-01_2011-01-01.parquet",
+      "sha256": "720fa7fc1c204cc41fc38da20ff4cfbe4d2cbe20ec5aa28b6aea4174a3adbf52"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-01-01_2011-02-01.parquet",
+      "sha256": "32f2064b5a2b84955e8760064e251d84c16ad18339c7561ced1358f1e22217b0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-02-01_2011-03-01.parquet",
+      "sha256": "508c63e038042ab9726515924b432d885a59907089148c7e5b845fa314ed16fe"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-03-01_2011-04-01.parquet",
+      "sha256": "b2d69ba1773af910278ace7e6d314ec13d63360085e79a83a9378b9b2bed14f8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-04-01_2011-05-01.parquet",
+      "sha256": "31b1fb94e12c1e7d6177e625bd63838e098f298f26e4dd682fc7bfa55cb317f3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-05-01_2011-06-01.parquet",
+      "sha256": "b09cb9b6ed4234f4ce9e8628b58912bbb6f2b3cda12de0de23854b166876c200"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-06-01_2011-07-01.parquet",
+      "sha256": "6c91146aa9cc7081210c020ff2529ff67e73ebb5ee298fee9611d963be0fd262"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-07-01_2011-08-01.parquet",
+      "sha256": "7040303263483a2c291cdf3a02fe50d1ea42ed702ca9268bd8bddac7f9fbb3aa"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-08-01_2011-09-01.parquet",
+      "sha256": "cbf147a190cb5aaf43e2900276f2a345ffc85eea11787dc2f2a6174a12c1f887"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-09-01_2011-10-01.parquet",
+      "sha256": "6c684729e3b0fb22ded687865cf310bcb6b8accf8f8fd6d72a2edace8c033a5c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-10-01_2011-11-01.parquet",
+      "sha256": "23325b98f7dce4b8cd711a9fba0cacf5865cc7646935389323fa832401faae8c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-11-01_2011-12-01.parquet",
+      "sha256": "1077f1c4dbd57178c339ccd77081f945ef1c1f2b47e6d08d937473094799824d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2011-12-01_2012-01-01.parquet",
+      "sha256": "4e7fa7a4fe14b9da878b899986b48264ee12581eb14cbe66091e4c1fbb9c20fa"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-01-01_2012-02-01.parquet",
+      "sha256": "5b3e28d82f8bca26fe938005aad53acd25bcbebabe6b9483a429a82ee430bcc1"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-02-01_2012-03-01.parquet",
+      "sha256": "ca5ab68e2cb010f8a38749584d6cd9384052b92a3fdd19f0a61744c64d6b3b0c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-03-01_2012-04-01.parquet",
+      "sha256": "16c706d553f4a8cc055bbf871dafb079bd09b9819532b726c1999c4be63788c4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-04-01_2012-05-01.parquet",
+      "sha256": "460d2c0f0ed938485b652bd0b315ae651ca32698e042df79ce88022f3ca63fae"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-05-01_2012-06-01.parquet",
+      "sha256": "8a4040e122bf80e6c87aca7ac0b805ed0b0156a337c6c39cf6380ba574998fe3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-06-01_2012-07-01.parquet",
+      "sha256": "988615bac3353551dc971c6212c3a0c34f9addc0c3a4bc3db9f3db15dd067663"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-07-01_2012-08-01.parquet",
+      "sha256": "33a9092e22909747f8a8c29816c3041fea0a625a4035b763c194b1e7f0cf7d44"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-08-01_2012-09-01.parquet",
+      "sha256": "68f9c09c5e96768b08e4e4438f037e5cb9f953bca76508192a322ca002ead70e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-09-01_2012-10-01.parquet",
+      "sha256": "56a787b186abe80a5e2c5a678b2d50b839a9b5c2eebd3207faf9f93a98b16c0b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-10-01_2012-11-01.parquet",
+      "sha256": "207cb38f9ecd2b3a6be02c72ea7e43985116b4e0c04fcc3744f1f0b135d2e186"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-11-01_2012-12-01.parquet",
+      "sha256": "066a3b2940da3073951d3c37142cf21bc2bda08b712a7017088d4b5024028ccc"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2012-12-01_2013-01-01.parquet",
+      "sha256": "83c99ae959ebe6aeb6484b51ccf2c1cd0fe854f4fd833de38b3fe3d000aef322"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-01-01_2013-02-01.parquet",
+      "sha256": "4ebb1f7a5632481d4bae52154088f622f9e99623899b2362e3fa4d476467d2d3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-02-01_2013-03-01.parquet",
+      "sha256": "6ae36cdcefb7b51421c4909929a3eadadd47432c33c50bbec63312be384ef27a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-03-01_2013-04-01.parquet",
+      "sha256": "b11966de2c2dc896f03ab09fbe9aa9e7a8b70a638f7f995bbaf3074aadfdcf64"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-04-01_2013-05-01.parquet",
+      "sha256": "dfb83e683165659ea6d89ec2bed7dfdb70dc5db8cba4df5e4f682673cfc23df4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-05-01_2013-06-01.parquet",
+      "sha256": "2650167aed933f1b6dc3255c5d069d727f0039de7a35e4eafa1d461ab75551ea"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-06-01_2013-07-01.parquet",
+      "sha256": "da1cdf49af8b4932a655e4773684715fbc20d153bfad3aab93d312282fefffb8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-07-01_2013-08-01.parquet",
+      "sha256": "ec277c536956cf7fbf850a075df1d757235aa821d164d9278075d42c005b614d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-08-01_2013-09-01.parquet",
+      "sha256": "f0b0e3a533f92aec21905e4960dd5da6f116082957aff8f8304a2d6c43cd611b"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-09-01_2013-10-01.parquet",
+      "sha256": "b7c8dbf0a224ae3d5da9193d5227739780ca67953fb5b22b11b2b6265d252ae7"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-10-01_2013-11-01.parquet",
+      "sha256": "0db85c6895a614fbf4ec105e6ef4a412a6e20a16769e692500a826b5f9cb1726"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-11-01_2013-12-01.parquet",
+      "sha256": "24ecc62048ff9113ca7394818365b57bcdd787b2a64368ec749c54ed39d6c483"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2013-12-01_2014-01-01.parquet",
+      "sha256": "897d9b16fc3b81ebe5585b13e4454af828748d0e5f346353de736d9a3188e3ca"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-01-01_2014-02-01.parquet",
+      "sha256": "c78db12a6da59529a3b604e4680d50c648376179a02548ded5b0620b28251833"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-02-01_2014-03-01.parquet",
+      "sha256": "5f277ec87e515d6a67bcfe3455d2ec6bb408b361903e5f7afea0ab4401a3510e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-03-01_2014-04-01.parquet",
+      "sha256": "23d90cbfa3f4f3214c62de3aea0f21aa504eac6ed70635584729910921c00f87"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-04-01_2014-05-01.parquet",
+      "sha256": "bd0c5cc65bf852c67af979a52485e92d7705ae2c1575da716a1a0329b8df62b7"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-05-01_2014-06-01.parquet",
+      "sha256": "bc87e32552359f2bde0de4700675a21251b4db4358ba317d29e8b792fcd8af2e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-06-01_2014-07-01.parquet",
+      "sha256": "1e9d390b38069366e1603c954a611d2f40037f37f506ce9c78b493d7cf5b0da8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-07-01_2014-08-01.parquet",
+      "sha256": "157a5e1f4282971644c2ed2d7c50bbfbee1684bfed7db580506a7460c13c01e4"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-08-01_2014-09-01.parquet",
+      "sha256": "7d8ed4cb79e742694c198acfbd7e71eac7719f2c3446cdf4cf285dcf39440ae2"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-09-01_2014-10-01.parquet",
+      "sha256": "9bc0b05853087e311aaa3733b8cb353e9a8866cd4bdee75ccf52497283f9775d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-10-01_2014-11-01.parquet",
+      "sha256": "c4c9546b07fc5805245cdcc359a12b72c31d90193813d56e0cb59c796788b8bd"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-11-01_2014-12-01.parquet",
+      "sha256": "f01e3936afd76cb245eced26754b28814dd04ae62ce1c295290cd0a5ef1dc2cf"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2014-12-01_2015-01-01.parquet",
+      "sha256": "a46dcc529035bf52b389d5117828f113b301e69eb00f5b85ef21df71c6b8be32"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-01-01_2015-02-01.parquet",
+      "sha256": "9b08c07047971bd6809fa8609e2048945f5bb7480f555dffb890ac7b18628782"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-02-01_2015-03-01.parquet",
+      "sha256": "6b8987ab4022114443498b33c28ceb0e9be6fda886792d7dc7b8d68f6f8d4faa"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-03-01_2015-04-01.parquet",
+      "sha256": "0566db506b88ac82634bfc4bb03c08f0ba98a90c47e154a456184b87d56bedf8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-04-01_2015-05-01.parquet",
+      "sha256": "7c1cf0a999d626fa140b775a9421bc6917c6bbafefe79747eb44be0a0ecb91e0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-05-01_2015-06-01.parquet",
+      "sha256": "4e8d34f4a645c6e35cd761bd256249dee074d4420d4ee324b74f7400b0ab0b4d"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-06-01_2015-07-01.parquet",
+      "sha256": "0621ce0caee15f7ac99749097c32c5dbe3e8006b39d9b880942fb7580e51ecaa"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-07-01_2015-08-01.parquet",
+      "sha256": "ca8a5d7a03a7dafbcd70232dc9cae89667c08746c1a37bbd4f345ddf671c005c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-08-01_2015-09-01.parquet",
+      "sha256": "a8b570480a398eeeeaf2fe836a18321eef8d301707d9868a3dffd417210277ea"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-09-01_2015-10-01.parquet",
+      "sha256": "11948932ad74d3b6808dbc62be67edb23382125709f6f0cec78bf9c3e38bfe22"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-10-01_2015-11-01.parquet",
+      "sha256": "ac4da3589d8fcfb690a46b9caa44f45b1bdd9d7bb5ab98cb9f90614a2ba07bf8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-11-01_2015-12-01.parquet",
+      "sha256": "b11257e6a1f0a2d4a6b92ca29aed40c354cda43185156e2c4e68b68f5ad111f3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2015-12-01_2016-01-01.parquet",
+      "sha256": "c046d830ae7bc3b7d556f40c23c114f62eb8d3e682fc6d71701697879c6da6ce"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-01-01_2016-02-01.parquet",
+      "sha256": "ac6f29943ab96b9eac857a9b7d210faee8242ebefa55e1d487ed2b6568a32939"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-02-01_2016-03-01.parquet",
+      "sha256": "17b7dddc8dd8a981eb048af339b4ad502ab8a8001977ee009d1afa76cabcdb6c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-03-01_2016-04-01.parquet",
+      "sha256": "ed6e199762acaaad371c016713cfc2ab4321841271dfde3989dce9fe35e763bb"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-04-01_2016-05-01.parquet",
+      "sha256": "30b5796a3481232d328e4cc5e1184be4999303ec5a1e5aafb2296121dfd7c7d7"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-05-01_2016-06-01.parquet",
+      "sha256": "0a7bcbc5a91cec7dfc62a835e122d754f33dd9873567e4a1048c3ab819385534"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-06-01_2016-07-01.parquet",
+      "sha256": "adb8da902139e107f1b12329f3181cd3c8e2aa862a1e7425407b8a4e5cd320b8"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-07-01_2016-08-01.parquet",
+      "sha256": "adb3784d1e87dacf401da625e0e75a7791d687f19fda31430802690fbb591be5"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-08-01_2016-09-01.parquet",
+      "sha256": "9f88abfeb299178e8e27b9fe015a6eca7963706c6d64bae52b9d488320cd2e70"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-09-01_2016-10-01.parquet",
+      "sha256": "75edd842b0024046fbaff8d6f21114bf47c53e07a15d9449ca4d01870aa6ed81"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-10-01_2016-11-01.parquet",
+      "sha256": "17c05eec11e29a322aa894939fb3feacd19e45864c6c0a00946ca57581638eb3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-11-01_2016-12-01.parquet",
+      "sha256": "ae00e8b283e507aeed6d4a667c054e88172d55586eb78ee8652e778851721b3a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2016-12-01_2017-01-01.parquet",
+      "sha256": "079bea64f7ec7ff0e153528344061febe3dbec76b3a0ce03adf998f6775e2d5f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-01-01_2017-02-01.parquet",
+      "sha256": "0bdb6416795f6fde64a0030ee5150d607b6688d9c754a9ce06a31f38a8ac3028"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-02-01_2017-03-01.parquet",
+      "sha256": "388db300beb2481e92dd4b517d4bab2feb4b36c7310b9424df78f91215dac21e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-03-01_2017-04-01.parquet",
+      "sha256": "477ef7bf60a57d700adf37e0bdd268f26829ecf8955549d843145985beaeb2fa"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-04-01_2017-05-01.parquet",
+      "sha256": "7fd2eec51ea8d62f752c26cfedd09a8c748e29b58fac5ace65cfc51e9fd85334"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-05-01_2017-06-01.parquet",
+      "sha256": "7385a128f479848c3d1a7c186b5d6e10cc496bb93b99ce4e58b01c5bedf614f3"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-06-01_2017-07-01.parquet",
+      "sha256": "f076ae8babcb636483ff6eea28e11b9abc45bf3988dc8ea944d2e7802e94fbac"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-07-01_2017-08-01.parquet",
+      "sha256": "9a1480308f2b32e64b764af8304411ab39f429556021d2026bfaef68194e217f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-08-01_2017-09-01.parquet",
+      "sha256": "647c071fac8b16d83c394cce5cba4e1572019bf622c5f613582b72315bae18d2"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-09-01_2017-10-01.parquet",
+      "sha256": "eeb4725e0a132a22323f203bcbf337800de077566b405da92e8d03f85b4f960f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-10-01_2017-11-01.parquet",
+      "sha256": "229d953e593845a2a75fe6f77c1908844fbb92be8d1e745514485cc4eadd4683"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-11-01_2017-12-01.parquet",
+      "sha256": "9959e861870f4e7dfbb943d65010ccc24537a012be4147dfe3ecd957edcb399f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2017-12-01_2018-01-01.parquet",
+      "sha256": "6c1344d4b1e88d9db25550eae8b944076769b8bdb01650ad35343738aad45779"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-01-01_2018-02-01.parquet",
+      "sha256": "4d50acdb14ceda7c9ff3105d53a43cdb1b1e86272985ca2b18e451a13f8d731e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-02-01_2018-03-01.parquet",
+      "sha256": "0a889b93a4264883f4dd1da49cb0ef2d94c060a065feb2a0aafa82e723d1cb81"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-03-01_2018-04-01.parquet",
+      "sha256": "36f80b2ff1755321e68e441b9758349a9f334babbd37f3b995680c7fd7e7ca31"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-04-01_2018-05-01.parquet",
+      "sha256": "06b511aa3f39f257e39d724a371df65a7fdab214b8a147c1e504e5f4db98d9e6"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-05-01_2018-06-01.parquet",
+      "sha256": "18310d23281c2410cb4df8b023deeff151c35eed36e091a46483d943af0784eb"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-06-01_2018-07-01.parquet",
+      "sha256": "e2d3848efcb26f8263aaf818b461138cc81ad353d63acd5133c7581da543edc0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-07-01_2018-08-01.parquet",
+      "sha256": "67568f9e983a5134933d3992e78644ce381987e4b7d8bad718bece5cf655f895"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-08-01_2018-09-01.parquet",
+      "sha256": "ffc9dbe4e6164ace5f90d394ba950100162da5d166454a433c9f02f103c0ed97"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-09-01_2018-10-01.parquet",
+      "sha256": "052ecfd0e43518f719ebc030d44783c8b6fc4e9f97a34771c73105fc214f1ca2"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-10-01_2018-11-01.parquet",
+      "sha256": "8945fb0f53e33add81d15050652bbc878b1a9e63dcaa405f25d143d8debbcc3f"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-11-01_2018-12-01.parquet",
+      "sha256": "d9b6d4ec25ad2ccaa71d6fb63d86313054b744fb6e726fe9150091d6c028542c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2018-12-01_2019-01-01.parquet",
+      "sha256": "420a9081ebc8436568e6dab0a8cf809bb6557db3e6d3b56f2bf866c7408e3c5c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-01-01_2019-02-01.parquet",
+      "sha256": "a3441516c29dc258ce6df61c7e2fb8484742d93d525019aab459b391bf914c14"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-02-01_2019-03-01.parquet",
+      "sha256": "36ca098794443fff5808e1329b77907b3dfebac3b6b46c4329888603ded11e2e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-03-01_2019-04-01.parquet",
+      "sha256": "7fe0706d408cb1bdf44b72ac05ff0afde17d1ab3d5ddecd9f4a13cae2221e8e0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-04-01_2019-05-01.parquet",
+      "sha256": "1331b7a5daf0c7a414bcdc17ed08db2e8ec3ac1b8408ba8c9943f2123f75c321"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-05-01_2019-06-01.parquet",
+      "sha256": "3cd33bb2d8fe3ad54ac1e0a5038c748906d05b1e5355d9f7cebdf6563eb0c1b0"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-06-01_2019-07-01.parquet",
+      "sha256": "66be6840a4bd9d96b76e5102e44e0aad64922defcda821f3264bb48e1946b10e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-07-01_2019-08-01.parquet",
+      "sha256": "c86a75d9e6eabb0ca56c065634b7667d951522847e734f673b2e21244bb9a5b5"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-08-01_2019-09-01.parquet",
+      "sha256": "bcc8da2a63016259eaf491ab7b7369bf49ecf1359c4eb3d3befd986aef0ce8cf"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-09-01_2019-10-01.parquet",
+      "sha256": "aeb04d6e17f95360bd1131a76a30c37ebaa8226e39a223ff38adac73b2ed0776"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-10-01_2019-11-01.parquet",
+      "sha256": "80cb60cec01fb05d5e766b6eb131c5579607dd29fecc83023ce2d676b722879a"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-11-01_2019-12-01.parquet",
+      "sha256": "0fb045a92546abbf48bc2f2f16773acf8ed0eeca7df7310f750450ca31a9ba56"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2019-12-01_2020-01-01.parquet",
+      "sha256": "c48a9ab711292e46a74d28c1cbc6dc70ab702d5e49c864a311b7f40055bd6625"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-01-01_2020-02-01.parquet",
+      "sha256": "563cfaff6b696545b26e12d4bf1dc1fe5924dd039bfb47e19669fe9e5b0bae4c"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-02-01_2020-03-01.parquet",
+      "sha256": "c29cf61dbf1aacb3ece2d5552eb275d7d91ec3aa152c13ecc73be218ce39f7b2"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-03-01_2020-04-01.parquet",
+      "sha256": "666918128c2b416442514ec0b63195ca0dd33fea496f2e550776e7a12dabb0ef"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-04-01_2020-05-01.parquet",
+      "sha256": "b3d1b3bba69a481848543301795db9dbecb53a385475940b58ba48e61d595b06"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-05-01_2020-06-01.parquet",
+      "sha256": "4fc8f9c65ca7543ca06fdf5fcc4c87ad90e25e22b82a603f8f05e87efad21aea"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-06-01_2020-07-01.parquet",
+      "sha256": "117a8da0abbf0608069e7b3eca6c08638678fad5bb04a7c1959db3b4d1502a7e"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-07-01_2020-08-01.parquet",
+      "sha256": "65e1e401335132874207808ff0a3528a0cce05b08c692bcb6d34d52ec1cbd1ec"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-08-01_2020-09-01.parquet",
+      "sha256": "4cfa3b3db243ea5f40f059785adc22185deb7462d2a2e5e44e4dea615cbeb359"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-09-01_2020-10-01.parquet",
+      "sha256": "45b91146605317a5aa779b2cea1bc55486cf994f22fc38de9e69e9527e81aeec"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-10-01_2020-11-01.parquet",
+      "sha256": "75805905b6cf1055589e9d8804c45f2c8e86f9efe5f355c1a943ccb80da508b1"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-11-01_2020-12-01.parquet",
+      "sha256": "08434212a0755294995073d288a1b4b8f4dabae7709687ac4f9a5c6d6613fe31"
+    },
+    {
+      "path": "data/paper_study/climate/era5_daily/2020-12-01_2021-01-01.parquet",
+      "sha256": "6237dd3cfb131fca69c2fe48a15a12c49c6f143958bc78ec353e217c7ff859c0"
+    }
+  ],
+  "model_forcing": [
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1991.parquet",
+      "sha256": "a74f39c08cd8beed8f634e6ffbb37dd5dff73fe66603e3087fac37e8aeed6455"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1992.parquet",
+      "sha256": "effc312718cc6d44b1d9207805a56cfd04b502123a842e47e17d46dc30d9e828"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1993.parquet",
+      "sha256": "797ee60384030f1288f3e685f90ba84a5972ef76ae92e4f1ea080c012bf231f3"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1994.parquet",
+      "sha256": "f1eeacff0d65ce4789c00382ea89f171631ffaff1f7ba4b4fa1df600ce352b3d"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1995.parquet",
+      "sha256": "e143b0bffc7ad3432245591bc546296b9e879d7ff5883c280bec4e3c99aed369"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1996.parquet",
+      "sha256": "00100a4a2c082ee82bf026aab55845fc05e92fbb1b0f43dded922b4794835069"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1997.parquet",
+      "sha256": "bd0c9185c55a649c4ad2a009f632dce70e1f587218a0d2deae1215b6ad2dc9e5"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1998.parquet",
+      "sha256": "40d68bad603c37e2d6d8cc6fb9e751e05426e1fb084a4f8bb92648c8d6616c02"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1999.parquet",
+      "sha256": "cedc52322b6b17a4efba2c974b5fb86655f6fc2affd9949196d14ec1b5f6e715"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2000.parquet",
+      "sha256": "31fbceac55bf357e7290d89c5512ba6faf13c03bffe029d26c551f2cbab2a37a"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2001.parquet",
+      "sha256": "a47b8aa747cdc941481191cd01f1657441569f206b0dcaf50c7f0cdbe5ba80fe"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2002.parquet",
+      "sha256": "3548fac1e8118df7fc69549278ebe78bb09bffe2549f94d1fdaea20288f459cc"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2003.parquet",
+      "sha256": "30ab47d05d8d26ef147f3f89a55dc37fccdcf24adf4dacb0a89486df8b265eb1"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2004.parquet",
+      "sha256": "0305786e8b86e18efd5e2ea2701f2e3cf1f70b36c37f01ee57a20a2ce2ebc75a"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2005.parquet",
+      "sha256": "f2d675c09ac5e9e938f3615bf3a57983affd5f874ef8dbe109fe4a33f2171938"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2006.parquet",
+      "sha256": "97819f4f7b615e555751280d38694304714576fdb261355f0090dd939a33a95f"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2007.parquet",
+      "sha256": "9c0e11e3eba6c534dcf6610403a06c2c38d5a7a0e25faed16c17eaad309547cd"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2008.parquet",
+      "sha256": "b71fa989531eb9d939e40d3ee3102213aea87aa6d2dd9d465fdcaba53fb6fe54"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2009.parquet",
+      "sha256": "d8ddfc69c51b0b058e2701b6ae68d78cca76fea761a508223a78d8363e2c2ddf"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2010.parquet",
+      "sha256": "259740a9551577fe559057cb4a24575072bc9cc34b341c786a98f7e0a804f07d"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2011.parquet",
+      "sha256": "fb8ede051217e36ae54f12c6d33bc2f026f58014d269ca352bc637ff292de307"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2012.parquet",
+      "sha256": "33f1c6179927055750be4daec295cc7a6c36f7f1e4122bd1403b459665a7088e"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2013.parquet",
+      "sha256": "8107a49bac14bb1d79d0fa625a37b460be0fdb0848c73587fb380ac1a0c62aea"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2014.parquet",
+      "sha256": "d76bce5e49e4a1c05d519b80345b7b40bdcd237e952bbc8936b920bc09265533"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2015.parquet",
+      "sha256": "f5a5b3b8fd4a119da3656015ed1267d868996e1b99620fde8612320f4340964b"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2016.parquet",
+      "sha256": "0ce48a6ad711c0ec6ea1bd04f10bb9ba68c93565b40402118ef7aa9d84d85ede"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2017.parquet",
+      "sha256": "6d83761016ac1c6bd9826ac45733526ee5eb4167983aa2806bb113dcefb87e45"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2018.parquet",
+      "sha256": "fe232b2b8f017e427c87427da44e6ad35d851c904d134f8cac514a9e09d429c5"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2019.parquet",
+      "sha256": "f9e3a0b242e670f26c0c92e125762f38619e5a93b39c475e72634035d04d855f"
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2020.parquet",
+      "sha256": "f85bd899f4a88c637ba060fe7dcd2c32141d8f067b0326ee067b3d82ab66c394"
+    }
+  ],
+  "coefficient_sha256": "ba1699f4a28d8a02e11fb27f0d32454ab57059164de5b1b46a0a49635ea67bea",
+  "algorithm_sha256": "c1e11484ac8de0b57eb2db9da56ca16509aa55e07533d6e6997f54afd0410645",
+  "humidity_logit_bound_percent": [
+    0.1,
+    99.9
+  ],
+  "temperature_correction_applies_to_mean_and_maximum": true,
+  "wet_day_frequency_corrected": false,
+  "distribution_tails_corrected": false,
+  "coefficient_ranges": {
+    "temperature_offset": [
+      -6.635448947428696,
+      6.508883699294059
+    ],
+    "humidity_logit_offset": [
+      -1.468295398837939,
+      1.662364146114436
+    ],
+    "precipitation_ratio": [
+      0.012615863663229008,
+      79.39647156511734
+    ]
+  }
+}

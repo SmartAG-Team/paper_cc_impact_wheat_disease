@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "all2019_fields": 45,
+  "all2019_source_sites": 36,
+  "F1_fields": 33,
+  "source_F1_records": 70,
+  "status_counts": {
+    "F1_positive_at_first_assessment": 27,
+    "no_qualified_F1_observation": 12,
+    "two_sided_F1_onset": 4,
+    "no_positive_F1_assessment": 2
+  },
+  "same_F1_record_identities_in_map_ledger_and_original_evaluation": true,
+  "eligible_by_observations_only": true,
+  "original_predictions_unchanged": true,
+  "map_scope": "all128 original source locations across2014\u20132019",
+  "applicable_tests_passed": 11
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "source_root": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease",
+  "source_package": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/paper",
+  "output": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/reproductions/complete_reproduction_20261024",
+  "generated_package": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/reproductions/complete_reproduction_20261024/package",
+  "stages": [
+    "inputs",
+    "monitoring",
+    "process",
+    "climate",
+    "attribution",
+    "exposure",
+    "climate-response",
+    "adaptation",
+    "yield",
+    "endpoints",
+    "figures",
+    "documents",
+    "audit",
+    "validate"
+  ],
+  "dependencies": {
+    "inputs": [],
+    "monitoring": [
+      "inputs"
+    ],
+    "process": [
+      "inputs"
+    ],
+    "climate": [
+      "inputs"
+    ],
+    "attribution": [
+      "inputs"
+    ],
+    "exposure": [
+      "climate"
+    ],
+    "climate-response": [
+      "climate"
+    ],
+    "adaptation": [
+      "attribution"
+    ],
+    "yield": [
+      "inputs"
+    ],
+    "endpoints": [
+      "inputs"
+    ],
+    "figures": [
+      "monitoring",
+      "process",
+      "exposure",
+      "climate-response",
+      "adaptation",
+      "yield"
+    ],
+    "documents": [
+      "figures"
+    ],
+    "audit": [
+      "figures"
+    ],
+    "validate": [
+      "documents",
+      "audit",
+      "endpoints"
+    ]
+  },
+  "continental_census": "retained paired continental census",
+  "sampled_experiments": "recomputed from retained corner/season-option records",
+  "actual_model_replays": [
+    "20 monitoring folds",
+    "115 F1 records",
+    "55 onset histories",
+    "62-cell climate sample"
+  ],
+  "climate_analysis_source": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/final_study/evidence/full_grid_climate/results",
+  "bootstrap_replicates": 500,
+  "original_inputs_modified": false
+}

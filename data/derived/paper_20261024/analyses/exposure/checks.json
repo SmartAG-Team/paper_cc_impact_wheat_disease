@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "recalculated_rows": 43680,
+  "census": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/final_study/evidence/full_grid_climate/results/full_grid_paired_changes_by_gcm.parquet",
+  "fixed_production": true,
+  "grain_loss_estimated": false,
+  "maximum_mass_balance_error_tonnes": 5.960464477539063e-08
+}

@@ -4,11 +4,11 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from calibration.seasonal_septoria.field_data import FieldData
-from model.seasonal_septoria.wetness import duration_exposure
+from models.calibration.seasonal_septoria.field_data import FieldData
+from models.seasonal_septoria.wetness import duration_exposure
 
-from model.seasonal_septoria.structural import CanopyParameters, canopy_host, simulate_canopy
-from calibration.seasonal_septoria.structural import fit_canopy, predict_canopy
+from models.seasonal_septoria.structural import CanopyParameters, canopy_host, simulate_canopy
+from models.calibration.seasonal_septoria.structural import fit_canopy, predict_canopy
 
 
 def forcing(days=100):

@@ -1,0 +1,35 @@
+{
+  "registered_utc": "2026-10-22T03:03:43.193461+00:00",
+  "source_sha256": {
+    "data/disease_improvement/station_preferred_augmented_20261022/daily_weather.parquet": "e11d5e40409f70ec0a8d1e6ca6fb75717a2fdf3db46f80ec42cfae68831f71eb",
+    "data/disease_improvement/station_preferred_augmented_20261022/manifest.json": "535754ed143b9581c3e8aecb66ad57847293a19d523360f4132fe47deed43ce9",
+    "outputs/disease_improvement/station_candidate_20261022_v2/predictors.npz": "a20fd874768b64643e94b3467749ee91ff04e085288ce3d68e59453e4f0ea1e4",
+    "outputs/disease_improvement/station_candidate_20261022_v2/training_observation_ledger.csv": "3f7702331f878f5fbe0adc5565f7b62c6f6fb158d5f8e98024aa10190ce37a36",
+    "outputs/disease_improvement/quality_weather_20261021_v2/field_metadata_ledger.csv": "65f9f63b77a04ef62949de94cba8e1f80d2cd36aa0892ba1e73076210a9f9c4c",
+    "outputs/disease_improvement/quality_weather_20261021_v2/history_provenance.json": "f141849e215f358764dc983f18c90649c1ccb4b87ec93ffa73f0a0ec2bb33750",
+    "outputs/disease_improvement/quality_weather_20261021_v2/feature_schema.json": "209f972395d14426a1df3876e1f5a4e3fe0de0d7b874424bbb350123ec258c06",
+    "outputs/raw_metadata_recovery_20261022/stage_calendar.csv": "b58a7565b164372eddbf3230f2aa27b5adca09c3f181333cf71b422cfb85a122",
+    "outputs/weather_validation_20261022/knmi_season_qualification/manifest.json": "ab1b42bd32f84731c798e954bbf9269946dc2a325732f6ffaf26edaeef318d1e",
+    "outputs/weather_validation_20261022/knmi_season_qualification/qualification_status.json": "544712c47a1630d9e190fe40e40090d827288fc04fd3596496e84fe3b6fc6cf2",
+    "outputs/weather_validation_20261022/knmi_season_qualification/qualified_selected_daily_precipitation.parquet": "91bf356fcf78b1d2d884b66d85f5160adf15df1ec9ef24e0221a5444d491f35a",
+    "outputs/weather_validation_20261022/knmi_season_qualification/project_season_periods.csv": "581175409bb23a1aeec456b8f36b0220f7cfaf7305ee63ebfee98761e97d41f5",
+    "outputs/weather_validation_20261022/knmi_season_qualification/qualification_policy.json": "eb4d91edd92a73dedee68734c767bda566e09e1d6b7860a1b3c4e2b0756b33b2",
+    "outputs/weather_validation_20261022/knmi_season_qualification/verification_receipt.json": "67779cfb7dfed60cd67d8c5e3a2ae0f896eda1c56831ca580e1363a7a06a8428"
+  },
+  "code_sha256": {
+    "analysis/disease_improvement/repairs.py": "d41ce5eaea855b380ac3836e2da4d3c0575e5e14e733784565d4db4d979406bd",
+    "analysis/disease_improvement/features.py": "166d87abb6cbc17f4b23c22e1e86584fddabeb095def0ab9ec13708ab525b4a4",
+    "analysis/disease_improvement/stage_features.py": "517b98e054bd76587a935302af3a8b4b7918e29794c183a09ea5eba6835595b9",
+    "analysis/disease_improvement/stage_experiment.py": "d01395e149b2482b1f1ef93579c9f1d592cdb815e742177b0c897b3649b2970c",
+    "model/seasonal_septoria/core.py": "8a3586e61c20967280650f950b32a78664b09ad46a188de8a300e8fc22b8a65d",
+    "model/seasonal_septoria/wetness.py": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6"
+  },
+  "policy": "QualifiedKNMI rain-only addition; no outcome-based selection; existing hybrid phase policy; no T/RH replacement; strictly before each assessment",
+  "model_fitting": false,
+  "external_disease_outcomes": false,
+  "blend_process_component_unchanged": true,
+  "history_arrays_unchanged": true,
+  "observations_unchanged": true,
+  "station_design_patched_only_NL": true,
+  "station_feature_source": "OriginalNL observations with source-native recorded codes and existing earlier-only stage/history provenance"
+}

@@ -1,0 +1,27 @@
+{
+  "diagnostics": [
+    {
+      "evaluation": "temporal",
+      "severe_rows": 286,
+      "first_visit_severe_rows": 13,
+      "first_visit_fraction_of_severe_original_mass": 0.1286828181565024,
+      "first_visit_fraction_of_severe_squared_error": 0.4146485755463893,
+      "first_visit_severe_fraction_of_overall_squared_error": 0.140644391216627,
+      "severe_with_two_earlier_nativecode_dates": 226,
+      "weights_exact_roundtrip": true
+    },
+    {
+      "evaluation": "spatial_50km",
+      "severe_rows": 286,
+      "first_visit_severe_rows": 13,
+      "first_visit_fraction_of_severe_original_mass": 0.1286828181565024,
+      "first_visit_fraction_of_severe_squared_error": 0.4126350567182162,
+      "first_visit_severe_fraction_of_overall_squared_error": 0.13827876402631153,
+      "severe_with_two_earlier_nativecode_dates": 226,
+      "weights_exact_roundtrip": true
+    }
+  ],
+  "interpretation": "These decompositions use held-out outcome labels for diagnosis only. Forecast bins are close to calibrated at extremes; outcome-defined severe bias does not identify missing cultivar, weather error, or another causal mechanism.",
+  "no_further_candidates": true,
+  "decision": "Retain restored discrepancy_logit baseline; neither candidate improves overall and severe performance in both designs."
+}

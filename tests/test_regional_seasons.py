@@ -5,13 +5,13 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from model.seasonal_septoria.core import Parameters, simulate_season
-from model.seasonal_septoria.host import cohort_inputs
-from model.seasonal_septoria.regional import tpv_accumulation, simulate_grid_seasons
-from process_model.calibrate import transform
+from models.seasonal_septoria.core import Parameters, simulate_season
+from models.seasonal_septoria.host import cohort_inputs
+from models.seasonal_septoria.regional import tpv_accumulation, simulate_grid_seasons
+from models.phenology.calibrate import transform
 
 ROOT = Path(__file__).resolve().parents[1]
-CAL = json.loads((ROOT/'process_model/parameters/calibration.json').read_text())
+CAL = json.loads((ROOT/'data/phenology_parameters/calibration.json').read_text())
 
 
 def test_vectorized_tpv_matches_copied_process_with_causal_gates():

@@ -1,0 +1,12 @@
+{
+  "monitoring": "data/derived/paper_20261024/analyses/monitoring/reference",
+  "chronology": "data/final_monitoring/cohort/training_observation_ledger.csv",
+  "attribution": "data/derived/paper_20261024/analyses/attribution",
+  "exposure": "data/derived/paper_20261024/analyses/exposure",
+  "climate_summary": "data/final_study/evidence/full_grid_climate/results/full_grid_ensemble_paired_changes.parquet",
+  "climate_members": "data/final_study/evidence/full_grid_climate/results/full_grid_paired_changes_by_gcm.parquet",
+  "climate_cells": "data/final_climate/cells.parquet",
+  "insights": "data/derived/paper_20261024/analyses/climate_response",
+  "adaptation": "data/derived/paper_20261024/analyses/adaptation",
+  "yield": "data/derived/paper_20261024/analyses/yield_context"
+}

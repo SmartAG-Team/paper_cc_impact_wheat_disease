@@ -7,7 +7,7 @@ import pytest
 
 def calibration():
     try:
-        return importlib.import_module('calibration.primary_secondary.calibrate')
+        return importlib.import_module('models.calibration.primary_secondary.calibrate')
     except ModuleNotFoundError:
         pytest.fail('Grouped calibration is not implemented')
 

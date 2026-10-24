@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "affected_query_rows": 56,
+  "station53_bit_identical": true,
+  "event15_bit_identical": true,
+  "history_events68_bit_identical": true,
+  "gate_completed_before_weather_replacement": true
+}

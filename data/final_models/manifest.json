@@ -1,0 +1,702 @@
+{
+  "schema": 1,
+  "mathematical_definitions": "Original nodes extracted without changing mathematical expressions",
+  "wrapper_changes": "Relative compact asset paths and dependency-only integrity checks; no historical archive runtime checks",
+  "original_canonical_source": {
+    "path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model",
+    "sha256": "6be5a4c25229636a58f2ba3c021f55bd6f90cd43fd05f95831766e5b66e61109"
+  },
+  "extracted_source_nodes": [
+    {
+      "original_path": "analysis/paper_study/phenology_transfer_20261010/wheat_transfer.py",
+      "original_file_sha256": "c19ba30a6e636d8487d2ad2a6d2a4ecc099ca95b51a349643eeb9df5b6d59a46",
+      "node": "STAGES",
+      "original_node_sha256": "8d1f2ae9ce6856f6bceb833741f48af82c97138ac8ce985b8cc0c7611db2b5ef",
+      "extracted_node_sha256": "8d1f2ae9ce6856f6bceb833741f48af82c97138ac8ce985b8cc0c7611db2b5ef",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_transfer_20261010/wheat_transfer.py",
+      "original_file_sha256": "c19ba30a6e636d8487d2ad2a6d2a4ecc099ca95b51a349643eeb9df5b6d59a46",
+      "node": "HORIZON",
+      "original_node_sha256": "f01d245336309921b036cbff4a26ce1402eb33330bdf2d9c0bb0aae8b6f0b12d",
+      "extracted_node_sha256": "f01d245336309921b036cbff4a26ce1402eb33330bdf2d9c0bb0aae8b6f0b12d",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_transfer_20261010/wheat_transfer.py",
+      "original_file_sha256": "c19ba30a6e636d8487d2ad2a6d2a4ecc099ca95b51a349643eeb9df5b6d59a46",
+      "node": "FEATURE_NAMES",
+      "original_node_sha256": "33737096a8d00a923a95104481375ae868034b0cb236a1c4631dcf1d027700f9",
+      "extracted_node_sha256": "33737096a8d00a923a95104481375ae868034b0cb236a1c4631dcf1d027700f9",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_transfer_20261010/wheat_transfer.py",
+      "original_file_sha256": "c19ba30a6e636d8487d2ad2a6d2a4ecc099ca95b51a349643eeb9df5b6d59a46",
+      "node": "build_features",
+      "original_node_sha256": "9729cdc96882ae384b7684e9e02288500efa125a331d2210d2e187392c1f1eaa",
+      "extracted_node_sha256": "9729cdc96882ae384b7684e9e02288500efa125a331d2210d2e187392c1f1eaa",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_transfer_20261010/wheat_transfer.py",
+      "original_file_sha256": "c19ba30a6e636d8487d2ad2a6d2a4ecc099ca95b51a349643eeb9df5b6d59a46",
+      "node": "ordered_stage_cdf",
+      "original_node_sha256": "3b8510ebccd03eba849aecb54db52507db3ae1505fcbe000007b573e93b00d50",
+      "extracted_node_sha256": "3b8510ebccd03eba849aecb54db52507db3ae1505fcbe000007b573e93b00d50",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_transfer_20261010/wheat_transfer.py",
+      "original_file_sha256": "c19ba30a6e636d8487d2ad2a6d2a4ecc099ca95b51a349643eeb9df5b6d59a46",
+      "node": "WheatPhenology",
+      "original_node_sha256": "10055d5eca2a9138556e1cc4750bb86f5a34007180ed105b1ed5b4026800216f",
+      "extracted_node_sha256": "10055d5eca2a9138556e1cc4750bb86f5a34007180ed105b1ed5b4026800216f",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_transfer_20261010/wheat_transfer.py",
+      "original_file_sha256": "c19ba30a6e636d8487d2ad2a6d2a4ecc099ca95b51a349643eeb9df5b6d59a46",
+      "node": "quantiles",
+      "original_node_sha256": "00f3f7b96133f8fe0604dee8c475e0bf241582e47f2bacada8bbba1a055b9f39",
+      "extracted_node_sha256": "00f3f7b96133f8fe0604dee8c475e0bf241582e47f2bacada8bbba1a055b9f39",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_transfer_20261010/wheat_transfer.py",
+      "original_file_sha256": "c19ba30a6e636d8487d2ad2a6d2a4ecc099ca95b51a349643eeb9df5b6d59a46",
+      "node": "predict_batches",
+      "original_node_sha256": "ea0efba20e4f73353b8958be52dedf9c545a83d5b67048d93d73bfb3fde48a27",
+      "extracted_node_sha256": "ea0efba20e4f73353b8958be52dedf9c545a83d5b67048d93d73bfb3fde48a27",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/residual.py",
+      "original_file_sha256": "69196776e3c067fe88af254413e69be0de38caabbde0d9a9de694ffe8a01ad53",
+      "node": "daily_features",
+      "original_node_sha256": "3d06e0b468308dacfd9a19899a8c7102dc15b9bbe9ef1ac0d4436a40031ff8cf",
+      "extracted_node_sha256": "3d06e0b468308dacfd9a19899a8c7102dc15b9bbe9ef1ac0d4436a40031ff8cf",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/residual.py",
+      "original_file_sha256": "69196776e3c067fe88af254413e69be0de38caabbde0d9a9de694ffe8a01ad53",
+      "node": "forward_project",
+      "original_node_sha256": "598a1d95587283069894bbd38a077edec8ea55ff194f0bf5149576f4c3dc10d7",
+      "extracted_node_sha256": "598a1d95587283069894bbd38a077edec8ea55ff194f0bf5149576f4c3dc10d7",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/round2.py",
+      "original_file_sha256": "316006f3ddb99dfb2505029f7f488d96e5d5406f1e3b3e21b0ebe13374377121",
+      "node": "correct",
+      "original_node_sha256": "0a4cffd1beb969c7ad5835a1a44dbb63f79423af10c9ddc2de00a290124f2a65",
+      "extracted_node_sha256": "0a4cffd1beb969c7ad5835a1a44dbb63f79423af10c9ddc2de00a290124f2a65",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/geo.py",
+      "original_file_sha256": "992ff8ae55041ef026ec0d2b7a6258842ad5be1d0723b8a67433f77356d8d2c3",
+      "node": "geo_features",
+      "original_node_sha256": "21f02fedeb1f87f061c277c3ad53a503b347fb975bfa87652fd0c5dccd8d8961",
+      "extracted_node_sha256": "21f02fedeb1f87f061c277c3ad53a503b347fb975bfa87652fd0c5dccd8d8961",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/geo.py",
+      "original_file_sha256": "992ff8ae55041ef026ec0d2b7a6258842ad5be1d0723b8a67433f77356d8d2c3",
+      "node": "couple",
+      "original_node_sha256": "e9ffb2733ce8ad2332c266b79587b4ff04d6e01cf3a82cb480a852a1e06a916b",
+      "extracted_node_sha256": "e9ffb2733ce8ad2332c266b79587b4ff04d6e01cf3a82cb480a852a1e06a916b",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/geo.py",
+      "original_file_sha256": "992ff8ae55041ef026ec0d2b7a6258842ad5be1d0723b8a67433f77356d8d2c3",
+      "node": "occupancy_prediction",
+      "original_node_sha256": "c83028af92c1dd784862c859af351d0d8a2e809d9eb275ec9ce7c48b7e688cb3",
+      "extracted_node_sha256": "c83028af92c1dd784862c859af351d0d8a2e809d9eb275ec9ce7c48b7e688cb3",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/temporal.py",
+      "original_file_sha256": "f30a19edd6d0b674adcf810e647fde076a745b8c811060bc3bf837d1346fcbb4",
+      "node": "epoch_features",
+      "original_node_sha256": "bf3c75d6a32538e42ceecb10e0a57946407e90d25848b8aece273420564b5919",
+      "extracted_node_sha256": "bf3c75d6a32538e42ceecb10e0a57946407e90d25848b8aece273420564b5919",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/temporal.py",
+      "original_file_sha256": "f30a19edd6d0b674adcf810e647fde076a745b8c811060bc3bf837d1346fcbb4",
+      "node": "epoch_basis",
+      "original_node_sha256": "8d4ffc35e960d906b3f0ca1f8055d6a6f8052366a7bb4cc87e64a56247593588",
+      "extracted_node_sha256": "8d4ffc35e960d906b3f0ca1f8055d6a6f8052366a7bb4cc87e64a56247593588",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/temporal.py",
+      "original_file_sha256": "f30a19edd6d0b674adcf810e647fde076a745b8c811060bc3bf837d1346fcbb4",
+      "node": "predict",
+      "original_node_sha256": "95c7f8a4a4c4005430e2bf9e6b124619096f58d4281b5d073989beaa89f74ee4",
+      "extracted_node_sha256": "c70fba7e71f37c2513322880b36431981e60fc3151d25a3c7cfdc34a4a0a073b",
+      "declaration_rename": "predict_heads"
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/phase_age.py",
+      "original_file_sha256": "e65c2dde2fd03af3b71fbacfa0cfd38f816c84a2ddedf76f2029799cddac869e",
+      "node": "age_features",
+      "original_node_sha256": "6e66cf0993959e1a48f88a6af447eeab4fb068d1176a4263cfc205046b862c9f",
+      "extracted_node_sha256": "6e66cf0993959e1a48f88a6af447eeab4fb068d1176a4263cfc205046b862c9f",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/adapter.py",
+      "original_file_sha256": "1056f0b4597feedd7e44712b4ec92f5aa1bf7234664e6387afd99596d7d890f1",
+      "node": "selected_cdf",
+      "original_node_sha256": "6f9a3f867d0da709687111fb71d9ed7c84cac7b70e7d4cbd88d275dc56569fcd",
+      "extracted_node_sha256": "6f9a3f867d0da709687111fb71d9ed7c84cac7b70e7d4cbd88d275dc56569fcd",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/phenology_residual_ml_20261012/phase_age_final.py",
+      "original_file_sha256": "d81b066c556f73ed35ab32c13337772ebf14729290037a9ddd2ed466de8c8e02",
+      "node": "apply",
+      "original_node_sha256": "fc797540dcf6930e421c29c777d3ed955b764aeba36472fbc225f686ed1ad402",
+      "extracted_node_sha256": "fc797540dcf6930e421c29c777d3ed955b764aeba36472fbc225f686ed1ad402",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/model.py",
+      "original_file_sha256": "e6d1b9dac4cee56563bbfd91bc56373c8fbc8fd253ade9a90942eb0c88cf0df2",
+      "node": "_float32_scope",
+      "original_node_sha256": "ace62451c7c2d0809dcd2be9857561fce3f8759d51069820ab931b1ac64242ad",
+      "extracted_node_sha256": "ace62451c7c2d0809dcd2be9857561fce3f8759d51069820ab931b1ac64242ad",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/model.py",
+      "original_file_sha256": "e6d1b9dac4cee56563bbfd91bc56373c8fbc8fd253ade9a90942eb0c88cf0df2",
+      "node": "pure_birth_distribution",
+      "original_node_sha256": "9cee41ff6ba5a821e1932b1e0e8985bc6e061476880ad9d71bb53c021f6f9e79",
+      "extracted_node_sha256": "9cee41ff6ba5a821e1932b1e0e8985bc6e061476880ad9d71bb53c021f6f9e79",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/model.py",
+      "original_file_sha256": "e6d1b9dac4cee56563bbfd91bc56373c8fbc8fd253ade9a90942eb0c88cf0df2",
+      "node": "gated_delta_reference",
+      "original_node_sha256": "377a795cadfc852293a5bfdb8d3990b22b2e4405495b3bdebee28526ce1274c8",
+      "extracted_node_sha256": "377a795cadfc852293a5bfdb8d3990b22b2e4405495b3bdebee28526ce1274c8",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/model.py",
+      "original_file_sha256": "e6d1b9dac4cee56563bbfd91bc56373c8fbc8fd253ade9a90942eb0c88cf0df2",
+      "node": "GatedDeltaBlock",
+      "original_node_sha256": "6ba1b3039c374857483a6bd158450f2f61d6f816d7a549128d33cd5bfbb5e2f2",
+      "extracted_node_sha256": "6ba1b3039c374857483a6bd158450f2f61d6f816d7a549128d33cd5bfbb5e2f2",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/seasonal_model.py",
+      "original_file_sha256": "2fce4d9f4fb755868efe48c5006b0a4daa424b073130be1cddc8f9a2155aa515",
+      "node": "SeasonalConfig",
+      "original_node_sha256": "ab0776989eee972c25a6b41a18b122228bb78010292427ae4fbe3a846011c920",
+      "extracted_node_sha256": "ab0776989eee972c25a6b41a18b122228bb78010292427ae4fbe3a846011c920",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/seasonal_model.py",
+      "original_file_sha256": "2fce4d9f4fb755868efe48c5006b0a4daa424b073130be1cddc8f9a2155aa515",
+      "node": "_future_mask",
+      "original_node_sha256": "3ac3b23e078853e3a5cec409d502fa731a340c614468e13d612631da0680225f",
+      "extracted_node_sha256": "3ac3b23e078853e3a5cec409d502fa731a340c614468e13d612631da0680225f",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/seasonal_model.py",
+      "original_file_sha256": "2fce4d9f4fb755868efe48c5006b0a4daa424b073130be1cddc8f9a2155aa515",
+      "node": "_position",
+      "original_node_sha256": "a24b3e8713801ffd43459bd27666a350cbcd5741fd13de71674ea3d45fc3ff56",
+      "extracted_node_sha256": "a24b3e8713801ffd43459bd27666a350cbcd5741fd13de71674ea3d45fc3ff56",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/seasonal_model.py",
+      "original_file_sha256": "2fce4d9f4fb755868efe48c5006b0a4daa424b073130be1cddc8f9a2155aa515",
+      "node": "SeasonalPhenformer",
+      "original_node_sha256": "d61aa95d40be115c3aa88d97128718299a2b85f665e23758f7750cabbf81e3eb",
+      "extracted_node_sha256": "d61aa95d40be115c3aa88d97128718299a2b85f665e23758f7750cabbf81e3eb",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/ablation_model.py",
+      "original_file_sha256": "a4136028b0e11f4210bfc67ef3aca6ccca04c978ff8771a279ee6eff85be9633",
+      "node": "AblationConfig",
+      "original_node_sha256": "00a671aa7665d08c7d8509e562f1b450827da6c06818d9a724f73eb642aaf775",
+      "extracted_node_sha256": "00a671aa7665d08c7d8509e562f1b450827da6c06818d9a724f73eb642aaf775",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/ablation_model.py",
+      "original_file_sha256": "a4136028b0e11f4210bfc67ef3aca6ccca04c978ff8771a279ee6eff85be9633",
+      "node": "point_stage",
+      "original_node_sha256": "3fa5dca1314fb8ad1fe2129f3a3e80133b1c30aa6764d4599d6cb69e9eb080ff",
+      "extracted_node_sha256": "3fa5dca1314fb8ad1fe2129f3a3e80133b1c30aa6764d4599d6cb69e9eb080ff",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "/Users/gangzhao/Documents/workspace/AGC-Transformer/dl_model/phenology/ablation_model.py",
+      "original_file_sha256": "a4136028b0e11f4210bfc67ef3aca6ccca04c978ff8771a279ee6eff85be9633",
+      "node": "ProcessResidualPhenformer",
+      "original_node_sha256": "457dc1192f908d01772c0b30c142a165b16e4183b715d4fc171d12d8cb2b8edc",
+      "extracted_node_sha256": "457dc1192f908d01772c0b30c142a165b16e4183b715d4fc171d12d8cb2b8edc",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "HORIZON",
+      "original_node_sha256": "f01d245336309921b036cbff4a26ce1402eb33330bdf2d9c0bb0aae8b6f0b12d",
+      "extracted_node_sha256": "f01d245336309921b036cbff4a26ce1402eb33330bdf2d9c0bb0aae8b6f0b12d",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "STAGES",
+      "original_node_sha256": "8d1f2ae9ce6856f6bceb833741f48af82c97138ac8ce985b8cc0c7611db2b5ef",
+      "extracted_node_sha256": "8d1f2ae9ce6856f6bceb833741f48af82c97138ac8ce985b8cc0c7611db2b5ef",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "PROTOCOL",
+      "original_node_sha256": "1b8bf307b2a5148d1acf0b83c45388337087b8fefb4717d591d6485fd162e6c3",
+      "extracted_node_sha256": "1b8bf307b2a5148d1acf0b83c45388337087b8fefb4717d591d6485fd162e6c3",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "FEATURE_NAMES",
+      "original_node_sha256": "8ae976d7ed8d988329554eadfd90e702fab81bf9946ba9a122a7ba04c54583b3",
+      "extracted_node_sha256": "8ae976d7ed8d988329554eadfd90e702fab81bf9946ba9a122a7ba04c54583b3",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "_indices",
+      "original_node_sha256": "009038203ceb3c8eed25d86661b8bb147b9f79d2700a91439b5f89b1dfdc3427",
+      "extracted_node_sha256": "009038203ceb3c8eed25d86661b8bb147b9f79d2700a91439b5f89b1dfdc3427",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "_thresholds",
+      "original_node_sha256": "01bb4614eec90fa2c69eaa77f68f781d0a7fbbaed6d29c3eff16983d945752b6",
+      "extracted_node_sha256": "01bb4614eec90fa2c69eaa77f68f781d0a7fbbaed6d29c3eff16983d945752b6",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "_select_inputs",
+      "original_node_sha256": "08fbc0bca2e1af122f900bb84f6d58fb3bbfa40ba8c97a89c386104e71a01b9e",
+      "extracted_node_sha256": "08fbc0bca2e1af122f900bb84f6d58fb3bbfa40ba8c97a89c386104e71a01b9e",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "_transform",
+      "original_node_sha256": "f670f4bda27192b1cf7d85c0a4a538fda9d5db6e193c2b26ca22efff1591c07e",
+      "extracted_node_sha256": "f670f4bda27192b1cf7d85c0a4a538fda9d5db6e193c2b26ca22efff1591c07e",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "_validate_preprocessing",
+      "original_node_sha256": "c55e2099761ccbf84fc22ba0935b4769720a4a6783b8b677f96f27fb20ba195a",
+      "extracted_node_sha256": "c55e2099761ccbf84fc22ba0935b4769720a4a6783b8b677f96f27fb20ba195a",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "_supervision",
+      "original_node_sha256": "358aa083f711c72268a755e6f339fbd48fff168ffa54ce44c7392b57d7424a3f",
+      "extracted_node_sha256": "358aa083f711c72268a755e6f339fbd48fff168ffa54ce44c7392b57d7424a3f",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "input_batch",
+      "original_node_sha256": "c62929265c1b9202906f781a032de740053c9d1f11b3d6f6f4c580ab0d1ead93",
+      "extracted_node_sha256": "c62929265c1b9202906f781a032de740053c9d1f11b3d6f6f4c580ab0d1ead93",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/adapter.py",
+      "original_file_sha256": "0c3b8a8e77d8c851f0af13ece0093870d182f7c6fb3187ba823b80ede16fc382",
+      "node": "make_model",
+      "original_node_sha256": "ba03a59a938a5cd513eedd74ae822ad38a4815de05630aa664989fc3bacc229e",
+      "extracted_node_sha256": "ba03a59a938a5cd513eedd74ae822ad38a4815de05630aa664989fc3bacc229e",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/agc_wheat_backbone_20261012/calibration.py",
+      "original_file_sha256": "06e4de5b39151c1ef11900854c9525035eec3fd2ff73ee27ce40f216b4883c4e",
+      "node": "cdf_from_members",
+      "original_node_sha256": "efec1582a6e20a2374654489c146c8377e353c7d380be38d34ff94dafd7a62c3",
+      "extracted_node_sha256": "efec1582a6e20a2374654489c146c8377e353c7d380be38d34ff94dafd7a62c3",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/history.py",
+      "original_file_sha256": "6c8b7f0995fd0e751e745769214fcf87a743a67f53ff3cde23367af8081f6f1f",
+      "node": "NAMES",
+      "original_node_sha256": "919cc498c5e06fa5470cba42fa7959835fb8f3e0c097566c87d7ec9a1a7faad6",
+      "extracted_node_sha256": "919cc498c5e06fa5470cba42fa7959835fb8f3e0c097566c87d7ec9a1a7faad6",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/history.py",
+      "original_file_sha256": "6c8b7f0995fd0e751e745769214fcf87a743a67f53ff3cde23367af8081f6f1f",
+      "node": "KEYS",
+      "original_node_sha256": "a291f6e1edc120dd6dfa6c34a0c6e3ad52ff293f74d4b9c3b358c08b26bb1119",
+      "extracted_node_sha256": "a291f6e1edc120dd6dfa6c34a0c6e3ad52ff293f74d4b9c3b358c08b26bb1119",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/history.py",
+      "original_file_sha256": "6c8b7f0995fd0e751e745769214fcf87a743a67f53ff3cde23367af8081f6f1f",
+      "node": "design_for_queries",
+      "original_node_sha256": "cab50182af6d2ce0b17302e87c6e1882dd0b27dc59e237da8422141124da591d",
+      "extracted_node_sha256": "cab50182af6d2ce0b17302e87c6e1882dd0b27dc59e237da8422141124da591d",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/models.py",
+      "original_file_sha256": "4c7b70219a6da3db67224e54a42a42e7b23667c69c1c61d88dd1b08a71f4b92a",
+      "node": "state",
+      "original_node_sha256": "8e1988fcd8242c9d4070fdf73a2a0e804435ed5c4f4dcb5bf9abf73ff687d2c8",
+      "extracted_node_sha256": "8e1988fcd8242c9d4070fdf73a2a0e804435ed5c4f4dcb5bf9abf73ff687d2c8",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/models.py",
+      "original_file_sha256": "4c7b70219a6da3db67224e54a42a42e7b23667c69c1c61d88dd1b08a71f4b92a",
+      "node": "predict",
+      "original_node_sha256": "d1f589020019bcd4d9d4a0f73330f401aac20570158f2a9b0a9ecc70a98854e4",
+      "extracted_node_sha256": "d1f589020019bcd4d9d4a0f73330f401aac20570158f2a9b0a9ecc70a98854e4",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/api.py",
+      "original_file_sha256": "1081ea615168bad522ed51c7c06a3fbdbbbfe77b6f39b390e277af0c72a714f7",
+      "node": "daily_dates",
+      "original_node_sha256": "847cb887c1926e5258834e9e49ffc2ae6626b534890a8ae7bb483f17f6847803",
+      "extracted_node_sha256": "847cb887c1926e5258834e9e49ffc2ae6626b534890a8ae7bb483f17f6847803",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/api.py",
+      "original_file_sha256": "1081ea615168bad522ed51c7c06a3fbdbbbfe77b6f39b390e277af0c72a714f7",
+      "node": "history_for_queries",
+      "original_node_sha256": "3c59ee9bc8be0261497d960fc6c7b251351b7573f3658c5c1b35c49166d622cc",
+      "extracted_node_sha256": "3c59ee9bc8be0261497d960fc6c7b251351b7573f3658c5c1b35c49166d622cc",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/api.py",
+      "original_file_sha256": "1081ea615168bad522ed51c7c06a3fbdbbbfe77b6f39b390e277af0c72a714f7",
+      "node": "predict_queries",
+      "original_node_sha256": "cd5dd3d58a17f05b7785e5b8eafb603310c296e09ae55fc856fd31925129ff66",
+      "extracted_node_sha256": "efc46d5361c60ca3de1ac59c82eb448c62e4550ab85b3a4ff0c5996e9376f415",
+      "declaration_rename": "calibrated_predict"
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/production_api.py",
+      "original_file_sha256": "6d64bc44b02e6098207e8dc1645061e2df0f269ad957e118995cc085a69c76e3",
+      "node": "REQUIRED",
+      "original_node_sha256": "aa2ecfc0f5cd7d438b6892d16efe10b81596474ead57155867b64bcf0df8b588",
+      "extracted_node_sha256": "aa2ecfc0f5cd7d438b6892d16efe10b81596474ead57155867b64bcf0df8b588",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/production_api.py",
+      "original_file_sha256": "6d64bc44b02e6098207e8dc1645061e2df0f269ad957e118995cc085a69c76e3",
+      "node": "validate",
+      "original_node_sha256": "8a847d02b52ce83b7754e950c4b69849d122c9c4681522d97fc3d469de92b7d2",
+      "extracted_node_sha256": "8a847d02b52ce83b7754e950c4b69849d122c9c4681522d97fc3d469de92b7d2",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/production_api.py",
+      "original_file_sha256": "6d64bc44b02e6098207e8dc1645061e2df0f269ad957e118995cc085a69c76e3",
+      "node": "predict_queries",
+      "original_node_sha256": "99ceff5fe815e124b7ad32f372ede2f4ba6adfa433a17bf8add6a2d54ea7b299",
+      "extracted_node_sha256": "047091300f55a1538e783c506fe3385843b114363ea91b8842073228ae8a91f9",
+      "declaration_rename": "checked_predict"
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/monitoring_api.py",
+      "original_file_sha256": "78af7f9f9a6762eeafaf8e62129610a21c30f20f22a89fd989d57e5748f2b600",
+      "node": "integer_identities",
+      "original_node_sha256": "cb7000960fdf7594fc26ea73ebb44cc11d6b69e22a282e9d70f07bfd799a7ab7",
+      "extracted_node_sha256": "cb7000960fdf7594fc26ea73ebb44cc11d6b69e22a282e9d70f07bfd799a7ab7",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_coupled_ml_20261012/monitoring_api.py",
+      "original_file_sha256": "78af7f9f9a6762eeafaf8e62129610a21c30f20f22a89fd989d57e5748f2b600",
+      "node": "predict_queries",
+      "original_node_sha256": "920280afe285c93fed4c6b6f19246669416388ee18d5ea7cce418750edcaa8de",
+      "extracted_node_sha256": "920280afe285c93fed4c6b6f19246669416388ee18d5ea7cce418750edcaa8de",
+      "declaration_rename": null
+    },
+    {
+      "original_path": "analysis/paper_study/disease_residual_ml_20261011/features.py",
+      "original_file_sha256": "e90a2efe2eb412a779b5accfbac317be79b68e44e54a92de12281e479495c21f",
+      "node": "design",
+      "original_node_sha256": "ee8ef46f6194695795517613e7b694578979d70ce75929c84c61432b90dd5aa0",
+      "extracted_node_sha256": "1fd92f1e44a2545e2435238055beca207e4ee7910c11483d34502d0fdc9d2708",
+      "declaration_rename": "basic_design"
+    },
+    {
+      "original_path": "analysis/paper_study/disease_models_20261012/features.py",
+      "original_file_sha256": "76bef57ae2e0f752d318ed6a1dfebfbcb3f0eeb6293375f5a968b32267637473",
+      "node": "design",
+      "original_node_sha256": "5fa37d28784c5a960892c7b3a43d8387c330a772ee928e366de8338f572d65de",
+      "extracted_node_sha256": "5fa37d28784c5a960892c7b3a43d8387c330a772ee928e366de8338f572d65de",
+      "declaration_rename": null
+    }
+  ],
+  "files": [
+    {
+      "path": "models/learned/integrity.py",
+      "sha256": "627bdd556fa4336f03be69f5e2bb299a3fc582825f492659215b924669bb10ec",
+      "components": [
+        "phenology",
+        "agc",
+        "disease"
+      ],
+      "path_before_consolidation": "analysis/final_models/integrity.py"
+    },
+    {
+      "path": "models/learned/__init__.py",
+      "sha256": "972b25f22dcb2e58a4b062cb5a26288d7f542aed2384e0e3388f63272beade40",
+      "components": [
+        "phenology",
+        "agc",
+        "disease"
+      ],
+      "path_before_consolidation": "analysis/final_models/__init__.py"
+    },
+    {
+      "path": "models/learned/phenology.py",
+      "sha256": "a48c68800a1543feb44a856b85abd0158d9778190c74328f766544ce6d4d1065",
+      "components": [
+        "phenology"
+      ],
+      "path_before_consolidation": "analysis/final_models/phenology.py"
+    },
+    {
+      "path": "models/learned/phenology_math.py",
+      "sha256": "07f61477fcb0eaae966a6a909aa7860cb7d6287bebea385675386c06ac76467c",
+      "components": [
+        "phenology",
+        "agc"
+      ],
+      "path_before_consolidation": "analysis/final_models/phenology_math.py"
+    },
+    {
+      "path": "models/learned/agc.py",
+      "sha256": "b2723770f510d49e8bb5f1a9acb4641122dd419818d90ae794379eae2e1a0b75",
+      "components": [
+        "agc"
+      ],
+      "path_before_consolidation": "analysis/final_models/agc.py"
+    },
+    {
+      "path": "models/learned/agc_math.py",
+      "sha256": "3943bf23699b85b8e59182a52e6d049c0966ac1cebac72628a306f24bda4bc3c",
+      "components": [
+        "agc"
+      ],
+      "path_before_consolidation": "analysis/final_models/agc_math.py"
+    },
+    {
+      "path": "models/learned/agc_network.py",
+      "sha256": "1c3bdce60f27634d285f8543883870fece163a4362f6bf39f855e43f942e2a38",
+      "components": [
+        "agc"
+      ],
+      "path_before_consolidation": "analysis/final_models/agc_network.py"
+    },
+    {
+      "path": "models/learned/disease.py",
+      "sha256": "3b15b4605345d1ce7aab515b14e4c899555c8335af1c919c6f85e5740d12e9d5",
+      "components": [
+        "disease"
+      ],
+      "path_before_consolidation": "analysis/final_models/disease.py"
+    },
+    {
+      "path": "models/learned/disease_math.py",
+      "sha256": "bef16d236a7ab897eeb9bf046b23c5e8f3b528c942426c4e25d8d43d7e54fb70",
+      "components": [
+        "disease"
+      ],
+      "path_before_consolidation": "analysis/final_models/disease_math.py"
+    },
+    {
+      "path": "data/final_models/agc/preprocessing.json",
+      "sha256": "21e140c2918882f57722f8f8312d67d981eba8d9b53f2dce10182b9fe5032acf",
+      "components": [
+        "agc"
+      ],
+      "original_source": "analysis/paper_study/agc_wheat_backbone_20261012/preprocessing.json"
+    },
+    {
+      "path": "data/final_models/agc/seed17.pt",
+      "sha256": "94fdc4c16ffd7b061415dd8a45b36139d8367f94aae5595c7bc0ed5a62956d5c",
+      "components": [
+        "agc"
+      ],
+      "original_source": "analysis/paper_study/agc_wheat_backbone_20261012/fits/seed17/selected.pt"
+    },
+    {
+      "path": "data/final_models/agc/seed29.pt",
+      "sha256": "0f7210cb66d6f006ced502aa1c0560d0235122df8ffca9ce5a8d3c81ec0af4b0",
+      "components": [
+        "agc"
+      ],
+      "original_source": "analysis/paper_study/agc_wheat_backbone_20261012/fits/seed29/selected.pt"
+    },
+    {
+      "path": "data/final_models/agc/seed43.pt",
+      "sha256": "11a835df2420d1a3efb83e00c56a204db80c337fe25c949493be3fb34eec81da",
+      "components": [
+        "agc"
+      ],
+      "original_source": "analysis/paper_study/agc_wheat_backbone_20261012/fits/seed43/selected.pt"
+    },
+    {
+      "path": "data/final_models/agc/selection.json",
+      "sha256": "ae3fbd84a549a03ce94524eb256e77ff29960ad81fa719ada8a5733e1b0d7147",
+      "components": [
+        "agc"
+      ],
+      "original_source": null
+    },
+    {
+      "path": "data/final_models/current/base_ensemble.pt",
+      "sha256": "2fbe2ce59fb414168703a356046c16b90f2255ab4039b09fb0881df35ba88fe9",
+      "components": [
+        "phenology"
+      ],
+      "original_source": "analysis/paper_study/phenology_transfer_20261010/selected_wheat_ensemble.pt"
+    },
+    {
+      "path": "data/final_models/current/disease.joblib",
+      "sha256": "a64fa9b9207dca62ea145eb324f965ca89b6e2b30096cdfc882b58ffe3cdb662",
+      "components": [
+        "disease"
+      ],
+      "original_source": "analysis/paper_study/disease_coupled_ml_20261012/deployment/model.joblib"
+    },
+    {
+      "path": "data/final_models/current/disease_profile.json",
+      "sha256": "07f33132d1e2fb7a04b14d0b1c82f27da381814e84e5bde09228997198eccba9",
+      "components": [
+        "disease"
+      ],
+      "original_source": "analysis/paper_study/disease_coupled_ml_20261012/deployment/profile.json"
+    },
+    {
+      "path": "data/final_models/current/model_metadata.json",
+      "sha256": "9c1d138148eb1b7bfa85fe417c1445fbb1234325abd6039469760bc0bcc16a7a",
+      "components": [
+        "phenology",
+        "agc"
+      ],
+      "original_source": "analysis/paper_study/phenology_transfer_20261010/model_metadata.json"
+    },
+    {
+      "path": "data/final_models/current/model_registry.json",
+      "sha256": "ab8fc48165671f3f58f0835e391761d08e324b4770a477396e6b419c4564af63",
+      "components": [
+        "phenology"
+      ],
+      "original_source": null
+    },
+    {
+      "path": "data/final_models/current/phase_heads.joblib",
+      "sha256": "c7974c4f6a78d9bd531dee9260a671ac405e331893035e13ec29b4cf620ccabc",
+      "components": [
+        "phenology"
+      ],
+      "original_source": "analysis/paper_study/phenology_residual_ml_20261012/round5_phase_age/full/heads.joblib"
+    },
+    {
+      "path": "data/final_models/current/selection.json",
+      "sha256": "78f0158e59ce1376f02323ccc8ccf7235c1f1265c899508c4d50c3681a9cb805",
+      "components": [
+        "phenology"
+      ],
+      "original_source": null
+    },
+    {
+      "path": "models/learned/verify.py",
+      "sha256": "b18f50a4bd4d709d6ebb912a88352317afa56967b0830664d418f582f27c9689",
+      "components": [
+        "verification"
+      ],
+      "path_before_consolidation": "analysis/final_models/verify.py"
+    }
+  ],
+  "fixed_scientific_status": {
+    "current_phenology": "phase_stage_horizon_floor_e0.5_h0.75_t0.5",
+    "current_disease_rmse": 19.429610038771852,
+    "current_disease_integral_rmse": 494.7426005047292,
+    "agc_seeds": [
+      17,
+      29,
+      43
+    ],
+    "experimental_agc": true,
+    "agc_historical_calibration_adopted": false,
+    "agc_probability_residual_adopted": false,
+    "agc_future_guards_passed": 29,
+    "agc_future_guards_total": 36
+  },
+  "fixtures": [
+    {
+      "path": "data/final_models/verification/crop_queries.npz",
+      "sha256": "debb54adb343745a2141db0a5763fab8f5257b010a5f865f72bb742120a1c8fb"
+    },
+    {
+      "path": "data/final_models/verification/disease_queries.csv",
+      "sha256": "6b1da603bca846f1433cbecc4a5ae5198eb8d82f003b446640d3ce007510956e"
+    },
+    {
+      "path": "data/final_models/verification/disease_queries.npz",
+      "sha256": "4960fd3614ed78938510824a2558f38dbd6910c6412722d084953635234b6fbc"
+    }
+  ],
+  "weather_reference_scope": {
+    "original_source_same_batch": true,
+    "archive_neural_batch_max_difference": 1.4901161193847656e-07,
+    "archive_residual_tree_boundary_max_difference": 0.0020667165517807007,
+    "saved_study_metrics_use_archived_CDFs": true
+  }
+}

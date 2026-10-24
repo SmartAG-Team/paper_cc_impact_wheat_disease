@@ -1,0 +1,9 @@
+Endpoint,Weather endpoint,Weight population,Process RMSE,Mean RMSE,Records
+Severity,Through query day,F1 conditional,15.999,16.916,70
+Severity,Through query day,Parent-relative mass,16.426,16.263,70
+Severity,Through previous day,F1 conditional,16.392,16.916,70
+Severity,Through previous day,Parent-relative mass,16.813,16.263,70
+Window integral,Through query day,F1-window conditional,242.130,237.591,23
+Window integral,Through query day,Parent-window mass,206.565,222.812,23
+Window integral,Through previous day,F1-window conditional,247.984,237.591,23
+Window integral,Through previous day,Parent-window mass,211.639,222.812,23

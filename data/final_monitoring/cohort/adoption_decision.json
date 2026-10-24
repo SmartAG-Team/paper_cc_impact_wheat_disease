@@ -1,0 +1,67 @@
+{
+  "references": {
+    "history_interval": {
+      "promote": false,
+      "gates": {
+        "independent_validation": false,
+        "ten_percent_rmse_reduction": false,
+        "paired_interval_below_zero": false,
+        "subgroup_noninferiority": true,
+        "severe_bias_improves": true,
+        "integral_noninferiority": true,
+        "new_site_ten_percent_reduction": false
+      },
+      "subgroup_rmse_deltas": {
+        "cold": 0.012431826822876246,
+        "warm": -0.013584799040106788,
+        "BASF": -0.00029441471914815054,
+        "Corteva": 0.00033609928701849867
+      },
+      "severe_absolute_bias_change": -0.019016591821277018,
+      "new_site_rmse_ratio": 1.0003679332038067
+    },
+    "current": {
+      "promote": false,
+      "gates": {
+        "independent_validation": false,
+        "ten_percent_rmse_reduction": true,
+        "paired_interval_below_zero": true,
+        "subgroup_noninferiority": true,
+        "severe_bias_improves": true,
+        "integral_noninferiority": true,
+        "new_site_ten_percent_reduction": true
+      },
+      "subgroup_rmse_deltas": {
+        "cold": -2.0753220445186393,
+        "warm": -2.043178386958303,
+        "BASF": -1.8513918417918074,
+        "Corteva": -2.1850985808528876
+      },
+      "severe_absolute_bias_change": -7.153354414449527,
+      "new_site_rmse_ratio": 0.8832575421460912
+    },
+    "reference_replay": {
+      "promote": false,
+      "gates": {
+        "independent_validation": false,
+        "ten_percent_rmse_reduction": true,
+        "paired_interval_below_zero": true,
+        "subgroup_noninferiority": true,
+        "severe_bias_improves": true,
+        "integral_noninferiority": true,
+        "new_site_ten_percent_reduction": true
+      },
+      "subgroup_rmse_deltas": {
+        "cold": -2.5069552461782436,
+        "warm": -1.353477054656203,
+        "BASF": -3.4420952996690435,
+        "Corteva": -1.0404478112938342
+      },
+      "severe_absolute_bias_change": -5.250850756047527,
+      "new_site_rmse_ratio": 0.8966195547186175
+    }
+  },
+  "independent_external_validation": false,
+  "publication_model_promoted": false,
+  "qualified_station_weather_retained_independent_of_model_score": true
+}

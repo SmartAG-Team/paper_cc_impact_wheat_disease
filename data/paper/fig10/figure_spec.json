@@ -1,0 +1,19 @@
+{
+  "name": "complete_season_disease_heat_results",
+  "width_cm": 19.0,
+  "height_cm": 15.3,
+  "font_pt": 12,
+  "scenario": "ssp585",
+  "period": "2071-2100",
+  "support": "complete_season",
+  "source_files": {
+    "support_sensitivity_fixed_shifts.csv": "4be8fa12f2790f860bce85ef2202fa1dac134e393b6222613ed4d58683e85c96",
+    "support_sensitivity_same_policy.csv": "4df0e560277163906be54a014750676ae48d620a9d252d993744e456ce768a05"
+  },
+  "panels": {
+    "a": "fixed-shift own-window disease integral, sampled-design ensemble mean and three-GCM range",
+    "b": "regional policy, regional effects, and uniform plus14 disease–heat comparison on identical complete-season support"
+  },
+  "caption": "Sowing responses under SSP5–8.5, 2071–2100. (a) Fixed sowing shifts relative to unchanged sowing; lines connect tested options and shading spans three GCMs. (b) Regional disease–heat responses of the leave-one-GCM-out policy, its sampled-design aggregate (diamond), and uniform +14-day delay (open triangle). Points are equal-GCM means; bars show model minima–maxima, not confidence intervals. Own-window integrals are normalized symptom-tissue proxies; heat exposure counts GS65–85 days with Tmax >30°C. Complete-season support retains 1,902/1,920 draw-years per GCM, 62 cells and 99.64% design weight. This support sensitivity is post-audit; original common-calendar results remain in supplementary analyses. Bounded shifts establish neither agronomic nor yield optima.",
+  "qualification": "conditional sampled-design sensitivities; all original support analyses retained"
+}

@@ -1,0 +1,106 @@
+{
+  "scope": "Read-only final citation/reference audit; no publication edits.",
+  "counts": {
+    "bibliography_entries": 45,
+    "unique_doi_links": 37,
+    "journal_doi_metadata_verified": 33,
+    "duplicate_doi_links": 0,
+    "missing_author_year_reference_matches": 0
+  },
+  "findings": [
+    {
+      "line": 292,
+      "old": "Chen, T., Feike, T., Kage, H., Kersebaum, K., Piepho, H.,",
+      "new": "Chen, T.-W., Feike, T., Kage, H., Kersebaum, K.-C., Piepho, H.-P.,",
+      "reason": "Missing components of hyphenated given names Tsu-Wei Chen, Kurt-Christian Kersebaum and Hans-Peter Piepho.",
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/gcb.15073",
+        "https://api.crossref.org/works/10.1111/gcb.15073"
+      ]
+    },
+    {
+      "line": 300,
+      "old": "Henk, Daniel. A.,",
+      "new": "Henk, D. A.,",
+      "reason": "Normalize malformed mixed full-name/initial form to the initials used throughout this bibliography; Daniel A. Henk is the author. Crossref itself contains Daniel. A., so this is a propagated metadata punctuation defect.",
+      "sources": [
+        "https://www.nature.com/articles/nature10947",
+        "https://api.crossref.org/works/10.1038/nature10947"
+      ]
+    },
+    {
+      "line": 334,
+      "old": "Deswarte, J., Cohan, J.,",
+      "new": "Deswarte, J.-C., Cohan, J.-P.,",
+      "reason": "Missing components of Jean-Charles Deswarte and Jean-Pierre Cohan; Wiley How to cite gives both full initials.",
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/gcb.16662",
+        "https://api.crossref.org/works/10.1111/gcb.16662"
+      ]
+    }
+  ],
+  "reference_presence": "All45 sources appear in main manuscript or SI:44 have author/year citations, and Natural Earth is named in figure captions without a date. No unused source requiring deletion was identified.",
+  "citation_groups": "No malformed author-year groups identified; multi-year ARVALIS and Asseng citations are valid. Ordering within citation groups is a style choice under consistent free-format submission.",
+  "optional_repairs": [
+    {
+      "line": 296,
+      "old": "Deutscher Wetterdienst. (n.d.). Phasendefinitionen: Jahresmelder, Landwirtschaft, Kulturpflanzen. DWD Climate Data Center.",
+      "new": "Deutscher Wetterdienst. (n.d.). Phasendefinitionen: Jahresmelder, Landwirtschaft, Kulturpflanzen. DWD Climate Data Center. https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/recent/PH_Beschreibung_Phasendefinition_Jahresmelder_Landwirtschaft_Kulturpflanze.txt",
+      "reason": "Add retrievable original source URL; URL verified by HTTP read,72288bytes. No source identity change."
+    },
+    {
+      "line": 298,
+      "old": "European Environment Agency. (2016). Biogeographical regions, Europe 2016 (Version 1).",
+      "new": "European Environment Agency. (2016). Biogeographical regions, Europe 2016 (Version 1). https://sdi.eea.europa.eu/catalogue/idp/api/records/c6d27566-e699-4d58-a132-bbe3fe01491b",
+      "reason": "Add exact2016v1 official metadata URL. Avoid archived bib URL ending europe-2005."
+    },
+    {
+      "old": "Natural Earth outlines are geographic references.",
+      "new": "Natural Earth outlines are geographic references (Natural Earth, n.d.).",
+      "reason": "Optional formal citation crosslink in Figure2 caption; source already acknowledged by name."
+    }
+  ],
+  "recent_references": [
+    {
+      "key": "Bauer2026",
+      "year": 2026,
+      "date_published_online": "2026-03-11",
+      "journal": "Global Change Biology",
+      "volume": "32",
+      "article": "e70776",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.70776"
+    },
+    {
+      "key": "vanDenBosch2026",
+      "year": 2026,
+      "date_published_online_crossref": "2026-05-17",
+      "journal": "Plant Pathology",
+      "volume": "75",
+      "article": "e70157",
+      "url": "https://api.crossref.org/works/10.1111/ppa.70157"
+    }
+  ],
+  "cover_letter": {
+    "assessment": "Current2024,2024,2023 trio is factually valid. Refresh to two already-cited2026papers plus directly relevant GCB2024meta-analysis improves recency and demonstrates host-model validity and STB management context. This is editorial optimization, not a mandatory reference correction. No2025journalpaper exists in the45-reference bibliography;2025NASA/ARVALIS records are not journalpapers.",
+    "replacement": "Bauer et al. (2026), Rethinking model transferability: Validity domains as a new approach to delineate the limits of bloom date projections, Global Change Biology; van den Bosch et al. (2026), Septoria tritici blotch in commercial wheat crops in England: What determines disease severity?, Plant Pathology; Gallego-Tévar et al. (2024), Interactive effects of climate change and pathogens on plant performance: A global meta-analysis, Global Change Biology.",
+    "primary_sources": [
+      "https://onlinelibrary.wiley.com/doi/10.1111/gcb.70776",
+      "https://api.crossref.org/works/10.1111/ppa.70157",
+      "https://onlinelibrary.wiley.com/doi/10.1111/gcb.17535"
+    ]
+  },
+  "do_not_change": [
+    "Retain33journalissueyears,DOIs,titles,volumes,pages/article numbers:verified without disagreement. Online-firstyears differ for some older articles; issueyears used consistently are valid.",
+    "IFPRI2026 refers to2026updatedSPAMv2r2; original datasetregistration year2024 differs from issued/updated2026. Native Harvard page/API access was blocked. Do not classify2026 as definiteerror or change without checking version citation.",
+    "Holst2022 one-author dataset has corrupted source authorfield; retain correct Holst,N. rather than copying the malformed record.",
+    "No APA7 author-list expansion/reduction or chronological sorting required solely for initial free-format submission.",
+    "No new source added or existing reference removed during audit."
+  ],
+  "evidence_files": [
+    "/tmp/gcb_crossref_audit.json",
+    "/tmp/gcb_datacite_audit.json"
+  ],
+  "all_three_author_initial_corrections_applied": true,
+  "DWD_and_EEA_source_URLs_added": true,
+  "Natural_Earth_formal_caption_citation_added": true
+}

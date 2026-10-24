@@ -1,0 +1,372 @@
+{
+  "model": "discrepancy_logit",
+  "folds": [
+    {
+      "fold": "temporal2015",
+      "log_parameters": [
+        -1.1137198103538333,
+        1.3332849229764312,
+        1.9413744538133788,
+        1.5219594477753775
+      ],
+      "parameters": {
+        "shared_amplitude": 0.3283353414669609,
+        "same_code_amplitude": 3.7934842463117056,
+        "shared_timescale_days": 6.968322028426914,
+        "same_code_timescale_days": 4.581193014747113
+      },
+      "converged": true,
+      "objective": 0.045052658705458916,
+      "iterations": 12
+    },
+    {
+      "fold": "temporal2016",
+      "log_parameters": [
+        -1.6079618967528173,
+        -0.431538038030875,
+        3.2209438352421107,
+        1.7796200623712892
+      ],
+      "parameters": {
+        "shared_amplitude": 0.20029542110571466,
+        "same_code_amplitude": 0.6495093560113605,
+        "shared_timescale_days": 25.05175375455394,
+        "same_code_timescale_days": 5.927603870945774
+      },
+      "converged": true,
+      "objective": 0.02955297384753063,
+      "iterations": 10
+    },
+    {
+      "fold": "temporal2017",
+      "log_parameters": [
+        -1.7617689793535125,
+        -0.6848912268555369,
+        2.725106138488736,
+        1.4533193738629544
+      ],
+      "parameters": {
+        "shared_amplitude": 0.17174078904136983,
+        "same_code_amplitude": 0.5041450640363938,
+        "shared_timescale_days": 15.258033305514564,
+        "same_code_timescale_days": 4.277288898088614
+      },
+      "converged": true,
+      "objective": 0.02866796396656219,
+      "iterations": 11
+    },
+    {
+      "fold": "temporal2018",
+      "log_parameters": [
+        -1.1162907244442548,
+        -0.6741892374131113,
+        2.4665719717177135,
+        1.6339027304159728
+      ],
+      "parameters": {
+        "shared_amplitude": 0.3274923036644279,
+        "same_code_amplitude": 0.5095693929729017,
+        "shared_timescale_days": 11.781988555185402,
+        "same_code_timescale_days": 5.123832685590454
+      },
+      "converged": true,
+      "objective": 0.032432557415290525,
+      "iterations": 11
+    },
+    {
+      "fold": "temporal2019",
+      "log_parameters": [
+        -1.1717169274565562,
+        -0.5405294565951009,
+        2.3391436324997876,
+        1.405806001949726
+      ],
+      "parameters": {
+        "shared_amplitude": 0.3098345209367502,
+        "same_code_amplitude": 0.5824397941333174,
+        "shared_timescale_days": 10.372350214660425,
+        "same_code_timescale_days": 4.078812947933734
+      },
+      "converged": true,
+      "objective": 0.031100346056639243,
+      "iterations": 13
+    },
+    {
+      "fold": "spatial0",
+      "log_parameters": [
+        -1.5138238064259784,
+        0.7668916862690252,
+        1.795077210679153,
+        1.3171172599273857
+      ],
+      "parameters": {
+        "shared_amplitude": 0.22006687392668994,
+        "same_code_amplitude": 2.153063445295073,
+        "shared_timescale_days": 6.019939507481643,
+        "same_code_timescale_days": 3.7326456057844677
+      },
+      "converged": true,
+      "objective": 0.03514258773354571,
+      "iterations": 10
+    },
+    {
+      "fold": "spatial1",
+      "log_parameters": [
+        2.1843239674538064,
+        1.209852963876637,
+        1.8200801215246396,
+        2.1409421587979325
+      ],
+      "parameters": {
+        "shared_amplitude": 8.884640216736907,
+        "same_code_amplitude": 3.3529916054147137,
+        "shared_timescale_days": 6.172352968402942,
+        "same_code_timescale_days": 8.507449222329647
+      },
+      "converged": true,
+      "objective": 0.04217714981444579,
+      "iterations": 23
+    },
+    {
+      "fold": "spatial2",
+      "log_parameters": [
+        3.2127384160338357,
+        1.5985633258340097,
+        0.9716921233504746,
+        2.6608729997049285
+      ],
+      "parameters": {
+        "shared_amplitude": 24.84703466469617,
+        "same_code_amplitude": 4.94592163983099,
+        "shared_timescale_days": 2.6424119654908296,
+        "same_code_timescale_days": 14.308775204232552
+      },
+      "converged": true,
+      "objective": 0.0763096321046348,
+      "iterations": 20
+    },
+    {
+      "fold": "spatial3",
+      "log_parameters": [
+        -1.2460055420209009,
+        0.7404494412939997,
+        4.326583540719786,
+        1.5478048944159617
+      ],
+      "parameters": {
+        "shared_amplitude": 0.2876515169699787,
+        "same_code_amplitude": 2.0968777261826985,
+        "shared_timescale_days": 75.68526872046743,
+        "same_code_timescale_days": 4.701139350865359
+      },
+      "converged": true,
+      "objective": 0.028350668626167464,
+      "iterations": 17
+    },
+    {
+      "fold": "spatial4",
+      "log_parameters": [
+        -1.5057168085847312,
+        -0.9350637973314517,
+        3.933512085287711,
+        1.905413207488851
+      ],
+      "parameters": {
+        "shared_amplitude": 0.22185820695400355,
+        "same_code_amplitude": 0.3925608203998466,
+        "shared_timescale_days": 51.08608164663724,
+        "same_code_timescale_days": 6.722184710903618
+      },
+      "converged": true,
+      "objective": 0.03355368793972087,
+      "iterations": 10
+    },
+    {
+      "fold": "spatial5",
+      "log_parameters": [
+        -1.5033486473667326,
+        -1.5706088563350764,
+        3.317088553080919,
+        2.4894704356977044
+      ],
+      "parameters": {
+        "shared_amplitude": 0.22238422555820173,
+        "same_code_amplitude": 0.20791855128373776,
+        "shared_timescale_days": 27.579936034214924,
+        "same_code_timescale_days": 12.05489059009489
+      },
+      "converged": true,
+      "objective": 0.032778424711334436,
+      "iterations": 12
+    },
+    {
+      "fold": "spatial6",
+      "log_parameters": [
+        -1.3993423970005474,
+        -0.7592669057307436,
+        2.8885265927485713,
+        1.2605458897279835
+      ],
+      "parameters": {
+        "shared_amplitude": 0.24675918017584572,
+        "same_code_amplitude": 0.46800939628651933,
+        "shared_timescale_days": 17.966817650215468,
+        "same_code_timescale_days": 3.527346504117779
+      },
+      "converged": true,
+      "objective": 0.02675811168577651,
+      "iterations": 13
+    },
+    {
+      "fold": "spatial7",
+      "log_parameters": [
+        -1.4080765647124711,
+        0.48528815728517977,
+        3.3684270697730936,
+        1.131777421487341
+      ],
+      "parameters": {
+        "shared_amplitude": 0.2446133288658073,
+        "same_code_amplitude": 1.6246430941432903,
+        "shared_timescale_days": 29.032824516511024,
+        "same_code_timescale_days": 3.1011636793449315
+      },
+      "converged": true,
+      "objective": 0.032985883892006865,
+      "iterations": 17
+    },
+    {
+      "fold": "spatial8",
+      "log_parameters": [
+        -0.7571279477197965,
+        -1.0209649689384712,
+        2.6278342011974045,
+        1.830749750659791
+      ],
+      "parameters": {
+        "shared_amplitude": 0.4690115201022152,
+        "same_code_amplitude": 0.36024714508915573,
+        "shared_timescale_days": 13.843754623148708,
+        "same_code_timescale_days": 6.238562271713021
+      },
+      "converged": true,
+      "objective": 0.0370361413867046,
+      "iterations": 11
+    },
+    {
+      "fold": "spatial9",
+      "log_parameters": [
+        -0.87290261484635,
+        0.8816896563487248,
+        3.548239294846755,
+        1.26285923362818
+      ],
+      "parameters": {
+        "shared_amplitude": 0.41773725742418016,
+        "same_code_amplitude": 2.4149767418367127,
+        "shared_timescale_days": 34.75207543052408,
+        "same_code_timescale_days": 3.5355159153224913
+      },
+      "converged": true,
+      "objective": 0.032005167937175186,
+      "iterations": 21
+    },
+    {
+      "fold": "spatial10",
+      "log_parameters": [
+        0.570849244781004,
+        -0.6076876713688513,
+        1.8476865975556012,
+        1.4488001175058502
+      ],
+      "parameters": {
+        "shared_amplitude": 1.7697693808309944,
+        "same_code_amplitude": 0.5446087285776249,
+        "shared_timescale_days": 6.345123705795697,
+        "same_code_timescale_days": 4.258002346305814
+      },
+      "converged": true,
+      "objective": 0.030501215688493965,
+      "iterations": 13
+    },
+    {
+      "fold": "spatial11",
+      "log_parameters": [
+        -0.6773505578806998,
+        0.6832875021059738,
+        3.018784705588241,
+        1.2600471379079008
+      ],
+      "parameters": {
+        "shared_amplitude": 0.507961024444909,
+        "same_code_amplitude": 1.9803775376400978,
+        "shared_timescale_days": 20.466403858000614,
+        "same_code_timescale_days": 3.5255876722755386
+      },
+      "converged": true,
+      "objective": 0.034506433953448636,
+      "iterations": 22
+    },
+    {
+      "fold": "spatial12",
+      "log_parameters": [
+        -1.2776843343118653,
+        -0.8691812718984073,
+        2.90688938634506,
+        1.4170738826054863
+      ],
+      "parameters": {
+        "shared_amplitude": 0.2786818879263828,
+        "same_code_amplitude": 0.4192946971074436,
+        "shared_timescale_days": 18.299786376154504,
+        "same_code_timescale_days": 4.125032434255235
+      },
+      "converged": true,
+      "objective": 0.030179792938642182,
+      "iterations": 14
+    },
+    {
+      "fold": "spatial13",
+      "log_parameters": [
+        -0.6267781951047482,
+        -0.6254819655546836,
+        2.2751073935342574,
+        1.785578352161521
+      ],
+      "parameters": {
+        "shared_amplitude": 0.5343104750080507,
+        "same_code_amplitude": 0.5350035131058586,
+        "shared_timescale_days": 9.728963784263472,
+        "same_code_timescale_days": 5.963027680432798
+      },
+      "converged": true,
+      "objective": 0.03225384852781562,
+      "iterations": 10
+    },
+    {
+      "fold": "spatial14",
+      "log_parameters": [
+        -1.736103613597157,
+        -1.3368610795080818,
+        3.213564240364915,
+        1.8592149794503392
+      ],
+      "parameters": {
+        "shared_amplitude": 0.17620563001171138,
+        "same_code_amplitude": 0.2626688726252689,
+        "shared_timescale_days": 24.867562425472965,
+        "same_code_timescale_days": 6.418695984877334
+      },
+      "converged": true,
+      "objective": 0.031466229207154736,
+      "iterations": 9
+    }
+  ],
+  "unit_nugget": 1,
+  "endpoint_clip": 0.005,
+  "prior_mean": "50:50 fixedprocess/historybaseline",
+  "fitting": "Originalhierarchy-weightedprequentialMSE+1e-5logparametershrinkage",
+  "source": "data/final_monitoring/folds/fit_progress.json",
+  "source_sha256": "b16f31ac45dccb1b878e842bfa32dd8f2b75facbed321681627e47522285a47a",
+  "original_source": "outputs/disease_improvement/discrepancy_filter_20261022/fit_progress.json"
+}

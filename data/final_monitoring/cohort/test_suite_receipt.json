@@ -1,0 +1,9 @@
+{
+  "command": ".venv/bin/python -m pytest -q",
+  "exit_code": 0,
+  "passed": 409,
+  "warnings": 7,
+  "elapsed_seconds": 28.72,
+  "warning_category": "Existing NumPy generic timedelta deprecation at process_model/sowing.py:30",
+  "additional_evidence": "Separate frozen-input causal checks and840-member numerical replay are retained in their own source-bound receipts"
+}

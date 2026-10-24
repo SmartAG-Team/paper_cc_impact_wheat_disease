@@ -1,0 +1,21 @@
+{
+  "role": "monitoring",
+  "units": {
+    "observed_percent": "native disease score, percent",
+    "prediction_percent": "forecast native score, percent",
+    "scientific_weight": "original dimensionless hierarchy mass",
+    "scientific_mass_percent": "percent of evaluation mass per2.5×2.5ppcell",
+    "assessments": "raw record count",
+    "rmse": "percentage points",
+    "mae": "percentage points",
+    "bias": "percentage points",
+    "onset_dates": "calibration2017–2018 and evaluation2019 separated; counts55 F1 field-seasons",
+    "onset_intervals": "day after last zero through first positive; observed admissible daily dates",
+    "onset_error": "signed distance outside daily interval for3 calibration and4 evaluation histories; not exact-date MAE",
+    "calibration_panel": "b; fixed10pp prediction bins; original weights; observed mean interval from1000site resamples",
+    "error_coverage_panel": "c; threshold_pp in percentage points; covered_weight_percent/lower95/upper95 in percent of evaluation weight;2000pairedsite resamples",
+    "r2": "1−weightedSSE/weightedSST,allassessments",
+    "intervals": "descriptive95%pairedsitepercentiles;2000replicates;seed20261024"
+  },
+  "caption": "(a) Temporal monitoring: 2,017 assessments from 192 field-seasons, 2015–2019; cells span 2.5 percentage points on both axes. Colour shows evaluation weight, not prediction error or confidence. (b) Forecast calibration: temporal (blue circles) and 50 km spatial (orange squares). Fixed 10-pp bins; bars: 95% site-bootstrap intervals (1,000 resamples). Grey lines indicate 1:1. (c) Cumulative evaluation weight with absolute error at or below each threshold; bands: 95% paired-site intervals (2,000 resamples). (d) Signed onset interval-excess errors for the separate frozen process: 2017–2018 calibration (hollow, n=3) and 2019 evaluation (filled, n=4), the bracketed histories among 55 flag-leaf field-seasons. Zero is within the interval; negative is early and positive late. Bracket widths are 12–29 and 8–18 days, respectively. Onset calibration cases are development data. Scores retain individual forecasts and original weights. Intervals condition on fixed forecasts. Temporal: RMSE 17.15 (15.75–18.56) pp; predictive R² 0.625 (0.558–0.677). Spatial: RMSE 17.31 (15.85–18.84) pp; predictive R² 0.618 (0.550–0.671)."
+}

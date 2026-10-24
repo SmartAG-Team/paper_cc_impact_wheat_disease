@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-22T04:18:29.228215+00:00",
+  "role": "Qualified Irish station precipitation addition under the frozen conditional-head development recipe",
+  "training_records": 2304,
+  "training_fields": 218,
+  "maximum_training_year": 2019,
+  "minimum_validation_year": 2020,
+  "source_domain": [
+    "BASF",
+    "Corteva"
+  ],
+  "native_codes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "cross_source_anatomical_equivalence_verified": false,
+  "new_provider_policy": "Unsupported until a metadata-qualified input mapping and new version are frozen before disease outcomes",
+  "endpoint": "Untreated, zero-spray percentage disease severity for a source-native numbered leaf; leaf-ranking and scoring denominator need documented compatibility",
+  "excluded_endpoints": [
+    "whole-plant coverage",
+    "incidence",
+    "ordinal score",
+    "selected infected leaves"
+  ],
+  "history": "Only observations strictly before the query date; no same-day other-leaf outcomes",
+  "weather": "Daily UTC through the day before query; station QC and timing qualification; per-variable/day reanalysis fallback",
+  "sowing": "Explicit pre-outcome calendar scenario; not an observed sowing date",
+  "prediction_features": {
+    "process": 37,
+    "station_stage": 53,
+    "disease_history": 35
+  },
+  "full_fit_predictions_are_validation": false,
+  "independent_external_validation": false,
+  "publication_model_promoted": false,
+  "goal_achieved": false,
+  "sha256": {
+    "registration.json": "0f484174f257bea7a6505a06f0031ca558056573bb218c3a513a0be3ea1a7e16",
+    "predictors.npz": "21e19e7c44e0dcbde5b063010916164944f65e2c38c82547997a786a051fc748",
+    "fitted_candidate.joblib": "d7068fcca2783996a889f830124a2f0b53d4bcecc721f1394b5f1f406a8f5518",
+    "training_observation_ledger.csv": "3f7702331f878f5fbe0adc5565f7b62c6f6fb158d5f8e98024aa10190ce37a36",
+    "split_membership.json": "d90660aee25b5566f8b55482614557d34df4e2f0fd61dcc87734b4ce540a36c0"
+  },
+  "recipe": "irish_station_candidate",
+  "posthoc_refinement": true,
+  "current_labels_used_in_switch": false,
+  "predictor_widths": {
+    "process": 37,
+    "first_field_history": 53,
+    "event_history": 68,
+    "disease_history": 35
+  },
+  "inference": "analysis.disease_improvement.history_interval_hybrid.predict",
+  "parent_event_contract_sha256": "c57a0331167812f8c01d9b412d5bff156ca3bf9bbc65ce3929a85bf878155a0b",
+  "parent_base_contract_sha256": "4897f470177dd4ac5743fd30dc31c1a62f2fc4c46f77ccc641b7775623dcb35a",
+  "parent_contract_sha256": "11c28bde2e27b6c675b5432ef30801d3f60486b9eb3c8de644a3051458995ec8",
+  "station_input_manifest": "data/disease_improvement/station_preferred_ie_20261022/manifest.json",
+  "canonical_weather_quality_does_not_depend_on_model_score": true
+}

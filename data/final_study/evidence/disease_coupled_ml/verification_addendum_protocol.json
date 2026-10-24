@@ -1,0 +1,13 @@
+{
+  "registered_at_utc": "2026-10-12T07:34:02.677228+00:00",
+  "original_protocol_sha256": "f381df654b45a4fc97129f0c191c70154d5b26b7b708f17abe554d63eb4b1afd",
+  "model_fitting_changed": false,
+  "public_api_same_day_contract": "Calendar-day normalization before strictly earlier history lookup",
+  "assurance": "Every residual model refitted from independently reconstructed targets and hierarchy weights; all saved fit ledgers checked",
+  "source_sha256": {
+    "analysis/paper_study/disease_coupled_ml_20261012/verification_addendum.py": "ce62c61ae9fe2b87c76d56f9bae9d7937b7439ac3f86d362f3cd849e282cf403",
+    "analysis/paper_study/disease_coupled_ml_20261012/api.py": "1081ea615168bad522ed51c7c06a3fbdbbbfe77b6f39b390e277af0c72a714f7",
+    "analysis/paper_study/disease_coupled_ml_20261012/test_api.py": "453f592711978e839ae37a03c44d5fb6496134709592cf1c91fb7a145960a137",
+    "analysis/paper_study/disease_coupled_ml_20261012/test_strength.py": "7980fa6088ac0f5e737c70e67b22bbae92cb59d18dc5ddb6c158f3877dc175ff"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "lstm_extension": {
+    "selected_indices": [
+      82,
+      128,
+      69
+    ],
+    "selected_values": [
+      0.415,
+      0.645,
+      0.35
+    ],
+    "training_loss_days": 0.4938271604938272,
+    "constrained_training_fields": {
+      "37": 27,
+      "39": 27,
+      "65": 27
+    }
+  },
+  "matched_tpv": {
+    "selected_indices": [
+      71,
+      119,
+      45
+    ],
+    "selected_values": [
+      0.36,
+      0.6,
+      0.23
+    ],
+    "training_loss_days": 0.5925925925925926,
+    "constrained_training_fields": {
+      "37": 27,
+      "39": 27,
+      "65": 27
+    }
+  },
+  "calendar": {
+    "selected_indices": [
+      122,
+      135,
+      156
+    ],
+    "selected_values": [
+      122,
+      135,
+      156
+    ],
+    "training_loss_days": 1.4691358024691359,
+    "constrained_training_fields": {
+      "37": 27,
+      "39": 27,
+      "65": 27
+    }
+  }
+}

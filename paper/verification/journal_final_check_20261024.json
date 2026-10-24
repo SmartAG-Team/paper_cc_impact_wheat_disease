@@ -1,0 +1,21 @@
+{
+  "status": "passed_for_initial_submission",
+  "checked_on": "2026-10-24",
+  "article_type": "Research Article",
+  "official_guidance": "data/journal_submission_requirements.json",
+  "cover_answers": "verification/cover_letter_answers.json",
+  "reference_audit": "verification/reference_metadata_review_20261024.json",
+  "reviewer_sources": "verification/reviewer_candidates.json",
+  "ORCID_checksum_valid": true,
+  "author_declarations_confirmed": true,
+  "models_forecasts_parameters_weights_unchanged": true,
+  "initial_format": "Free Format; inline figures; separate supporting material",
+  "accepted_stage_items": [
+    "Public versioned data/code archive with PID",
+    "Preferred600dpi line art if requested"
+  ],
+  "no_submission_or_public_deposition_performed": true,
+  "single_PNG_per_figure": true,
+  "workflow_figure_redesigned": true,
+  "other13_figure_PNGs_unchanged": true
+}

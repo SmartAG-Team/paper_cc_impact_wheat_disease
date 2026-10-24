@@ -1,0 +1,29 @@
+{
+  "model": "endpoint_severe_priority2",
+  "core_endpoint_criteria_pass": false,
+  "all_endpoint_gates_pass": false,
+  "gates": {
+    "temporal_overall_rmse_improves": false,
+    "temporal_integral_rmse_improves": false,
+    "temporal_low_le10_rmse_improves": false,
+    "temporal_severe_above75_rmse_improves": true,
+    "temporal_first_visit_rmse_improves": false,
+    "temporal_last_visit_rmse_improves": false,
+    "temporal_severe_absolute_bias_improves": true,
+    "spatial_50km_overall_rmse_improves": false,
+    "spatial_50km_integral_rmse_improves": false,
+    "spatial_50km_low_le10_rmse_improves": false,
+    "spatial_50km_severe_above75_rmse_improves": true,
+    "spatial_50km_first_visit_rmse_improves": false,
+    "spatial_50km_last_visit_rmse_improves": false,
+    "spatial_50km_severe_absolute_bias_improves": true
+  },
+  "independent_external_validation": false,
+  "publication_promoted": false,
+  "training_risk": {
+    "severe_threshold_exclusive": 75,
+    "multiplier": 2,
+    "fixed_without_sweep": true
+  },
+  "evaluation": "Original hierarchy weights and complete original support"
+}

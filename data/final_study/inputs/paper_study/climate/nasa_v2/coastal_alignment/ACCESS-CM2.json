@@ -1,0 +1,96 @@
+{
+  "model": "ACCESS-CM2",
+  "registry_sha256": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+  "variables": [
+    "tas",
+    "tasmax",
+    "pr",
+    "hurs"
+  ],
+  "reference": "Joint nonmissing native fields on historical 1990-01-01; one frozen lookup across historical and all future SSPs",
+  "radius": "Euclidean distance in latitude/longitude degrees ≤0.5; tie broken by source row then column",
+  "source_grid": "Native 0.25° NASA NEX-GDDP-CMIP6 v2.0",
+  "probes": [
+    {
+      "variable": "tas",
+      "native_path": "AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tas/tas_day_ACCESS-CM2_historical_r1i1p1f1_gn_1990_v2.0.nc",
+      "query": {
+        "var": "tas",
+        "north": 68.125,
+        "south": 34.375,
+        "west": -9.875,
+        "east": 59.875,
+        "horizStride": 1,
+        "time_start": "1990-01-01T12:00:00Z",
+        "time_end": "1990-01-01T12:00:00Z",
+        "accept": "netcdf4",
+        "addLatLon": "true"
+      },
+      "download_bytes": 96267,
+      "download_sha256": "188635d4268e38bbfe1318016d434cd25cc2b403bccacc6954b65005b71051e5"
+    },
+    {
+      "variable": "tasmax",
+      "native_path": "AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_historical_r1i1p1f1_gn_1990_v2.0.nc",
+      "query": {
+        "var": "tasmax",
+        "north": 68.125,
+        "south": 34.375,
+        "west": -9.875,
+        "east": 59.875,
+        "horizStride": 1,
+        "time_start": "1990-01-01T12:00:00Z",
+        "time_end": "1990-01-01T12:00:00Z",
+        "accept": "netcdf4",
+        "addLatLon": "true"
+      },
+      "download_bytes": 96295,
+      "download_sha256": "b7199798a4b67dddbdf953660247b02edbec0dd386dd91b976065e44d162d051"
+    },
+    {
+      "variable": "pr",
+      "native_path": "AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/pr/pr_day_ACCESS-CM2_historical_r1i1p1f1_gn_1990_v2.0.nc",
+      "query": {
+        "var": "pr",
+        "north": 68.125,
+        "south": 34.375,
+        "west": -9.875,
+        "east": 59.875,
+        "horizStride": 1,
+        "time_start": "1990-01-01T12:00:00Z",
+        "time_end": "1990-01-01T12:00:00Z",
+        "accept": "netcdf4",
+        "addLatLon": "true"
+      },
+      "download_bytes": 111930,
+      "download_sha256": "0493c4a34673b71dfdcc3da1bd71a56e6b69185a43643a5bc1466e8abaf57bde"
+    },
+    {
+      "variable": "hurs",
+      "native_path": "AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/hurs/hurs_day_ACCESS-CM2_historical_r1i1p1f1_gn_1990_v2.0.nc",
+      "query": {
+        "var": "hurs",
+        "north": 68.125,
+        "south": 34.375,
+        "west": -9.875,
+        "east": 59.875,
+        "horizStride": 1,
+        "time_start": "1990-01-01T12:00:00Z",
+        "time_end": "1990-01-01T12:00:00Z",
+        "accept": "netcdf4",
+        "addLatLon": "true"
+      },
+      "download_bytes": 105601,
+      "download_sha256": "468f7b43f55586f81e7f263c65f2ffb62e908913deff79f27cee6c842d209eb4"
+    }
+  ],
+  "total_wheat_cells": 14941,
+  "native_land_masked_cells": 0,
+  "imputed_cells": 0,
+  "imputed_harvested_ha": 0.0,
+  "excluded_cells": 0,
+  "excluded_harvested_ha": 0.0,
+  "eligible_harvested_ha": 54405001.12262583,
+  "mapping_sha256": "7059936c37963bedd7a15f16bc90171bb7b950cec015bee1a171fa09776dfe7f",
+  "checked_utc": "2026-10-05T11:05:54.858238+00:00"
+}

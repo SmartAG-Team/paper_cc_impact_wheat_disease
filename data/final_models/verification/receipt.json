@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "original_scientific_outputs_unchanged": true,
+  "portable_integrity_files": 22,
+  "source_nodes": 59,
+  "retained_crop_queries": 6,
+  "current_disease_queries": 2287,
+  "strictly_earlier_links": 2610,
+  "maximum_absolute_differences": {
+    "current_saved_CDF": 0.0,
+    "current_prefix": 0.0,
+    "current_original_same_batch_weather": 0.0,
+    "agc_native_saved_CDF": 1.547913847654847e-07,
+    "agc_native_prefix": 1.5083664872683755e-09,
+    "agc_calibrated_saved_CDF": 1.3372733143057758e-08,
+    "agc_calibrated_prefix": 5.368361311042236e-10,
+    "current_disease_percent": 0.0
+  },
+  "AGC_tolerance": 5e-06,
+  "original_archive_batch_scope": {
+    "original_source_same_batch": true,
+    "archive_neural_batch_max_difference": 1.4901161193847656e-07,
+    "archive_residual_tree_boundary_max_difference": 0.0020667165517807007,
+    "saved_study_metrics_use_archived_CDFs": true
+  },
+  "manifest_sha256": "56129b739f0c8fa58e0f3252095870723ca03833c763eb0b750421920947650b",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "torch": "2.14.1"
+  },
+  "isolated_package_tests": {
+    "exit_code": 0,
+    "passed": 7,
+    "only_final_package_and_assets": true,
+    "output": ".......                                                                  [100%]\n7 passed in 3.69s"
+  }
+}

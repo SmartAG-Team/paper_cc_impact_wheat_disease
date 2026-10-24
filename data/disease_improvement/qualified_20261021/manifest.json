@@ -1,0 +1,50 @@
+{
+  "dataset": "Quality-screened BASF/Corteva disease observations",
+  "active_observations": 2286,
+  "evaluation_observations_2015_2019": 2017,
+  "excluded_target_ids": [
+    1036
+  ],
+  "exclusion": "Assessment 2015-10-30 follows grain endpoints 2015-09-14 at BBCH92/99; quarantined pending source adjudication",
+  "source_records_preserved": true,
+  "selection_by_prediction_error": false,
+  "unresolved": [
+    "severity_denominator",
+    "Corteva_anatomical_leaf",
+    "plot_and_replicate_identity",
+    "observed_sowing",
+    "cultivar_resistance",
+    "external_unexamined_cohort"
+  ],
+  "source_sha256": {
+    "data/final_study/evidence/disease_joint_forecast/inputs/observations.csv": "c802deea18e6a5dfa0d7cdf0c0574b30929277fe8ff7f649def0d75e1536cf17",
+    "data/final_study/evidence/disease_joint_forecast/inputs/fields.csv": "9065a0cab9c4e1c14f1b70fd95086603adfc6aea7fcc519f0e686cec04984904",
+    "data/final_study/evidence/disease_joint_forecast/inputs/features.npz": "761bbefcaa2b129b5ce2187f7ce4893a9a420ee3c2bb5a43130658bd5dcbe4ac",
+    "data/final_study/evidence/disease_coupled_ml/results/assessment_predictions.csv": "99bd3671abdbb3b7f9652fb55c772c7f4dadf1cd984af6e304c5e266297c6b41",
+    "data/final_study/inputs/paper_study/field_weather_completed/daily_weather.parquet": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+    "data/final_study/evidence/disease_endpoint_audit/results/assessment_lineage.csv": "7f2e278e61d6d9c5d70569bda9aa713ab8d517c3d83698146e7bfbf3dbca3cb2",
+    "data/final_study/evidence/disease_observation_revision/results/measurement_definitions.csv": "56bbb29598db3ade36948cd33a0dc98f6396fd9ce9afcf048e3678dd14610454",
+    "data/final_models/verification/disease_queries.csv": "6b1da603bca846f1433cbecc4a5ae5198eb8d82f003b446640d3ce007510956e",
+    "data/final_models/verification/disease_queries.npz": "4960fd3614ed78938510824a2558f38dbd6910c6412722d084953635234b6fbc",
+    "data/final_study/evidence/disease_endpoint_audit/results/crop_endpoint_source_rows.csv": "4b8ed408b3051e8b2cd792133b36610e91290f0d6ff0b01f0ef5a961763543e6",
+    "data/final_study/evidence/disease_endpoint_audit/results/source_chronology_flags.csv": "c9967c0377a61f1ae8d3951175a6618fec001d9a307fe1ed58a514c54750ede6",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2015/selected_choices.json": "7eac01dddfab7e83a94e95204d88c59a9872df195de7d9bc337f8958cc3c0b58",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2015/outer/history_hgb_1.joblib": "e0944938e7b03157908c0a3fb54efc1dc798fb7b9febc786d4fa3c3e42e3cae8",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2016/selected_choices.json": "42b371d8ca849e5e9db49aee0c8d84d8ac0ab5e9a6bf3ecb87a7f5c059fc8fcf",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2016/outer/history_rf_1.joblib": "a8e545cdee9ede1138714fdd70e33499225668b4e329fb1d62f78cdd8cd5ffc4",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2017/selected_choices.json": "3411bb20eb647314751899f5cfa3ebea44a849a838678534123de8b01de10158",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2017/outer/history_hgb_0.joblib": "10e2afe256912d6caea7d63a25898cdd02196fd54abe74656d7eaa45596fa9f9",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2018/selected_choices.json": "8e7e66d1e2ed76ba96acc557b71948bade66e0ba8604352d11a2f5522c52370b",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2018/outer/history_hgb_1.joblib": "31163c576a2f72523adae1b6eae26aed3819e0903637cf7dad3bb740fda46863",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2019/selected_choices.json": "8c33cbe14c9f668c0e740a86b8187eef8150c5b8b8e7c82ae3cf96fd6cfe8be8",
+    "data/final_study/evidence/disease_coupled_ml/results/year_2019/outer/history_hgb_0.joblib": "640d4d6c048c9e61ab81f6f5948e6da6773341a7ea5644255f961c8c283487b9"
+  },
+  "file_sha256": {
+    "upstream_year_mismatches.csv": "9c3c9b50c5cb50b02196331b14b3f0c607d463bd5933a14f8d421e178d73d2a8",
+    "observations.csv": "eb3f1f7bf4b5bc59784f91491c78ee4c223c8f6c4962261717c594c35a0f114f",
+    "exclusions.csv": "8092c812c7e6b22220d477afcd9af449c3e10c321e02ee6667c78d9bde1ff233",
+    "fields.csv": "65f9f63b77a04ef62949de94cba8e1f80d2cd36aa0892ba1e73076210a9f9c4c"
+  },
+  "run": "outputs/disease_improvement/quality_weather_20261021_v2",
+  "independent_validation": false
+}

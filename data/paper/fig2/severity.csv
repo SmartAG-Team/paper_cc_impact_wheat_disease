@@ -1,0 +1,21 @@
+source,lower_percent,upper_percent,assessments,closure
+BASF,0,10,254,left-closed/right-open; final bin includes 100
+BASF,10,20,124,left-closed/right-open; final bin includes 100
+BASF,20,30,66,left-closed/right-open; final bin includes 100
+BASF,30,40,34,left-closed/right-open; final bin includes 100
+BASF,40,50,24,left-closed/right-open; final bin includes 100
+BASF,50,60,16,left-closed/right-open; final bin includes 100
+BASF,60,70,16,left-closed/right-open; final bin includes 100
+BASF,70,80,14,left-closed/right-open; final bin includes 100
+BASF,80,90,12,left-closed/right-open; final bin includes 100
+BASF,90,100,24,left-closed/right-open; final bin includes 100
+Corteva,0,10,710,left-closed/right-open; final bin includes 100
+Corteva,10,20,218,left-closed/right-open; final bin includes 100
+Corteva,20,30,149,left-closed/right-open; final bin includes 100
+Corteva,30,40,89,left-closed/right-open; final bin includes 100
+Corteva,40,50,80,left-closed/right-open; final bin includes 100
+Corteva,50,60,72,left-closed/right-open; final bin includes 100
+Corteva,60,70,63,left-closed/right-open; final bin includes 100
+Corteva,70,80,60,left-closed/right-open; final bin includes 100
+Corteva,80,90,66,left-closed/right-open; final bin includes 100
+Corteva,90,100,213,left-closed/right-open; final bin includes 100

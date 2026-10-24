@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "figure": "fig1",
+  "native_width_cm": 19,
+  "native_height_cm": 16.5,
+  "font_pt": 12,
+  "png_dpi": 300,
+  "scientific_node_ids_unchanged": 12,
+  "scientific_dependencies_unchanged": 14,
+  "scientific_provenance_unchanged": true,
+  "other_figure_PNGs_unchanged": 13,
+  "all_card_text_inside_bounds": true,
+  "conceptual_icons_only": true,
+  "header_weight": "bold",
+  "role_colours": [
+    "input blue",
+    "host/integral ochre",
+    "forecast/output dark blue"
+  ],
+  "new_label": "Forecast day q",
+  "source_specification": "data/fig1/schematic.json",
+  "fitting_performed": false
+}

@@ -1,0 +1,30 @@
+{
+  "annual_rows": 22,
+  "unique_years": true,
+  "continuous_2004_2025": true,
+  "original_pdf_sha256_matches": true,
+  "missing_trial_counts_retained": true,
+  "missing_sampling_variances_retained": true,
+  "annual_values_from_printed_labels": true,
+  "chart_labels_visually_verified": true,
+  "original_source_chart_preserved": true,
+  "pure_STB_claim": false,
+  "new_meta_analysis_claim": false,
+  "normalized_HAD_to_yield_conversion": false,
+  "active_model_modified": false,
+  "existing_source_profiles_verified": 6,
+  "inventory_records": 17,
+  "figure_text_font_sizes_pt": [
+    12.0
+  ],
+  "figure_text_within_canvas": true,
+  "figure_pixels": [
+    2244,
+    1181
+  ],
+  "figure_dpi": [
+    299.9994,
+    299.9994
+  ],
+  "passed": true
+}

@@ -1,0 +1,752 @@
+
+PDF_PAGE=1
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  1l15 
+ 
+ 
+ 
+ 
+DOSSIER DE PRESSE 
+ 
+LUTTE CONTRE LES MALADIES 
+DES CÉRÉALES À PAILLE 
+Bilan de la campagne et perspectives 
+ 
+25 novembre 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONTACTS 
+TECHNIQUES 
+Jérôme Thibierge 
+j.thibierge@arvalis.fr 
+Cyrille Gaujard 
+c.gaujard@arvalis.fr 
+CONTACT 
+PRESSE 
+Marion Wallez 
+06.76.02.76.11 
+presse@arvalis.fr 
+ 
+
+
+PDF_PAGE=2
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  2l15 
+SOMMAIRE 
+ 
+Synthèse ..................................................................................................................................................................... 3 
+Gamme fongicides céréales : statu quo en 2026 sur les substances actives et les modes d'action ................ 4 
+Les années se suivent et ne se ressemblent pas : dominante en 2024, la septoriose s'est faite très discrète 
+en 2025 et laisse les rouilles s'exprimer .................................................................................................................. 5 
+Monitoring des résistances vis-à-vis de la septoriose au sein du réseau performance : une résistance qui ne 
+progresse pas ............................................................................................................................................................ 5 
+Septoriose : les solutions de biocontrôle à base de soufre et de phosphonates sont efficaces contre la 
+septoriose et bien adaptées au T1, lorsqu'il est nécessaire ................................................................................. 7 
+Septoriose : plus de 30 points d'écarts d'efficacité entre des substances actives utilisées en T2 confrontées 
+à des souches résistantes et les nouveaux modes d'action originaux en développement ............................... 8 
+Rouille jaune : les possibilités d'alternance des modes d'actions se jouent des le choix des premières 
+interventions fongicides .......................................................................................................................................... 10 
+Rouille brune : bien positionnées, plusieurs solutions actuellement disponibles ont fait preuve de 76% a 
+97% d'efficacité en essais ....................................................................................................................................... 11 
+Fusarioses de l'épi : pas ou très peu présentes en 2025 .................................................................................... 12 
+Orges d'hiver : un complexe parasitaire variable selon les conditions climatiques et les sensibilités des 
+varietés cultivées ...................................................................................................................................................... 12 
+Rhynchosporiose du triticale : de nouvelles références ...................................................................................... 13 
+Annexe - Recommandations pour ralentir la progression des résistances aux fongicides ............................. 15 
+ 
+ 
+
+
+PDF_PAGE=3
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  3l15 
+Synthèse 
+La campagne 2024-2025 a été marquée par des conditions météo contrastées : après un hiver humide, 
+le printemps est devenu nettement plus sec, avec des cumuls de pluie limités et des températures bien 
+réparties. Cette situation a largement contribué à limiter la pression des maladies foliaires sur les 
+céréales.  
+Les résistances aux fongicides des différentes souches de septoriose ne progressent pas en 
+2025, et c’est une bonne nouvelle. Concernant la résistance aux IDM, les souches TriLR ont disparu, 
+les TriMR sont réduites à 5.5% et les souches TriHR restent ultradominantes pour atteindre 70%. Les 
+souches MDR, avec une fréquence moyenne de 25%, ne progressent pas. Concernant les SDHI, la 
+présence de souches CarR demeure élevée mais ne progresse pas en 2025 (36% vs 41%), tout comme 
+les CarHR (14% vs 19%). Enfin, aucune souche spécifiquement résistante au fenpicoxamide n’a été 
+identifiée en 2025. 
+Sur septoriose, plus de 30 points d'écarts d'efficacité entre des substances actives très utilisées 
+confrontées à des souches résistantes et les modes d'action originaux en développement ont été mis 
+en évidence dans nos essais. Pour lutter contre la rouille jaune, l’un des leviers les plus efficaces reste 
+l’utilisation de variétés tolérantes. Le choix des substances actives pour la première intervention 
+fongicide, souvent motivée par la rouille jaune impose, pour limiter la progression des souches 
+résistantes des autres maladies présentes, de ne plus recourir aux mêmes substances actives, ni même 
+aux mêmes modes d’actions dans les applications fongicides suivantes. 
+Les solutions de biocontrôle à base de soufre et de phosphonates ont cette année encore confirmé 
+leur efficacité contre la septoriose et sont bien adaptées au T1, lorsqu'il est nécessaire.  
+Sur l’ensemble du territoire national, les pressions de rouille brune ont été moyennes à élevées. Dans 
+nos essais 2025, conduits sur des variétés sensibles, les pertes de rendement ont été comprises entre 
+20 et 30 q/ha entre la meilleure modalité protégée et le témoin sans protection. Face à une maladie de 
+dynamique aussi explosive, la clé principale de succès reste le positionnement sans retard des 
+traitements fongicides dès les premières pustules.  
+Les conditions climatiques de 2025, et plus particulièrement les faibles précipitations autour de la 
+floraison des blés ont été peu favorables à la contamination des épis et au développement des 
+Fusarium spp. et Microdochium spp. Les analyses de grains à la récolte ont confirmé une très faible 
+présence de mycotoxines.  
+Sur orges d’hiver, le complexe parasitaire 2025 a été dominé par la rouille naine. Positionnées en 
+T2 les solutions actuellement disponibles ont montré des efficacités comprises entre 85% et 97% sur la 
+rouille.  
+Les substances actives fongicides arrivées au terme de leur période d’approbation en 2025 ont toutes 
+ont été réapprouvées. Aucune nouvelle substance active fongicide ne viendra étoffer la gamme de 
+solutions disponibles pour protéger les céréales contre les maladies en 2026. SYNGENTA espère 
+commercialiser sa première formulation de pydiflumetofen (ADEPYDIN ™) [FRAC 7] solo 
+(développée sous le code APN03) pour les applications du printemps 2027. Devrait suivre, pour le 
+printemps 2028, l’arrivée d’une seconde formulation (désignée sous le code APN04) associant le 
+pydiflumetofen à du prothioconazole. SUMITOMO – PHILAGRO espère, pour sa part, que la décision 
+d’approbation du metyltetraprole (PAVECTO ™) [FRAC 11A] se rapproche. La firme se tient prête au 
+dépôt de demande d’AMM pour sa première formulation solo avec une visée de commercialisation 
+au printemps 2028. Ces deux substances marqueront un progrès important.  
+ 
+ 
+
+
+PDF_PAGE=4
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  4l15 
+Gamme fongicides céréales : statu quo en 2026 sur les substances 
+actives et les modes d'action  
+Aucune nouvelle substance active fongicide ne viendra étoffer la gamme de solutions 
+disponibles pour protéger les céréales contre les maladies en 2026. Les autorités européennes n’ont 
+pas encre communiqué de décision concernant les deux nouvelles substances actives dont les 
+demandes d’approbation sont engagées depuis quelques années. Toutefois les firmes concernées 
+restent optimistes et se préparent à déposer dans les prochains mois les demandes d’autorisation de 
+mise au marché (AMM) des premières formulations.  
+SYNGENTA espère commercialiser sa première formulation de pydiflumetofen (ADEPYDIN ™) solo 
+(développée sous le code APN03) pour des applications au printemps 2027. Devrait suivre, pour le 
+printemps 2028, l’arrivée d’une seconde formulation (codée APN04) associant 62.5 g/l de 
+pydiflumetofen à 75 g/l de prothioconazole. Par son mode d’action, le pydiflumetofen est classé dans 
+les SDHI 1(FRAC 7). Les essais menés par ARVALIS depuis 2018 confirment que c’est l’un des 
+représentants les plus efficaces de cette famille contre la septoriose, y compris sur des souches 
+résistantes. Il dispose de plus d’un large spectre d’action sur les autres maladies des blés et des orges 
+(notamment la ramulariose). 
+SUMITOMO – PHILAGRO espère, pour sa part, que la décision d’approbation du metyltetraprole 
+(PAVECTO ™) se rapproche. La firme se tient prête au dépôt de demande d’autorisation de mise sur 
+le marché pour sa première formulation solo avec une visée de commercialisation au printemps 2028. 
+L’originalité du mode d’action du metyltetraprole a justifié la création d’une classe particulière de QoI 
+(FRAC 11A) dont il est aujourd’hui l’unique représentant.  
+Plusieurs substances fongicides sont arrivées au terme de leur période d’approbation en 2025 : 
+à l’issue d’une nouvelle évaluation des dossiers, toutes ont été réapprouvées pour une nouvelle 
+période. Signalons cependant que dans le cadre des procédures périodiques d’adaptation au progrès 
+technique des modifications de phrases de risque vont entrer en vigueur au 1er mai 2026 pour la 
+fenpropidine et la pyraclostrobine. Au-delà de l’obligation de re-étiquetage de tous les fongicides qui 
+en contiennent, plusieurs mélanges extemporanés jusqu’à présents autorisés seront interdits à 
+compter de cette date. Avant de procéder à un mélange dans la cuve du pulvérisateur il est nécessaire 
+de vérifier s’il est autorisé en fonction des phrases de risques des produits associés et des autorisations 
+spécifiques délivrées pour certains mélanges. Pour retrouver les textes réglementaires de références 
+et aider concrètement à leur respect, nous renvoyons à l’application « Mélanges de produits 
+phytosanitaires » mise en ligne par ARVALIS. 
+Une nouvelle association phosphonates de potassium 735 g/l + prothioconazole 50g/ha a reçu son 
+AMM en avril. Elle sera commercialisée sous les dénominations FIRUZA et DOBIZO par DE SANGOSSE. 
+ADAMA espère être notifié d’une décision d’AMM dans les prochaines semaines pour lancer dès ce 
+printemps une association prothioconazole 250 g/l + difénoconazole 130 g/l. NUFARM est 
+également en attente de décision d’AMM pour venir enrichir les offres d’associations azoxystrobine + 
+prothioconazole disponibles avec une formulation 150 g/l + 150 g/l. 
+L’association mefentrifluconazole 95 g/l + pyraclostrobine 100 g/l homologuée par BASF sous le 
+nom d’ISIX sera commercialisée sous les dénominations LOMARA, EVREST ou encore SCHUSS DUO. 
+Pour le printemps 2026, une multitude d’offres packs et d’accords de préconisations croisées entre 
+firmes concernant deux produits fongicides complémentaires a été recensée. Des produits identiques 
+ 
+ 
+ 
+1 SDHI désigne Succinate DésHydrogènase Inhibitors (inhibiteurs en français). Les substances actives de ce groupe perturbent la 
+division cellulaire du champignon pathogène en interagissant avec cette enzyme. Les principaux représentants sont le fluopyrame, le 
+bixafène, le benzovindiflupyr. 
+
+
+PDF_PAGE=5
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  5l15 
+y sont parfois proposés sous des seconds noms commerciaux différents selon les canaux de 
+distribution. Le dépliant imprimé « Lutte contre les maladies » et les fiches produits en ligne publiés par 
+ARVALIS sont là pour aider à s’y retrouver, en complément des guides « Choisir et décider » rédigés 
+par les équipes régionales. 
+ 
+Les années se suivent et ne se ressemblent pas : 
+Dominante en 2024, la septoriose s'est faite très discrète en 2025 
+et laisse les rouilles s'exprimer 
+2025 : Un contexte agroclimatique défavorable aux maladies 
+La campagne 2024-2025 a été marquée par des conditions météo contrastées : après un hiver humide, 
+le printemps est devenu nettement plus sec, avec des cumuls de pluie limités et des températures bien 
+réparties. Cette situation a largement contribué à limiter la pression des maladies foliaires sur les 
+céréales.  
+Blé tendre d’hiver : en 2025, la nuisibilité due à la septoriose a été particulièrement faible, contrastant 
+fortement avec l’année précédente. Dans plusieurs régions, le risque était jugé modéré, même sur 
+certaines variétés sensibles.  
+Les rouilles ont été plus présentes, avec un poids particulier pour la rouille brune. Les conditions météo 
+ont été largement favorables au développement de cette maladie en fin de cycle dans de nombreuses 
+régions, ce qui nous rappelle que la vigilance reste de mise. Du côté de la rouille jaune, bien que moins 
+fréquente, des infestations ont été signalées tout au long du printemps dans plusieurs régions, 
+nécessitant parfois des interventions.  
+Autres maladies : dans de nombreuses régions, le risque a été limité pour le Piétin-verse, l’Oïdium et 
+la Fusariose des épis. 
+En 2025, la nuisibilité due aux maladies sur blé tendre s’élève à 12.2 q/ha dans le réseau d’essais 
+ARVALIS, en retrait de 10 quintaux par rapport à 2024. Sur une période de 22 ans, la nuisibilité moyenne 
+est de 16 q/ha, et classe ainsi 2025 comme une année à faible nuisibilité. Cette faible nuisibilité s’est 
+traduite par une réduction de l’enveloppe fongicide consacrée à la protection avec une dépense 
+moyenne en blé tendre de 61 €/ha en baisse de 20% par rapport à 2024 (77 €). Dans ce contexte, le 
+poids de la protection fongicide au stade 2 nœuds (T1) et au stade floraison (T3) n’étaient peu ou pas 
+valorisées, avec seulement 1 q/ha en plus. En revanche, la protection au stade dernière feuille étalée 
+(T2), qui reste le pivot de la protection fongicide, permettait de lever 12.4 q/ha.  
+Orge d’hiver : la Rouille naine était la maladie de l’année sur les orges en 2025. Signalée dans de 
+nombreuses régions sur des variétés plutôt sensibles à la maladie, une protection fongicide a souvent 
+été nécessaire pour lutter contre cette maladie. 
+La Rhynchosporiose et l’Helminthosporiose ont souvent été signalées en début de cycle, mais les 
+conditions météorologiques sèches du printemps ont limité le développement. Quant à la 
+Ramulariose, qui était la maladie de 2024, elle était pratiquement absente en 2025, en raison de 
+conditions sèches et chaudes en fin de cycle. L’Oïdium reste peu signalée. 
+ 
+Monitoring des résistances vis-à-vis de la septoriose au sein du 
+Réseau Performance : une résistance qui ne progresse pas 
+Le Réseau Performance a pour objectif de suivre l’évolution des résistances aux fongicides des 
+différentes souches de Zymoseptoria tritici présentes en France. Le Réseau Performance a collecté cette 
+année 238 échantillons de feuilles sur les parcelles traitées et non traitées. Seulement 158 échantillons 
+(66%) ont pu être exploités au laboratoire contre 268 en 2024. Ces échantillons ont permis d’étudier 
+des populations de Zymoseptoria tritici provenant de 20 départements céréaliers. Les essais sont 
+
+
+PDF_PAGE=6
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  6l15 
+réalisés par ARVALIS et de nombreux partenaires sur l’ensemble du territoire français. Les résultats 
+présentés dans ce document sont issus de la synthèse nationale du réseau. 
+Nous tenons à remercier vivement les 26 partenaires qui ont participé à ce réseau 
+ADAMA 
+CA 02 
+DE SANGOSSE 
+SYNGENTA 
+AGORA 
+CA 03 
+EUREDEN 
+TERNOVEO 
+AGRO D'OC 
+CA 80 
+NORIAP 
+UCATA 
+ARTERRIS 
+CA IdF 
+SETA de Bapaume 
+UNEAL 
+ARVALIS 
+CERESIA 
+SIPCAM 
+UPL 
+BASF 
+CORTEVA 
+STAPHYT 
+VIVESCIA 
+BAYER 
+CRA-W 
+SUMITOMO 
+ 
+ 
+Chaque année, des analyses réalisées par INRAE permettent de faire un suivi de l’évolution de la 
+sensibilité des souches de septoriose vis-à-vis des fongicides et de les classer de la façon suivante : 
+• Les souches résistantes aux triazoles : 
+ TriLR : souches faiblement résistantes aux triazoles. 
+ TriMR : souches moyennement résistantes aux triazoles. 
+ TriHR : souches très résistantes à au moins un triazole. 
+ MDR : (Multi Drogues Résistantes) souches résistantes à plusieurs familles de substances 
+actives. 
+• Les souches résistantes aux SDHIi : 
+ CarR : toutes les souches résistantes aux SDHI quels que soient leurs facteurs de résistance. 
+ CarHR : souches très Résistantes aux SDHI. 
+• Les souches résistances aux strobilurines (QoI), qui sont toujours largement généralisées dans les 
+différentes régions. 
+Depuis de nombreuses années, les souches sensibles aux IDM (triazoles) ne sont plus détectées, ce qui 
+confirme la généralisation de la résistance aux IDM dans les populations françaises. Les souches TriLR 
+n’ont pas été détectées dans la population échantillonnée en 2025. Les souches TriMR représentaient 
+5.5% en moyenne de la population, contre 6% en 2024. 
+La fréquence moyenne des souches TriHR est en légère progression en 2025 (70% vs 64% en 2024) et 
+ces souches sont généralisées sur l’ensemble du territoire (100% des échantillons). Les souches MDR 
+ne progressent pas et sont détectées dans 87% des échantillons en 2025, à la fréquence moyenne de 
+25% (30% en 2024). Les fortes fréquences moyennes de ces 2 catégories sont observées en particulier 
+dans la grande moitié Nord de la France. 
+En 2025, la proportion de populations présentant des souches résistantes aux SDHI n’a pas progressé 
+(occurrence 92% en 2025, vs 93% et en 2024). La fréquence moyenne de souches CarR atteint 36% 
+(41% en 2024) et inclut potentiellement une grande diversité de mutations. La fréquence moyenne des 
+souches CarHR ne progresse pas, et atteint 14% (19% en 2024). 
+Il est important de rappeler que les SDHI sélectionnent des souches de type MDR et qu’il est 
+souhaitable d’anticiper le risque de résistance multiple CarR + MDR. 
+Comme en 2024, aucune souche résistante spécifiquement au fenpicoxamide n’a été détectée en 
+2025.  
+Pour 2025, nous retiendrons que la situation vis-à-vis de la résistance aux IDM et aux SDHI ne 
+progresse pas, excepté pour les TriHR. C’est plutôt une bonne nouvelle. 
+La gestion responsable des fongicides doit se poursuivre pour limiter la progression des souches 
+résistantes (cf. annexe) : 
+1. Intervenir uniquement si c’est nécessaire est indispensable, c’est pourquoi, l’utilisation d’un OAD est 
+fortement conseillée. 
+
+
+PDF_PAGE=7
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  7l15 
+2. Alterner les modes d’action : une seule application par programme de SDHI, de strobilurine, de 
+prothioconazole, de fenpicoxamide, et éviter d’utiliser deux fois la même matière active de type 
+triazoles. 
+3. Utiliser, si possible, un multisite comme le soufre ou le folpel au T1 et au T2 dans les régions du Nord 
+de la France où la résistance est la plus implantée. 
+ 
+Un point de la situation des résistances et des recommandations pour ralentir l’évolution est actualisé 
+chaque année par l’ANSES, l’INRAE et ARVALIS sous forme d’une « Note commune » publiée en janvier.  
+ 
+Septoriose : les solutions de biocontrôle à base de soufre et de 
+phosphonates sont efficaces contre la septoriose et bien 
+adaptées au T1, lorsqu'il est nécessaire 
+Des formulations de soufre seul, phosphonates de potassium seuls et les associations soufre + 
+phosphonates ont été testées en T1 à BBCH 32, suivis d’une même application de KARDIX 0.7 l/ha en 
+T2. Dans un contexte où la faible pression de septoriose a limité la valorisation des T1, qu’ils soient de 
+biocontrôle ou de synthèse, les améliorations de l’état sanitaire n’ont pas généré de gain de 
+rendement. L’efficacité des produits de biocontrôle a été au moins équivalente voire supérieure à la 
+référence metconazole 63 g/ha [FRAC 3] JUVENTUS 0.7 l/ha appliquée elle aussi en T1 dans les mêmes 
+conditions. L’essai de Mormant (77), avec un protocole plus complet, en est le plus représentatif : 
+l’application unique en T2 KARDIX 0.7 l/ha au stade BBCH 40 constitue la base de référence avec 46% 
+(ab2) d’efficacité sur septoriose pour la comparaison des T1 réalisés à BBCH32 : PYGMALION 2 l/ha 
+solo (1510 g/ha de phosphonates de potassium) a montré 55% (ab) d’efficacité, sensiblement à égalité 
+avec la référence de synthèse JUVENTUS 0.7l/ha 56% (ab), lui-même précédé de peu par THIOPRON 
+RAINFREE 3 l/ha à 59% (ab) d’efficacité. PYGMALION 3l/ha solo (2265 g/ha de phosphonates de 
+potassium) a montré 61% (ab) d’efficacité soit +6 points (NS) d’écart avec la dose de 2 l/ha. Aux deux 
+premiers rangs se hissent les associations THIOPRON RAINFREE 3l/ha + PYGMALION 2 l/ha avec 
+65% (ab) d’efficacité et à + 5 points (NS) d’effet dose THIOPRON RAINFREE 3l/ha + PYGMALION 3 
+l/ha avec 70% (ab) d’efficacité. 
+Dans le regroupement pluriannuel de 6 essais sur la période 2022-2025, l’application unique en T2 de 
+KARDIX 0.7 l/ha constitue la base de référence avec 51% (b) d’efficacité sur septoriose avec un 
+rendement de 100.5 q/ha (ab). L’application de 2450 g/ha de soufre en T1 sous forme d’HELIOSOUFRE 
+3.5 l/ha a atteint une efficacité de 67% (a) soit un écart de + 16 points (S) et un rendement de 103.6 q/ha 
+(a) soit + 3.1 q/ha (NS). Avec 1200 g/ha de soufre associé à 600 g/ha de phosphonates de potassium, 
+la formulation prête à l’emploi AQUICINE DUO 2.0 l/ha a obtenu une efficacité équivalente de 64% 
+(ab) soit + 13 points (NS) de mieux que la référence T2 solo et un rendement de 102.7 (a) soit + 2.2 
+q/ha (NS).  
+Observons qu’une seconde application de ces solutions de biocontrôle en T2 en mélange avec 
+KARDIX 0.75 l/ha a été testée sur l’essai de Mormant (77). Elle a permis de faire progresser l’efficacité 
+du contrôle septoriose de +10 points (NS) pour THIOPRON RAINFREE 3l/ha (1 fois en T1 puis de 
+nouveau en T2) comme de +8 points (NS) pour AQUICINE DUO 1.5 l/ha. Cela prouve aussi que les 
+substances de biocontrôle conservent leur efficacité contre la septoriose à tous les stades. La question 
+ 
+ 
+ 
+2 Les lettres qui suivent les efficacités et les rendements correspondent aux groupes homogènes issus des analyses statistiques 
+réalisées. Deux modalités qui n’ont aucune lettre en commun peuvent être déclarées significativement différentes. Si au moins une 
+lettre est commune, la statistique ne permet pas de conclure que l’écart qui sépare les deux modalités est différent de zéro. L’écart est 
+alors non significatif et noté (NS).  
+
+
+PDF_PAGE=8
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  8l15 
+- plus difficile - est alors de savoir si cette protection peut ou non être suffisante pour assurer un 
+fonctionnement optimal des feuilles qui contribuent le plus au remplissage de l’épi. 
+ 
+Septoriose : plus de 30 points d'écarts d'efficacité entre des 
+substances actives utilisées en T2 confrontées à des souches 
+résistantes et les nouveaux modes d'action originaux en 
+développement 
+Le regroupement des 3 essais de lutte contre la septoriose 2025 ; où seule cette maladie était 
+présente, a montré des efficacités comprises entre 40% (cd) et 63% (abc) pour les références 
+actuellement disponibles, et jusqu’à 74% (ab) pour la meilleure modalité comportant une nouvelle 
+substance active en développement sous numéro. C’est une association de 90 g/ha 
+mefentrifluconazole [FRAC 3] + 45 g/ha fluxapyroxade [FRAC 7]3 qui s’est placée en tête des références 
+disponibles avec 63% (abc) d’efficacité pour la dose REVYSTAR XL 0.9 l/ha et une efficacité en retrait 
+de 8 points (NS) soit 55% (abcd) pour la dose REVYSTAR XL 0.75 l/ha (75 g/ha + 38 g/ha). Entre ces 
+deux doses s’est placée, avec 61% (abcd) d’efficacité, l’association bixafène 50 g/ha [FRAC 7] + 
+fluopyrame 50 g/ha [FRAC 7] + fenpicoxamide 50 g/ha [FRAC 21] appliquée avec SILVRON 0.5l/ha + 
+JESSICO ONE 1 l/ha. La même combinaison bixafène 52 g/ha + fluopyrame 52 g/ha a montré une 
+efficacité en retrait de 12 points (NS) soit 49% (bcd), lorsqu’elle était associée, non plus au 50 g/ha de 
+fenpicoxamide, mais à 104 g/ha de prothioconazole + 80 g/ha de pyraclostrobine apportés par 
+KARDIX 0.8 l/ha + QUIBILIUM 0.4 l/ha. Notons que la présence de pyraclostrobine – qui ne 
+revendique pas d’effet notable sur la septoriose - dans la composition se justifie pour en faire une 
+solution plus polyvalente, apte à contrôler une éventuelle attaque de rouille brune (mais cette dernière 
+est restée absente dans chacun des 3 essais).  
+En milieu de classement avec 51% d’efficacité (bcd) on trouve l’association de 50 g/ha de 
+fenpicoxamide [FRAC 21] + 50 g/ha de benzovindiflupyr [FRAC 7] appliqués avec QUESTAR 1 l/ha + 
+ELATUS PLUS 0.5l/ha. Dans la modalité UNIVOQ 1l/ha, le même grammage de 50 g/ha de 
+fenpicoxamide est associé non plus à 50 g/ha benzovindiflupyr [FRAC 7] mais à 100 g/ha de 
+prothioconazole [FRAC 3 ] ; son efficacité recule à 41% (cd) soit un retrait de 10 points . Dans la modalité 
+ELATUS ERA 0,75 l/ha qui termine la série des références avec une efficacité de 40% (cd) on retrouve 
+comme dans la modalité QUESTAR 1 l/ha + ELATUS PLUS 0.5l/ha un grammage de 56 g/ha de 
+benzovindiflupyr [FRAC 7] associé, non plus à 50 g/ha de fenpicoxamide [FRAC 21], mais à 113 g/ha 
+de prothioconazole [FRAC 3] la baisse d’efficacité correspondant à ce changement de partenaire est 
+de - 11 points (NS). 
+D’autres modalités à base de solutions en cours de développement étaient testées dans ces 3 essais 
+2025 aux côtés des références dont nous venons de parler : trois d’entre elles occupent les 
+premières marches du podium, jusqu’à +11 points d’efficacité (NS) devant les solutions actuelles 
+les plus efficaces dans ces essais. C’est l’association de 83 g/ha de pydiflumetofen (ADEPYDIN ™) 
+[FRAC 7] à 50 g/de fenpicoxamide [FRAC 21] du FB1805 (APN03) 1.33 l/ha + QUESTAR 1 l/ha qui 
+arrive en tête de ces essais avec 74% d’efficacité (ab). Cette solution associe deux substances actives, 
+non encore utilisée pour la première, récente pour la seconde, pour lesquelles il n’y a pas encore de 
+résistance connue et qui ont toutes deux montré leurs bonnes efficacités dans les essais ARVALIS.  
+Suit, avec une efficacité de 66% (abc), l’association du même pydiflumetofen 83 g/ha, avec 100 g/ha de 
+prothioconazole apportée par FB1806 (APN04) 1.33 l/ha. Par rapport à la modalité de tête, le 
+ 
+ 
+ 
+3 Le code FRAC fait référence à la classification des substances actives fongicides selon leur profil de résistance croisée et leur mode 
+d’action établie par un groupe d’experts internationaux https://www.frac.info/media/ljsi3qrv/frac-code-list-2025.pdf  
+
+
+PDF_PAGE=9
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  9l15 
+remplacement du partenaire 50 g/ha de fenpicoxamide par 100 g/ha de prothioconazole s’est traduit 
+par un recul de 8 points d’efficacité. Le regroupement de 6 essais conduits en 2024 et 2025 confirme 
+un écart de 10 points entre ces deux modalités, qui toutes deux cependant, devancent 
+significativement les références disponibles. 
+La solution en cours de développement chez SUMITOMO PHILAGRO FB1921 (PAVECTO 60) 1.2 l/ha 
++ FB2514 (PHF1911) se place dans le trio de tête avec 64% (abc) d’efficacité. La nouvelle substance 
+active, le metyltetraprole en cours d’inscription y est appliquée à raison de 72 g/ha en association avec 
+un partenaire qui doit encore rester codé. Les bonnes performances sur la septoriose de cette 
+association testée depuis 2022 se confirment année après année : son efficacité de 69% (a), et son 
+rendement 89.8 q/ha (a) devancent significativement ceux des références REVYSTAR XL 0.75 l/ha (47% 
+b, 85.6 q/ha ab) et ELATUS ERA 0.75 l/ha (44% b ; 83.0 q/ha b).  
+Deux autres formulations développées par BASF à base de mefentrifluconazole étaient 
+également testées sous numéros en 2025. Elles ont montré des efficacités proches des références 
+disponibles REVYSTAR XL 0.75 l/ha (55% abcd) et 0.9 l/ha (63% abc) : l’association méfentrifluconazole 
+50 g/ha [FRAC 3] + soufre 1 200 g/ha [FRAC 2] + pyraclostrobine 101 g [FRAC 11] + fluxapyroxade 50 
+g [FRAC 7] de la modalité FB2405 (BAS 76800 F) 2 l/ha + PRIAXOR EC 0.67 l/ha a obtenu une 
+efficacité de 54% (abcd). La combinaison méfentrifluconazole 48 g/ha + pyraclostrobine 50 g/ha + 
+fenpicoxamide 50 g/ha du mélange FB2107 (LOMARA, second nom de ISIX) 0.5 l/ha + QUESTAR 
+1l/ha, avec une efficacité de 60% (abcd). 
+Le classement d’efficacité contre la septoriose observé sur les 3 essais menés en 2025 se retrouve 
+consolidée sur un effectif plus important d’essais et de situations dans les analyses pluriannuelles des 
+modalités déjà testées les années antérieures.  
+Les analyses statistiques réalisées sur les modalités communes à 12 essais septoriose menés sur la 
+période 2021-2025 mettent en évidence des performances en retrait (efficacité 43% b ; rendement 
+79.2 q/ha b) de la modalité ELATUS ERA 0.75 l/ha appliquant 56 g/ha de benzovindiflupyr [FRAC 7] + 
+113 g/ha de prothioconazole [FRAC 3]. Sa comparaison avec la modalité QUESTAR 1 l/ha + ELATUS 
+PLUS 0.5 l/ha (efficacité 58% a ; rendement 85.9 a) comportant 50 g/ha de benzovindiflupyr [FRAC 7] 
++ 50 g/ha fenpicoxamide [FRAC 3] montre l’intérêt du partenaire fenpicoxamide (50 g/ha) [FRAC 21] 
+par rapport au prothioconazole (113 g/ha) [FRAC 3]. Comme toutes les autres triazoles, l’efficacité du 
+prothioconazole est affectée par la présence des souches de septoriose hautement résistantes aux 
+triazoles (TriHR), ainsi qu’à la présence de souches présentant des résistances croisées à plusieurs 
+matières actives (MDR). Ces souches de septoriose hautement résistantes aux triazoles sont aujourd’hui 
+généralisées dans respectivement 100% et 93% des populations analysées. Avec un mode d’action QiI 
+[FRAC 21] bien différent vis-à-vis duquel aucune souche résistante n’a été détectée à ce jour, dans les 
+suivis, la fenpicoxamide conserve son efficacité dans ces situations. 
+Sans que les différences avec la modalité précédente ne soient statistiquement significatives, c’est 
+associée à deux autres SDHI [FRAC 7] (bixafène 50 g/ha et fluopyram 50/ha) que la fenpicoxamide à 50 
+g/ha de la modalité SILVRON 0.5 l/ha + JESSICO ONE 1 l/ha devance la précédente avec 64% (a) 
+d’efficacité et 86.1 q/ha (a). L’association de la référence REVYSTAR XL 0.75 l/ha (efficacité 58% a ; 
+83.7 q/ha) reste dans la course, quelque peu en retrait mais dans le même groupe statistique.  
+Analysée dans le regroupement de 6 essais conduits en 2024 et 2025, l’association prothioconazole 
+104 g/ha + bixafène 52 g/ha fluopyram 52 g/ha + pyraclostrobine 80 g/ha de la modalité KARDIX 0.8 
++ QUIBILIUM 0.4 l/ha a obtenu des performances (efficacité 43% ab, rendement 77.6 q/ha a) à 
+quelques points (NS) en retrait sur la référence REVYSTAR XL 0.75 l/ha (47% a, 79.5 q/ha a).  
+ 
+ 
+ 
+
+
+PDF_PAGE=10
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  10l15 
+Rouille jaune : les possibilités d'alternance des modes d'actions se 
+jouent dès le choix des premières interventions fongicides  
+La rouille jaune a été bien présente, avec une pression moyenne à localement élevée, sur une large 
+bande traversant du nord au sud la zone médiane du territoire national (des Hauts-de-France, pour 
+inclure l’Ile-de-France, le Centre-Val-de-Loire, les Pays-de-Loire, le Poitou-Charentes, le Limousin et Lot 
+et Garonne, Gers et Hautes-Pyrénées). C’est en Aquitaine qu’elle a rencontré les conditions climatiques 
+les plus favorables pour y exercer une pression élevée. A l’inverse les pressions rouille jaune sont 
+restées faibles à l’ouest en Bretagne, en Normandie, et à l’est (Grand-Est, parties est des régions 
+Bourgogne-Franche-Comté, Auvergne-Rhône-Alpes et Occitanie). Pour ces dernières régions, les 
+départements limitrophes de l’ouest ont fait exception avec le signalement d’une pression moyenne.  
+Rappelons pour commencer qu’un des leviers les plus efficaces pour lutter contre la rouille jaune 
+reste l’adoption de variétés tolérantes à cette maladie. L’offre se développe année après année.  
+Dans nos essais 2025, menés sur variétés sensibles à la rouille jaune, les nuisibilités sont comprises 
+entre 12 et 17 quintaux. La rouille jaune s’y est développée tardivement, au courant du mois de mai, 
+après l’application T2. Sur le regroupement de 2 essais 2025, dans ce contexte particulier, une 
+application T2 unique à BBCH 44-45 d’ELATUS ERA 0.8 l/ha (60 g/ha benzovindiflupyr [FRAC 7] + 120 
+g/ha de prothioconazole [FRAC 3]) a suffi pour contrôler la rouille jaune avec 81% d’efficacité. Dans ces 
+contextes d’attaques tardives, une application de JUVENTUS 1 l/ha (90 g/ha de metconazole [FRAC 
+3]) en T1 à BBCH 33-37 préalable au T2 ELATUS ERA 0.8 l/ha, lui-même efficace sur rouille jaune, n'a 
+pas été valorisée (83%). La comparaison de cette dernière modalité à un programme T1/T2 JUVENTUS 
+1 l/ha / SESTO 1.5 l/ha (folpel 750 g/ha), lequel ne revendique pas d’efficacité sur rouille jaune, a 
+montré une baisse d’efficacité à 68% soit -15 points (NS) associé à une perte de rendement -4.5 q/ha. 
+D’autres solutions ont été comparées en T1 à BBCH 33-37, préventivement à l’apparition des premières 
+pustules, et toujours en présence de la même application SESTO 1.5 l/ha en T2 : 
+• Côté triazoles seules, les performances obtenues avec les 300 g/ha de bromuconazole [FRAC 3] 
+du WASAN 1l/ha apparaissent équivalentes à celles des 90 g/ha de metconazole [FRAC 3] du 
+JUVENTUS 1l/ha (66% vs 68% d’efficacité avec 82.2 q/ha vs 81.7 q/ha). Ainsi ces triazoles offrent 
+une possibilité de contrôler l’installation de la rouille jaune en T1, en se réservant la possibilité 
+d’utiliser une strobilurine en T2 si la dynamique de la maladie le justifie ou en situation à risque 
+pour l’autre rouille, la brune. 
+• Côté strobilurines, les 125 g/ha d’azoxystrobine seules d’AMISTAR 0.5 l/ha solo ont montré une 
+efficacité de 67% et un rendement de 82.9 q/ha équivalents aux deux triazoles précédentes. En 
+mélange avec AQUICINE DUO 1.5 l/ha (900 g/ha soufre [FRAC 11] + 450 g/ha phosphonates de 
+potassium [FRAC M02)], AMISTAR 0.5 l/ha (125 g/ha d’azoxystrobine) a montré une efficacité au 
+moins égale, si ce n’est légèrement supérieure de 72% avec 83.0 q/ha. Des performances 
+équivalentes (72% d’efficacité, 81.9 q/ha) sont obtenues avec 150 g/ha d’azoxystrobine en 
+mélange avec 750 g/ha de folpel appliqués avec BELLALI 2 l/ha. Dans ces associations, l‘action 
+de l’azoxystrobine sur la rouille jaune est complétée par celle sur la septoriose du soufre, des 
+phosphonates de potassium et du folpel. Ces partenaires ont l’avantage d’un mode d’action 
+multisite bien adapté au T1 : ils ne sélectionnent pas de résistances et laissent tout le choix des 
+matières actives utilisables pour les applications suivantes T2 et T3 lorsqu’elle est nécessaire.     
+D’autres associations ont également été testées dans ce même regroupement d’essais 2025 : ni les 158 
+g/ha du prothioconazole [FRAC 3], ni les 79 g/ha de trifloxystrobine [FRAC 11], associés dans la 
+modalité MADISON 0.9 l/ha, n’ont permis d’exercer un contrôle à plus de 58% des symptômes de 
+rouille jaune (80.4 q/ha). Les 60 g/ha de fluoxastrobine [FRAC 11] associés avec 120 g/ha de 
+prothioconazole [FRAC 3] du FANDANGO S 1.2 l/ha se sont montrés aussi efficaces (73% ; 82.4 q/ha) 
+que les modalités à base de 125 et 150 g/ha d’azoxystrobine présentées ci-dessus. Mais c’est à la dose, 
+plus élevée, de 200 g/ha d’azoxystrobine associés à 150 g/ha de prothioconazole dans le MAXENTIS 
+1l/ha qu’un niveau de 81% d’efficacité (82.7 q/ha) est atteint.  
+
+
+PDF_PAGE=11
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  11l15 
+Le choix des substances actives pour la première intervention fongicide impose - pour limiter la 
+progression des souches résistantes des autres maladies présentes - de ne plus recourir aux mêmes 
+substances actives, ni aux mêmes modes d’actions dans les applications fongicides suivantes. En 
+application de ce principe, si l’on choisit une solution contenant du prothioconazole, il faudra éviter 
+d’utiliser de nouveau cette molécule en T2 ou en T3, ce qui n’est pas si simple, en particulier si une 
+intervention devient nécessaire pour gérer les risques de fusarioses et leurs mycotoxines.  
+ 
+Rouille brune : bien positionnées, plusieurs solutions 
+actuellement disponibles ont fait preuve de 76% à 97% d'efficacité 
+en essais 
+Les conditions climatiques de 2025 ont été particulièrement favorables au développement de la 
+rouille brune : sur l’ensemble du territoire national, les pressions ont été moyennes à élevées, tout 
+particulièrement dans les départements de Normandie, de Picardie et du Nord mais également 
+d’Alsace. Les pustules de rouille brune, souvent discrètes jusque début mai, ont ensuite montré une 
+progression explosive. Même dans ce contexte d’attaques tardives, la nuisibilité de la maladie a 
+souvent été forte. Dans nos essais 2025, conduits, il est vrai, sur des variétés sensibles, les pertes de 
+rendement ont été comprises entre 20 et 30 q/ha entre la meilleure modalité protégée et le témoin 
+sans protection. Un résultat d’essai avec 44 q/ha de perte nous a même été présenté par une firme. 
+Face à une maladie de dynamique aussi explosive, la clé principale de succès reste le positionnement 
+sans retard des traitements fongicides dès les premières pustules pour en contrôler la propagation. 
+Nos protocoles d’essais 2025 visaient à comparer les solutions de protection dès le seuil d’intervention 
+atteint, ou à défaut de réaliser l’application au plus tard à gonflement : aussi dans le contexte des essais 
+cela correspond à un positionnement préventif. 
+Dans le regroupement pluriannuel de 6 essais sur la période 2021-2025, la référence ELATUS ERA 
+0.75 l/ha (benzovindiflupyr 56 g [FRAC 7] + prothioconazole 113 g [FRAC 3]) montre un niveau correct 
+d’efficacité de 79% (b) et un rendement de 79.0 q/ha (b). Deux autres références se sont montrées plus 
+efficaces pour contrôler la rouille brune : sans strobilurine, REVYSTAR XL 0.9 l/ha a obtenu une 
+efficacité de 86% (ab) et 80.9 q/ha (ab) ; mais c’est associé à une strobilurine que REVYSTAR XL 0.7 
+l/ha + COMET 200 0.35 l/ha (70 g/ha pyraclostrobine [FRAC 11]) a atteint l’efficacité de 93% (a) et 
+83.3 q/ha(a). Avec ses 200 g/ha d’azoxystrobine + 150 g/ha de prothioconazole, les performances de 
+MAXENTIS 1 l/ha restent du même ordre : 80% d’efficacité (b) et 80.5 q/ha (ab).  
+Quelques solutions n’ont assuré, à elles seules, qu’un contrôle partiel de la rouille brune 
+significativement inférieur à celui des références communes aux protocoles d’essais : ELATUS ERA 
+0.75 (groupe statistique b) ; REVYSTAR XL 0.9 l/ha (groupes a ou ab) et REVYSTAR XL 0.7 l/ha + 
+COMET 0.35 l/ha (groupe a). Pour d’autres modalités, il sera nécessaire de les compléter par un 
+partenaire adapté en cas d’attaque. 
+Appliqué seul, KARDIX 0.8 l/ha (bixafène 52g/ha [FRAC 7] + fluopyrame 52g/ha [FRAC 7] + 
+prothioconazole 104 g/ha [FRAC 3]) a montré, sur un regroupement de 4 essais 2023-2025, qu’un 
+contrôle très partiel de la rouille brune (efficacité 51% c; 63.9 q/ha b), mais renforcé par une strobilurine 
+(80 g/ha pyraclostrobine [FRAC 11]), l’efficacité de l’association KARDIX 0.8 l/ha + QUIBILIUM 0.4 
+l/ha remonte de +16 points (efficacité 87% a, 74.6 q/ha a) et pour atteindre le niveau de la meilleure 
+référence REVYSTAR XL 0.7 l/ha + COMET 200 0.35 l/ha.  
+D’autres regroupements montrent une efficacité significativement supérieure des références citées ci-
+dessus par rapport aux modalités bixafène 50 g/ha [FRAC 7] + fluopyram 50 g/ha [FRAC 7] + 
+fenpicoxamide 50 g/ha [FRAC 21] appliqués par SILVRON 0.5 l/ha + JESSICO ONE 1l/ha (efficacité 
+53% c; 73.4 q/ha c) ; prothioconazole 100 g/ha [FRAC 3] + fenpicoxamide 50 g/ha [FRAC 21] de 
+l’UNIVOQ 1/ha (efficacité 63% c; 74.0 q/ha b) ; benzovindiflupyr 50 g/ha [FRAC 7] + fenpicoxamide 50 
+g/ha [FRAC 21] de QUESTAR 1l/ha + ELATUS PLUS 0.5 l/ha (efficacité 77% c ; 71.3 q/ha b) qui 
+s’avèrent moins efficaces. 
+
+
+PDF_PAGE=12
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  12l15 
+C’est avec le renfort d’une strobilurine que la modalité AVASTEL 0.8 l/ha +AMISTAR 0.4l/ha 
+(prothioconazole 120 g/ha [FRAC 3] + fluxapyroxade 60 g/ha [FRAC 7] + azoxystrobine 100 g/ha [FRAC 
+11]), s’est montrée équivalente sur rouille brune à REVYSTAR XL 0.9 l/ha (même efficacité, même 
+rendement dans le regroupement de 3 essais 2024-2025). 
+Très remarquée pour son classement régulier aux premières marches du podium des efficacités sur 
+septoriose, la formulation FB1806 (APN04) à base d’ADEPYDIN ™ de SYNGENTA, en cours de 
+développement, contrôle aussi la rouille brune, mais avec moins de brio. Sur un regroupement de 4 
+essais 2023-2025 la pleine dose de FB1806 (APN04) 2 l/ha (125 g/ha pydiflumetofen [FRAC 7] + 150 
+g/ha prothioconazole [FRAC 3]) a montré une efficacité de 67% (c) et un rendement de 68.3 q/ha (ab). 
+A la dose réduite de 1.33 l/ha (83 g/ha pydiflumetofen [FRAC 7] + 100 g/ha prothioconazole) encore 
+très efficace sur septoriose, son efficacité sur rouille brune a chuté de -9 points (58% (c) avec un 
+rendement de 65.1 q/ha (b)). Ses performances sont ainsi en net retrait par rapport aux références 
+aujourd’hui disponibles, que ce soit, sans strobilurine ELATUS ERA 0.75 l/ha (efficacité 76% b ; 70.7 
+q/ha ab), REVYSTAR XL 0.9 l/ha (efficacité 86% a ; 72.7 q/ha a), ou avec strobilurine REVYSTAR XL 
+0.7 l/ha + COMET 200 0.35 l/ha (efficacité 89% a ; 74.0 q/ha a).  
+ 
+Fusarioses de l'épi : pas ou très peu présentes en 2025 
+Les conditions climatiques de 2025, et plus particulièrement les faibles précipitations autour de la 
+floraison des blés ont été peu favorables à la contamination des épis et au développement des 
+Fusarium spp. et Microdochium spp. Dans toutes les régions, les symptômes sont le plus souvent 
+restés totalement absents ou de très faible intensité sur blé tendre et à peine plus élevés sur blé 
+dur. Les analyses de grains à la récolte ont confirmé une très faible présence de mycotoxines, 
+bien souvent en dessous même des seuils de détection des méthodes d’analyse. Les contaminations 
+au-dessus des seuils sont restées très exceptionnelles. 
+Les essais sur blé tendre et sur blé dur ARVALIS 2025, pourtant contaminés artificiellement puis 
+brumisés pour la plupart, ne font pas exception. En raison de l’absence de maladie sur certains sites et 
+de la trop faible pression dans l’autre, il n’est guère possible de discriminer les protections fongicides 
+mises en comparaison.  
+ 
+Orges d'hiver : un complexe parasitaire variable selon les 
+conditions climatiques et les sensibilités des variétés cultivées  
+En orges d’hiver également, le complexe parasitaire 2025 a été dominé par une rouille : la rouille 
+naine. Celle-ci s’est développée avec une intensité élevée dans les départements du Cher, Indre, 
+Vienne, Creuse et Corrèze. Cette rouille a également été bien présente mais avec une intensité 
+moyenne en Champagne, Bassin-Parisien, Normandie, Pays-de-Loire, Poitou-Charentes et le nord-
+ouest de l’Occitanie. Dans les autres régions cette maladie est restée de faible intensité, ou même 
+absente. Les conditions rencontrées dans la plupart des régions ont été peu favorables au 
+développement de l’helminthosporiose et de la rhynchosporiose. Leurs attaques, lorsqu’elles ont 
+été observées, sont généralement restées de faibles intensités. L’helminthosporiose a cependant 
+trouvé des conditions plus favorables à des pressions moyennes du Poitou-Charentes au sud-ouest. 
+Des attaques de rhynchosporiose d’intensités moyennes ont été signalées en Champagne-Ardenne et 
+Poitou-Charentes. Après l’année 2024 où une pression élevée de ramulariose était généralisée sur 
+l’ensemble du territoire national, la maladie est retombée à un niveau faible dans la majorité des 
+régions. La Bretagne et le sud-ouest se distinguent toutefois par des attaques de moyenne intensité. 
+Les départements du Lot, Tarn et Aveyron ont même été soumis à pressions élevées de ramulariose.  
+
+
+PDF_PAGE=13
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  13l15 
+Que ce soit dans les essais 2025 autant que dans les regroupements pluriannuels, toutes les solutions 
+comparées4 en application T2 à BBCH 39-49, et après une même protection T1 UNIX MAX 0.6 l/ha + 
+MELTOP ONE 0. 3l/ha (180 g/ha cyprodinil [FRAC 9] +225 g/ha fenpropidine [FRAC 5]), ont permis de 
+contrôler la rouille naine avec des efficacités comprises entre 85% et 97%. Dans le regroupement de 
+3 essais 2024-2025 des performances très proches ont été obtenues sur rouille naine par les références 
+REVYSTAR XL 0.7 l/ha + COMET 200 0.35 l/ha (85% a et 77.4 q/ha ab) ; ELATUS ERA 0.7 l/ha + 
+AMISTAR 0.35 l/ha (87% a, 76.4 q/ha b), KARDIX 0.7 l/ha + QUIBILIUM 0.35 l/ha (89% a ,76.9 q/ha 
+b). Les projets en développement se placent devant en efficacité comme en rendement : FB1806 
+(APN04) 1.33 l/ha (94% a ; 82.4q/ha a) et FB1921 (PAVECTO 60) 1.2 l/ha + FB2513 (PHF1913) (97% 
+a, 84.0 q/ha a). 
+Dans d’autres regroupements d’essais FB2405 (BAS 76800 F) 2 l/ha + PRIAXOR EC 0.67 l/ha a fait 
+preuve d’une efficacité sur de 92% sur rouille naine et de 61% sur la ramulariose.  
+Plus difficile à contrôler, la ramulariose met en évidence des écarts plus importants entre les solutions 
+testées. Sur le regroupement de 7 essais 2019-2025, 105 g/ha de prothioconazole [FRAC 3] + 53 g/ha 
+de benzovindiflupyr [FRAC 7] + 88 g/ha d’azoxystrobine [FRAC 11] appliqués avec ELATUS ERA 0.7 
+l/ha + AMISTAR 0.35 l/ha n’ont pas dépassé 53% (c) d’efficacité sur ramulariose pour un rendement 
+de 96.6 q/ha (b). Avec 70 g/ha de mefentrifluconazole [FRAC 3] + 35 g/ha de fluxapyroxade [FRAC 7] 
++ 70 g/ha de pyraclostrobine [FRAC 11] appliqués avec REVYSTAR XL 0.7 l/ha + COMET 200 0.35 
+l/ha l’efficacité progresse significativement de +14 points à 67% (b) avec un rendement de 95.3 q/ha 
+(b). FB1806 (APN04) dès la dose de 1.33 l/ha (83 g/ha pydiflumetofen [FRAC 7] + 100 g/ha 
+prothioconazole [FRAC 3]) a contrôlé les symptômes de ramulariose avec 96% d’efficacité distançant 
+les références de + 29 points d’efficacité et + 6.3 q/ha. 
+Dans un regroupement un peu différent de 6 essais, 2021-2025, la modalité protégée avec 72 g/ha de 
+metyltetraprole [FRAC 11A] + partenaire appliqué avec FB1921(PAVECTO 60) 1.2 l/ha + FB2513 
+(PHF1913) a distancé significativement de +18 points d’efficacité la référence REVYSTAR XL 0.7 l/ha + 
+COMET 200 0.35 l/ha et de +30 points l’autre référence ELATUS ERA 0.7 l/ha + AMISTAR 0.35 l/ha.  
+Ces deux substances actives pydiflumetofen (ADEPYDIN ™) et metyltetraprole (PAVECTO 60 ™ en 
+cours de développement marqueront un progrès important dans le contrôle de la ramulariose.  
+Rhynchosporiose du triticale : de nouvelles références  
+Le triticale est cultivé sur environ 261 000 ha, principalement situés dans le Massif-Central, la Bretagne 
+et les Pays-de-Loire. Sa protection contre les maladies fait l’objet d’assez peu d’essais. Sur le plan 
+réglementaire, les usages fongicides autorisés sur triticale sont rattachés à ceux du blé5, et par 
+extension, les traitements foliaires approuvés contre la Rhynchosporiose (Rhynchosporium secalis) sont 
+ceux de l’usage septoriose du blé. Sur les deux dernières campagnes 2024 et 2025, les équipes 
+ARVALIS d’Auvergne, Bretagne et d’Occitanie ont remis en place 8 essais pour évaluer sur 
+Rhynchosporiose l’efficacité de solutions récemment autorisées sur cet usage. La Rhynchosporiose s’y 
+est développée avec une intensité de 46% avec une nuisibilité moyenne de 15.8 q/ha (écart de 
+rendement entre la meilleure modalité protégée 89.1 q/ha et le témoin sans fongicide 73.3 q/ha). 
+L’efficacité la plus élevée a été obtenue avec une première application fongicide dès les stades BBCH 
+31-33 de 63 g/ha de metconazole avec JUVENTUS 0.7 l/ha, suivie à BBCH 41-45 d’un T2 UNIVOQ 1 
+l/ha (100 g/ha prothioconazole+ 50 g/ha fenpicoxamide) : 77% (a) d’efficacité et 87.3 q/ha (ab), soit un 
+écart significatif de +19 points d’efficacité et +2.6 q/ha par rapport à une impasse T1 suivie du même 
+T2 UNIVOQ 1 l/ha (efficacité 58% cd ; 84.7 q/ha bc). Les autres solutions comparées ont toutes été 
+ 
+ 
+ 
+4 Parmi lesquelles AVASTEL 0.9 l/ha + SESTO 1.2 l/ha, YANILA 1.2 l/ha + COMET 200 0.35 l/ha  
+5 Catalogue des usages phytopharmaceutiques dans sa version du 9 avril 2025 : usage 15103221 Blé* trt Part.Aer*Septoriose(s) 
+Catalogue des usages phytopharmaceutiques | Ministère de l'Agriculture, de l'Agro-alimentaire et de la Souveraineté alimentaire 
+
+
+PDF_PAGE=14
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  14l15 
+appliquées en T2 unique à BCCH 41-45, en situation d’impasse T1 et donc probablement en 
+positionnement curatif.  
+Les modalités à base de fenpicoxamide 50 g/ha [FRAC 21] n’ont obtenu qu’un contrôle partiel de la 
+Rhynchosporiose, fortement dépendant de l’efficacité intrinsèque du partenaire associé : avec 50 g/ha 
+benzovindiflupyr [FRAC 7] + 50 g/ha fenpicoxamide, appliqués avec QUESTAR 1 l/ha + ELATUS PLUS 
+0.5 l/ha, l’efficacité ne dépasse pas 39% (e) et le rendement 81.1 q/ha (c). Avec 45 g/ha metconazole 
+[FRAC 3] + 50 g/ha fenpicoxamide de QUESTAR 1 l/ha + JUVENTUS 0.5 l/ha, l’efficacité progresse à 
+48% (de) et le rendement à 82.7 q/ha (c). C’est associés avec 100 g/ha de prothioconazole [FRAC 3] 
+que les 50 g/ha de fenpicoxamide ont donné leur meilleur résultat : 58% d’efficacité (cd) et 84.7 q/ha 
+(bc). Mais l’association de 113 g/ha de prothioconazole avec 56 g/ha de benzovindiflupyr [FRAC 7] de 
+l’ELATUS ERA 0.75 l/ha apparait au moins aussi efficace (59% cd) et atteint 85.0 q/ha (abc). Avec un 
+grammage plus élevé de 175 g/ha de prothioconazole et 250 g/ha de fenpropidine [FRAC 5] c’est la 
+modalité FORAPRO 1l/ha qui se place au premier rang des solutions actuellement disponibles testées 
+pour son efficacité (63% bc) mais avec un rendement de 84.5 q/ha (bc) atteint par plusieurs autres 
+modalités. A égalité de rendement (84.5 q/ha bc) mais avec une efficacité en léger retrait de – 5 points 
+(NS) (58% cd) se positionne une modalité sans prothioconazole composée des 75 g/ha de 
+mefentrifluconazole [FRAC 3] + 38 g/ha de fluxapyroxade [FRAC 7] du REVYSTAR XL 0.75 l/ha. Force 
+est de constater qu’en positionnement T2 unique toutes les solutions actuellement disponibles testées 
+obtiennent des efficacités significativement inférieures à celles obtenues par la modalité protégée dès 
+le stade BBCH 31-33 précédemment présentée.  
+Fait toutefois exception la formulation FB1806 (APN04) à base d’ADEPYDIN ™ en cours de 
+développement également testée dans ces essais à 1.33 l/ha (83 g/ha pydiflumetofen [FRAC 7] + 100 
+g/ha prothioconazole [FRAC 3]) qui, en pulvérisation T2 unique à BBCH 41-45, a obtenu le rendement 
+le plus élevé de l’essai de 89.1 q/ha (a) avec 76% (ab) d’efficacité. L’écart avec la meilleure solution 
+actuelle appliquée dans les mêmes conditions est significatif (+ 4 q/ha). Ce résultat sur la 
+rhynchosporiose du triticale s’ajoute à ceux déjà disponibles pour confirmer le large spectre de 
+maladies sur lequel ce projet fait preuve d’une efficacité supérieure aux références actuelles. Mais il 
+faudra patienter au moins jusqu’en 2026, s’il n’y a ni délai d’évaluation, ni ’embûche, pour que la 
+première formulation de pydiflumetofen ne soit autorisée. 
+  
+ 
+ 
+ 
+
+
+PDF_PAGE=15
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 25 novembre 2025  15l15 
+ANNEXE - Recommandations pour ralentir la 
+progression des résistances aux fongicides 
+D’après la note commune 2025 INRAE, Anses, ARVALIS. 
+Observer la résistance aux fongicides des céréales et formuler des recommandations adaptées pour 
+en retarder l’émergence et la progression. 
+Nos recommandations visent en première intention à limiter la pression de maladie en encourageant 
+le recours à la prophylaxie, aux variétés résistantes et aux outils d’aide à la décision, pour limiter le 
+recours aux traitements et leurs effets non-intentionnels. 
+• 
+Préférer des variétés peu sensibles aux maladies, en priorisant la résistance aux maladies ayant 
+le plus d’impact sur le rendement, ou sur la qualité sanitaire et/ou permettant de réduire l’usage 
+des fongicides. Le recours à des variétés résistantes à la fois à la rouille jaune et à la septoriose, 
+permet par exemple de supprimer systématiquement le premier traitement des blés et ainsi de 
+limiter la pression de sélection exercée par les fongicides. 
+• 
+Diversifier les variétés à l’échelle de l’exploitation, de la microrégion et d’une année sur l’autre 
+pour favoriser la durabilité des résistances génétiques et opposer des barrières à la dispersion 
+des résistances aux fongicides. 
+• 
+Privilégier les pratiques culturales permettant de réduire le risque parasitaire, notamment en 
+limitant l’inoculum primaire (ex : rotation, labour, date de semis, gestion des repousses de 
+céréales notamment dans l’interculture…) ou la progression de la maladie (densité, azote). 
+• 
+Ne traiter que si nécessaire, en fonction du climat, des conditions de culture, des prédictions 
+des modèles et des observations au champ. 
+Lorsque traiter est nécessaire : 
+• 
+Raisonner le positionnement des interventions en fonction du développement des maladies 
+grâce à des méthodes fiables d’observation et/ou de prévision du développement de 
+l’épidémie. 
+• 
+Limiter le nombre d’applications avec des substances actives de la même famille (caractérisées 
+généralement par une résistance croisée positive) au cours de la même campagne. De même, 
+dans le cas où une même substance active peut être utilisée en traitement de l’épi et en 
+traitement des semences, éviter si possible de cumuler deux traitements avec la même 
+molécule. 
+• 
+Diversifier les modes d’action en alternant ou en associant les substances actives dans les 
+programmes de traitements, pour minimiser le risque de développement de résistance. 
+• 
+Recourir lorsque cela est possible et utile aux fongicides multisites, moins susceptibles de 
+sélectionner des populations résistantes, en particulier sur septoriose. 
+• 
+Limiter de préférence l’utilisation des SDHI, des QiI et des QoI à une seule application par 
+campagne.  
+• 
+Éviter de recourir au même IDM, plus d’une fois par campagne pour prévenir la résistance et 
+en leur associant des molécules à mode d’action différent.  
+• 
+S’agissant des traitements de semences avec un SDHI, dès lors qu’il est revendiqué pour leur 
+usage une activité sur les maladies foliaires, ils ne doivent pas être suivis d’une application 
+foliaire fongicide contenant également un SDHI. 
+ 
+ 
+ 
+ 

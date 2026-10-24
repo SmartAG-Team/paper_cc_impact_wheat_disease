@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_hashes_verified": 68,
+  "source_hashes_unchanged": true,
+  "registered_artifact_hashes_verified": 52,
+  "registered_artifacts_unchanged": true,
+  "exact_original_hierarchy_weights": true,
+  "original20folds_complete": true,
+  "all40fits_converged": true,
+  "repository_tests": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 544,
+    "failed": 0,
+    "warnings": 7,
+    "seconds": 39.46,
+    "warnings_summary": "Existing NumPy generic-timedelta deprecation in process_model/sowing.py:30"
+  },
+  "test_source_sha256": "06e40f55513fa11fdee40ea2bc65f1be53b0ae53e8f149a7b7cfc074862cdf47",
+  "publication_promoted": false,
+  "baseline_preserved": true,
+  "climate_sources_unchanged": true
+}

@@ -1,0 +1,12 @@
+{
+  "whole_proxy_days": "own GS65-85 normalized post-latent affected-tissue integral; days",
+  "shared_proxy_days": "same integral over common calendar-date intersection across all options; days",
+  "whole_reference_days": "reference normalized top-three-leaf tissue area integrated over own GS65-85; days",
+  "shared_reference_days": "reference normalized tissue integrated on the all-option shared calendar interval; days",
+  "delta": "option minus unchanged sowing under identical GCM/year/draw weather; negative proxy delta denotes a smaller modeled symptom-tissue integral",
+  "grain_fill_days": "modeled inclusive GS65-85 window duration; days, not a measured grain-fill observation",
+  "grain_fill_mean_temperature_c": "mean daily mean air temperature during own GS65-85; degrees Celsius",
+  "grain_fill_tmax_above30_days": "count of days with Tmax >30 C during own GS65-85; descriptive exposure, not a calibrated heat stress or yield loss",
+  "gcm_ranges": "minimum-maximum among three specified climate models, not confidence intervals",
+  "repeated_numerical_results": "numerical CSVs are reproducibility/plot sources, not duplicate manuscript display tables"
+}

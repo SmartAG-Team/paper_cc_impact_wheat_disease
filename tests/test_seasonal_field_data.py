@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from calibration.seasonal_septoria.field_data import prepare_fields
+from models.calibration.seasonal_septoria.field_data import prepare_fields
 
 
 def source():

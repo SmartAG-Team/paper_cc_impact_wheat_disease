@@ -1,0 +1,9 @@
+source,variable,replaced_days,policy
+DWD,precipitation_mm,14626,measured complete UTC-day total precipitation
+DWD,rain_mm,14434,station total; Tmin>2C liquid assumption or original reanalysis liquid/total phase ratio; otherwise fallback
+NOAA_ISD,precipitation_mm,0,blocked: dry-only complete-day sample and/or provider condition-code ambiguity; retain reanalysis
+DWD,tmean_c,14846,valid station measurement; remaining days original forcing
+DWD,tmin_c,14846,valid station measurement; remaining days original forcing
+DWD,tmax_c,14846,valid station measurement; remaining days original forcing
+DWD,rh_mean_pct,14842,valid station measurement; remaining days original forcing
+DWD,rh_hours_ge_90pct,14842,valid station measurement; remaining days original forcing

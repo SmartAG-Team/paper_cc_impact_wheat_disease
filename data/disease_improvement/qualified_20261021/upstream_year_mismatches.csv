@@ -1,0 +1,5 @@
+source_line,Field,Date,SamplingUnit,latest_grain_date,assessment_year_matches_field,assessment_after_grain_record,status
+25895,2015-57,2014-05-25,LEAF 5,2015-08-24,False,False,already_absent_from_original_active_targets
+25896,2015-57,2014-05-25,LEAF 5,2015-08-24,False,False,already_absent_from_original_active_targets
+25897,2015-57,2014-05-25,LEAF 5,2015-08-24,False,False,already_absent_from_original_active_targets
+25898,2015-57,2014-05-25,LEAF 5,2015-08-24,False,False,already_absent_from_original_active_targets

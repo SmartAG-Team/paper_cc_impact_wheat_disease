@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "recipe": {
+    "strength": 0.75,
+    "temperature_scale": 1.0,
+    "temperature_mode": "relative_threshold"
+  },
+  "preferred_agc_candidate": "relative_threshold_s0.75_t1",
+  "historical_adopted": false,
+  "residual_adopted": false,
+  "future_guards_passed": 29,
+  "future_guards_total": 36,
+  "original_selection_sha256": "8304a66da6ca18d8f5415bbd8bbd7c2a307530ce687d07b754ca96276cbeb9f1"
+}

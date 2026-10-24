@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "saved_fold_replays": 20,
+  "maximum_prediction_difference": 0.0,
+  "original_memberships_support_preserved": true,
+  "no_new_model_fitting": true,
+  "previous_experiments_preserved": true,
+  "selected_by_user": true,
+  "source_unchanged": true,
+  "active_selection_sha256": "2ada8273d45875e73ea4d1e75e73ba576733dd12ea6c0436f21a10c64a41e095",
+  "artifacts_sha256": {
+    "assessment_predictions.csv": "e563b0cbcfc1934dc5a62e47d58120573701b63e758149aef04fbafed6194f30",
+    "paired_intervals.csv": "8890058a29bda0017392964810f3b64381b30c36fba740f62d8093f24856f649",
+    "metrics.csv": "689a4eda22ff6783558b401985ce0bf1a8ed2ce5fc496f187407527bc0d19fb6",
+    "spatial_predictions.csv": "ba83ed05ab79f490a7b16af8a108fbabbc08c12017d6b51496bea7156558d003",
+    "subgroup_metrics.csv": "a617cc79aa4757de8ea15303b88f2421cd078351e1e509fca8e446d267afab0a",
+    "selection.json": "2ada8273d45875e73ea4d1e75e73ba576733dd12ea6c0436f21a10c64a41e095"
+  }
+}

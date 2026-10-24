@@ -1,0 +1,5 @@
+source_id,population,n_trials,yield_gap_t_ha,STB_severity_reduction_pct,relative_yield_gain_pct,sampling_SE,comparator,causal_scope,pdf_page_one_based
+ARVALIS_dossier_2024,SY ADMIRATION; STB sensitivity rating 5,22.0,2.3,,,,best single fungicide application at full flag-leaf emergence vs no fungicide,treatment response within source; cultivar contrast not paired,4.0
+ARVALIS_dossier_2024,CHEVIGNON; STB sensitivity rating 7,16.0,1.6,,,,source fungicide-response comparison; exact cultivar site matching unavailable,between-cultivar descriptive context; not causal cultivar benefit,4.0
+Kristoffersen2020,all published trial treatments,406.0,,10.6,1.4,,four-cultivar mixture vs mean of its pure-stand component cultivars,mixture total effect; STB-mediated yield share unidentified,
+Kristoffersen2020,untreated-trial subgroup,,,17.0,2.4,,four-cultivar mixture vs mean of its pure-stand component cultivars,mixture total effect; STB-mediated yield share unidentified,

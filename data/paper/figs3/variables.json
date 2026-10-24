@@ -1,0 +1,5 @@
+{
+  "role": "yield_context",
+  "units": "Published fungicide yield gap, tonnes per hectare; annual summaries, not pure STB or independently pooled study effects.",
+  "caption": "Annual foliar-disease fungicide yield gaps in the French ARVALIS Performance network, 2004–2025. Bars show published annual treated-minus-untreated grain-yield differences, converted from quintals to tonnes per hectare; the dashed line is the equal-year mean. The source chart labels the series as septoriose, but the network also includes rust-dominated trials and cultivar composition changes. Year-specific fungicide programs are not standardized; disease-free controls are not established. The series therefore describes treatment-associated foliar-disease yield gaps rather than isolated STB losses. Annual sample sizes and sampling variances are unavailable; no confidence intervals are implied. Data: ARVALIS, Choisir & Décider, Interventions de printemps 2025–2026, Champagne-Ardenne, printed p.8 (PDF p.10); pathogen-scope qualification: 2022–2023 Synthèse nationale, printed p.89 (PDF p.90)."
+}

@@ -1,0 +1,17 @@
+Parameter,Value,Unit,Interpretation
+Primary establishment scale,0.001,source⁻¹ d⁻¹,Scales establishment from effective local and imported source.
+Secondary establishment scale,10,d⁻¹,Scales transmission from infectious tissue.
+Latent reference duration,20,reference d,Continuous-time mean of the latent chain.
+Latent compartments,3,count,Number of sequential latent compartments.
+Nonsporulating duration,3,reference d,Transfer from visible noninfectious to infectious tissue.
+Infectious duration,21,reference d,Transfer from infectious tissue to retained damage.
+Source maturation timescale,30,reference d,Conversion of unready to competent local source.
+Source decay timescale,90,reference d,Ageing of both local-source compartments.
+Initial competent fraction,0.5,fraction,Initial local source assigned to the competent compartment.
+Rank-distance scale,2,rank intervals,Exponential decay with distance between leaf ranks.
+Rain-response scale,2,mm,Scale of the saturating precipitation response.
+Local airborne weight,0.1,weight,Precipitation-independent term in local-source hazard.
+Contact multiplier,0.2,weight,Adjacent infectious-tissue contribution to hazard.
+Leaf-rank spacing,120,TPV units/rank,Spacing between final-leaf visibility thresholds.
+Imported pressure,0.1,relative source,Default pressure when explicit forcing is absent.
+Rain-duration divisor,0.45,mm h⁻¹,Converts daily precipitation into a wet-duration proxy.

@@ -1,0 +1,64 @@
+{
+  "tested_new_candidates": 3,
+  "retained_baseline": "discrepancy_logit",
+  "minimums_across_recent_registered_candidates": {
+    "temporal": {
+      "minimum_tested_overall_rmse": 16.964196070914863,
+      "overall_model": "endpoint_joint_mean",
+      "minimum_tested_severe_rmse": 30.18630786696947,
+      "severe_model": "endpoint_severe_priority2"
+    },
+    "spatial_50km": {
+      "minimum_tested_overall_rmse": 17.1894403325496,
+      "overall_model": "endpoint_joint_mean",
+      "minimum_tested_severe_rmse": 30.61114863153424,
+      "severe_model": "endpoint_severe_priority2"
+    }
+  },
+  "core_metric_frontier": [
+    {
+      "model": "baseline_prediction",
+      "temporal_overall_rmse": 17.151664891542353,
+      "temporal_severe_rmse": 32.51684824868262,
+      "temporal_severe_absolute_bias": 23.956149704395088,
+      "spatial_50km_overall_rmse": 17.30622057488964,
+      "spatial_50km_severe_rmse": 32.61203949733274,
+      "spatial_50km_severe_absolute_bias": 23.97699306314562,
+      "dominated_by_on_core_metrics": []
+    },
+    {
+      "model": "endpoint_joint_mean",
+      "temporal_overall_rmse": 16.964196070914863,
+      "temporal_severe_rmse": 33.2501990242453,
+      "temporal_severe_absolute_bias": 25.052782270049786,
+      "spatial_50km_overall_rmse": 17.1894403325496,
+      "spatial_50km_severe_rmse": 33.67005766633645,
+      "spatial_50km_severe_absolute_bias": 25.035636369464857,
+      "dominated_by_on_core_metrics": []
+    },
+    {
+      "model": "endpoint_native_growth",
+      "temporal_overall_rmse": 17.264249070378128,
+      "temporal_severe_rmse": 33.33244910616058,
+      "temporal_severe_absolute_bias": 24.57809279348689,
+      "spatial_50km_overall_rmse": 17.504814629393387,
+      "spatial_50km_severe_rmse": 33.73395790834053,
+      "spatial_50km_severe_absolute_bias": 24.833540834629027,
+      "dominated_by_on_core_metrics": [
+        "baseline_prediction"
+      ]
+    },
+    {
+      "model": "endpoint_severe_priority2",
+      "temporal_overall_rmse": 17.562615500191534,
+      "temporal_severe_rmse": 30.18630786696947,
+      "temporal_severe_absolute_bias": 21.35502161427722,
+      "spatial_50km_overall_rmse": 17.771007071672088,
+      "spatial_50km_severe_rmse": 30.61114863153424,
+      "spatial_50km_severe_absolute_bias": 21.374376075841884,
+      "dominated_by_on_core_metrics": []
+    }
+  ],
+  "claim_limit": "Observed tradeoffs across three recent registered extensions and the retained baseline; this does not estimate a theoretical or irreducible accuracy ceiling. The best overall and severe scores occur in different candidates.",
+  "decision": "Retain the restored baseline because no candidate jointly improves complete-cohort and severe-case performance in both designs."
+}

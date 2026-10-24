@@ -1,0 +1,3 @@
+evaluation,model,reference,lower,upper
+temporal,discrepancy_linear,irish_station_candidate,-0.0920986959282728,-0.0007986203697028993
+spatial_50km,discrepancy_linear,irish_station_candidate,-0.23473519170432366,-0.03151680921700655

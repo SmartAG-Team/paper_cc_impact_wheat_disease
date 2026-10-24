@@ -1,0 +1,4046 @@
+{
+  "research_date": "2026-10-23",
+  "manuscript_read": "publication/gcb_20261023/Manuscript.md",
+  "new_core_source_count": 22,
+  "new_gcb_source_count": 8,
+  "scope": "Read-only reference research; no manuscript, figure, model, library or provider data edits.",
+  "novelty_boundary": "Host-relative epidemic timing, crop-calendar effects on disease projections and canopy-based functional damage are established antecedents. The defensible distinctive result is the reversal of conditional host attribution when whole developmental-window integration is replaced by common elapsed-time support on identical factorial season pairs.",
+  "sources": [
+    {
+      "id": "GallegoTevar2024",
+      "doi": "10.1111/gcb.17535",
+      "year": 2024,
+      "title": "Interactive Effects of Climate Change and Pathogens on Plant Performance: A Global Meta-Analysis",
+      "authors": [
+        {
+          "given": "Blanca",
+          "family": "Gallego‐Tévar"
+        },
+        {
+          "given": "Marta",
+          "family": "Gil‐Martínez"
+        },
+        {
+          "given": "Antonio",
+          "family": "Perea"
+        },
+        {
+          "given": "Ignacio M.",
+          "family": "Pérez‐Ramos"
+        },
+        {
+          "given": "Lorena",
+          "family": "Gómez‐Aparicio"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Global Change Biology",
+      "volume": "30",
+      "issue": "10",
+      "pages_or_article": "e17535",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.17535",
+      "full_citation": "Gallego‐Tévar, B., Gil‐Martínez, M., Perea, A., Pérez‐Ramos, I. M., & Gómez‐Aparicio, L. (2024). Interactive Effects of Climate Change and Pathogens on Plant Performance: A Global Meta-Analysis. Global Change Biology, 30, e17535. https://doi.org/10.1111/gcb.17535",
+      "source_content_inspected": "publisher full text, Abstract and Discussion 4.1",
+      "supported_claim": "Non-additive climate–pathogen effects on plant performance were common in the meta-analysis; drought–pathogen combinations often showed antagonism, and responses varied among pathosystems.",
+      "suggested_placement": "Introduction paragraph 1–2; Discussion generalizability",
+      "claim_limits": "Does not establish the mechanism, sign or magnitude of the current wheat–STB simulations.",
+      "priority": "high",
+      "eligibility": "Global Change Biology, the target specialist global-change journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "10",
+        "DOI": "10.1111/gcb.17535",
+        "type": "journal-article",
+        "title": "Interactive Effects of Climate Change and Pathogens on Plant Performance: A Global Meta‐Analysis",
+        "volume": "30",
+        "author": [
+          {
+            "given": "Blanca",
+            "family": "Gallego‐Tévar"
+          },
+          {
+            "given": "Marta",
+            "family": "Gil‐Martínez"
+          },
+          {
+            "given": "Antonio",
+            "family": "Perea"
+          },
+          {
+            "given": "Ignacio M.",
+            "family": "Pérez‐Ramos"
+          },
+          {
+            "given": "Lorena",
+            "family": "Gómez‐Aparicio"
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/gcb.17535",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ],
+        "article-number": "e17535"
+      }
+    },
+    {
+      "id": "Vary2015",
+      "doi": "10.1111/gcb.12899",
+      "year": 2015,
+      "title": "The severity of wheat diseases increases when plants and pathogens are acclimatized to elevated carbon dioxide",
+      "authors": [
+        {
+          "given": "Zsolt",
+          "family": "Váry"
+        },
+        {
+          "given": "Ewen",
+          "family": "Mullins"
+        },
+        {
+          "given": "Jennifer C.",
+          "family": "McElwain"
+        },
+        {
+          "given": "Fiona M.",
+          "family": "Doohan"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Global Change Biology",
+      "volume": "21",
+      "issue": "7",
+      "pages_or_article": "2661-2669",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.12899",
+      "full_citation": "Váry, Z., Mullins, E., McElwain, J. C., & Doohan, F. M. (2015). The severity of wheat diseases increases when plants and pathogens are acclimatized to elevated carbon dioxide. Global Change Biology, 21, 2661-2669. https://doi.org/10.1111/gcb.12899",
+      "source_content_inspected": "publisher abstract",
+      "supported_claim": "Acclimation of both wheat and pathogens to elevated CO2 increased STB and Fusarium head blight severity under the tested experimental conditions.",
+      "suggested_placement": "Discussion omitted biological responses, cultivar/pathogen assumptions",
+      "claim_limits": "The experiment does not calibrate this model or justify a universal CO2 response for all wheat cultivars.",
+      "priority": "high",
+      "eligibility": "Global Change Biology, the target specialist global-change journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "7",
+        "DOI": "10.1111/gcb.12899",
+        "type": "journal-article",
+        "page": "2661-2669",
+        "title": "The severity of wheat diseases increases when plants and pathogens are acclimatized to elevated carbon dioxide",
+        "volume": "21",
+        "author": [
+          {
+            "given": "Zsolt",
+            "family": "Váry"
+          },
+          {
+            "given": "Ewen",
+            "family": "Mullins"
+          },
+          {
+            "given": "Jennifer C.",
+            "family": "McElwain"
+          },
+          {
+            "given": "Fiona M.",
+            "family": "Doohan"
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              20
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/gcb.12899",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ]
+      }
+    },
+    {
+      "id": "Zheng2016",
+      "doi": "10.1111/gcb.13118",
+      "year": 2016,
+      "title": "Velocity of temperature and flowering time in wheat – assisting breeders to keep pace with climate change",
+      "authors": [
+        {
+          "given": "Bangyou",
+          "family": "Zheng"
+        },
+        {
+          "given": "Karine",
+          "family": "Chenu"
+        },
+        {
+          "given": "Scott C.",
+          "family": "Chapman"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Global Change Biology",
+      "volume": "22",
+      "issue": "2",
+      "pages_or_article": "921-933",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.13118",
+      "full_citation": "Zheng, B., Chenu, K., & Chapman, S. C. (2016). Velocity of temperature and flowering time in wheat – assisting breeders to keep pace with climate change. Global Change Biology, 22, 921-933. https://doi.org/10.1111/gcb.13118",
+      "source_content_inspected": "publisher abstract",
+      "supported_claim": "Warming changes wheat flowering time through genotype-dependent vernalization and photoperiod responses and can alter alignment with seasonal stress.",
+      "suggested_placement": "Introduction paragraph 2; Discussion fixed cultivar/calendar scenario",
+      "claim_limits": "Australian wheatbelt study, not direct evidence for the European simulated advance.",
+      "priority": "high",
+      "eligibility": "Global Change Biology, the target specialist global-change journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "2",
+        "DOI": "10.1111/gcb.13118",
+        "type": "journal-article",
+        "page": "921-933",
+        "title": "Velocity of temperature and flowering time in wheat – assisting breeders to keep pace with climate change",
+        "volume": "22",
+        "author": [
+          {
+            "given": "Bangyou",
+            "family": "Zheng"
+          },
+          {
+            "given": "Karine",
+            "family": "Chenu"
+          },
+          {
+            "given": "Scott C.",
+            "family": "Chapman"
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              6
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/gcb.13118",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ]
+      },
+      "metadata_note": "Citation year uses the volume/issue year, rather than an earlier first-online year."
+    },
+    {
+      "id": "Menzel2020",
+      "doi": "10.1111/gcb.15000",
+      "year": 2020,
+      "title": "Climate change fingerprints in recent European plant phenology",
+      "authors": [
+        {
+          "given": "Annette",
+          "family": "Menzel"
+        },
+        {
+          "given": "Ye",
+          "family": "Yuan"
+        },
+        {
+          "given": "Michael",
+          "family": "Matiu"
+        },
+        {
+          "given": "Tim",
+          "family": "Sparks"
+        },
+        {
+          "given": "Helfried",
+          "family": "Scheifinger"
+        },
+        {
+          "given": "Regula",
+          "family": "Gehrig"
+        },
+        {
+          "given": "Nicole",
+          "family": "Estrella"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Global Change Biology",
+      "volume": "26",
+      "issue": "4",
+      "pages_or_article": "2599-2612",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.15000",
+      "full_citation": "Menzel, A., Yuan, Y., Matiu, M., Sparks, T., Scheifinger, H., Gehrig, R., & Estrella, N. (2020). Climate change fingerprints in recent European plant phenology. Global Change Biology, 26, 2599-2612. https://doi.org/10.1111/gcb.15000",
+      "source_content_inspected": "publisher abstract and Discussion",
+      "supported_claim": "European phenological records show warming-related advances and distinctions between climate-driven phenophases and farmers’ activities; generative periods shortened in agricultural crops.",
+      "suggested_placement": "Introduction paragraph 2; Discussion climate development versus management adaptation",
+      "claim_limits": "Does not validate the present model’s start gate, leaf ranks, flowering or terminal stage.",
+      "priority": "high",
+      "eligibility": "Global Change Biology, the target specialist global-change journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "4",
+        "DOI": "10.1111/gcb.15000",
+        "type": "journal-article",
+        "page": "2599-2612",
+        "title": "Climate change fingerprints in recent European plant phenology",
+        "volume": "26",
+        "author": [
+          {
+            "given": "Annette",
+            "family": "Menzel"
+          },
+          {
+            "given": "Ye",
+            "family": "Yuan"
+          },
+          {
+            "given": "Michael",
+            "family": "Matiu"
+          },
+          {
+            "given": "Tim",
+            "family": "Sparks"
+          },
+          {
+            "given": "Helfried",
+            "family": "Scheifinger"
+          },
+          {
+            "given": "Regula",
+            "family": "Gehrig"
+          },
+          {
+            "given": "Nicole",
+            "family": "Estrella"
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              8
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/gcb.15000",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ]
+      }
+    },
+    {
+      "id": "Bonecke2020",
+      "doi": "10.1111/gcb.15073",
+      "year": 2020,
+      "title": "Decoupling of impact factors reveals the response of German winter wheat yields to climatic changes",
+      "authors": [
+        {
+          "given": "Eric",
+          "family": "Bönecke"
+        },
+        {
+          "given": "Laura",
+          "family": "Breitsameter"
+        },
+        {
+          "given": "Nicolas",
+          "family": "Brüggemann"
+        },
+        {
+          "given": "Tsu‐Wei",
+          "family": "Chen"
+        },
+        {
+          "given": "Til",
+          "family": "Feike"
+        },
+        {
+          "given": "Henning",
+          "family": "Kage"
+        },
+        {
+          "given": "Kurt‐Christian",
+          "family": "Kersebaum"
+        },
+        {
+          "given": "Hans‐Peter",
+          "family": "Piepho"
+        },
+        {
+          "given": "Hartmut",
+          "family": "Stützel"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Global Change Biology",
+      "volume": "26",
+      "issue": "6",
+      "pages_or_article": "3601-3626",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.15073",
+      "full_citation": "Bönecke, E., Breitsameter, L., Brüggemann, N., Chen, T.-W., Feike, T., Kage, H., Kersebaum, K.-C., Piepho, H.-P., & Stützel, H. (2020). Decoupling of impact factors reveals the response of German winter wheat yields to climatic changes. Global Change Biology, 26, 3601-3626. https://doi.org/10.1111/gcb.15073",
+      "source_content_inspected": "publisher Abstract and Results 3.2",
+      "supported_claim": "German winter wheat growth stages occurred earlier over the study record, while phase durations did not change uniformly: stem elongation differed from the other developmental phases.",
+      "suggested_placement": "Introduction paragraph 2; Discussion timing advance versus interval length",
+      "claim_limits": "Historical phenological data were linked to experiments; this is not disease-specific evidence or validation of retained thresholds.",
+      "priority": "high",
+      "eligibility": "Global Change Biology, the target specialist global-change journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "6",
+        "DOI": "10.1111/gcb.15073",
+        "type": "journal-article",
+        "page": "3601-3626",
+        "title": "Decoupling of impact factors reveals the response of German winter wheat yields to climatic changes",
+        "volume": "26",
+        "author": [
+          {
+            "given": "Eric",
+            "family": "Bönecke"
+          },
+          {
+            "given": "Laura",
+            "family": "Breitsameter"
+          },
+          {
+            "given": "Nicolas",
+            "family": "Brüggemann"
+          },
+          {
+            "given": "Tsu‐Wei",
+            "family": "Chen"
+          },
+          {
+            "given": "Til",
+            "family": "Feike"
+          },
+          {
+            "given": "Henning",
+            "family": "Kage"
+          },
+          {
+            "given": "Kurt‐Christian",
+            "family": "Kersebaum"
+          },
+          {
+            "given": "Hans‐Peter",
+            "family": "Piepho"
+          },
+          {
+            "given": "Hartmut",
+            "family": "Stützel"
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              17
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/gcb.15073",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ]
+      }
+    },
+    {
+      "id": "Martre2015",
+      "doi": "10.1111/gcb.12768",
+      "year": 2015,
+      "title": "Multimodel ensembles of wheat growth: many models are better than one",
+      "authors": [
+        {
+          "given": "Pierre",
+          "family": "Martre"
+        },
+        {
+          "given": "Daniel",
+          "family": "Wallach"
+        },
+        {
+          "given": "Senthold",
+          "family": "Asseng"
+        },
+        {
+          "given": "Frank",
+          "family": "Ewert"
+        },
+        {
+          "given": "James W.",
+          "family": "Jones"
+        },
+        {
+          "given": "Reimund P.",
+          "family": "Rötter"
+        },
+        {
+          "given": "Kenneth J.",
+          "family": "Boote"
+        },
+        {
+          "given": "Alex C.",
+          "family": "Ruane"
+        },
+        {
+          "given": "Peter J.",
+          "family": "Thorburn"
+        },
+        {
+          "given": "Davide",
+          "family": "Cammarano"
+        },
+        {
+          "given": "Jerry L.",
+          "family": "Hatfield"
+        },
+        {
+          "given": "Cynthia",
+          "family": "Rosenzweig"
+        },
+        {
+          "given": "Pramod K.",
+          "family": "Aggarwal"
+        },
+        {
+          "given": "Carlos",
+          "family": "Angulo"
+        },
+        {
+          "given": "Bruno",
+          "family": "Basso"
+        },
+        {
+          "given": "Patrick",
+          "family": "Bertuzzi"
+        },
+        {
+          "given": "Christian",
+          "family": "Biernath"
+        },
+        {
+          "given": "Nadine",
+          "family": "Brisson"
+        },
+        {
+          "given": "Andrew J.",
+          "family": "Challinor"
+        },
+        {
+          "given": "Jordi",
+          "family": "Doltra"
+        },
+        {
+          "given": "Sebastian",
+          "family": "Gayler"
+        },
+        {
+          "given": "Richie",
+          "family": "Goldberg"
+        },
+        {
+          "given": "Robert F.",
+          "family": "Grant"
+        },
+        {
+          "given": "Lee",
+          "family": "Heng"
+        },
+        {
+          "given": "Josh",
+          "family": "Hooker"
+        },
+        {
+          "given": "Leslie A.",
+          "family": "Hunt"
+        },
+        {
+          "given": "Joachim",
+          "family": "Ingwersen"
+        },
+        {
+          "given": "Roberto C.",
+          "family": "Izaurralde"
+        },
+        {
+          "given": "Kurt Christian",
+          "family": "Kersebaum"
+        },
+        {
+          "given": "Christoph",
+          "family": "Müller"
+        },
+        {
+          "given": "Soora Naresh",
+          "family": "Kumar"
+        },
+        {
+          "given": "Claas",
+          "family": "Nendel"
+        },
+        {
+          "given": "Garry",
+          "family": "O'leary"
+        },
+        {
+          "given": "Jørgen E.",
+          "family": "Olesen"
+        },
+        {
+          "given": "Tom M.",
+          "family": "Osborne"
+        },
+        {
+          "given": "Taru",
+          "family": "Palosuo"
+        },
+        {
+          "given": "Eckart",
+          "family": "Priesack"
+        },
+        {
+          "given": "Dominique",
+          "family": "Ripoche"
+        },
+        {
+          "given": "Mikhail A.",
+          "family": "Semenov"
+        },
+        {
+          "given": "Iurii",
+          "family": "Shcherbak"
+        },
+        {
+          "given": "Pasquale",
+          "family": "Steduto"
+        },
+        {
+          "given": "Claudio O.",
+          "family": "Stöckle"
+        },
+        {
+          "given": "Pierre",
+          "family": "Stratonovitch"
+        },
+        {
+          "given": "Thilo",
+          "family": "Streck"
+        },
+        {
+          "given": "Iwan",
+          "family": "Supit"
+        },
+        {
+          "given": "Fulu",
+          "family": "Tao"
+        },
+        {
+          "given": "Maria",
+          "family": "Travasso"
+        },
+        {
+          "given": "Katharina",
+          "family": "Waha"
+        },
+        {
+          "given": "Jeffrey W.",
+          "family": "White"
+        },
+        {
+          "given": "Joost",
+          "family": "Wolf"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Global Change Biology",
+      "volume": "21",
+      "issue": "2",
+      "pages_or_article": "911-925",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.12768",
+      "full_citation": "Martre, P., Wallach, D., Asseng, S., Ewert, F., Jones, J. W., Rötter, R. P., Boote, K. J., Ruane, A. C., Thorburn, P. J., Cammarano, D., Hatfield, J. L., Rosenzweig, C., Aggarwal, P. K., Angulo, C., Basso, B., Bertuzzi, P., Biernath, C., Brisson, N., Challinor, A. J., Doltra, J., Gayler, S., Goldberg, R., Grant, R. F., Heng, L., Hooker, J., Hunt, L. A., Ingwersen, J., Izaurralde, R. C., Kersebaum, K. C., Müller, C., Kumar, S. N., Nendel, C., O'leary, G., Olesen, J. E., Osborne, T. M., Palosuo, T., Priesack, E., Ripoche, D., Semenov, M. A., Shcherbak, I., Steduto, P., Stöckle, C. O., Stratonovitch, P., Streck, T., Supit, I., Tao, F., Travasso, M., Waha, K., White, J. W., & Wolf, J. (2015). Multimodel ensembles of wheat growth: many models are better than one. Global Change Biology, 21, 911-925. https://doi.org/10.1111/gcb.12768",
+      "source_content_inspected": "publisher abstract",
+      "supported_claim": "Across 27 wheat models, accuracy in grain yield or grain protein concentration had little relationship to accuracy in preceding in-season variables; ensemble estimates improved overall performance.",
+      "suggested_placement": "Discussion empirical endpoint support and model uncertainty",
+      "claim_limits": "A crop-model ensemble differs from the current three-GCM ensemble driving one disease model; do not conflate them.",
+      "priority": "high",
+      "eligibility": "Global Change Biology, the target specialist global-change journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "2",
+        "DOI": "10.1111/gcb.12768",
+        "type": "journal-article",
+        "page": "911-925",
+        "title": "Multimodel ensembles of wheat growth: many models are better than one",
+        "volume": "21",
+        "author": [
+          {
+            "given": "Pierre",
+            "family": "Martre"
+          },
+          {
+            "given": "Daniel",
+            "family": "Wallach"
+          },
+          {
+            "given": "Senthold",
+            "family": "Asseng"
+          },
+          {
+            "given": "Frank",
+            "family": "Ewert"
+          },
+          {
+            "given": "James W.",
+            "family": "Jones"
+          },
+          {
+            "given": "Reimund P.",
+            "family": "Rötter"
+          },
+          {
+            "given": "Kenneth J.",
+            "family": "Boote"
+          },
+          {
+            "given": "Alex C.",
+            "family": "Ruane"
+          },
+          {
+            "given": "Peter J.",
+            "family": "Thorburn"
+          },
+          {
+            "given": "Davide",
+            "family": "Cammarano"
+          },
+          {
+            "given": "Jerry L.",
+            "family": "Hatfield"
+          },
+          {
+            "given": "Cynthia",
+            "family": "Rosenzweig"
+          },
+          {
+            "given": "Pramod K.",
+            "family": "Aggarwal"
+          },
+          {
+            "given": "Carlos",
+            "family": "Angulo"
+          },
+          {
+            "given": "Bruno",
+            "family": "Basso"
+          },
+          {
+            "given": "Patrick",
+            "family": "Bertuzzi"
+          },
+          {
+            "given": "Christian",
+            "family": "Biernath"
+          },
+          {
+            "given": "Nadine",
+            "family": "Brisson"
+          },
+          {
+            "given": "Andrew J.",
+            "family": "Challinor"
+          },
+          {
+            "given": "Jordi",
+            "family": "Doltra"
+          },
+          {
+            "given": "Sebastian",
+            "family": "Gayler"
+          },
+          {
+            "given": "Richie",
+            "family": "Goldberg"
+          },
+          {
+            "given": "Robert F.",
+            "family": "Grant"
+          },
+          {
+            "given": "Lee",
+            "family": "Heng"
+          },
+          {
+            "given": "Josh",
+            "family": "Hooker"
+          },
+          {
+            "given": "Leslie A.",
+            "family": "Hunt"
+          },
+          {
+            "given": "Joachim",
+            "family": "Ingwersen"
+          },
+          {
+            "given": "Roberto C.",
+            "family": "Izaurralde"
+          },
+          {
+            "given": "Kurt Christian",
+            "family": "Kersebaum"
+          },
+          {
+            "given": "Christoph",
+            "family": "Müller"
+          },
+          {
+            "given": "Soora Naresh",
+            "family": "Kumar"
+          },
+          {
+            "given": "Claas",
+            "family": "Nendel"
+          },
+          {
+            "given": "Garry",
+            "family": "O'leary"
+          },
+          {
+            "given": "Jørgen E.",
+            "family": "Olesen"
+          },
+          {
+            "given": "Tom M.",
+            "family": "Osborne"
+          },
+          {
+            "given": "Taru",
+            "family": "Palosuo"
+          },
+          {
+            "given": "Eckart",
+            "family": "Priesack"
+          },
+          {
+            "given": "Dominique",
+            "family": "Ripoche"
+          },
+          {
+            "given": "Mikhail A.",
+            "family": "Semenov"
+          },
+          {
+            "given": "Iurii",
+            "family": "Shcherbak"
+          },
+          {
+            "given": "Pasquale",
+            "family": "Steduto"
+          },
+          {
+            "given": "Claudio O.",
+            "family": "Stöckle"
+          },
+          {
+            "given": "Pierre",
+            "family": "Stratonovitch"
+          },
+          {
+            "given": "Thilo",
+            "family": "Streck"
+          },
+          {
+            "given": "Iwan",
+            "family": "Supit"
+          },
+          {
+            "given": "Fulu",
+            "family": "Tao"
+          },
+          {
+            "given": "Maria",
+            "family": "Travasso"
+          },
+          {
+            "given": "Katharina",
+            "family": "Waha"
+          },
+          {
+            "given": "Jeffrey W.",
+            "family": "White"
+          },
+          {
+            "given": "Joost",
+            "family": "Wolf"
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              3
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/gcb.12768",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ]
+      },
+      "metadata_note": "Citation year uses the volume/issue year, rather than an earlier first-online year."
+    },
+    {
+      "id": "Asseng2011",
+      "doi": "10.1111/j.1365-2486.2010.02262.x",
+      "year": 2011,
+      "title": "The impact of temperature variability on wheat yields",
+      "authors": [
+        {
+          "family": "Asseng",
+          "given": "Senthold"
+        },
+        {
+          "family": "Foster",
+          "given": "Ian"
+        },
+        {
+          "family": "Turner",
+          "given": "Neil C."
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Global Change Biology",
+      "volume": "17",
+      "issue": "2",
+      "pages_or_article": "997-1012",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2010.02262.x",
+      "full_citation": "Asseng, S., Foster, I., & Turner, N. C. (2011). The impact of temperature variability on wheat yields. Global Change Biology, 17, 997-1012. https://doi.org/10.1111/j.1365-2486.2010.02262.x",
+      "source_content_inspected": "publisher abstract",
+      "supported_claim": "Temperature variability and high-temperature-induced senescence during grain filling can substantially alter wheat production in simulation experiments.",
+      "suggested_placement": "Discussion lower Mediterranean disease does not imply improved total productivity",
+      "claim_limits": "Abiotic wheat response, not STB damage, and not a damage-to-yield conversion.",
+      "priority": "optional",
+      "eligibility": "Global Change Biology, the target specialist global-change journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "2",
+        "DOI": "10.1111/j.1365-2486.2010.02262.x",
+        "type": "journal-article",
+        "page": "997-1012",
+        "title": "The impact of temperature variability on wheat yields",
+        "volume": "17",
+        "author": [
+          {
+            "family": "Asseng",
+            "given": "Senthold"
+          },
+          {
+            "family": "Foster",
+            "given": "Ian"
+          },
+          {
+            "family": "Turner",
+            "given": "Neil C."
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              1,
+              4
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/j.1365-2486.2010.02262.x",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ]
+      }
+    },
+    {
+      "id": "Sparks2014",
+      "doi": "10.1111/gcb.12587",
+      "year": 2014,
+      "title": "Climate change may have limited effect on global risk of potato late blight",
+      "authors": [
+        {
+          "given": "Adam H.",
+          "family": "Sparks"
+        },
+        {
+          "given": "Gregory A.",
+          "family": "Forbes"
+        },
+        {
+          "given": "Robert J.",
+          "family": "Hijmans"
+        },
+        {
+          "given": "Karen A.",
+          "family": "Garrett"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Global Change Biology",
+      "volume": "20",
+      "issue": "12",
+      "pages_or_article": "3621-3631",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.12587",
+      "full_citation": "Sparks, A. H., Forbes, G. A., Hijmans, R. J., & Garrett, K. A. (2014). Climate change may have limited effect on global risk of potato late blight. Global Change Biology, 20, 3621-3631. https://doi.org/10.1111/gcb.12587",
+      "source_content_inspected": "publisher abstract; official institutional abstract",
+      "supported_claim": "Global potato late-blight risk initially increased and subsequently declined as planting dates shifted to cooler seasons, illustrating the importance of crop-calendar responses.",
+      "suggested_placement": "Introduction paragraph 2; Discussion interpretation and management scope",
+      "claim_limits": "Prior crop-calendar/disease coupling means the current novelty must be the shared-support factorial attribution, not the first recognition of host calendar effects.",
+      "priority": "high",
+      "eligibility": "Global Change Biology, the target specialist global-change journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "12",
+        "DOI": "10.1111/gcb.12587",
+        "type": "journal-article",
+        "page": "3621-3631",
+        "title": "Climate change may have limited effect on global risk of potato late blight",
+        "volume": "20",
+        "author": [
+          {
+            "given": "Adam H.",
+            "family": "Sparks"
+          },
+          {
+            "given": "Gregory A.",
+            "family": "Forbes"
+          },
+          {
+            "given": "Robert J.",
+            "family": "Hijmans"
+          },
+          {
+            "given": "Karen A.",
+            "family": "Garrett"
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              30
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/gcb.12587",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ]
+      }
+    },
+    {
+      "id": "Singh2023",
+      "doi": "10.1038/s41579-023-00900-7",
+      "year": 2023,
+      "title": "Climate change impacts on plant pathogens, food security and paths forward",
+      "authors": [
+        {
+          "given": "Brajesh K.",
+          "family": "Singh"
+        },
+        {
+          "given": "Manuel",
+          "family": "Delgado-Baquerizo"
+        },
+        {
+          "given": "Eleonora",
+          "family": "Egidi"
+        },
+        {
+          "given": "Emilio",
+          "family": "Guirado"
+        },
+        {
+          "given": "Jan E.",
+          "family": "Leach"
+        },
+        {
+          "given": "Hongwei",
+          "family": "Liu"
+        },
+        {
+          "given": "Pankaj",
+          "family": "Trivedi"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Nature Reviews Microbiology",
+      "volume": "21",
+      "issue": "10",
+      "pages_or_article": "640-656",
+      "primary_url": "https://www.nature.com/articles/s41579-023-00900-7",
+      "full_citation": "Singh, B. K., Delgado-Baquerizo, M., Egidi, E., Guirado, E., Leach, J. E., Liu, H., & Trivedi, P. (2023). Climate change impacts on plant pathogens, food security and paths forward. Nature Reviews Microbiology, 21, 640-656. https://doi.org/10.1038/s41579-023-00900-7",
+      "source_content_inspected": "publisher abstract and official PMC author manuscript, Box 2",
+      "supported_claim": "Climate change acts on pathogen evolution, geographic distributions and host–pathogen interactions; crop-phenology and pathogen-development models can yield pathosystem-dependent disease impacts, with standardized data gaps limiting quantitative forecasts.",
+      "suggested_placement": "Introduction paragraph 1–2; Discussion empirical priorities",
+      "claim_limits": "Review provides framing, not external validation of the current model’s outputs.",
+      "priority": "high",
+      "eligibility": "Nature or Nature-family journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "10",
+        "DOI": "10.1038/s41579-023-00900-7",
+        "type": "journal-article",
+        "page": "640-656",
+        "title": "Climate change impacts on plant pathogens, food security and paths forward",
+        "volume": "21",
+        "author": [
+          {
+            "given": "Brajesh K.",
+            "family": "Singh"
+          },
+          {
+            "given": "Manuel",
+            "family": "Delgado-Baquerizo"
+          },
+          {
+            "given": "Eleonora",
+            "family": "Egidi"
+          },
+          {
+            "given": "Emilio",
+            "family": "Guirado"
+          },
+          {
+            "given": "Jan E.",
+            "family": "Leach"
+          },
+          {
+            "given": "Hongwei",
+            "family": "Liu"
+          },
+          {
+            "given": "Pankaj",
+            "family": "Trivedi"
+          }
+        ],
+        "container-title": "Nature Reviews Microbiology",
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              2
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/s41579-023-00900-7",
+        "ISSN": [
+          "1740-1526",
+          "1740-1534"
+        ]
+      }
+    },
+    {
+      "id": "Garrett2006",
+      "doi": "10.1146/annurev.phyto.44.070505.143420",
+      "year": 2006,
+      "title": "Climate Change Effects on Plant Disease: Genomes to Ecosystems",
+      "authors": [
+        {
+          "given": "K. A.",
+          "family": "Garrett"
+        },
+        {
+          "given": "S. P.",
+          "family": "Dendy"
+        },
+        {
+          "given": "E. E.",
+          "family": "Frank"
+        },
+        {
+          "given": "M. N.",
+          "family": "Rouse"
+        },
+        {
+          "given": "S. E.",
+          "family": "Travers"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Annual Review of Phytopathology",
+      "volume": "44",
+      "issue": "1",
+      "pages_or_article": "489-509",
+      "primary_url": "https://www.annualreviews.org/content/journals/10.1146/annurev.phyto.44.070505.143420",
+      "full_citation": "Garrett, K. A., Dendy, S. P., Frank, E. E., Rouse, M. N., & Travers, S. E. (2006). Climate Change Effects on Plant Disease: Genomes to Ecosystems. Annual Review of Phytopathology, 44, 489-509. https://doi.org/10.1146/annurev.phyto.44.070505.143420",
+      "source_content_inspected": "publisher abstract",
+      "supported_claim": "Climate effects span infection, population adaptation and ecosystem processes, and pathosystem characteristics complicate scaling individual infection probabilities to wider impacts.",
+      "suggested_placement": "Introduction paragraph 1; Discussion transferability",
+      "claim_limits": "Use as conceptual background rather than evidence of the current numerical result.",
+      "priority": "high",
+      "eligibility": "Established specialist top journal in plant pathology: Annual Review of Phytopathology",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Annual Reviews",
+        "issue": "1",
+        "DOI": "10.1146/annurev.phyto.44.070505.143420",
+        "type": "journal-article",
+        "page": "489-509",
+        "title": "Climate Change Effects on Plant Disease: Genomes to Ecosystems",
+        "volume": "44",
+        "author": [
+          {
+            "given": "K. A.",
+            "family": "Garrett"
+          },
+          {
+            "given": "S. P.",
+            "family": "Dendy"
+          },
+          {
+            "given": "E. E.",
+            "family": "Frank"
+          },
+          {
+            "given": "M. N.",
+            "family": "Rouse"
+          },
+          {
+            "given": "S. E.",
+            "family": "Travers"
+          }
+        ],
+        "container-title": "Annual Review of Phytopathology",
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              9,
+              1
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1146/annurev.phyto.44.070505.143420",
+        "ISSN": [
+          "0066-4286",
+          "1545-2107"
+        ]
+      }
+    },
+    {
+      "id": "Waggoner1987",
+      "doi": null,
+      "year": 1987,
+      "title": "Defoliation, Disease, and Growth",
+      "authors": [
+        {
+          "family": "Waggoner",
+          "given": "Paul E."
+        },
+        {
+          "family": "Berger",
+          "given": "Richard D."
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Phytopathology",
+      "volume": "77",
+      "issue": "3",
+      "pages_or_article": "393-398",
+      "primary_url": "https://www.apsnet.org/publications/phytopathology/backissues/Documents/1987Articles/phyto77n03_393.pdf",
+      "full_citation": "Waggoner, P. E., & Berger, R. D. (1987). Defoliation, Disease, and Growth. Phytopathology, 77, 393-398. https://www.apsnet.org/publications/phytopathology/backissues/Documents/1987Articles/phyto77n03_393.pdf",
+      "source_content_inspected": "official APS archived full paper",
+      "supported_claim": "Healthy-area duration integrates healthy leaf area through time; healthy-area absorption additionally accounts for intercepted radiation, making the physiological basis distinct from a symptom-percentage integral.",
+      "suggested_placement": "Introduction paragraph 3; Discussion functional canopy endpoints",
+      "claim_limits": "Examples concern several crop pathosystems and do not establish a universal linear conversion to wheat yield. No DOI verified; use official archival URL.",
+      "priority": "high",
+      "eligibility": "Established specialist top journal in plant pathology: Phytopathology",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "title": "Defoliation, Disease, and Growth",
+        "container-title": "Phytopathology",
+        "volume": "77",
+        "issue": "3",
+        "page": "393-398",
+        "author": [
+          {
+            "family": "Waggoner",
+            "given": "Paul E."
+          },
+          {
+            "family": "Berger",
+            "given": "Richard D."
+          }
+        ]
+      },
+      "metadata_note": "No DOI verified. The tempting DOI 10.1094/Phyto-77-393 returned not found and is deliberately omitted."
+    },
+    {
+      "id": "Savary2006",
+      "doi": "10.1146/annurev.phyto.44.070505.143342",
+      "year": 2006,
+      "title": "Quantification and Modeling of Crop Losses: A Review of Purposes",
+      "authors": [
+        {
+          "family": "Savary",
+          "given": "Serge"
+        },
+        {
+          "family": "Teng",
+          "given": "Paul S."
+        },
+        {
+          "family": "Willocquet",
+          "given": "Laetitia"
+        },
+        {
+          "family": "Nutter",
+          "given": "Forrest W.",
+          "suffix": "Jr."
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Annual Review of Phytopathology",
+      "volume": "44",
+      "issue": null,
+      "pages_or_article": "89-112",
+      "primary_url": "https://www.annualreviews.org/content/journals/10.1146/annurev.phyto.44.070505.143342",
+      "full_citation": "Savary, S., Teng, P. S., Willocquet, L., & Nutter, F. W., Jr. (2006). Quantification and Modeling of Crop Losses: A Review of Purposes. Annual Review of Phytopathology, 44, 89-112. https://doi.org/10.1146/annurev.phyto.44.070505.143342",
+      "source_content_inspected": "publisher abstract",
+      "supported_claim": "Pathogen injury, crop damage and economic loss form a sequence involving distinct biological and decision processes; the injury–damage relationship carries uncertainty.",
+      "suggested_placement": "Introduction paragraph 1 and 3; Discussion production exposure",
+      "claim_limits": "Do not relabel the manuscript’s fixed symptom proxy as physiological or economic damage solely on this basis.",
+      "priority": "high",
+      "eligibility": "Established specialist top journal in plant pathology: Annual Review of Phytopathology",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "title": "Quantification and Modeling of Crop Losses: A Review of Purposes",
+        "container-title": "Annual Review of Phytopathology",
+        "volume": "44",
+        "page": "89-112",
+        "author": [
+          {
+            "family": "Savary",
+            "given": "Serge"
+          },
+          {
+            "family": "Teng",
+            "given": "Paul S."
+          },
+          {
+            "family": "Willocquet",
+            "given": "Laetitia"
+          },
+          {
+            "family": "Nutter",
+            "given": "Forrest W.",
+            "suffix": "Jr."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Pietravalle2003",
+      "doi": "10.1094/PHYTO.2003.93.10.1329",
+      "year": 2003,
+      "title": "Modeling of Relationships Between Weather and Septoria tritici Epidemics on Winter Wheat: A Critical Approach",
+      "authors": [
+        {
+          "given": "S.",
+          "family": "Pietravalle"
+        },
+        {
+          "given": "M. W.",
+          "family": "Shaw"
+        },
+        {
+          "given": "S. R.",
+          "family": "Parker"
+        },
+        {
+          "given": "F.",
+          "family": "van den Bosch"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Phytopathology",
+      "volume": "93",
+      "issue": "10",
+      "pages_or_article": "1329-1339",
+      "primary_url": "https://apsjournals.apsnet.org/doi/10.1094/PHYTO.2003.93.10.1329",
+      "full_citation": "Pietravalle, S., Shaw, M. W., Parker, S. R., & van den Bosch, F. (2003). Modeling of Relationships Between Weather and Septoria tritici Epidemics on Winter Wheat: A Critical Approach. Phytopathology, 93, 1329-1339. https://doi.org/10.1094/PHYTO.2003.93.10.1329",
+      "source_content_inspected": "official PubMed abstract for primary paper",
+      "supported_claim": "English wheat field data supported separate models for STB presence above a severity threshold and STB severity, with rainfall during stem elongation entering the severity model.",
+      "suggested_placement": "Introduction paragraph 2; Discussion symptom occurrence versus accumulated impact",
+      "claim_limits": "Correlative empirical weather models do not validate the present latent-state process model; no universal weather coefficients are implied.",
+      "priority": "high",
+      "eligibility": "Established specialist top journal in plant pathology: Phytopathology",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Scientific Societies",
+        "issue": "10",
+        "DOI": "10.1094/phyto.2003.93.10.1329",
+        "type": "journal-article",
+        "page": "1329-1339",
+        "title": "Modeling of Relationships Between Weather and <i>Septoria tritici</i> Epidemics on Winter Wheat: A Critical Approach",
+        "volume": "93",
+        "author": [
+          {
+            "given": "S.",
+            "family": "Pietravalle"
+          },
+          {
+            "given": "M. W.",
+            "family": "Shaw"
+          },
+          {
+            "given": "S. R.",
+            "family": "Parker"
+          },
+          {
+            "given": "F.",
+            "family": "van den Bosch"
+          }
+        ],
+        "container-title": "Phytopathology",
+        "issued": {
+          "date-parts": [
+            [
+              2003,
+              10
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1094/PHYTO.2003.93.10.1329",
+        "ISSN": [
+          "0031-949X",
+          "1943-7684"
+        ]
+      }
+    },
+    {
+      "id": "Robert2004",
+      "doi": "10.1093/jxb/erh108",
+      "year": 2004,
+      "title": "Analysis and modelling of effects of leaf rust and Septoria tritici blotch on wheat growth",
+      "authors": [
+        {
+          "family": "Robert",
+          "given": "Corinne"
+        },
+        {
+          "family": "Bancal",
+          "given": "Marie-Odile"
+        },
+        {
+          "family": "Nicolas",
+          "given": "Pierre"
+        },
+        {
+          "family": "Lannou",
+          "given": "Christian"
+        },
+        {
+          "family": "Ney",
+          "given": "Bertrand"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Journal of Experimental Botany",
+      "volume": "55",
+      "issue": "399",
+      "pages_or_article": "1079-1094",
+      "primary_url": "https://academic.oup.com/jxb/article/55/399/1079/524903",
+      "full_citation": "Robert, C., Bancal, M.-O., Nicolas, P., Lannou, C., & Ney, B. (2004). Analysis and modelling of effects of leaf rust and Septoria tritici blotch on wheat growth. Journal of Experimental Botany, 55, 1079-1094. https://doi.org/10.1093/jxb/erh108",
+      "source_content_inspected": "publisher full text, Discussion disease development, photosynthesis and model evaluation",
+      "supported_claim": "Cultivar differences in STB timing apparent from sowing disappeared when time was expressed from flowering; the work also explicitly linked canopy layers, measured photosynthesis and senescence to crop growth effects.",
+      "suggested_placement": "Introduction paragraphs 2–3; Discussion host-relative timing and functional canopy",
+      "claim_limits": "Strong antecedent: do not claim discovery of host-relative epidemic timing. Its leaf-photosynthesis parameters and natural-senescence correction cannot be transferred to the current normalized proxy without calibration.",
+      "priority": "high",
+      "eligibility": "Established specialist top journal in plant science: Journal of Experimental Botany",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "399",
+        "DOI": "10.1093/jxb/erh108",
+        "type": "journal-article",
+        "page": "1079-1094",
+        "title": "Analysis and modelling of effects of leaf rust and Septoria tritici blotch on wheat growth",
+        "volume": "55",
+        "author": [
+          {
+            "family": "Robert",
+            "given": "Corinne"
+          },
+          {
+            "family": "Bancal",
+            "given": "Marie-Odile"
+          },
+          {
+            "family": "Nicolas",
+            "given": "Pierre"
+          },
+          {
+            "family": "Lannou",
+            "given": "Christian"
+          },
+          {
+            "family": "Ney",
+            "given": "Bertrand"
+          }
+        ],
+        "container-title": "Journal of Experimental Botany",
+        "issued": {
+          "date-parts": [
+            [
+              2004,
+              4,
+              8
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1093/jxb/erh108",
+        "ISSN": [
+          "1460-2431"
+        ]
+      },
+      "metadata_note": "Full five-author list corrected from the publisher PDF; Crossref export is incomplete.",
+      "eligibility_verification_url": "https://academic.oup.com/jxb/"
+    },
+    {
+      "id": "Bernard2013",
+      "doi": "10.1111/nph.12134",
+      "year": 2013,
+      "title": "The development of a foliar fungal pathogen does react to leaf temperature!",
+      "authors": [
+        {
+          "given": "Frédéric",
+          "family": "Bernard"
+        },
+        {
+          "given": "Ivan",
+          "family": "Sache"
+        },
+        {
+          "given": "Frédéric",
+          "family": "Suffert"
+        },
+        {
+          "given": "Michaël",
+          "family": "Chelle"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "New Phytologist",
+      "volume": "198",
+      "issue": "1",
+      "pages_or_article": "232-240",
+      "primary_url": "https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.12134",
+      "full_citation": "Bernard, F., Sache, I., Suffert, F., & Chelle, M. (2013). The development of a foliar fungal pathogen does react to leaf temperature!. New Phytologist, 198, 232-240. https://doi.org/10.1111/nph.12134",
+      "source_content_inspected": "publisher full text, Summary and Results",
+      "supported_claim": "Controlled experiments on adult wheat showed a nonlinear STB latent-period response to measured leaf temperature and differences among pathogen isolates and leaf layers; leaf temperature can differ from air temperature.",
+      "suggested_placement": "Introduction paragraph 2; Methods forcing qualification; Discussion missing canopy microclimate",
+      "claim_limits": "Its latent period used time to 37% of final sporulating area, distinct from first visible symptoms. Do not import numerical durations or optima as direct validation of the retained model.",
+      "priority": "high",
+      "eligibility": "Established specialist top journal in plant science: New Phytologist",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "1",
+        "DOI": "10.1111/nph.12134",
+        "type": "journal-article",
+        "page": "232-240",
+        "title": "The development of a foliar fungal pathogen does react to leaf temperature!",
+        "volume": "198",
+        "author": [
+          {
+            "given": "Frédéric",
+            "family": "Bernard"
+          },
+          {
+            "given": "Ivan",
+            "family": "Sache"
+          },
+          {
+            "given": "Frédéric",
+            "family": "Suffert"
+          },
+          {
+            "given": "Michaël",
+            "family": "Chelle"
+          }
+        ],
+        "container-title": "New Phytologist",
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              2,
+              4
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/nph.12134",
+        "ISSN": [
+          "0028-646X",
+          "1469-8137"
+        ]
+      }
+    },
+    {
+      "id": "Minoli2022",
+      "doi": "10.1038/s41467-022-34411-5",
+      "year": 2022,
+      "title": "Global crop yields can be lifted by timely adaptation of growing periods to climate change",
+      "authors": [
+        {
+          "given": "Sara",
+          "family": "Minoli"
+        },
+        {
+          "given": "Jonas",
+          "family": "Jägermeyr"
+        },
+        {
+          "given": "Senthold",
+          "family": "Asseng"
+        },
+        {
+          "given": "Anton",
+          "family": "Urfels"
+        },
+        {
+          "given": "Christoph",
+          "family": "Müller"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Nature Communications",
+      "volume": "13",
+      "issue": "1",
+      "pages_or_article": "7079",
+      "primary_url": "https://www.nature.com/articles/s41467-022-34411-5",
+      "full_citation": "Minoli, S., Jägermeyr, J., Asseng, S., Urfels, A., & Müller, C. (2022). Global crop yields can be lifted by timely adaptation of growing periods to climate change. Nature Communications, 13, 7079. https://doi.org/10.1038/s41467-022-34411-5",
+      "source_content_inspected": "publisher full text, Results and Discussion",
+      "supported_claim": "Global crop-model experiments separated no adaptation, timely adaptation and delayed adaptation of sowing dates and cultivars, showing that fixed and adaptive growing-period assumptions answer different management scenarios.",
+      "suggested_placement": "Discussion fixed calendar and adaptation scope",
+      "claim_limits": "This paper’s simulated adaptation gains are not evidence of feasible gains for the current disease model or all European farms.",
+      "priority": "high",
+      "eligibility": "Nature or Nature-family journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "1",
+        "DOI": "10.1038/s41467-022-34411-5",
+        "type": "journal-article",
+        "title": "Global crop yields can be lifted by timely adaptation of growing periods to climate change",
+        "volume": "13",
+        "author": [
+          {
+            "given": "Sara",
+            "family": "Minoli"
+          },
+          {
+            "given": "Jonas",
+            "family": "Jägermeyr"
+          },
+          {
+            "given": "Senthold",
+            "family": "Asseng"
+          },
+          {
+            "given": "Anton",
+            "family": "Urfels"
+          },
+          {
+            "given": "Christoph",
+            "family": "Müller"
+          }
+        ],
+        "container-title": "Nature Communications",
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              18
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/s41467-022-34411-5",
+        "ISSN": [
+          "2041-1723"
+        ],
+        "article-number": "7079"
+      }
+    },
+    {
+      "id": "Asseng2013",
+      "doi": "10.1038/nclimate1916",
+      "year": 2013,
+      "title": "Uncertainty in simulating wheat yields under climate change",
+      "authors": [
+        {
+          "given": "S.",
+          "family": "Asseng"
+        },
+        {
+          "given": "F.",
+          "family": "Ewert"
+        },
+        {
+          "given": "C.",
+          "family": "Rosenzweig"
+        },
+        {
+          "given": "J. W.",
+          "family": "Jones"
+        },
+        {
+          "given": "J. L.",
+          "family": "Hatfield"
+        },
+        {
+          "given": "A. C.",
+          "family": "Ruane"
+        },
+        {
+          "given": "K. J.",
+          "family": "Boote"
+        },
+        {
+          "given": "P. J.",
+          "family": "Thorburn"
+        },
+        {
+          "given": "R. P.",
+          "family": "Rötter"
+        },
+        {
+          "given": "D.",
+          "family": "Cammarano"
+        },
+        {
+          "given": "N.",
+          "family": "Brisson"
+        },
+        {
+          "given": "B.",
+          "family": "Basso"
+        },
+        {
+          "given": "P.",
+          "family": "Martre"
+        },
+        {
+          "given": "P. K.",
+          "family": "Aggarwal"
+        },
+        {
+          "given": "C.",
+          "family": "Angulo"
+        },
+        {
+          "given": "P.",
+          "family": "Bertuzzi"
+        },
+        {
+          "given": "C.",
+          "family": "Biernath"
+        },
+        {
+          "given": "A. J.",
+          "family": "Challinor"
+        },
+        {
+          "given": "J.",
+          "family": "Doltra"
+        },
+        {
+          "given": "S.",
+          "family": "Gayler"
+        },
+        {
+          "given": "R.",
+          "family": "Goldberg"
+        },
+        {
+          "given": "R.",
+          "family": "Grant"
+        },
+        {
+          "given": "L.",
+          "family": "Heng"
+        },
+        {
+          "given": "J.",
+          "family": "Hooker"
+        },
+        {
+          "given": "L. A.",
+          "family": "Hunt"
+        },
+        {
+          "given": "J.",
+          "family": "Ingwersen"
+        },
+        {
+          "given": "R. C.",
+          "family": "Izaurralde"
+        },
+        {
+          "given": "K. C.",
+          "family": "Kersebaum"
+        },
+        {
+          "given": "C.",
+          "family": "Müller"
+        },
+        {
+          "given": "S.",
+          "family": "Naresh Kumar"
+        },
+        {
+          "given": "C.",
+          "family": "Nendel"
+        },
+        {
+          "given": "G.",
+          "family": "O’Leary"
+        },
+        {
+          "given": "J. E.",
+          "family": "Olesen"
+        },
+        {
+          "given": "T. M.",
+          "family": "Osborne"
+        },
+        {
+          "given": "T.",
+          "family": "Palosuo"
+        },
+        {
+          "given": "E.",
+          "family": "Priesack"
+        },
+        {
+          "given": "D.",
+          "family": "Ripoche"
+        },
+        {
+          "given": "M. A.",
+          "family": "Semenov"
+        },
+        {
+          "given": "I.",
+          "family": "Shcherbak"
+        },
+        {
+          "given": "P.",
+          "family": "Steduto"
+        },
+        {
+          "given": "C.",
+          "family": "Stöckle"
+        },
+        {
+          "given": "P.",
+          "family": "Stratonovitch"
+        },
+        {
+          "given": "T.",
+          "family": "Streck"
+        },
+        {
+          "given": "I.",
+          "family": "Supit"
+        },
+        {
+          "given": "F.",
+          "family": "Tao"
+        },
+        {
+          "given": "M.",
+          "family": "Travasso"
+        },
+        {
+          "given": "K.",
+          "family": "Waha"
+        },
+        {
+          "given": "D.",
+          "family": "Wallach"
+        },
+        {
+          "given": "J. W.",
+          "family": "White"
+        },
+        {
+          "given": "J. R.",
+          "family": "Williams"
+        },
+        {
+          "given": "J.",
+          "family": "Wolf"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Nature Climate Change",
+      "volume": "3",
+      "issue": "9",
+      "pages_or_article": "827-832",
+      "primary_url": "https://www.nature.com/articles/nclimate1916",
+      "full_citation": "Asseng, S., Ewert, F., Rosenzweig, C., Jones, J. W., Hatfield, J. L., Ruane, A. C., Boote, K. J., Thorburn, P. J., Rötter, R. P., Cammarano, D., Brisson, N., Basso, B., Martre, P., Aggarwal, P. K., Angulo, C., Bertuzzi, P., Biernath, C., Challinor, A. J., Doltra, J., Gayler, S., Goldberg, R., Grant, R., Heng, L., Hooker, J., Hunt, L. A., Ingwersen, J., Izaurralde, R. C., Kersebaum, K. C., Müller, C., Naresh Kumar, S., Nendel, C., O’Leary, G., Olesen, J. E., Osborne, T. M., Palosuo, T., Priesack, E., Ripoche, D., Semenov, M. A., Shcherbak, I., Steduto, P., Stöckle, C., Stratonovitch, P., Streck, T., Supit, I., Tao, F., Travasso, M., Waha, K., Wallach, D., White, J. W., Williams, J. R., & Wolf, J. (2013). Uncertainty in simulating wheat yields under climate change. Nature Climate Change, 3, 827-832. https://doi.org/10.1038/nclimate1916",
+      "source_content_inspected": "publisher abstract and official NASA archived primary paper",
+      "supported_claim": "A standardized wheat intercomparison found climate-impact differences arising from crop model structures and parameters, with crop-model uncertainty exceeding downscaled-GCM uncertainty in that experiment.",
+      "suggested_placement": "Discussion structural uncertainty versus selected GCM spread",
+      "claim_limits": "The relative uncertainty contributions are experiment-specific; do not assign their numerical partition to the current study.",
+      "priority": "high",
+      "eligibility": "Nature or Nature-family journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "9",
+        "DOI": "10.1038/nclimate1916",
+        "type": "journal-article",
+        "page": "827-832",
+        "title": "Uncertainty in simulating wheat yields under climate change",
+        "volume": "3",
+        "author": [
+          {
+            "given": "S.",
+            "family": "Asseng"
+          },
+          {
+            "given": "F.",
+            "family": "Ewert"
+          },
+          {
+            "given": "C.",
+            "family": "Rosenzweig"
+          },
+          {
+            "given": "J. W.",
+            "family": "Jones"
+          },
+          {
+            "given": "J. L.",
+            "family": "Hatfield"
+          },
+          {
+            "given": "A. C.",
+            "family": "Ruane"
+          },
+          {
+            "given": "K. J.",
+            "family": "Boote"
+          },
+          {
+            "given": "P. J.",
+            "family": "Thorburn"
+          },
+          {
+            "given": "R. P.",
+            "family": "Rötter"
+          },
+          {
+            "given": "D.",
+            "family": "Cammarano"
+          },
+          {
+            "given": "N.",
+            "family": "Brisson"
+          },
+          {
+            "given": "B.",
+            "family": "Basso"
+          },
+          {
+            "given": "P.",
+            "family": "Martre"
+          },
+          {
+            "given": "P. K.",
+            "family": "Aggarwal"
+          },
+          {
+            "given": "C.",
+            "family": "Angulo"
+          },
+          {
+            "given": "P.",
+            "family": "Bertuzzi"
+          },
+          {
+            "given": "C.",
+            "family": "Biernath"
+          },
+          {
+            "given": "A. J.",
+            "family": "Challinor"
+          },
+          {
+            "given": "J.",
+            "family": "Doltra"
+          },
+          {
+            "given": "S.",
+            "family": "Gayler"
+          },
+          {
+            "given": "R.",
+            "family": "Goldberg"
+          },
+          {
+            "given": "R.",
+            "family": "Grant"
+          },
+          {
+            "given": "L.",
+            "family": "Heng"
+          },
+          {
+            "given": "J.",
+            "family": "Hooker"
+          },
+          {
+            "given": "L. A.",
+            "family": "Hunt"
+          },
+          {
+            "given": "J.",
+            "family": "Ingwersen"
+          },
+          {
+            "given": "R. C.",
+            "family": "Izaurralde"
+          },
+          {
+            "given": "K. C.",
+            "family": "Kersebaum"
+          },
+          {
+            "given": "C.",
+            "family": "Müller"
+          },
+          {
+            "given": "S.",
+            "family": "Naresh Kumar"
+          },
+          {
+            "given": "C.",
+            "family": "Nendel"
+          },
+          {
+            "given": "G.",
+            "family": "O’Leary"
+          },
+          {
+            "given": "J. E.",
+            "family": "Olesen"
+          },
+          {
+            "given": "T. M.",
+            "family": "Osborne"
+          },
+          {
+            "given": "T.",
+            "family": "Palosuo"
+          },
+          {
+            "given": "E.",
+            "family": "Priesack"
+          },
+          {
+            "given": "D.",
+            "family": "Ripoche"
+          },
+          {
+            "given": "M. A.",
+            "family": "Semenov"
+          },
+          {
+            "given": "I.",
+            "family": "Shcherbak"
+          },
+          {
+            "given": "P.",
+            "family": "Steduto"
+          },
+          {
+            "given": "C.",
+            "family": "Stöckle"
+          },
+          {
+            "given": "P.",
+            "family": "Stratonovitch"
+          },
+          {
+            "given": "T.",
+            "family": "Streck"
+          },
+          {
+            "given": "I.",
+            "family": "Supit"
+          },
+          {
+            "given": "F.",
+            "family": "Tao"
+          },
+          {
+            "given": "M.",
+            "family": "Travasso"
+          },
+          {
+            "given": "K.",
+            "family": "Waha"
+          },
+          {
+            "given": "D.",
+            "family": "Wallach"
+          },
+          {
+            "given": "J. W.",
+            "family": "White"
+          },
+          {
+            "given": "J. R.",
+            "family": "Williams"
+          },
+          {
+            "given": "J.",
+            "family": "Wolf"
+          }
+        ],
+        "container-title": "Nature Climate Change",
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              6,
+              9
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/nclimate1916",
+        "ISSN": [
+          "1758-678X",
+          "1758-6798"
+        ]
+      }
+    },
+    {
+      "id": "Asseng2015",
+      "doi": "10.1038/nclimate2470",
+      "year": 2015,
+      "title": "Rising temperatures reduce global wheat production",
+      "authors": [
+        {
+          "given": "S.",
+          "family": "Asseng"
+        },
+        {
+          "given": "F.",
+          "family": "Ewert"
+        },
+        {
+          "given": "P.",
+          "family": "Martre"
+        },
+        {
+          "given": "R. P.",
+          "family": "Rötter"
+        },
+        {
+          "given": "D. B.",
+          "family": "Lobell"
+        },
+        {
+          "given": "D.",
+          "family": "Cammarano"
+        },
+        {
+          "given": "B. A.",
+          "family": "Kimball"
+        },
+        {
+          "given": "M. J.",
+          "family": "Ottman"
+        },
+        {
+          "given": "G. W.",
+          "family": "Wall"
+        },
+        {
+          "given": "J. W.",
+          "family": "White"
+        },
+        {
+          "given": "M. P.",
+          "family": "Reynolds"
+        },
+        {
+          "given": "P. D.",
+          "family": "Alderman"
+        },
+        {
+          "given": "P. V. V.",
+          "family": "Prasad"
+        },
+        {
+          "given": "P. K.",
+          "family": "Aggarwal"
+        },
+        {
+          "given": "J.",
+          "family": "Anothai"
+        },
+        {
+          "given": "B.",
+          "family": "Basso"
+        },
+        {
+          "given": "C.",
+          "family": "Biernath"
+        },
+        {
+          "given": "A. J.",
+          "family": "Challinor"
+        },
+        {
+          "given": "G.",
+          "family": "De Sanctis"
+        },
+        {
+          "given": "J.",
+          "family": "Doltra"
+        },
+        {
+          "given": "E.",
+          "family": "Fereres"
+        },
+        {
+          "given": "M.",
+          "family": "Garcia-Vila"
+        },
+        {
+          "given": "S.",
+          "family": "Gayler"
+        },
+        {
+          "given": "G.",
+          "family": "Hoogenboom"
+        },
+        {
+          "given": "L. A.",
+          "family": "Hunt"
+        },
+        {
+          "given": "R. C.",
+          "family": "Izaurralde"
+        },
+        {
+          "given": "M.",
+          "family": "Jabloun"
+        },
+        {
+          "given": "C. D.",
+          "family": "Jones"
+        },
+        {
+          "given": "K. C.",
+          "family": "Kersebaum"
+        },
+        {
+          "given": "A-K.",
+          "family": "Koehler"
+        },
+        {
+          "given": "C.",
+          "family": "Müller"
+        },
+        {
+          "given": "S.",
+          "family": "Naresh Kumar"
+        },
+        {
+          "given": "C.",
+          "family": "Nendel"
+        },
+        {
+          "given": "G.",
+          "family": "O’Leary"
+        },
+        {
+          "given": "J. E.",
+          "family": "Olesen"
+        },
+        {
+          "given": "T.",
+          "family": "Palosuo"
+        },
+        {
+          "given": "E.",
+          "family": "Priesack"
+        },
+        {
+          "given": "E.",
+          "family": "Eyshi Rezaei"
+        },
+        {
+          "given": "A. C.",
+          "family": "Ruane"
+        },
+        {
+          "given": "M. A.",
+          "family": "Semenov"
+        },
+        {
+          "given": "I.",
+          "family": "Shcherbak"
+        },
+        {
+          "given": "C.",
+          "family": "Stöckle"
+        },
+        {
+          "given": "P.",
+          "family": "Stratonovitch"
+        },
+        {
+          "given": "T.",
+          "family": "Streck"
+        },
+        {
+          "given": "I.",
+          "family": "Supit"
+        },
+        {
+          "given": "F.",
+          "family": "Tao"
+        },
+        {
+          "given": "P. J.",
+          "family": "Thorburn"
+        },
+        {
+          "given": "K.",
+          "family": "Waha"
+        },
+        {
+          "given": "E.",
+          "family": "Wang"
+        },
+        {
+          "given": "D.",
+          "family": "Wallach"
+        },
+        {
+          "given": "J.",
+          "family": "Wolf"
+        },
+        {
+          "given": "Z.",
+          "family": "Zhao"
+        },
+        {
+          "given": "Y.",
+          "family": "Zhu"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Nature Climate Change",
+      "volume": "5",
+      "issue": "2",
+      "pages_or_article": "143-147",
+      "primary_url": "https://www.nature.com/articles/nclimate2470",
+      "full_citation": "Asseng, S., Ewert, F., Martre, P., Rötter, R. P., Lobell, D. B., Cammarano, D., Kimball, B. A., Ottman, M. J., Wall, G. W., White, J. W., Reynolds, M. P., Alderman, P. D., Prasad, P. V. V., Aggarwal, P. K., Anothai, J., Basso, B., Biernath, C., Challinor, A. J., De Sanctis, G., Doltra, J., Fereres, E., Garcia-Vila, M., Gayler, S., Hoogenboom, G., Hunt, L. A., Izaurralde, R. C., Jabloun, M., Jones, C. D., Kersebaum, K. C., Koehler, A-K., Müller, C., Naresh Kumar, S., Nendel, C., O’Leary, G., Olesen, J. E., Palosuo, T., Priesack, E., Eyshi Rezaei, E., Ruane, A. C., Semenov, M. A., Shcherbak, I., Stöckle, C., Stratonovitch, P., Streck, T., Supit, I., Tao, F., Thorburn, P. J., Waha, K., Wang, E., Wallach, D., Wolf, J., Zhao, Z., & Zhu, Y. (2015). Rising temperatures reduce global wheat production. Nature Climate Change, 5, 143-147. https://doi.org/10.1038/nclimate2470",
+      "source_content_inspected": "publisher abstract and USDA-hosted primary paper",
+      "supported_claim": "Testing 30 wheat models against temperature experiments, including warming treatments, exposed poorer model accuracy at high temperatures and benefits of evaluation across contrasting thermal conditions.",
+      "suggested_placement": "Discussion independent response evaluation and extrapolation",
+      "claim_limits": "The global yield sensitivity is not a disease coefficient and should not be used to convert proxy days into grain losses.",
+      "priority": "medium",
+      "eligibility": "Nature or Nature-family journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "2",
+        "DOI": "10.1038/nclimate2470",
+        "type": "journal-article",
+        "page": "143-147",
+        "title": "Rising temperatures reduce global wheat production",
+        "volume": "5",
+        "author": [
+          {
+            "given": "S.",
+            "family": "Asseng"
+          },
+          {
+            "given": "F.",
+            "family": "Ewert"
+          },
+          {
+            "given": "P.",
+            "family": "Martre"
+          },
+          {
+            "given": "R. P.",
+            "family": "Rötter"
+          },
+          {
+            "given": "D. B.",
+            "family": "Lobell"
+          },
+          {
+            "given": "D.",
+            "family": "Cammarano"
+          },
+          {
+            "given": "B. A.",
+            "family": "Kimball"
+          },
+          {
+            "given": "M. J.",
+            "family": "Ottman"
+          },
+          {
+            "given": "G. W.",
+            "family": "Wall"
+          },
+          {
+            "given": "J. W.",
+            "family": "White"
+          },
+          {
+            "given": "M. P.",
+            "family": "Reynolds"
+          },
+          {
+            "given": "P. D.",
+            "family": "Alderman"
+          },
+          {
+            "given": "P. V. V.",
+            "family": "Prasad"
+          },
+          {
+            "given": "P. K.",
+            "family": "Aggarwal"
+          },
+          {
+            "given": "J.",
+            "family": "Anothai"
+          },
+          {
+            "given": "B.",
+            "family": "Basso"
+          },
+          {
+            "given": "C.",
+            "family": "Biernath"
+          },
+          {
+            "given": "A. J.",
+            "family": "Challinor"
+          },
+          {
+            "given": "G.",
+            "family": "De Sanctis"
+          },
+          {
+            "given": "J.",
+            "family": "Doltra"
+          },
+          {
+            "given": "E.",
+            "family": "Fereres"
+          },
+          {
+            "given": "M.",
+            "family": "Garcia-Vila"
+          },
+          {
+            "given": "S.",
+            "family": "Gayler"
+          },
+          {
+            "given": "G.",
+            "family": "Hoogenboom"
+          },
+          {
+            "given": "L. A.",
+            "family": "Hunt"
+          },
+          {
+            "given": "R. C.",
+            "family": "Izaurralde"
+          },
+          {
+            "given": "M.",
+            "family": "Jabloun"
+          },
+          {
+            "given": "C. D.",
+            "family": "Jones"
+          },
+          {
+            "given": "K. C.",
+            "family": "Kersebaum"
+          },
+          {
+            "given": "A-K.",
+            "family": "Koehler"
+          },
+          {
+            "given": "C.",
+            "family": "Müller"
+          },
+          {
+            "given": "S.",
+            "family": "Naresh Kumar"
+          },
+          {
+            "given": "C.",
+            "family": "Nendel"
+          },
+          {
+            "given": "G.",
+            "family": "O’Leary"
+          },
+          {
+            "given": "J. E.",
+            "family": "Olesen"
+          },
+          {
+            "given": "T.",
+            "family": "Palosuo"
+          },
+          {
+            "given": "E.",
+            "family": "Priesack"
+          },
+          {
+            "given": "E.",
+            "family": "Eyshi Rezaei"
+          },
+          {
+            "given": "A. C.",
+            "family": "Ruane"
+          },
+          {
+            "given": "M. A.",
+            "family": "Semenov"
+          },
+          {
+            "given": "I.",
+            "family": "Shcherbak"
+          },
+          {
+            "given": "C.",
+            "family": "Stöckle"
+          },
+          {
+            "given": "P.",
+            "family": "Stratonovitch"
+          },
+          {
+            "given": "T.",
+            "family": "Streck"
+          },
+          {
+            "given": "I.",
+            "family": "Supit"
+          },
+          {
+            "given": "F.",
+            "family": "Tao"
+          },
+          {
+            "given": "P. J.",
+            "family": "Thorburn"
+          },
+          {
+            "given": "K.",
+            "family": "Waha"
+          },
+          {
+            "given": "E.",
+            "family": "Wang"
+          },
+          {
+            "given": "D.",
+            "family": "Wallach"
+          },
+          {
+            "given": "J.",
+            "family": "Wolf"
+          },
+          {
+            "given": "Z.",
+            "family": "Zhao"
+          },
+          {
+            "given": "Y.",
+            "family": "Zhu"
+          }
+        ],
+        "container-title": "Nature Climate Change",
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              22
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/nclimate2470",
+        "ISSN": [
+          "1758-678X",
+          "1758-6798"
+        ]
+      },
+      "metadata_note": "Citation year uses the volume/issue year, rather than an earlier first-online year."
+    },
+    {
+      "id": "Ploton2020",
+      "doi": "10.1038/s41467-020-18321-y",
+      "year": 2020,
+      "title": "Spatial validation reveals poor predictive performance of large-scale ecological mapping models",
+      "authors": [
+        {
+          "given": "Pierre",
+          "family": "Ploton"
+        },
+        {
+          "given": "Frédéric",
+          "family": "Mortier"
+        },
+        {
+          "given": "Maxime",
+          "family": "Réjou-Méchain"
+        },
+        {
+          "given": "Nicolas",
+          "family": "Barbier"
+        },
+        {
+          "given": "Nicolas",
+          "family": "Picard"
+        },
+        {
+          "given": "Vivien",
+          "family": "Rossi"
+        },
+        {
+          "given": "Carsten",
+          "family": "Dormann"
+        },
+        {
+          "given": "Guillaume",
+          "family": "Cornu"
+        },
+        {
+          "given": "Gaëlle",
+          "family": "Viennois"
+        },
+        {
+          "given": "Nicolas",
+          "family": "Bayol"
+        },
+        {
+          "given": "Alexei",
+          "family": "Lyapustin"
+        },
+        {
+          "given": "Sylvie",
+          "family": "Gourlet-Fleury"
+        },
+        {
+          "given": "Raphaël",
+          "family": "Pélissier"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Nature Communications",
+      "volume": "11",
+      "issue": "1",
+      "pages_or_article": "4540",
+      "primary_url": "https://www.nature.com/articles/s41467-020-18321-y",
+      "full_citation": "Ploton, P., Mortier, F., Réjou-Méchain, M., Barbier, N., Picard, N., Rossi, V., Dormann, C., Cornu, G., Viennois, G., Bayol, N., Lyapustin, A., Gourlet-Fleury, S., & Pélissier, R. (2020). Spatial validation reveals poor predictive performance of large-scale ecological mapping models. Nature Communications, 11, 4540. https://doi.org/10.1038/s41467-020-18321-y",
+      "source_content_inspected": "publisher full text",
+      "supported_claim": "Spatially random train–test partitions can exaggerate predictive performance in spatially structured ecological data; spatial blocks or exclusion buffers address a different extrapolation setting.",
+      "suggested_placement": "Methods monitoring evaluation design; Discussion validation limits",
+      "claim_limits": "Forest biomass case study, not a prescribed 50-km buffer for STB. Earlier same-field conditioning still changes the information setting even when outer training locations are excluded.",
+      "priority": "high",
+      "eligibility": "Nature or Nature-family journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "1",
+        "DOI": "10.1038/s41467-020-18321-y",
+        "type": "journal-article",
+        "title": "Spatial validation reveals poor predictive performance of large-scale ecological mapping models",
+        "volume": "11",
+        "author": [
+          {
+            "given": "Pierre",
+            "family": "Ploton"
+          },
+          {
+            "given": "Frédéric",
+            "family": "Mortier"
+          },
+          {
+            "given": "Maxime",
+            "family": "Réjou-Méchain"
+          },
+          {
+            "given": "Nicolas",
+            "family": "Barbier"
+          },
+          {
+            "given": "Nicolas",
+            "family": "Picard"
+          },
+          {
+            "given": "Vivien",
+            "family": "Rossi"
+          },
+          {
+            "given": "Carsten",
+            "family": "Dormann"
+          },
+          {
+            "given": "Guillaume",
+            "family": "Cornu"
+          },
+          {
+            "given": "Gaëlle",
+            "family": "Viennois"
+          },
+          {
+            "given": "Nicolas",
+            "family": "Bayol"
+          },
+          {
+            "given": "Alexei",
+            "family": "Lyapustin"
+          },
+          {
+            "given": "Sylvie",
+            "family": "Gourlet-Fleury"
+          },
+          {
+            "given": "Raphaël",
+            "family": "Pélissier"
+          }
+        ],
+        "container-title": "Nature Communications",
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              11
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/s41467-020-18321-y",
+        "ISSN": [
+          "2041-1723"
+        ],
+        "article-number": "4540"
+      }
+    },
+    {
+      "id": "Bebber2013",
+      "doi": "10.1038/nclimate1990",
+      "year": 2013,
+      "title": "Crop pests and pathogens move polewards in a warming world",
+      "authors": [
+        {
+          "given": "Daniel P.",
+          "family": "Bebber"
+        },
+        {
+          "given": "Mark A. T.",
+          "family": "Ramotowski"
+        },
+        {
+          "given": "Sarah J.",
+          "family": "Gurr"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Nature Climate Change",
+      "volume": "3",
+      "issue": "11",
+      "pages_or_article": "985-988",
+      "primary_url": "https://www.nature.com/articles/nclimate1990",
+      "full_citation": "Bebber, D. P., Ramotowski, M. A. T., & Gurr, S. J. (2013). Crop pests and pathogens move polewards in a warming world. Nature Climate Change, 3, 985-988. https://doi.org/10.1038/nclimate1990",
+      "source_content_inspected": "publisher abstract",
+      "supported_claim": "Recorded crop pests and pathogens shifted polewards on average after 1960, with substantial differences among taxonomic groups.",
+      "suggested_placement": "Introduction paragraph 1, emergence and geographic responses",
+      "claim_limits": "This does not show an STB-specific range shift in Europe or verify disease magnitude under future climate.",
+      "priority": "medium",
+      "eligibility": "Nature or Nature-family journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "11",
+        "DOI": "10.1038/nclimate1990",
+        "type": "journal-article",
+        "page": "985-988",
+        "title": "Crop pests and pathogens move polewards in a warming world",
+        "volume": "3",
+        "author": [
+          {
+            "given": "Daniel P.",
+            "family": "Bebber"
+          },
+          {
+            "given": "Mark A. T.",
+            "family": "Ramotowski"
+          },
+          {
+            "given": "Sarah J.",
+            "family": "Gurr"
+          }
+        ],
+        "container-title": "Nature Climate Change",
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              9,
+              1
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/nclimate1990",
+        "ISSN": [
+          "1758-678X",
+          "1758-6798"
+        ]
+      }
+    },
+    {
+      "id": "Fisher2012",
+      "doi": "10.1038/nature10947",
+      "year": 2012,
+      "title": "Emerging fungal threats to animal, plant and ecosystem health",
+      "authors": [
+        {
+          "given": "Matthew C.",
+          "family": "Fisher"
+        },
+        {
+          "given": "Daniel. A.",
+          "family": "Henk"
+        },
+        {
+          "given": "Cheryl J.",
+          "family": "Briggs"
+        },
+        {
+          "given": "John S.",
+          "family": "Brownstein"
+        },
+        {
+          "given": "Lawrence C.",
+          "family": "Madoff"
+        },
+        {
+          "given": "Sarah L.",
+          "family": "McCraw"
+        },
+        {
+          "given": "Sarah J.",
+          "family": "Gurr"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Nature",
+      "volume": "484",
+      "issue": "7393",
+      "pages_or_article": "186-194",
+      "primary_url": "https://www.nature.com/articles/nature10947",
+      "full_citation": "Fisher, M. C., Henk, D. A., Briggs, C. J., Brownstein, J. S., Madoff, L. C., McCraw, S. L., & Gurr, S. J. (2012). Emerging fungal threats to animal, plant and ecosystem health. Nature, 484, 186-194. https://doi.org/10.1038/nature10947",
+      "source_content_inspected": "publisher editorial abstract and primary paper abstract",
+      "supported_claim": "Emerging fungal diseases threaten managed and natural ecosystems, and human activity can intensify dispersal and opportunities for pathogen evolution.",
+      "suggested_placement": "Introduction paragraph 1, broad fungal-disease significance",
+      "claim_limits": "Overlaps the existing Fones2020 framing; select only where it adds historical context, not to inflate citation counts.",
+      "priority": "optional",
+      "eligibility": "Nature or Nature-family journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "7393",
+        "DOI": "10.1038/nature10947",
+        "type": "journal-article",
+        "page": "186-194",
+        "title": "Emerging fungal threats to animal, plant and ecosystem health",
+        "volume": "484",
+        "author": [
+          {
+            "given": "Matthew C.",
+            "family": "Fisher"
+          },
+          {
+            "given": "Daniel. A.",
+            "family": "Henk"
+          },
+          {
+            "given": "Cheryl J.",
+            "family": "Briggs"
+          },
+          {
+            "given": "John S.",
+            "family": "Brownstein"
+          },
+          {
+            "given": "Lawrence C.",
+            "family": "Madoff"
+          },
+          {
+            "given": "Sarah L.",
+            "family": "McCraw"
+          },
+          {
+            "given": "Sarah J.",
+            "family": "Gurr"
+          }
+        ],
+        "container-title": "Nature",
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              4
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/nature10947",
+        "ISSN": [
+          "0028-0836",
+          "1476-4687"
+        ]
+      }
+    },
+    {
+      "id": "Knutti2013",
+      "doi": "10.1038/nclimate1716",
+      "year": 2013,
+      "title": "Robustness and uncertainties in the new CMIP5 climate model projections",
+      "authors": [
+        {
+          "given": "Reto",
+          "family": "Knutti"
+        },
+        {
+          "given": "Jan",
+          "family": "Sedláček"
+        }
+      ],
+      "authors_complete": true,
+      "journal": "Nature Climate Change",
+      "volume": "3",
+      "issue": "4",
+      "pages_or_article": "369-373",
+      "primary_url": "https://www.nature.com/articles/nclimate1716",
+      "full_citation": "Knutti, R., & Sedláček, J. (2013). Robustness and uncertainties in the new CMIP5 climate model projections. Nature Climate Change, 3, 369-373. https://doi.org/10.1038/nclimate1716",
+      "source_content_inspected": "official ETH-author-hosted primary paper abstract",
+      "supported_claim": "CMIP5 local projection spread persisted despite substantial model development; greater model complexity did not by itself remove projection uncertainty.",
+      "suggested_placement": "Discussion selected climate-model spread",
+      "claim_limits": "Does not by itself establish a probabilistic interpretation or quantify uncertainty for this selected three-model CMIP6 ensemble.",
+      "priority": "optional",
+      "eligibility": "Nature or Nature-family journal",
+      "metadata_provenance": "Publisher-inspected source and Crossref CSL export, with publisher-verified manual correction where noted",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "4",
+        "DOI": "10.1038/nclimate1716",
+        "type": "journal-article",
+        "page": "369-373",
+        "title": "Robustness and uncertainties in the new CMIP5 climate model projections",
+        "volume": "3",
+        "author": [
+          {
+            "given": "Reto",
+            "family": "Knutti"
+          },
+          {
+            "given": "Jan",
+            "family": "Sedláček"
+          }
+        ],
+        "container-title": "Nature Climate Change",
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              28
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/nclimate1716",
+        "ISSN": [
+          "1758-678X",
+          "1758-6798"
+        ]
+      },
+      "metadata_note": "Citation year uses the volume/issue year, rather than an earlier first-online year."
+    }
+  ],
+  "existing_journal_references": [
+    {
+      "doi": "10.1146/annurev-phyto-080614-120207",
+      "year": 2015,
+      "title": "Range-Expanding Pests and Pathogens in a Warming World",
+      "journal": "Annual Review of Phytopathology",
+      "authors": [
+        {
+          "given": "Daniel Patrick",
+          "family": "Bebber"
+        }
+      ],
+      "authors_complete": true,
+      "volume": "53",
+      "pages_or_article": "335-356",
+      "csl": {
+        "publisher": "Annual Reviews",
+        "issue": "1",
+        "DOI": "10.1146/annurev-phyto-080614-120207",
+        "type": "journal-article",
+        "page": "335-356",
+        "title": "Range-Expanding Pests and Pathogens in a Warming World",
+        "volume": "53",
+        "author": [
+          {
+            "given": "Daniel Patrick",
+            "family": "Bebber"
+          }
+        ],
+        "container-title": "Annual Review of Phytopathology",
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              4
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1146/annurev-phyto-080614-120207",
+        "ISSN": [
+          "0066-4286",
+          "1545-2107"
+        ]
+      },
+      "metadata_provenance": "Crossref official CSL export; existing manuscript reference retained"
+    },
+    {
+      "doi": "10.1038/s41558-021-01104-8",
+      "year": 2021,
+      "title": "Plant pathogen infection risk tracks global crop yields under climate change",
+      "journal": "Nature Climate Change",
+      "authors": [
+        {
+          "given": "Thomas M.",
+          "family": "Chaloner"
+        },
+        {
+          "given": "Sarah J.",
+          "family": "Gurr"
+        },
+        {
+          "given": "Daniel P.",
+          "family": "Bebber"
+        }
+      ],
+      "authors_complete": true,
+      "volume": "11",
+      "pages_or_article": "710-715",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "8",
+        "DOI": "10.1038/s41558-021-01104-8",
+        "type": "journal-article",
+        "page": "710-715",
+        "title": "Plant pathogen infection risk tracks global crop yields under climate change",
+        "volume": "11",
+        "author": [
+          {
+            "given": "Thomas M.",
+            "family": "Chaloner"
+          },
+          {
+            "given": "Sarah J.",
+            "family": "Gurr"
+          },
+          {
+            "given": "Daniel P.",
+            "family": "Bebber"
+          }
+        ],
+        "container-title": "Nature Climate Change",
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              8
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/s41558-021-01104-8",
+        "ISSN": [
+          "1758-678X",
+          "1758-6798"
+        ]
+      },
+      "metadata_provenance": "Crossref official CSL export; existing manuscript reference retained"
+    },
+    {
+      "doi": "10.1038/s43016-020-0075-0",
+      "year": 2020,
+      "title": "Threats to global food security from emerging fungal and oomycete crop pathogens",
+      "journal": "Nature Food",
+      "authors": [
+        {
+          "given": "Helen N.",
+          "family": "Fones"
+        },
+        {
+          "given": "Daniel P.",
+          "family": "Bebber"
+        },
+        {
+          "given": "Thomas M.",
+          "family": "Chaloner"
+        },
+        {
+          "given": "William T.",
+          "family": "Kay"
+        },
+        {
+          "given": "Gero",
+          "family": "Steinberg"
+        },
+        {
+          "given": "Sarah J.",
+          "family": "Gurr"
+        }
+      ],
+      "authors_complete": true,
+      "volume": "1",
+      "pages_or_article": "332-342",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "6",
+        "DOI": "10.1038/s43016-020-0075-0",
+        "type": "journal-article",
+        "page": "332-342",
+        "title": "Threats to global food security from emerging fungal and oomycete crop pathogens",
+        "volume": "1",
+        "author": [
+          {
+            "given": "Helen N.",
+            "family": "Fones"
+          },
+          {
+            "given": "Daniel P.",
+            "family": "Bebber"
+          },
+          {
+            "given": "Thomas M.",
+            "family": "Chaloner"
+          },
+          {
+            "given": "William T.",
+            "family": "Kay"
+          },
+          {
+            "given": "Gero",
+            "family": "Steinberg"
+          },
+          {
+            "given": "Sarah J.",
+            "family": "Gurr"
+          }
+        ],
+        "container-title": "Nature Food",
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              8
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/s43016-020-0075-0",
+        "ISSN": [
+          "2662-1355"
+        ]
+      },
+      "metadata_provenance": "Crossref official CSL export; existing manuscript reference retained"
+    },
+    {
+      "doi": "10.1038/s43016-022-00549-0",
+      "year": 2022,
+      "title": "Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India",
+      "journal": "Nature Food",
+      "authors": [
+        {
+          "given": "Andrew J.",
+          "family": "McDonald"
+        },
+        {
+          "family": "Balwinder-Singh"
+        },
+        {
+          "given": "Alwin",
+          "family": "Keil"
+        },
+        {
+          "given": "Amit",
+          "family": "Srivastava"
+        },
+        {
+          "given": "Peter",
+          "family": "Craufurd"
+        },
+        {
+          "given": "Avinash",
+          "family": "Kishore"
+        },
+        {
+          "given": "Virender",
+          "family": "Kumar"
+        },
+        {
+          "given": "Gokul",
+          "family": "Paudel"
+        },
+        {
+          "given": "Sudhanshu",
+          "family": "Singh"
+        },
+        {
+          "given": "A. K.",
+          "family": "Singh"
+        },
+        {
+          "given": "R. K.",
+          "family": "Sohane"
+        },
+        {
+          "given": "R. K.",
+          "family": "Malik"
+        }
+      ],
+      "authors_complete": true,
+      "volume": "3",
+      "pages_or_article": "542-551",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "7",
+        "DOI": "10.1038/s43016-022-00549-0",
+        "type": "journal-article",
+        "page": "542-551",
+        "title": "Time management governs climate resilience and productivity in the coupled rice–wheat cropping systems of eastern India",
+        "volume": "3",
+        "author": [
+          {
+            "given": "Andrew J.",
+            "family": "McDonald"
+          },
+          {
+            "family": "Balwinder-Singh"
+          },
+          {
+            "given": "Alwin",
+            "family": "Keil"
+          },
+          {
+            "given": "Amit",
+            "family": "Srivastava"
+          },
+          {
+            "given": "Peter",
+            "family": "Craufurd"
+          },
+          {
+            "given": "Avinash",
+            "family": "Kishore"
+          },
+          {
+            "given": "Virender",
+            "family": "Kumar"
+          },
+          {
+            "given": "Gokul",
+            "family": "Paudel"
+          },
+          {
+            "given": "Sudhanshu",
+            "family": "Singh"
+          },
+          {
+            "given": "A. K.",
+            "family": "Singh"
+          },
+          {
+            "given": "R. K.",
+            "family": "Sohane"
+          },
+          {
+            "given": "R. K.",
+            "family": "Malik"
+          }
+        ],
+        "container-title": "Nature Food",
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              21
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/s43016-022-00549-0",
+        "ISSN": [
+          "2662-1355"
+        ]
+      },
+      "metadata_provenance": "Crossref official CSL export; existing manuscript reference retained"
+    },
+    {
+      "doi": "10.1111/gcb.16662",
+      "year": 2023,
+      "title": "The extreme 2016 wheat yield failure in France",
+      "journal": "Global Change Biology",
+      "authors": [
+        {
+          "given": "Rogério de S.",
+          "family": "Nóia Júnior"
+        },
+        {
+          "given": "Jean‐Charles",
+          "family": "Deswarte"
+        },
+        {
+          "given": "Jean‐Pierre",
+          "family": "Cohan"
+        },
+        {
+          "given": "Pierre",
+          "family": "Martre"
+        },
+        {
+          "given": "Marijn",
+          "family": "van der Velde"
+        },
+        {
+          "given": "Remi",
+          "family": "Lecerf"
+        },
+        {
+          "given": "Heidi",
+          "family": "Webber"
+        },
+        {
+          "given": "Frank",
+          "family": "Ewert"
+        },
+        {
+          "given": "Alex C.",
+          "family": "Ruane"
+        },
+        {
+          "given": "Gustavo A.",
+          "family": "Slafer"
+        },
+        {
+          "given": "Senthold",
+          "family": "Asseng"
+        }
+      ],
+      "authors_complete": true,
+      "volume": "29",
+      "pages_or_article": "3130-3146",
+      "csl": {
+        "publisher": "Wiley",
+        "issue": "11",
+        "DOI": "10.1111/gcb.16662",
+        "type": "journal-article",
+        "page": "3130-3146",
+        "title": "The extreme 2016 wheat yield failure in France",
+        "volume": "29",
+        "author": [
+          {
+            "given": "Rogério de S.",
+            "family": "Nóia Júnior"
+          },
+          {
+            "given": "Jean‐Charles",
+            "family": "Deswarte"
+          },
+          {
+            "given": "Jean‐Pierre",
+            "family": "Cohan"
+          },
+          {
+            "given": "Pierre",
+            "family": "Martre"
+          },
+          {
+            "given": "Marijn",
+            "family": "van der Velde"
+          },
+          {
+            "given": "Remi",
+            "family": "Lecerf"
+          },
+          {
+            "given": "Heidi",
+            "family": "Webber"
+          },
+          {
+            "given": "Frank",
+            "family": "Ewert"
+          },
+          {
+            "given": "Alex C.",
+            "family": "Ruane"
+          },
+          {
+            "given": "Gustavo A.",
+            "family": "Slafer"
+          },
+          {
+            "given": "Senthold",
+            "family": "Asseng"
+          }
+        ],
+        "container-title": "Global Change Biology",
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              23
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1111/gcb.16662",
+        "ISSN": [
+          "1354-1013",
+          "1365-2486"
+        ]
+      },
+      "metadata_provenance": "Crossref official CSL export; existing manuscript reference retained"
+    },
+    {
+      "doi": "10.1038/s41558-023-01902-2",
+      "year": 2024,
+      "title": "Production vulnerability to wheat blast disease under climate change",
+      "journal": "Nature Climate Change",
+      "authors": [
+        {
+          "given": "Diego N. L.",
+          "family": "Pequeno"
+        },
+        {
+          "given": "Thiago B.",
+          "family": "Ferreira"
+        },
+        {
+          "given": "José M. C.",
+          "family": "Fernandes"
+        },
+        {
+          "given": "Pawan K.",
+          "family": "Singh"
+        },
+        {
+          "given": "Willingthon",
+          "family": "Pavan"
+        },
+        {
+          "given": "Kai",
+          "family": "Sonder"
+        },
+        {
+          "given": "Richard",
+          "family": "Robertson"
+        },
+        {
+          "given": "Timothy J.",
+          "family": "Krupnik"
+        },
+        {
+          "given": "Olaf",
+          "family": "Erenstein"
+        },
+        {
+          "given": "Senthold",
+          "family": "Asseng"
+        }
+      ],
+      "authors_complete": true,
+      "volume": "14",
+      "pages_or_article": "178-183",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "2",
+        "DOI": "10.1038/s41558-023-01902-2",
+        "type": "journal-article",
+        "page": "178-183",
+        "title": "Production vulnerability to wheat blast disease under climate change",
+        "volume": "14",
+        "author": [
+          {
+            "given": "Diego N. L.",
+            "family": "Pequeno"
+          },
+          {
+            "given": "Thiago B.",
+            "family": "Ferreira"
+          },
+          {
+            "given": "José M. C.",
+            "family": "Fernandes"
+          },
+          {
+            "given": "Pawan K.",
+            "family": "Singh"
+          },
+          {
+            "given": "Willingthon",
+            "family": "Pavan"
+          },
+          {
+            "given": "Kai",
+            "family": "Sonder"
+          },
+          {
+            "given": "Richard",
+            "family": "Robertson"
+          },
+          {
+            "given": "Timothy J.",
+            "family": "Krupnik"
+          },
+          {
+            "given": "Olaf",
+            "family": "Erenstein"
+          },
+          {
+            "given": "Senthold",
+            "family": "Asseng"
+          }
+        ],
+        "container-title": "Nature Climate Change",
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/s41558-023-01902-2",
+        "ISSN": [
+          "1758-678X",
+          "1758-6798"
+        ]
+      },
+      "metadata_provenance": "Crossref official CSL export; existing manuscript reference retained"
+    },
+    {
+      "doi": "10.1038/s41559-018-0793-y",
+      "year": 2019,
+      "title": "The global burden of pathogens and pests on major food crops",
+      "journal": "Nature Ecology &amp; Evolution",
+      "authors": [
+        {
+          "given": "Serge",
+          "family": "Savary"
+        },
+        {
+          "given": "Laetitia",
+          "family": "Willocquet"
+        },
+        {
+          "given": "Sarah Jane",
+          "family": "Pethybridge"
+        },
+        {
+          "given": "Paul",
+          "family": "Esker"
+        },
+        {
+          "given": "Neil",
+          "family": "McRoberts"
+        },
+        {
+          "given": "Andy",
+          "family": "Nelson"
+        }
+      ],
+      "authors_complete": true,
+      "volume": "3",
+      "pages_or_article": "430-439",
+      "csl": {
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "3",
+        "DOI": "10.1038/s41559-018-0793-y",
+        "type": "journal-article",
+        "page": "430-439",
+        "title": "The global burden of pathogens and pests on major food crops",
+        "volume": "3",
+        "author": [
+          {
+            "given": "Serge",
+            "family": "Savary"
+          },
+          {
+            "given": "Laetitia",
+            "family": "Willocquet"
+          },
+          {
+            "given": "Sarah Jane",
+            "family": "Pethybridge"
+          },
+          {
+            "given": "Paul",
+            "family": "Esker"
+          },
+          {
+            "given": "Neil",
+            "family": "McRoberts"
+          },
+          {
+            "given": "Andy",
+            "family": "Nelson"
+          }
+        ],
+        "container-title": "Nature Ecology &amp; Evolution",
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              4
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1038/s41559-018-0793-y",
+        "ISSN": [
+          "2397-334X"
+        ]
+      },
+      "metadata_provenance": "Crossref official CSL export; existing manuscript reference retained"
+    },
+    {
+      "doi": "10.1094/PHYTO-07-16-0283-R",
+      "year": 2017,
+      "title": "Physiological Traits Determining Yield Tolerance of Wheat to Foliar Diseases",
+      "journal": "Phytopathology",
+      "authors": [
+        {
+          "given": "F.",
+          "family": "van den Berg"
+        },
+        {
+          "given": "N. D.",
+          "family": "Paveley"
+        },
+        {
+          "given": "I. J.",
+          "family": "Bingham"
+        },
+        {
+          "given": "F.",
+          "family": "van den Bosch"
+        }
+      ],
+      "authors_complete": true,
+      "volume": "107",
+      "pages_or_article": "1468-1478",
+      "csl": {
+        "publisher": "Scientific Societies",
+        "issue": "12",
+        "DOI": "10.1094/phyto-07-16-0283-r",
+        "type": "journal-article",
+        "page": "1468-1478",
+        "title": "Physiological Traits Determining Yield Tolerance of Wheat to Foliar Diseases",
+        "volume": "107",
+        "author": [
+          {
+            "given": "F.",
+            "family": "van den Berg"
+          },
+          {
+            "given": "N. D.",
+            "family": "Paveley"
+          },
+          {
+            "given": "I. J.",
+            "family": "Bingham"
+          },
+          {
+            "given": "F.",
+            "family": "van den Bosch"
+          }
+        ],
+        "container-title": "Phytopathology",
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              12
+            ]
+          ]
+        },
+        "URL": "http://dx.doi.org/10.1094/PHYTO-07-16-0283-R",
+        "ISSN": [
+          "0031-949X",
+          "1943-7684"
+        ]
+      },
+      "metadata_provenance": "Crossref official CSL export; existing manuscript reference retained"
+    }
+  ],
+  "claim_mapping": {
+    "GallegoTevar2024": {
+      "claim": "Non-additive climate–pathogen effects on plant performance were common in the meta-analysis; drought–pathogen combinations often showed antagonism, and responses varied among pathosystems.",
+      "placement": "Introduction paragraph 1–2; Discussion generalizability",
+      "limits": "Does not establish the mechanism, sign or magnitude of the current wheat–STB simulations."
+    },
+    "Vary2015": {
+      "claim": "Acclimation of both wheat and pathogens to elevated CO2 increased STB and Fusarium head blight severity under the tested experimental conditions.",
+      "placement": "Discussion omitted biological responses, cultivar/pathogen assumptions",
+      "limits": "The experiment does not calibrate this model or justify a universal CO2 response for all wheat cultivars."
+    },
+    "Zheng2016": {
+      "claim": "Warming changes wheat flowering time through genotype-dependent vernalization and photoperiod responses and can alter alignment with seasonal stress.",
+      "placement": "Introduction paragraph 2; Discussion fixed cultivar/calendar scenario",
+      "limits": "Australian wheatbelt study, not direct evidence for the European simulated advance."
+    },
+    "Menzel2020": {
+      "claim": "European phenological records show warming-related advances and distinctions between climate-driven phenophases and farmers’ activities; generative periods shortened in agricultural crops.",
+      "placement": "Introduction paragraph 2; Discussion climate development versus management adaptation",
+      "limits": "Does not validate the present model’s start gate, leaf ranks, flowering or terminal stage."
+    },
+    "Bonecke2020": {
+      "claim": "German winter wheat growth stages occurred earlier over the study record, while phase durations did not change uniformly: stem elongation differed from the other developmental phases.",
+      "placement": "Introduction paragraph 2; Discussion timing advance versus interval length",
+      "limits": "Historical phenological data were linked to experiments; this is not disease-specific evidence or validation of retained thresholds."
+    },
+    "Martre2015": {
+      "claim": "Across 27 wheat models, accuracy in grain yield or grain protein concentration had little relationship to accuracy in preceding in-season variables; ensemble estimates improved overall performance.",
+      "placement": "Discussion empirical endpoint support and model uncertainty",
+      "limits": "A crop-model ensemble differs from the current three-GCM ensemble driving one disease model; do not conflate them."
+    },
+    "Asseng2011": {
+      "claim": "Temperature variability and high-temperature-induced senescence during grain filling can substantially alter wheat production in simulation experiments.",
+      "placement": "Discussion lower Mediterranean disease does not imply improved total productivity",
+      "limits": "Abiotic wheat response, not STB damage, and not a damage-to-yield conversion."
+    },
+    "Sparks2014": {
+      "claim": "Global potato late-blight risk initially increased and subsequently declined as planting dates shifted to cooler seasons, illustrating the importance of crop-calendar responses.",
+      "placement": "Introduction paragraph 2; Discussion interpretation and management scope",
+      "limits": "Prior crop-calendar/disease coupling means the current novelty must be the shared-support factorial attribution, not the first recognition of host calendar effects."
+    },
+    "Singh2023": {
+      "claim": "Climate change acts on pathogen evolution, geographic distributions and host–pathogen interactions; crop-phenology and pathogen-development models can yield pathosystem-dependent disease impacts, with standardized data gaps limiting quantitative forecasts.",
+      "placement": "Introduction paragraph 1–2; Discussion empirical priorities",
+      "limits": "Review provides framing, not external validation of the current model’s outputs."
+    },
+    "Garrett2006": {
+      "claim": "Climate effects span infection, population adaptation and ecosystem processes, and pathosystem characteristics complicate scaling individual infection probabilities to wider impacts.",
+      "placement": "Introduction paragraph 1; Discussion transferability",
+      "limits": "Use as conceptual background rather than evidence of the current numerical result."
+    },
+    "Waggoner1987": {
+      "claim": "Healthy-area duration integrates healthy leaf area through time; healthy-area absorption additionally accounts for intercepted radiation, making the physiological basis distinct from a symptom-percentage integral.",
+      "placement": "Introduction paragraph 3; Discussion functional canopy endpoints",
+      "limits": "Examples concern several crop pathosystems and do not establish a universal linear conversion to wheat yield. No DOI verified; use official archival URL."
+    },
+    "Savary2006": {
+      "claim": "Pathogen injury, crop damage and economic loss form a sequence involving distinct biological and decision processes; the injury–damage relationship carries uncertainty.",
+      "placement": "Introduction paragraph 1 and 3; Discussion production exposure",
+      "limits": "Do not relabel the manuscript’s fixed symptom proxy as physiological or economic damage solely on this basis."
+    },
+    "Pietravalle2003": {
+      "claim": "English wheat field data supported separate models for STB presence above a severity threshold and STB severity, with rainfall during stem elongation entering the severity model.",
+      "placement": "Introduction paragraph 2; Discussion symptom occurrence versus accumulated impact",
+      "limits": "Correlative empirical weather models do not validate the present latent-state process model; no universal weather coefficients are implied."
+    },
+    "Robert2004": {
+      "claim": "Cultivar differences in STB timing apparent from sowing disappeared when time was expressed from flowering; the work also explicitly linked canopy layers, measured photosynthesis and senescence to crop growth effects.",
+      "placement": "Introduction paragraphs 2–3; Discussion host-relative timing and functional canopy",
+      "limits": "Strong antecedent: do not claim discovery of host-relative epidemic timing. Its leaf-photosynthesis parameters and natural-senescence correction cannot be transferred to the current normalized proxy without calibration."
+    },
+    "Bernard2013": {
+      "claim": "Controlled experiments on adult wheat showed a nonlinear STB latent-period response to measured leaf temperature and differences among pathogen isolates and leaf layers; leaf temperature can differ from air temperature.",
+      "placement": "Introduction paragraph 2; Methods forcing qualification; Discussion missing canopy microclimate",
+      "limits": "Its latent period used time to 37% of final sporulating area, distinct from first visible symptoms. Do not import numerical durations or optima as direct validation of the retained model."
+    },
+    "Minoli2022": {
+      "claim": "Global crop-model experiments separated no adaptation, timely adaptation and delayed adaptation of sowing dates and cultivars, showing that fixed and adaptive growing-period assumptions answer different management scenarios.",
+      "placement": "Discussion fixed calendar and adaptation scope",
+      "limits": "This paper’s simulated adaptation gains are not evidence of feasible gains for the current disease model or all European farms."
+    },
+    "Asseng2013": {
+      "claim": "A standardized wheat intercomparison found climate-impact differences arising from crop model structures and parameters, with crop-model uncertainty exceeding downscaled-GCM uncertainty in that experiment.",
+      "placement": "Discussion structural uncertainty versus selected GCM spread",
+      "limits": "The relative uncertainty contributions are experiment-specific; do not assign their numerical partition to the current study."
+    },
+    "Asseng2015": {
+      "claim": "Testing 30 wheat models against temperature experiments, including warming treatments, exposed poorer model accuracy at high temperatures and benefits of evaluation across contrasting thermal conditions.",
+      "placement": "Discussion independent response evaluation and extrapolation",
+      "limits": "The global yield sensitivity is not a disease coefficient and should not be used to convert proxy days into grain losses."
+    },
+    "Ploton2020": {
+      "claim": "Spatially random train–test partitions can exaggerate predictive performance in spatially structured ecological data; spatial blocks or exclusion buffers address a different extrapolation setting.",
+      "placement": "Methods monitoring evaluation design; Discussion validation limits",
+      "limits": "Forest biomass case study, not a prescribed 50-km buffer for STB. Earlier same-field conditioning still changes the information setting even when outer training locations are excluded."
+    },
+    "Bebber2013": {
+      "claim": "Recorded crop pests and pathogens shifted polewards on average after 1960, with substantial differences among taxonomic groups.",
+      "placement": "Introduction paragraph 1, emergence and geographic responses",
+      "limits": "This does not show an STB-specific range shift in Europe or verify disease magnitude under future climate."
+    },
+    "Fisher2012": {
+      "claim": "Emerging fungal diseases threaten managed and natural ecosystems, and human activity can intensify dispersal and opportunities for pathogen evolution.",
+      "placement": "Introduction paragraph 1, broad fungal-disease significance",
+      "limits": "Overlaps the existing Fones2020 framing; select only where it adds historical context, not to inflate citation counts."
+    },
+    "Knutti2013": {
+      "claim": "CMIP5 local projection spread persisted despite substantial model development; greater model complexity did not by itself remove projection uncertainty.",
+      "placement": "Discussion selected climate-model spread",
+      "limits": "Does not by itself establish a probabilistic interpretation or quantify uncertainty for this selected three-model CMIP6 ensemble."
+    }
+  },
+  "guidelines": {
+    "primary_url": "https://onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html",
+    "accessed_via": "https://www.onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html",
+    "research_article_main_body_max_words": 8000,
+    "counted_sections": [
+      "Introduction",
+      "Materials and Methods",
+      "Results",
+      "Discussion",
+      "Acknowledgements"
+    ],
+    "abstract_max_words": 300,
+    "running_title_max": "less than 45 characters including spaces",
+    "keywords": "6–10",
+    "initial_submission_style": "Free Format; no strict initial formatting requirement, all essential manuscript elements required. Specific formatting follows acceptance.",
+    "reference_style_finding": "The current guideline page contains no explicit alphabetical ordering or mandatory reference-format prescription. A consistent author–year style and alphabetized bibliography are editorial choices, not a newly verified mandatory GCB rule.",
+    "maps_disclaimer_exact": "map lines delineate study areas and do not necessarily depict accepted national boundaries",
+    "data_sharing": "Mandatory data sharing; data access for peer review must be provided on request.",
+    "no_presubmission_enquiries": true,
+    "content_inspected": "Current publisher guideline page, original-research requirements and formatting instructions, retrieved 2026-10-23."
+  },
+  "eligibility_notes": {
+    "prohibited_publishers": "MDPI and Frontiers were neither intentionally searched/opened nor used as evidence; incidental search results were skipped.",
+    "journal_of_experimental_botany": "Publisher homepage explicitly describes JXB as a top-ranking plant-science journal, owned by the Society for Experimental Biology; its broad physiological scope and original wheat-STB study make Robert2004 suitable. No claim of Nature-family status is made.",
+    "jxb_primary_verification_url": "https://academic.oup.com/jxb/",
+    "phytopathology": "APS official page describes Phytopathology as the premier international journal for fundamental and applied plant-disease research.",
+    "phytopathology_primary_verification_url": "https://apsjournals.apsnet.org/toc/phyto/0/0",
+    "plant_pathology": "Society ownership and scope were verified, but this alone does not establish the strict field-top status. The two otherwise very relevant Plant Pathology papers are held out."
+  },
+  "not_recommended_pending_eligibility": [
+    {
+      "id": "Lovell2004",
+      "doi": "10.1111/j.0032-0862.2004.00983.x",
+      "title": "Effect of temperature on latent period of septoria leaf blotch on winter wheat under outdoor conditions",
+      "journal": "Plant Pathology",
+      "authors": [
+        {
+          "given": "D. J.",
+          "family": "Lovell",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T.",
+          "family": "Hunter",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S. J.",
+          "family": "Powers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S. R.",
+          "family": "Parker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "F.",
+          "family": "Van den Bosch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "53",
+      "pages_or_article": "170-181",
+      "status": "Do not insert under the strict journal-eligibility rule without a firmer field-top-journal determination. Core alternatives already cover the necessary claims.",
+      "eligibility_checked_url": "https://www.bspp.org.uk/publications/plant-pathology/",
+      "primary_url": "https://bsppjournals.onlinelibrary.wiley.com/doi/10.1111/j.0032-0862.2004.00983.x"
+    },
+    {
+      "id": "Parker2004",
+      "doi": "10.1111/j.1365-3059.2004.00951.x",
+      "title": "Tolerance of septoria leaf blotch in winter wheat",
+      "journal": "Plant Pathology",
+      "authors": [
+        {
+          "given": "S. R.",
+          "family": "Parker",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Welham",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N. D.",
+          "family": "Paveley",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Foulkes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R. K.",
+          "family": "Scott",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "53",
+      "pages_or_article": "1-10",
+      "status": "Do not insert under the strict journal-eligibility rule without a firmer field-top-journal determination. Core alternatives already cover the necessary claims.",
+      "eligibility_checked_url": "https://www.bspp.org.uk/publications/plant-pathology/",
+      "primary_url": "https://bsppjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-3059.2004.00951.x"
+    }
+  ],
+  "editorial_use": "Priorities indicate fit, not a citation quota. Avoid adding all three optional broad/abiotic references if their associated claim adds no substantive content. Do not cite any outside paper as validation of the current autonomous model, its physiological interpretation, or grain losses."
+}

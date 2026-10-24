@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "forcing_files": 687,
+  "cells": 14941,
+  "calendar_eligible_cells": 14932,
+  "alignment_tables": 9,
+  "reference_monthly_statistics": 360,
+  "reference_source_receipts": 360,
+  "forcing_content_hashes_verified": false,
+  "forcing_receipts_and_sizes_verified": true,
+  "core_source_files": 8
+}

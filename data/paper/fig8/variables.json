@@ -1,0 +1,11 @@
+{
+  "role": "attribution_results",
+  "units": {
+    "weather_had_days": "normalizedaffected-tissuedays",
+    "host_had_days": "normalizedaffected-tissuedays",
+    "net_had_days": "normalizedaffected-tissuedays",
+    "support": "4117identicalpairsacross8settings",
+    "ranges": "min–maxofthreemodels,notconfidenceintervals"
+  },
+  "caption": "Weather, host and net attribution under eight settings on exactly 4,117 common model–draw–year pairs. Small points represent three climate models, diamonds their equally weighted mean, and horizontal lines their minimum–maximum spread, not confidence intervals. Host replacement includes tissue availability, area, renewal and window timing. Threshold and accounting perturbations are fixed structural diagnostics. Whole-window and shared-time integration answer distinct conditional questions. Retained weighted support is 72.02% and differs among models; its distribution is shown in Figure S2."
+}

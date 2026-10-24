@@ -1,0 +1,47 @@
+{
+  "use_in_main_text": "Two evidence paragraphs; distinguish STB-dominated selected experiments from mixed foliar-disease annual gaps.",
+  "figure_role": "One supplementary observational yield-context figure, independent of model-performance figures.",
+  "figure_builder": "analysis.gcb_preparation.yield_evidence_extension.build_yield_evidence_figure(output_path=None)",
+  "legitimate_novel_result": "Exact 22-year official annual distribution and disease-attribution audit; descriptive synthesis, not new meta-analysis.",
+  "eligible_records_in_retrieved_inventory": 0,
+  "inventory_scope": "17 targeted primary/archived source records; not an exhaustive systematic review and not 17 independent studies.",
+  "avoid": [
+    "Pooling Garnault2004–2017 and Performance2004–2025 as independent studies",
+    "Calling mixed foliar-disease fungicide gains pure STB loss",
+    "Using BLUP prediction errors as independent sampling SEs",
+    "Pooling incompatible ordinal scores, leaf ranks or thermal/calendar HAD slopes",
+    "Converting normalized affected-tissue days to grain-yield percentages or tonnage",
+    "Interpreting published yearly variation as climate causation"
+  ],
+  "data_needed_for_new_meta_analysis": [
+    "Trial/site-year identifiers and cultivar",
+    "Protected and untreated yield means and n",
+    "Paired-difference variance, or replicate/block yields and shared-control covariance",
+    "STB plus other pathogen severity and control efficacy",
+    "Harvest moisture basis",
+    "Leaf area/rank, assessment timing and phenology",
+    "Source identifiers sufficient to remove overlapping experiments"
+  ],
+  "priorities": [
+    {
+      "source": "Garnault2021/ARVALIS",
+      "target": "2004–2017 rust-resistant STB-susceptible paired raw trial yields and variance"
+    },
+    {
+      "source": "Bancal2015",
+      "target": "161 crop-pair dataset, plot replicates and overlap map"
+    },
+    {
+      "source": "VanDenBosch2022",
+      "target": "147-line field dataset; explicit reasonable-request availability; author contact not initiated"
+    }
+  ],
+  "source_conflicts": [
+    {
+      "year": 2023,
+      "performance_series_q_ha": 16,
+      "ARVALIS_and_partners_dossier_q_ha": 15,
+      "resolution": "Source trial memberships and retrospective revisions are unavailable, so the discrepancy is unresolved. Retain the retrospective Performance series without splicing or averaging the two summaries."
+    }
+  ]
+}

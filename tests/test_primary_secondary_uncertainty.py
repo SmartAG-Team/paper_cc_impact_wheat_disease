@@ -6,7 +6,7 @@ import pytest
 
 
 def module():
-    try:return importlib.import_module('calibration.primary_secondary.uncertainty')
+    try:return importlib.import_module('models.calibration.primary_secondary.uncertainty')
     except ModuleNotFoundError:pytest.fail('Location-block error uncertainty is not implemented')
 
 

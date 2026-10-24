@@ -7,7 +7,7 @@ import pytest
 
 def metrics():
     try:
-        return importlib.import_module('calibration.primary_secondary.crop_protection_metrics')
+        return importlib.import_module('models.calibration.primary_secondary.crop_protection_metrics')
     except ModuleNotFoundError:
         pytest.fail('Crop-protection forecast diagnostics are not implemented')
 

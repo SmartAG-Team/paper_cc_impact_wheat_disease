@@ -1,0 +1,222 @@
+{
+  "final_figure_PDF_pages_and_changed_Methods_text_pages_inspected": true,
+  "word_XML_parsed": true,
+  "native_figure_width_cm": 19,
+  "figure_font_pt": 12,
+  "figure_formats": [
+    "png"
+  ],
+  "png_exports": [
+    {
+      "file": "fig1.png",
+      "pixels": [
+        2244,
+        1948
+      ],
+      "width_cm": 19.0,
+      "height_cm": 16.5,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig3.png",
+      "pixels": [
+        2244,
+        1594
+      ],
+      "width_cm": 19.0,
+      "height_cm": 13.500000000000002,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig2.png",
+      "pixels": [
+        2244,
+        2149
+      ],
+      "width_cm": 19.0,
+      "height_cm": 18.2,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig4.png",
+      "pixels": [
+        2244,
+        2066
+      ],
+      "width_cm": 19.0,
+      "height_cm": 17.5,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "figs1.png",
+      "pixels": [
+        2244,
+        1653
+      ],
+      "width_cm": 19.0,
+      "height_cm": 14.0,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig5.png",
+      "pixels": [
+        2244,
+        2125
+      ],
+      "width_cm": 19.0,
+      "height_cm": 18.0,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig8.png",
+      "pixels": [
+        2244,
+        1511
+      ],
+      "width_cm": 19.0,
+      "height_cm": 12.8,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig9.png",
+      "pixels": [
+        2244,
+        1736
+      ],
+      "width_cm": 19.0,
+      "height_cm": 14.7,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "figs2.png",
+      "pixels": [
+        2244,
+        732
+      ],
+      "width_cm": 19.0,
+      "height_cm": 6.2,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig6.png",
+      "pixels": [
+        2244,
+        2149
+      ],
+      "width_cm": 19.0,
+      "height_cm": 18.2,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig7.png",
+      "pixels": [
+        2244,
+        1830
+      ],
+      "width_cm": 19.0,
+      "height_cm": 15.5,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "fig10.png",
+      "pixels": [
+        2244,
+        1807
+      ],
+      "width_cm": 19.0,
+      "height_cm": 15.3,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "figs3.png",
+      "pixels": [
+        2244,
+        1039
+      ],
+      "width_cm": 19.0,
+      "height_cm": 8.8,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    },
+    {
+      "file": "graphical_abstract.png",
+      "pixels": [
+        2244,
+        1098
+      ],
+      "width_cm": 19.0,
+      "height_cm": 9.3,
+      "font_pt": 12,
+      "dpi": 300,
+      "axis_labels_and_annotations_within_canvas": true
+    }
+  ],
+  "duplicate_vector_figure_exports_removed": true,
+  "methods_figures_embedded_before_Results": 3,
+  "data_overview_assessments": 2304,
+  "data_overview_field_seasons": 218,
+  "data_overview_sites": 128,
+  "all_2304_values_and_untreated_eligibility_reconstructed": true,
+  "no_unintended_label_clipping": true,
+  "geographical_scale_bars": 0,
+  "RMSE_colour_limit_pp": 15,
+  "overflow_colour": "#B2182B",
+  "overflow_is_colour_grouping_without_value_removal": true,
+  "performance_metrics_in_caption": true,
+  "density_colour_label": "Weight per cell (%)",
+  "full_suite": {
+    "passed": 569,
+    "warnings": 7
+  },
+  "figure_scientific_audit": "figure_scientific_audit.json",
+  "monitoring_forecasts_unchanged": true,
+  "prior_unchanged_figure_PNGs_byte_identical_to_reviewed_package": 13,
+  "revised_figure4_PNG_visually_inspected": true,
+  "figure4_calibration_and_evaluation_separate": true,
+  "revised_figureS1_PNG_visually_inspected": true,
+  "independent_revision_review_passed": true,
+  "journal_finalization_date": "2026-10-24",
+  "title_page_ORCID_telephone_present": true,
+  "main_body_double_spacing": true,
+  "cover_letter_pages": 2,
+  "cover_letter_compact_spacing": true,
+  "all13_inline_figures_share_page_with_caption": true,
+  "revised_figure1_PNG_visually_inspected": true,
+  "figure1_scientific_graph_preserved": true,
+  "supplementary_tables": 5,
+  "supplementary_sections": 7,
+  "supplementary_pdf_bookmarks": 29,
+  "supplementary_body_line_spacing": 1.25,
+  "revised_figureS2_PNG_visually_inspected": true,
+  "revised_figureS3_PNG_visually_inspected": true,
+  "unchanged_main_and_graphical_PNGs_in_supplement_revision": 11,
+  "supplementary_revision": "supplementary_revision_20261024.json",
+  "repository_organization": "repository_organization_20261024.json",
+  "title_paragraph_border_removed_from_all_four_word_documents": true,
+  "unified_repository": "unified_repository_20261024.json"
+}

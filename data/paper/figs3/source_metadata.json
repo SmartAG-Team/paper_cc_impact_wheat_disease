@@ -1,0 +1,121 @@
+{
+  "retrieval_date": "2026-10-23",
+  "source_url": "https://www.arvalis.fr/sites/default/files/medias/pdf/2025-12/Choisir2_2025-BTH-CHAMPAGNE-ARDENNE.pdf",
+  "doi": null,
+  "institutional_author": "ARVALIS",
+  "year": 2025,
+  "document_title": "Variétés et interventions de printemps Blé tendre d'hiver 2026 – Champagne-Ardenne",
+  "original_chart_title": "Nuisibilité de la septoriose observée dans le Réseau Performance depuis 2004",
+  "source_pdf_page_one_based": 10,
+  "printed_page": "8",
+  "pdf_page_size_points": [
+    595.3200073242188,
+    841.9199829101562
+  ],
+  "original_chart_bbox_pdf_points": [
+    56.25,
+    353.9399719238281,
+    534.0,
+    569.3399658203125
+  ],
+  "original_chart_image_pixels": [
+    1794,
+    809
+  ],
+  "source_image": "sources/arvalis_performance_2025_original_chart.png",
+  "full_page_screenshot": "sources/arvalis_series_page.png",
+  "original_units": "q ha-1 (100 kg ha-1)",
+  "conversion_to_t_ha": "divide by 10",
+  "direct_label_transcription": true,
+  "bar_height_digitization": false,
+  "original_title_is_not_a_pathogen_attribution_validation": true,
+  "comparator_source": {
+    "url": "https://www.arvalis.fr/file-download/download/public/249502",
+    "pdf_page_one_based": 4,
+    "statement": "2024 sensitive-cultivar comparison uses the best single fungicide application at full flag-leaf emergence versus no fungicide. No uniformly disease-free comparator is established for the 22-year series."
+  },
+  "scope_source": {
+    "url": "https://www.arvalis.fr/sites/default/files/medias/pdf/2022-11/_CHOISIR-2_CAP_2022_National_PDFS.pdf",
+    "pdf_page_one_based": 90,
+    "printed_page": "89",
+    "statement": "Network trials oversample susceptible/moderately susceptible varieties; all-trial maximum fungicide response about 11 q ha-1 in 2022, with 22.2 q ha-1 in 5 yellow-rust-dominated trials."
+  },
+  "overlap": "Garnault2021 STB-dominated rust-resistant 2004–2017 yield subset may overlap the annual source; no source is counted as independent of the other.",
+  "source_files": [
+    {
+      "path": "sources/arvalis_2022_scope_page.png",
+      "bytes": 159082,
+      "sha256": "c9092aeb78dc10e1004e371a7981f4af2eef6f9f6dc4d30e0302e721e9f0f805"
+    },
+    {
+      "path": "sources/arvalis_2022_scope_page.txt",
+      "bytes": 1299,
+      "sha256": "e9f13e2e1555fd0144d5a865dd5737dc487e85f4670cbc29594f2fae42cf3ead"
+    },
+    {
+      "path": "sources/arvalis_2023_dossier.pdf",
+      "bytes": 417593,
+      "sha256": "cfb5f53de5edb44b32a5586cbd149fb4e209a4785baf8534f80263b8e26f8371"
+    },
+    {
+      "path": "sources/arvalis_2023_dossier.txt",
+      "bytes": 36899,
+      "sha256": "4b57f673fa1034d309069cd2e12d3546fcc8c6f23cb362df55023ad8a799c980"
+    },
+    {
+      "path": "sources/arvalis_2024_dossier.pdf",
+      "bytes": 499772,
+      "sha256": "7c4d358c4db61692ca7579ddc9bcef1454d9a47f38e17d8d29332b65b25454fe"
+    },
+    {
+      "path": "sources/arvalis_2024_dossier.txt",
+      "bytes": 36107,
+      "sha256": "94eaafffc6e5720f7d95ae733572f0ee2f9979884fcc5df7da4f2632392fb0d1"
+    },
+    {
+      "path": "sources/arvalis_2025_dossier.pdf",
+      "bytes": 442916,
+      "sha256": "d46fba89f022927b77c41f93ebbe78f79c0474383eec6e460ad475f0927049fd"
+    },
+    {
+      "path": "sources/arvalis_2025_dossier.txt",
+      "bytes": 56799,
+      "sha256": "ca6beb727df8b3e54c1674f9149ec34e7291c4dbb8b6bad38d6dc94648c22a3e"
+    },
+    {
+      "path": "sources/arvalis_national_2022.pdf",
+      "bytes": 10670742,
+      "sha256": "b9900eb477b45a7a0763f0964b15aa305eb4ea8a6c0aa639de19a454b0cdcd3e"
+    },
+    {
+      "path": "sources/arvalis_performance_2025_champagne_ardenne.pdf",
+      "bytes": 2903441,
+      "sha256": "4ed9b15d8785e762123d12a1b2f1ea6483f1e225e8d8c4c52ecff366bf29b423"
+    },
+    {
+      "path": "sources/arvalis_performance_2025_champagne_ardenne.txt",
+      "bytes": 125794,
+      "sha256": "692e0916f343e5adedb6b6c6e4422f367c1e1f7ec810ca987ed8b8a15c3b27e3"
+    },
+    {
+      "path": "sources/arvalis_performance_2025_original_chart.png",
+      "bytes": 37625,
+      "sha256": "f278067ce85be38c8593736b182c0a2af183a67b990b9792fd8969a6ef0fb20e"
+    },
+    {
+      "path": "sources/arvalis_series_page.png",
+      "bytes": 124307,
+      "sha256": "f4350341aed918640ba3508f81ed4c43a5090c52615b3b64da14c82b660b52ef"
+    },
+    {
+      "path": "sources/bosch_2022.pdf",
+      "bytes": 4561206,
+      "sha256": "c5323882bfd7c5ffedb5d96a17bcd2952646d8798f15c7d368d7cab4b6df3083"
+    },
+    {
+      "path": "sources/bosch_2022.txt",
+      "bytes": 47106,
+      "sha256": "eab12319e7ab069c205f6de53d2e13263a92a7f0465796c8983a7cdc12402fa0"
+    }
+  ]
+}

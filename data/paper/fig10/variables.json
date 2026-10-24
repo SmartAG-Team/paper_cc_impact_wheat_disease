@@ -1,0 +1,5 @@
+{
+  "role": "adaptation",
+  "units": "Affected-tissue proxy days; sowing shift days; temperature degrees Celsius; hot exposure days; GCM ranges not confidence intervals.",
+  "caption": "Sowing responses under SSP5–8.5, 2071–2100. (a) Fixed sowing shifts relative to unchanged sowing; lines connect tested options and shading spans three GCMs. (b) Regional disease–heat responses of the leave-one-GCM-out policy, its sampled-design aggregate (diamond), and uniform +14-day delay (open triangle). Points are equal-GCM means; bars show model minima–maxima, not confidence intervals. Own-window integrals are normalized symptom-tissue proxies; heat exposure counts GS65–85 days with Tmax >30°C. Complete-season support retains 1,902/1,920 draw-years per GCM, 62 cells and 99.64% design weight. This support sensitivity is post-audit; original common-calendar results remain in supplementary analyses. Bounded shifts establish neither agronomic nor yield optima."
+}

@@ -1,0 +1,105 @@
+{
+  "status": "running",
+  "folds": [
+    {
+      "fold": "temporal2015",
+      "records": 425,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "temporal2016",
+      "records": 435,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "temporal2017",
+      "records": 426,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "temporal2018",
+      "records": 401,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "temporal2019",
+      "records": 330,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial0",
+      "records": 144,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial1",
+      "records": 115,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial2",
+      "records": 166,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial3",
+      "records": 51,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial4",
+      "records": 132,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial5",
+      "records": 252,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial6",
+      "records": 133,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial7",
+      "records": 103,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial8",
+      "records": 190,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial9",
+      "records": 97,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial10",
+      "records": 140,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial11",
+      "records": 164,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial12",
+      "records": 118,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial13",
+      "records": 87,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "fold": "spatial14",
+      "records": 125,
+      "maximum_absolute_difference": 0.0
+    }
+  ]
+}

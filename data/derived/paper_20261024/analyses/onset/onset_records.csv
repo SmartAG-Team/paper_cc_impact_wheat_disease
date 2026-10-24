@@ -1,0 +1,5 @@
+field_id,site_id,source,season_year,anatomy,last_zero_date,first_positive_date,earliest_admissible_date,model_onset_date,archived_calendar_date,last_zero_state_day,first_positive_state_day,model_state_day,archived_calendar_state_day,interval_width_days,model_interval_excess_days,archived_calendar_interval_excess_days,model_inside_interval,archived_calendar_inside_interval,field_weight
+basf-wheat-diseases|35|2019,era5loc_cb5f84b33b84,BASF,2019,F1 flag leaf,2019-06-06,2019-06-14,2019-06-07,2019-06-01,2019-06-03,247,255,242,244,8,6.0,4.0,False,False,0.25
+basf-wheat-diseases|38|2019,era5loc_760a53435625,BASF,2019,F1 flag leaf,2019-05-24,2019-06-11,2019-05-25,2019-05-28,2019-06-03,236,254,240,246,18,0.0,0.0,True,True,0.25
+basf-wheat-diseases|45|2019,era5loc_9df6a8624376,BASF,2019,F1 flag leaf,2019-04-29,2019-05-13,2019-04-30,2019-05-12,2019-05-25,181,195,194,207,14,0.0,12.0,True,False,0.25
+basf-wheat-diseases|66|2019,era5loc_da90f16ecea0,BASF,2019,F1 flag leaf,2019-06-10,2019-06-21,2019-06-11,2019-06-02,2019-06-02,223,234,215,215,11,9.0,9.0,False,False,0.25

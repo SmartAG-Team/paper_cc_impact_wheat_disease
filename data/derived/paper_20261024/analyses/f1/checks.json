@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "records": 115,
+  "fields": 55,
+  "evaluation_records": 70,
+  "calibration_records": 45,
+  "evaluation_windows": 23,
+  "maximum_state_error": 0.0,
+  "fitted": false,
+  "weather_endpoints_separate": true,
+  "disease_parameters_modified": false,
+  "retrospective_reuse": true
+}

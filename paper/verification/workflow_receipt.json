@@ -1,0 +1,607 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-24T15:28:08.588629+00:00",
+  "stages": [
+    {
+      "stage": "inputs",
+      "status": "passed",
+      "elapsed_seconds": 0.7918604159494862,
+      "result": {
+        "status": "passed",
+        "package_inputs_copied": true,
+        "forcing_content_hashes_reread": false,
+        "climate_input_check": {
+          "status": "verified",
+          "forcing_files": 687,
+          "cells": 14941,
+          "calendar_eligible_cells": 14932,
+          "alignment_tables": 9,
+          "reference_monthly_statistics": 360,
+          "reference_source_receipts": 360,
+          "forcing_content_hashes_verified": false,
+          "forcing_receipts_and_sizes_verified": true,
+          "core_source_files": 8
+        }
+      }
+    },
+    {
+      "stage": "monitoring",
+      "status": "passed",
+      "elapsed_seconds": 16.384201084030792,
+      "result": {
+        "status": "passed",
+        "saved_models_replayed": 20,
+        "records_per_design": 2017,
+        "maximum_absolute_prediction_difference": 0.0,
+        "models_fitted": false,
+        "information_setting": "strictly earlier own-field monitoring",
+        "model_implementation": "models/monitoring/discrepancy_experiment.py"
+      }
+    },
+    {
+      "stage": "process",
+      "status": "passed",
+      "elapsed_seconds": 1.9555462499847636,
+      "result": {
+        "status": "passed",
+        "implementation": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/models/monitoring/climate_prefix.py",
+        "records": 115,
+        "field_seasons": 55,
+        "bracketed_evaluation_histories": 4,
+        "fitting_performed": false
+      }
+    },
+    {
+      "stage": "climate",
+      "status": "passed",
+      "elapsed_seconds": 0.6396757090114988,
+      "result": {
+        "sample_replay": {
+          "status": "verified",
+          "model": "ACCESS-CM2",
+          "scenario": "ssp585",
+          "year": 2085,
+          "matches_frozen_final_census": true,
+          "maximum_numeric_difference": 0.0,
+          "cells": 62,
+          "calendar_eligible_cells": 62,
+          "maximum_mass_error": 4.440892098500626e-16
+        },
+        "census": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/final_study/evidence/full_grid_climate/results",
+        "full_census_recomputed": false
+      }
+    },
+    {
+      "stage": "attribution",
+      "status": "passed",
+      "elapsed_seconds": 0.08899629197549075,
+      "result": {
+        "status": "passed",
+        "mode": "recomputed from retained four-corner records",
+        "scientific_simulations_rerun": false,
+        "pair_records": 46080,
+        "settings": 8,
+        "source": {
+          "path": "data/final_analyses/attribution_replay/attribution_pairs.parquet",
+          "bytes": 4312706,
+          "sha256": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d"
+        },
+        "output_hashes": {
+          "attribution_pairs.parquet": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d",
+          "attribution_summary.csv": "94d7b4c555f7b46e98068ecea7575b9d1dbe5c59ef60a6c09f07b5e682553dcd"
+        }
+      }
+    },
+    {
+      "stage": "exposure",
+      "status": "passed",
+      "elapsed_seconds": 1.568761624977924,
+      "result": {
+        "status": "passed",
+        "recalculated_rows": 43680,
+        "census": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/final_study/evidence/full_grid_climate/results/full_grid_paired_changes_by_gcm.parquet",
+        "fixed_production": true,
+        "grain_loss_estimated": false,
+        "maximum_mass_balance_error_tonnes": 5.960464477539063e-08
+      }
+    },
+    {
+      "stage": "climate-response",
+      "status": "passed",
+      "elapsed_seconds": 6.810528208035976,
+      "result": {
+        "status": "passed",
+        "output": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/reproductions/complete_reproduction_20261024/analyses/climate_response",
+        "census": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/final_study/evidence/full_grid_climate/results",
+        "findings": {
+          "late585_latitude50_60_fixed_area_share_percent": 44.342587643479156,
+          "late585_latitude50_60_increased_loss_contribution_share_percent_mean": 68.59231722935579,
+          "late585_latitude50_60_increased_loss_contribution_share_percent_gcm_range": [
+            66.14887409345839,
+            70.26600435819273
+          ],
+          "relative_timing_correlations_all18_range": [
+            -0.8253704394872808,
+            -0.35556078488297493
+          ],
+          "relative_timing_adjusted_slopes_all18_range": [
+            -0.9302203509916142,
+            -0.25233961693803714
+          ],
+          "timing_slopes_negative_members": 18,
+          "timing_slopes_block_bootstrap_upper_below_zero_members": 18,
+          "spatial5degree_primary_cv_climate_r2_range": [
+            -0.10259462713475442,
+            0.31482457716127576
+          ],
+          "spatial5degree_primary_cv_full_r2_range": [
+            0.248297067724486,
+            0.6934193923597898
+          ],
+          "spatial5degree_primary_cv_full_vs_climate_improved_members": 18,
+          "late585_less_window_rain_and_increased_loss_pair_area_shares": [
+            {
+              "model": "ACCESS-CM2",
+              "pair_area_share_percent": 68.91433706294967
+            },
+            {
+              "model": "MPI-ESM1-2-HR",
+              "pair_area_share_percent": 70.11787400680342
+            },
+            {
+              "model": "MRI-ESM2-0",
+              "pair_area_share_percent": 67.51026479960683
+            }
+          ],
+          "all_spatial_cv_designs_full_vs_climate_improved": 108,
+          "all_spatial_cv_designs_comparisons": 108,
+          "timing_matched_fixed_area_fraction_all18_range": [
+            0.8731823404955243,
+            0.9619829870017949
+          ],
+          "timing_matched_cells_all18_range": [
+            12886,
+            14082
+          ],
+          "spatial_cv_all_designs_median_r2": {
+            "window_climate": 0.04791275596027933,
+            "window_climate_duration": 0.13029456881980012,
+            "window_climate_duration_timing": 0.5067630619258618
+          },
+          "spatial_cv_all_designs_timing_addition_improved": 108
+        }
+      }
+    },
+    {
+      "stage": "adaptation",
+      "status": "passed",
+      "elapsed_seconds": 0.49642529198899865,
+      "result": {
+        "status": "passed",
+        "scientific_simulations_rerun": false,
+        "mode": "recomputed from retained season-option records",
+        "output": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/reproductions/complete_reproduction_20261024/analyses/adaptation",
+        "complete_season_draw_years": 1902,
+        "primary_policy": {
+          "environment_region": "Sampled design",
+          "period": "future",
+          "shift_days": null,
+          "model": "ensemble",
+          "support": "complete_season",
+          "requested_draw_years": 5760,
+          "retained_draw_years": 5706,
+          "unique_cells": 62,
+          "requested_weight": null,
+          "retained_weight": null,
+          "retained_weight_fraction": 0.9964069766272322,
+          "whole_proxy_days": 7.255043877937015,
+          "delta_whole_proxy_days": -1.8911901230898718,
+          "whole_reference_days": 36.29279519725691,
+          "delta_whole_reference_days": 1.982223848214133,
+          "grain_fill_days": 36.2927951972569,
+          "delta_grain_fill_days": 1.9822238482141332,
+          "grain_fill_mean_temperature_c": 19.842420193730497,
+          "delta_grain_fill_mean_temperature_c": -0.3457833057128774,
+          "grain_fill_tmax_above30_days": 7.537319868063645,
+          "delta_grain_fill_tmax_above30_days": -0.07642840360687099,
+          "grain_fill_rainfall_mm": 72.72970444229556,
+          "delta_grain_fill_rainfall_mm": 2.379638457427209,
+          "shared_proxy_days": null,
+          "delta_shared_proxy_days": null,
+          "shared_reference_days": null,
+          "delta_shared_reference_days": null,
+          "shared_window_days": null,
+          "delta_shared_window_days": null,
+          "shared_endpoint_available": false,
+          "complete_three_gcm_mean": 1.0,
+          "whole_proxy_days_gcm_min": 5.825337701460553,
+          "whole_proxy_days_gcm_max": 9.614726062655116,
+          "delta_whole_proxy_days_gcm_min": -2.0190171803969754,
+          "delta_whole_proxy_days_gcm_max": -1.6795783398798672,
+          "whole_reference_days_gcm_min": 34.449821218909584,
+          "whole_reference_days_gcm_max": 38.52789829001601,
+          "delta_whole_reference_days_gcm_min": 0.883543049399734,
+          "delta_whole_reference_days_gcm_max": 3.3474334952973046,
+          "grain_fill_days_gcm_min": 34.44982121890958,
+          "grain_fill_days_gcm_max": 38.52789829001601,
+          "delta_grain_fill_days_gcm_min": 0.8835430493997343,
+          "delta_grain_fill_days_gcm_max": 3.3474334952973055,
+          "grain_fill_mean_temperature_c_gcm_min": 19.335064824825764,
+          "grain_fill_mean_temperature_c_gcm_max": 20.16021101863131,
+          "delta_grain_fill_mean_temperature_c_gcm_min": -0.39585605670542034,
+          "delta_grain_fill_mean_temperature_c_gcm_max": -0.31317833253096017,
+          "grain_fill_tmax_above30_days_gcm_min": 5.5089407140764175,
+          "grain_fill_tmax_above30_days_gcm_max": 9.763296390473943,
+          "delta_grain_fill_tmax_above30_days_gcm_min": -0.4185397386709397,
+          "delta_grain_fill_tmax_above30_days_gcm_max": 0.203203522021756,
+          "grain_fill_rainfall_mm_gcm_min": 69.4283175850903,
+          "grain_fill_rainfall_mm_gcm_max": 77.95576897863461,
+          "delta_grain_fill_rainfall_mm_gcm_min": 0.15089276730603077,
+          "delta_grain_fill_rainfall_mm_gcm_max": 4.993482784739592,
+          "shared_proxy_days_gcm_min": null,
+          "shared_proxy_days_gcm_max": null,
+          "delta_shared_proxy_days_gcm_min": null,
+          "delta_shared_proxy_days_gcm_max": null,
+          "shared_reference_days_gcm_min": null,
+          "shared_reference_days_gcm_max": null,
+          "delta_shared_reference_days_gcm_min": null,
+          "delta_shared_reference_days_gcm_max": null,
+          "shared_window_days_gcm_min": null,
+          "shared_window_days_gcm_max": null,
+          "delta_shared_window_days_gcm_min": null,
+          "delta_shared_window_days_gcm_max": null,
+          "selected_shift_days": null,
+          "training_support": "complete_season",
+          "eligible_region": null
+        }
+      }
+    },
+    {
+      "stage": "yield",
+      "status": "passed",
+      "elapsed_seconds": 0.033002958982251585,
+      "result": {
+        "status": "passed",
+        "output": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/reproductions/complete_reproduction_20261024/analyses/yield_context",
+        "summary": {
+          "endpoint": "foliar-disease treated-minus-untreated fungicide yield gap; not pure STB loss",
+          "n_annual_network_summaries": 22,
+          "period": "2004\u20132025",
+          "units": "t ha-1",
+          "equal_year_mean": 1.6418181818181816,
+          "median": 1.605,
+          "between_year_standard_deviation": 0.5834351178979003,
+          "between_year_coefficient_of_variation": 0.35535915265099133,
+          "minimum": 0.78,
+          "minimum_year": 2020,
+          "maximum": 2.71,
+          "maximum_year": 2008,
+          "empirical_q25": 1.1675,
+          "empirical_q75": 2.13,
+          "maximum_to_minimum": 3.474358974358974,
+          "years_at_least_2_t_ha": 7,
+          "mean_absolute_annual_change": 0.6309523809523809,
+          "change_2024_to_2025": -1.0400000000000003,
+          "change_fraction_2024_to_2025": -0.4601769911504425,
+          "mean_2004_2016": 1.8253846153846154,
+          "n_years_2004_2016": 13,
+          "mean_2017_2025": 1.3766666666666667,
+          "n_years_2017_2025": 9,
+          "difference_2017_2025_minus_2004_2016": -0.4487179487179487,
+          "uncertainty": "Range, SD and quartiles describe variation among published annual summaries; annual trial counts and sampling variances are unavailable. No sampling confidence interval or causal climate trend is estimated.",
+          "meta_analysis": false
+        },
+        "new_meta_analysis": false
+      }
+    },
+    {
+      "stage": "endpoints",
+      "status": "passed",
+      "elapsed_seconds": 0.018513916002120823,
+      "result": {
+        "status": "passed",
+        "records": 4034,
+        "records_per_design": 2017,
+        "models": 4,
+        "original_evaluation_weights_rebuilt_exactly": true,
+        "table_s4_reproduced": true,
+        "candidate_comparison_reproduced": true,
+        "current_supplementary_table": 3,
+        "fitted": false
+      }
+    },
+    {
+      "stage": "figures",
+      "status": "passed",
+      "elapsed_seconds": 4.210305749962572,
+      "result": {
+        "status": "passed",
+        "figures": [
+          "fig1",
+          "fig3",
+          "fig2",
+          "fig4",
+          "figs1",
+          "fig5",
+          "fig8",
+          "fig9",
+          "figs2",
+          "fig6",
+          "fig7",
+          "fig10",
+          "figs3",
+          "graphical_abstract"
+        ],
+        "output": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/reproductions/complete_reproduction_20261024/package/figures"
+      }
+    },
+    {
+      "stage": "documents",
+      "status": "passed",
+      "elapsed_seconds": 3.387732708011754,
+      "result": {
+        "status": "passed",
+        "documents": [
+          {
+            "path": "Manuscript.docx",
+            "native_equation_blocks": 4,
+            "figures": 10,
+            "inline_figures": [
+              "fig1",
+              "fig2",
+              "fig3",
+              "fig4",
+              "fig5",
+              "fig6",
+              "fig7",
+              "fig8",
+              "fig9",
+              "fig10"
+            ],
+            "appended_figures": []
+          },
+          {
+            "path": "Supplementary_Information.docx",
+            "native_equation_blocks": 0,
+            "figures": 3,
+            "inline_figures": [
+              "figs1",
+              "figs2",
+              "figs3"
+            ],
+            "appended_figures": []
+          },
+          {
+            "path": "Cover_Letter.docx",
+            "native_equation_blocks": 0,
+            "figures": 0,
+            "inline_figures": [],
+            "appended_figures": []
+          },
+          {
+            "path": "Mathematical_Model_Specification.docx",
+            "native_equation_blocks": 59,
+            "figures": 0,
+            "inline_figures": [],
+            "appended_figures": []
+          }
+        ]
+      }
+    },
+    {
+      "stage": "audit",
+      "status": "passed",
+      "elapsed_seconds": 4.257238332997076,
+      "result": {
+        "status": "passed",
+        "figures": [
+          "fig1",
+          "fig3",
+          "fig4",
+          "fig2",
+          "figs1",
+          "fig5",
+          "fig8",
+          "figs2",
+          "fig9",
+          "graphical_abstract",
+          "fig6",
+          "fig7",
+          "fig10",
+          "figs3"
+        ]
+      }
+    },
+    {
+      "stage": "validate",
+      "status": "passed",
+      "elapsed_seconds": 2.1379873750265688,
+      "result": {
+        "status": "passed",
+        "text": {
+          "main_words": 6418,
+          "abstract_words": 256,
+          "counted_sections": "Introduction, Materials and Methods, Results, Discussion, Acknowledgements",
+          "running_title_characters": 44,
+          "keywords": 9,
+          "references": 45,
+          "gcb_journal_references": 10,
+          "main_figures": 10,
+          "supplement_figures": 3,
+          "final_affiliation_verified": true,
+          "retrospective_F1_not_independent": true,
+          "monitoring_not_projection_validation": true
+        },
+        "documents": {
+          "Manuscript": {
+            "pages": 51,
+            "embedded_word_figures": 10,
+            "pdf_text_within_page": true
+          },
+          "Supplementary_Information": {
+            "pages": 22,
+            "embedded_word_figures": 3,
+            "pdf_text_within_page": true
+          },
+          "Cover_Letter": {
+            "pages": 2,
+            "embedded_word_figures": 0,
+            "pdf_text_within_page": true
+          }
+        },
+        "monitoring_rmse": {
+          "a": 17.151664891542357,
+          "b": 17.30622057488964
+        },
+        "figures_verified": 14,
+        "unchanged_code_snapshots": 19,
+        "figure_role_numbering_verified": true,
+        "all_figures_embedded_after_first_citation": true,
+        "continuous_manuscript_line_numbers": true,
+        "methods_figures_embedded_in_Methods": 3,
+        "figure_scientific_audits_verified": 14,
+        "journal_format_checks_passed": true,
+        "cover_answers_words": {
+          "Scientific question": 29,
+          "Key findings": 47,
+          "Importance and timeliness": 36,
+          "Fit to Global Change Biology": 37,
+          "Biological and global-change aspects": 38,
+          "Recent relevant papers": 43,
+          "Potential reviewers": 32
+        },
+        "submission_ready": true,
+        "author_items_pending": [],
+        "raw_source_disease_scores_and_untreated_eligibility_verified": 2304,
+        "weighted_density_mass_verified": true,
+        "field_and_site_MSE_aggregation_verified": true,
+        "original_prediction_observation_weight_columns_unchanged_exactly": true,
+        "all_references_retained_in_editable_document": true,
+        "metric_resampling_rows_verified": 4000,
+        "monitoring_fold_parameter_records_verified": 20,
+        "portable_f1_replay": {
+          "status": "passed",
+          "records": 115,
+          "fields": 55,
+          "evaluation_records": 70,
+          "calibration_records": 45,
+          "evaluation_windows": 23,
+          "maximum_state_error": 0.0,
+          "fitted": false,
+          "weather_endpoints_separate": true,
+          "disease_parameters_modified": false,
+          "retrospective_reuse": true
+        },
+        "qualified_onset_replay": {
+          "status": "passed",
+          "records": 4,
+          "eligible_original2019_F1_fields": 33,
+          "all_eligible_two_sided_histories_retained": true,
+          "original_symptom_dates_reproduced": true,
+          "onset_day_prefix_state_maximum_error": 0.0,
+          "no_future_weather_needed_for_replayed_onset": true,
+          "detection_fraction": 0.001,
+          "operator": "first daily N+I+D crossing; one-based state days",
+          "observed_interval": "(last observed zero, first observed positive], daily support lower+1 through upper",
+          "original_records_reused": true,
+          "models_fitted": false,
+          "calendar_comparison": "saved dates verified; original fitting implementation not authenticated",
+          "metrics": [
+            {
+              "model": "frozen_process",
+              "histories": 4,
+              "fields": 4,
+              "sites": 4,
+              "weighting": "one equal vote per field",
+              "mean_interval_excess_days": 3.75,
+              "root_mean_square_interval_excess_days": 5.408326913195984,
+              "inside_observed_intervals": 2,
+              "minimum_bracket_width_days": 8,
+              "maximum_bracket_width_days": 18,
+              "exact_onset_date_MAE_identified": false,
+              "new_independent_validation": false
+            },
+            {
+              "model": "archived_calendar",
+              "histories": 4,
+              "fields": 4,
+              "sites": 4,
+              "weighting": "one equal vote per field",
+              "mean_interval_excess_days": 6.25,
+              "root_mean_square_interval_excess_days": 7.762087348130012,
+              "inside_observed_intervals": 1,
+              "minimum_bracket_width_days": 8,
+              "maximum_bracket_width_days": 18,
+              "exact_onset_date_MAE_identified": false,
+              "new_independent_validation": false
+            }
+          ],
+          "source_sha256": {
+            "data/process_f1/original2019_F1_two_sided_onsets.csv": "bf762f70960a89a079bec61e88cb512b1d67b02d2a520dc2a031a42dd2a3290f",
+            "data/process_f1/evaluation70_F1_records_with_replay.csv": "c5baef4443bd6280bd7f17b023582e7a55f663843413b7e8b90df38e59bbcfc5",
+            "data/process_f1/field55_calendar_membership.csv": "a4f2b74d33252f5678cc309d919c0fe0a188a48751d994958cacf61878920d31",
+            "data/process_f1/four_weather_forcing.csv": "f44531ed7956dc5db62d7209d0007712c4a58cb0eb4761df70d0143423a5b63c",
+            "parameters/phenology_parameters.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+            "parameters/disease_parameters.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+            "parameters/stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4"
+          },
+          "replay_code_sha256": "1af4a874c45864e7e4461d2cc57e32cfc4391df0d13ffde8aa1a8a094e3ca35f"
+        },
+        "climate_forcing_hashes_verified": 687,
+        "portable_endpoint_score_recomputation": {
+          "status": "passed",
+          "records": 4034,
+          "records_per_design": 2017,
+          "models": 4,
+          "original_evaluation_weights_rebuilt_exactly": true,
+          "table_s4_reproduced": true,
+          "candidate_comparison_reproduced": true,
+          "current_supplementary_table": 3,
+          "fitted": false
+        },
+        "final_result_sources_verified": 180,
+        "repository_layout_verified": true
+      }
+    }
+  ],
+  "current_stage": null,
+  "completed_utc": "2026-10-24T15:28:51.527109+00:00",
+  "original_input_hashes": {
+    "paper/Manuscript.md": "d8307834ec5e5ffd32eb04125018d19006e2131affaa091c094dd51920b01f1a",
+    "data/final_climate/scientific_manifest.json": "740e8b62ae8fde762d30ee43139bbdd0e66b8376641aa9be32f98044410180c9",
+    "data/final_monitoring/manifest.json": "870a418a1b8b16ce3eb4523063ee05abada75d34519026b132213ed44704547a",
+    "data/final_study/path_manifest.json": "708112159c5eb159aa7a824e8ed845fb3f13114adaf22285efe549e426a12c2e",
+    "data/repository_layout.json": "a9e875961316eb8d67f5ef57b86787ec317223cde03b18e19ff2902a1a286baa",
+    "data/final_monitoring/folds/temporal2015_model.joblib": "f585c2c0febacd485a4d7c652a3a69ef793dd9a6e91a01b4af9c15836663dd39",
+    "data/final_monitoring/folds/temporal2016_model.joblib": "139ba315d1b70492f8a433ac572740d6ba3ff1de7fffc9960cac40e987d0721a",
+    "data/final_monitoring/folds/temporal2017_model.joblib": "2378aa615293d430d4c55c2826ef2076fa2e1c426e87a5ac88eac37a86ef5b9e",
+    "data/final_monitoring/folds/temporal2018_model.joblib": "91fd9f95339448712404b5601e5e1b8722d01c4e78ece7e13b4a882501c8d53a",
+    "data/final_monitoring/folds/temporal2019_model.joblib": "88e9f80e910aaf00d9118e094407a55de2a8d221e6772087ebf91d3642980289",
+    "data/final_monitoring/folds/spatial0_model.joblib": "d1f49424b5be29e8220aae4304733ac53ed0dec644ec87a08aba526827fac575",
+    "data/final_monitoring/folds/spatial1_model.joblib": "edecfb2c28f301d428bf50d3a118d90c74b11bca8d49fb363d08c0089b77aed3",
+    "data/final_monitoring/folds/spatial2_model.joblib": "6e632fa49216e430799d4c94e71d92f190f8ebb7a33fa7f782d427be75f4fecb",
+    "data/final_monitoring/folds/spatial3_model.joblib": "9713896321719984793b7190991c0c5029f21d8c8a43812971aa573ab7eacae1",
+    "data/final_monitoring/folds/spatial4_model.joblib": "d769178b784da753cfd2d9de3d1e29b3ec5e699801b79d56293a70cbbaeb459c",
+    "data/final_monitoring/folds/spatial5_model.joblib": "f2639026d2bfa3df4b711a3f35dd096348695af1acb371cab614cd748e08b663",
+    "data/final_monitoring/folds/spatial6_model.joblib": "48f5b07662e244adbb8f6ca9b306bc0f043c98f6ef83d78d500631398b5389c2",
+    "data/final_monitoring/folds/spatial7_model.joblib": "60618e928e2a1d6469fe9897de3cf66c72a0fc9300af7963af6b5faddbdbe43a",
+    "data/final_monitoring/folds/spatial8_model.joblib": "f2ecc3277ca97e74967e9ede8ed25152b654c24c2daf2cddf03a96da7397169f",
+    "data/final_monitoring/folds/spatial9_model.joblib": "8b0341c200c188f13e25bce0d549006fd10df3e98f294ae1506764baebba9fc1",
+    "data/final_monitoring/folds/spatial10_model.joblib": "a8478a0d8ab58267243ca4429e623082dc0cdfc6e35b203f4f823aea4b2bb5a4",
+    "data/final_monitoring/folds/spatial11_model.joblib": "b62ae25249f1859d3566ef4e490d5bfba45a28152dcafe32fffffc3cb8b3a9ec",
+    "data/final_monitoring/folds/spatial12_model.joblib": "5dc8a9c466ca6ea6703db48db0105c7dc190208df57bfc0bb1c2d36a499958f9",
+    "data/final_monitoring/folds/spatial13_model.joblib": "c3892292f28ea6a9609aec617a7013c1fecb7042071ef296a4b0ffccaa950fbb",
+    "data/final_monitoring/folds/spatial14_model.joblib": "64382d4814186241ad77de9bd3826068ae42856eb8bbaa0753d7a15094f5fb29",
+    "data/final_analyses/attribution_replay/attribution_pairs.parquet": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d",
+    "data/final_study/evidence/food_security_exposure/production_grid_input.csv": "11782120d1bddda36f4edeebc70a021bb17bf48d4488569a1160fbe938d64451",
+    "data/final_study/evidence/food_security_exposure/country_fraction_weights.csv": "2d160659fe37d47db2efec2695c93372807d20de31b84ef81cb92941d07a1cfa",
+    "data/final_analyses/adaptation/adaptation_pairs.parquet": "e3f1f07f8198ff8b212a60bd15667456c1934c1da18217fcd896b6f4caa84a29",
+    "data/final_analyses/adaptation/registration.json": "fd2f686c24b32bd9ceaac335e944b7394dbc31c2944b59c66c62baa65a09a2e6",
+    "data/final_analyses/adaptation/receipt.json": "1eb251865467ea3988ac49f12adfa56523ba61c6a998cda894cfb9be784bb479",
+    "data/final_analyses/adaptation/leave_gcm_out_region_policy.csv": "54fca6b7a554117970f3b6ecd9704fc8a8b12f1591bd64a355ae9797913361cd",
+    "data/final_analyses/yield_context/sources/arvalis_performance_2025_champagne_ardenne.pdf": "4ed9b15d8785e762123d12a1b2f1ea6483f1e225e8d8c4c52ecff366bf29b423"
+  },
+  "package_complete": true,
+  "continental_census_recomputed": false,
+  "sampled_process_experiments_rerun": false
+}

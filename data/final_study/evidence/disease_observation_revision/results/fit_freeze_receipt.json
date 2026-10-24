@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-10T06:42:16.598443+00:00",
+  "input_sha256": {
+    "analysis/paper_study/nature_food_fix_20261007/validation/source_stage_and_prediction_membership.csv": "5bfdd66859f21751e666633d21275feff830f4c7a42c2deadfb7bb3268f01a27",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+    "analysis/paper_study/nature_food_revision_20261007/epidemic_evaluation/observed_window_severity_integrals.csv": "8627fb06b61869c480d7501ca022ea6887e46514559b77045d118f9429d91fe4",
+    "analysis/paper_study/nature_food_revision_20261007/epidemic_evaluation/evaluation_receipt.json": "69e8f54c91438719ef78069fd2583282ca395b5c986129afa1a6dc9427ee22ec",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/fits_frozen_before_reused_validation.json": "abb0f795693b264e63bd2cfcc608626fe1273892ab8910799e477663f6e194f7",
+    "model/seasonal_septoria/overwinter.py": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7",
+    "model/seasonal_septoria/leaf_phenology.py": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+    "model/seasonal_septoria/wetness.py": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6"
+  },
+  "models_sha256": "04b59eb3318b831dfe9a0c5ac3d81c2e89dbe28b569243686b37176436d9fa4c",
+  "observation_code_sha256": "2c90108f2396c7a0b667cd92451c88074c7f7267aecb19269337427bfeebdc72",
+  "training": {
+    "records": 185,
+    "fields": 19,
+    "sites": 17,
+    "coordinate_years": 19,
+    "countries": 5
+  },
+  "training_sources": [
+    "BASF"
+  ],
+  "evaluation_predictions_scored_after_artifact_frozen": true,
+  "hyperparameters_selected_only_on_clean_development": true,
+  "biological_parameters_refitted": false,
+  "prior_validation_outcomes_previously_known": true
+}

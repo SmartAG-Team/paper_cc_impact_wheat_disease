@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "records": 4034,
+  "records_per_design": 2017,
+  "models": 4,
+  "original_evaluation_weights_rebuilt_exactly": true,
+  "table_s4_reproduced": true,
+  "candidate_comparison_reproduced": true,
+  "current_supplementary_table": 3,
+  "fitted": false
+}

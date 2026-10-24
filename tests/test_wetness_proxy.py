@@ -3,7 +3,7 @@
 import numpy as np
 import pytest
 
-from model.seasonal_septoria.wetness import humidity_cycle, duration_exposure
+from models.seasonal_septoria.wetness import humidity_cycle, duration_exposure
 
 
 def test_inferred_humidity_cycle_preserves_the_supplied_daily_mean():

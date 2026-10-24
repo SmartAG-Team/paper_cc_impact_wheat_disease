@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-10-10T06:42:15.858929+00:00",
+  "status": "registered_before_real_data_observation_model_fits",
+  "original_validation_outcomes_previously_known": true,
+  "existing_diagnostic_outcomes_inspected": true,
+  "candidate": "100 expit(intercept + pooled leaf contrasts + nonnegative beta log(1 + raw percent)/log(101))",
+  "leaf_groups": [
+    0,
+    1,
+    2,
+    "3 or greater"
+  ],
+  "raw_score_transform": "Fixed transform; no learned knots or evaluation-based scaling",
+  "other_estimators": [
+    "Frozen raw output",
+    "Archived original-254-assessment leaf mean",
+    "Clean-development exact-rank leaf mean with pooled fallback for absent rank",
+    "Clean-development pooled-rank leaf mean (same leaf groups as candidate; raw-feature ablation)",
+    "Bounded leaf + same-day observed stage bands + log1p elapsed assessment days benchmark",
+    "Archived stage/time comparator on complete shared coverage only"
+  ],
+  "ridge_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "selection": "Minimum five-fold whole-site development window-mean RMSE; exact ties choose stronger ridge",
+  "fitting_loss": "Hierarchically weighted fractional cross-entropy plus ridge on nonintercept coefficients",
+  "development": {
+    "records": 185,
+    "fields": 19,
+    "sites": 17,
+    "coordinate_years": 19,
+    "countries": 5
+  },
+  "development_sites": [
+    "era5loc_01117578be52",
+    "era5loc_1db395a204c4",
+    "era5loc_1fa43db2787c",
+    "era5loc_300f965a2c3d",
+    "era5loc_374089cedfa0",
+    "era5loc_5ab5ca0b5fe3",
+    "era5loc_8b7743800935",
+    "era5loc_98874af9c8d8",
+    "era5loc_a3b551fcca14",
+    "era5loc_b103a5cbfed5",
+    "era5loc_bedbc80cc600",
+    "era5loc_c273764268e2",
+    "era5loc_c36c557e4afc",
+    "era5loc_d4b920707d9f",
+    "era5loc_dd89cccfc605",
+    "era5loc_fc0f9359f228",
+    "era5loc_ff52f903fe18"
+  ],
+  "development_excluded_sites": [
+    "era5loc_23eef231ea98",
+    "era5loc_2daae74efc65",
+    "era5loc_6687f40ce729",
+    "era5loc_b4c23217b405",
+    "era5loc_cd0793ddaa5d",
+    "era5loc_d6117aa4523b"
+  ],
+  "reused_evaluation": {
+    "records": 2033,
+    "fields": 188,
+    "sites": 110,
+    "coordinate_years": 140,
+    "countries": 11
+  },
+  "nested_cv": {
+    "outer_folds": 5,
+    "inner_folds": 4,
+    "seed": 20261010,
+    "split": "Whole geographic sites, source-stratified without target information",
+    "interpretation": "Conditional retrospective observation-model CV; latent mechanism remains previously fitted"
+  },
+  "primary_endpoint": "Observed-window mean disease percentage, all source-numbered leaves",
+  "primary_decision": "Advance measurement mapping only if window-mean RMSE improves on raw and both archived/refitted leaf means in pooled data and each source, and all corresponding paired site-bootstrap 95% upper differences are below zero; no material inferiority to observation-assisted benchmark.",
+  "secondary_endpoints": [
+    "All individual assessments",
+    "Observed-window AUDPC",
+    "Top-three source-numbered leaves"
+  ],
+  "bootstrap": {
+    "prediction_error_replicates": 20000,
+    "coefficient_replicates": 500,
+    "cluster": "site_id",
+    "seed": 20261010
+  },
+  "weighting": "Equal coordinate-year, then fields, numbered leaves, and assessments or windows within each parent",
+  "frozen_mechanistic_parameters_changed": false,
+  "limitations": [
+    "Reused validation outcomes were already inspected in earlier analyses; no pristine confirmatory test exists.",
+    "Clean observation-model development excludes all geographic sites occurring in either reused evaluation source.",
+    "The fixed latent mechanism was originally calibrated on 28 BASF fields; its historical training includes the six repeated BASF sites removed only from observation-model development.",
+    "Nested site CV is new retrospective observation-model comparison conditional on archived mechanistic predictions; it does not cross-validate the underlying mechanism or remove its original training history.",
+    "Geographic sites preserve all retained years but may combine rounded BASF coordinates; independent biological trial identity and residual dependence among neighboring coordinates are unresolved.",
+    "BASF percentage-infection denominator and exact Corteva percentage-severity leaf-area protocol are unreported; their observed scores are not established interchangeable physiological damage fractions.",
+    "Source numbered leaves have incomplete anatomical rank and tracking documentation; leaf coefficients describe scoring groups rather than verified fixed anatomical strata.",
+    "Candidate predictors are the same-assessment archived raw disease score and pooled source-leaf category only; observed BBCH, source identity, site, severity histories, and future observations are excluded.",
+    "The leaf-stage/time benchmark uses same-day observed BBCH and elapsed time from the first assessment; it is observation-assisted and is not a prospective climate prediction.",
+    "Observed-window trapezoids interpolate only between actual measurements and do not measure physiological HAD, GS65\u201385 functional loss, yield, or disease onset.",
+    "The statistical mapping may be positive at zero latent damage; it is neither a new disease state nor a correction to symptom onset.",
+    "Whole-site prediction-error bootstrap intervals condition on fitted predictions and model selection; coefficient-bootstrap intervals condition on the selected ridge and do not include biological-model uncertainty.",
+    "No new climate, functional-loss, yield, onset, or pathogen-process inference follows from improved disease-score agreement."
+  ],
+  "input_sha256": {
+    "analysis/paper_study/nature_food_fix_20261007/validation/source_stage_and_prediction_membership.csv": "5bfdd66859f21751e666633d21275feff830f4c7a42c2deadfb7bb3268f01a27",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+    "analysis/paper_study/nature_food_revision_20261007/epidemic_evaluation/observed_window_severity_integrals.csv": "8627fb06b61869c480d7501ca022ea6887e46514559b77045d118f9429d91fe4",
+    "analysis/paper_study/nature_food_revision_20261007/epidemic_evaluation/evaluation_receipt.json": "69e8f54c91438719ef78069fd2583282ca395b5c986129afa1a6dc9427ee22ec",
+    "analysis/paper_study/overwinter_leaf_model_20261006/disease/fits_frozen_before_reused_validation.json": "abb0f795693b264e63bd2cfcc608626fe1273892ab8910799e477663f6e194f7",
+    "model/seasonal_septoria/overwinter.py": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7",
+    "model/seasonal_septoria/leaf_phenology.py": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+    "model/seasonal_septoria/wetness.py": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6"
+  },
+  "observation_code_sha256": "2c90108f2396c7a0b667cd92451c88074c7f7267aecb19269337427bfeebdc72"
+}

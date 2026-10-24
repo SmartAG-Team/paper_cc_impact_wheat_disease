@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "model": "ACCESS-CM2",
+  "scenario": "ssp585",
+  "year": 2085,
+  "matches_frozen_final_census": true,
+  "maximum_numeric_difference": 0.0,
+  "cells": 62,
+  "calendar_eligible_cells": 62,
+  "maximum_mass_error": 4.440892098500626e-16
+}

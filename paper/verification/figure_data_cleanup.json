@@ -1,0 +1,146 @@
+{
+  "prior_layout_archived": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease_intermediates_20261023/publication/gcb_before_methods_validation_visuals",
+  "role_to_name": {
+    "workflow": "fig1",
+    "data_overview": "fig2",
+    "attribution_design": "fig3",
+    "monitoring": "fig4",
+    "climate_change": "fig5",
+    "latitude_environment": "fig6",
+    "climate_phenology": "fig7",
+    "attribution_results": "fig8",
+    "production_exposure": "fig9",
+    "adaptation": "fig10",
+    "diagnostics": "figs1",
+    "support": "figs2",
+    "yield_context": "figs3",
+    "graphical_abstract": "graphical_abstract"
+  },
+  "allowed_files_by_figure": {
+    "fig1": [
+      "schematic.json",
+      "variables.json"
+    ],
+    "fig2": [
+      "assessments.csv",
+      "fields.csv",
+      "map_geometry.json",
+      "severity.csv",
+      "sites.csv",
+      "source_summary.csv",
+      "treatment_inventory.csv",
+      "variables.json",
+      "visits.csv",
+      "years.csv"
+    ],
+    "fig3": [
+      "schematic.json",
+      "variables.json"
+    ],
+    "fig4": [
+      "calibration.csv",
+      "density.csv",
+      "error_coverage.csv",
+      "figure_layout.json",
+      "metric_resamples.csv",
+      "onset_bracketed_histories.csv",
+      "onset_coverage_by_year.csv",
+      "onset_eligibility_2019.csv",
+      "onset_eligibility_summary.csv",
+      "onset_field_histories.csv",
+      "onset_metrics.csv",
+      "onset_phase_metrics.csv",
+      "onset_records.csv",
+      "predictions.csv",
+      "r2_audit.csv",
+      "scores.csv",
+      "severity_year_coverage.csv",
+      "variables.json"
+    ],
+    "fig5": [
+      "direction_agreement.csv",
+      "grid.csv",
+      "map_geometry.json",
+      "variables.json"
+    ],
+    "fig6": [
+      "data_dictionary.json",
+      "environment_contributions_by_gcm.csv",
+      "latitude_by_gcm.csv",
+      "latitude_ensemble.csv",
+      "variables.json"
+    ],
+    "fig7": [
+      "data_dictionary.json",
+      "response_regime_cells.csv",
+      "response_regime_profiles_by_gcm.csv",
+      "timing_cochange_bins_by_gcm.csv",
+      "variables.json"
+    ],
+    "fig8": [
+      "attribution.csv",
+      "variables.json"
+    ],
+    "fig9": [
+      "all_regions.csv",
+      "display_regions.csv",
+      "thresholds.csv",
+      "variables.json"
+    ],
+    "fig10": [
+      "adaptation_pairs.csv.gz",
+      "adaptation_pairs.parquet",
+      "archived_receipt_scope.json",
+      "audit.json",
+      "baseline_replay.csv",
+      "completion_and_missingness.csv",
+      "delivery_manifest.json",
+      "figure_geometry.json",
+      "figure_spec.json",
+      "fixed_shift_regions.csv",
+      "fixed_shift_summary.csv",
+      "independent_adaptation_review.txt",
+      "leave_gcm_out_region_policy.csv",
+      "policy_sampled_design.csv",
+      "policy_tradeoffs.csv",
+      "progress.json",
+      "quantity_definitions.json",
+      "raw_ACCESS-CM2.parquet",
+      "raw_MPI-ESM1-2-HR.parquet",
+      "raw_MRI-ESM2-0.parquet",
+      "receipt.json",
+      "regional_sample_design.csv",
+      "registration.json",
+      "source_analysis_figure_spec.json",
+      "support.csv",
+      "support_sensitivity_counts.csv",
+      "support_sensitivity_fixed_shifts.csv",
+      "support_sensitivity_policy_selection.csv",
+      "support_sensitivity_receipt.json",
+      "support_sensitivity_registration.json",
+      "support_sensitivity_same_policy.csv",
+      "support_sensitivity_summary.json",
+      "support_sensitivity_summary.txt",
+      "variables.json"
+    ],
+    "figs1": [
+      "field_metrics.csv",
+      "severity_bias.csv",
+      "variables.json",
+      "visit_context.csv"
+    ],
+    "figs2": [
+      "support.csv",
+      "variables.json"
+    ],
+    "figs3": [
+      "additional_published_endpoints.csv",
+      "annual_yield_gap.csv",
+      "descriptive_summary.json",
+      "evidence_screening_inventory.csv",
+      "source_metadata.json",
+      "variables.json",
+      "verification.json"
+    ]
+  }
+}

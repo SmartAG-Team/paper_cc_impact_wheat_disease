@@ -1,0 +1,56 @@
+{
+  "selected_pipeline": {
+    "family": "history_rf",
+    "setting": 0,
+    "strength": 1.0,
+    "candidate_id": 17,
+    "assessment_mse": 347.8938325929776,
+    "integral_mse": 43584.652591421414,
+    "score": 0.039632122436122366
+  },
+  "fold_leaf_mean": {
+    "family": "fold_leaf_mean",
+    "setting": -1,
+    "strength": 0.0,
+    "candidate_id": 0,
+    "assessment_mse": 590.0519581429979,
+    "integral_mse": 155261.80071179222,
+    "score": 0.07625650700449893
+  },
+  "state_baseline": {
+    "family": "state_baseline",
+    "setting": -1,
+    "strength": 0.0,
+    "candidate_id": 1,
+    "assessment_mse": 500.2714143472195,
+    "integral_mse": 84606.55081677309,
+    "score": 0.05942786930325229
+  },
+  "weather_rf": {
+    "family": "weather_rf",
+    "setting": 0,
+    "strength": 0.75,
+    "candidate_id": 4,
+    "assessment_mse": 535.8234922470982,
+    "integral_mse": 148332.52263845963,
+    "score": 0.07006374062898311
+  },
+  "history_rf": {
+    "family": "history_rf",
+    "setting": 0,
+    "strength": 1.0,
+    "candidate_id": 17,
+    "assessment_mse": 347.8938325929776,
+    "integral_mse": 43584.652591421414,
+    "score": 0.039632122436122366
+  },
+  "history_hgb": {
+    "family": "history_hgb",
+    "setting": 1,
+    "strength": 0.75,
+    "candidate_id": 32,
+    "assessment_mse": 388.52001497227513,
+    "integral_mse": 54256.88926323286,
+    "score": 0.044880544748697834
+  }
+}

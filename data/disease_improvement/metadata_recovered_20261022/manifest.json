@@ -1,0 +1,21 @@
+{
+  "source_recovery": "outputs/raw_metadata_recovery_20261022",
+  "files": {
+    "field_treatment_ledger.csv": "8ecc071b44980be5c4b15fd69e66d396ae7daccc22c9581899fc918c8cd30527",
+    "coverage.json": "e28267f018aa673e2455f9cd9f7eb12aae321742dbc4a943c70840ec86b3c9a8",
+    "source_alignment_audit.json": "44ca4285fd03fe257d930dadf2d1703f9c3c0a951bf4e2782fd359c3162a226f",
+    "stage_calendar.csv": "b58a7565b164372eddbf3230f2aa27b5adca09c3f181333cf71b422cfb85a122",
+    "metadata_ledger.csv": "56bfad8dfd58b2bd478e1e23c85c0d6718e3b770ad6ad995e3dea26a2995f44a"
+  },
+  "treatment": "All retained disease targets independently source-verified untreated with zero sprays",
+  "stage_primary_rule": "Use usable source intervals strictly earlier than query date within the declared season",
+  "contemporaneous_stage": "Separate conditional diagnostic only",
+  "still_unrecovered": [
+    "cultivar",
+    "resistance",
+    "actual_sowing_date",
+    "plot_id",
+    "replicate_id"
+  ],
+  "disease_values_or_membership_changed": false
+}

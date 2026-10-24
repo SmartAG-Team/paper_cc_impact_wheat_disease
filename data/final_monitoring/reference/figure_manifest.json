@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "figure": "fig1",
+  "scope": "Standalone working disease-validation figure; original integrated manuscript figure retained",
+  "width_cm": 19.0,
+  "height_cm": 9.2,
+  "font_pt": 12,
+  "panels": {
+    "a": "temporal",
+    "b": "spatial_50km"
+  },
+  "selected_model": "discrepancy_logit",
+  "numeric_performance_annotations": false,
+  "source_sha256": {
+    "outputs/disease_improvement/restored_monitoring_baseline_20261022/assessment_predictions.csv": "e563b0cbcfc1934dc5a62e47d58120573701b63e758149aef04fbafed6194f30",
+    "outputs/disease_improvement/restored_monitoring_baseline_20261022/spatial_predictions.csv": "ba83ed05ab79f490a7b16af8a108fbabbc08c12017d6b51496bea7156558d003",
+    "outputs/disease_improvement/restored_monitoring_baseline_20261022/verification.json": "9a888fb95d2fd4221907c9ae1b1619b95601281862627208b9df7446d14d9775",
+    "analysis/disease_improvement/render_restored_monitoring.py": "9f189a018458fde21d908c84124070e69dc83859884f1bfbf0bee9980ec0ce4d"
+  },
+  "artifacts_sha256": {
+    "fig1_caption.txt": "76799b5e5980c5227ca886587f32f8cde6839590fe8bcfc7a409eedc3192c52d",
+    "fig1.png": "0fad8243bb34b6516d6ed99d378fac9573d7f65bd95c014fddda6a4054ed26b7",
+    "fig1.pdf": "cd78f6e2defb48bee8cf5c491d648937a5d781431e7176696859582622ac5fe4",
+    "fig1.svg": "8578fb10918241d4ba89228112bf974022708b9f9fb608f97eee6b01e2a7e15a",
+    "data/fig1/predictions.csv": "39b7f3b2135c09c9b60251eea06c08dbe0ee77043786c490c6c7ed135f180bc9",
+    "data/fig1/variables.json": "5f57d2b07ece2bd7aa13f85d345959563d910e0c35d10a23cb105e40f70c199c"
+  }
+}

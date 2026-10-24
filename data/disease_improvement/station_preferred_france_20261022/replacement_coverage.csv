@@ -1,0 +1,17 @@
+source,variable,replaced_days,policy
+DWD,precipitation_mm,14626,measured complete UTC-day total precipitation
+DWD,rain_mm,14434,station total; Tmin>2C liquid assumption or original reanalysis liquid/total phase ratio; otherwise fallback
+DWD,rain_hours_gt_0_1mm,13104,"complete measured hourly support under warm-liquid assumption, or zero measured total; otherwise original duration"
+DWD,tmean_c,14846,valid station measurement; remaining days original forcing
+DWD,tmin_c,14846,valid station measurement; remaining days original forcing
+DWD,tmax_c,14846,valid station measurement; remaining days original forcing
+DWD,rh_mean_pct,14842,valid station measurement; remaining days original forcing
+DWD,rh_hours_ge_90pct,14842,valid station measurement; remaining days original forcing
+METEO_FRANCE,tmean_c,15313,valid station measurement; remaining days original forcing
+METEO_FRANCE,tmin_c,15313,valid station measurement; remaining days original forcing
+METEO_FRANCE,tmax_c,15313,valid station measurement; remaining days original forcing
+METEO_FRANCE,rh_mean_pct,6299,valid station measurement; remaining days original forcing
+METEO_FRANCE,rh_hours_ge_90pct,6299,valid station measurement; remaining days original forcing
+METEO_FRANCE,precipitation_mm,15658,measured complete UTC-day total precipitation
+METEO_FRANCE,rain_mm,15303,station total; Tmin>2C liquid assumption or original reanalysis liquid/total phase ratio; otherwise fallback
+METEO_FRANCE,rain_hours_gt_0_1mm,14574,"complete measured hourly support under warm-liquid assumption, or zero measured total; otherwise original duration"

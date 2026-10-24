@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "all_residual_models_refitted": 189,
+  "fit_ledgers_checked": 245,
+  "independent_mixture_objectives_checked": 7,
+  "maximum_refit_prediction_difference_fraction": 0.0,
+  "original_verification_sha256": "d377cf0b62c615c7e36693fdfc91f7b79be055f41d854792061f3c729f59117d",
+  "addendum_protocol_sha256": "0c497300f28918b290d48a6c36c9472ef1019d304df4baa60a20d2be873d47b6",
+  "checked_at_utc": "2026-10-12T07:35:55.599684+00:00"
+}

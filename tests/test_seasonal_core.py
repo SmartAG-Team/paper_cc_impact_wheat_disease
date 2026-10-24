@@ -3,7 +3,7 @@ from dataclasses import replace
 import numpy as np
 import pytest
 
-from model.seasonal_septoria.core import Parameters, simulate_season
+from models.seasonal_septoria.core import Parameters, simulate_season
 
 
 def forcing(days=80, leaves=2):

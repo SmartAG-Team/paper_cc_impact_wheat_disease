@@ -1,0 +1,47 @@
+{
+  "width_cm": 19.0,
+  "height_cm": 17.5,
+  "font_pt": 12,
+  "panels": {
+    "a": "primary temporal assessment-level severity density",
+    "b": "forecast calibration in both evaluation designs",
+    "c": "full weighted absolute-error CDFs and site-bootstrap intervals",
+    "d": "signed onset errors, calibration and evaluation separate"
+  },
+  "density_evaluation": "temporal",
+  "density_bin_pp": 2.5,
+  "calibration_bins_pp": 10,
+  "calibration_resamples": 1000,
+  "calibration_is_evaluation_forecast_diagnostic": true,
+  "error_coverage_full_range_pp": [
+    0,
+    100
+  ],
+  "error_coverage_resamples": 2000,
+  "error_coverage_weighting": "original evaluation hierarchy; not raw record fraction",
+  "F1_field_seasons": 55,
+  "positive_field_seasons": 52,
+  "calibration_field_seasons": 22,
+  "evaluation_field_seasons": 33,
+  "onset_calibration_histories": 3,
+  "onset_evaluation_histories": 4,
+  "calibration_is_validation": false,
+  "onset_operator": "unchanged first daily N+I+D crossing at0.001",
+  "error": "signed distance to daily interval: negative early, positive late, zero within observed support",
+  "exact_onset_MAE_identified": false,
+  "small_sample": true,
+  "onset_legend_overlaps_density_label": false,
+  "row_groups": "calibration2017/2018 and evaluation2019; no pooled validation result",
+  "jitter": "deterministic horizontal offsets to reveal coincident field-level errors",
+  "cohort_counts": {
+    "all_2019_fields": 45,
+    "all_2019_sites": 36,
+    "qualified_F1_fields": 33,
+    "eligibility_status_counts": {
+      "F1_positive_at_first_assessment": 27,
+      "no_qualified_F1_observation": 12,
+      "two_sided_F1_onset": 4,
+      "no_positive_F1_assessment": 2
+    }
+  }
+}

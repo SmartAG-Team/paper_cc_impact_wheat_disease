@@ -1,0 +1,238 @@
+{
+  "status": "passed",
+  "figures": {
+    "fig1": {
+      "status": "passed",
+      "type": "model dependencies and illustrative integration support",
+      "qualification": "schematic positions are not measured or simulated dates"
+    },
+    "fig3": {
+      "status": "passed",
+      "type": "model dependencies and illustrative integration support",
+      "qualification": "schematic positions are not measured or simulated dates"
+    },
+    "fig4": {
+      "status": "passed",
+      "assessments_per_design": 2017,
+      "density_formula": "100 \u00d7 sum of evaluation weights in bin / total evaluation weight",
+      "bin_width_percentage_points": 2.5,
+      "metric_resamples_recomputed_from_individual_records": 4000,
+      "qualification": "fixed forecasts after adaptive internal development; not external validation",
+      "error_coverage_checks": [
+        "every empirical jump and integer0\u2013100 threshold",
+        "original assessment weights",
+        "paired-site intervals at seven thresholds per design"
+      ],
+      "density_display": "temporal primary; both designs retained in numerical density data",
+      "F1_field_seasons": 55,
+      "positive_F1_field_seasons": 52,
+      "onset_calibration_histories": 3,
+      "onset_evaluation_histories": 4,
+      "onset_checks": [
+        "all55 original F1 seasons and observed censoring classes",
+        "all7 bracketed signed errors",
+        "phase denominators and timing-point coordinates"
+      ],
+      "onset_scope": "calibration and original2019 evaluation kept separate; no pooled validation or exact-date MAE",
+      "onset_cohort_reconciliation": {
+        "all_2019_fields": 45,
+        "qualified_F1_fields": 33,
+        "status_counts": {
+          "F1_positive_at_first_assessment": 27,
+          "no_qualified_F1_observation": 12,
+          "two_sided_F1_onset": 4,
+          "no_positive_F1_assessment": 2
+        },
+        "selection": "observed chronology only"
+      },
+      "forecast_calibration_checks": [
+        "twenty fixed prediction bins",
+        "original weights",
+        "1000-site-resample percentile intervals"
+      ]
+    },
+    "fig2": {
+      "status": "passed",
+      "assessments": 2304,
+      "field_seasons": 218,
+      "sites": 128,
+      "checks": [
+        "unique retained identities",
+        "source/year counts",
+        "native-score histogram",
+        "unique dates per field-season",
+        "original coordinates"
+      ],
+      "qualification": "descriptive sample counts; native endpoint differences retained; only untreated zero-spray controls"
+    },
+    "figs1": {
+      "status": "passed",
+      "field_seasons_per_design": 192,
+      "checks": [
+        "outcome-band bias",
+        "complete-chronology visit groups",
+        "within-field RMSE"
+      ],
+      "qualification": "field ECDF assigns one vote per field; pooled headline scores use evaluation weights"
+    },
+    "fig5": {
+      "status": "passed",
+      "native_cells": 14941,
+      "checks": [
+        "equal three-member change/reference/future means",
+        "strict three-member availability",
+        "individual member direction counts"
+      ],
+      "qualification": "normalized affected-tissue days, not percentages, physiological loss or grain loss; agreement is not probability"
+    },
+    "fig8": {
+      "status": "passed",
+      "checks": [
+        "four-corner Shapley arithmetic",
+        "identical cross-setting valid pairs",
+        "area-weighted model estimates",
+        "equal-member means"
+      ],
+      "qualification": "three-model minimum\u2013maximum ranges are not confidence intervals; whole/shared-time integration are distinct estimands"
+    },
+    "figs2": {
+      "status": "passed",
+      "qualification": "weighted design support is distinct from unweighted pair retention and effect sizes"
+    },
+    "fig9": {
+      "status": "passed",
+      "checks": [
+        "strict per-member thresholds",
+        "complete fixed production denominator",
+        "region categories and mass balance"
+      ],
+      "qualification": "baseline production in affected cells, not future production or tonnes of grain lost"
+    },
+    "graphical_abstract": {
+      "status": "passed",
+      "qualification": "schematic intervals; numerical host contributions use identical common-pair support"
+    },
+    "fig6": {
+      "status": "passed",
+      "checks": [
+        "all1degree weighted latitude means",
+        "all environmental directional contribution shares",
+        "fixed-domain denominators"
+      ],
+      "latitude50_60_positive_share_percent": 68.59231722935579
+    },
+    "fig7": {
+      "status": "passed",
+      "checks": [
+        "timing pair counts subset and exact matched-year selection",
+        "all plotted timing-bin means",
+        "independent three-member response categories",
+        "all window climate/regime means"
+      ],
+      "qualification": "within-model associations; timing enters endpoint; no causal driver identification"
+    },
+    "fig10": {
+      "status": "passed",
+      "raw_records": 57600,
+      "complete_draw_years": 1902,
+      "shared_calendar_draw_years": 1656,
+      "checks": [
+        "both raw support masks",
+        "all fixed-shift member quantities and contrasts",
+        "training-only regional choices",
+        "same regional policy on both supports",
+        "all equal-GCM means and member ranges"
+      ],
+      "qualification": "bounded sampled-design proxy sensitivity, not agronomic or yield optimum"
+    },
+    "figs3": {
+      "status": "passed",
+      "annual_rows": 22,
+      "checks": [
+        "all direct printed labels",
+        "unit conversion",
+        "missing trial counts and variance retained",
+        "original primary source PDF hash"
+      ],
+      "qualification": "mixed foliar-disease treatment response; no new meta-analysis or STB-to-yield conversion"
+    }
+  },
+  "raw_Corteva_assessments_reconstructed": 1720,
+  "raw_BASF_assessments_reconstructed": 584,
+  "treatment_eligibility_verified_for_all_retained_records": true,
+  "auditor_sha256": "beac867c462f18f67497e889a296923d5213124824a842d1ab6bb2e2e6bf419e",
+  "source_row_convention": "one-based physical text line including header; pandas row index = source line minus two",
+  "source_sha256": {
+    "data/derived/paper_20261024/analyses/attribution/attribution_pairs.parquet": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d",
+    "data/final_monitoring/cohort/training_observation_ledger.csv": "3f7702331f878f5fbe0adc5565f7b62c6f6fb158d5f8e98024aa10190ce37a36",
+    "data/final_monitoring/reference/data/fig1/predictions.csv": "39b7f3b2135c09c9b60251eea06c08dbe0ee77043786c490c6c7ed135f180bc9",
+    "data/final_study/evidence/food_security_exposure/production_grid_input.csv": "11782120d1bddda36f4edeebc70a021bb17bf48d4488569a1160fbe938d64451",
+    "data/final_study/evidence/full_grid_climate/results/full_grid_paired_changes_by_gcm.parquet": "c9674bef176588736299dd19c18a299d4ecf0fdb724571cd3df2ca4f8e83c62e",
+    "data/final_study/evidence/full_grid_climate/results/full_landuse_cell_registry.csv": "6d6df1bc9e45aa1091e3948f2e77d946780520edcc66067a08ad99cfd0c5035b",
+    "data/final_study/inputs/stb_collection_20261009/sources/other_field_sources/corteva-2014-2018/corteva-wheat-diseases.txt": "d58a4a66639a4cdee2560ca53c38288cc4958b7b5d030370dbb403a91e4465f8",
+    "data/gcb_preparation_20261023/source_snapshots/basf-wheat-diseases.txt": "7f3325fdf31261740e4988bbda8581ff3f2381e6c38d46947d374fad4b6af67a",
+    "paper/data/fig10/adaptation_pairs.csv.gz": "a7a3914aaeb29e2aa223dda154a138be7556cc0d305bdf85f106ce6811ad5830",
+    "paper/data/fig10/adaptation_pairs.parquet": "e3f1f07f8198ff8b212a60bd15667456c1934c1da18217fcd896b6f4caa84a29",
+    "paper/data/fig10/baseline_replay.csv": "0821fd64e8e099d8b3a6b406a5ec941c9bac8eec5ba5b14d88d2ed6b9684280d",
+    "paper/data/fig10/completion_and_missingness.csv": "f37301e401e78915076d6bc303491ab40fea51004a75ea7e1249b061530a166e",
+    "paper/data/fig10/fixed_shift_regions.csv": "0a0352790e1fe62a2c001ab74b678667f7797d60769dd8144269b98f42244bc9",
+    "paper/data/fig10/fixed_shift_summary.csv": "e93700e38b5cc4867525929cbdb6646bc757ca792e9941cd89f5436b2a192b41",
+    "paper/data/fig10/leave_gcm_out_region_policy.csv": "54fca6b7a554117970f3b6ecd9704fc8a8b12f1591bd64a355ae9797913361cd",
+    "paper/data/fig10/policy_sampled_design.csv": "ef24879367893a8ef83e9b45fdae798a820842e67842940c13b9b21f8af7c5cc",
+    "paper/data/fig10/policy_tradeoffs.csv": "7ffcd97c2ab4bb6268b0b732c62811eee56e72febf49472066bb25fb2f7ecb88",
+    "paper/data/fig10/progress.json": "d0445ca158860c89210b82319c22a68cc186ca47e8eda01041624c637203d235",
+    "paper/data/fig10/quantity_definitions.json": "db02710a1521992bf5fb536d5babd5cc346b73c230de6ebe179bc844e51aed59",
+    "paper/data/fig10/raw_ACCESS-CM2.parquet": "24593bcdfaa67086844f8703e9dcc652c585d9eaf74ab4708965c8feb41fab98",
+    "paper/data/fig10/raw_MPI-ESM1-2-HR.parquet": "30111e7f9e9eda38030b0fc192818d502d603fc8aa1d679ff6cb4b2773bf12de",
+    "paper/data/fig10/raw_MRI-ESM2-0.parquet": "5920b4ccb042ad4a339bb780d5b5e0e2a1868f334ee2537b9f88ad6c5608a96e",
+    "paper/data/fig10/regional_sample_design.csv": "7f83f62cce6bcccdfba6fa8ffb31c04fa843c84e3d48bbf5e298f43ebd452010",
+    "paper/data/fig10/registration.json": "fd2f686c24b32bd9ceaac335e944b7394dbc31c2944b59c66c62baa65a09a2e6",
+    "paper/data/fig10/support.csv": "12a173310247039f286d9ddca581d8e413a1c5d436735399680f1f5cecbff5d8",
+    "paper/data/fig10/support_sensitivity_fixed_shifts.csv": "4be8fa12f2790f860bce85ef2202fa1dac134e393b6222613ed4d58683e85c96",
+    "paper/data/fig10/support_sensitivity_policy_selection.csv": "33bf75bbb6869d6125cbb9146f4dfda611e62855ddf7aa2472c6943860c35a74",
+    "paper/data/fig10/support_sensitivity_same_policy.csv": "4df0e560277163906be54a014750676ae48d620a9d252d993744e456ce768a05",
+    "paper/data/fig2/assessments.csv": "3f7702331f878f5fbe0adc5565f7b62c6f6fb158d5f8e98024aa10190ce37a36",
+    "paper/data/fig2/fields.csv": "3a2a82c2a3b7bd2fcff4595a5c27dcc06f1c23fffec23bb61bf16383a78d528d",
+    "paper/data/fig2/severity.csv": "4377a75a9752498ea74058593403108509b13eb083a27e5204de98aeaf974f59",
+    "paper/data/fig2/sites.csv": "c65da31cd99c2d08249e6ac9d8719731ba4d233f06477f632ece8d53ab8fb0bf",
+    "paper/data/fig2/treatment_inventory.csv": "235af3fdaee398aebfd9230bafe715bebff83494c487f036412606acc1e3a487",
+    "paper/data/fig2/visits.csv": "8a9dee88982cff923f364f33914f746b2fe6e39569b1997595041495a90518be",
+    "paper/data/fig2/years.csv": "1222ff08414f2b65f0b1b7eab9dca8c76b479df23035540668a1c560a81844d9",
+    "paper/data/fig4/calibration.csv": "37448dffe0db166b93827ed92d1fe98e4203b33d77f9a81d14ec4fca1fbb8599",
+    "paper/data/fig4/density.csv": "aa8247ba247c848eacbac09b4522e2d13bdde2ade501e473b9579a10c091a70e",
+    "paper/data/fig4/error_coverage.csv": "1faafcee5473a7b3997b0b3223394b119a514aa469237073a50f0d4a8f504263",
+    "paper/data/fig4/metric_resamples.csv": "22dcd7a693c4b2338633dafb1ec9f1e09681ceee30c6d81262ed010cd03758f7",
+    "paper/data/fig4/onset_bracketed_histories.csv": "81173c6bb0cfd8efb81ee3708e42660d2e46eaa20ee34573ddc93defd0ea04ff",
+    "paper/data/fig4/onset_coverage_by_year.csv": "9ccb6a233671e6cf7e60c4d60c4d819ff554c1ba881776ba6805d37cf11dc715",
+    "paper/data/fig4/onset_eligibility_2019.csv": "dd04ae9aef840908a4171de01c043dc881e8282146b52a48f415255c6afdaa09",
+    "paper/data/fig4/onset_field_histories.csv": "fe49bab570806180fe734a984cb9dcafb6a059ded4407bd2a1a6912b867b0578",
+    "paper/data/fig4/onset_phase_metrics.csv": "90f00c12f8d5cae78d1e243f1215231c9e91fb4575b39b1a112df9e4203d57c3",
+    "paper/data/fig4/onset_records.csv": "09e441ce453a1bf2a3fcde7dff2f0e9ea753082cdb7aaa2078c5e7dfb2a62efe",
+    "paper/data/fig4/predictions.csv": "2a17b8de77ab97b08278081e1cedd6548f12143e8d9821d75215e5456d0c1126",
+    "paper/data/fig4/scores.csv": "832cd55f5d5f987fa28f7bad6aa880ad32c0f98265cfa282257a0eb9beb96a15",
+    "paper/data/fig5/grid.csv": "f11d40f2d4a84c26af05f2abc50e79b4ca1ba79f42d3a4782ca840ee1a28fa27",
+    "paper/data/fig6/environment_contributions_by_gcm.csv": "ff39c4b55de143990ae62d06784a7f57b27b56599b14f6fc8f5f30eb63639301",
+    "paper/data/fig6/latitude_by_gcm.csv": "17ef1bbc12abae8b0b54150db3e315d006268f58b77d90c2a3e9b3f243e3adfb",
+    "paper/data/fig7/response_regime_cells.csv": "7d8931a1b95976410e82bea1e8123297e5a10be04fed3beeef88fbd0402a4bc8",
+    "paper/data/fig7/response_regime_profiles_by_gcm.csv": "0612b3d04f61de7ea70bd2304ba00c8d7e44a2d3be1f4882b35d4b4da5322b6c",
+    "paper/data/fig7/timing_cochange_bins_by_gcm.csv": "a472705fab262f71079a5ea22d8eccaf45d45a4764e427d99dfc2bc132a5b69b",
+    "paper/data/fig8/attribution.csv": "ea4b55017b68798079b14faed648ea2e57e051953b98caace12c9bb475758e5f",
+    "paper/data/fig9/all_regions.csv": "1cc1dd42ac8bbd10a929753a85bfdac85fda49d5248507699818ba35193550f7",
+    "paper/data/fig9/display_regions.csv": "a106acaa0397b63786378acfa8b2a4f6011c3e15b7102dea17212e32d36add6e",
+    "paper/data/fig9/thresholds.csv": "50b893580e41625a4ef5c88c12d3c635aaa46e5fd67fe921899d80c79f9ad430",
+    "paper/data/figs1/field_metrics.csv": "8d16d74ddec56c4be3605c68d873bc7e8f306f4e029679dc96b8f47ea713f0f6",
+    "paper/data/figs1/severity_bias.csv": "d66624aea2246339c2cc0318d5f90c5e1dd3840da575c900bb677004c789aeef",
+    "paper/data/figs1/visit_context.csv": "3456c281363e3b1c5abe0eb8473b0087a272938a1edbe284d2752f176ab2a6cc",
+    "paper/data/figs2/support.csv": "1572225a1e09417344fda958a59899e9aa99f765ba48085442181a168e7534a9",
+    "paper/data/figs3/annual_yield_gap.csv": "63896232aa5281f22bbbf47dae954d479d4371dfc44d58eff414b87870b770a5",
+    "paper/data/graphical_abstract/attribution_summary.csv": "b404871acc9b7fb555ce5b2f27e35c8ddfbccf2e725dcc97669078c14d6c2993",
+    "paper/data/monitoring_diagnostics/site_metrics.csv": "0b4a04cbc02bc5b247a270bd597d69c37e0a5acb7dbb7e6fc613bdffd9412da7",
+    "paper/data/onset_evaluation/onset_records.csv": "09e441ce453a1bf2a3fcde7dff2f0e9ea753082cdb7aaa2078c5e7dfb2a62efe",
+    "paper/data/process_f1/all115_F1_records_with_replay.csv": "60e947c099809184b9d8302130e5b5b2ced302728e24099d80aa7265904bf6e6",
+    "paper/data/process_f1/evaluation70_F1_records_with_replay.csv": "c5baef4443bd6280bd7f17b023582e7a55f663843413b7e8b90df38e59bbcfc5",
+    "paper/data/process_f1/field55_calendar_membership.csv": "a4f2b74d33252f5678cc309d919c0fe0a188a48751d994958cacf61878920d31",
+    "paper/data/yield_source_evidence/arvalis_performance_2025_champagne_ardenne.pdf": "4ed9b15d8785e762123d12a1b2f1ea6483f1e225e8d8c4c52ecff366bf29b423",
+    "paper/scripts/findings_audit.py": "1da34a053bfc1e69808e455fe0b2de927bcf06bea4f5bd7869cd5553cc30d704"
+  },
+  "validation_boundary": "Source and arithmetic fidelity of figures; no independent external confirmation, physiological-loss calibration or model refit is implied"
+}

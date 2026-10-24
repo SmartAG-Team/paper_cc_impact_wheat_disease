@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "workflow": "paper/run.py",
+  "figures": [
+    {
+      "figure": "fig1",
+      "png": "paper/figures/fig1.png",
+      "data": "data/paper/fig1",
+      "script": "paper/scripts/figure_methods.py",
+      "function": "build_workflow",
+      "analysis_stage": "inputs",
+      "title": "Study workflow",
+      "data_files": [
+        "schematic.json",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig1"
+    },
+    {
+      "figure": "fig2",
+      "png": "paper/figures/fig2.png",
+      "data": "data/paper/fig2",
+      "script": "paper/scripts/figure_data_overview.py",
+      "function": "prepare_overview; overview_figure",
+      "analysis_stage": "inputs",
+      "title": "Observation distributions",
+      "data_files": [
+        "assessments.csv",
+        "fields.csv",
+        "map_geometry.json",
+        "severity.csv",
+        "sites.csv",
+        "source_summary.csv",
+        "treatment_inventory.csv",
+        "variables.json",
+        "visits.csv",
+        "years.csv"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig2"
+    },
+    {
+      "figure": "fig3",
+      "png": "paper/figures/fig3.png",
+      "data": "data/paper/fig3",
+      "script": "paper/scripts/figure_methods.py",
+      "function": "build_attribution_design",
+      "analysis_stage": "inputs",
+      "title": "Attribution and integration design",
+      "data_files": [
+        "schematic.json",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig3"
+    },
+    {
+      "figure": "fig4",
+      "png": "paper/figures/fig4.png",
+      "data": "data/paper/fig4",
+      "script": "paper/scripts/figure_validation_onset.py",
+      "function": "validation_onset_figure",
+      "analysis_stage": "monitoring; process",
+      "title": "Monitoring calibration, error coverage and onset",
+      "data_files": [
+        "calibration.csv",
+        "density.csv",
+        "error_coverage.csv",
+        "figure_layout.json",
+        "metric_resamples.csv",
+        "onset_bracketed_histories.csv",
+        "onset_coverage_by_year.csv",
+        "onset_eligibility_2019.csv",
+        "onset_eligibility_summary.csv",
+        "onset_field_histories.csv",
+        "onset_metrics.csv",
+        "onset_phase_metrics.csv",
+        "onset_records.csv",
+        "predictions.csv",
+        "r2_audit.csv",
+        "scores.csv",
+        "severity_year_coverage.csv",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig4"
+    },
+    {
+      "figure": "fig5",
+      "png": "paper/figures/fig5.png",
+      "data": "data/paper/fig5",
+      "script": "paper/scripts/figure_maps_v2.py",
+      "function": "build_climate_map",
+      "analysis_stage": "climate",
+      "title": "Continental climate response",
+      "data_files": [
+        "direction_agreement.csv",
+        "grid.csv",
+        "map_geometry.json",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig5"
+    },
+    {
+      "figure": "fig6",
+      "png": "paper/figures/fig6.png",
+      "data": "data/paper/fig6",
+      "script": "paper/scripts/climate_response_insights.py",
+      "function": "build_latitude_environment",
+      "analysis_stage": "climate-response",
+      "title": "Latitude and environmental zones",
+      "data_files": [
+        "data_dictionary.json",
+        "environment_contributions_by_gcm.csv",
+        "latitude_by_gcm.csv",
+        "latitude_ensemble.csv",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig6"
+    },
+    {
+      "figure": "fig7",
+      "png": "paper/figures/fig7.png",
+      "data": "data/paper/fig7",
+      "script": "paper/scripts/climate_response_insights.py",
+      "function": "build_climate_phenology",
+      "analysis_stage": "climate-response",
+      "title": "Host-relative timing and climate co-changes",
+      "data_files": [
+        "data_dictionary.json",
+        "response_regime_cells.csv",
+        "response_regime_profiles_by_gcm.csv",
+        "timing_cochange_bins_by_gcm.csv",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig7"
+    },
+    {
+      "figure": "fig8",
+      "png": "paper/figures/fig8.png",
+      "data": "data/paper/fig8",
+      "script": "paper/scripts/figure_results.py",
+      "function": "attribution_figure",
+      "analysis_stage": "attribution",
+      "title": "Weather and host attribution",
+      "data_files": [
+        "attribution.csv",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig8"
+    },
+    {
+      "figure": "fig9",
+      "png": "paper/figures/fig9.png",
+      "data": "data/paper/fig9",
+      "script": "paper/scripts/figure_results.py",
+      "function": "exposure_figure",
+      "analysis_stage": "exposure",
+      "title": "Fixed-production exposure",
+      "data_files": [
+        "all_regions.csv",
+        "display_regions.csv",
+        "thresholds.csv",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig9"
+    },
+    {
+      "figure": "fig10",
+      "png": "paper/figures/fig10.png",
+      "data": "data/paper/fig10",
+      "script": "paper/scripts/adaptation_results_figure.py",
+      "function": "build_adaptation_figure",
+      "analysis_stage": "adaptation",
+      "title": "Sowing adaptation and heat tradeoffs",
+      "data_files": [
+        "adaptation_pairs.csv.gz",
+        "adaptation_pairs.parquet",
+        "archived_receipt_scope.json",
+        "audit.json",
+        "baseline_replay.csv",
+        "completion_and_missingness.csv",
+        "delivery_manifest.json",
+        "figure_geometry.json",
+        "figure_spec.json",
+        "fixed_shift_regions.csv",
+        "fixed_shift_summary.csv",
+        "independent_adaptation_review.txt",
+        "leave_gcm_out_region_policy.csv",
+        "policy_sampled_design.csv",
+        "policy_tradeoffs.csv",
+        "progress.json",
+        "quantity_definitions.json",
+        "raw_ACCESS-CM2.parquet",
+        "raw_MPI-ESM1-2-HR.parquet",
+        "raw_MRI-ESM2-0.parquet",
+        "receipt.json",
+        "regional_sample_design.csv",
+        "registration.json",
+        "source_analysis_figure_spec.json",
+        "support.csv",
+        "support_sensitivity_counts.csv",
+        "support_sensitivity_fixed_shifts.csv",
+        "support_sensitivity_policy_selection.csv",
+        "support_sensitivity_receipt.json",
+        "support_sensitivity_registration.json",
+        "support_sensitivity_same_policy.csv",
+        "support_sensitivity_summary.json",
+        "support_sensitivity_summary.txt",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_fig10"
+    },
+    {
+      "figure": "figs1",
+      "png": "paper/figures/figs1.png",
+      "data": "data/paper/figs1",
+      "script": "paper/scripts/figure_validation_v2.py",
+      "function": "diagnostic_figure",
+      "analysis_stage": "monitoring",
+      "title": "Field-level monitoring diagnostics",
+      "data_files": [
+        "field_metrics.csv",
+        "severity_bias.csv",
+        "variables.json",
+        "visit_context.csv"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_figs1"
+    },
+    {
+      "figure": "figs2",
+      "png": "paper/figures/figs2.png",
+      "data": "data/paper/figs2",
+      "script": "paper/scripts/figure_results.py",
+      "function": "support_figure",
+      "analysis_stage": "attribution",
+      "title": "Attribution support",
+      "data_files": [
+        "support.csv",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_figs2"
+    },
+    {
+      "figure": "figs3",
+      "png": "paper/figures/figs3.png",
+      "data": "data/paper/figs3",
+      "script": "paper/scripts/yield_evidence_extension.py",
+      "function": "build_yield_evidence_figure",
+      "analysis_stage": "yield",
+      "title": "Published yield context",
+      "data_files": [
+        "additional_published_endpoints.csv",
+        "annual_yield_gap.csv",
+        "descriptive_summary.json",
+        "evidence_screening_inventory.csv",
+        "source_metadata.json",
+        "variables.json",
+        "verification.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_figs3"
+    },
+    {
+      "figure": "graphical_abstract",
+      "png": "paper/figures/graphical_abstract.png",
+      "data": "data/paper/graphical_abstract",
+      "script": "paper/scripts/figure_results.py",
+      "function": "graphical_figure",
+      "analysis_stage": "attribution",
+      "title": "Graphical abstract",
+      "data_files": [
+        "attribution_summary.csv",
+        "variables.json"
+      ],
+      "reproduce": "python paper/run.py --stage figures --output data/reproductions/figures_graphical_abstract"
+    }
+  ],
+  "scope": "Every figure uses the listed numerical data and renderer; the executable workflow regenerates analyses and all figure inputs."
+}

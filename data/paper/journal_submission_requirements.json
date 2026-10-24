@@ -1,0 +1,63 @@
+{
+  "journal": "Global Change Biology",
+  "article_type": "Research Article",
+  "checked_on": "2026-10-24",
+  "sources": {
+    "author_guidelines": "https://onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html",
+    "initial_checklist": "https://onlinelibrary.wiley.com/pb-assets/assets/13652486/docs/GCB-initial-submission-checklist-DEC%202025-1764746800740.pdf",
+    "figure_guidelines": "https://authors.wiley.com/author-resources/Journal-Authors/Prepare/manuscript-preparation-guidelines.html/figure-preparation.html"
+  },
+  "initial_checklist_updated": "2025-12-01",
+  "requirements": {
+    "main_words_max": 8000,
+    "abstract_words_max": 300,
+    "running_title_characters_strictly_less_than": 45,
+    "keywords_min": 6,
+    "keywords_max": 10,
+    "figure_table_limit": null,
+    "reference_limit": null,
+    "numbered_lines": true,
+    "double_spacing": "encouraged",
+    "cover_questions": 7,
+    "cover_answer_words_max": 50,
+    "potential_reviewers": 5,
+    "submitting_author_orcid": true,
+    "corresponding_author_telephone": true,
+    "map_boundary_statement": true,
+    "graphical_abstract_required_stages": [
+      "revised",
+      "accepted"
+    ],
+    "model_equations_parameters": true,
+    "data_code_PIDs_required_by": "publication",
+    "initial_submission_free_format": true,
+    "all_figures_at_end_required": false
+  },
+  "figure_preferences": {
+    "line_art_dpi": 600,
+    "initial_legible_formats": "standard image formats accepted",
+    "initial_current_PNG_dpi": 300,
+    "native_width_cm": 19,
+    "user_native_figure_dimensions_preserved": true,
+    "single_PNG_per_figure": true
+  },
+  "author_items_pending": [],
+  "deposition": {
+    "required_before_publication": true,
+    "current_version_PID": null,
+    "public_current_GCB_revision": false
+  },
+  "confirmed_author_declarations": {
+    "single_author": "Gang Zhao",
+    "external_funding": false,
+    "competing_interests": false,
+    "confirmed_on": "2026-10-24"
+  },
+  "author_identifiers": {
+    "orcid": "0009-0003-0619-5849",
+    "telephone": "+86 17782509963",
+    "provided_on": "2026-10-24",
+    "orcid_checksum_valid": true
+  },
+  "reviewer_independence": "Institutional contacts verified; personal relationships remain subject to the author submission check."
+}

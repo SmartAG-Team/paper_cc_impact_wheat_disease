@@ -1,0 +1,13 @@
+endpoint,population,model,records,rmse,units
+severity,F1 conditional,day_end_percent,70,15.999396944371679,percentage points
+severity,F1 conditional,previous_day_percent,70,16.391723048959566,percentage points
+severity,F1 conditional,leaf_mean,70,16.916406688485704,percentage points
+severity,parent-relative,day_end_percent,70,16.426055219893602,percentage points
+severity,parent-relative,previous_day_percent,70,16.813229853577695,percentage points
+severity,parent-relative,leaf_mean,70,16.26254583285758,percentage points
+observed-window integral,F1-window conditional,day_end_percent,23,242.12998380710957,percentage-point days
+observed-window integral,F1-window conditional,previous_day_percent,23,247.98397619170692,percentage-point days
+observed-window integral,F1-window conditional,leaf_mean,23,237.5913591297055,percentage-point days
+observed-window integral,parent-window relative,day_end_percent,23,206.5650428378763,percentage-point days
+observed-window integral,parent-window relative,previous_day_percent,23,211.63893066153688,percentage-point days
+observed-window integral,parent-window relative,leaf_mean,23,222.8122088247388,percentage-point days

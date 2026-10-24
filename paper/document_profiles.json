@@ -1,0 +1,51 @@
+{
+  "documents": [
+    {
+      "path": "Manuscript.docx",
+      "native_equation_blocks": 4,
+      "figures": 10,
+      "inline_figures": [
+        "fig1",
+        "fig2",
+        "fig3",
+        "fig4",
+        "fig5",
+        "fig6",
+        "fig7",
+        "fig8",
+        "fig9",
+        "fig10"
+      ],
+      "appended_figures": []
+    },
+    {
+      "path": "Supplementary_Information.docx",
+      "native_equation_blocks": 0,
+      "figures": 3,
+      "inline_figures": [
+        "figs1",
+        "figs2",
+        "figs3"
+      ],
+      "appended_figures": []
+    },
+    {
+      "path": "Cover_Letter.docx",
+      "native_equation_blocks": 0,
+      "figures": 0,
+      "inline_figures": [],
+      "appended_figures": []
+    },
+    {
+      "path": "Mathematical_Model_Specification.docx",
+      "native_equation_blocks": 59,
+      "figures": 0,
+      "inline_figures": [],
+      "appended_figures": []
+    }
+  ],
+  "source_renderer_sha256": "e6b7d1aabdc5b27d7287cfa888ed967de17fba18db9fae6611ad274bc9d031b2",
+  "pdf_scope": "PDF and DOCX share the same source prose, equations and figure files; pagination is renderer-specific",
+  "native_figure_width_cm": 19,
+  "manuscript_body_font_pt": 12
+}

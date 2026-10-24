@@ -1,0 +1,1131 @@
+{
+  "status": "passed",
+  "schema_version": 1,
+  "scientific_values_unchanged": true,
+  "current_manuscript": "paper/Manuscript.md",
+  "current_supplement": "paper/Supplementary_Information.md",
+  "organization": {
+    "monitoring": "data/final_monitoring",
+    "analyses": "data/final_analyses",
+    "climate": "data/final_climate",
+    "source_evidence": "data/final_study",
+    "publication": "paper",
+    "models": "models",
+    "plotting_data": "data/paper",
+    "paper_parameters": "data/paper_parameters"
+  },
+  "retained_result_sources": [
+    {
+      "path": "data/final_monitoring/cohort/assessment_predictions.csv",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/assessment_predictions.csv",
+      "sha256": "436efece5f6010b4964174494f78246043532306cc580e41a24b182411e60710",
+      "bytes": 2840760
+    },
+    {
+      "path": "data/final_monitoring/cohort/paired_intervals.csv",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/paired_intervals.csv",
+      "sha256": "32bc6192ca35dc87f0ff008a1107974057b8dc5d343e383d7788a3c6b751cbd4",
+      "bytes": 490
+    },
+    {
+      "path": "data/final_monitoring/cohort/training_observation_ledger.csv",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/training_observation_ledger.csv",
+      "sha256": "3f7702331f878f5fbe0adc5565f7b62c6f6fb158d5f8e98024aa10190ce37a36",
+      "bytes": 1114296
+    },
+    {
+      "path": "data/final_monitoring/cohort/split_membership.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/split_membership.json",
+      "sha256": "d90660aee25b5566f8b55482614557d34df4e2f0fd61dcc87734b4ce540a36c0",
+      "bytes": 218302
+    },
+    {
+      "path": "data/final_monitoring/cohort/predictors.npz",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/predictors.npz",
+      "sha256": "21e19e7c44e0dcbde5b063010916164944f65e2c38c82547997a786a051fc748",
+      "bytes": 492859
+    },
+    {
+      "path": "data/final_monitoring/cohort/test_suite_receipt.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/test_suite_receipt.json",
+      "sha256": "1f0082de482416d14820f5662555361c559745299356963adb0f03d2acaf209e",
+      "bytes": 372
+    },
+    {
+      "path": "data/final_monitoring/cohort/fitted_candidate.joblib",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/fitted_candidate.joblib",
+      "sha256": "d7068fcca2783996a889f830124a2f0b53d4bcecc721f1394b5f1f406a8f5518",
+      "bytes": 24107390
+    },
+    {
+      "path": "data/final_monitoring/cohort/metrics.csv",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/metrics.csv",
+      "sha256": "3fd8646dfceca194dbc912e991cb3be9b740affe1da21ca478b05ffc6c1e1aaf",
+      "bytes": 1330
+    },
+    {
+      "path": "data/final_monitoring/cohort/registration.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/registration.json",
+      "sha256": "0f484174f257bea7a6505a06f0031ca558056573bb218c3a513a0be3ea1a7e16",
+      "bytes": 4326
+    },
+    {
+      "path": "data/final_monitoring/cohort/adoption_decision.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/adoption_decision.json",
+      "sha256": "c669dcfcb8bdf0f0e0035a8be0332b9115021a1cd7bfa514038f1dec22e09a06",
+      "bytes": 2211
+    },
+    {
+      "path": "data/final_monitoring/cohort/spatial_predictions.csv",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/spatial_predictions.csv",
+      "sha256": "5d94b27f5f8b6f884f77c06bd7be7b92269997207e6e0c8b6e4b03fec184df8e",
+      "bytes": 2102223
+    },
+    {
+      "path": "data/final_monitoring/cohort/subgroup_metrics.csv",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/subgroup_metrics.csv",
+      "sha256": "27abe9b7fef67fb2426b0307082b561e1c111be7c4ffdd78757b31da81011aab",
+      "bytes": 4916
+    },
+    {
+      "path": "data/final_monitoring/cohort/artifact_manifest.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/artifact_manifest.json",
+      "sha256": "5fa9c6667ddc7ea7e0537ef0bdadf752fe194bc9495b7b7576938dcf2f83a25a",
+      "bytes": 7377
+    },
+    {
+      "path": "data/final_monitoring/cohort/verification.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/verification.json",
+      "sha256": "7c55187e819610faac91980619f97363abbd6d9a7124691f1170504fa21ce5c1",
+      "bytes": 812
+    },
+    {
+      "path": "data/final_monitoring/cohort/independent_review.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/independent_review.json",
+      "sha256": "5a5178c5d02c511c164d8e637be08ae1b39b08779da23bb5b282242cf354848f",
+      "bytes": 792
+    },
+    {
+      "path": "data/final_monitoring/cohort/verification_code_snapshot.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/verification_code_snapshot.py",
+      "sha256": "d28f0cde57bc17aadcda51426ae0c8e1ed5154a2fbe3744a20f46a2312623c1f",
+      "bytes": 12797
+    },
+    {
+      "path": "data/final_monitoring/cohort/fitted_candidate_lock.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/fitted_candidate_lock.json",
+      "sha256": "aea70440f600e87210a4ca893ca164232ca7505bd29c0a2a53134e390d187b7d",
+      "bytes": 2763
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/models.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/models.py",
+      "sha256": "d3cdfa62f39e55f88c6fdef24d35c161ab871a81a1c66d5bcd1e518c87bddd81",
+      "bytes": 5586
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/evaluation.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/evaluation.py",
+      "sha256": "c121e9560a573042cea8fdb1882ca3c6fdaff184b4237e52b70e0a17fb241233",
+      "bytes": 6685
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/station_candidate.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/station_candidate.py",
+      "sha256": "1072c41c7c07032e85f9cbf803b82ae2ab69f99a0e86a9b356bfaea784ae357d",
+      "bytes": 16206
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/history_interval_hybrid.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/history_interval_hybrid.py",
+      "sha256": "cf4b29d5e29bf1b5b09490f35bc553b62e912b06a382523cdb5d22ab2bdc9764",
+      "bytes": 14804
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/irish_station_experiment.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/irish_station_experiment.py",
+      "sha256": "7210fc965137d3a20cecc988cbace485e58f8383f7e11e41d8b1860a568e14fb",
+      "bytes": 10466
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/robust_models.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/robust_models.py",
+      "sha256": "c1a64ce5df948b40b8ed4b8a9952e2cf8dfe1eb32339cdf0ecc5297676c2d7b4",
+      "bytes": 1303
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/field_history_models.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/field_history_models.py",
+      "sha256": "14e1d82021c4493209bd17047a279f22ee0fc1c94df023ff463606247140c5d1",
+      "bytes": 6123
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/infection_event_experiment.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/infection_event_experiment.py",
+      "sha256": "29cafc4b96157b4b5d73e58bec9d17dcf92739c005734d7e13046e75d32ccf43",
+      "bytes": 10427
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/disease_improvement/history.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/disease_improvement/history.py",
+      "sha256": "30cf82767c3a61f85d4fc1da50f1a6746349bb061981335232fcdf9c1e645cf7",
+      "bytes": 4086
+    },
+    {
+      "path": "data/final_monitoring/cohort/code_snapshot/analysis/final_study/metrics.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/code_snapshot/analysis/final_study/metrics.py",
+      "sha256": "da1665481f45f131509d730f19693eefb3d8431bb44a1745d0db99f376158ffb",
+      "bytes": 20675
+    },
+    {
+      "path": "data/final_monitoring/cohort/verification_receipts/d28f0cde57bc17aadcda51426ae0c8e1ed5154a2fbe3744a20f46a2312623c1f/temporal_replay.json",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/verification_receipts/d28f0cde57bc17aadcda51426ae0c8e1ed5154a2fbe3744a20f46a2312623c1f/temporal_replay.json",
+      "sha256": "7c55187e819610faac91980619f97363abbd6d9a7124691f1170504fa21ce5c1",
+      "bytes": 812
+    },
+    {
+      "path": "data/final_monitoring/cohort/verification_receipts/d28f0cde57bc17aadcda51426ae0c8e1ed5154a2fbe3744a20f46a2312623c1f/verifier.py",
+      "original_path": "outputs/disease_improvement/irish_station_candidate_20261022/verification_receipts/d28f0cde57bc17aadcda51426ae0c8e1ed5154a2fbe3744a20f46a2312623c1f/verifier.py",
+      "sha256": "d28f0cde57bc17aadcda51426ae0c8e1ed5154a2fbe3744a20f46a2312623c1f",
+      "bytes": 12797
+    },
+    {
+      "path": "data/final_monitoring/folds/assessment_predictions.csv",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/assessment_predictions.csv",
+      "sha256": "8114c4fe8b17fc9cf6048ff918dda68633e7b94014d40aecc682d37c54d81d25",
+      "bytes": 2951708
+    },
+    {
+      "path": "data/final_monitoring/folds/paired_intervals.csv",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/paired_intervals.csv",
+      "sha256": "f16569827332447ee4804fabc6f4f9d53da0883d8f0df99b3c42385fe07a3bc4",
+      "bytes": 232
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial0_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial0_model.joblib",
+      "sha256": "d1f49424b5be29e8220aae4304733ac53ed0dec644ec87a08aba526827fac575",
+      "bytes": 16160522
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial10_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial10_model.joblib",
+      "sha256": "a8478a0d8ab58267243ca4429e623082dc0cdfc6e35b203f4f823aea4b2bb5a4",
+      "bytes": 20010210
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial7_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial7_model.joblib",
+      "sha256": "60618e928e2a1d6469fe9897de3cf66c72a0fc9300af7963af6b5faddbdbe43a",
+      "bytes": 19109586
+    },
+    {
+      "path": "data/final_monitoring/folds/split_membership.json",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/split_membership.json",
+      "sha256": "d90660aee25b5566f8b55482614557d34df4e2f0fd61dcc87734b4ce540a36c0",
+      "bytes": 218302
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial6_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial6_model.joblib",
+      "sha256": "48f5b07662e244adbb8f6ca9b306bc0f043c98f6ef83d78d500631398b5389c2",
+      "bytes": 19715522
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial11_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial11_model.joblib",
+      "sha256": "b62ae25249f1859d3566ef4e490d5bfba45a28152dcafe32fffffc3cb8b3a9ec",
+      "bytes": 19906242
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial1_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial1_model.joblib",
+      "sha256": "edecfb2c28f301d428bf50d3a118d90c74b11bca8d49fb363d08c0089b77aed3",
+      "bytes": 14465706
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2016_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/temporal2016_model.joblib",
+      "sha256": "139ba315d1b70492f8a433ac572740d6ba3ff1de7fffc9960cac40e987d0721a",
+      "bytes": 19873794
+    },
+    {
+      "path": "data/final_monitoring/folds/metrics.csv",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/metrics.csv",
+      "sha256": "9bdf65a43a460a0fac18ae11d84e123aa50cb7be7286137a19866702b604f9d0",
+      "bytes": 1539
+    },
+    {
+      "path": "data/final_monitoring/folds/registration.json",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/registration.json",
+      "sha256": "dd00d9f089a35a06263f36e0afbbab2373f337faf14417ed4d645b00dd9cfffc",
+      "bytes": 7806
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2017_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/temporal2017_model.joblib",
+      "sha256": "2378aa615293d430d4c55c2826ef2076fa2e1c426e87a5ac88eac37a86ef5b9e",
+      "bytes": 21600930
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial8_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial8_model.joblib",
+      "sha256": "f2ecc3277ca97e74967e9ede8ed25152b654c24c2daf2cddf03a96da7397169f",
+      "bytes": 18397858
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2015_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/temporal2015_model.joblib",
+      "sha256": "f585c2c0febacd485a4d7c652a3a69ef793dd9a6e91a01b4af9c15836663dd39",
+      "bytes": 16280794
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial_predictions.csv",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial_predictions.csv",
+      "sha256": "3ab0c1961736d05e3329e4768430f93266a2c7b50e13cdc9970e8cef3bdddf17",
+      "bytes": 2212960
+    },
+    {
+      "path": "data/final_monitoring/folds/subgroup_metrics.csv",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/subgroup_metrics.csv",
+      "sha256": "fb4aac5e28810c0bc42b446f03a6fbef6eb5e99a4d9ad51af6b51ab127756efe",
+      "bytes": 7687
+    },
+    {
+      "path": "data/final_monitoring/folds/all_goal_decisions.json",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/all_goal_decisions.json",
+      "sha256": "c2c3441a68c12f23cc59364c34db03074481fb8f2b76304a2c6a4a0b89a43ac2",
+      "bytes": 834
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial9_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial9_model.joblib",
+      "sha256": "8b0341c200c188f13e25bce0d549006fd10df3e98f294ae1506764baebba9fc1",
+      "bytes": 21622490
+    },
+    {
+      "path": "data/final_monitoring/folds/verification.json",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/verification.json",
+      "sha256": "3eee738b032742aefa4d8c681fd45e5cf406af1174a39057d664e6dc747c7c12",
+      "bytes": 3077
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial14_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial14_model.joblib",
+      "sha256": "64382d4814186241ad77de9bd3826068ae42856eb8bbaa0753d7a15094f5fb29",
+      "bytes": 20395754
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial3_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial3_model.joblib",
+      "sha256": "9713896321719984793b7190991c0c5029f21d8c8a43812971aa573ab7eacae1",
+      "bytes": 18914226
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial13_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial13_model.joblib",
+      "sha256": "c3892292f28ea6a9609aec617a7013c1fecb7042071ef296a4b0ffccaa950fbb",
+      "bytes": 20628170
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial4_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial4_model.joblib",
+      "sha256": "d769178b784da753cfd2d9de3d1e29b3ec5e699801b79d56293a70cbbaeb459c",
+      "bytes": 17181842
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2019_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/temporal2019_model.joblib",
+      "sha256": "88e9f80e910aaf00d9118e094407a55de2a8d221e6772087ebf91d3642980289",
+      "bytes": 23481346
+    },
+    {
+      "path": "data/final_monitoring/folds/goal_decision.json",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/goal_decision.json",
+      "sha256": "311148a0464efb019686e0ad4435fa57d566cc85218932485b02e8727c15e857",
+      "bytes": 368
+    },
+    {
+      "path": "data/final_monitoring/folds/fit_progress.json",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/fit_progress.json",
+      "sha256": "b16f31ac45dccb1b878e842bfa32dd8f2b75facbed321681627e47522285a47a",
+      "bytes": 135411
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2018_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/temporal2018_model.joblib",
+      "sha256": "91fd9f95339448712404b5601e5e1b8722d01c4e78ece7e13b4a882501c8d53a",
+      "bytes": 22126354
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial5_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial5_model.joblib",
+      "sha256": "f2639026d2bfa3df4b711a3f35dd096348695af1acb371cab614cd748e08b663",
+      "bytes": 15651858
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial12_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial12_model.joblib",
+      "sha256": "5dc8a9c466ca6ea6703db48db0105c7dc190208df57bfc0bb1c2d36a499958f9",
+      "bytes": 22368530
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial2_model.joblib",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/spatial2_model.joblib",
+      "sha256": "6e632fa49216e430799d4c94e71d92f190f8ebb7a33fa7f782d427be75f4fecb",
+      "bytes": 7823010
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/models.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/models.py",
+      "sha256": "d3cdfa62f39e55f88c6fdef24d35c161ab871a81a1c66d5bcd1e518c87bddd81",
+      "bytes": 5586
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/evaluation.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/evaluation.py",
+      "sha256": "c121e9560a573042cea8fdb1882ca3c6fdaff184b4237e52b70e0a17fb241233",
+      "bytes": 6685
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/discrepancy_experiment.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/discrepancy_experiment.py",
+      "sha256": "16151dcd4220f712294c449bb49d44c9dc1e002c0286397eed8ab1852a8c78f6",
+      "bytes": 8927
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/history_interval_hybrid.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/history_interval_hybrid.py",
+      "sha256": "cf4b29d5e29bf1b5b09490f35bc553b62e912b06a382523cdb5d22ab2bdc9764",
+      "bytes": 14804
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/discrepancy_filter.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/discrepancy_filter.py",
+      "sha256": "134bbe35b118f6331e1a0ff7312930310dc8a1a545c94717658caf34d00fdece",
+      "bytes": 3537
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/crossfit_router.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/crossfit_router.py",
+      "sha256": "c544ce1099a1dfd6e17cf5f748d0dab3ca4ea7732806973e05527698d3b939eb",
+      "bytes": 2589
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/robust_models.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/robust_models.py",
+      "sha256": "c1a64ce5df948b40b8ed4b8a9952e2cf8dfe1eb32339cdf0ecc5297676c2d7b4",
+      "bytes": 1303
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/field_history_models.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/field_history_models.py",
+      "sha256": "14e1d82021c4493209bd17047a279f22ee0fc1c94df023ff463606247140c5d1",
+      "bytes": 6123
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/disease_improvement/innovation_common.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/disease_improvement/innovation_common.py",
+      "sha256": "2edf0847f36c912eaac8bd8c8f3f6f8aa1746840313bdde7a0bc035b35ac69fc",
+      "bytes": 5293
+    },
+    {
+      "path": "data/final_monitoring/folds/code_snapshot/analysis/final_study/metrics.py",
+      "original_path": "outputs/disease_improvement/discrepancy_filter_20261022/code_snapshot/analysis/final_study/metrics.py",
+      "sha256": "da1665481f45f131509d730f19693eefb3d8431bb44a1745d0db99f376158ffb",
+      "bytes": 20675
+    },
+    {
+      "path": "data/final_monitoring/evaluation/assessment_predictions.csv",
+      "original_path": "outputs/disease_improvement/restored_monitoring_baseline_20261022/assessment_predictions.csv",
+      "sha256": "e563b0cbcfc1934dc5a62e47d58120573701b63e758149aef04fbafed6194f30",
+      "bytes": 3025060
+    },
+    {
+      "path": "data/final_monitoring/evaluation/paired_intervals.csv",
+      "original_path": "outputs/disease_improvement/restored_monitoring_baseline_20261022/paired_intervals.csv",
+      "sha256": "8890058a29bda0017392964810f3b64381b30c36fba740f62d8093f24856f649",
+      "bytes": 819
+    },
+    {
+      "path": "data/final_monitoring/evaluation/metrics.csv",
+      "original_path": "outputs/disease_improvement/restored_monitoring_baseline_20261022/metrics.csv",
+      "sha256": "689a4eda22ff6783558b401985ce0bf1a8ed2ce5fc496f187407527bc0d19fb6",
+      "bytes": 1169
+    },
+    {
+      "path": "data/final_monitoring/evaluation/spatial_predictions.csv",
+      "original_path": "outputs/disease_improvement/restored_monitoring_baseline_20261022/spatial_predictions.csv",
+      "sha256": "ba83ed05ab79f490a7b16af8a108fbabbc08c12017d6b51496bea7156558d003",
+      "bytes": 2286247
+    },
+    {
+      "path": "data/final_monitoring/evaluation/subgroup_metrics.csv",
+      "original_path": "outputs/disease_improvement/restored_monitoring_baseline_20261022/subgroup_metrics.csv",
+      "sha256": "a617cc79aa4757de8ea15303b88f2421cd078351e1e509fca8e446d267afab0a",
+      "bytes": 3840
+    },
+    {
+      "path": "data/final_monitoring/evaluation/selection.json",
+      "original_path": "outputs/disease_improvement/restored_monitoring_baseline_20261022/selection.json",
+      "sha256": "2ada8273d45875e73ea4d1e75e73ba576733dd12ea6c0436f21a10c64a41e095",
+      "bytes": 7857
+    },
+    {
+      "path": "data/final_monitoring/evaluation/verification.json",
+      "original_path": "outputs/disease_improvement/restored_monitoring_baseline_20261022/verification.json",
+      "sha256": "9a888fb95d2fd4221907c9ae1b1619b95601281862627208b9df7446d14d9775",
+      "bytes": 964
+    },
+    {
+      "path": "data/final_monitoring/qualified_flag_endpoint_ids.csv",
+      "original_path": "outputs/disease_improvement/climate_calibration_audit_20261022/qualified_flag_endpoint_ids.csv",
+      "sha256": "39ee4fe76cc4cae03ebc5c305bfb06301cae9d346ea595a87366256a12623c04",
+      "bytes": 4942
+    },
+    {
+      "path": "data/final_analyses/climate_response/numeric_findings.json",
+      "original_path": "outputs/gcb_response_insights_20261023/numeric_findings.json",
+      "sha256": "fa5551aab666dced6e147576d956058019ff38bba90872ca4b35c7e6cbc2d31f",
+      "bytes": 1767
+    },
+    {
+      "path": "data/final_analyses/climate_response/figure_captions.json",
+      "original_path": "outputs/gcb_response_insights_20261023/figure_captions.json",
+      "sha256": "3557c906fdab88abecb5d5549c26ca6c7d19759bb777c84644e11dc5b2a2cc6e",
+      "bytes": 3167
+    },
+    {
+      "path": "data/final_analyses/climate_response/figure_verification.json",
+      "original_path": "outputs/gcb_response_insights_20261023/figure_verification.json",
+      "sha256": "151c17b644f2fd010831b52e3a148cc3d55cf0bbcda11e50e53483ddd7977c3a",
+      "bytes": 2728
+    },
+    {
+      "path": "data/final_analyses/climate_response/run_receipt.json",
+      "original_path": "outputs/gcb_response_insights_20261023/run_receipt.json",
+      "sha256": "726b82b40a589510ec1740f8574802deae72f1cf24117f822ccce94e3702c63e",
+      "bytes": 3620
+    },
+    {
+      "path": "data/final_analyses/climate_response/analysis_audit.json",
+      "original_path": "outputs/gcb_response_insights_20261023/analysis_audit.json",
+      "sha256": "0ab49830ffce75b60c7a58093653b7a78699c6df4466b4d50464e01e3dfc31e7",
+      "bytes": 9559
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/environment_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/environment_by_gcm.csv",
+      "sha256": "9228cdf975eb8bd7edefc46fd06d22c4a1220abe623cf4bff92f5351043af040",
+      "bytes": 167136
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/latitude_ensemble.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/latitude_ensemble.csv",
+      "sha256": "1130e2d762f198793880a87d9e2cfc0a32e72ba43b1764dc61d035c5bd883ba2",
+      "bytes": 258337
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/latitude_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/latitude_by_gcm.csv",
+      "sha256": "17ef1bbc12abae8b0b54150db3e315d006268f58b77d90c2a3e9b3f243e3adfb",
+      "bytes": 531939
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/climate_canopy_sign_cooccurrences.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/climate_canopy_sign_cooccurrences.csv",
+      "sha256": "13babe6d37c6706e7daa78e4ed72f07448e77329db8537f1f8a2fc878794c9a1",
+      "bytes": 12478
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/response_regime_cells.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/response_regime_cells.csv",
+      "sha256": "7d8931a1b95976410e82bea1e8123297e5a10be04fed3beeef88fbd0402a4bc8",
+      "bytes": 3645922
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/association_coefficients_spatial_bootstrap.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/association_coefficients_spatial_bootstrap.csv",
+      "sha256": "074640f0f70a083a633d429db6c6d77088239fbda66b61f59d9fcc25c0945d80",
+      "bytes": 27520
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/association_weighted_correlations.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/association_weighted_correlations.csv",
+      "sha256": "4969a1ab61141401e54051c7d32483e65d2426e61a39933e5f71c83566ba3ab0",
+      "bytes": 13991
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/timing_matched_support_environment.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/timing_matched_support_environment.csv",
+      "sha256": "74a759c23935e987393cb9f646cc36d4c30b545fd03be03a445e3a7bff6b2067",
+      "bytes": 99098
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/timing_matched_support_latitude.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/timing_matched_support_latitude.csv",
+      "sha256": "3fd1f4c0a47908fe1935d38c91fead49188afe4ea0c233c9a93363ebba7c579d",
+      "bytes": 72787
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/latitude_contributions_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/latitude_contributions_by_gcm.csv",
+      "sha256": "47228eb0ccf4ad1ec3d160b311cd7985f44f64f3a570da60a6be917fa86859d0",
+      "bytes": 33280
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/member_cell_cochanges.parquet",
+      "original_path": "outputs/gcb_response_insights_20261023/data/member_cell_cochanges.parquet",
+      "sha256": "57173785a1542ea8363c611aa250be95d7afb5311a88b2793a452ca7c320ee40",
+      "bytes": 21837023
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/latitude_5degree_ensemble.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/latitude_5degree_ensemble.csv",
+      "sha256": "b449e19c8c5ff600c14bac17c7fd2cab5d05a8c0799bdbafafb1da321ae9c085",
+      "bytes": 54758
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fixed_latitude_area_support.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fixed_latitude_area_support.csv",
+      "sha256": "7273e31157c26ba01cde67be7e3b538c6516c66000129ce874fbbea9b85b502c",
+      "bytes": 876
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/timing_cochange_bins_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/timing_cochange_bins_by_gcm.csv",
+      "sha256": "a472705fab262f71079a5ea22d8eccaf45d45a4764e427d99dfc2bc132a5b69b",
+      "bytes": 9988
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/environment_ensemble.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/environment_ensemble.csv",
+      "sha256": "80912a12d656ed307e36c40c3125f55276379eafe4d655ddb210f4fbe7a98c51",
+      "bytes": 70668
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/association_spatial_cv.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/association_spatial_cv.csv",
+      "sha256": "1e6c3a14f2809ea2e48c60a7bc364cb6b55b13a24fe2602347ebbea1e504a2d5",
+      "bytes": 72580
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/timing_matched_support_overall.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/timing_matched_support_overall.csv",
+      "sha256": "53cfae2442df726a4cd57a26ae2ceb19208e2d78bacb000099cfd229bdbb1bd7",
+      "bytes": 10564
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/latitude_5degree_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/latitude_5degree_by_gcm.csv",
+      "sha256": "76ecb0491d8a1ed4de2eec2c42a6d6af3b58ca5b14e4e8499f8977eddb8bf635",
+      "bytes": 126894
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/data_dictionary.json",
+      "original_path": "outputs/gcb_response_insights_20261023/data/data_dictionary.json",
+      "sha256": "cdc65db7228bbf3448f17c8f07fa37e4d491884c9a364f14955a7ad782bce959",
+      "bytes": 3884
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/environment_contributions_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/environment_contributions_by_gcm.csv",
+      "sha256": "ff39c4b55de143990ae62d06784a7f57b27b56599b14f6fc8f5f30eb63639301",
+      "bytes": 42444
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/response_regime_profiles_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/response_regime_profiles_by_gcm.csv",
+      "sha256": "0612b3d04f61de7ea70bd2304ba00c8d7e44a2d3be1f4882b35d4b4da5322b6c",
+      "bytes": 67973
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fig3/latitude_ensemble.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fig3/latitude_ensemble.csv",
+      "sha256": "1130e2d762f198793880a87d9e2cfc0a32e72ba43b1764dc61d035c5bd883ba2",
+      "bytes": 258337
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fig3/latitude_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fig3/latitude_by_gcm.csv",
+      "sha256": "17ef1bbc12abae8b0b54150db3e315d006268f58b77d90c2a3e9b3f243e3adfb",
+      "bytes": 531939
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fig3/data_dictionary.json",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fig3/data_dictionary.json",
+      "sha256": "d3f07992e33759895f3e5cfb8dec36bcaf358fb057c9ba33458dd42d87118fa6",
+      "bytes": 4061
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fig3/environment_contributions_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fig3/environment_contributions_by_gcm.csv",
+      "sha256": "ff39c4b55de143990ae62d06784a7f57b27b56599b14f6fc8f5f30eb63639301",
+      "bytes": 42444
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fig4/response_regime_cells.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fig4/response_regime_cells.csv",
+      "sha256": "7d8931a1b95976410e82bea1e8123297e5a10be04fed3beeef88fbd0402a4bc8",
+      "bytes": 3645922
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fig4/timing_cochange_bins_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fig4/timing_cochange_bins_by_gcm.csv",
+      "sha256": "a472705fab262f71079a5ea22d8eccaf45d45a4764e427d99dfc2bc132a5b69b",
+      "bytes": 9988
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fig4/data_dictionary.json",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fig4/data_dictionary.json",
+      "sha256": "1071cfc9595cd59dbc8ce7247d8c238bdf4bdfa57b9319b50c4c95d6ea720ced",
+      "bytes": 4093
+    },
+    {
+      "path": "data/final_analyses/climate_response/data/fig4/response_regime_profiles_by_gcm.csv",
+      "original_path": "outputs/gcb_response_insights_20261023/data/fig4/response_regime_profiles_by_gcm.csv",
+      "sha256": "0612b3d04f61de7ea70bd2304ba00c8d7e44a2d3be1f4882b35d4b4da5322b6c",
+      "bytes": 67973
+    },
+    {
+      "path": "data/final_analyses/adaptation/audit.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/audit.json",
+      "sha256": "e41694bd44b8c11f23df0a6ee14d79807153fbd85a4f6122a19901be8c1d8098",
+      "bytes": 908
+    },
+    {
+      "path": "data/final_analyses/adaptation/figure_geometry.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/figure_geometry.json",
+      "sha256": "d70b6a42136194c1260a874836e77c8b924360042681923c92fd7fb91ec1c156",
+      "bytes": 7831
+    },
+    {
+      "path": "data/final_analyses/adaptation/figure_spec.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/figure_spec.json",
+      "sha256": "bf900994526e8ec38944f3606af2e3f75924169acf23412b8376d36699de4842",
+      "bytes": 3578
+    },
+    {
+      "path": "data/final_analyses/adaptation/support_sensitivity_same_policy.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support_sensitivity_same_policy.csv",
+      "sha256": "4df0e560277163906be54a014750676ae48d620a9d252d993744e456ce768a05",
+      "bytes": 35320
+    },
+    {
+      "path": "data/final_analyses/adaptation/adaptation_pairs.csv.gz",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/adaptation_pairs.csv.gz",
+      "sha256": "a7a3914aaeb29e2aa223dda154a138be7556cc0d305bdf85f106ce6811ad5830",
+      "bytes": 5190677
+    },
+    {
+      "path": "data/final_analyses/adaptation/delivery_manifest.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/delivery_manifest.json",
+      "sha256": "7cf4b454a64a67e82c5fbfd8da734754f93786a8906cf3aa85b831ba00db1460",
+      "bytes": 3853
+    },
+    {
+      "path": "data/final_analyses/adaptation/fixed_shift_summary.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/fixed_shift_summary.csv",
+      "sha256": "e93700e38b5cc4867525929cbdb6646bc757ca792e9941cd89f5436b2a192b41",
+      "bytes": 23505
+    },
+    {
+      "path": "data/final_analyses/adaptation/baseline_replay.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/baseline_replay.csv",
+      "sha256": "0821fd64e8e099d8b3a6b406a5ec941c9bac8eec5ba5b14d88d2ed6b9684280d",
+      "bytes": 10093
+    },
+    {
+      "path": "data/final_analyses/adaptation/support_sensitivity_receipt.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support_sensitivity_receipt.json",
+      "sha256": "d9b0af29c0943d8e3109c70998e289e7271ca020bc484874c0c125dce5878aff",
+      "bytes": 11185
+    },
+    {
+      "path": "data/final_analyses/adaptation/support_sensitivity_fixed_shifts.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support_sensitivity_fixed_shifts.csv",
+      "sha256": "4be8fa12f2790f860bce85ef2202fa1dac134e393b6222613ed4d58683e85c96",
+      "bytes": 325038
+    },
+    {
+      "path": "data/final_analyses/adaptation/fixed_shift_regions.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/fixed_shift_regions.csv",
+      "sha256": "0a0352790e1fe62a2c001ab74b678667f7797d60769dd8144269b98f42244bc9",
+      "bytes": 152593
+    },
+    {
+      "path": "data/final_analyses/adaptation/independent_adaptation_review.txt",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/independent_adaptation_review.txt",
+      "sha256": "78fedf733fa3f80ea61762dc98404675f365494911bae9690155c5d7faecb38c",
+      "bytes": 5309
+    },
+    {
+      "path": "data/final_analyses/adaptation/registration.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/registration.json",
+      "sha256": "fd2f686c24b32bd9ceaac335e944b7394dbc31c2944b59c66c62baa65a09a2e6",
+      "bytes": 87047
+    },
+    {
+      "path": "data/final_analyses/adaptation/policy_tradeoffs.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/policy_tradeoffs.csv",
+      "sha256": "7ffcd97c2ab4bb6268b0b732c62811eee56e72febf49472066bb25fb2f7ecb88",
+      "bytes": 3774
+    },
+    {
+      "path": "data/final_analyses/adaptation/raw_ACCESS-CM2.parquet",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/raw_ACCESS-CM2.parquet",
+      "sha256": "24593bcdfaa67086844f8703e9dcc652c585d9eaf74ab4708965c8feb41fab98",
+      "bytes": 1094734
+    },
+    {
+      "path": "data/final_analyses/adaptation/raw_MRI-ESM2-0.parquet",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/raw_MRI-ESM2-0.parquet",
+      "sha256": "5920b4ccb042ad4a339bb780d5b5e0e2a1868f334ee2537b9f88ad6c5608a96e",
+      "bytes": 1091559
+    },
+    {
+      "path": "data/final_analyses/adaptation/regional_sample_design.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/regional_sample_design.csv",
+      "sha256": "7f83f62cce6bcccdfba6fa8ffb31c04fa843c84e3d48bbf5e298f43ebd452010",
+      "bytes": 302
+    },
+    {
+      "path": "data/final_analyses/adaptation/completion_and_missingness.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/completion_and_missingness.csv",
+      "sha256": "f37301e401e78915076d6bc303491ab40fea51004a75ea7e1249b061530a166e",
+      "bytes": 25902
+    },
+    {
+      "path": "data/final_analyses/adaptation/progress.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/progress.json",
+      "sha256": "d0445ca158860c89210b82319c22a68cc186ca47e8eda01041624c637203d235",
+      "bytes": 186
+    },
+    {
+      "path": "data/final_analyses/adaptation/support_sensitivity_summary.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support_sensitivity_summary.json",
+      "sha256": "2e3376e08fba6103d8383b3cf2ee17c977ad55ce10ea3b41c6830f048852399c",
+      "bytes": 9402
+    },
+    {
+      "path": "data/final_analyses/adaptation/support.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support.csv",
+      "sha256": "12a173310247039f286d9ddca581d8e413a1c5d436735399680f1f5cecbff5d8",
+      "bytes": 3276
+    },
+    {
+      "path": "data/final_analyses/adaptation/support_sensitivity_registration.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support_sensitivity_registration.json",
+      "sha256": "b1634aef2c08a2cec0f81456d28a1ca4298228f535071ef2451cb07550641229",
+      "bytes": 1680
+    },
+    {
+      "path": "data/final_analyses/adaptation/support_sensitivity_counts.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support_sensitivity_counts.csv",
+      "sha256": "99ce26337fd735d0f6cf3a8ff056759a30086bdec28d9d94861f7501a9755e15",
+      "bytes": 9589
+    },
+    {
+      "path": "data/final_analyses/adaptation/policy_sampled_design.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/policy_sampled_design.csv",
+      "sha256": "ef24879367893a8ef83e9b45fdae798a820842e67842940c13b9b21f8af7c5cc",
+      "bytes": 2039
+    },
+    {
+      "path": "data/final_analyses/adaptation/adaptation_pairs.parquet",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/adaptation_pairs.parquet",
+      "sha256": "e3f1f07f8198ff8b212a60bd15667456c1934c1da18217fcd896b6f4caa84a29",
+      "bytes": 4812748
+    },
+    {
+      "path": "data/final_analyses/adaptation/support_sensitivity_policy_selection.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support_sensitivity_policy_selection.csv",
+      "sha256": "33bf75bbb6869d6125cbb9146f4dfda611e62855ddf7aa2472c6943860c35a74",
+      "bytes": 2297
+    },
+    {
+      "path": "data/final_analyses/adaptation/support_sensitivity_summary.txt",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/support_sensitivity_summary.txt",
+      "sha256": "6ddb1a04a5de03a4fc8447e6abd96097f7dd04a1314164ef56070bf09a9cf19f",
+      "bytes": 1872
+    },
+    {
+      "path": "data/final_analyses/adaptation/receipt.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/receipt.json",
+      "sha256": "1eb251865467ea3988ac49f12adfa56523ba61c6a998cda894cfb9be784bb479",
+      "bytes": 92194
+    },
+    {
+      "path": "data/final_analyses/adaptation/raw_MPI-ESM1-2-HR.parquet",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/raw_MPI-ESM1-2-HR.parquet",
+      "sha256": "30111e7f9e9eda38030b0fc192818d502d603fc8aa1d679ff6cb4b2773bf12de",
+      "bytes": 1086343
+    },
+    {
+      "path": "data/final_analyses/adaptation/leave_gcm_out_region_policy.csv",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/leave_gcm_out_region_policy.csv",
+      "sha256": "54fca6b7a554117970f3b6ecd9704fc8a8b12f1591bd64a355ae9797913361cd",
+      "bytes": 8313
+    },
+    {
+      "path": "data/final_analyses/adaptation/quantity_definitions.json",
+      "original_path": "outputs/gcb_adaptation_analysis_20261023/quantity_definitions.json",
+      "sha256": "db02710a1521992bf5fb536d5babd5cc346b73c230de6ebe179bc844e51aed59",
+      "bytes": 1172
+    },
+    {
+      "path": "data/final_analyses/yield_context/fig1_caption.txt",
+      "original_path": "outputs/gcb_yield_extension_20261023/fig1_caption.txt",
+      "sha256": "80975a807fa0da9dba2a4594c3a91f0ab2e0a0b4538dd29743856019e8aa202b",
+      "bytes": 910
+    },
+    {
+      "path": "data/final_analyses/yield_context/additional_references.bib",
+      "original_path": "outputs/gcb_yield_extension_20261023/additional_references.bib",
+      "sha256": "045dd1b22d0fcbbb40a5a4148970fb7082c6ec69b52170921b37a3de40e6bb37",
+      "bytes": 2253
+    },
+    {
+      "path": "data/final_analyses/yield_context/integration_decisions.json",
+      "original_path": "outputs/gcb_yield_extension_20261023/integration_decisions.json",
+      "sha256": "65a34d108fc10eaa168ccbc0e10c2a6ef5820bd8c445b8a75be582b047c47f02",
+      "bytes": 2449
+    },
+    {
+      "path": "data/final_analyses/yield_context/descriptive_summary.json",
+      "original_path": "outputs/gcb_yield_extension_20261023/descriptive_summary.json",
+      "sha256": "3562796f813823deeea1adc9daf24326177d44ed161bd935b48ae800f0967aa6",
+      "bytes": 1177
+    },
+    {
+      "path": "data/final_analyses/yield_context/verification.json",
+      "original_path": "outputs/gcb_yield_extension_20261023/verification.json",
+      "sha256": "0fe81ffcc29d4aefba43b43750264234fbdcfd254625465ea897e94b0c7de81a",
+      "bytes": 747
+    },
+    {
+      "path": "data/final_analyses/yield_context/search_access_log.json",
+      "original_path": "outputs/gcb_yield_extension_20261023/search_access_log.json",
+      "sha256": "8534ae77d5127df50fe2997f21a81fe4a597c12ffd8a89819b22ac89cc9e2c07",
+      "bytes": 4588
+    },
+    {
+      "path": "data/final_analyses/yield_context/evidence_methods.txt",
+      "original_path": "outputs/gcb_yield_extension_20261023/evidence_methods.txt",
+      "sha256": "940bea398189bfd832cd96c184f478aa708a54d21ceb203b5a65152ee38bd6c7",
+      "bytes": 961
+    },
+    {
+      "path": "data/final_analyses/yield_context/source_metadata.json",
+      "original_path": "outputs/gcb_yield_extension_20261023/source_metadata.json",
+      "sha256": "164dd1c1ff6d75aa64247bd80cc693942d9c604e8085ad4eed6fb07978a8b723",
+      "bytes": 4633
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_2025_dossier.txt",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_2025_dossier.txt",
+      "sha256": "ca6beb727df8b3e54c1674f9149ec34e7291c4dbb8b6bad38d6dc94648c22a3e",
+      "bytes": 56799
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_national_2022.pdf",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_national_2022.pdf",
+      "sha256": "b9900eb477b45a7a0763f0964b15aa305eb4ea8a6c0aa639de19a454b0cdcd3e",
+      "bytes": 10670742
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_2023_dossier.pdf",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_2023_dossier.pdf",
+      "sha256": "cfb5f53de5edb44b32a5586cbd149fb4e209a4785baf8534f80263b8e26f8371",
+      "bytes": 417593
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_2023_dossier.txt",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_2023_dossier.txt",
+      "sha256": "4b57f673fa1034d309069cd2e12d3546fcc8c6f23cb362df55023ad8a799c980",
+      "bytes": 36899
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_2025_dossier.pdf",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_2025_dossier.pdf",
+      "sha256": "d46fba89f022927b77c41f93ebbe78f79c0474383eec6e460ad475f0927049fd",
+      "bytes": 442916
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_series_page.png",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_series_page.png",
+      "sha256": "f4350341aed918640ba3508f81ed4c43a5090c52615b3b64da14c82b660b52ef",
+      "bytes": 124307
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_2024_dossier.txt",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_2024_dossier.txt",
+      "sha256": "94eaafffc6e5720f7d95ae733572f0ee2f9979884fcc5df7da4f2632392fb0d1",
+      "bytes": 36107
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_2022_scope_page.png",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_2022_scope_page.png",
+      "sha256": "c9092aeb78dc10e1004e371a7981f4af2eef6f9f6dc4d30e0302e721e9f0f805",
+      "bytes": 159082
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_performance_2025_champagne_ardenne.txt",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_performance_2025_champagne_ardenne.txt",
+      "sha256": "692e0916f343e5adedb6b6c6e4422f367c1e1f7ec810ca987ed8b8a15c3b27e3",
+      "bytes": 125794
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/bosch_2022.txt",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/bosch_2022.txt",
+      "sha256": "eab12319e7ab069c205f6de53d2e13263a92a7f0465796c8983a7cdc12402fa0",
+      "bytes": 47106
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_2024_dossier.pdf",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_2024_dossier.pdf",
+      "sha256": "7c4d358c4db61692ca7579ddc9bcef1454d9a47f38e17d8d29332b65b25454fe",
+      "bytes": 499772
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_performance_2025_original_chart.png",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_performance_2025_original_chart.png",
+      "sha256": "f278067ce85be38c8593736b182c0a2af183a67b990b9792fd8969a6ef0fb20e",
+      "bytes": 37625
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_performance_2025_champagne_ardenne.pdf",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_performance_2025_champagne_ardenne.pdf",
+      "sha256": "4ed9b15d8785e762123d12a1b2f1ea6483f1e225e8d8c4c52ecff366bf29b423",
+      "bytes": 2903441
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/bosch_2022.pdf",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/bosch_2022.pdf",
+      "sha256": "c5323882bfd7c5ffedb5d96a17bcd2952646d8798f15c7d368d7cab4b6df3083",
+      "bytes": 4561206
+    },
+    {
+      "path": "data/final_analyses/yield_context/sources/arvalis_2022_scope_page.txt",
+      "original_path": "outputs/gcb_yield_extension_20261023/sources/arvalis_2022_scope_page.txt",
+      "sha256": "e9f13e2e1555fd0144d5a865dd5737dc487e85f4670cbc29594f2fae42cf3ead",
+      "bytes": 1299
+    },
+    {
+      "path": "data/final_analyses/yield_context/data/evidence_screening_inventory.csv",
+      "original_path": "outputs/gcb_yield_extension_20261023/data/evidence_screening_inventory.csv",
+      "sha256": "b09be20cc0a6dc382077e6bdff874d99c7478cdcf6fdbc1788a5f3eafe67883d",
+      "bytes": 13299
+    },
+    {
+      "path": "data/final_analyses/yield_context/data/additional_published_endpoints.csv",
+      "original_path": "outputs/gcb_yield_extension_20261023/data/additional_published_endpoints.csv",
+      "sha256": "2851092c549074da115801b8d3d0a825c07e5567c6f63e0f93a5c028980df1a0",
+      "bytes": 966
+    },
+    {
+      "path": "data/final_analyses/yield_context/data/local_source_profile.csv",
+      "original_path": "outputs/gcb_yield_extension_20261023/data/local_source_profile.csv",
+      "sha256": "5337f0cba640bd56a0984036f876e0cf7b397853ee22faf4a523a2de94851381",
+      "bytes": 1359
+    },
+    {
+      "path": "data/final_analyses/yield_context/data/fig1/annual_yield_gap.csv",
+      "original_path": "outputs/gcb_yield_extension_20261023/data/fig1/annual_yield_gap.csv",
+      "sha256": "63896232aa5281f22bbbf47dae954d479d4371dfc44d58eff414b87870b770a5",
+      "bytes": 10104
+    },
+    {
+      "path": "data/final_analyses/yield_context/data/fig1/variables.json",
+      "original_path": "outputs/gcb_yield_extension_20261023/data/fig1/variables.json",
+      "sha256": "6af854d90ed69fcf97df7e45c9422b59b360e73547f8bd937b1eca6a021e6573",
+      "bytes": 587
+    },
+    {
+      "path": "data/final_analyses/attribution_replay/attribution_pairs.parquet",
+      "original_path": "outputs/food_security_extension_period_20261013/attribution/attribution_pairs.parquet",
+      "sha256": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d",
+      "bytes": 4312706
+    },
+    {
+      "path": "data/final_analyses/attribution_replay/attribution_receipt.json",
+      "original_path": "outputs/food_security_extension_period_20261013/attribution/attribution_receipt.json",
+      "sha256": "e76f6929f2149e258ca47628d447df64b254483e7dcbeae9c8c57566c11effdb",
+      "bytes": 90908
+    },
+    {
+      "path": "data/final_monitoring/reference/data/fig1/predictions.csv",
+      "original_path": "publication/european_wheat_stb/monitoring_17_20261022/data/fig1/predictions.csv",
+      "sha256": "39b7f3b2135c09c9b60251eea06c08dbe0ee77043786c490c6c7ed135f180bc9",
+      "bytes": 632620
+    },
+    {
+      "path": "data/final_monitoring/reference/figure_manifest.json",
+      "original_path": "publication/european_wheat_stb/monitoring_17_20261022/figure_manifest.json",
+      "sha256": "d1d2c5d48e53c87ebbdfa7e2fde50a30b6bd3dffea4c510003811cf2491a0646",
+      "bytes": 1578
+    },
+    {
+      "path": "data/final_analyses/reference/data/attribution/attribution_summary.csv",
+      "original_path": "publication/european_wheat_stb/food_security_extension/data/attribution/attribution_summary.csv",
+      "sha256": "94d7b4c555f7b46e98068ecea7575b9d1dbe5c59ef60a6c09f07b5e682553dcd",
+      "bytes": 19016
+    },
+    {
+      "path": "data/final_analyses/reference/data/attribution/attribution_pairs.parquet",
+      "original_path": "publication/european_wheat_stb/food_security_extension/data/attribution/attribution_pairs.parquet",
+      "sha256": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d",
+      "bytes": 4312706
+    },
+    {
+      "path": "data/final_analyses/reference/data/exposure/europe_thresholds.csv",
+      "original_path": "publication/european_wheat_stb/food_security_extension/data/exposure/europe_thresholds.csv",
+      "sha256": "141966f161fd32a307824cd96a4a2a6abe264c30c41da6dcf79575a5755aa1cb",
+      "bytes": 21133
+    },
+    {
+      "path": "data/final_analyses/reference/data/exposure/production_exposure.csv",
+      "original_path": "publication/european_wheat_stb/food_security_extension/data/exposure/production_exposure.csv",
+      "sha256": "80fe2bad9f5d854a86783f1af7f80a074db551d02e6af9aa7d39025ec1a3c8d6",
+      "bytes": 12457710
+    },
+    {
+      "path": "docs/model_engine.md",
+      "original_path": "WHEAT_STB_ENGINE.md",
+      "sha256": "1c00e21404bb9bf522fa5fdd02a2cbc0c42e627bc9306012b76a44099de2170e",
+      "bytes": 9936,
+      "sha256_before_documentation_update": "e3da26c8b3e3572e99783c9b7b3a00a143884a19402afc7a4a3a0ac5c12ce0a1"
+    }
+  ],
+  "legacy_path_mapping": {
+    "outputs/disease_improvement/irish_station_candidate_20261022": "data/final_monitoring/cohort",
+    "outputs/disease_improvement/discrepancy_filter_20261022": "data/final_monitoring/folds",
+    "outputs/disease_improvement/restored_monitoring_baseline_20261022": "data/final_monitoring/evaluation",
+    "data/disease_improvement/active_monitoring_model.json": "data/final_monitoring/selection.json",
+    "outputs/disease_improvement/climate_calibration_audit_20261022/qualified_flag_endpoint_ids.csv": "data/final_monitoring/qualified_flag_endpoint_ids.csv",
+    "outputs/gcb_response_insights_20261023": "data/final_analyses/climate_response",
+    "outputs/gcb_adaptation_analysis_20261023": "data/final_analyses/adaptation",
+    "outputs/gcb_yield_extension_20261023": "data/final_analyses/yield_context",
+    "outputs/food_security_extension_period_20261013/attribution": "data/final_analyses/attribution_replay",
+    "publication/european_wheat_stb/monitoring_17_20261022": "data/final_monitoring/reference",
+    "publication/european_wheat_stb/food_security_extension": "data/final_analyses/reference",
+    "publication/european_wheat_stb/Manuscript.docx": "publication/gcb_20261023/Manuscript.docx"
+  },
+  "intermediate_outputs_present": false,
+  "archived_records": "Original sources, superseded outputs and relocation receipts are preserved outside the active repository.",
+  "consolidation_path_mapping": {
+    "publication/gcb_20261023": "paper",
+    "analysis/final_models": "models/learned",
+    "analysis/final_climate": "models/climate",
+    "analysis/disease_improvement": "models/monitoring",
+    "analysis/methods": "models/methods",
+    "analysis/gcb_preparation": "paper/scripts",
+    "analysis/final_study": "paper/analyses/source_support",
+    "analysis/food_security_extension": "paper/analyses/food_security",
+    "process_model/parameters": "data/phenology_parameters",
+    "process_model": "models/phenology",
+    "calibration": "models/calibration",
+    "configurations": "data/configurations",
+    "model": "models"
+  }
+}

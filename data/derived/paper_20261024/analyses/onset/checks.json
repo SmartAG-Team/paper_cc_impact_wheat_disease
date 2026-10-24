@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "records": 4,
+  "eligible_original2019_F1_fields": 33,
+  "all_eligible_two_sided_histories_retained": true,
+  "original_symptom_dates_reproduced": true,
+  "onset_day_prefix_state_maximum_error": 0.0,
+  "no_future_weather_needed_for_replayed_onset": true,
+  "detection_fraction": 0.001,
+  "operator": "first daily N+I+D crossing; one-based state days",
+  "observed_interval": "(last observed zero, first observed positive], daily support lower+1 through upper",
+  "original_records_reused": true,
+  "models_fitted": false,
+  "calendar_comparison": "saved dates verified; original fitting implementation not authenticated",
+  "metrics": [
+    {
+      "model": "frozen_process",
+      "histories": 4,
+      "fields": 4,
+      "sites": 4,
+      "weighting": "one equal vote per field",
+      "mean_interval_excess_days": 3.75,
+      "root_mean_square_interval_excess_days": 5.408326913195984,
+      "inside_observed_intervals": 2,
+      "minimum_bracket_width_days": 8,
+      "maximum_bracket_width_days": 18,
+      "exact_onset_date_MAE_identified": false,
+      "new_independent_validation": false
+    },
+    {
+      "model": "archived_calendar",
+      "histories": 4,
+      "fields": 4,
+      "sites": 4,
+      "weighting": "one equal vote per field",
+      "mean_interval_excess_days": 6.25,
+      "root_mean_square_interval_excess_days": 7.762087348130012,
+      "inside_observed_intervals": 1,
+      "minimum_bracket_width_days": 8,
+      "maximum_bracket_width_days": 18,
+      "exact_onset_date_MAE_identified": false,
+      "new_independent_validation": false
+    }
+  ],
+  "source_sha256": {
+    "data/process_f1/original2019_F1_two_sided_onsets.csv": "bf762f70960a89a079bec61e88cb512b1d67b02d2a520dc2a031a42dd2a3290f",
+    "data/process_f1/evaluation70_F1_records_with_replay.csv": "c5baef4443bd6280bd7f17b023582e7a55f663843413b7e8b90df38e59bbcfc5",
+    "data/process_f1/field55_calendar_membership.csv": "a4f2b74d33252f5678cc309d919c0fe0a188a48751d994958cacf61878920d31",
+    "data/process_f1/four_weather_forcing.csv": "f44531ed7956dc5db62d7209d0007712c4a58cb0eb4761df70d0143423a5b63c",
+    "parameters/phenology_parameters.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "parameters/disease_parameters.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+    "parameters/stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4"
+  },
+  "replay_code_sha256": "1af4a874c45864e7e4461d2cc57e32cfc4391df0d13ffde8aa1a8a094e3ca35f"
+}

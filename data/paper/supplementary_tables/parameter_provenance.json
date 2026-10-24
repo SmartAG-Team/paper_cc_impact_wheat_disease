@@ -1,0 +1,227 @@
+[
+  {
+    "original_parameter": "primary scale",
+    "display_label": "Effective primary establishment coefficient",
+    "value_exact_from_current_table": "0.001",
+    "unit": "relative-source unit⁻¹ d⁻¹",
+    "description": "Scales local-source and imported-pressure establishment hazards, conditional on the retained source normalization.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.primary_scale; publication/gcb_20261023/Mathematical_Model_Specification.md:125–132 (Eq. S14)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "secondary scale",
+    "display_label": "Effective secondary establishment coefficient",
+    "value_exact_from_current_table": "10",
+    "unit": "d⁻¹",
+    "description": "Scales rain-dependent infectious-neighborhood and adjacency-contact establishment hazards.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.secondary_scale; publication/gcb_20261023/Mathematical_Model_Specification.md:127–132 (Eq. S14)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "latent reference days",
+    "display_label": "Latent reference duration",
+    "value_exact_from_current_table": "20",
+    "unit": "d at the 18 °C reference clock",
+    "description": "Reference mean of the continuous-time latent chain; finite-substep residence times follow the implemented transitions.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.latent_reference_days; publication/gcb_20261023/Mathematical_Model_Specification.md:144–162 (Eqs. S16–S17)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "latent stages",
+    "display_label": "Number of latent compartments",
+    "value_exact_from_current_table": "3",
+    "unit": "count",
+    "description": "Number of sequential latent compartments; each uses a transition rate proportional to this count.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.latent_stages; publication/gcb_20261023/Mathematical_Model_Specification.md:104–107,144–162 (Eqs. S12, S16–S17)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "nonsporulating reference days",
+    "display_label": "Noninfectious symptom reference duration",
+    "value_exact_from_current_table": "3",
+    "unit": "d at the 18 °C reference clock",
+    "description": "Controls transfer from visibly affected noninfectious tissue to infectious tissue.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.nonsporulating_reference_days; publication/gcb_20261023/Mathematical_Model_Specification.md:145–162 (Eqs. S16–S17)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "infectious reference days",
+    "display_label": "Infectious reference duration",
+    "value_exact_from_current_table": "21",
+    "unit": "d at the 18 °C reference clock",
+    "description": "Controls transfer from infectious tissue to retained damage.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.infectious_reference_days; publication/gcb_20261023/Mathematical_Model_Specification.md:146–162 (Eqs. S16–S17)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "residue maturation reference days",
+    "display_label": "Source-competence reference timescale",
+    "value_exact_from_current_table": "30",
+    "unit": "reference d",
+    "description": "Controls conversion of unready to competent relative local source; its rate is multiplied by the 18 °C thermal factor and weather exposure.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.residue_maturation_reference_days; publication/gcb_20261023/Mathematical_Model_Specification.md:164–171 (Eq. S18)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "residue decay reference days",
+    "display_label": "Source-ageing reference timescale",
+    "value_exact_from_current_table": "90",
+    "unit": "d at the 18 °C reference clock",
+    "description": "Controls common exponential ageing of unready and competent relative local source.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.residue_decay_reference_days; publication/gcb_20261023/Mathematical_Model_Specification.md:164–171 (Eq. S18)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "initial ready fraction",
+    "display_label": "Initial competent-source fraction",
+    "value_exact_from_current_table": "0.5",
+    "unit": "dimensionless",
+    "description": "Fraction of initial relative local source assigned to the competent compartment.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.initial_ready_fraction; publication/gcb_20261023/Mathematical_Model_Specification.md:110; publication/gcb_20261023/code/model/seasonal_septoria/overwinter.py:183–184",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "rank distance scale",
+    "display_label": "Rank-distance decay scale",
+    "value_exact_from_current_table": "2",
+    "unit": "rank intervals",
+    "description": "Exponential distance scale for infectious-neighborhood weighting and local-source proximity.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.rank_distance_scale; publication/gcb_20261023/Mathematical_Model_Specification.md:117–125 (Eqs. S13–S14)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "rain scale mm",
+    "display_label": "Rain-response scale",
+    "value_exact_from_current_table": "2",
+    "unit": "mm",
+    "description": "Precipitation scale in the saturating response r = 1 − exp(−P/p*).",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.rain_scale_mm; publication/gcb_20261023/Mathematical_Model_Specification.md:114",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "local airborne fraction",
+    "display_label": "Precipitation-independent local-source weight",
+    "value_exact_from_current_table": "0.1",
+    "unit": "dimensionless",
+    "description": "Weight of the precipitation-independent term in the local-source establishment hazard.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.local_airborne_fraction; publication/gcb_20261023/Mathematical_Model_Specification.md:125–132 (Eq. S14)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "contact fraction",
+    "display_label": "Adjacency-contact multiplier",
+    "value_exact_from_current_table": "0.2",
+    "unit": "dimensionless",
+    "description": "Multiplier for adjacent infectious tissue, reduced as the receiving final-leaf capacity approaches full unfolding; absent for the juvenile slot.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.parameters.contact_fraction; publication/gcb_20261023/Mathematical_Model_Specification.md:128–132 (Eq. S14)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "rank spacing units",
+    "display_label": "Effective rank spacing",
+    "value_exact_from_current_table": "120",
+    "unit": "effective TPV units per rank interval",
+    "description": "Offset between successive final-leaf visibility thresholds before clipping at C10; an effective host-model spacing.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.rank_spacing_units; publication/gcb_20261023/Mathematical_Model_Specification.md:60,75–78 (Eq. S8)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "constant imported pressure",
+    "display_label": "Default imported-source pressure",
+    "value_exact_from_current_table": "0.1",
+    "unit": "relative-source units",
+    "description": "Constant effective imported pressure used when no explicit forcing is supplied; an explicit zero is retained.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.constant_imported_pressure; publication/gcb_20261023/Mathematical_Model_Specification.md:126–132,193 (Eq. S14)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "rain rate mm hour",
+    "display_label": "Effective precipitation intensity",
+    "value_exact_from_current_table": "0.45",
+    "unit": "mm h⁻¹",
+    "description": "Meteorology-only estimate converting daily precipitation into a wet-duration proxy in weather exposure.",
+    "source_location": "publication/gcb_20261023/parameters/disease_parameters.json: fitted.weather_preprocessing.rain_rate_mm_hour; publication/gcb_20261023/Mathematical_Model_Specification.md:185–193 (Eqs. S20–S21)",
+    "proposed_table": "S4"
+  },
+  {
+    "original_parameter": "threshold 10",
+    "display_label": "Appearance floor (C10)",
+    "value_exact_from_current_table": "142.01",
+    "unit": "effective TPV units",
+    "description": "Lower bound for final-leaf visibility thresholds and prior-day availability gate for the juvenile canopy.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: all_stage_thresholds.10; publication/gcb_20261023/parameters/phenology_parameters.json: thresholds[BBCH=10].Cumulative_t_pp_v_GDD; publication/gcb_20261023/Mathematical_Model_Specification.md:75–97 (Eqs. S8–S11)",
+    "proposed_table": "S5"
+  },
+  {
+    "original_parameter": "threshold 31",
+    "display_label": "Juvenile handover onset (C31)",
+    "value_exact_from_current_table": "542.3",
+    "unit": "effective TPV units",
+    "description": "Start of linear juvenile-capacity withdrawal toward C39; also defines the stem-extension diagnostic start gate.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: all_stage_thresholds.31; publication/gcb_20261023/parameters/phenology_parameters.json: thresholds[BBCH=31].Cumulative_t_pp_v_GDD; publication/gcb_20261023/Mathematical_Model_Specification.md:95–97 (Eq. S11), paragraph following Eq. S25",
+    "proposed_table": "S5"
+  },
+  {
+    "original_parameter": "threshold 32",
+    "display_label": "Stage 32 event gate (C32)",
+    "value_exact_from_current_table": "633.392",
+    "unit": "effective TPV units",
+    "description": "Ordered stage-only threshold for the model event labelled 32.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: thresholds.32, diagnostics[event=32], all_stage_thresholds.32; publication/gcb_20261023/Mathematical_Model_Specification.md:62–68 (Eq. S7)",
+    "proposed_table": "S5"
+  },
+  {
+    "original_parameter": "threshold 33",
+    "display_label": "Stage 33 event gate (C33)",
+    "value_exact_from_current_table": "664.496",
+    "unit": "effective TPV units",
+    "description": "Ordered stage-only threshold for the model event labelled 33.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: thresholds.33, diagnostics[event=33], all_stage_thresholds.33; publication/gcb_20261023/Mathematical_Model_Specification.md:62–68 (Eq. S7)",
+    "proposed_table": "S5"
+  },
+  {
+    "original_parameter": "threshold 37",
+    "display_label": "Flag-leaf visibility anchor (C37)",
+    "value_exact_from_current_table": "702.266",
+    "unit": "effective TPV units",
+    "description": "Visibility threshold for F1 and anchor for the rank-spaced visibility thresholds of lower final leaves.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: thresholds.37, diagnostics[event=37], all_stage_thresholds.37; publication/gcb_20261023/Mathematical_Model_Specification.md:68,75–78 (Eq. S8)",
+    "proposed_table": "S5"
+  },
+  {
+    "original_parameter": "threshold 39",
+    "display_label": "Flag-leaf unfolding gate (C39)",
+    "value_exact_from_current_table": "807.799",
+    "unit": "effective TPV units",
+    "description": "F1 full-unfolding threshold; C39 − C37 sets final-leaf unfolding span, and juvenile capacity reaches zero at C39.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: thresholds.39, diagnostics[event=39], all_stage_thresholds.39; publication/gcb_20261023/Mathematical_Model_Specification.md:75–97 (Eqs. S8–S11)",
+    "proposed_table": "S5"
+  },
+  {
+    "original_parameter": "threshold 51",
+    "display_label": "Stage 51 anchor (C51)",
+    "value_exact_from_current_table": "986.65",
+    "unit": "effective TPV units",
+    "description": "Retained stage-51 threshold used as the lower anchor of the derived flowering proxy.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: all_stage_thresholds.51; publication/gcb_20261023/parameters/phenology_parameters.json: thresholds[BBCH=51].Cumulative_t_pp_v_GDD; publication/gcb_20261023/Mathematical_Model_Specification.md:68",
+    "proposed_table": "S5"
+  },
+  {
+    "original_parameter": "threshold 65",
+    "display_label": "Flowering-proxy gate (C65)",
+    "value_exact_from_current_table": "1165.93",
+    "unit": "effective TPV units",
+    "description": "Derived as C51 + 0.2317(C85 − C51); starts the retained affected-tissue integration window.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: all_stage_thresholds.65; publication/gcb_20261023/Mathematical_Model_Specification.md:68, Eq. S25",
+    "proposed_table": "S5"
+  },
+  {
+    "original_parameter": "threshold 85",
+    "display_label": "Terminal-development gate (C85)",
+    "value_exact_from_current_table": "1760.39",
+    "unit": "effective TPV units",
+    "description": "Terminates the retained crop season and affected-tissue integration window; an internal terminal-stage label.",
+    "source_location": "publication/gcb_20261023/parameters/stage_thresholds.json: all_stage_thresholds.85; publication/gcb_20261023/parameters/phenology_parameters.json: thresholds[BBCH=85].Cumulative_t_pp_v_GDD; publication/gcb_20261023/Mathematical_Model_Specification.md:7, Eq. S25; publication/gcb_20261023/Supplementary_Information.md:198",
+    "proposed_table": "S5"
+  }
+]

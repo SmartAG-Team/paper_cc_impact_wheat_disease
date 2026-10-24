@@ -1,0 +1,16 @@
+{
+  "analysis_role": "explicitly post-audit support-sensitivity extension; no new simulations",
+  "registered_utc": "2026-10-23T19:25:16.938995+00:00",
+  "original_registration_sha256": "fd2f686c24b32bd9ceaac335e944b7394dbc31c2944b59c66c62baa65a09a2e6",
+  "original_receipt_sha256": "1eb251865467ea3988ac49f12adfa56523ba61c6a998cda894cfb9be784bb479",
+  "records_sha256": "e3f1f07f8198ff8b212a60bd15667456c1934c1da18217fcd896b6f4caa84a29",
+  "code_sha256": "26ef8553d60bacc6f8d8f309f3f90f01b08b80eed8634e462a142cae83bfac8f",
+  "reason": "nonempty common-calendar intersections exclude complete seasons and change regional management contrasts",
+  "preserved": "all original preregistered strict-panel data, registration, analysis code, receipt and audit remain unchanged",
+  "complete_season_support": "all five sowing options complete in both periods and all three GCMs for the identical spatial draw/reference year; no shared-interval requirement",
+  "common_calendar_support": "original preregistered all-option, both-period, three-GCM nonempty calendar-time intersection panel",
+  "broader_endpoint": "own GS65-85 window on complete-season support; broader primary management endpoint after the audit",
+  "policy": "one fixed shift per region and held GCM, trained on complete-season future own-window equal-mean responses of the other two GCMs; same chosen shift evaluated on both support panels",
+  "sparse_region_rule": "at least three retained unique cells and 30 draw-years in each training GCM; otherwise unchanged sowing",
+  "qualification": "sampled-design sensitivity candidates, not agronomic recommendations, independent field validation or yield/economic optima"
+}

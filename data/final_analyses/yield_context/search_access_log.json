@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-23",
+  "scope": "Targeted primary-source retrieval and existing local evidence audit; not a comprehensive systematic-review search",
+  "excluded_publishers": "MDPI and Frontiers results encountered incidentally were skipped; none was opened, screened as scientific evidence or cited",
+  "primary_access": [
+    {
+      "source_id": "Garnault2021",
+      "url": "https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.17107",
+      "status": "Primary full text accessible through web reader; one supplementary PDF listed; no raw yield matrix or dataset link located",
+      "supplement_url": "https://nph.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fnph.17107&file=nph17107-sup-0001-SupInfo.pdf",
+      "supplement_access": "HTTP 403; contents not independently checked. Publisher listing describes four figures, JAGS model scripts, a bias indicator and resistance-factor table. No raw yield file is listed."
+    },
+    {
+      "source_id": "ARVALIS_Performance_2025",
+      "url": "https://www.arvalis.fr/sites/default/files/medias/pdf/2025-12/Choisir2_2025-BTH-CHAMPAGNE-ARDENNE.pdf",
+      "status": "Downloaded and preserved; full-page screenshot and exact embedded chart saved; numerical labels manually read and verified"
+    },
+    {
+      "source_id": "ARVALIS_national_2022",
+      "url": "https://www.arvalis.fr/sites/default/files/medias/pdf/2022-11/_CHOISIR-2_CAP_2022_National_PDFS.pdf",
+      "status": "Downloaded and preserved; PDF p.90 / printed p.89 explicitly documents susceptible-cultivar oversampling and yellow-rust-dominated trials"
+    },
+    {
+      "source_id": "ARVALIS_dossier_2024",
+      "url": "https://www.arvalis.fr/file-download/download/public/249502",
+      "status": "Downloaded and preserved; p.4 identifies 22 SY ADMIRATION trials, 16 CHEVIGNON trials, and best-single-fungicide versus untreated comparator"
+    },
+    {
+      "source_id": "VanDenBosch2022",
+      "url": "https://repository.rothamsted.ac.uk/id/eprint/31726/1/ppa.13509.pdf",
+      "status": "Institutional accepted manuscript downloaded; PDF p.10 / printed p.9 says data are available from the corresponding author on reasonable request; no contact initiated"
+    },
+    {
+      "source_id": "Kristoffersen2020",
+      "url": "https://researchprofiles.ku.dk/en/publications/control-of-septoria-tritici-blotch-by-winter-wheat-cultivar-mixtu/",
+      "status": "Primary author institutional abstract verified; publisher and institution-linked preprint downloads returned HTTP 403; no trial-level effects or variances retrieved",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0378429019309967",
+      "preprint_url": "https://www.biorxiv.org/content/biorxiv/early/2019/06/03/658575.full.pdf"
+    },
+    {
+      "source_id": "VanDenBerg2017",
+      "url": "https://apsjournals.apsnet.org/doi/abs/10.1094/PHYTO-07-16-0283-R",
+      "status": "Primary publisher abstract and supplement listing accessed; mathematical model outputs do not constitute independent empirical field effects"
+    },
+    {
+      "source_id": "ZivEyal1978",
+      "url": "https://www.apsnet.org/publications/phytopathology/backissues/Documents/1978Articles/Phyto68n05_791.PDF",
+      "status": "Primary APS indexed PDF tables read; yield per head and significance letters are available, compatible stand-yield effect variances are not"
+    },
+    {
+      "source_id": "EyalZiv1974_and_Phyto1987",
+      "urls": [
+        "https://www.apsnet.org/publications/phytopathology/backissues/Documents/1974Articles/Phyto64n11_1385.PDF",
+        "https://www.apsnet.org/publications/phytopathology/backissues/Documents/1987Articles/Phyto77n02_220.PDF"
+      ],
+      "status": "Scanned primary PDFs discovered; browser screenshot calls supplied no usable visual payload to this runtime and direct downloads returned HTTP 403; no quantitative effects extracted or used"
+    },
+    {
+      "source_id": "Bancal2015",
+      "url": "https://doi.org/10.1016/j.fcr.2015.05.006",
+      "status": "Existing archived bibliographic record retained. Publisher endpoint inaccessible in this runtime; reported sample description is a discovery lead, not a new verified effect. No new quantitative result derived from this source."
+    },
+    {
+      "source_id": "Tunisia2020_Dryad",
+      "url": "https://datadryad.org/dataset/doi:10.5061/dryad.r2280gbb5",
+      "status": "Original repository page verified; existing local raw/derived data retained. Protected reference differs by inoculation plus fungicide; no pure-STB effect meta-analysis performed."
+    }
+  ]
+}

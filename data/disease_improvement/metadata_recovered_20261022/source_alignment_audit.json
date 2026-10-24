@@ -1,0 +1,10 @@
+{
+  "n_targets": 2286,
+  "source_reconstructed_mean_exactly_agrees_with_tolerance": 2286,
+  "n_target_identity_order_preserved": 2286,
+  "n_preexisting_source_row_ids_agree": 1702,
+  "n_preexisting_source_row_ids_present": 1702,
+  "maximum_source_rows_per_target": 24,
+  "replicate_identity_policy": "Source repeats are assessment rows, not verified replicate identities; no replicate or plot identifiers invented.",
+  "severity_use": "Reconstructed means used only for read-only alignment verification, not as metadata features."
+}

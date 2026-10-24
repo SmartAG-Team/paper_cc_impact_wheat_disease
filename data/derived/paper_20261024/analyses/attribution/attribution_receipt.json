@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "mode": "recomputed from retained four-corner records",
+  "scientific_simulations_rerun": false,
+  "pair_records": 46080,
+  "settings": 8,
+  "source": {
+    "path": "data/final_analyses/attribution_replay/attribution_pairs.parquet",
+    "bytes": 4312706,
+    "sha256": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d"
+  },
+  "output_hashes": {
+    "attribution_pairs.parquet": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d",
+    "attribution_summary.csv": "94d7b4c555f7b46e98068ecea7575b9d1dbe5c59ef60a6c09f07b5e682553dcd"
+  }
+}

@@ -1,0 +1,540 @@
+
+PDF_PAGE=1
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+1l12 
+ 
+ 
+ 
+ 
+ 
+DOSSIER DE PRESSE 
+ 
+LUTTE CONTRE LES MALADIES  
+DES CÉRÉALES À PAILLE 
+ 
+21 novembre 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONTACTS 
+TECHNIQUES 
+Jérôme Thibierge 
+j.thibierge@arvalis.fr 
+       Gilles Couleaud 
+g.couleaud@arvalis.fr 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONTACT 
+PRESSE 
+Marion Wallez 
+06.76.02.76.11 
+presse@arvalis.fr 
+ 
+ 
+
+
+PDF_PAGE=2
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+2l12 
+SOMMAIRE 
+ 
+Synthèse ......................................................................................................................................................... 3 
+2024 : Une année de pression septoriose record sur le blé tendre ......................................................... 4 
+Les solutions de biocontrôle à base de soufre et de phosphonates appliquées en T1 ont confirmé leur 
+efficacité sur la septoriose ............................................................................................................................ 5 
+Réseau Performance et Double Performance 2024 : 24 partenaires ....................................................... 5 
+Une résistance qui ne faiblit pas .................................................................................................................. 6 
+Un impact significatif de la résistance sur les efficacités des solutions SDHI+IDM ................................. 7 
+Efficacité des substances actives contre la septoriose ............................................................................... 7 
+Efficacité des substances actives sur la rouille brune ................................................................................. 8 
+Fusarioses des blés : nombreux symptômes sur épis mais assez peu de mycotoxines DON………… 9 
+Orge d’hiver : forte pression Ramulariose en 2024 avec parfois de la rouille naine ............................... 9 
+Une évolution limitée de la gamme de fongicides disponibles pour le printemps 2025 .................... 10 
+ANNEXE ................................................................................................................................................... 11 
+ 
+ 
+ 
+
+
+PDF_PAGE=3
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+3l12 
+Synthèse 
+Les conditions climatiques de la dernière campagne ont favorisé le développement des maladies 
+des céréales à paille. La septoriose du blé tendre, la rouille brune, les symptômes de type 
+fusarioses et de ramulariose pour les orges ont largement dominé. Aussi, avec une offre de 
+solutions quasi identiques, il est recommandé une gestion responsable des produits fongicides 
+pour limiter la progression des souches résistantes. 
+Le climat 2024 a été très favorable au développement de la septoriose du blé tendre. La 
+nuisibilité moyenne constatée dans les essais en blé tendre sur variétés sensibles (note 5) à la 
+septoriose est de 23 q/ha : une valeur record depuis 2016. Sur les essais en variétés tolérantes 
+(note 7), la nuisibilité a été réduite à 16 q/ha. 
+Les premiers symptômes de septoriose sont apparus précocement sur les étages foliaires 
+inférieurs. Les pluies régulières tout au long du cycle ont favorisé un nombre de contaminations 
+record menaçant chaque nouvelle feuille jusqu’à la F1 rapidement après sa sortie. 
+Septo-LIS a fait déclencher un T1 dans une grande majorité des cas (86%). Aussi, tout défaut de 
+protection fongicide – retard de positionnement, choix de substances actives peu efficaces, dose 
+réduite – a été sanctionné par une progression de la maladie et une perte de rendement.  
+Les solutions de biocontrôle à base de soufre et de phosphonates bien appliquées en T1 ont 
+confirmé leur efficacité. En outre, la situation vis-à-vis des résistances aux matières actives est 
+restée stable par rapport à 2023. Les souches de septoriose résistantes sont déjà bien présentes : 
+6 souches sur 10 sont de type TriHR (résistantes à au moins un triazole) et 4 sur 10 de type CarR 
+(résistantes aux SDHI). L’efficacité des solutions SDHI + IDM est d’autant plus limitée que la 
+fréquence de ces souches est élevée. Enfin, avec un mode d’action QiI plus récemment introduit 
+et pour lequel aucune souche résistante n’a été détectée à ce jour, le fenpicoxamide se distingue 
+par sa bonne efficacité dans les essais. La poursuite d’une gestion responsable des fongicides 
+est donc indispensable pour limiter la progression des souches résistantes. 
+Les conditions météorologiques de l’année ont également été favorables à l’apparition de rouille 
+brune, avec une nuisibilité moyenne de 19 q/ha dans les essais. Les protections rouille brune les 
+plus efficaces ont été obtenues avec les modalités contenant des strobilurines.  
+Sur les trois dernières années consécutives, nous observons une baisse d’efficacité des SDHI qui 
+nous laisse suspecter une progression (constatée principalement entre 2021 et 2022 sur les 
+essais du sud de la France) de souches de rouille brune résistantes à ce mode d’action. Il n’y a 
+pas eu d’analyses pour le vérifier sur les sites d’essai mais des mutations résistantes ont déjà été 
+signalées.  
+De nombreux symptômes épis de type fusarioses d’intensité moyenne à élevée ont été observés 
+selon les régions. Cependant, les teneurs en mycotoxines DON sont généralement restées 
+faibles voire inférieures au seuil de détection. Les contaminations mycotoxines DON supérieures 
+au seuil sont restées exceptionnelles (4% des cas dans l’enquête au champs). Les analyses qPCR 
+réalisées par ARVALIS révèlent des quantités importantes d’ADN de Fusarium graminearum et 
+une dominante de Microdochium spp.  
+Sur les orges, ce sont les symptômes de ramulariose qui ont dominé sur l’ensemble du territoire 
+national. Provoquant une sénescence rapide des feuilles, les pertes de rendement ont pu être 
+importantes : 26 q/ha en moyenne sur les trois essais de 2024. Sur un historique de 146 essais, 
+la perte moyenne est de 15 q/ha et jusqu’à 30 q/ha pour les attaques les plus graves. 
+La gamme de produits fongicides disponibles pour le printemps 2025 reste sensiblement la 
+même que l’année dernière. Seules quatre nouvelles formulations fongicides comprenant des 
+substances actives déjà disponibles ont récemment reçue une autorisation de mise sur le marché. 
+ 
+ 
+
+
+PDF_PAGE=4
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+4l12 
+2024 : Une année de pression septoriose record sur le blé 
+tendre 
+Mesurée dans 22 essais du Réseau Performance par l’écart entre le rendement de la meilleure 
+modalité avec application fongicide unique à DFE protégée et celui du témoin sans fongicide, la 
+nuisibilité moyenne des maladies du blé en 2024 est de 23 q/ha avec une variété sensible à la 
+septoriose (SY ADMIRATION note septoriose 5) : c’est un record pour les huit dernières années. 
+Durant la période 2016-2024, l’offre de variétés tolérantes aux maladies s’est considérablement 
+élargie : près de 60% de la sole Blé tendre sont cultivés avec une variété de note septoriose 
+supérieure à 6.5. Le choix d’une variété tolérante constitue un levier particulièrement efficace 
+pour réduire la nuisibilité des maladies. Toutefois, cette année, elle est restée à 16 q/ha avec une 
+variété plus résistante (moyenne de 16 essais CHEVIGNON de note 7). 
+Les essais sur variétés sensibles montrent une forte variabilité d’efficacité des solutions fongicides 
+comparées à même date d’application en T2 à BBCH 39 (DFE). Ces efficacités ont varié entre 
+90% et 15%. La corrélation entre l’efficacité de la protection aux maladies et le rendement y est 
+remarquablement élevée. Par exemple, la seule l’efficacité de protection contre la septoriose 
+explique 77% à 95% de la variabilité des rendements, sur une amplitude de près de 30 q/ha. 
+Avec des pluies fréquentes et de cumul élevé accompagnées de températures clémentes, durant 
+toute la période végétative des blés, le climat 2024 a été très favorable à la septoriose. Les sorties 
+de Septo-LIS en rendent bien compte : le modèle a calculé un nombre de contaminations record, 
+les premières étant particulièrement précoces. En conséquence, dès sa sortie, chaque nouvelle 
+feuille (F4, F3, F2 et F1) a été très rapidement exposée à une contamination par la septoriose, et 
+en l’absence d’une protection immédiate et efficace, la maladie a pu s’y développer. Aussi, avec 
+les données météo de 2024, Septo-LIS a fait déclencher un T1 dans 86% des cas sur un 
+échantillon de 565 cas-type Les essais 2024 confirment la nécessité de cette protection fongicide 
+avant le stade dernière feuille étalée avec une valorisation comprise entre 1.2 et 8.0 q/ha (4.9 en 
+moyenne) sur 9 essais en variétés sensibles (note septoriose < 6.5), et comprise entre 1.5 et 5.0 
+q/ha sur 4 essais en variétés tolérantes (>= 6.5). En comparaison sur les mêmes cas-types, avec 
+les données météo des années 2017 à 2022, le modèle n’avait jamais déclenché de T1 dans plus 
+de 39% des cas et seulement 7% en 2020. 
+Cette forte nuisibilité s’est également rencontrée dans les parcelles des agriculteurs : la moindre 
+défaillance dans le programme fongicide, ou le choix d’une variété sensible ont été 
+immédiatement sanctionnés par une perte de rendement significative. Les années se suivent et 
+ne se ressemblent pas, aussi est-il recommandé d’utiliser les outils d’aide à la décision, comme 
+Septo-LIS, pour adapter ses pratiques fongicides à chaque contexte particulier. Le choix d’une 
+variété tolérante aux maladies reste à privilégier pour réaliser toutes les économies possibles. En 
+complément, les outils d’aide à la décision apportent la sécurité de repérer les situations où une 
+protection T1 devient nécessaire puis de réaliser les investissements rentables. 
+ 
+ 
+
+
+PDF_PAGE=5
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+5l12 
+Les solutions de biocontrôle à base de soufre et de 
+phosphonates appliquées en T1 ont confirmé leur efficacité 
+sur la septoriose 
+Sur le regroupement de deux essais 2024, présentant une intensité d’attaque moyenne de 
+septoriose de 38% d’intensité, les modalités traitées en T1 à BBCH 31 (1 nœud) avec du soufre 
+et du phosphonates de potassium, suivi en T2 à BBCH 39 (DFE) de KARDIX 0.75 l/ha ont atteint 
+des efficacités de +5 à +13 points supérieures à celle de l’application unique en T2 de KARDIX 
+0.75 l/ha. Les gains de rendements sont compris entre +3.2 et +4.4 q/ha, assurant un supplément 
+de marge brute compris entre +25 et +55 €/ha (hypothèse de prix du blé à 190 €/t et 
+pulvérisation 10 €/ha). 
+Sur un autre regroupement de deux essais, les différentes solutions de biocontrôle testées en T1 
+[AQUICINE DUO 1.5 l/ha (66%), et 2 l/ha (70%), HELIOSOUFRE S 3.5 l/ha (70%), PYGMALION 2l 
++ HELIOSOUFRE S 3.5 l/ha (74%)] ont montré des efficacités au moins équivalentes à celle de 
+JUVENTUS 0.7 l/ha (metconazole) (67 %). Les écarts entre ces solutions ne sont pas 
+statistiquement significatifs. Nous observons cependant que le meilleur résultat technique (79% 
+d’efficacité) a été obtenu par une autre modalité ayant reçu deux applications successives 
+d’AQUICINE DUO : 1.5 l/ha en T1 puis de nouveau 1.5 l/ha associé au KARDIX 0.75 l/ha en T2. 
+Mais en raison de son coût, ce n’est pas cette modalité qui a obtenu la meilleure marge : c’est 
+l’application de soufre seul en T1. Les regroupements pluriannuels d’essais viennent confirmer 
+ces conclusions. 
+Rappelons qu’en situations à risques de rouille, jaune ou brune, les protections à base de soufre 
+et de phosphonates doivent être complétées avec un partenaire efficace sur ces cibles. Un 
+troisième essai de 2024, sur le même protocole que les deux précédents, est là pour l’illustrer. 
+Une pression rouille brune de 25% d’intensité sur le témoin non protégé s’y est développée. 
+Aucune des modalités à base de soufre et de phosphonates, précédemment citées, n’en a 
+permis un contrôle suffisant, les efficacités restent comprises entre 29 et 39%. 
+ 
+Réseau Performance et Double Performance 2024 : 24 
+partenaires 
+En 2024, de nombreux échantillons de feuilles portant des symptômes de septoriose ont été 
+collectés et envoyés au laboratoire d’INRAE. Ces échantillons ont permis d’étudier des 
+populations de septoriose (Zymoseptoria tritici) provenant de 15 départements céréaliers. Au 
+total, 268 populations ont pu être exploitées. Certains échantillons étaient non exploitables, ils 
+ne présentaient pas assez de symptômes ou se sont avérés trop sales, contaminés à l’isolement 
+en particulier par des bactéries, pour être analysés. Certains échantillons présentaient également 
+de « vieux symptômes ». 
+Nous tenons à remercier vivement les 24 partenaires régionaux qui ont participé à ce réseau 
+ 
+ 
+ 
+
+
+PDF_PAGE=6
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+6l12 
+Une résistance qui ne faiblit pas 
+Chaque année, des analyses réalisées par INRAE permettent de faire un suivi de l’évolution de la 
+sensibilité des souches de septoriose vis-vis des fongicides et de les classer de la façon suivante : 
+• Les souches résistantes aux triazoles : 
+ TriLR : souches faiblement résistantes aux triazoles. 
+ TriMR : souches moyennement résistantes aux triazoles. 
+ TriHR : souches très résistantes à au moins un triazole. 
+ MDR : (Multi Drogues Résistantes) souches résistantes à plusieurs familles de substances 
+actives. 
+• Les souches résistantes aux SDHIi : 
+ CarR : toutes les souches résistantes aux SDHI quels que soient leurs facteurs de 
+résistance. 
+ CarHR : souches très Résistantes aux SDHI. 
+• Les souches résistances aux strobilurines (QoI), qui sont toujours largement généralisées dans 
+notre région. 
+• Depuis de nombreuses années, les souches sensibles aux IDMii (triazoles) ne sont plus 
+détectées, ce qui confirme la généralisation de la résistance aux IDM dans les populations 
+françaises. Les souches TriLR sont maintenant anecdotiques et représentent moins de 1% en 
+moyenne de la population échantillonnée. En 2024, les souches TriMR représentaient 6% en 
+moyenne de la population, contre 7% en 2023. 
+La fréquence moyenne des souches TriHR de 2024 est similaire à celle de 2023 (64% vs 63%) et 
+ces souches sont maintenant généralisées sur le territoire (présence dans 100% des échantillons). 
+Les souches MDR sont stables et ont été détectées en 2024 dans 94% des échantillons, à la 
+fréquence moyenne de 30% (29% en 2023). Les fortes fréquences moyennes de ces 2 catégories 
+sont observées en particulier dans la grande moitié Nord de la France. 
+En 2024, la proportion de populations présentant des souches résistantes aux SDHI est restée 
+stable (occurrence 93% en 2024 et en 2023). La fréquence moyenne de souches CarR atteint 41% 
+(comme en 2023) et inclut potentiellement une grande diversité de mutations. La fréquence 
+moyenne des souches CarHR est également stable, elle atteint 19% (21% en 2023). À noter qu’en 
+Hauts-de-France, on observe une progression des souches CarR. 
+Il est important de rappeler que les SDHI sélectionnent des souches de type MDR et qu’il est 
+souhaitable d’anticiper le risque de résistance multiple CarR + MDR. 
+Aucune souche résistante spécifiquement au fenpicoxamide (QiI) n’a été détectée en 2024. 
+On retient donc qu’en 2024, la situation vis-à-vis de la résistance aux IDM et aux SDHI est stable 
+par rapport à 2023, et que 6 souches sur 10 sont de type TriHR et 4 sur 10 de type CarR. 
+La gestion responsable des fongicides doit se poursuivre pour limiter la progression des souches 
+résistantes (cf. annexe) : 
+1. Intervenir uniquement si c’est nécessaire indispensable, c’est pourquoi, l’utilisation d’un OAD 
+est fortement conseillée 
+2. Alterner les modes d’action : une seule application par programme de SDHI, de strobilurine, 
+de prothioconazole, de fenpicoxamide, et éviter d’utiliser deux fois la même matière active de 
+type triazoles 
+3. Utiliser, si possible, un multisite comme le soufre ou le folpel au T1 et au T2 dans les régions 
+du Nord de la France où la résistance est la plus implantée. 
+ 
+ 
+
+
+PDF_PAGE=7
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+7l12 
+Un impact significatif de la résistance sur les efficacités des 
+solutions SDHI+IDM 
+Sur 12 essais du Réseau Performance et Double Performance, situés majoritairement dans les 
+Hauts-de-France (avec dans les témoins des populations de phénotypes CarR supérieure à 35% 
+et de CarHR supérieur à 10%), on observe des efficacités d’autant plus limitées pour ELATUS ERA 
+0.75 l/ha et REVYSTAR XL 0.75 l/ha que la fréquence des souches résistantes CarR et CarHR est 
+élevée. Pour un même niveau de résistance il subsiste une variabilité d’efficacité qui s’expliquent 
+par un positionnement en curatif. Dans ces situations, le fenpicoxamide (UNIVOQ 1 l/ha) non 
+concerné par la résistance témoigne d’une efficacité septoriose supérieure qui se traduit par un 
+gain significatif de 5 q/ha par rapport à la référence REVYSTAR XL 0.75 l/ha. 
+ 
+Efficacité des substances actives contre la septoriose 
+Trois essais 2024 comparent les solutions fongicides appliquées en T2 à BBCH 39 (DFE), toutes 
+les modalités ayant reçu le même T1 (FAETON SC 3 l/ha pour deux sites, impasse pour le 
+troisième). Tous ont été implantés dans des contextes de forte pression septoriose, avec des 
+conditions favorables aux contaminations tout au long de la période végétative. En moyenne sur 
+ces trois essais, l’intensité de septoriose observée sur le témoin non traité est de 80% et la 
+nuisibilité de cette maladie est de 38 q/ha. La septoriose étant déjà bien présente sur les étages 
+foliaires inférieurs au moment des applications T2, la curativité des solutions testées a été mise à 
+l’épreuve ainsi que la durée de persistance de protection, ce qui fut aussi le cas pour beaucoup 
+de parcelles d’agriculteurs. En outre, la fréquence élevée de souches hautement résistantes aux 
+triazoles (Tri HR) sur les trois sites, et pour l’un des sites une résistance aux SDHI avec 35% de 
+souches Car R dont 30% de Car HR. 
+Dans ces conditions difficiles, l’efficacité sur la septoriose des associations SDHI (FRAC 7) + 
+triazole (FRAC 3) est restée médiocre, inférieure à 40% : ELATUS ERA 0.75 l/ha n’a montré que 
+30% d’efficacité (efg) et un rendement de 67.4 q/ha (efg). REVYSTAR XL 0.75 l/ha le devance de 
+quelques points d’efficacité 37% (cdef) mais aussi en rendement avec 73.0 q/ha (cdef) ; la dose 
+0.6 l/ha reste assez proche avec 36% (efg) d’efficacité et 72.0q/ha (cdefg). Entre ces deux doses 
+s’insère la solution 3 voies (SDHI FRAC 7, triazole FRAC 3, strobilurine FRAC 11) KARDIX 0.8 l/ha 
++ QUIBILIUM 0.4 l/ha avec 38 % (defg) et 73.0 q/ha (defg). 
+Ce sont les solutions à base de fenpicoxamide, qui avec un mode d’action QiI (FRAC 21) plus 
+récemment disponible, et pour lequel aucune souche résistante n’a été détectée à ce jour, 
+arrivent en tête des solutions actuellement disponibles testées : 51% (bcde) d’efficacité et 76.7 
+q/ha (abcdef) pour SILVRON 0.5 l/ha + JESSICO ONE 1 l/ha, 49% (bcde) d’efficacité et 77.5 q/ha 
+(abcdef) pour QUESTAR 1.1 l/ha + ELATUS PLUS 0.5l/ha et encore 47% d’efficacité (cdef) et 73.9 
+q/ha (bcdefg) pour UNIVOQ 1 l/ha. 
+Plusieurs projets fongicides en cours de développement ont été testés dans ces mêmes essais. 
+Parmi eux, les modalités à base de pydiflumétofène (ADEPYDIN © SYNGENTA) se distinguent 
+particulièrement, atteignant 71% d’efficacité et 88.7 q/ha pour APN04 2l/ha. L’évaluation de cette 
+substance est en cours au niveau européen, une première formulation pourrait être autorisée au 
+plus tôt en 2026. L’association pydiflumétofène + fenpicoxamide se montre particulièrement 
+prometteuse, avec 76% d’efficacité, dépassant d’une dizaine de quintaux supplémentaires les 
+meilleures solutions disponibles testées. 
+Ces conclusions de 2024 se voient consolidées par l’analyse des regroupements d’essais réalisés 
+par ARVALIS. 
+ 
+ 
+
+
+PDF_PAGE=8
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+8l12 
+Efficacité des substances actives sur la rouille brune  
+Les conditions de l’année 2024 ont également été favorables à une forte pression rouille brune : 
+ses symptômes se sont développés sur l’ensemble des régions quand la septoriose n’avait pas 
+déjà grillé les feuilles. La nuisibilité moyenne observée sur le regroupement de deux essais 2024 
+est de 19.0 q/ha, entre la meilleure modalité traitée en T2 à BBCH 39 (DFE) et le témoin sans 
+protection. 
+Depuis deux années consécutives déjà, nous avions remarqué sur les essais d’ARVALIS, 
+essentiellement implantés dans le sud de la France, une baisse d’efficacité de certaines solutions 
+utilisées en référence dans nos protocoles. Ce constat se répète dans les deux essais 2024. Sur 
+la période 2015-2021, l’association benzovindiflupyr (SDHI, FRAC 7) + prothioconazole (triazole, 
+FRAC 3) de l’ELATUS ERA testé à 0.75 l/ha ou 0.7 l/ha avait toujours assuré – seule - un contrôle 
+très efficace des symptômes de rouille brune. Parfois égales à 100%, les efficacités moyennes 
+annuelles n’étaient jamais descendues en dessous de 92%. Sur les sept essais mis en place 
+depuis 2022 leurs efficacités plafonnent entre 65 et 77%. Constat parallèle pour l’association 
+SDHI bixafène + fluopyrame + prothioconazole du KARDIX qui, testé sur la période 2015-2021 à 
+0.9 l/ha, montrait une efficacité qualifiée de moyenne, comprise entre 82 et 88% (une fois en 
+2016 seulement 63%). Sur les trois dernières années les efficacités de KARDIX 0.75 l/ha 
+plafonnent à 50% en 2024 et seulement 33 et 38% les deux années précédentes. La brutalité de 
+la rupture constatée pour ces deux produits entre les deux périodes nous incite à suspecter une 
+progression, principalement entre 2021 et 2022, de la fréquence de souches brunes résistantes 
+aux SDHI, tout au moins dans nos essais du sud France. Toutefois, nous n’avons pas d’analyses 
+de souches sur ces situations d’essais pour le vérifier ; mais nous savons par ailleurs que des 
+mutations (notamment i87F) induisant une résistance aux SDHI ont déjà été détectées. 
+Dans le regroupement des deux essais 2024, les meilleures protections contre la rouille brune, 
+ont été obtenues par les modalités contenant des strobilurines (FRAC 11) : azoxystrobine 
+(AMISTAR 0.4 l/ha + partenaires de 89 à 91%) (MAXENTIS 94% a), pyraclostrobine (REVYSTAR 
+XL 0.9 + COMET 200 0.35 l/ha – 93% a), fluoxastrobine (KARDIX 0.8 l/ha + QUIBILIUM 0.4 l/ha – 
+93% a) ont été testées en association avec des partenaires. Toutes ont obtenues des efficacités 
+comprises entre 89 et 94%. La trifloxystrobine à 55g/ha restant en retrait à 65%.  
+Les meilleures efficacités sans strobilurine ont été obtenues par les associations : 
+méfentrifluconazole [triazole, FRAC 3] + fluxapyroxad [SDHI, FRAC 7] (REVYSTAR XL 0.9 l/ha – 
+91% a), prothioconazole + benzovindiflupyr [SDHI, FRAC 7] (ELATUS ERA 0.75 l/ha – 77% abc), 
+et prothioconazole [triazole, FRAC 3] + fluxapyroxad [SDHI, FRAC 7] (AVASTEL 1.25 l/ha – 76% 
+abcd). 
+Enfin les modalités prothioconazole seul [triazole, FRAC 3] (JO–O 0.6 l/ha - 45%), bixafen [SDHI, 
+FRAC 7] (KARDIX 0.75 l/ha – 50% ef), fenpicoxamide [QiI, FRAC 21] (SILVRON 0.55 l/ha + 
+JESSICO ONE 1.1 l/ha – 52% (def) et QUESTAR 1 l/ha + ELATUS PLUS 0.5 l/ha – 64% (bcdef) 
+ont eu des efficacités plus faibles. 
+ 
+ 
+
+
+PDF_PAGE=9
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+9l12 
+Fusarioses des blés : nombreux symptômes sur épis mais 
+assez peu de mycotoxines DON en 2024 
+De nombreux symptômes sur épis de type fusarioses, d’intensité moyenne à élevée selon les 
+régions, ont été observés cette année 2024 tant sur le blé tendre que sur le blé dur. Toutefois, 
+les analyses de grains faites sur les 95 parcelles de l’enquête champ blé tendre 2024, n’ont 
+montré qu’une faible proportion de parcelles dépassant les seuils de mycotoxines fixés par le 
+règlement européen : 4% de parcelles au-dessus de 1000 ppb déoxynivalénol (DON) et 2% 
+dépassant le seuil de 100 ppb de zéaralénone. En parallèle, sur les mêmes parcelles, les analyses 
+qPCR réalisées par le laboratoire GénoPav d’ARVALIS ont mis en évidence des quantités 
+particulièrement importantes d’ADN de Fusarium graminearum mais surtout une dominante de 
+Microdochium spp. Il faut remonter à 2016 pour retrouver une tendance analogue. Les 
+conditions 2024 semblent avoir été plus favorables au développement de Microdochium spp. 
+qu’à celui de Fusarium graminearum. Les symptômes sur épis des deux espèces sont difficiles à 
+distinguer, cependant, contrairement aux Fusarium qui produisent des mycotoxines DON, 
+Microdochium spp. n’en produit pas mais il est nuisible sur le rendement. En effet, sur quelques 
+essais où ces analyses qPCR sont disponibles sur plusieurs modalités, il a été mis en évidence 
+pour chaque lieu, de fortes corrélations entre la quantité d’ADN de Microdochium spp. mesurée 
+et la perte de rendement. La nuisibilité observée avec le plus fort niveau de contamination en 
+Microdochium spp. a pu atteindre 25 q/ha, pour des contaminations proches de la moyenne les 
+pertes varient entre 5 et 10 q/ha. 
+ 
+Orge d’hiver : forte pression Ramulariose en 2024 avec 
+parfois de la rouille naine  
+En moyenne, sur neuf essais sur variété KWS FARO, sensible à la rouille naine et à la 
+rhynchosporiose, la nuisibilité est estimée à près de 17 q/ha avec un poids du T1 de 3 q/ha. 
+Repérée pour la première fois en France en 2002 par ARVALIS, la ramulariose était restée 
+relativement discrète ces dernières années. Avec le remplacement de variétés brassicoles moins 
+sensibles par la variété KWS FARO, recommandée par les malteurs, la ramulariose s’était déjà fait 
+remarquer l’an dernier avec une pression moyenne dans la moitié Nord de la France et forte dans 
+le Sud-Ouest. Ce changement variétal, conjugué avec un climat 2024 favorable à la maladie, a 
+vu se généraliser des symptômes de forte intensité sur l’ensemble du territoire, et de moyenne 
+intensité en Bretagne et Poitou-Charentes. En quelques jours les feuilles présentant des 
+symptômes peuvent devenir totalement sénescentes :la nuisibilité de la ramulariose est donc 
+importante : 15 q/ha en moyenne et jusqu’à 30 quintaux, en situation à dominante ramulariose 
+(synthèse de 146 essais ARVALIS orge hiver 2007-2024). 
+Sur deux essais (18, 51) avec une forte pression ramulariose à partir de l’épiaison et avec présence 
+de rouille naine en début de montaison, on observe une nuisibilité de 30 q/ha. Dans ces 
+situations l’association en T2 de méfentrifluconazole + prothioconazole [triazoles, FRAC 3] + 
+pyraclostrobine [strobilurine, FRAC 11] (ISIX 0.7 + CURBATUR 0.35) apporte une efficacité 
+ramulariose de 20 points supérieure à l’association KARDIX 0.7 + QUIBILIUM 0.35. Dans ces 
+mêmes situations, l’apport d’un multisite folpel à 600 g/ha sur une base KARDIX 0.7 est largement 
+bénéfique à la fois en efficacité (+23 points) et en rendement (+3 q/ha significatif). Sur une variété 
+très cultivée comme KWS FARO et très sensible à la rouille naine et à la ramulariose, nous 
+préconisons de basculer la strobilurine du T2 sur le T1 pour assurer une bonne efficacité vis-à-vis 
+de la rouille naine. De plus, sur le T2 à base de SDHI+IDM, il faudra compléter par du folpel à la 
+place de la strobilurine. 
+On peut également juger de l’apport d’une solution en cours de développement FB1806 
+(pydiflumetofène + prothioconazole) avec une efficacité ramulariose de 97% et avec un gain de 
+rendement significatif de 12.4 q/ha par rapport à la solution actuelle KARDIX 0.7+SESTO 1. 
+
+
+PDF_PAGE=10
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+10l12 
+La bonne efficacité du folpel sur la ramulariose est confirmée sur le regroupement de trois essais 
+2023-2024. Seule une base MADISON 0.7 l/ha a montré 47% d’efficacité sur ramulariose, l’ajout 
+de 1.2 l/ha de SESTO a fait significativement progresser cette efficacité de 17 points pour 
+atteindre 64% (a). Appliqué seul en T2 l’association prothioconazole + fluxapyroxad (AVASTEL 
+0.9 l/ha) a montré une efficacité de 64% (a) sur la ramulariose ; l’efficacité progresse de 8 points 
+(72%) avec une application complémentaire de SESTO 1.2 l/ha à BBCH 59-61. 
+ 
+Une évolution limitée de la gamme de fongicides disponibles 
+pour le printemps 2025  
+Concernant les matières actives fongicides disponibles pour la protection des céréales au 
+printemps 2025 aucun changement n’est à signaler. Les matières actives arrivées au terme de 
+leur période d’approbation ont été réapprouvées, jusqu’au 31 octobre 2039 pour le folpel et la 
+métrafénone.  
+Les évaluations des nouvelles substances actives candidates, notamment le pydiflumetofène et 
+le méthyltetraprole se poursuivent. Au délai qui nous sépare de la décision de leur approbation 
+s’ajoutera celui nécessaire à l’obtention de l’autorisation de mise sur le marché des formulations. 
+Nous signalons l’autorisation de mise au marché récente et le lancement de quatre nouvelles 
+formulations fongicides associant des matières actives déjà approuvées : 
+ADAMA lance trois nouveaux fongicides céréales : FORAPRO (AMM 2240001) associe un amine 
+et un triazole fenpropidine 250 g + prothioconazole 175 g/l. ; AVASTEL (AMM 2240236) 
+composé d’un SDHI (FRAC 7) et un triazole (FRAC 3) : fluxapyroxad 75 g/l + prothioconazole 150 
+g/l ; MAXENTIS (AMM 2230815) à base de strobilurine (FRAC 11) et d’un triazole azoxystrobine 
+200 g/l + prothioconazole 150 g/l 
+LIFE SCIENTIFC lance LS PROTIM (AMM 2240545) associant deux triazoles metconazole 48g/l + 
+prothioconazole 100g/l autorisé sur les usages blé septoriose et rouilles.  
+Nous pouvons aussi mentionner deux autres projets proches de leur terme, pour lesquels les 
+firmes attendent être notifiées de l’autorisation de mise sur le marché d’ici le printemps 2025 : 
+• BASF pour une association des deux triazoles (FRAC 3) : méfentrifluconazole 50 g/l + 
+prothioconazole 95 g/l. 
+• SYNGENTA pour une association d’un triazole (FRAC 3) et d’une strobilurine (FRAC 11) : 
+difénoconazole 125 g/l + azoxystrobine 125 g/l 
+Aucune nouvelle spécialité de biocontrôle n’est venue enrichir la gamme fongicides céréales 
+depuis le l’autorisation de mise sur le marché en 2023 de l’AQUICINE DUO de SYNGENTA 
+(soufre 600 g/l + phosphonates de potassium 300 g/l), précédée en 2021 de celle du 
+PYGMALION de De Sangosse (phosphonates de potassium 755 g/l). Toutes deux poursuivent 
+leur développement. 
+Dans ce contexte de ralentissement de l’innovation fongicide, les propositions commerciales de 
+packs groupant deux produits fongicides complémentaires restent nombreuses. 
+ 
+ 
+
+
+PDF_PAGE=11
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+11l12 
+ANNEXE 
+Recommandations pour ralentir la progression des résistances aux fongicides 
+D’après la note commune 2024 INRAE, Anses, ARVALIS 
+Observer la résistance aux fongicides des céréales et formuler des recommandations adaptées 
+pour en retarder l’émergence et la progression. 
+ 
+Nos recommandations visent en première intention à limiter la pression de maladie en 
+encourageant le recours à la prophylaxie, aux variétés résistantes et aux outils d’aide à la 
+décision, pour limiter le recours aux traitements et leurs effets non-intentionnels. 
+• 
+Préférer des variétés peu sensibles aux maladies, en priorisant la résistance aux maladies 
+ayant le plus d’impact sur le rendement, ou sur la qualité sanitaire et/ou permettant de 
+réduire l’usage des fongicides. Le recours à des variétés résistantes à la fois à la rouille 
+jaune et à la septoriose, permet par exemple de supprimer systématiquement le premier 
+traitement des blés et ainsi de limiter la pression de sélection exercée par les fongicides. 
+• 
+Diversifier les variétés à l’échelle de l’exploitation, de la microrégion et d’une année sur 
+l’autre pour favoriser la durabilité des résistances génétiques et opposer des barrières à 
+la dispersion des résistances aux fongicides. 
+• 
+Privilégier les pratiques culturales permettant de réduire le risque parasitaire, 
+notamment en limitant l’inoculum primaire (ex : rotation, labour, date de semis, gestion 
+des repousses de céréales notamment dans l’interculture…) ou la progression de la 
+maladie (densité, azote). 
+• 
+Ne traiter que si nécessaire, en fonction du climat, des conditions de culture, des 
+prédictions des modèles et des observations au champ. 
+ 
+Lorsque traiter est nécessaire : 
+• 
+Raisonner le positionnement des interventions en fonction du développement des 
+maladies grâce à des méthodes fiables d’observation et/ou de prévision du 
+développement de l’épidémie. 
+• 
+Limiter le nombre d’applications avec des substances actives de la même famille 
+(caractérisées généralement par une résistance croisée positive) au cours de la même 
+campagne. De même, dans le cas où une même substance active peut être utilisée en 
+traitement de l’épi et en traitement des semences, éviter si possible de cumuler deux 
+traitements avec la même molécule. 
+• 
+Diversifier les modes d’action en alternant ou en associant les substances actives dans 
+les programmes de traitements, pour minimiser le risque de développement de 
+résistance. 
+• 
+Recourir lorsque cela est possible et utile aux fongicides multisites, moins susceptibles 
+de sélectionner des populations résistantes, en particulier sur septoriose. 
+• 
+Limiter de préférence l’utilisation des SDHI, des QiI et des QoI à une seule application 
+par campagne.  
+• 
+Éviter de recourir au même IDM, plus d’une fois par campagne pour prévenir la 
+résistance et en leur associant des molécules à mode d’action différent.  
+• 
+S’agissant des traitements de semences avec un SDHI, dès lors qu’il est revendiqué pour 
+leur usage une activité sur les maladies foliaires, ils ne doivent pas être suivis d’une 
+application foliaire fongicide contenant également un SDHI. 
+
+
+PDF_PAGE=12
+Dossier de presse « Lutte contre les maladies des céréales à paille » - 21 novembre 2024  
+12l12 
+ 
+ 
+ 
+i SDHI désigne Succinate DésHydrogènase Inhibitors (inhibiteurs en français). Les substances 
+actives de ce groupe perturbent la division cellulaire du champignon pathogène en 
+interagissant avec cette enzyme. Les principaux représentants sont le fluopyrame, le bixafène, 
+le benzovindiflupyr. 
+       
+ii IDM un Inhibiteur de DéMéthylation et la famille de substances fongicides qui partagent ce 
+mode d’action. Les triazoles en sont les principaux représentants. 

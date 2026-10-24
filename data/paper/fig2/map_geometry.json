@@ -1,0 +1,19 @@
+{
+  "projection": "EPSG3035",
+  "extent": [
+    2956678.3421444916,
+    5751470.926417658,
+    2091402.9612057824,
+    4170455.9812138695
+  ],
+  "sites_retained": 128,
+  "geographical_scale": false,
+  "coordinates": "original retained source locations; no interpolation or jitter",
+  "panels": {
+    "a": "all retained source locations",
+    "b": "assessment counts by season and source",
+    "c": "native disease-score distribution; counts",
+    "d": "unique assessment dates per field-season"
+  },
+  "count_grain": "one field/date/source-native-leaf assessment; no duplication across evaluation designs"
+}

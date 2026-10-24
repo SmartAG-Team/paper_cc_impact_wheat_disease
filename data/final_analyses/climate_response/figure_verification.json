@@ -1,0 +1,126 @@
+[
+  {
+    "figure": "fig3",
+    "width_cm": 19.0,
+    "font_sizes_pt": [
+      12.0
+    ],
+    "visible_text_outside_canvas": [],
+    "boxed_panels": true,
+    "png_pixels": [
+      2244,
+      2149
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "latitude_gap_checks": [
+      {
+        "period": "2031-2060",
+        "scenario": "ssp126",
+        "masked_interior_latitudes": [
+          62.5
+        ],
+        "line_and_ribbon_gaps_verified": true,
+        "isolated_supported_latitudes": [
+          63.5
+        ],
+        "isolated_point_marker_visible": true,
+        "marker_size_pt": 2.5
+      },
+      {
+        "period": "2031-2060",
+        "scenario": "ssp245",
+        "masked_interior_latitudes": [
+          62.5
+        ],
+        "line_and_ribbon_gaps_verified": true,
+        "isolated_supported_latitudes": [
+          63.5
+        ],
+        "isolated_point_marker_visible": true,
+        "marker_size_pt": 2.5
+      },
+      {
+        "period": "2031-2060",
+        "scenario": "ssp585",
+        "masked_interior_latitudes": [
+          62.5
+        ],
+        "line_and_ribbon_gaps_verified": true,
+        "isolated_supported_latitudes": [
+          63.5
+        ],
+        "isolated_point_marker_visible": true,
+        "marker_size_pt": 2.5
+      },
+      {
+        "period": "2071-2100",
+        "scenario": "ssp126",
+        "masked_interior_latitudes": [
+          62.5
+        ],
+        "line_and_ribbon_gaps_verified": true,
+        "isolated_supported_latitudes": [
+          63.5
+        ],
+        "isolated_point_marker_visible": true,
+        "marker_size_pt": 2.5
+      },
+      {
+        "period": "2071-2100",
+        "scenario": "ssp245",
+        "masked_interior_latitudes": [
+          62.5
+        ],
+        "line_and_ribbon_gaps_verified": true,
+        "isolated_supported_latitudes": [
+          63.5
+        ],
+        "isolated_point_marker_visible": true,
+        "marker_size_pt": 2.5
+      },
+      {
+        "period": "2071-2100",
+        "scenario": "ssp585",
+        "masked_interior_latitudes": [
+          62.5
+        ],
+        "line_and_ribbon_gaps_verified": true,
+        "isolated_supported_latitudes": [
+          63.5
+        ],
+        "isolated_point_marker_visible": true,
+        "marker_size_pt": 2.5
+      }
+    ],
+    "ssp_colors": [
+      "#0072B2",
+      "#E69F00",
+      "#D55E00"
+    ]
+  },
+  {
+    "figure": "fig4",
+    "width_cm": 19.0,
+    "font_sizes_pt": [
+      12.0
+    ],
+    "visible_text_outside_canvas": [],
+    "boxed_panels": true,
+    "png_pixels": [
+      2244,
+      1830
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ],
+    "gcm_colors": [
+      "#0072B2",
+      "#D55E00",
+      "#009E73"
+    ]
+  }
+]

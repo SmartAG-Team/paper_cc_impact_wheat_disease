@@ -1,0 +1,130 @@
+{
+  "status": "passed",
+  "folds": 20,
+  "assessments_per_design": 2017,
+  "maximum_absolute_prediction_error": 0.0,
+  "refitted": false,
+  "information": "Strictly earlier own-field disease; query-day and later disease withheld",
+  "records": [
+    {
+      "fold": "temporal2015",
+      "evaluation": "temporal",
+      "assessments": 425,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "temporal2016",
+      "evaluation": "temporal",
+      "assessments": 435,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "temporal2017",
+      "evaluation": "temporal",
+      "assessments": 426,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "temporal2018",
+      "evaluation": "temporal",
+      "assessments": 401,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "temporal2019",
+      "evaluation": "temporal",
+      "assessments": 330,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial0",
+      "evaluation": "spatial_50km",
+      "assessments": 144,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial1",
+      "evaluation": "spatial_50km",
+      "assessments": 115,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial2",
+      "evaluation": "spatial_50km",
+      "assessments": 166,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial3",
+      "evaluation": "spatial_50km",
+      "assessments": 51,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial4",
+      "evaluation": "spatial_50km",
+      "assessments": 132,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial5",
+      "evaluation": "spatial_50km",
+      "assessments": 252,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial6",
+      "evaluation": "spatial_50km",
+      "assessments": 133,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial7",
+      "evaluation": "spatial_50km",
+      "assessments": 103,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial8",
+      "evaluation": "spatial_50km",
+      "assessments": 190,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial9",
+      "evaluation": "spatial_50km",
+      "assessments": 97,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial10",
+      "evaluation": "spatial_50km",
+      "assessments": 140,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial11",
+      "evaluation": "spatial_50km",
+      "assessments": 164,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial12",
+      "evaluation": "spatial_50km",
+      "assessments": 118,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial13",
+      "evaluation": "spatial_50km",
+      "assessments": 87,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "fold": "spatial14",
+      "evaluation": "spatial_50km",
+      "assessments": 125,
+      "maximum_absolute_error": 0.0
+    }
+  ]
+}

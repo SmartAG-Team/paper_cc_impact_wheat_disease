@@ -1,0 +1,4 @@
+source,variable,replaced_days,policy
+MET_EIREANN,precipitation_mm,730,measured complete UTC-day total precipitation
+MET_EIREANN,rain_mm,714,station total; Tmin>2C liquid assumption or original reanalysis liquid/total phase ratio; otherwise fallback
+MET_EIREANN,rain_hours_gt_0_1mm,627,"complete measured hourly support under warm-liquid assumption, or zero measured total; otherwise original duration"

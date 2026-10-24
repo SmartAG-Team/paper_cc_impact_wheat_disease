@@ -1,0 +1,52 @@
+{
+  "registered_utc": "2026-10-22T04:15:36.821628+00:00",
+  "changed": "Only new independently qualified Irish station precipitation; same conditional-head recipe",
+  "weather_selection": "All 730 strictly eligible measured station total-precipitation days across five field-seasons; no source selection by model errors or performance",
+  "liquid_precipitation": "Existing phase-assisted conversion or explicit fallback; total precipitation is not relabeled measured liquid rain",
+  "meteorology": "Original temperature/humidity and all other nonprecipitation numerical inputs preserved",
+  "recipe": "Original 37-column reanalysis process component; 53-column first-field station head; 68-column event-station head when any strictly earlier field history exists; final 50:50",
+  "component_history_spec": {
+    "structure": "field_split"
+  },
+  "ensemble": {
+    "members": 20,
+    "fraction": 0.8,
+    "seed": 20261022
+  },
+  "data_quality_correction_independent_of_model_performance": true,
+  "environment": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "hyperparameter_search": false,
+  "independent_external_validation": false,
+  "publication_model_promoted": false,
+  "source_sha256": {
+    "data/disease_improvement/station_preferred_ie_20261022/manifest.json": "9b09255db2452edc2c08e304f06950a565f41ac8bcfa9cf0ed2497e16f209908",
+    "data/disease_improvement/station_preferred_ie_20261022/READY.json": "22fee394e905dd11f143d77e25164d490ccdbe1c3081fed9e3ce8d345c82611d",
+    "data/disease_improvement/station_preferred_ie_20261022/predictors.npz": "21e19e7c44e0dcbde5b063010916164944f65e2c38c82547997a786a051fc748",
+    "data/disease_improvement/station_preferred_ie_20261022/daily_weather.parquet": "b95abd6f51558444a8e902cc10e5afba4a3776ef5bfe1f076b764000ea11bbda",
+    "outputs/disease_improvement/knmi_station_candidate_20261022/training_observation_ledger.csv": "3f7702331f878f5fbe0adc5565f7b62c6f6fb158d5f8e98024aa10190ce37a36",
+    "outputs/disease_improvement/knmi_station_candidate_20261022/predictors.npz": "644c0f59299fd1940e088e8cbd636e461f67585fa5b68aa737a10e34b0fabbd6",
+    "outputs/disease_improvement/knmi_station_candidate_20261022/split_membership.json": "d90660aee25b5566f8b55482614557d34df4e2f0fd61dcc87734b4ce540a36c0",
+    "outputs/disease_improvement/history_interval_20261022/assessment_predictions.csv": "b433c03b84664fb0b95bbb709d72337e8e6794aa79f079722a8919935055788e",
+    "outputs/disease_improvement/history_interval_20261022/spatial_predictions.csv": "d9ec60bd9243dc2f62ecf7856c0e9753fa7146c03843dc0356736782588c5683",
+    "outputs/disease_improvement/history_interval_20261022/verification.json": "eedae180ca125578a4fdff2cc4f165e39cd3e1e7bdf9ee17614156a34ec0b101",
+    "outputs/disease_improvement/history_interval_20261022/fitted_candidate.joblib": "fb574152f7553d4f5e65bb3693c0c092df60610742cfa6fb52771f0057e82c28",
+    "outputs/disease_improvement/history_interval_20261022/fitted_candidate_lock.json": "11c28bde2e27b6c675b5432ef30801d3f60486b9eb3c8de644a3051458995ec8"
+  },
+  "code_sha256": {
+    "analysis/disease_improvement/irish_station_experiment.py": "7210fc965137d3a20cecc988cbace485e58f8383f7e11e41d8b1860a568e14fb",
+    "analysis/disease_improvement/models.py": "d3cdfa62f39e55f88c6fdef24d35c161ab871a81a1c66d5bcd1e518c87bddd81",
+    "analysis/disease_improvement/robust_models.py": "c1a64ce5df948b40b8ed4b8a9952e2cf8dfe1eb32339cdf0ecc5297676c2d7b4",
+    "analysis/disease_improvement/history.py": "30cf82767c3a61f85d4fc1da50f1a6746349bb061981335232fcdf9c1e645cf7",
+    "analysis/disease_improvement/field_history_models.py": "14e1d82021c4493209bd17047a279f22ee0fc1c94df023ff463606247140c5d1",
+    "analysis/disease_improvement/history_interval_hybrid.py": "cf4b29d5e29bf1b5b09490f35bc553b62e912b06a382523cdb5d22ab2bdc9764",
+    "analysis/disease_improvement/infection_event_experiment.py": "29cafc4b96157b4b5d73e58bec9d17dcf92739c005734d7e13046e75d32ccf43",
+    "analysis/disease_improvement/evaluation.py": "c121e9560a573042cea8fdb1882ca3c6fdaff184b4237e52b70e0a17fb241233",
+    "analysis/disease_improvement/station_candidate.py": "1072c41c7c07032e85f9cbf803b82ae2ab69f99a0e86a9b356bfaea784ae357d",
+    "analysis/final_study/metrics.py": "da1665481f45f131509d730f19693eefb3d8431bb44a1745d0db99f376158ffb"
+  }
+}

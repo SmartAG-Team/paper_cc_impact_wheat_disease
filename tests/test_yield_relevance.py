@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from model.seasonal_septoria import yield_relevance as y
+from models.seasonal_septoria import yield_relevance as y
 
 
 def test_earlier_damage_has_larger_yield_effect_despite_same_final_damage():

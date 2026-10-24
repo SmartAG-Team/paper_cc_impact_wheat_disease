@@ -1,0 +1,44 @@
+{
+  "width_cm": 19.0,
+  "height_cm": 18.0,
+  "projection": "EPSG:3035",
+  "extent": [
+    2499480.9891794007,
+    7683503.584602583,
+    1095945.1535366324,
+    5258145.032726641
+  ],
+  "extent_preserved_from_previous_map": true,
+  "cells_per_scenario": 14941,
+  "native_cell_polygons": 14941,
+  "cell_centres_inside_extent": 14941,
+  "cell_footprints_inside_extent": 14941,
+  "map_width_cm": 8.99,
+  "map_height_cm": 7.217981061068977,
+  "map_axes": 4,
+  "shared_geographical_scales": 0,
+  "shared_colourbars": 1,
+  "categorical_legends": 1,
+  "font_pt": 12,
+  "frame_linewidth_pt": 0.8,
+  "colour_limits_days": [
+    -12,
+    12
+  ],
+  "panel_roles": {
+    "a": "ssp126_mean_change",
+    "b": "ssp245_mean_change",
+    "c": "ssp585_mean_change",
+    "d": "ssp585_direction_agreement"
+  },
+  "agreement_scenario": "ssp585",
+  "agreement_required_members": 3,
+  "agreement_category_counts": {
+    "all_3_increase": 9605,
+    "all_3_decrease": 1895,
+    "mixed_or_zero": 3405,
+    "unavailable": 36
+  },
+  "agreement_is_probability": false,
+  "interpolation": "none"
+}

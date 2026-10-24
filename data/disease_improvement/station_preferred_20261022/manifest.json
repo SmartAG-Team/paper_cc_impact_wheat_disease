@@ -1,0 +1,70 @@
+{
+  "rows": 71720,
+  "sites": 132,
+  "source_experiment": "outputs/disease_improvement/station_repairs_20261022_v4",
+  "dataset_sha256": "473d4748a43023d6d2963c516b442325a057edf693a18c426f79ea3f7821bbd2",
+  "experiment_registration_sha256": "e20b7af0aadddcf8a593181c601316f8a605d0b2d71334538a20f04c808eb136",
+  "observations_removed_this_stage": 0,
+  "station_preference": true,
+  "measured_station_variables": [
+    "precipitation_mm",
+    "tmean_c",
+    "tmin_c",
+    "tmax_c",
+    "rh_mean_pct",
+    "rh_hours_ge_90pct"
+  ],
+  "rain_mm": "Station-total-assisted liquid estimate: Tmin>2C/no observed solid assumes liquid; otherwise original reanalysis phase ratio; unknown phase fallback.",
+  "fallback": "Original reanalysis where no eligible station measurement; NOAA rainfall disabled due condition-code ambiguity/dry-only strict support.",
+  "origin_columns": [
+    "origin_precipitation_mm",
+    "origin_rain_mm",
+    "origin_tmean_c",
+    "origin_tmin_c",
+    "origin_tmax_c",
+    "origin_rh_mean_pct",
+    "origin_rh_hours_ge_90pct"
+  ],
+  "origin_counts": {
+    "origin_precipitation_mm": {
+      "reanalysis": 57094,
+      "DWD": 14626
+    },
+    "origin_rain_mm": {
+      "reanalysis": 57286,
+      "DWD_phase_assisted": 14434
+    },
+    "origin_tmean_c": {
+      "reanalysis": 56874,
+      "DWD": 14846
+    },
+    "origin_tmin_c": {
+      "reanalysis": 56874,
+      "DWD": 14846
+    },
+    "origin_tmax_c": {
+      "reanalysis": 56874,
+      "DWD": 14846
+    },
+    "origin_rh_mean_pct": {
+      "reanalysis": 56878,
+      "DWD": 14842
+    },
+    "origin_rh_hours_ge_90pct": {
+      "reanalysis": 56878,
+      "DWD": 14842
+    }
+  },
+  "units": {
+    "tmean_c": "degC",
+    "tmin_c": "degC",
+    "tmax_c": "degC",
+    "rh_mean_pct": "percent",
+    "rh_hours_ge_90pct": "hours",
+    "precipitation_mm": "mm total water equivalent",
+    "rain_mm": "mm estimated liquid",
+    "rain_hours_gt_0_1mm": "hours; original forcing unless measured support permits replacement"
+  },
+  "temporal_use": "Use dates earlier than assessment date only; archived final QC does not establish real-time publication latency.",
+  "operational_or_publication_model_promoted": false
+}

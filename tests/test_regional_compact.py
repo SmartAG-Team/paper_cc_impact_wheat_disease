@@ -5,10 +5,10 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from model.seasonal_septoria.core import Parameters,simulate_season
-from model.seasonal_septoria.rolling_diagnostics import simulate_rolling_diagnostics
-from model.seasonal_septoria.regional import simulate_grid_seasons
-from model.seasonal_septoria.regional_compact import simulate_grid_seasons_compact
+from models.seasonal_septoria.core import Parameters,simulate_season
+from models.seasonal_septoria.rolling_diagnostics import simulate_rolling_diagnostics
+from models.seasonal_septoria.regional import simulate_grid_seasons
+from models.seasonal_septoria.regional_compact import simulate_grid_seasons_compact
 
 
 @pytest.mark.parametrize('step',[.25,.125])
@@ -33,7 +33,7 @@ def test_rolling_daily_events_equal_full_origin_flows_and_visible_states(step):
 
 @pytest.mark.parametrize('spring',[False,True])
 def test_complete_and_incomplete_regional_cases_preserve_all_scientific_outputs(spring):
-    calibration=json.loads((Path(__file__).parents[1]/'process_model/parameters/calibration.json').read_text())
+    calibration=json.loads((Path(__file__).parents[1]/'data/phenology_parameters/calibration.json').read_text())
     dates=pd.date_range('2018-01-01','2019-12-31')
     t=np.vstack([12+9*np.sin(2*np.pi*(dates.dayofyear-100)/365),np.zeros(len(dates))])
     tx=t+5;h=np.full_like(t,87.);rain=np.full_like(t,1.5)

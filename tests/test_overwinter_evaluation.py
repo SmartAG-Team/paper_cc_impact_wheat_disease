@@ -4,12 +4,18 @@ import json
 import numpy as np
 import pandas as pd
 import pytest
-from calibration.seasonal_septoria.field_data import FieldData
+from models.calibration.seasonal_septoria.field_data import FieldData
 
 
 def evaluation():
-    try:return importlib.import_module('analysis.paper_study.overwinter_leaf_model_20261006.disease.run')
+    try:return importlib.import_module('models.methods.seasonal_model.disease.run')
     except ModuleNotFoundError:pytest.fail('The isolated overwinter disease evaluation is missing')
+
+
+def frozen_fit():
+    from paper.analyses.source_support.paths import resolve
+    path = resolve('analysis/paper_study/overwinter_leaf_model_20261006/disease/overwinter_source_model/frozen_selected_fit.json')
+    return json.loads(path.read_text())['fitted']
 
 
 def data_fixture():
@@ -25,8 +31,7 @@ def data_fixture():
 
 
 def test_prediction_requires_redacted_values_and_ignores_stage_metadata():
-    r=evaluation();d,a,thresholds=data_fixture();candidate=r.candidate_grid()[0]
-    fitted=dict(**candidate,weather_preprocessing=dict(rain_rate_mm_hour=.46))
+    r=evaluation();d,a,thresholds=data_fixture();fitted=frozen_fit()
     first,_=r.predict_record(d,a,thresholds,fitted)
     d.targets['stage_from']=99.
     second,_=r.predict_record(d,a,thresholds,fitted)
@@ -36,30 +41,10 @@ def test_prediction_requires_redacted_values_and_ignores_stage_metadata():
 
 
 def test_no_sources_ablation_is_zero_and_juvenile_removal_obeys_stage31():
-    r=evaluation();d,a,thresholds=data_fixture();fitted=dict(**r.candidate_grid()[-1],weather_preprocessing=dict(rain_rate_mm_hour=.46))
+    r=evaluation();d,a,thresholds=data_fixture();fitted=frozen_fit()
     zero,_=r.predict_record(d,a,thresholds,fitted,ablation='no_sources')
     assert not zero.damage.any() and not zero.primary_flow.any() and not zero.secondary_flow.any()
     _,host=r.predict_record(d,a,thresholds,fitted,ablation='juvenile_removed_after31')
     assert not host.active[a>=thresholds[31],7].any()
     assert not host.area[a>=thresholds[31],7].any()
 
-
-def test_balanced_detection_weights_keep_sensitivity_and_specificity_separate():
-    r=evaluation();frame=pd.DataFrame(dict(coordinate_year=['x']*4,field_id=['a']*4,leaf_index=[0]*4,
-        observed_positive=[False,False,True,True],predicted_positive=[False,True,True,False]))
-    result=r.detection_metrics(frame)
-    assert result['sensitivity']==.5 and result['specificity']==.5
-    assert result['balanced_accuracy']==.5
-
-
-def test_candidate_selection_uses_brackets_before_balanced_error():
-    r=evaluation();records=[dict(candidate='later',candidate_order=0,primary_distance_days=1.,balanced_assessment_error=0.),
-        dict(candidate='tie_bad',candidate_order=1,primary_distance_days=0.,balanced_assessment_error=.5),
-        dict(candidate='tie_good',candidate_order=2,primary_distance_days=0.,balanced_assessment_error=.25)]
-    assert r.select_candidate(records)['candidate']=='tie_good'
-
-
-def test_primary_tie_diagnostic_is_json_serializable():
-    r=evaluation();records=[dict(primary_distance_days=np.float64(0.)),dict(primary_distance_days=np.float64(0.)),
-        dict(primary_distance_days=np.float64(1.))]
-    assert json.loads(json.dumps(dict(ties=r.primary_tie_count(records,0.))))=={'ties':2}

@@ -1,0 +1,10 @@
+Stage code,Threshold,Interpretation
+10,142.01,Lower visibility bound for final leaves and prior-day gate for the juvenile canopy.
+31,542.3,Starts juvenile withdrawal and the stem-extension diagnostic window.
+32,633.392,Ordered stage-only event gate.
+33,664.496,Ordered stage-only event gate.
+37,702.266,F1 visibility anchor; lower final leaves use rank-spaced offsets.
+39,807.799,F1 full unfolding; ends juvenile capacity and sets the unfolding span.
+51,986.65,Lower anchor for the derived flowering proxy.
+65,1165.93,Derived flowering proxy: C51 + 0.2317(C85 − C51); starts tissue integration.
+85,1760.39,Internal terminal gate; ends the season and tissue integration.

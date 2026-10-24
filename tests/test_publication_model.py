@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from calibration.seasonal_septoria.field_data import FieldData
-from calibration.seasonal_septoria.structural import predict_canopy
-from calibration.seasonal_septoria.publication_model import predict_publication_model
+from models.calibration.seasonal_septoria.field_data import FieldData
+from models.calibration.seasonal_septoria.structural import predict_canopy
+from models.calibration.seasonal_septoria.publication_model import predict_publication_model
 
 
 def example():

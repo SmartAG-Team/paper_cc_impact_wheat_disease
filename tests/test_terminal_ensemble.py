@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from model.seasonal_septoria.core import Parameters,simulate_season
-from model.seasonal_septoria.terminal_ensemble import simulate_terminal_ensemble
+from models.seasonal_septoria.core import Parameters,simulate_season
+from models.seasonal_septoria.terminal_ensemble import simulate_terminal_ensemble
 
 
 @pytest.mark.parametrize('time_step',[.25,.125])

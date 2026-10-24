@@ -1,0 +1,44 @@
+{
+  "name": "sampled_sowing_date_adaptation_support_sensitivity",
+  "width_cm": 19.0,
+  "height_cm": 18.8,
+  "font_pt": 12,
+  "scenario": "ssp585",
+  "period": "2071-2100",
+  "model_count": 3,
+  "source_files": {
+    "support_sensitivity_fixed_shifts.csv": "4be8fa12f2790f860bce85ef2202fa1dac134e393b6222613ed4d58683e85c96",
+    "support_sensitivity_same_policy.csv": "4df0e560277163906be54a014750676ae48d620a9d252d993744e456ce768a05",
+    "support_sensitivity_policy_selection.csv": "33bf75bbb6869d6125cbb9146f4dfda611e62855ddf7aa2472c6943860c35a74",
+    "support_sensitivity_counts.csv": "99ce26337fd735d0f6cf3a8ff056759a30086bdec28d9d94861f7501a9755e15"
+  },
+  "panels": {
+    "a": "Future fixed sowing shifts under unchanged weather; own-window endpoint on both common-calendar and complete-season support; equal-GCM means and model min-max bands",
+    "b": "Fixed region-level leave-GCM-out choices trained separately on each support; each displayed choice agrees in all three held-GCM folds; caption gives retained cell counts",
+    "c": "Same complete-season-trained policy evaluated on complete-season support: affected-tissue proxy versus hot-day exposure tradeoff; equal-GCM means and min-max ranges"
+  },
+  "region_common_calendar_cells": {
+    "Atlantic": 8,
+    "Boreal": 13,
+    "Continental": 18,
+    "Mediterranean": 7,
+    "Steppic": 9
+  },
+  "region_complete_season_cells": {
+    "Atlantic": 8,
+    "Boreal": 13,
+    "Continental": 18,
+    "Mediterranean": 9,
+    "Steppic": 12
+  },
+  "limitations": [
+    "explicitly post-audit support-sensitivity extension; original preregistered strict analysis retained",
+    "shared-time endpoints remain available only on common-calendar support; same complete-trained policy compared across endpoints in source data",
+    "unbiased continental management inference not established",
+    "sparse regions retain unchanged sowing in the policy",
+    "model ranges are not confidence intervals",
+    "symptom-tissue proxy, not yield or a recommended agronomic practice"
+  ],
+  "caption": "(a) 2071\u20132100 SSP585 fixed sowing shifts under unchanged weather, expressed as changes in normalized affected-tissue days over each option\u2019s own GS65\u201385 window. Lines show equal means of three GCMs; bands show model minima\u2013maxima. (b) Regional leave-one-GCM-out choices trained separately on each support; each choice agrees across three folds. (c) The complete-season-trained policy evaluated on complete-season support, showing proxy changes and changes in GS65\u201385 days with Tmax >30\u00b0C; bars show model minima\u2013maxima. Complete-season support requires all five options to complete in both periods and all three GCMs, retaining 1,902/1,920 draw-years, 62 cells and 99.6407% of design weight. Nonempty common-calendar support retains 1,656 draw-years, 57 cells and 77.4551%. Retained cells (common-calendar/complete-season) are Atlantic 8/8, Boreal 13/13, Continental 18/18, Mediterranean 7/9 and Steppic 9/12. Sparse Pannonian and Unassigned regions retain unchanged sowing. Complete-season support sensitivity is post-audit; common-calendar support was preregistered. The same complete-trained policy changes the proxy by \u22122.109 own-window and \u22121.882 shared-time days on strict support, and \u22121.891 own-window days on broader support. Model ranges are not confidence intervals. Bounded sampled-design sensitivities and descriptive thermal exposures do not establish agronomic or yield optima.",
+  "builder_sha256": "206c7abfcc552508a43016b8d8ba45d8e44cc2c9f125f216fdedecc493cee302"
+}

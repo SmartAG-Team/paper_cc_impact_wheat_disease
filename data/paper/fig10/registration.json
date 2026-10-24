@@ -1,0 +1,2144 @@
+{
+  "registered_utc": "2026-10-23T19:13:47.581734+00:00",
+  "models": [
+    "ACCESS-CM2",
+    "MPI-ESM1-2-HR",
+    "MRI-ESM2-0"
+  ],
+  "scenario": "ssp585",
+  "reference_years": [
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "future_years": [
+    2071,
+    2072,
+    2073,
+    2074,
+    2075,
+    2076,
+    2077,
+    2078,
+    2079,
+    2080,
+    2081,
+    2082,
+    2083,
+    2084,
+    2085,
+    2086,
+    2087,
+    2088,
+    2089,
+    2090,
+    2091,
+    2092,
+    2093,
+    2094,
+    2095,
+    2096,
+    2097,
+    2098,
+    2099,
+    2100
+  ],
+  "shifts_days": [
+    -14,
+    -7,
+    0,
+    7,
+    14
+  ],
+  "varying_input": "calendar sowing date only; identical realized weather for all options within each season",
+  "immutable": "all host, phenology, disease, wetness, alignment and forcing parameters and source files",
+  "sampled_design": {
+    "spatial_draws": 64,
+    "unique_cells": 62,
+    "weights": "original area_mean_weight; duplicate draws retained",
+    "inference": "sampled-design sensitivities; continental management representativeness not established"
+  },
+  "calendar": {
+    "source_file": "wwh_rf_ggcmi_crop_calendar_phase3_v1.01.nc4",
+    "source_url": "https://zenodo.org/records/5062513",
+    "source_facts": "static multiyear representative planting/maturity dates at 0.5 degrees; spatial extrapolation and gap filling; winter/rainfed selection retained",
+    "scenario_bounds": "preserve baseline sowing calendar year, actual valid dates, date inside retained forcing, sowing before provider maturity; no clipping or wrapping",
+    "agronomic_bounds": "GGCMI does not provide an admissible local sowing-date range; +/-14 days is a predeclared bounded sensitivity, not an empirically verified feasible window",
+    "excluded_processes": [
+      "soil workability",
+      "soil-moisture establishment failure",
+      "winter kill",
+      "crop rotation constraints",
+      "local cultivar and yield optimization"
+    ]
+  },
+  "endpoint": {
+    "name": "GS65_85_lost_had3",
+    "units": "normalized affected-tissue days",
+    "whole": "own modeled GS65-85 window for each sowing option",
+    "shared": "intersection of all five GS65-85 windows on actual calendar dates within the same weather season; no extrapolation",
+    "shared_time_choice": "actual calendar dates, not shifted elapsed-sowing age, keep management contrasts under the identical weather sequence",
+    "interpretation": "post-latent symptom-tissue proxy; changes in tissue area and integration timing are not physiological or grain-yield benefits"
+  },
+  "common_support": "all five options valid with nonempty shared interval in both periods, then all three GCMs valid for the identical draw/reference-year; main endpoints use that single strict panel",
+  "policy": {
+    "selection": "leave one GCM out; one fixed regional shift selected using the equal mean of the other two GCM future whole-window proxy means",
+    "evaluation": "held-out GCM future contrast versus its unchanged sowing date, evaluated on the declared identical common-support panel",
+    "tie_break": "minimum absolute shift, then earlier signed shift; zero wins ties",
+    "minimum_unique_cells": 3,
+    "minimum_draw_years": 30,
+    "sparse_region_action": "retain fixed-shift sensitivity results; policy falls back to unchanged sowing",
+    "qualification": "within-scenario climate-model robustness, not independent field validation or a yield/economic optimum"
+  },
+  "tradeoffs": "modeled grain-fill duration, mean temperature, rainfall and count of Tmax>30 C days; descriptive exposures without a stress or yield response model",
+  "baseline_check": "unchanged 0-day whole-window outputs versus retained original 30-year attribution y00/y11 at absolute tolerance 1e-10",
+  "input_hashes": [
+    {
+      "path": "analysis/final_climate/__init__.py",
+      "sha256": "81ae103015b4724da2e56bbf8fd200757bb1e2f948f933b8110eaf7baf03bf84",
+      "bytes": 61
+    },
+    {
+      "path": "analysis/final_climate/__main__.py",
+      "sha256": "ebeb7cb34f6034155a853edc637bdb760bc98da0f2b4f26d2e0c238bd4718efb",
+      "bytes": 61
+    },
+    {
+      "path": "analysis/final_climate/alignment.py",
+      "sha256": "f39b64a25ab92690d79a0dd3e9fd694cfd6d883c8dbd91c1d806c46d0a008555",
+      "bytes": 5759
+    },
+    {
+      "path": "analysis/final_climate/kernel.py",
+      "sha256": "52a6d138826a455df9b5ce1c9dce794952065581af7c068351d3b40bbd2ad543",
+      "bytes": 8695
+    },
+    {
+      "path": "analysis/final_climate/run.py",
+      "sha256": "04084131e23fd2413e780d924839a8053fb71269ed2cba85dbd3c26e280bfec8",
+      "bytes": 16235
+    },
+    {
+      "path": "analysis/final_climate/summary.py",
+      "sha256": "b8646dd9c5cd761b4f216d883888cbd609774537344a3b900c4aa997296231ba",
+      "bytes": 11595
+    },
+    {
+      "path": "data/final_climate/alignment/ACCESS-CM2/ssp585/coefficients.parquet",
+      "sha256": "ba1699f4a28d8a02e11fb27f0d32454ab57059164de5b1b46a0a49635ea67bea",
+      "bytes": 4874165
+    },
+    {
+      "path": "data/final_climate/alignment/ACCESS-CM2/ssp585/receipt.json",
+      "sha256": "0a8a72a7478a00fa513c974353412a30b5e7cca036c8f01c186da5551acd07ae",
+      "bytes": 71085
+    },
+    {
+      "path": "data/final_climate/alignment/MPI-ESM1-2-HR/ssp585/coefficients.parquet",
+      "sha256": "5e4ba148aa0307592131fd16a8130f81bffa18c430dd693d7aa380029fd6663a",
+      "bytes": 4879420
+    },
+    {
+      "path": "data/final_climate/alignment/MPI-ESM1-2-HR/ssp585/receipt.json",
+      "sha256": "c9ee84e45b2d3a3a813f117409f8a4008bca89fcb20b4e9ebd6d14359edb7d59",
+      "bytes": 71181
+    },
+    {
+      "path": "data/final_climate/alignment/MRI-ESM2-0/ssp585/coefficients.parquet",
+      "sha256": "85b2927b3066ded6ef13a2888e9144e9ed712363d3bbbbece8ccab258b50f1fc",
+      "bytes": 4874514
+    },
+    {
+      "path": "data/final_climate/alignment/MRI-ESM2-0/ssp585/receipt.json",
+      "sha256": "185706d5b4c552a23f642f2f7482393771641afc1f9c2fbade3691fc9e3bf380",
+      "bytes": 71085
+    },
+    {
+      "path": "data/final_climate/calendars.parquet",
+      "sha256": "0a876eb6725dc141877a3d23f98e040fa8c6afb1046065bec624aff08207283b",
+      "bytes": 270324
+    },
+    {
+      "path": "data/final_climate/cells.parquet",
+      "sha256": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+      "bytes": 933487
+    },
+    {
+      "path": "data/final_climate/disease_parameters.json",
+      "sha256": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+      "bytes": 1216
+    },
+    {
+      "path": "data/final_climate/phenology_parameters.json",
+      "sha256": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+      "bytes": 3455
+    },
+    {
+      "path": "data/final_climate/spatial_draws.csv",
+      "sha256": "85ef36385df2bd52b3e161b432d52ce360698227fa7db049c806f6872d3f21f6",
+      "bytes": 21522
+    },
+    {
+      "path": "data/final_climate/stage_thresholds.json",
+      "sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4",
+      "bytes": 7482
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1990.json",
+      "sha256": "80a122c863071fbbba11d604a6c54d3f4b9823b7a0698d0b02ee9e39d43354bc",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1990.parquet",
+      "sha256": "32d3f31cbda48d4a5329c1b15f85847c51bd0ae12b773949163d01f62148fda2",
+      "bytes": 112292419
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1991.json",
+      "sha256": "b1b7e12e99de1f053221fafe526a6bda14e034a244521fe534e16c1e92116fdb",
+      "bytes": 1677
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1991.parquet",
+      "sha256": "a74f39c08cd8beed8f634e6ffbb37dd5dff73fe66603e3087fac37e8aeed6455",
+      "bytes": 112517050
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1992.json",
+      "sha256": "e76198936e0c0e00a1518ebabd793ed5ec1f757b4e8e0c9637d2a2e7bb94dc51",
+      "bytes": 1674
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1992.parquet",
+      "sha256": "effc312718cc6d44b1d9207805a56cfd04b502123a842e47e17d46dc30d9e828",
+      "bytes": 112926625
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1993.json",
+      "sha256": "31033dc8ea71e687ded76ddc605de81eb11ce0dcb3e803fa5c2f6b6ac745fbf1",
+      "bytes": 1669
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1993.parquet",
+      "sha256": "797ee60384030f1288f3e685f90ba84a5972ef76ae92e4f1ea080c012bf231f3",
+      "bytes": 112747103
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1994.json",
+      "sha256": "aa42fa95478f07430831ed41fbc9d383a3a965ae15364ebe656205f63b221d34",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1994.parquet",
+      "sha256": "f1eeacff0d65ce4789c00382ea89f171631ffaff1f7ba4b4fa1df600ce352b3d",
+      "bytes": 112539474
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1995.json",
+      "sha256": "851df6bf4fc47db1f8de67bf2449a5ab2b113bc8dbc76343019904cf9dd13078",
+      "bytes": 1677
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1995.parquet",
+      "sha256": "e143b0bffc7ad3432245591bc546296b9e879d7ff5883c280bec4e3c99aed369",
+      "bytes": 112233660
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1996.json",
+      "sha256": "66a0b02a19519e72dcf65450c3c6062fe4b598d2525e5885ac8a4f4a61700dd5",
+      "bytes": 1674
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1996.parquet",
+      "sha256": "00100a4a2c082ee82bf026aab55845fc05e92fbb1b0f43dded922b4794835069",
+      "bytes": 112283913
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1997.json",
+      "sha256": "c843eea8f2fab8e117f1ff1ef44913bb881796d3f110ca7ae40055351238f5a3",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1997.parquet",
+      "sha256": "bd0c9185c55a649c4ad2a009f632dce70e1f587218a0d2deae1215b6ad2dc9e5",
+      "bytes": 112744439
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1998.json",
+      "sha256": "90938e4592d4fffe833d2106f2caace0b52196e8f18fe608504b04f750e6b56b",
+      "bytes": 1677
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1998.parquet",
+      "sha256": "40d68bad603c37e2d6d8cc6fb9e751e05426e1fb084a4f8bb92648c8d6616c02",
+      "bytes": 112901750
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1999.json",
+      "sha256": "b75efaf00ce67cd393e1caac85bd88fbe6627bcefca9cb2358d6228ecd346e35",
+      "bytes": 1674
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/1999.parquet",
+      "sha256": "cedc52322b6b17a4efba2c974b5fb86655f6fc2affd9949196d14ec1b5f6e715",
+      "bytes": 112508939
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2000.json",
+      "sha256": "18cb8b2e6e9e977d72a9665a1fbe9036f275f05dadf9e5d40fea732118ee1ae0",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2000.parquet",
+      "sha256": "31fbceac55bf357e7290d89c5512ba6faf13c03bffe029d26c551f2cbab2a37a",
+      "bytes": 112759229
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2001.json",
+      "sha256": "87a652059958c904f5ebe9e1913ad67632bf9fe291356440d924de50e7270240",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2001.parquet",
+      "sha256": "a47b8aa747cdc941481191cd01f1657441569f206b0dcaf50c7f0cdbe5ba80fe",
+      "bytes": 112131940
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2002.json",
+      "sha256": "eae30acd044640a7d90141bb76396d29aab727481f561fef3c50b0cc5fa0f031",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2002.parquet",
+      "sha256": "3548fac1e8118df7fc69549278ebe78bb09bffe2549f94d1fdaea20288f459cc",
+      "bytes": 112639769
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2003.json",
+      "sha256": "ed29d380e103340f56270674c68ea79eb4acc83d5650940e13d29c46835b0156",
+      "bytes": 1674
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2003.parquet",
+      "sha256": "30ab47d05d8d26ef147f3f89a55dc37fccdcf24adf4dacb0a89486df8b265eb1",
+      "bytes": 112396579
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2004.json",
+      "sha256": "f0ff9aa72b87c87ed5ccfd300ec95ee50b79adf2747f3d8d167df439b17d8f1e",
+      "bytes": 1677
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2004.parquet",
+      "sha256": "0305786e8b86e18efd5e2ea2701f2e3cf1f70b36c37f01ee57a20a2ce2ebc75a",
+      "bytes": 112689497
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2005.json",
+      "sha256": "9acb2f992e7a25b1af46d0474d5d0bc86f5431b99a360bffc9c6714b3584293a",
+      "bytes": 1675
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2005.parquet",
+      "sha256": "f2d675c09ac5e9e938f3615bf3a57983affd5f874ef8dbe109fe4a33f2171938",
+      "bytes": 112213525
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2006.json",
+      "sha256": "20cf32c9d3793a06ba18e72f532205fc014c7ab9fb6c3c5f58f2efb8bfe1ebb9",
+      "bytes": 1677
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2006.parquet",
+      "sha256": "97819f4f7b615e555751280d38694304714576fdb261355f0090dd939a33a95f",
+      "bytes": 112395092
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2007.json",
+      "sha256": "9b5c9bbb4feae1c3e9e45371bf2f2b4ad269504774249e4e5203a89ae4299272",
+      "bytes": 1679
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2007.parquet",
+      "sha256": "9c0e11e3eba6c534dcf6610403a06c2c38d5a7a0e25faed16c17eaad309547cd",
+      "bytes": 112240673
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2008.json",
+      "sha256": "18b02f9bb67c3a65a91c387d25a91b75852b45e990963fbd6d18b5cb7b6efb39",
+      "bytes": 1674
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2008.parquet",
+      "sha256": "b71fa989531eb9d939e40d3ee3102213aea87aa6d2dd9d465fdcaba53fb6fe54",
+      "bytes": 113369926
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2009.json",
+      "sha256": "c7323ff620a059f17ac03f94b895a4bc9d8e47f42880548d66bf6fbae2ba60e0",
+      "bytes": 1679
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2009.parquet",
+      "sha256": "d8ddfc69c51b0b058e2701b6ae68d78cca76fea761a508223a78d8363e2c2ddf",
+      "bytes": 112342366
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2010.json",
+      "sha256": "c2a373454981b6a41dbd0545cf02601b0949761d52e9a040c920d02150031f9c",
+      "bytes": 1674
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2010.parquet",
+      "sha256": "259740a9551577fe559057cb4a24575072bc9cc34b341c786a98f7e0a804f07d",
+      "bytes": 112134974
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2011.json",
+      "sha256": "416d06dee5bcc1ad089a1cdb55c98624fb52fa2107cff25329e571ded93a7659",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2011.parquet",
+      "sha256": "fb8ede051217e36ae54f12c6d33bc2f026f58014d269ca352bc637ff292de307",
+      "bytes": 112611590
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2012.json",
+      "sha256": "7373dafb7c83af132c97809fb245958163543f46d9368ea7395285f6d1c4b302",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2012.parquet",
+      "sha256": "33f1c6179927055750be4daec295cc7a6c36f7f1e4122bd1403b459665a7088e",
+      "bytes": 113213863
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2013.json",
+      "sha256": "5966af9eabb63324d550fe4183b7b67030b856f0d86ccd2a43d7ce4071aa2f3e",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2013.parquet",
+      "sha256": "8107a49bac14bb1d79d0fa625a37b460be0fdb0848c73587fb380ac1a0c62aea",
+      "bytes": 112026346
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2014.json",
+      "sha256": "f298b515abdc7f01513f81a43e60567e6f32e83efe77ecfdad6fbea5a3bb980e",
+      "bytes": 1675
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/historical/2014.parquet",
+      "sha256": "d76bce5e49e4a1c05d519b80345b7b40bdcd237e952bbc8936b920bc09265533",
+      "bytes": 112758094
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2015.json",
+      "sha256": "c45efaea5666b8f46b93aa605df4e8456fdfc019d1fa81357199bc5cfda03612",
+      "bytes": 1657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2015.parquet",
+      "sha256": "f5a5b3b8fd4a119da3656015ed1267d868996e1b99620fde8612320f4340964b",
+      "bytes": 112363421
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2016.json",
+      "sha256": "da27602c50d5e9f4922bdbc0b8fd874b24a3d43f9cbdc147bf303b6319d62397",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2016.parquet",
+      "sha256": "0ce48a6ad711c0ec6ea1bd04f10bb9ba68c93565b40402118ef7aa9d84d85ede",
+      "bytes": 113252372
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2017.json",
+      "sha256": "020faf0df4f7fa6a94ce9187d68239228545ef787e12e295dd5973bf92cafe97",
+      "bytes": 1653
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2017.parquet",
+      "sha256": "6d83761016ac1c6bd9826ac45733526ee5eb4167983aa2806bb113dcefb87e45",
+      "bytes": 112701516
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2018.json",
+      "sha256": "7e8f249ec7751f6eb53e719159bff099f849ac85f9cc792841b7efc3bef84284",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2018.parquet",
+      "sha256": "fe232b2b8f017e427c87427da44e6ad35d851c904d134f8cac514a9e09d429c5",
+      "bytes": 112639985
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2019.json",
+      "sha256": "0dcbe1f648c05fe4c0b0b2076ea86b7f4852704181a5e2268a621241e73236ca",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2019.parquet",
+      "sha256": "f9e3a0b242e670f26c0c92e125762f38619e5a93b39c475e72634035d04d855f",
+      "bytes": 112228773
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2020.json",
+      "sha256": "01cb207bc11b4a33a2df250fe310dbce5c55b650afc36d53ed7fc3a33922e0a1",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2020.parquet",
+      "sha256": "f85bd899f4a88c637ba060fe7dcd2c32141d8f067b0326ee067b3d82ab66c394",
+      "bytes": 112852794
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2070.json",
+      "sha256": "9ce5c3f9aaa043a4dd5f5785f514af8a695b17f516350256720dc186cf5a892e",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2070.parquet",
+      "sha256": "a4d7ebf1e06ece58ea143d1f3cf5ab928c9f133908e79893fc77910bbc921463",
+      "bytes": 112071760
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2071.json",
+      "sha256": "65a992c2741125789384c18ad058cd68d4e7e194dfef715ac4cd67c1215aba5b",
+      "bytes": 1654
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2071.parquet",
+      "sha256": "62e565b77614abf20e34c7c6072d67e8f0e5651fcce62a3a9402f0af09fa6ea4",
+      "bytes": 112169841
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2072.json",
+      "sha256": "45c3908722b53658d27fa9aa78887365e0dbd44646abbac79e4e5413c32b809f",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2072.parquet",
+      "sha256": "0df79e1d7025187d303be5062ad1768204e4c737fc555f2a4e9be2df50a35df3",
+      "bytes": 112432807
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2073.json",
+      "sha256": "92e1ac0227e3e19712bb911fa38558069261e05ea6912033ad000994d3ff588d",
+      "bytes": 1662
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2073.parquet",
+      "sha256": "0964266265e60a6f52a680d3f1302e205fec523c7a14ebe8d377429a37eac955",
+      "bytes": 111723943
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2074.json",
+      "sha256": "49004a2f227c3ad4063b1328c63d218fd8dd5f7f0817b9b3a96edb416fab33bb",
+      "bytes": 1663
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2074.parquet",
+      "sha256": "0300585b40d8f475d69440d6194f3d78df19ba4848700430f1204289d269e6a7",
+      "bytes": 112385535
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2075.json",
+      "sha256": "26d929f111a9966fe14516002fdb466859648152020818a396c48439c99c79c3",
+      "bytes": 1669
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2075.parquet",
+      "sha256": "da17e86f49ab0fe9da720801c116ba54e075321a54b5d259c014a229fb89cfb6",
+      "bytes": 112000554
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2076.json",
+      "sha256": "f27191de5f35e5846e5e3745146d91afe32fb7fc78e0dbccb460a904b21cf7f0",
+      "bytes": 1657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2076.parquet",
+      "sha256": "1747211ace2602e85bf59558ede05776b126e8cf1b0d42e973b154bbf0220168",
+      "bytes": 111794101
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2077.json",
+      "sha256": "5d280d6f0eee0f86758c5164ff3f45ce6b396b37544874db38a69e3f63fcc03c",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2077.parquet",
+      "sha256": "0762396f90b3de3b3861259f320d33e6366e436581f360771c3b0e397690a14a",
+      "bytes": 112170173
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2078.json",
+      "sha256": "63753ea7918318649be6fd9d66e9793ba0dd931f7a08ce3ef5c9938fb559e564",
+      "bytes": 1668
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2078.parquet",
+      "sha256": "13741e0fd45ac5cc0563f50b391a3328259aad0bc631f863c1b028a4697ea13d",
+      "bytes": 112166823
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2079.json",
+      "sha256": "0f2a854af9f9f23ea8755e3a32f3b36211967b722ccaf8218d3ad4018727e859",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2079.parquet",
+      "sha256": "9e283d4d594311d458b567cbe43fcb4721220194fc8910a072b6ca57e2e27914",
+      "bytes": 111881910
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2080.json",
+      "sha256": "d0680c0f036f206506a16b0bd3a455b838fd4cf08eab81051f4b39e8bdc42f0e",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2080.parquet",
+      "sha256": "8d33404207332a13b6457d58e9ee68f20100ffe6232bd4039bb41ba9f2a4e424",
+      "bytes": 111995580
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2081.json",
+      "sha256": "4104ed6cc31c24fdd17374122ae1bd7e1982864535649319deb991e78a85b6a1",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2081.parquet",
+      "sha256": "7c1bd7f68f7cf0b0e284e93fea46729722c927244225440b2704e19ae633371b",
+      "bytes": 112001800
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2082.json",
+      "sha256": "3ed910720797096207a1498cb465def954f01f768732abf4ced6bee7d84942bf",
+      "bytes": 1654
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2082.parquet",
+      "sha256": "a1a4e58d510c3e040e047f901538a9920d2e94b30212b75d2f552fe14b16b73e",
+      "bytes": 112053534
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2083.json",
+      "sha256": "09f3aabdd025bf350764015803026cd52bb0126bba52566ffefc980dbdfb1e5e",
+      "bytes": 1652
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2083.parquet",
+      "sha256": "8f0040891c071a9b7b0f1babf4feb8f798e97499cf7c8c08ec34c5a058f668c4",
+      "bytes": 111894142
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2084.json",
+      "sha256": "f2b3341250000cc7d1827c670150cb198e7803b1370123cf4021ca4c3fdcdc32",
+      "bytes": 1652
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2084.parquet",
+      "sha256": "22049e46d95ab86001c5e6129904a6d6121740a91d333eb04e1f31362ded49a1",
+      "bytes": 111904294
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2085.json",
+      "sha256": "a7e36710ca11fb135d3f542ffd404fa756a992eae9cf639e08893a41ca4e0675",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2085.parquet",
+      "sha256": "c7e8851c8838cd87601df208a078e20259dd6767ac0c7d7b39e9a5203cc3bd05",
+      "bytes": 111738382
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2086.json",
+      "sha256": "720901883cb8576c809032674dd0c84fde98d6d957e82f5094e2cc06f93b3e4d",
+      "bytes": 1657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2086.parquet",
+      "sha256": "c14767d0d9fd1c0d792b160deec7cb5a917c4cff4845d61ad24b2f552405c5d3",
+      "bytes": 111566697
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2087.json",
+      "sha256": "44bd90992a73f521574c6130d810dd8ba22da9833222b486a20532a7e2b36912",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2087.parquet",
+      "sha256": "4f443b819de8d61819f84953d0dbeaea49992bbdffddd1d4704571bdb68031b9",
+      "bytes": 111574137
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2088.json",
+      "sha256": "d3b242aa287f1a29c082cea8ecb7aba257c2fa3b8425e1c30f69b6fe57ab8ec7",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2088.parquet",
+      "sha256": "c0d97af50d18ec181b52383681bfbf60e75474d54c26c62271bc140a98725ca4",
+      "bytes": 111366571
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2089.json",
+      "sha256": "12fa1b941e9205380dd506c5164b0eb469c87a06975fa68359b33a5f426e9d4f",
+      "bytes": 1664
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2089.parquet",
+      "sha256": "c929b04467b11474b337f11743a0a3cfe77deb671f6b5b5ff500ae8bdf086596",
+      "bytes": 111439884
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2090.json",
+      "sha256": "2d3520ed1fc7bc9b1950d2f112ad8decab520afdc9288d8a179cbbd6ec3ab59b",
+      "bytes": 1657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2090.parquet",
+      "sha256": "28ecb6ba5aa4f80b431accb05816afa5a1002b1a8df6234b81635b373ce3be6e",
+      "bytes": 111540589
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2091.json",
+      "sha256": "02cceb571fa91f24b30f3fecc0c000eafd47f4f116be8186c7642317eabf602e",
+      "bytes": 1653
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2091.parquet",
+      "sha256": "500856f39b0948c71e86b58ce7055e7add2f668039d8aa8f67d09ffd5cb090e5",
+      "bytes": 112098453
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2092.json",
+      "sha256": "41bbf3a09f04db9e3e9fe6d3ba576b85621d822309d75ecb4ef1981d660d0fac",
+      "bytes": 1661
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2092.parquet",
+      "sha256": "caba80ef7ab5dbff657287daff4afdc1496914857a6992e073c94bbc435622c1",
+      "bytes": 111703519
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2093.json",
+      "sha256": "85c6875c9581a6a6dcd56affc3fb7bd57df3e6e590582395867e58fa12e1780e",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2093.parquet",
+      "sha256": "f1c62cf1989fdfa063dd55063f87de06dfa1549a6c3332b1394ad632a68910a8",
+      "bytes": 112032704
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2094.json",
+      "sha256": "78c88610e6607b1e62068407658b1ba285bd7cd5ca0392de4db4e5340a536314",
+      "bytes": 1657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2094.parquet",
+      "sha256": "78b509c5deea22cd702a5bd1dd5a0ad7fec077114e45872ce1e0102ef2c76c6b",
+      "bytes": 111835768
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2095.json",
+      "sha256": "5d60924eb309f801e0938045410a11adc9c099195d031fbe538d82408f86602f",
+      "bytes": 1667
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2095.parquet",
+      "sha256": "cd2a6f8e6dcdd2c19030bcbe9608297c9a48292e7b9cfad5a47391b0567858d9",
+      "bytes": 112266667
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2096.json",
+      "sha256": "446ecd19bc1c18e920e92403fff4b0e8ae5ff9b8f50631dcd0ad17e9ab1553d1",
+      "bytes": 1663
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2096.parquet",
+      "sha256": "897cf2e880ad284561e2b12f8ef94c51affb7542bd5017b744cef55a6c8abf98",
+      "bytes": 111759815
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2097.json",
+      "sha256": "425fdc935210d29d9038ccd358cda52eb543e11c6d675733b0e02ab09869b609",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2097.parquet",
+      "sha256": "933020d5712f215848baed8b20bfdf48ce805155d89654af086dcc210352d413",
+      "bytes": 111813127
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2098.json",
+      "sha256": "bc750db31a2464b687f06dc5ddc1b4bf2d0ea12b0c4b667d99e854e60a0755d1",
+      "bytes": 1659
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2098.parquet",
+      "sha256": "87f58db9e51f4fa9720aadda9e4a82a560474c7b06ee2d89e0128188d77993f0",
+      "bytes": 111479033
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2099.json",
+      "sha256": "658e653c64d340d0c0aaf30af153ed0d17e2dbe3fbc5d72a6fe2ed26e4f6f894",
+      "bytes": 1667
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2099.parquet",
+      "sha256": "c89f41fc4a3cf68c4633760c5790e147fe222cea9f038de29a980d5c474c7628",
+      "bytes": 111682277
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2100.json",
+      "sha256": "af3738fd7fbe4bfac6648081e1d3c417c753f1550449662b0aa858b381f2ced9",
+      "bytes": 1651
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/ACCESS-CM2/ssp585/2100.parquet",
+      "sha256": "89c4e50444780e51147f8b0ac0f8bd6cf26507b0bbad5d446a53acd32f62515e",
+      "bytes": 111486592
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1990.json",
+      "sha256": "5914487874c610a1f8df469e38447bb5e0337f7aeb6c2a47df7fca677e6245db",
+      "bytes": 1692
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1990.parquet",
+      "sha256": "deabb8693da9cf3ae6fdb773ad604ac501d8d2d75fc596b3d4c1c75a4df6c464",
+      "bytes": 110571591
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1991.json",
+      "sha256": "2cd910952c369bdbe55023c4b4d0ced2f2217cc291e3e37cc5d04f53e4963a3f",
+      "bytes": 1692
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1991.parquet",
+      "sha256": "107622db2d188a57b2a19d5cd1fc61cf4e48085d93f9228f195da1ab8d58cb7e",
+      "bytes": 110739655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1992.json",
+      "sha256": "8b76bc45c4ab16e70cda9df46b94defb63d854d53e5f7bd1c52d6a1e6fd3a783",
+      "bytes": 1691
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1992.parquet",
+      "sha256": "6be39cd4bcc05a9c79b01ea0fdedee2c0a07dc11a1c90427eab1af9e4f1fb4c9",
+      "bytes": 111834264
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1993.json",
+      "sha256": "626fd1be989eacc5504e3418f3583c87d22e5022d84d9eb1b764a8a5ae20a1c8",
+      "bytes": 1684
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1993.parquet",
+      "sha256": "b932ad8947d6dd965b4a2ed9ed50f623c72824958ff517bb53e8428dd548770b",
+      "bytes": 111041945
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1994.json",
+      "sha256": "1b7da680cad6edd965055a2d986b7ca301a813bb628f4846b85f92fa8f08050d",
+      "bytes": 1693
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1994.parquet",
+      "sha256": "fdbd64c5d563f38fae24e2b1ab595b96dfba5e326ec515be49b881d840081503",
+      "bytes": 111320432
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1995.json",
+      "sha256": "9006b805c685088ab3c182e1f05047e14828b5fc5101d1d2839f557e3268ae83",
+      "bytes": 1693
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1995.parquet",
+      "sha256": "13b3e0c4cc7aeddeccfb075ec489daa812cffd0ec3dd9e610f3cf101edc8517e",
+      "bytes": 111103065
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1996.json",
+      "sha256": "912433da12e7ccdca26dc0c36926cef9fcf65fcb7ef60048eed3f7ff9c94b04f",
+      "bytes": 1691
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1996.parquet",
+      "sha256": "80d2b580c5d718bd05c9add8714fcc4d7791d1aab33b0569d381464bfc3f5a91",
+      "bytes": 111528068
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1997.json",
+      "sha256": "496cdfe137803eb025c33b38105ff696d3c579ab3e3160c50b7532380494c0de",
+      "bytes": 1692
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1997.parquet",
+      "sha256": "77a8d542d5bfc0bf0fab13bb3df522c16fadf5d9964e80c02a3c09be4d7fda51",
+      "bytes": 110927501
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1998.json",
+      "sha256": "27c63e3c2c29227912d656037e8662a13d33068ff6dbd59a43e34726001e826c",
+      "bytes": 1691
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1998.parquet",
+      "sha256": "c6f3f0703037f269ba0ba84fee2e5542a8f2997809e99e4c9382c4de3c7b41ff",
+      "bytes": 110986132
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1999.json",
+      "sha256": "d9efe7eedd8e081edd4ac6712ed942385b03de678dd17aaa8e86ed13e84713b7",
+      "bytes": 1690
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/1999.parquet",
+      "sha256": "43e18b392cc6b47ccd6777aa16dcd6ff9984935aa0725aa9241e5c1134ad41a4",
+      "bytes": 111018006
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2000.json",
+      "sha256": "46e1643c0e66ad301864afd576a42f569665c1786eb641a1b9b4893181c53650",
+      "bytes": 1691
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2000.parquet",
+      "sha256": "c758b7c974a51e48ecad325888a7dcf5801e338bf1c5d959273133db14cc4407",
+      "bytes": 111140056
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2001.json",
+      "sha256": "d2fa6334f049417ca03f8d6255a95d3e37b0ee75794b0228b44f210369653195",
+      "bytes": 1686
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2001.parquet",
+      "sha256": "8fe85c3e71d916ba99d4fb3f3cede1e96373564e9458fb9a1762c749c47e7a7c",
+      "bytes": 111365759
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2002.json",
+      "sha256": "9c27aad3c1eaab21da9bf2db0a93f862b5d4f1cbf2baaf35ed336d097607a677",
+      "bytes": 1684
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2002.parquet",
+      "sha256": "40457466febad231b715501db30dabf7e9e1310bd4f89ef9eb302d18c636661d",
+      "bytes": 111524115
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2003.json",
+      "sha256": "76f0b77bc17ea40ca70facc7f96eb09174328aacf6f0043ac5f0e478bb9ee459",
+      "bytes": 1693
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2003.parquet",
+      "sha256": "7c92681d00cdadecdb18978e741662978c494157b5c14eb685ef72de4f72d71d",
+      "bytes": 111475154
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2004.json",
+      "sha256": "a3006f1468d9b8fe54fc3f7213b0ff16afbe2a65de69857c2aaab8f4e2f2780f",
+      "bytes": 1693
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2004.parquet",
+      "sha256": "ae0624c047d0a2aa7977687ff699eec1a1c296466761d05c7bfdf1d901f9b20a",
+      "bytes": 110966940
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2005.json",
+      "sha256": "b1546810439b0f68b6b586fb83d17ff1cf1130bf6e5f6cfabd3b2127591e7cc0",
+      "bytes": 1683
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2005.parquet",
+      "sha256": "415abc4ca64675ea234f8e09cc0fa38d7f71b3a7cf1372ac54d0a652c96aa105",
+      "bytes": 110535074
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2006.json",
+      "sha256": "a4c13efae2ec65619fa3a911a80639e5619a8e690484b266e14415cd642a42e1",
+      "bytes": 1690
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2006.parquet",
+      "sha256": "f7626bfe13c35921d62ceb7a95e8705365f5be2d0b645e3a9a56f309e6ce8729",
+      "bytes": 111155000
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2007.json",
+      "sha256": "3d099ed2c8a969914ebd5a9fdf98d7a8643de7953a94cf010b87bccd369606d3",
+      "bytes": 1688
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2007.parquet",
+      "sha256": "9e5ad1d4562de037d270bc43a27d7c49e21c5c0a91515df598f19c3253c522d4",
+      "bytes": 110633751
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2008.json",
+      "sha256": "330abd11d5dc68ce2343164f396cc8972d62beaf8b2d0e04a89d622954b2c604",
+      "bytes": 1693
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2008.parquet",
+      "sha256": "ebeadfe808bf2908d76799875466b0e0b11288daca52f8ea15ab7de89dc8bbee",
+      "bytes": 110804947
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2009.json",
+      "sha256": "c15b8c501712ebd518532865e4793e42ac473c2be54820b267e1ad46ddcf3aae",
+      "bytes": 1690
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2009.parquet",
+      "sha256": "d65f2fb61e177435b1de4a726a1d51b1701fe99994ff2ea7ac113f4a744123cf",
+      "bytes": 111383078
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2010.json",
+      "sha256": "2618bdb16f5f572b60bd856f4be03704a05c6182355000b22f593d8b9161eb7f",
+      "bytes": 1686
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2010.parquet",
+      "sha256": "e3a1a7359892d737580c920c3d1c96f5a03a3ea7f04c2ae1cff5512a47a1e1eb",
+      "bytes": 110997193
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2011.json",
+      "sha256": "3cf77c728c6b32dc6807399d2a7d5cf12374b97e50391cbeb1d4b3cc0080a766",
+      "bytes": 1690
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2011.parquet",
+      "sha256": "a345fa5d643a74565ff274ea015d1a4fe04a8b8f95de0cd6396e8e69fabaecdf",
+      "bytes": 111170937
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2012.json",
+      "sha256": "06eefe99fd3662cc2da8764da9778062c82689e30b4c2733ad9a3fa49ecdbf80",
+      "bytes": 1689
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2012.parquet",
+      "sha256": "5d6d9df44b58c350efc848b5b3881c5eada46429641863242c0c871549c4c35f",
+      "bytes": 111559106
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2013.json",
+      "sha256": "7fe25dd465f7dd9030e94113579377e6f5386f076c5f68deffb918c68d85310f",
+      "bytes": 1690
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2013.parquet",
+      "sha256": "7dc722a88ab96b1e7d375ef495dbf70aedfdda93c9109863a3cc98954a62ca3c",
+      "bytes": 111012320
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2014.json",
+      "sha256": "48d8eba3f4324aaad0d0dc9ad0cede9142672e081f82d9123cc28fe4491bc82a",
+      "bytes": 1687
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/historical/2014.parquet",
+      "sha256": "2baae041eb7295d7933aab44b3ff236528bad1d61f328f0cd835a9b4c22466aa",
+      "bytes": 111022554
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2015.json",
+      "sha256": "6b2a7a0ebe303852b0174e222094fb27b700abd43f010feec74df94f0f7f6374",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2015.parquet",
+      "sha256": "868ae6879699d39edc4dee645423fb26cdc64b9b4e0848ad0a4d5e6f14159836",
+      "bytes": 110754258
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2016.json",
+      "sha256": "26e1eb820479c963388a3e9eec8a9206539c1082855f7fc8b81dacb47a83f464",
+      "bytes": 1669
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2016.parquet",
+      "sha256": "2d61aa1e2f73c066b66ee75bef1810c7610600ec1f5d317748f1612ab9f72aee",
+      "bytes": 111458450
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2017.json",
+      "sha256": "e3d487152f454500590f0dbebd50b62e2bba50367525daaadffedcd7284636e4",
+      "bytes": 1673
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2017.parquet",
+      "sha256": "e9734d133f3296786c5ac43a67ade74b0fb49dd3c29c91a04e2f9cfb2b686612",
+      "bytes": 110464445
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2018.json",
+      "sha256": "c989246fdaf8a5a7bd751a0c4155b82c64c6a277387f44bb2420caa45f51a0da",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2018.parquet",
+      "sha256": "d8f2952e1e82399f63c466018af7987133284180a8237c2a9d6ea3e9bea5aea7",
+      "bytes": 111191117
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2019.json",
+      "sha256": "dc1d9c5370765ba08cfa58ea711b290ec1319d540165f1c0962a058480e5b024",
+      "bytes": 1669
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2019.parquet",
+      "sha256": "86685454d1c709c8aa17fc51e1fe8649eaff52eb68c84c2bb2a18f6ff4c24438",
+      "bytes": 111981372
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2020.json",
+      "sha256": "4245f47b06453dc452f2f6adeabc0e65282cc51612fcac9ae1893d890bb6118f",
+      "bytes": 1670
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2020.parquet",
+      "sha256": "403991030c67dc1ecd693a8dc0c3ba76f223989ebe18c99223d6e3750757f18b",
+      "bytes": 111671832
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2070.json",
+      "sha256": "f8baa8c7e438e7f3e9ddaf2aceeab1dcbab21fc9957683ec61141a2f56d8b9c6",
+      "bytes": 1673
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2070.parquet",
+      "sha256": "33063eda0a1e1de0d8e5bbeca1ea5d2a6f32e8332e4848d29b990e3076d08d73",
+      "bytes": 110690189
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2071.json",
+      "sha256": "8a0dc94c485e1503f145cac122f95627ee970c01aa1d07d1d9466b2c116a7bd1",
+      "bytes": 1665
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2071.parquet",
+      "sha256": "e6fd8b7d8edf21f2dcc22558426a8bb2ed6386e67d42b2bc36d373779fec8b41",
+      "bytes": 110446041
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2072.json",
+      "sha256": "9a2e7210fbf8562d74f8f0f30c11417ef47bc70558d1dfa92d5c09b59bc3f1df",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2072.parquet",
+      "sha256": "3a51a6b35057161f2f3174aeb2b0ed44e922fd548f318957453795f7ba75705e",
+      "bytes": 110678015
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2073.json",
+      "sha256": "c93d1f7ce0d05abdf31c8ab8cc0f0ac46ea8b68bcbdd5925ecdc0405974e2187",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2073.parquet",
+      "sha256": "185ce99517a6c4d547a861878d48524d5fa51516bc294a11eb5735c324769870",
+      "bytes": 109958247
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2074.json",
+      "sha256": "4ae4214d2d0e689c770129cb54c2f72dfa06531b794dafb4ccbd2892346a96b9",
+      "bytes": 1673
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2074.parquet",
+      "sha256": "59ec0a768bccebaf0637322eebf71f21d40bd4662630731ba1f8a8abdef29136",
+      "bytes": 110426480
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2075.json",
+      "sha256": "e3d4ac5428fc99d4a39b3d2300b24f871f824758112ac4b710632a909f89207b",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2075.parquet",
+      "sha256": "2c42e362e7e4443330d74a3fc536e60a7f067543ab914bc75e524c61616fa380",
+      "bytes": 110101349
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2076.json",
+      "sha256": "c46487c24b864405f85a70b32fff7c1607bbe6bba77bcd5b05d761a61c263805",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2076.parquet",
+      "sha256": "b43779fca783e4f8fad84e212b380af8150c6b9c1dc657617d1cc34711500757",
+      "bytes": 111424481
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2077.json",
+      "sha256": "3e14fd12d496a8440e2fad9ff1d1fc1ecc4ff4d8f9fcf003811fa426fa7d0b62",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2077.parquet",
+      "sha256": "c50817b89572066158e394f59e9c21ec1db97eb6f095f865fe7881e4308c6624",
+      "bytes": 110164135
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2078.json",
+      "sha256": "b11cef75b8891fe5e30cc428b332989433a37c916cbaaf551415422f5a7b79c5",
+      "bytes": 1670
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2078.parquet",
+      "sha256": "65e526f3913569c7cfacadadbdbb0ba75be6cc0882c191df7634bc88c45f7034",
+      "bytes": 111102566
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2079.json",
+      "sha256": "69a50f768d3762d1c0b1a89d33ba1f9dc44fd59ea5f826a25fd9e5be7d1721ed",
+      "bytes": 1662
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2079.parquet",
+      "sha256": "85c6515570fcf5c0b0261d679fd2b7aa512c71f69e2db22f436602163abc2cac",
+      "bytes": 110449349
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2080.json",
+      "sha256": "93dab4bb0cbb46b871246656586b6301a2d002c3a9361d2ad41e1505387332cf",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2080.parquet",
+      "sha256": "636f21d095523de14d180ab1511bcf5d28384c5cbdde5c7ae38961b03810c3d2",
+      "bytes": 110895357
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2081.json",
+      "sha256": "1b6b1cadff23dc7cac514b01d976c1cf6a52888cfb92629069f5186556375be9",
+      "bytes": 1670
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2081.parquet",
+      "sha256": "7e5f56fde044df02c0b9c93ee62150698d528a3604100ffc441f6c2075295ab0",
+      "bytes": 109684003
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2082.json",
+      "sha256": "fc0a687e91a35bb0d0685ac1050fc63d98450dd4ab51889f6bdc10b2aefe922b",
+      "bytes": 1685
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2082.parquet",
+      "sha256": "93bebb8afb48a5c8eed7b3e06d37a392e8c3270c452e6ace42113764e9bb9a8f",
+      "bytes": 110640171
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2083.json",
+      "sha256": "ddc257dcfb86408ac2a47effe7eb34382f8cd091e45f97d344a177b6d2e1f396",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2083.parquet",
+      "sha256": "d2865227f9da8ad22fc8ff912fb765647c7e61a281c6790587a825a810e5ff7b",
+      "bytes": 110498964
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2084.json",
+      "sha256": "d9edb18cc2ada10b75c9955dfaeffd072326affd5b459d44400ff64a21390ea2",
+      "bytes": 1667
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2084.parquet",
+      "sha256": "72217a3bf043d68670f035f5367c8717b5e8cb565dcce80f084c1c301f75504b",
+      "bytes": 109936300
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2085.json",
+      "sha256": "f20be1a5994bc4b65180c3f340c96ccd4971cdd19ff74647eefc58e87bbc2008",
+      "bytes": 1669
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2085.parquet",
+      "sha256": "0cfea44e67e1d5b144295272635e9906e6712d0bc8dc8a59855bb8ca54a485ce",
+      "bytes": 110894721
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2086.json",
+      "sha256": "e52d7e8b6a93771aa6022c4f4049ac34d5fb78c6aa08b1338550d97a13257449",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2086.parquet",
+      "sha256": "c1f95f9aa1c533abc7b394a4494d5351e351e2374be29f2e643ce1a7d8eab02b",
+      "bytes": 109621799
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2087.json",
+      "sha256": "705449dc9f28e0ccb5475630fdfc69579e0cf33310b33e5e8c0a48215c83b2f5",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2087.parquet",
+      "sha256": "e31c2fb36375e53ba58e6e6d7c065033ffaf8383347830879c9622c8ed703cf4",
+      "bytes": 109375069
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2088.json",
+      "sha256": "16a731f1707664fc961ee5d4cbe3fb8a31d9fd999015423fcc04226f6c3b277e",
+      "bytes": 1682
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2088.parquet",
+      "sha256": "46b046bba9c0b223694d8073528ebe40aa24b898455650c4e706afcbb04c3c29",
+      "bytes": 110269499
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2089.json",
+      "sha256": "39a90142237de4cdbed921532bd7e56276a51ed554467c6366cefd0fb6160fc6",
+      "bytes": 1673
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2089.parquet",
+      "sha256": "364e97c100240aeb9a092e2bac7de66fb9ea42c4511d456f194e9bfb6a3bc836",
+      "bytes": 109175486
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2090.json",
+      "sha256": "73d49fe3cd1a608a4d02bcab501fa927e57a79444a8a40419a9d17a414745bea",
+      "bytes": 1669
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2090.parquet",
+      "sha256": "ae5b16f4a7f9b25ca422c7d416ad31f3d0801ca015b6ffb7f0b73c0807c5a24a",
+      "bytes": 109952951
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2091.json",
+      "sha256": "d2e8b1fdf23b535b032e65b648e96e809006922d07ba18ac1c8adfbf1da106c3",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2091.parquet",
+      "sha256": "31b593535852ac9ee1944f3620fb7f65527a7acef0f19e8f096292403592c153",
+      "bytes": 110130749
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2092.json",
+      "sha256": "885421a166726f91a27d4517a8a60d3fccda50d36afdde39bf2f93424bcda1e6",
+      "bytes": 1665
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2092.parquet",
+      "sha256": "760b594cf1a692ae86b5176cdb21b2eecee24d8834a6664c80454646a3f306f9",
+      "bytes": 110442685
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2093.json",
+      "sha256": "1a1492ae39aff0ab359626e705cecc4f618467f034bbce93ba166c015bfd3cc2",
+      "bytes": 1684
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2093.parquet",
+      "sha256": "6499817b473613d62a03776c9cd95989177f8de9db66b942ca6394b4b2417bfc",
+      "bytes": 110008657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2094.json",
+      "sha256": "aa6d4ebf0caaec1fa3077f3aad95a27d59926298ef5dc7e31e082ae344b05d1b",
+      "bytes": 1681
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2094.parquet",
+      "sha256": "116fa285a144492da1a7fa4db9938a5b454d32cfdae0fbca3eaae098ae69f72f",
+      "bytes": 109554991
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2095.json",
+      "sha256": "c2fa5fd7b2e330c6ba7a424bb13879826a1b27ff424c3527b025a63f5dd567e1",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2095.parquet",
+      "sha256": "08e42f7bbde22a42a89e56a4e94e7c5b7f2eeb77bf3f3dcf47242376297cd9c7",
+      "bytes": 109546504
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2096.json",
+      "sha256": "55265f67b9101a2e184d62a4d4c8b0d84832c80687986af3b2810aebd99cf489",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2096.parquet",
+      "sha256": "842fde3a949314ccfb956e089b17e4f20f5a31cbfbc0e2cab27526f9a2bba9ba",
+      "bytes": 109773660
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2097.json",
+      "sha256": "ea2870300a820bdbd26aee28fe88906f7989fdfabef75fae444aea1b78991f03",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2097.parquet",
+      "sha256": "b97180bb223a5d192c51178af993f814980d71a38691064bd9890829dd649eef",
+      "bytes": 109653813
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2098.json",
+      "sha256": "8adc28876514b2d51db7590755f2448be074b9117eb3f9d505a8f5a9ec29cf97",
+      "bytes": 1670
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2098.parquet",
+      "sha256": "2b86622df41a29c3c13dea3cb53ab44f6845942403f9d5afd663eaa59c7ace45",
+      "bytes": 110155575
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2099.json",
+      "sha256": "2ab476075a2486a70f47ee3f1eac512dec00a89ae225c1514f53828f055eaa03",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2099.parquet",
+      "sha256": "eea2b233cafd976dfe142570c5df706ae2bf25498618447fc3cfb562da0a7d0d",
+      "bytes": 110682201
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2100.json",
+      "sha256": "8bd8b34aaec71e5f12575529bc2c0c36d7e16e4475488da8d32f92d22c4ac407",
+      "bytes": 1669
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MPI-ESM1-2-HR/ssp585/2100.parquet",
+      "sha256": "0fc1abd8b5b0b3a421926687ceb24bdd8e2508a9f735de1bc92b4791adc8b659",
+      "bytes": 109694390
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1990.json",
+      "sha256": "330ec01cb49fcb222ec92220de0efeec58dc7a9faa572e3915aab43f2f1df1ce",
+      "bytes": 1674
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1990.parquet",
+      "sha256": "651a09fc9961d0eefb0beae4b22a2e6f59bb1dd27ccb6259460b0753340bb803",
+      "bytes": 110830970
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1991.json",
+      "sha256": "baac405cdb002fe8872ee8395aca1d607eb67aac3ce5311114f794d8d68bee24",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1991.parquet",
+      "sha256": "281729a2a33f241cf0b013dec788f5ca0757bb46d2a1ac685328c5ca2f90b51f",
+      "bytes": 110930419
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1992.json",
+      "sha256": "b8377ec3401f4e0777314057d20965889da5b2879ec9787f939746c2501b73f6",
+      "bytes": 1673
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1992.parquet",
+      "sha256": "2db3024c10f22d211b509bec613f5ce9cb65d939dbd34b1df17db062a3011a01",
+      "bytes": 111593906
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1993.json",
+      "sha256": "c32df87a7b08836dd869513aaca0bef0b613c77b5986e4b92bcd0a47bd921dfc",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1993.parquet",
+      "sha256": "40cce59cffa3829642c20f99a2c7b94299911e12dc38699d55369f7ac2fa80cf",
+      "bytes": 110492461
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1994.json",
+      "sha256": "0b5f965a56e366819720165338ade3c723310299bf9209b083ffb4ee3da01224",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1994.parquet",
+      "sha256": "51b696ce46ab84aabcacd7191d0ad8c821d8f10cd16ec4f6e628832e15b7f32a",
+      "bytes": 111354904
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1995.json",
+      "sha256": "9e1f567c39ea188326746c538d1118485f7f83c4d017ff1411adb99a00e9ccce",
+      "bytes": 1678
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1995.parquet",
+      "sha256": "a8ebc2c8b292a2bae74b964ab4827c6838e03a5296d92f2e838779f4ac8072d1",
+      "bytes": 110746305
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1996.json",
+      "sha256": "d48bc077932897f5349ee3fb80b02ce8a99fa98ad399d9725f7cb7310ee7676c",
+      "bytes": 1675
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1996.parquet",
+      "sha256": "7b1167bdb99cd9a7bffd1a1ebcfd387b5dd4e42b4e46ef36bdd9ecd3d6b94eaa",
+      "bytes": 110885635
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1997.json",
+      "sha256": "0f9bf35648f47f9136af67f4e87a9024b5a4e5a2cd3104b7a13bdfad12148667",
+      "bytes": 1678
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1997.parquet",
+      "sha256": "d64526afdff6099ea51327a6d68831278754fddc20e1aa5cdcfce4d70b315f7c",
+      "bytes": 110957903
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1998.json",
+      "sha256": "b44de27c2bc6623a52bed5f8f02db1faa20affcaaf89ee2c85fbeb5660b26a33",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1998.parquet",
+      "sha256": "f23c2b6c2f178ee304bb042017fd2583edafb9b866faa0d13abfc0e26c04a214",
+      "bytes": 110628296
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1999.json",
+      "sha256": "742996ea061c162957aabab6c2a4667dcedeec779dae7246f1bb6c14b30f35d6",
+      "bytes": 1671
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/1999.parquet",
+      "sha256": "03d8d9648a296bca26fed5c873dcd19fb43462fcedb7a26e63c8dc9836d87886",
+      "bytes": 110971357
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2000.json",
+      "sha256": "57e835df08aef2e20080a6c6db9abe0be04de1a33a5d73ebb2772fdf80c96da7",
+      "bytes": 1670
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2000.parquet",
+      "sha256": "07b12683fc40fa8fff98072217c435b39c53abf2b51a88cb6fa3efb17e14888b",
+      "bytes": 111264702
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2001.json",
+      "sha256": "c292b452421482635a7e2e30012fa4adcfb1bb19bd953a89515548d52295e4ac",
+      "bytes": 1675
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2001.parquet",
+      "sha256": "33e83cf2ab264f985f7ab64a3c264d91ab263e574bd0169eccae01fd7f9f9840",
+      "bytes": 110907076
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2002.json",
+      "sha256": "617d6cc66f7d0783ac30fb2ef01da12574125fc56fb12dce0e45a1ca4e5477de",
+      "bytes": 1678
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2002.parquet",
+      "sha256": "f66eab9904615b7738af62380fae3b12e9983e1b9405900041a02d897643332f",
+      "bytes": 111196567
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2003.json",
+      "sha256": "12f5bfca1fb9070de546bcaa5eca81d595666b248e6a76feead48775f48c656b",
+      "bytes": 1673
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2003.parquet",
+      "sha256": "913fc44addadd139bb88a2381de501c12c2925074649b225ca9c4e8bf92026ac",
+      "bytes": 110857274
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2004.json",
+      "sha256": "cedc9e07dba7162abfb8d41fcfba0d657d55aa974510767d37f9c3eca90483cb",
+      "bytes": 1675
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2004.parquet",
+      "sha256": "8712d360a23a914d92f7b02242c284bc2c7706291144012d7221f6e5496413ed",
+      "bytes": 112103275
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2005.json",
+      "sha256": "f1d53c750da62eb475d01cc48e7879f42ac78f4a54c5730ac380fd5faad5241f",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2005.parquet",
+      "sha256": "e370330c7e01edccc536d095cfadf1807574e2aaeb3e50314e38ba7af6b9aa99",
+      "bytes": 110563877
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2006.json",
+      "sha256": "69ff3ea7024143eac8336761b4da7d7fc33bcec41520f9474286cf697551c46c",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2006.parquet",
+      "sha256": "75cffdb7a979f554d46c2e551c28755ec5646f41fdab24d6f63d71a9b6ac15b3",
+      "bytes": 111063950
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2007.json",
+      "sha256": "3a7cd0d327160bb04d57527d87b73ebe8dd32ddbeec9a422770e6eecb8cf7b50",
+      "bytes": 1672
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2007.parquet",
+      "sha256": "d00e20d9409fca7f485a02ec785fe95b528220861b08646bef4b66b5f95f3c3a",
+      "bytes": 111264097
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2008.json",
+      "sha256": "019f3a65ffd895ded62fe53e7025bbb441521785953b9a883f7dcda15cac16da",
+      "bytes": 1673
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2008.parquet",
+      "sha256": "e1b3a259a45e111fcbaa890c23d21bde526aff71e8afc8696a1603ab29529f0d",
+      "bytes": 111461963
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2009.json",
+      "sha256": "790216393f2304144c76664672c17d3adbd6de495af0351af78470ccfbca91a6",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2009.parquet",
+      "sha256": "d84ecb85b6caa8f4e398cf8a7d29c87ad18c34b2182950f81a19e772628fe927",
+      "bytes": 110952597
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2010.json",
+      "sha256": "6146b502e62a909ca8b009a5585975f4a5123426e373faf9078e8e0d45cc8077",
+      "bytes": 1677
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2010.parquet",
+      "sha256": "3efda42512b5fb1c336aa79e32bc3ed258916a0fc051bfddbc993edc10482b17",
+      "bytes": 111763931
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2011.json",
+      "sha256": "02dc78692854b00404135d1b040f48b216b3e83a7334df26ebcd9b24e5025936",
+      "bytes": 1677
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2011.parquet",
+      "sha256": "ab20dd2d96efa3fc6b7a72734cef6df4594d8e7dc0ebce4aae3f27819d162a99",
+      "bytes": 111147291
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2012.json",
+      "sha256": "27051dbb24192652b280769ad84e8f72b83ed71c7580df3372489d707a8014cb",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2012.parquet",
+      "sha256": "3c07a942f7c3e277ed0bc4e96d88e4527d5b7908c05dd34a1a97ea914b0e174a",
+      "bytes": 111131451
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2013.json",
+      "sha256": "392e3cae3804caacb4364352ffdd214af885ced3189a2021fddffae5558cc320",
+      "bytes": 1676
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2013.parquet",
+      "sha256": "f83b137d38c0f668150f2e2f090a4401d58975ac244a0b7a1af13ace7013dd62",
+      "bytes": 111176992
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2014.json",
+      "sha256": "274cb00fc0106dbb63f284e67aa1eeace04e304efca06279eb14438f29b8f913",
+      "bytes": 1674
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/historical/2014.parquet",
+      "sha256": "01ac55441bfa0aaf4337c3b2466650b3624837363df9b4e8f08ba65473031238",
+      "bytes": 110600137
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2015.json",
+      "sha256": "3ccec01e8465f66a67fb397ce5c4ed2993e655077a20e97d0f319ec8acc9a96b",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2015.parquet",
+      "sha256": "72e53040aea5b7509671cfb158339e0a5f4c5bc0e380b8f7321081bbb1cbe1e9",
+      "bytes": 111170018
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2016.json",
+      "sha256": "a9b53dc2452de85405438a6c529584c8603e1e0c418e72cffbb89450b6c5523c",
+      "bytes": 1657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2016.parquet",
+      "sha256": "c48e48d43adf1a86eaa3839496f6ae1bb3f541713152b50d984c1497c8807c36",
+      "bytes": 110876561
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2017.json",
+      "sha256": "caf11a82f4ec83fcaee9ccee9a06a9c1fdaae62833082e6f1a37647974a7798a",
+      "bytes": 1654
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2017.parquet",
+      "sha256": "fc8187a1d89ac29d654ec7693ddecbc9a9c08eb30979637affd393c7bc90e2bc",
+      "bytes": 110818855
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2018.json",
+      "sha256": "c547c2719b6dd6f132f192c9819a59146aa5e78a20dc17c599bb99e80229c793",
+      "bytes": 1653
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2018.parquet",
+      "sha256": "bb3c0886f245770d946c4dd09335a48c684fd7f07ff70c092fad63d78a65f705",
+      "bytes": 111610463
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2019.json",
+      "sha256": "bafcc9e5aa60157450d3504333c19f0b5db4cb73345eeca9ae7b1e81053657a7",
+      "bytes": 1670
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2019.parquet",
+      "sha256": "33731c5766a5572227156cc32c8eadd464f35c38046817856bc2249f10195e4a",
+      "bytes": 110820199
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2020.json",
+      "sha256": "23cad29a4e4fd59d48a2c000a694f1ba63d23d6477119ccb7073543cc7958ba4",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2020.parquet",
+      "sha256": "ac6a12ea068f352e62448b60a75bca9814ee794668dc4443f523194e0485244b",
+      "bytes": 111476504
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2070.json",
+      "sha256": "af7ce60947f88c6e12b233d458b47e38eaccb9c8901583ef64820beefc9de936",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2070.parquet",
+      "sha256": "9391ddf9cc28760b1c868ed24a245a69ebbaecd2d4e892450157d61c96a5d45f",
+      "bytes": 110704055
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2071.json",
+      "sha256": "abad884cfca26c1669b9bf1cb45ca6eeb9ea4e469e9fd066cca42e3635688850",
+      "bytes": 1657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2071.parquet",
+      "sha256": "56a4accac9d039a518efbd2f2de2749afbb32d6137b2c1d8e8e78dc47e2a3236",
+      "bytes": 110221542
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2072.json",
+      "sha256": "25572874a0379a40f4c709d201da1316b9d98a183cfa8f87a4b69bb339c0d3d5",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2072.parquet",
+      "sha256": "dbd99093282b7e73f6c2d5feb735771cb102255af54478729d687a805b92ebbf",
+      "bytes": 110644344
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2073.json",
+      "sha256": "e2852883a722113abc31aaccd804ef78a7fe4c0c522ceab1e2488df7ee7e39d1",
+      "bytes": 1659
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2073.parquet",
+      "sha256": "69282961e49dc72a297511b34d4ba393b0a73c12c7cd49d9d25aac4cccc7e662",
+      "bytes": 110648626
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2074.json",
+      "sha256": "11f662ae6ec0c3976dee2d8060743028fd6c439204778abb35ccbab74e9c775e",
+      "bytes": 1659
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2074.parquet",
+      "sha256": "2ba1d0846c58bd75862d59c99a567022e2e24e2231d36be3aeeeee89fcd94c9e",
+      "bytes": 110843417
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2075.json",
+      "sha256": "391bc59fab644d40d6923032c0839c8dcdbfe1b2f1bd997d05dccc5c847757ef",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2075.parquet",
+      "sha256": "f12d7685c0ea3f0e6a161c8f38747d461c009e496b8c423cc4cb9ae6b96677a4",
+      "bytes": 110242837
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2076.json",
+      "sha256": "9f3186403b7ab741eaab69d8ef4f14182238e59879f6f9ac2bdb98e8fe800e7f",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2076.parquet",
+      "sha256": "c3084fed6f6af8bd72707c9c2771cede7ef3c1eb6d1dd910f9562420cd3f1b23",
+      "bytes": 111048669
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2077.json",
+      "sha256": "7cff82f287a59f4486cfee53a58ede339cf81da37cb31923c96441c947ea4bf1",
+      "bytes": 1665
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2077.parquet",
+      "sha256": "b775460ed76d48280492c4f4d4950e71386bd9dab21b5b607d6801d3b10d46c0",
+      "bytes": 109963360
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2078.json",
+      "sha256": "284b63724ecf634d4ce5e99b8b83bf638090adbf140895c9db799b4704fcc43f",
+      "bytes": 1650
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2078.parquet",
+      "sha256": "8a6d8d05737fe0b33369362d6ae01d7c476cb5d1831b7abd29256bd65939b222",
+      "bytes": 110422459
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2079.json",
+      "sha256": "0d83a5c1863f7747c4976243d135fab26dbe5f1c7758d81457717ab6772c2da0",
+      "bytes": 1653
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2079.parquet",
+      "sha256": "df97cd6faa563db46d45fe1dfa0050f5912c89d4caf0d05208df4f6aaa8df626",
+      "bytes": 110882422
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2080.json",
+      "sha256": "66d2da1db3fd244025a5d879a0d60fc6088301fb2d2b4115a15451c8ffc1e828",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2080.parquet",
+      "sha256": "0b2b3b0154bd0355b13e39e907f5173e7874005375ee0db33d813249a37eea57",
+      "bytes": 110645768
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2081.json",
+      "sha256": "0f94523a8b40fd4f5f992bbc4d6fdf01b504a02dd3a622c0bc33ddc623698a49",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2081.parquet",
+      "sha256": "7a0db15825c74a73002d41081a204cfbfce86499bdf0354ffd43b9b217cd16a5",
+      "bytes": 109820478
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2082.json",
+      "sha256": "0d2fd8d38cf3bf2cfd0d722bb38d856cbbb2fd71feedd50e345e66fa63bf5435",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2082.parquet",
+      "sha256": "a1d1c5f053dd87bc205191368cf852933c88e47be2adf52b9f5a30f74677900e",
+      "bytes": 110269689
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2083.json",
+      "sha256": "bf4f9b51f7bf0faed53dcc1a58fd53ffbc6986c83b5280bcdb8d6ef1d30afe0f",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2083.parquet",
+      "sha256": "cfe9e27334c0dec8a4ee36150f60891965d18bf00e73bc11b4f2aa9904c80bed",
+      "bytes": 109756446
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2084.json",
+      "sha256": "1c5267eafe116d6d89d30e88193c4afa4849886e3b812100f49832ae9161c797",
+      "bytes": 1651
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2084.parquet",
+      "sha256": "3e4114d3c36f82bbafdd9824ad6be93db8cf2d919869b8b4ec938db1bb450279",
+      "bytes": 110525543
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2085.json",
+      "sha256": "230967add51971d0a8a725d4d2be29cfa21c7d67cd4d7d7c1a6fc0c4dca6e772",
+      "bytes": 1649
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2085.parquet",
+      "sha256": "b959e5278336ea6e054025dd6d87d9b26f45d84497dfa62b19c44fba8d85a57b",
+      "bytes": 110668976
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2086.json",
+      "sha256": "4462cd63383194c3614727580f66329da96a106c2a81f6892d5930d2af8e5329",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2086.parquet",
+      "sha256": "fba15ebc054277de1b1ec8d14c6328cb132d240c58cb6b0793a8ff397e9209b7",
+      "bytes": 109935235
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2087.json",
+      "sha256": "c8e122060f469b22100748b3ed0aff03917880676529e49373a4827fa32d31a1",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2087.parquet",
+      "sha256": "72041b79b7a9dbb2a8a3298e71c3565e4d280b8c663fe82c62ce92e3dfa94e3a",
+      "bytes": 110064479
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2088.json",
+      "sha256": "1892cb161e3b71d9dc25786c673a8d3f59e517ab43cca5d78338dc50df3569ab",
+      "bytes": 1657
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2088.parquet",
+      "sha256": "9daef56297ba9f0db0b3ff975a59edd7f7aeb21ae41d58261a96154c37362bf8",
+      "bytes": 110684579
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2089.json",
+      "sha256": "30ba792d327c9dbe554e28829c73e903fe71a74b47c5924504be1a355bf2ba64",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2089.parquet",
+      "sha256": "ed26d14f947d8e728be3daa30d60b6b5d54d4e40490fe119104da44efd68e461",
+      "bytes": 109826317
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2090.json",
+      "sha256": "6045604f5af3c20a50c0972ec464c660e56a7abe5ec310aa75fe85546b590884",
+      "bytes": 1654
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2090.parquet",
+      "sha256": "83e064097f1ef28cb1c371f98ba00056f9e9cfb069c0b478abdfffa475d4fe6f",
+      "bytes": 110316200
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2091.json",
+      "sha256": "04450666bd61f0c587932fde00c3e3756bc3700d7ba6a8866d8052903f5bce47",
+      "bytes": 1655
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2091.parquet",
+      "sha256": "03fcf85eb9f4d6da46a9caf6632967ffb421c5ac5fe25e541d0f16d0ddf6dd10",
+      "bytes": 110114841
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2092.json",
+      "sha256": "30ed1e956f3665fa5adc2f6c9a80cde6806af00db6cc2755fe6122cf5d9d368d",
+      "bytes": 1647
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2092.parquet",
+      "sha256": "ba2a47e0f76dc6d7ef58d4de6a5498b18ab2cbbbb9dea8fd1be24a3a625090e9",
+      "bytes": 110855910
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2093.json",
+      "sha256": "75f01223a193a2edecb8a8db57a53703ad713c034cae8faa3509528f98c9daf3",
+      "bytes": 1670
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2093.parquet",
+      "sha256": "839f66401d91a9952e02ec243b7aaf900336b60e29330d377b229080069be31b",
+      "bytes": 110187726
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2094.json",
+      "sha256": "101337b135d7ab8e5c607b2af892d49853634b016638cdc4a34eeb2e3d9136b8",
+      "bytes": 1658
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2094.parquet",
+      "sha256": "e87d805628514341d2c84ae6765e08920d0f23f77c4eb29f97f25036441c31a9",
+      "bytes": 110423136
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2095.json",
+      "sha256": "7135a8ab466f1f9b30a8b060df59a7435bd6a927b0ecb84f930ec0ca06586cf8",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2095.parquet",
+      "sha256": "7a9a94bbb567a8ae154c564baabf2cc14e93fd5b4748ddb71c785fbf09020a7e",
+      "bytes": 110447200
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2096.json",
+      "sha256": "fcd218644e46ff26494589979cf0c0ef8067ef782ae6a081f1fe22c20b284661",
+      "bytes": 1659
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2096.parquet",
+      "sha256": "6a9f5301f1e023488a55b124a118093190a8c6619e48d7f5eed70d64c9f03434",
+      "bytes": 110632624
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2097.json",
+      "sha256": "da5bacfd86b2a420368476135b1346b88d7c233925e77b294c3f0110ca8bf7eb",
+      "bytes": 1654
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2097.parquet",
+      "sha256": "d9422263ebab361ce2b8c8a5dd486ed5f346a116eeeeb56429fb8463e9cd88f9",
+      "bytes": 110163985
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2098.json",
+      "sha256": "8a37bc8d8c3f817468435755c6350dc1009615ef00e25988ed8c02c9694b8b9c",
+      "bytes": 1659
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2098.parquet",
+      "sha256": "0dc86f1025e97a6ec78fcbb063400451256341b127e67e4d08456afee83a70d3",
+      "bytes": 110114959
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2099.json",
+      "sha256": "ebea89e1ab6332ebeed228714daa6bf5b73ef24416b9079712f1a3c0934c0d89",
+      "bytes": 1653
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2099.parquet",
+      "sha256": "d4053275ca44da039efe6b67764a1997f9cf103ac25bfa9a73bac96acabe4e8d",
+      "bytes": 110215837
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2100.json",
+      "sha256": "03aa8af00e1509f1cef6b12c400df7fe7df47e0077ddb2a6323a4f45c1332692",
+      "bytes": 1656
+    },
+    {
+      "path": "data/paper_study/climate/nasa_v2/daily/MRI-ESM2-0/ssp585/2100.parquet",
+      "sha256": "68d2acd5b92b5734f7c7eec18554fe01f5eb3ab136e18304ef723d0789c6a2ae",
+      "bytes": 110352913
+    },
+    {
+      "path": "model/seasonal_septoria/__init__.py",
+      "sha256": "a9a0c8604a0b3d3707d5b485c7bf9e5e37fdedfc6a1938a707ac07e4982064e5",
+      "bytes": 73
+    },
+    {
+      "path": "model/seasonal_septoria/climate_alignment.py",
+      "sha256": "efaeaeebb2a156a9352e9bb97b0069818362e0aca042f2f4c2416f0529ba0e9a",
+      "bytes": 2286
+    },
+    {
+      "path": "model/seasonal_septoria/core.py",
+      "sha256": "8a3586e61c20967280650f950b32a78664b09ad46a188de8a300e8fc22b8a65d",
+      "bytes": 8590
+    },
+    {
+      "path": "model/seasonal_septoria/host.py",
+      "sha256": "0be889d8b8e871169db0570df240da5a1be9613abe4c288ef91c3561875ed8ea",
+      "bytes": 2740
+    },
+    {
+      "path": "model/seasonal_septoria/leaf_phenology.py",
+      "sha256": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f",
+      "bytes": 13270
+    },
+    {
+      "path": "model/seasonal_septoria/overwinter.py",
+      "sha256": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7",
+      "bytes": 17400
+    },
+    {
+      "path": "model/seasonal_septoria/regional.py",
+      "sha256": "c5538812bcb2b8a45c3ec639b78b2e89a7e20b07fce7261575946897368c5a62",
+      "bytes": 8122
+    },
+    {
+      "path": "model/seasonal_septoria/wetness.py",
+      "sha256": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6",
+      "bytes": 3424
+    },
+    {
+      "path": "data/final_climate/scientific_manifest.json",
+      "sha256": "cd3fb7d002921c2a4b013ef763657329e8d78e9150fd98374e9ffebbfcbe21af",
+      "bytes": 665553
+    },
+    {
+      "path": "analysis/food_security_extension/attribution.py",
+      "sha256": "d76c3f9d116ef689df96b7e5cc14405900e687e3cf1e049f2d9e247af4be9bb3",
+      "bytes": 26161
+    },
+    {
+      "path": "data/final_climate/regions.csv",
+      "sha256": "f003d877270af71aa3c7069f317b56480bd5c5b055633f26bf9ee78852d69d6f",
+      "bytes": 1056286
+    },
+    {
+      "path": "outputs/food_security_extension_period_20261013/attribution/attribution_receipt.json",
+      "sha256": "e76f6929f2149e258ca47628d447df64b254483e7dcbeae9c8c57566c11effdb",
+      "bytes": 90908
+    },
+    {
+      "path": "outputs/food_security_extension_period_20261013/attribution/attribution_pairs.parquet",
+      "sha256": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d",
+      "bytes": 4312706
+    },
+    {
+      "path": "analysis/gcb_preparation/adaptation_analysis.py",
+      "sha256": "c52cdcbaa8ad9c3eb94e4ebc4d8f792e254c54ad16c7ef53cf6e7645763adae3",
+      "bytes": 27899
+    }
+  ]
+}

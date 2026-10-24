@@ -1,0 +1,6 @@
+{
+  "kind": "phase_age",
+  "selection": {
+    "path": "data/final_models/current/selection.json"
+  }
+}

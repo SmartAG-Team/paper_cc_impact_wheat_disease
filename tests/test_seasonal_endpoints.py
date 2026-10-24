@@ -3,7 +3,7 @@ import math
 import pandas as pd
 import pytest
 
-from calibration.seasonal_septoria import endpoints
+from models.calibration.seasonal_septoria import endpoints
 
 
 def test_onset_interval_uses_last_zero_as_exclusive_lower_bound():

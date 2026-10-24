@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from calibration.seasonal_septoria.field_data import FieldData
-from calibration.seasonal_septoria.calibrate import fit
+from models.calibration.seasonal_septoria.field_data import FieldData
+from models.calibration.seasonal_septoria.calibrate import fit
 
 
 def field_data():

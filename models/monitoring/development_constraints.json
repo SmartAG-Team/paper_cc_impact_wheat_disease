@@ -1,0 +1,32 @@
+{
+  "updated": "2026-10-22",
+  "basis": "User instruction: no satellite because model is used for later climate-change simulations",
+  "satellite_inputs_allowed": false,
+  "satellite_auxiliary_training_allowed": false,
+  "climate_runtime_weather": [
+    "tmean_c",
+    "tmax_c",
+    "rh_mean_pct",
+    "precipitation_mm"
+  ],
+  "climate_runtime_other": [
+    "latitude",
+    "longitude",
+    "calendar date",
+    "scenario-defined sowing or weather-derived sowing estimate",
+    "declared observation endpoint"
+  ],
+  "climate_runtime_forbidden": [
+    "disease observations from the simulated season",
+    "observed BBCH from the simulated season",
+    "satellite retrievals",
+    "field-specific information unavailable for the scenario"
+  ],
+  "training_auxiliary_allowed": [
+    "historical station weather",
+    "historical wheat sowing/phenology records with qualified chronology and location"
+  ],
+  "historical_satellite_experiments": "Archive only, excluded from further development and adoption",
+  "monitoring_benchmark": "Retain original same-field earlier-observation setting and original metrics; assess separately from autonomous climate deployment",
+  "promotion": "Monitoring accuracy cannot establish autonomous climate-model validity"
+}

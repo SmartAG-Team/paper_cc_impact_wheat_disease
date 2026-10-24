@@ -1,0 +1,10 @@
+phase,season_year,observation_status,field_seasons,year_total
+calibration,2017,positive_at_first,12,16
+calibration,2017,zero_to_positive,3,16
+calibration,2017,no_positive,1,16
+calibration,2018,positive_at_first,6,6
+calibration,2018,zero_to_positive,0,6
+calibration,2018,no_positive,0,6
+evaluation,2019,positive_at_first,27,33
+evaluation,2019,zero_to_positive,4,33
+evaluation,2019,no_positive,2,33

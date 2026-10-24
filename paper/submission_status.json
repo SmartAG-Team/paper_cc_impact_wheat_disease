@@ -1,0 +1,103 @@
+{
+  "journal": "Global Change Biology",
+  "article_type": "Research Article",
+  "guidelines_url": "https://onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html",
+  "review_package_complete": true,
+  "submitted": false,
+  "public_GCB_revision_deposited": false,
+  "persistent_identifier_assigned": false,
+  "author_submission_items": [],
+  "empirical_limits": [
+    "Observation-conditioned monitoring cannot validate autonomous projections",
+    "F1 evaluation is retrospective reuse with weight-dependent skill and sparse severe cases",
+    "Physiological canopy loss and grain losses lack independent validation"
+  ],
+  "no_external_messages_sent": true,
+  "main_figures": 10,
+  "support_figures": 3,
+  "graphical_abstract": true,
+  "journal_references_total": 45,
+  "gcb_journal_references": 10,
+  "initial_submission_free_format": true,
+  "citation_style": "consistentauthor\u2013year,chronologicalwithineachgroup;alphabeticalbibliography",
+  "new_endpoint_candidates_tested": 3,
+  "candidate_promoted": false,
+  "endpoint_precision_objective_achieved": false,
+  "phone_and_orcid_pending": false,
+  "methods_figures": 3,
+  "methods_figures_embedded": true,
+  "climate_map_layout": "2 by 2: three scenario changes and SSP585 direction agreement",
+  "geographical_scale_bars": false,
+  "monitoring_forecasts_unchanged": true,
+  "metric_intervals": "descriptive paired-site resampling of fixed forecasts; not external validation",
+  "figure_formats": [
+    "png"
+  ],
+  "figure_dpi": 300,
+  "graphical_abstract_required_for": [
+    "revised manuscript",
+    "accepted manuscript"
+  ],
+  "graphical_abstract_guideline_checked": "2026-10-24",
+  "graphical_abstract_guideline_url": "https://www.onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html",
+  "data_overview": {
+    "assessments": 2304,
+    "field_seasons": 218,
+    "sites": 128,
+    "years": [
+      2014,
+      2019
+    ],
+    "treatment": "explicitly untreated and zero sprays"
+  },
+  "all_figures_after_first_citation": true,
+  "main_performance_figures": 1,
+  "running_title_characters": 44,
+  "figure_roles": "analysis/gcb_preparation/figure_registry.py",
+  "adaptation_support_sensitivity": true,
+  "satellite_inputs": false,
+  "main_performance_figure": 4,
+  "results_start_with_model_performance": true,
+  "onset_results_reported": true,
+  "onset_evaluation_histories": 4,
+  "onset_evaluation_type": "retrospective F1 interval-excess timing; not exact-date MAE",
+  "onset_calibration_histories": 3,
+  "onset_coverage_field_seasons": 55,
+  "onset_positive_field_seasons": 52,
+  "onset_calibration_pooled_as_validation": false,
+  "main_performance_panels": [
+    "temporal density",
+    "evaluation-forecast calibration",
+    "weighted absolute-error coverage",
+    "separate process onset"
+  ],
+  "forecast_calibration_display": "Figure4b only",
+  "error_coverage_weighting": "original evaluation weights; full0\u2013100pp error range",
+  "onset_coverage_display": "Methods and machine-readable ledger",
+  "journal_guidelines_last_checked": "2026-10-24",
+  "initial_checklist_updated": "2025-12-01",
+  "cover_letter_questions": 7,
+  "cover_letter_max_answer_words": 47,
+  "potential_reviewers": 5,
+  "potential_reviewers_institutional_emails_verified": true,
+  "potential_reviewer_personal_conflicts_confirmed": false,
+  "author_declarations_confirmed": true,
+  "submission_ready": true,
+  "production_line_art_preferred_dpi": 600,
+  "initial_300dpi_legibility_verified": true,
+  "authorship_confirmed": true,
+  "funding_statement_confirmed": true,
+  "competing_interests_statement_confirmed": true,
+  "author_declarations_confirmation_date": "2026-10-24",
+  "submitting_author_orcid": "0009-0003-0619-5849",
+  "corresponding_author_telephone": "+86 17782509963",
+  "orcid_check_digit_verified": true,
+  "author_information_complete": true,
+  "pre_submission_author_checks": [
+    "Check suggested reviewers for undisclosed personal collaborations"
+  ],
+  "pre_publication_items": [
+    "Public data/code archive with persistent identifier",
+    "Higher-resolution line art if requested in production"
+  ]
+}

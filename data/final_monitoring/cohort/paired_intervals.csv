@@ -1,0 +1,6 @@
+evaluation,model,reference,lower,upper
+temporal,irish_station_candidate,history_interval,-0.010977719126304564,0.013527795482614817
+temporal,irish_station_candidate,reference_replay,-3.025513104868962,-1.1153856413664816
+temporal,irish_station_candidate,current,-2.7843710293982147,-1.307551047934925
+spatial_50km,irish_station_candidate,history_interval,-0.019700027716843583,0.001810209878647481
+spatial_50km,irish_station_candidate,reference_replay,-3.489651308942171,-1.612327483927498

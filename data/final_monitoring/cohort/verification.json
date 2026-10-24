@@ -1,0 +1,21 @@
+{
+  "verified": true,
+  "training_records": 2304,
+  "evaluation_records_per_condition": 2017,
+  "new_history_component_members_replayed": 840,
+  "original_process_ensembles_replayed": 20,
+  "full_process_component_identical": true,
+  "history_reconstructed_exactly": true,
+  "prior_dates_strictly_earlier": true,
+  "original_splits_unchanged": true,
+  "minimum_spatial_distance_km": 51.59216845163394,
+  "metrics_recomputed": 7,
+  "intervals_recomputed": 5,
+  "subgroup_rows_recomputed": 27,
+  "diagnostic_combinations_complete": true,
+  "adoption_decisions_recomputed": 3,
+  "synthetic_future_schema_probe_is_accuracy_validation": false,
+  "independent_external_validation": false,
+  "publication_model_promoted": false,
+  "verifier_sha256": "d28f0cde57bc17aadcda51426ae0c8e1ed5154a2fbe3744a20f46a2312623c1f"
+}

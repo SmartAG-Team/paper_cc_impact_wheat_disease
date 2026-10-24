@@ -9,12 +9,12 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from model.wheat_stb import (
+from models.wheat_stb import (
     EngineConfig, PhenologyModel, TPVParameters, WeatherDay, WeatherProvider,
     WheatSTBSimulation,
 )
-from model.seasonal_septoria.regional import tpv_accumulation
-from calibration.wheat_stb.configuration import make_configuration
+from models.seasonal_septoria.regional import tpv_accumulation
+from models.calibration.wheat_stb.configuration import make_configuration
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,8 +31,8 @@ def weather(days=90):
 
 
 def configuration(**changes):
-    values = make_configuration(tpv_fit=ROOT/'configurations/wheat_stb/tpv_calibration.json',
-        stage_fit=ROOT/'configurations/wheat_stb/calibrated_stage_thresholds.json',
+    values = make_configuration(tpv_fit=ROOT/'data/configurations/wheat_stb/tpv_calibration.json',
+        stage_fit=ROOT/'data/configurations/wheat_stb/calibrated_stage_thresholds.json',
         latitude=51.5, sowing_date=date(2026, 10, 1)).to_dict()
     values.update(changes)
     return EngineConfig.from_dict(values)
@@ -41,7 +41,7 @@ def configuration(**changes):
 @pytest.mark.parametrize('vernalization_required', [True, False])
 def test_incremental_tpv_matches_donor_with_prior_state_gates(vernalization_required):
     provider = weather(140)
-    raw = json.loads((ROOT/'process_model/parameters/calibration.json').read_text())
+    raw = json.loads((ROOT/'data/phenology_parameters/calibration.json').read_text())
     parameters = TPVParameters(**{key: raw[key] for key in TPVParameters.__dataclass_fields__})
     sowing = date(2026, 10, 1)
     component = PhenologyModel(parameters, latitude=51.5, sowing_date=sowing,
@@ -59,7 +59,7 @@ def test_incremental_tpv_matches_donor_with_prior_state_gates(vernalization_requ
 
 
 def test_phenology_rates_are_pure_and_cannot_be_reused_or_cross_instance():
-    raw = json.loads((ROOT/'process_model/parameters/calibration.json').read_text())
+    raw = json.loads((ROOT/'data/phenology_parameters/calibration.json').read_text())
     p = TPVParameters(**{key: raw[key] for key in TPVParameters.__dataclass_fields__})
     row = WeatherDay(date(2026, 10, 1), 10., 14., 80., 0.)
     first = PhenologyModel(p, latitude=51., sowing_date=row.date)
@@ -99,7 +99,7 @@ def test_csv_weather_boundary_excludes_outcome_columns(tmp_path):
 
 def test_external_configuration_preserves_authoritative_stage_fit_and_is_immutable():
     config = configuration()
-    fit = json.loads((ROOT/'analysis/paper_study/overwinter_leaf_model_20261006/phenology/calibrated_stage_thresholds.json').read_text())
+    fit = json.loads((ROOT/'data/configurations/wheat_stb/calibrated_stage_thresholds.json').read_text())
     assert dict(config.leaf.stage_thresholds) == {int(k): float(v) for k, v in fit['all_stage_thresholds'].items()}
     with pytest.raises(FrozenInstanceError):
         config.latitude = 40.
@@ -284,7 +284,7 @@ def test_conditional_yield_is_explicit_and_incomplete_windows_stay_missing():
 
 
 def test_cli_runs_and_preserves_existing_output_directory(tmp_path):
-    from model.wheat_stb.cli import main
+    from models.wheat_stb.cli import main
     config_path = tmp_path/'configuration.json'
     config_path.write_text(json.dumps(configuration().to_dict()))
     weather_path = tmp_path/'weather.csv'
@@ -339,15 +339,15 @@ def test_runtime_requires_explicit_stage_and_tpv_parameters():
 
 def test_external_fit_conversion_preserves_imported_background_and_daily_override(tmp_path):
     from dataclasses import asdict
-    from model.seasonal_septoria.overwinter import OverwinterParameters
+    from models.seasonal_septoria.overwinter import OverwinterParameters
     path = tmp_path/'fit.json'
     path.write_text(json.dumps(dict(status='fit_complete', disease_magnitude_fit=False,
         validation_outcomes_used=False, calibration_fields=28,
         fitted=dict(parameters=asdict(OverwinterParameters(primary_scale=.001, secondary_scale=10.)),
             rank_spacing_units=80., constant_imported_pressure=.1,
             weather_preprocessing=dict(weather_operator='duration_proxy', rain_rate_mm_hour=.45)))))
-    config = make_configuration(tpv_fit=ROOT/'configurations/wheat_stb/tpv_calibration.json',
-        stage_fit=ROOT/'configurations/wheat_stb/calibrated_stage_thresholds.json', disease_fit=path,
+    config = make_configuration(tpv_fit=ROOT/'data/configurations/wheat_stb/tpv_calibration.json',
+        stage_fit=ROOT/'data/configurations/wheat_stb/calibrated_stage_thresholds.json', disease_fit=path,
         latitude=51.5, sowing_date='2026-10-01')
     assert config.background_imported_pressure == .1
     assert config.rain_rate_mm_hour == .45
@@ -377,9 +377,9 @@ def test_external_functional_yield_integral_has_explicit_area_and_no_invented_re
 
 
 def test_composed_daily_engine_matches_shared_batch_kernel_exactly():
-    from model.seasonal_septoria.leaf_phenology import leaf_host
-    from model.seasonal_septoria.overwinter import simulate_overwinter
-    from model.seasonal_septoria.wetness import duration_exposure
+    from models.seasonal_septoria.leaf_phenology import leaf_host
+    from models.seasonal_septoria.overwinter import simulate_overwinter
+    from models.seasonal_septoria.wetness import duration_exposure
     config, provider = configuration(crop_end_date='2026-12-01'), weather(100)
     raw = {key: value for key, value in config.to_dict()['phenology'].items()}
     t = np.array([[row.tmean_c for row in provider]])
@@ -431,7 +431,7 @@ def test_component_integration_failure_rolls_back_the_complete_day():
 
 def test_latent_infection_is_separate_from_symptoms_and_dates_follow_actual_days():
     from dataclasses import asdict
-    from model.seasonal_septoria.overwinter import OverwinterParameters
+    from models.seasonal_septoria.overwinter import OverwinterParameters
     disease = asdict(OverwinterParameters(primary_scale=1., secondary_scale=0.,
         latent_reference_days=1., latent_stages=3))
     config = synthetic_configuration(sowing_date='2026-10-01', disease=disease,

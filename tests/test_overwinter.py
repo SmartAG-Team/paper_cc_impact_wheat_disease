@@ -5,7 +5,7 @@ from dataclasses import replace
 import numpy as np
 import pytest
 
-from model.seasonal_septoria.overwinter import OverwinterModel, OverwinterParameters, simulate_overwinter
+from models.seasonal_septoria.overwinter import OverwinterModel, OverwinterParameters, simulate_overwinter
 
 
 def forcing(days=100, leaves=3):

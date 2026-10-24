@@ -1,0 +1,104 @@
+{
+  "model": "MRI-ESM2-0",
+  "scenario": "historical",
+  "year": 1990,
+  "version": "2.0",
+  "native_source_path": "AMES/NEX/GDDP-CMIP6/MRI-ESM2-0/historical/r1i1p1f1/tasmax/tasmax_day_MRI-ESM2-0_historical_r1i1p1f1_gn_1990_v2.0.nc",
+  "source_catalog": "https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/MRI-ESM2-0/historical/r1i1p1f1/tasmax/catalog.xml",
+  "source_catalog_sha256": "d5b886077b26282c476f190328410ecadcf80625c2f37b4bc75598dcf46a291e",
+  "ncss_query": {
+    "var": "tasmax",
+    "north": 67.625,
+    "south": 34.875,
+    "west": -9.375,
+    "east": 59.375,
+    "horizStride": 1,
+    "time_start": "1990-01-01T12:00:00Z",
+    "time_end": "1990-12-31T12:00:00Z",
+    "accept": "netcdf4",
+    "addLatLon": "true"
+  },
+  "native_global_attributes": {
+    "activity": "NEX-GDDP-CMIP6",
+    "Conventions": "CF-1.7",
+    "frequency": "day",
+    "institution": "NASA Earth Exchange, NASA Ames Research Center, Moffett Field, CA 94035",
+    "variant_label": "r1i1p1f1",
+    "product": "output",
+    "realm": "atmos",
+    "source": "BCSD",
+    "scenario": "historical",
+    "references": "BCSD method: Thrasher et al., 2012, Hydrol. Earth Syst. Sci.,16, 3309-3314. Ref period obs: latest version of the Princeton Global Meteorological Forcings (http://hydrology.princeton.edu/data.php), based on Sheffield et al., 2006, J. Climate, 19 (13), 3088-3111.",
+    "version": "2.0",
+    "title": "MRI-ESM2-0, r1i1p1f1, historical, global downscaled CMIP6 climate projection data",
+    "resolution_id": "0.25 degree",
+    "external_variables": "areacella",
+    "cmip6_source_id": "MRI-ESM2-0",
+    "cmip6_institution_id": "MRI",
+    "cmip6_license": "CC-BY-SA 4.0",
+    "contact": "Dr. Bridget Thrasher: bridget@climateanalyticsgroup.org, Dr. Ian Brosnan: ian.g.brosnan@nasa.gov",
+    "creation_date": "Sat Nov 16 15:58:14 PST 2024",
+    "disclaimer": "These data are considered provisional and subject to change. They are provided as is without any warranty of any kind, either express or implied, arising by law or otherwise, including but not limited to warranties of completeness, non-infringement, accuracy, merchantability, or fitness for a particular purpose. The user assumes all risk associated with the use of, or inability to use, these data.",
+    "tracking_id": "2d0c6f04-622c-4218-9458-f69411104e93",
+    "History": "Translated to CF-1.0 Conventions by Netcdf-Java CDM (CFGridCoverageWriter)\nOriginal Dataset = tasmax_day_MRI-ESM2-0_historical_r1i1p1f1_gn_1990_v2.0.nc; Translation Date = 2026-10-05T11:20:01.365Z",
+    "geospatial_lat_min": 34.75,
+    "geospatial_lat_max": 67.75,
+    "geospatial_lon_min": -9.5,
+    "geospatial_lon_max": 59.5
+  },
+  "native_variable_attributes": {
+    "time": 51134.5,
+    "standard_name": "air_temperature",
+    "long_name": "Daily Maximum Near-Surface Air Temperature",
+    "units": "K",
+    "comment": "maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: max')",
+    "original_name": "TA",
+    "cell_methods": "area: mean time: maximum",
+    "cell_measures": "area: areacella",
+    "history": "2019-05-10T01:05:49Z altered by CMOR: Treated scalar dimension: 'height'. 2019-05-10T01:05:49Z altered by CMOR: replaced missing value flag (-9.99e+33) with standard missing value (1e+20)."
+  },
+  "native_calendar": "proleptic_gregorian",
+  "target_transform": [
+    0.25,
+    0,
+    -180,
+    0,
+    -0.25,
+    90
+  ],
+  "resampling": "None; native 0.25° centres match common grid",
+  "registry_path": "data/paper_study/wheat_area/europe_wheat_cells_025.parquet",
+  "registry_sha256": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+  "coastal_alignment_provenance": "data/paper_study/climate/nasa_v2/coastal_alignment/MRI-ESM2-0.json",
+  "native_missing_values": 0,
+  "unit_conversion": "K−273.15 for temperature; kg m−2 s−1×86400 for precipitation; relative humidity%",
+  "native_file_license": "CC-BY-SA 4.0",
+  "license_provenance": "NASA 2023 technical note and EE catalog state blanket CC0 from September 2022; native v2 attributes and NASA v2 technical note retain original CMIP6 terms. Both source statements preserved; no automatic override of native file license.",
+  "license_sources": [
+    "https://www.nccs.nasa.gov/sites/default/files/NEX-GDDP-CMIP6-Tech_Note.pdf",
+    "https://www.nccs.nasa.gov/sites/default/files/NEX-GDDP-CMIP6-v2-Tech_Note.pdf"
+  ],
+  "download_sha256": "5f7d519db65687d8e292e7177984ca966839151dd594bfbcfc7d717567f82b1f",
+  "download_bytes": 25146295,
+  "raw_subset_retention": "Transient in memory; selected wheat-cell values and complete originalmetadata archived",
+  "numeric_adjustments": {},
+  "quality": {
+    "rows": 5453465,
+    "days": 365,
+    "cells": 14941,
+    "date_min": "1990-01-01",
+    "date_max": "1990-12-31",
+    "missing_values": {
+      "tmax_c": 0
+    },
+    "ranges": {
+      "tmax_c": {
+        "min": -28.937408447265625,
+        "max": 43.504150390625
+      }
+    }
+  },
+  "parquet_sha256": "870ad997a18f6f9aebda36490301b78aa198f6f06244a319b0929f98938c43a5",
+  "parquet_bytes": 30048378,
+  "retrieved_utc": "2026-10-05T11:22:41.447412+00:00"
+}

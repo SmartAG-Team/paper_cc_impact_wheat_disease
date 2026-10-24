@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from model.seasonal_septoria.host import cohort_inputs, sowing_date_from_calendar
+from models.seasonal_septoria.host import cohort_inputs, sowing_date_from_calendar
 
 
 def test_cross_year_sowing_uses_calendar_order_and_actual_year_length():

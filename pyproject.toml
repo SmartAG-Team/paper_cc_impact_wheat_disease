@@ -10,13 +10,13 @@ requires-python = ">=3.11"
 dependencies = ["numpy>=1.24", "pandas>=2.0", "numba>=0.59", "scipy>=1.10"]
 
 [project.scripts]
-wheat-stb = "model.wheat_stb.cli:main"
+wheat-stb = "models.wheat_stb.cli:main"
 
 [tool.setuptools]
 include-package-data = false
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["model*"]
+include = ["models*", "paper*"]
 exclude = ["*.tests*", "*.__pycache__*"]
 namespaces = true

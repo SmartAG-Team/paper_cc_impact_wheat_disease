@@ -1,0 +1,60 @@
+{
+  "status": "prepared_before_fitting",
+  "fields": 216,
+  "sites": 127,
+  "assessments": 2287,
+  "evaluation_assessments": 2033,
+  "onset_histories": 897,
+  "genuine_evaluation_histories": 148,
+  "predictors": [
+    "temperature_mean_7d",
+    "humidity_mean_7d",
+    "rain_log1p_mean_7d",
+    "temperature_mean_21d",
+    "humidity_mean_21d",
+    "rain_log1p_mean_21d",
+    "temperature_mean_42d",
+    "humidity_mean_42d",
+    "rain_log1p_mean_42d",
+    "elapsed_days_scaled",
+    "calendar_sin",
+    "calendar_cos",
+    "crop_cdf_10",
+    "crop_cdf_31",
+    "crop_cdf_51",
+    "crop_cdf_87"
+  ],
+  "feature_shape": [
+    216,
+    384,
+    16
+  ],
+  "horizon_counts": {
+    "330": 215,
+    "384": 1
+  },
+  "source_sha256": {
+    "assessments": "55c34cf917e54dcbe22516c0ad8e2fff0a6db78d623c934686640f200074d28b",
+    "fields": "b60b1ccb19d84c223f2a08a4a5cac11ba9e3939407a7922a9e53a46d013a8c6d",
+    "crop": "2487a1ea93d8d021ec19df89513e1424da42490ec9a5f846a3e9cc9375546e86",
+    "weather": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+    "additional": "4cff987f57a1894c67bb24a972fa20c55a5b2b55290fcf219589bfa884e0ba4d"
+  },
+  "source_paths": {
+    "assessments": "analysis/paper_study/phenology_disease_coupling_20261010/results/assessment_predictions.csv",
+    "fields": "analysis/paper_study/field_stage_extension_20261010/results/field_registry.csv",
+    "crop": "analysis/paper_study/field_stage_extension_20261010/results/daily_arrays.npz",
+    "weather": "data/paper_study/field_weather_completed/daily_weather.parquet",
+    "additional": "data/stb_collection_20261009/analysis_ready/combined_severity_yield_assessments.csv"
+  },
+  "output_sha256": {
+    "additional_nordic_candidates.csv": "6a1b86595d9803a7a23a635f65ca0d81ae13df0f07abe092a19867ef511c5117",
+    "additional_source_readiness.csv": "fa8f041086c11b6139827c2afc2a0be2f90b48aefc62be899b2e982759e54cd7",
+    "features.npz": "761bbefcaa2b129b5ce2187f7ce4893a9a420ee3c2bb5a43130658bd5dcbe4ac",
+    "fields.csv": "9065a0cab9c4e1c14f1b70fd95086603adfc6aea7fcc519f0e686cec04984904",
+    "folds.json": "3250db2b1df84e421ed0839babaa956cd5765647f0f33d5a7735dbff5a92c640",
+    "observations.csv": "c802deea18e6a5dfa0d7cdf0c0574b30929277fe8ff7f649def0d75e1536cf17",
+    "onset_intervals.csv": "dfe08f7b79970a7fd0f407d829f8433db4dd69f632670e7e865dc46f62b8b46e"
+  },
+  "model_fitted": false
+}

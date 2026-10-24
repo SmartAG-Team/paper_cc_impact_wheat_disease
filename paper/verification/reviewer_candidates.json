@@ -1,0 +1,90 @@
+{
+  "checked_on": "2026-10-24",
+  "journal_requirement": {
+    "url": "https://onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html",
+    "section": "4. Submitting your Manuscript / Cover Letter / question 7",
+    "requirement": "Provide the name and institutional email addresses of five potential reviewers."
+  },
+  "status": "Candidates for author conflict-of-interest confirmation; no independence certification; no contact made.",
+  "candidates": [
+    {
+      "name": "Daniel P. (Dan) Bebber",
+      "title": "Professor of Ecology",
+      "affiliation": "Department of Biosciences, University of Exeter, United Kingdom",
+      "email": "D.Bebber@exeter.ac.uk",
+      "profile_url": "https://biosciences.exeter.ac.uk/people/profile/index.php?username=db363",
+      "email_evidence_url": "https://biosciences.exeter.ac.uk/people/profile/index.php?username=db363",
+      "rationale": "Climate-change effects on crop pests and pathogens, plant-pathogen epidemiology, and climate-sensitive crop-loss risk.",
+      "source_note": "Official profile explicitly lists Professor of Ecology, 2024-present, and the institutional email."
+    },
+    {
+      "name": "Karen A. Garrett",
+      "title": "Professor",
+      "affiliation": "Plant Pathology Department and Emerging Pathogens Institute, University of Florida, United States",
+      "email": "karengarrett@ufl.edu",
+      "profile_url": "https://epi.ufl.edu/profile/garrett-karen/",
+      "email_evidence_url": "https://epi.ufl.edu/profile/garrett-karen/",
+      "rationale": "Plant-disease ecology, systems analysis, epidemic risk and food-security implications under environmental change.",
+      "expertise_evidence_urls": [
+        "https://directory.ifas.ufl.edu/searchdir?Display=Standard&UnitCode=19&m=0%2F1000&pageID=7",
+        "https://sites.nd.edu/eeid2025/?page_id=64"
+      ],
+      "source_note": "Official UF profile confirms current Plant Pathology department and business email; official IFAS directory identifies food security, plant health and systems analysis as specialties."
+    },
+    {
+      "name": "Neil McRoberts",
+      "title": "Professor of Plant Pathology",
+      "affiliation": "Department of Plant Pathology, University of California, Davis, United States",
+      "email": "nmcroberts@ucdavis.edu",
+      "profile_url": "https://plantpathology.ucdavis.edu/people/neil-mcroberts",
+      "email_evidence_urls": [
+        "https://caes.ucdavis.edu/about/directory/faculty?page=61",
+        "https://ucanr.edu/blog/food-blog/article/asian-citrus-psyllid-study-vigilance-urged-no-cause-panic"
+      ],
+      "rationale": "Plant-disease epidemiology, systems modelling and analysis, and bio-economic evaluation of disease management.",
+      "source_note": "Official currentUCANR profile andUC Davis faculty directory both list this institutional email.",
+      "email_evidence_url": "https://ucanr.edu/people/neil-mcroberts"
+    },
+    {
+      "name": "Frédéric Suffert",
+      "title": "Senior Researcher; Joint Team Leader, ADEP",
+      "affiliation": "INRAE, BIOGER research unit, Campus Agro Paris-Saclay, Palaiseau, France",
+      "email": "frederic.suffert@inrae.fr",
+      "profile_url": "https://eng-bioger.versailles-saclay.hub.inrae.fr/a-z-people/suffert-frederic",
+      "email_evidence_url": "https://bioger.versailles-saclay.hub.inrae.fr/equipes-et-plateaux/adep-processus-adaptatifs-et-epidemiologiques-des-interactions-ble-champignons-phytopathogenes/rejoignez-nous/offre-deja-pourvue-appel-a-candidatures-these-de-doctorat",
+      "additional_email_evidence_url": "https://eng-bioger.versailles-saclay.hub.inrae.fr/media/files/pages-perso/page-perso-suffert-frederic/cv-frederic-suffert-v20240828.pdf",
+      "rationale": "Septoria tritici blotch epidemiology, Zymoseptoria inoculum and seasonal temperature/moisture effects on wheat–pathogen interactions.",
+      "source_note": "INRAE BIOGER official2026position notice, updated30September2026, explicitly confirms this institutional email."
+    },
+    {
+      "name": "Nik J. Cunniffe",
+      "title": "Professor of Plant Disease Epidemiology; Head of Quantitative Plant Health",
+      "affiliation": "Department of Plant Sciences, University of Cambridge, United Kingdom",
+      "email": "njc1001@cam.ac.uk",
+      "profile_url": "https://www.plantsci.cam.ac.uk/people/nik-cunniffe",
+      "email_evidence_url": "https://www.plantsci.cam.ac.uk/people/nik-cunniffe",
+      "rationale": "Deterministic, stochastic and spatial plant-pathogen models, epidemic forecasting and optimization of disease control.",
+      "source_note": "Official current profile directly confirms title, department, email and modelling expertise."
+    }
+  ],
+  "other_candidates_investigated": [
+    {
+      "name": "Corinne Vacher",
+      "affiliation": "INRAE Bordeaux, UMR SAVE, France",
+      "email": "corinne.vacher@inrae.fr",
+      "profile_url": "https://getup.inrae.fr/organisation/corinne-vacher",
+      "disposition": "Verified alternative; current focus on grapevine microbiota and disease-protective microbial networks is less directly aligned than Suffert and Cunniffe."
+    },
+    {
+      "name": "Bruce McDonald",
+      "affiliation": "ETH Zurich, Switzerland; emeritus",
+      "retirement_evidence_url": "https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2024/12/neun-professorinnen-und-professoren-ernannt.html",
+      "emeritus_profile_url": "https://www.ias.ethz.ch/people/person-detail.bruce-mcdonald.html",
+      "historically_official_email": "bruce.mcdonald@usys.ethz.ch",
+      "historical_email_evidence_url": "https://vvz.ethz.ch/Vorlesungsverzeichnis/Lecturers_Spring_Semester_2025.pdf?semkez=2025S&spracheKomm=2&typ=1",
+      "disposition": "Excellent STB expertise, but retired July 2025; current dynamic profile did not expose a verifiable email. Replaced in primary list rather than presenting the 2025 address as newly current."
+    }
+  ],
+  "conflict_screening_scope": "No candidate currently affiliates with Bonn, Bayer or BASF in the official profiles inspected. Holst and Donner are excluded. Personal collaborations, coauthorships, financial ties and other conflicts still require author confirmation. This is not a comprehensive conflict audit.",
+  "candidate_selection_note": "The five primary candidates span global-change plant pathology, wheat STB epidemiology and quantitative pathogen modelling. Suitability is an editorial inference from their documented official expertise."
+}

@@ -1,0 +1,614 @@
+{
+  "name": "study_workflow",
+  "kind": "methods schematic",
+  "width_cm": 19.0,
+  "height_cm": 16.5,
+  "font_family": "DejaVu Sans",
+  "font_pt": 12,
+  "line_width_pt": 0.8,
+  "source_paths": [
+    "paper/Manuscript.md",
+    "paper/Mathematical_Model_Specification.md",
+    "paper/Supplementary_Information.md"
+  ],
+  "nodes": [
+    {
+      "id": "monitoring_records",
+      "panel": "a",
+      "bounds_axes": [
+        0.04,
+        0.58,
+        0.28,
+        0.3
+      ],
+      "label": "Dated disease\nBASF · Corteva\nUntreated fields",
+      "title": "Dated disease",
+      "body": "BASF · Corteva\nUntreated fields",
+      "icon": "records",
+      "fill": "white",
+      "edge": "#CADBE5",
+      "role": "input",
+      "title_colour": "#34769A"
+    },
+    {
+      "id": "weather_routing",
+      "panel": "a",
+      "bounds_axes": [
+        0.04,
+        0.12,
+        0.28,
+        0.3
+      ],
+      "label": "Weather inputs\nStation / reanalysis",
+      "title": "Weather inputs",
+      "body": "Station / reanalysis",
+      "icon": "weather",
+      "fill": "white",
+      "edge": "#CADBE5",
+      "role": "input",
+      "title_colour": "#34769A"
+    },
+    {
+      "id": "historical_statistical_fit",
+      "panel": "a",
+      "bounds_axes": [
+        0.39,
+        0.58,
+        0.31,
+        0.3
+      ],
+      "label": "Historical fit\nEarlier seasons only",
+      "title": "Historical fit",
+      "body": "Earlier seasons only",
+      "icon": "fit",
+      "fill": "white",
+      "edge": "#CFD6DA",
+      "role": "process",
+      "title_colour": "#353B40"
+    },
+    {
+      "id": "query_context",
+      "panel": "a",
+      "bounds_axes": [
+        0.39,
+        0.12,
+        0.31,
+        0.3
+      ],
+      "label": "Forecast day q\nOwn-field disease < q\nWeather through q − 1",
+      "title": "Forecast day q",
+      "body": "Own-field disease < q\nWeather through q − 1",
+      "icon": "query",
+      "fill": "white",
+      "edge": "#CFD6DA",
+      "role": "process",
+      "title_colour": "#353B40"
+    },
+    {
+      "id": "monitoring_evaluation",
+      "panel": "a",
+      "bounds_axes": [
+        0.78,
+        0.28,
+        0.19,
+        0.44
+      ],
+      "label": "Forecasts\nSeverity\nTemporal\nSpatial",
+      "title": "Forecasts",
+      "body": "Severity\nTemporal\nSpatial",
+      "icon": "forecast",
+      "fill": "#254F66",
+      "edge": "#254F66",
+      "role": "output",
+      "title_colour": "white"
+    },
+    {
+      "id": "calendar_and_site",
+      "panel": "b",
+      "bounds_axes": [
+        0.04,
+        0.62,
+        0.25,
+        0.28
+      ],
+      "label": "GGCMI\nSowing date\nSite coordinates",
+      "title": "GGCMI",
+      "body": "Sowing date\nSite coordinates",
+      "icon": "calendar",
+      "fill": "white",
+      "edge": "#CADBE5",
+      "role": "input",
+      "title_colour": "#34769A"
+    },
+    {
+      "id": "climate_weather",
+      "panel": "b",
+      "bounds_axes": [
+        0.04,
+        0.3,
+        0.25,
+        0.22
+      ],
+      "label": "Daily climate\nTmean · Tmax\nRH · precipitation",
+      "title": "Daily climate",
+      "body": "Tmean · Tmax\nRH · precipitation",
+      "icon": "weather",
+      "fill": "white",
+      "edge": "#CADBE5",
+      "role": "input",
+      "title_colour": "#34769A"
+    },
+    {
+      "id": "host_trajectory",
+      "panel": "b",
+      "bounds_axes": [
+        0.36,
+        0.62,
+        0.32,
+        0.28
+      ],
+      "label": "Host development\nTmean · Tmax\nDaylength · vernalization\nArea · renewal · window",
+      "title": "Host development",
+      "body": "Tmean · Tmax\nDaylength · vernalization\nArea · renewal · window",
+      "icon": "host",
+      "fill": "#FCF7F1",
+      "edge": "#DCC3AA",
+      "role": "host",
+      "title_colour": "#945B2C"
+    },
+    {
+      "id": "stb_progression",
+      "panel": "b",
+      "bounds_axes": [
+        0.36,
+        0.3,
+        0.32,
+        0.22
+      ],
+      "label": "STB progression\nFixed parameters",
+      "title": "STB progression",
+      "body": "Fixed parameters",
+      "icon": "disease",
+      "fill": "white",
+      "edge": "#CFD6DA",
+      "role": "process",
+      "title_colour": "#353B40"
+    },
+    {
+      "id": "symptom_integral",
+      "panel": "b",
+      "bounds_axes": [
+        0.75,
+        0.62,
+        0.22,
+        0.28
+      ],
+      "label": "Integral\nSymptom tissue\nNormalized days",
+      "title": "Integral",
+      "body": "Symptom tissue\nNormalized days",
+      "icon": "integral",
+      "fill": "#FCF7F1",
+      "edge": "#DCC3AA",
+      "role": "host",
+      "title_colour": "#945B2C"
+    },
+    {
+      "id": "climate_outputs",
+      "panel": "b",
+      "bounds_axes": [
+        0.75,
+        0.3,
+        0.22,
+        0.22
+      ],
+      "label": "Outputs\nAttribution\nExposure",
+      "title": "Outputs",
+      "body": "Attribution\nExposure",
+      "icon": "outputs",
+      "fill": "#254F66",
+      "edge": "#254F66",
+      "role": "output",
+      "title_colour": "white"
+    },
+    {
+      "id": "original_f1_replay",
+      "panel": "b",
+      "bounds_axes": [
+        0.36,
+        0.05,
+        0.32,
+        0.15
+      ],
+      "label": "F1 replay\nRetrospective check",
+      "title": "F1 replay",
+      "body": "Retrospective check",
+      "icon": "replay",
+      "fill": "white",
+      "edge": "#BBC1C5",
+      "role": "check",
+      "title_colour": "#5F6A70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "monitoring_records",
+      "target": "historical_statistical_fit",
+      "route_axes": [
+        [
+          0.32,
+          0.73
+        ],
+        [
+          0.39,
+          0.73
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "weather_routing",
+      "target": "query_context",
+      "route_axes": [
+        [
+          0.32,
+          0.27
+        ],
+        [
+          0.39,
+          0.27
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "monitoring_records",
+      "target": "query_context",
+      "route_axes": [
+        [
+          0.32,
+          0.73
+        ],
+        [
+          0.355,
+          0.73
+        ],
+        [
+          0.355,
+          0.27
+        ],
+        [
+          0.39,
+          0.27
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "weather_routing",
+      "target": "historical_statistical_fit",
+      "route_axes": [
+        [
+          0.32,
+          0.27
+        ],
+        [
+          0.355,
+          0.27
+        ],
+        [
+          0.355,
+          0.73
+        ],
+        [
+          0.39,
+          0.73
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "historical_statistical_fit",
+      "target": "monitoring_evaluation",
+      "route_axes": [
+        [
+          0.7,
+          0.73
+        ],
+        [
+          0.74,
+          0.73
+        ],
+        [
+          0.74,
+          0.56
+        ],
+        [
+          0.78,
+          0.56
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "query_context",
+      "target": "monitoring_evaluation",
+      "route_axes": [
+        [
+          0.7,
+          0.27
+        ],
+        [
+          0.74,
+          0.27
+        ],
+        [
+          0.74,
+          0.44
+        ],
+        [
+          0.78,
+          0.44
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "climate_weather",
+      "target": "host_trajectory",
+      "route_axes": [
+        [
+          0.29,
+          0.485
+        ],
+        [
+          0.325,
+          0.485
+        ],
+        [
+          0.325,
+          0.7
+        ],
+        [
+          0.36,
+          0.7
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "calendar_and_site",
+      "target": "host_trajectory",
+      "route_axes": [
+        [
+          0.29,
+          0.77
+        ],
+        [
+          0.36,
+          0.77
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "climate_weather",
+      "target": "stb_progression",
+      "route_axes": [
+        [
+          0.29,
+          0.41
+        ],
+        [
+          0.36,
+          0.41
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "host_trajectory",
+      "target": "stb_progression",
+      "route_axes": [
+        [
+          0.52,
+          0.62
+        ],
+        [
+          0.52,
+          0.52
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "stb_progression",
+      "target": "symptom_integral",
+      "route_axes": [
+        [
+          0.68,
+          0.41
+        ],
+        [
+          0.715,
+          0.41
+        ],
+        [
+          0.715,
+          0.7
+        ],
+        [
+          0.75,
+          0.7
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "host_trajectory",
+      "target": "symptom_integral",
+      "route_axes": [
+        [
+          0.68,
+          0.76
+        ],
+        [
+          0.75,
+          0.76
+        ]
+      ],
+      "style": "solid dependency",
+      "label": "area / window"
+    },
+    {
+      "source": "symptom_integral",
+      "target": "climate_outputs",
+      "route_axes": [
+        [
+          0.86,
+          0.62
+        ],
+        [
+          0.86,
+          0.52
+        ]
+      ],
+      "style": "solid dependency"
+    },
+    {
+      "source": "stb_progression",
+      "target": "original_f1_replay",
+      "route_axes": [
+        [
+          0.52,
+          0.3
+        ],
+        [
+          0.52,
+          0.2
+        ]
+      ],
+      "style": "dashed check"
+    }
+  ],
+  "qualitative_positions": true,
+  "panels": {
+    "a": [
+      0.02,
+      0.6,
+      0.96,
+      0.38
+    ],
+    "b": [
+      0.02,
+      0.02,
+      0.96,
+      0.56
+    ]
+  },
+  "routing_notes": {
+    "monitoring_shared_input_rail": {
+      "x_axes": 0.355,
+      "junctions_axes": [
+        [
+          0.355,
+          0.27
+        ],
+        [
+          0.355,
+          0.73
+        ]
+      ],
+      "meaning": "both inputs feed historical fitting and query context; no source-to-source dependency"
+    },
+    "climate_lanes": "upper host path; lower disease path; direct host-to-integral dependency",
+    "icons": "conceptual symbols only; no measured or simulated values",
+    "style": "consistent12pt; bold headings; restrained role accents; deep-blue forecast/output cards"
+  },
+  "provenance": {
+    "monitoring": {
+      "provider_versions": [
+        "BASF Zenodo 6521175",
+        "Corteva Zenodo 6390211"
+      ],
+      "input_population": "dated untreated disease assessments",
+      "query_rule": "strictly earlier same-field disease; weather through q-1",
+      "withheld": [
+        "all query-day disease",
+        "future disease",
+        "other-field current-season disease"
+      ],
+      "weather": "retained qualified station/reanalysis routing",
+      "statistical_fitting": "earlier seasons; inherited crop-feature ancestry retained",
+      "statistical_components": [
+        "process/history prediction",
+        "logit discrepancy"
+      ],
+      "ancestry_qualification": "the entire upstream crop-feature pipeline was not reconstructed independently in every earlier year",
+      "folds": {
+        "temporal": 5,
+        "chronology_plus_50km": 15
+      },
+      "evaluation_population": {
+        "records": 2017,
+        "field_seasons": 192,
+        "sites": 121
+      },
+      "evidence_role": "retrospective adaptive observation-conditioned monitoring"
+    },
+    "climate": {
+      "daily_weather_variables": [
+        "mean temperature",
+        "maximum temperature",
+        "relative humidity",
+        "precipitation"
+      ],
+      "management": "GGCMI winter-wheat rainfed sowing calendar and site coordinates",
+      "host_weather_inputs": [
+        "mean temperature",
+        "maximum temperature"
+      ],
+      "host_calendar_site_inputs": [
+        "sowing date",
+        "latitude for daylength"
+      ],
+      "host_development_controls": [
+        "temperature",
+        "daylength",
+        "vernalization"
+      ],
+      "host_to_integral_dependency": "host trajectory directly determines tissue area, renewal and integration window",
+      "disease_weather_inputs": [
+        "mean temperature",
+        "maximum temperature",
+        "relative humidity",
+        "precipitation"
+      ],
+      "disease_parameters": "retained fixed climate formulation; unaffected by monitoring scores",
+      "monitoring_to_climate_parameter_transfer": false,
+      "disease_to_host_feedback": false,
+      "integral": "normalized post-latent symptomatic reference tissue, including nonsporulating, infectious and dead states",
+      "calibration_or_replay_population": {
+        "original_F1_records": 115,
+        "original_2017_2018_calibration": 45,
+        "original_2019_evaluation": 70
+      },
+      "replay_edge": "retrospective endpoint check only; not a newly independent validation or monitoring-to-climate fitting dependency",
+      "interpretation": "symptom proxy; neither measured physiological healthy-area loss nor grain-yield loss",
+      "no_inferred_inputs": [
+        "cultivar-specific resistance",
+        "satellite measurements"
+      ]
+    }
+  },
+  "design": {
+    "card_corner_radius_cm": 0.14,
+    "icon_diameter_cm": 0.53,
+    "icon_data": "conceptual only",
+    "header_font_pt": 12,
+    "body_font_pt": 12,
+    "header_weight": "bold",
+    "output_fill": "#254F66",
+    "all_card_text_inside_bounds": true,
+    "model_dependencies_unchanged": true
+  }
+}

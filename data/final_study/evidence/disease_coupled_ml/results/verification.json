@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "fitted_models_reconstructed": 245,
+  "prediction_values_reconstructed": 289921,
+  "saved_windows_checked": 1592,
+  "history_support_rows_checked": 144,
+  "strictly_earlier_history_provenance_checked": true,
+  "protocol_sha256": "f381df654b45a4fc97129f0c191c70154d5b26b7b708f17abe554d63eb4b1afd",
+  "checked_at_utc": "2026-10-12T07:32:48.788423+00:00"
+}

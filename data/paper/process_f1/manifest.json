@@ -1,0 +1,149 @@
+{
+  "root": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease",
+  "source_hashes": {
+    "archived_assessment_predictions": {
+      "path": "data/final_study/evidence/phenology_disease_coupling/results/assessment_predictions.csv",
+      "sha256": "55c34cf917e54dcbe22516c0ad8e2fff0a6db78d623c934686640f200074d28b"
+    },
+    "qualified_F1_ids": {
+      "path": "outputs/disease_improvement/climate_calibration_audit_20261022/qualified_flag_endpoint_ids.csv",
+      "sha256": "39ee4fe76cc4cae03ebc5c305bfb06301cae9d346ea595a87366256a12623c04"
+    },
+    "field_registry": {
+      "path": "data/final_study/evidence/field_stage_extension/results/field_registry.csv",
+      "sha256": "b60b1ccb19d84c223f2a08a4a5cac11ba9e3939407a7922a9e53a46d013a8c6d"
+    },
+    "weather": {
+      "path": "data/final_study/inputs/paper_study/field_weather_completed/daily_weather.parquet",
+      "sha256": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63"
+    },
+    "calendar_membership": {
+      "path": "data/final_study/evidence/seasonal_calibration_v1/field_season_membership.csv",
+      "sha256": "ba5692f7da331680875358ae151d1973729e0b870218800de7ae8094a581dff2"
+    },
+    "raw_BASF_snapshot": {
+      "path": "data/final_study/evidence/seasonal_calibration_v1/basf_source_assessments_snapshot.csv",
+      "sha256": "5f39b98003e650e4a4e7ab509a73b34d98311fb4d2f66f8b44599e2ff164d286"
+    },
+    "original_evaluation_onsets": {
+      "path": "data/final_study/evidence/nature_food_impact/derived/pooled_symptom_onset_membership.csv",
+      "sha256": "45fb412032a865a187cda0d3517ee2c50d80e1b5de7be2e8f5b4b35968c9c3e7"
+    },
+    "phenology": {
+      "path": "data/final_climate/phenology_parameters.json",
+      "sha256": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a"
+    },
+    "disease": {
+      "path": "data/final_climate/disease_parameters.json",
+      "sha256": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540"
+    },
+    "thresholds": {
+      "path": "data/final_climate/stage_thresholds.json",
+      "sha256": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4"
+    },
+    "climate_adapter": {
+      "path": "analysis/disease_improvement/climate_prefix.py",
+      "sha256": "8a97ab2e5e92e12cd127810eac65fbf8e0207b293a578fc867348571cb30cb20"
+    },
+    "field_predictor": {
+      "path": "analysis/methods/seasonal_model/disease/run.py",
+      "sha256": "6fc1a9befa5283c5db5ed510cdd55c73c23c321bf335a93793b904ed7d63b833"
+    },
+    "frozen_kernel": {
+      "path": "analysis/final_climate/kernel.py",
+      "sha256": "52a6d138826a455df9b5ce1c9dce794952065581af7c068351d3b40bbd2ad543"
+    },
+    "disease_equations": {
+      "path": "model/seasonal_septoria/overwinter.py",
+      "sha256": "0e833340d93b531a81b782f8543368925bab99dd8f69f1296d503ad5f4aff4c7"
+    },
+    "host_equations": {
+      "path": "model/seasonal_septoria/leaf_phenology.py",
+      "sha256": "9c4c8e842bdc4d5b7a77f57e0b146f32d4d2832b527cb485fc0e2982f494e10f"
+    },
+    "phenology_equations": {
+      "path": "model/seasonal_septoria/regional.py",
+      "sha256": "c5538812bcb2b8a45c3ec639b78b2e89a7e20b07fce7261575946897368c5a62"
+    },
+    "wetness_equations": {
+      "path": "model/seasonal_septoria/wetness.py",
+      "sha256": "daf7514a43d782f91708ece524563d753bb7a5d6a860aea54bb31895315c57b6"
+    }
+  },
+  "output_hashes": {
+    "calibration45_F1_records_with_replay.csv": {
+      "bytes": 80680,
+      "sha256": "a19009a7173d15b66fafbabc31c2d88f1e12d1a11d0b72743098d9e24da3a07e"
+    },
+    "F1_observed_windows.csv": {
+      "bytes": 34081,
+      "sha256": "a7a6f4280551a1248e7b292242619c4395d4b20a90cb37abad32d9ae440cd42f"
+    },
+    "replay_field_checks.csv": {
+      "bytes": 3406,
+      "sha256": "051a62302c0f27ba42316785ebc44a53e22e67b4e12163955b7613af39153a47"
+    },
+    "metrics.csv": {
+      "bytes": 30494,
+      "sha256": "68f76eab940a23097b4ed42ab1af72c85fb4af32d1e95a84770e494a23bd979f"
+    },
+    "field55_calendar_membership.csv": {
+      "bytes": 13065,
+      "sha256": "a4f2b74d33252f5678cc309d919c0fe0a188a48751d994958cacf61878920d31"
+    },
+    "source_only_recompute.py": {
+      "bytes": 15213,
+      "sha256": "185d8be6e07f404de6e186a9e528baced88eac609869d202cbc330dcf9dacc19"
+    },
+    "checks.json": {
+      "bytes": 1258,
+      "sha256": "09fc8f0a9f53d7f96454a780ae0dc5d502bfcdbd5bcf2ea0d0bfc9f6a575486c"
+    },
+    "four_weather_forcing.csv": {
+      "bytes": 1535555,
+      "sha256": "f44531ed7956dc5db62d7209d0007712c4a58cb0eb4761df70d0143423a5b63c"
+    },
+    "original2019_F1_two_sided_onsets.csv": {
+      "bytes": 1610,
+      "sha256": "bf762f70960a89a079bec61e88cb512b1d67b02d2a520dc2a031a42dd2a3290f"
+    },
+    "all115_F1_records_with_replay.csv": {
+      "bytes": 202760,
+      "sha256": "60e947c099809184b9d8302130e5b5b2ced302728e24099d80aa7265904bf6e6"
+    },
+    "evaluation70_F1_records_with_replay.csv": {
+      "bytes": 124477,
+      "sha256": "c5baef4443bd6280bd7f17b023582e7a55f663843413b7e8b90df38e59bbcfc5"
+    },
+    "evaluation23_F1_windows.csv": {
+      "bytes": 11098,
+      "sha256": "3b9b332b73f6640e6edee910768d96a32709c8f4bcd29a8383bd9f6ecb23e2e8"
+    }
+  },
+  "checks": {
+    "qualified_current115_all_matched": true,
+    "qualified_mapping_BASF_native0_only": true,
+    "exact_field_date_identity": true,
+    "original_vs_archive_max_abs_error_pp": 1.7763568394002505e-15,
+    "truncated_query_vs_full_prefix_max_state_error": 0.0,
+    "fields": 55,
+    "records": 115,
+    "evaluation_records": 70,
+    "calibration_records": 45,
+    "evaluation_windows": 23,
+    "severe_above75_evaluation_records": 1,
+    "severe_above75_calibration_records": 4,
+    "original_evaluation_total_hierarchy_mass": 140.0,
+    "F1_evaluation_mass_within_original_parent": 7.924999999999999,
+    "severe_F1_evaluation_mass_within_original_parent": 0.06666666666666667,
+    "records_terminal_reached_by_query": 0,
+    "maximum_original_vs_adapter_state_error": 0.0,
+    "disease_parameters_modified": false,
+    "phenology_parameters_modified": false,
+    "fit_performed": false,
+    "new_outcomes": false,
+    "source_only_reused_retrospective": true,
+    "timing": "day_end uses through-query-date weather and state[q]; previous_day uses through-query-minus-1-date weather and state[q-1]; independent endpoints must not be pooled",
+    "scope": "F1-only conditional-population metrics and full-parent-relative-mass sensitivity are explicitly separate; no physiological HAD/yield validation"
+  }
+}

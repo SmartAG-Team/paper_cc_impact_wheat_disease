@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from model.seasonal_septoria.core import Parameters,simulate_season
-from model.seasonal_septoria.counterfactual import aligned_crop_inputs,decompose_weather_host
+from models.seasonal_septoria.core import Parameters,simulate_season
+from models.seasonal_septoria.counterfactual import aligned_crop_inputs,decompose_weather_host
 
 
 def test_crop_alignment_preserves_full_simulation_and_excludes_post_endpoint_weather():

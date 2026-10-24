@@ -1,0 +1,23 @@
+{
+  "role": "climate_change",
+  "units": {
+    "panels": {
+      "a": "SSP126change",
+      "b": "SSP245change",
+      "c": "SSP585change",
+      "d": "SSP585directionagreement"
+    },
+    "mean_change": "normalized affected-tissue days,futureminushistorical",
+    "direction_agreement": "categoricalthree-memberdirectionagreement",
+    "longitude": "degreeseast",
+    "latitude": "degreesnorth",
+    "colour_limits_days": [
+      -12,
+      12
+    ],
+    "projection": "EPSG3035",
+    "geographical_scale": false,
+    "missing": "unavailableisnotzero"
+  },
+  "caption": "Climate-response magnitude and direction agreement. (a) SSP1–2.6; (b) SSP2–4.5; (c) SSP5–8.5: equal three-model mean change in normalized affected-tissue duration by 2071–2100 relative to 1991–2020 on valid historical–future paired seasons. (d) Agreement on an increase, decrease or mixed/zero signs under SSP5–8.5; fewer than three model estimates are unavailable. All panels retain 14,941 native cell footprints, EPSG3035 and identical extent. Values describe the wheat component of each mixed-land-use cell. The continuous colour scale is shared by (a)–(c); triangular ends retain values beyond ±12 days. Agreement among selected models is not a probability or independent verification. The output is a normalized symptom-tissue proxy, not measured physiological loss or grain loss. Natural Earth outlines do not enter the model. Map lines delineate study areas and do not necessarily depict accepted national boundaries."
+}

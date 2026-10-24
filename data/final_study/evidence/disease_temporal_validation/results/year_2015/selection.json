@@ -1,0 +1,29 @@
+{
+  "selected": {
+    "setting_id": 1,
+    "ridge": 0.001,
+    "onset_weight": 0.1,
+    "window_rmse": 16.656171072208906,
+    "onset_distance": 26.920833333333334,
+    "selection_score": 1.6791650881108449,
+    "unresolved": 0
+  },
+  "training_sites": [
+    "era5loc_10922b9e995a",
+    "era5loc_16ba87a73e20",
+    "era5loc_2bec8c4d1d1c",
+    "era5loc_34ddf36c3b3a",
+    "era5loc_44b51b0afbf4",
+    "era5loc_552fc1bf2ed1",
+    "era5loc_58196cd23b74",
+    "era5loc_5bc9f026f451",
+    "era5loc_6d5acc6b6792",
+    "era5loc_8c3d66928dac",
+    "era5loc_9ec703701638",
+    "era5loc_a3c14cb7ff62",
+    "era5loc_ac3e32c77013",
+    "era5loc_ac9ad304413f",
+    "era5loc_b19178602a22"
+  ],
+  "rule": "0.5*(window-mean RMSE/25 + genuine interval error/10); exact ties prefer stronger regularization then onset weight"
+}

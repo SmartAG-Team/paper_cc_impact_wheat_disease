@@ -1,0 +1,96 @@
+{
+  "model": "MPI-ESM1-2-HR",
+  "registry_sha256": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+  "variables": [
+    "tas",
+    "tasmax",
+    "pr",
+    "hurs"
+  ],
+  "reference": "Joint nonmissing native fields on historical 1990-01-01; one frozen lookup across historical and all future SSPs",
+  "radius": "Euclidean distance in latitude/longitude degrees ≤0.5; tie broken by source row then column",
+  "source_grid": "Native 0.25° NASA NEX-GDDP-CMIP6 v2.0",
+  "probes": [
+    {
+      "variable": "tas",
+      "native_path": "AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-HR/historical/r1i1p1f1/tas/tas_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_1990_v2.0.nc",
+      "query": {
+        "var": "tas",
+        "north": 68.125,
+        "south": 34.375,
+        "west": -9.875,
+        "east": 59.875,
+        "horizStride": 1,
+        "time_start": "1990-01-01T12:00:00Z",
+        "time_end": "1990-01-01T12:00:00Z",
+        "accept": "netcdf4",
+        "addLatLon": "true"
+      },
+      "download_bytes": 96151,
+      "download_sha256": "727a20426d00bb467aafeb70db8944dba914f46fde2f4707d0bfa2636b38f2d7"
+    },
+    {
+      "variable": "tasmax",
+      "native_path": "AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-HR/historical/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_1990_v2.0.nc",
+      "query": {
+        "var": "tasmax",
+        "north": 68.125,
+        "south": 34.375,
+        "west": -9.875,
+        "east": 59.875,
+        "horizStride": 1,
+        "time_start": "1990-01-01T12:00:00Z",
+        "time_end": "1990-01-01T12:00:00Z",
+        "accept": "netcdf4",
+        "addLatLon": "true"
+      },
+      "download_bytes": 96171,
+      "download_sha256": "597f51e35aa27fa939cbdd4b4a05248d57d995d2387a8eb5e092af48d5c04745"
+    },
+    {
+      "variable": "pr",
+      "native_path": "AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-HR/historical/r1i1p1f1/pr/pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_1990_v2.0.nc",
+      "query": {
+        "var": "pr",
+        "north": 68.125,
+        "south": 34.375,
+        "west": -9.875,
+        "east": 59.875,
+        "horizStride": 1,
+        "time_start": "1990-01-01T12:00:00Z",
+        "time_end": "1990-01-01T12:00:00Z",
+        "accept": "netcdf4",
+        "addLatLon": "true"
+      },
+      "download_bytes": 93325,
+      "download_sha256": "79265047e6da1b650e504efcfe0a4a5d9996f6eec54b31b157dceee93c18f9d2"
+    },
+    {
+      "variable": "hurs",
+      "native_path": "AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-HR/historical/r1i1p1f1/hurs/hurs_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_1990_v2.0.nc",
+      "query": {
+        "var": "hurs",
+        "north": 68.125,
+        "south": 34.375,
+        "west": -9.875,
+        "east": 59.875,
+        "horizStride": 1,
+        "time_start": "1990-01-01T12:00:00Z",
+        "time_end": "1990-01-01T12:00:00Z",
+        "accept": "netcdf4",
+        "addLatLon": "true"
+      },
+      "download_bytes": 108442,
+      "download_sha256": "9bfc4ac4ca237de19a9ce5e866b81ca44266b83e4bc2d18b7041373d77447776"
+    }
+  ],
+  "total_wheat_cells": 14941,
+  "native_land_masked_cells": 0,
+  "imputed_cells": 0,
+  "imputed_harvested_ha": 0.0,
+  "excluded_cells": 0,
+  "excluded_harvested_ha": 0.0,
+  "eligible_harvested_ha": 54405001.12262583,
+  "mapping_sha256": "7059936c37963bedd7a15f16bc90171bb7b950cec015bee1a171fa09776dfe7f",
+  "checked_utc": "2026-10-05T11:06:04.666912+00:00"
+}

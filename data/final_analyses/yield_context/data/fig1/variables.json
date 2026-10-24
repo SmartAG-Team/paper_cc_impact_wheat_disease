@@ -1,0 +1,15 @@
+{
+  "figure": "fig1",
+  "rows": 22,
+  "grain": "one annual published network mean",
+  "year": "harvest year, 2004\u20132025",
+  "yield_gap_t_ha": "foliar-disease fungicide yield gap in t ha-1",
+  "annual_trial_count": "unavailable; blank is missing, not zero",
+  "sampling_variance_t2_ha2": "unavailable; blank is missing, not zero",
+  "standard_deviation": "empirical interannual variability, not an effect sampling error",
+  "generated_figure_width_cm": 19,
+  "generated_figure_height_cm": 10,
+  "text_size_pt": 12,
+  "resolution_dpi": 300,
+  "confidence_intervals": "not available"
+}

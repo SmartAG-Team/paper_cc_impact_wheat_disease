@@ -1,0 +1,949 @@
+Patron:  Her Majesty The Queen 
+ 
+Rothamsted Research 
+Harpenden, Herts, AL5 2JQ 
+ 
+Telephone: +44 (0)1582 763133 
+Web: http://www.rothamsted.ac.uk/ 
+ 
+ 
+ 
+ 
+ 
+Rothamsted Research is a Company Limited by Guarantee 
+Registered Office: as above.  Registered in England No. 2393175. 
+Registered Charity No. 802038.  VAT No. 197 4201 51. 
+Founded in 1843 by John Bennet Lawes. 
+ 
+Rothamsted Repository Download
+A - Papers appearing in refereed journals
+Van Den Bosch, F., Smith, J., Wright, P., Milne, A. E., Van Den Berg, F., 
+Kock-Appelgren, P., Foulkes, J. and Paveley, N. 2021. Maximizing 
+realized yield by breeding for disease tolerance: A case study for 
+Septoria tritici blotch. Plant Pathology. https://doi.org/10.1111/ppa.13509 
+The publisher's version can be accessed at:
+• https://doi.org/10.1111/ppa.13509
+• https://bsppjournals.onlinelibrary.wiley.com/doi/10.1111/ppa.13509
+The output can be accessed at: 
+https://repository.rothamsted.ac.uk/item/98733/maximizing-realized-yield-by-breeding-
+for-disease-tolerance-a-case-study-for-septoria-tritici-blotch.
+© 8 November 2021, Please contact library@rothamsted.ac.uk for copyright queries.
+02/12/2021 17:17
+repository.rothamsted.ac.uk
+library@rothamsted.ac.uk
+
+Plant Pathology. 2021;00:1–9.	
+wileyonlinelibrary.com/journal/ppa
+ | 1
+© 2021 British Society for Plant Pathology
+1  |  INTRODUCTION
+Disease tolerance is a heritable trait of crop cultivars, quantified 
+as the ability to maintain yield in the presence of disease (Schafer, 
+1971). In the presence of disease symptoms, a more tolerant culti-
+var will produce yields closer to its yield potential than a less tol-
+erant cultivar. This is distinct from partial disease resistance, which 
+is also referred to as tolerance by some authors. Tolerant cultivars 
+could therefore improve a grower's net financial return compared 
+to a less tolerant cultivar. Yet, tolerance is not a priority breeding 
+target in most plant breeding programmes. The top-­ranked breeding 
+target is usually grain yield (Anonymous, 2021; Braun et al., 1997) 
+when grown in high-­input production systems, including an effective 
+foliar-­applied fungicide programme.
+Breeders may assume that an effective fungicide treatment 
+programme will reduce disease to a low severity, and that toler-
+ance is not a necessary attribute of a cultivar. However, even under 
+intensive fungicide treatment programmes, and with current levels 
+Received: 30 June 2021 | Accepted: 29 October 2021
+DOI: 10.1111/ppa.13509  
+O R I G I N A L A R T I C L E
+Maximizing realized yield by breeding for disease tolerance:  
+A case study for Septoria tritici blotch
+Frank van den Bosch1
+ |   Julie Smith2 |   Paul Wright2 |   Alice Milne3 |    
+Femke van den Berg4 |   Petra Kock-­Appelgren5 |   John Foulkes6 |   Neil Paveley1
+1ADAS High Mowthorpe, Duggleby, UK
+2ADAS Rosemaund, Hereford, UK
+3Rothamsted Research, Harpenden, UK
+4Fera Science Ltd., Plants Programme, 
+York, UK
+5Department of Crops, Environment & 
+Land Use, TEAGASC, Carlow, Ireland
+6School of Biosciences, University of 
+Nottingham, Sutton Bonington, UK
+Correspondence
+Frank van den Bosch, ADAS High 
+Mowthorpe, Duggleby, Malton, YO17 
+8BP, UK.
+Email: frank.vandenbosch@curtin.edu.au
+Funding information
+Department for Environment, Food and 
+Rural Affairs of the United Kingdom; 
+Biotechnology and Biological Sciences 
+Research Council (BBSRC)
+Abstract
+Disease-­tolerant cultivars maintain yield in the presence of disease. When disease 
+intensity is high, they can improve a grower's net return compared to less tolerant cul-
+tivars. Many authors report a trade-­off, whereby higher fully protected yields are cor-
+related with a lower disease tolerance. We analyse the question for breeders: to what 
+extent should they breed for tolerance when it compromises maximizing fully pro-
+tected yield? Field trials with 147 progeny from five parental crosses of wheat were 
+used to measure yield and tolerance under a range of disease intensities from Septoria 
+tritici blotch (STB; causal organism Zymoseptoria tritici) at a range of sites and seasons. 
+The data define the variation for these traits from which breeders can select. A sim-
+ple data-­driven descriptive model was used to calculate the combination of tolerance 
+and fully protected yield that maximizes actual yield for any given level of disease—­
+quantified by loss of healthy canopy area duration (HAD-­loss). This model was com-
+bined with data on the year-­to-­year variability of HAD-­loss in the UK to calculate the 
+tolerance and fully protected yield that maximizes the mean actual yield. We found 
+that even when an effective fungicide treatment programme is applied, breeding for 
+tolerance increases the mean actual yield. Some commercially available cultivars were 
+found to have a level of tolerance that leads to yields close to the maximum yield in 
+the presence of disease, others had a lower tolerance leading to suboptimal yields.
+K E Y W O R D S
+breeding for disease tolerance, healthy area duration, maximizing realized yield, yield tolerance 
+trade-­off
+
+2 |   
+VAN DEN BOSCH et al.
+of host resistance, disease frequently develops to a level that af-
+fects yield. Loss of effective fungicides due to the development of 
+fungicide resistance and regulatory changes reducing the number 
+of fungicide products available, and loss of effective host resis-
+tance to the development of virulence breaking crop resistance, 
+exacerbate those yield losses (Singh et al., 2016). Breeding for 
+tolerance could, therefore, improve yields. The benefits of toler-
+ance should be even greater in resource-­poor farming systems if 
+fungicides are not available or affordable. Although tolerance was 
+reported in the 1970s (Ziv & Eyal, 1978), progress towards under-
+standing and exploiting the mechanisms that confer tolerance has 
+been slow.
+Several authors have measured or inferred a negative correla-
+tion between tolerance and fully protected yield (van den Berg et al., 
+2017; Bingham & Topp, 2009; Foulkes et al., 2006; Kramer et al., 
+1980; Parker et al., 2004), though in a recent study of Argentinian 
+cultivars such a trade-­off is not found (Castro & Simon, 2016). “Fully 
+protected yield” is used here in the sense of the yield obtained when 
+strong crop protection measures are used to alleviate biotic stress 
+(see Table 1 for yield nomenclature). It is not known to what extent 
+the trade-­off between tolerance and fully protected yield is causal 
+or might be ameliorated by further breeding. Given that this asso-
+ciation exists currently in most cases investigated, a key question 
+is whether including tolerance as a breeding target, even if this re-
+duces the fully protected yield to some extent, will result in a higher 
+actual yield in the presence of disease. The analysis reported here 
+explores this question using field data for Zymoseptoria tritici on win-
+ter wheat in the UK.
+To focus the analysis, we define as the breeding goal a cultivar 
+that under a given disease control regime gives, averaged over a run 
+of years, the largest actual yield. A method is presented to calculate 
+the level of tolerance and the fully protected yield that achieves this 
+breeding goal.
+2  |  MATERIALS AND METHODS
+2.1  |  Overview
+Two data sets were used, one to quantify the association between 
+fully protected yield and tolerance, further described in the section 
+2.2, and a data set to quantify HAD-­loss, further described in the 
+section 2.3. To quantify the association between fully protected 
+yield and tolerance, populations of progeny from several parental 
+crosses of winter wheat resulting in a large set of wheat lines were 
+used to estimate fully protected yield (under an intensive fungicide 
+programme) and tolerance. A scatter plot for the relationship be-
+tween tolerance and fully protected yield quantified the available 
+breeding space.
+Although tolerance has in most studies been quantified from 
+the slope of the relationship between area under disease progress 
+curve and grain yield (Inglese & Paul, 2006; Kramer et al., 1980), this 
+measure is very sensitive to site and seasonal variations as well as 
+difficulties distinguishing diseased from senesced leaf area. Parker 
+et al. (2004) showed that the slope of the regression line of yield on 
+healthy area duration (HAD) for a cultivar or line provides a more re-
+liable measure of tolerance. Variation in HAD for each cultivar or line 
+was obtained by either abstaining fungicide treatment or random 
+variation in disease severity between plots. This tolerance measure 
+has a dimension of tonne per hectare per unit of HAD-­loss and can 
+thus easily be combined with fully protected yield to calculate the 
+contribution of tolerance to mean actual yield under given levels of 
+disease (quantified by the HAD-­loss caused).
+A simple data-­driven descriptive model was used to calculate the 
+combination of tolerance and fully protected yield that maximizes 
+actual yield for any given HAD-­loss level. Disease, and hence HAD-­
+loss, varies between years. Data on the year-­to-­year variability of 
+HAD-­loss in the UK was therefore used to calculate the tolerance 
+and fully protected yield that maximizes the mean actual yield, 
+which is the defined breeding goal.
+2.2  |  Data on the yield-­tolerance breeding space
+We used progeny from five parental crosses, developed as doubled-­
+haploid (DH) mapping populations: Avalon  ×  Cadenza (A  ×  C), 
+Cadenza × Lynx (C × L), Line 14 × Rialto (L14 × R), Xi19 × synthetic 
+hexaploid wheat (Xi19 × SHW), and Line 8 × Rialto (L8 × R), to meas-
+ure yield and tolerance. These mapping populations were chosen 
+because previous work suggested that a wider range of tolerance 
+would be found in offspring than we had identified in previous ma-
+terial. Data from a subset of this material has been reported previ-
+ously by Collin et al. (2018). A × C and C × L populations were used 
+because the parents are known to contrast for source and sink traits 
+such as green leaf area index (GLAI), extinction coefficient value, 
+number of grains per ear, flag leaf size, and posture. The L14 × R 
+and L8 × R populations were developed by the International Maize 
+and Wheat Improvement Centre (CIMMYT). L14 is a spring wheat 
+TA B LE 1 Yield nomenclature
+Term
+Description
+Potential yield
+A theoretical maximum yield for an environment.
+Yield potential
+The yield of a cultivar grown in an environment 
+to which it is adapted, with non-­limiting 
+resources (water and nutrients) and biotic 
+and abiotic stresses controlled (Senepati & 
+Semenov, 2020 and references cited therein).
+Fully protected 
+yield
+The yield obtained at a specific location when all 
+available crop protection tactics are used to 
+alleviate the stresses caused by pathogens, 
+invertebrate pests, and weeds.
+Actual yield
+The yield achieved when disease control is 
+incomplete and recommended pest and weed 
+management programmes (i.e., those that are 
+available in practice and implemented to an 
+economically optimal extent) are used.
+Yield loss
+The reduction in yield caused by a single 
+pathogen.
+
+    |  3
+VAN DEN BOSCH et al.
+large-­ear phenotype advanced line expressing traits such as high 
+assimilate partitioning to ear and high fertile florets per ear, and 
+Rialto is a UK winter wheat variety that has high radiation-­use ef-
+ficiency and stem soluble carbohydrates. In addition, L14 and Rialto 
+contrast for the presence/absence of the TinlA allele, which controls 
+tiller inhibition. L8 is also a large-­ear phenotype CIMMYT spring 
+wheat advanced line derived in a wide-­crossing programme involv-
+ing Agropyron elongatum, Triticum polonicum, and Triticum aestivum to 
+create restructured hexaploid wheat plant types exploiting hetero-
+sis. The mapping populations were prescreened and a maximum of 
+50 lines from each population were included in the main field experi-
+ments. Lines were excluded from the field experiments if they devel-
+oped <10% Septoria tritici blotch (STB), were >100 cm tall, yielded 
+<5 t/ha, were extremely early or late flowering, or had <10,000 or 
+>18,000 grains/m2.
+For comparison, in some site-­years we also planted the parent 
+cultivars and other commercially available elite cultivars. Table 2 sum-
+marizes the lines and cultivars used in each site-­year. Over eight site-­
+years, a total of 257 site-­year-­line combinations were completed. We 
+used the same experimental methods as described by Foulkes et al. 
+(2006) and refer the reader to that paper for details. Here we only give 
+sufficient information on the method to follow the paper.
+Each experiment used a randomized split-­plot design with three 
+replicates. There were two fungicide treatments to create differences 
+in HAD, that is, an intensive fungicide programme to control foliar dis-
+ease and an untreated control. Nontarget diseases such as rusts, mil-
+dew, eyespot, and fusarium head blight were controlled in untreated 
+plots by applying combinations of pyraclostrobin (Comet 0.5 L/ha), 
+proquinazid (Talius 0.2 L/ha), cyflufenamid (Cyflamid 0.25 L/ha), and 
+cyprodinil (Unix 1 kg/ha) at the key timings. Fungicide-­protected plots 
+received the same programme as the untreated plots with the addi-
+tion of epoxiconazole and metconazole coformulation (Brutus 2 L/ha) 
+and chlorothalonil (Bravo 1 L/ha) to control septoria. All applications 
+remained within the recommended label rate. A robust weed and 
+invertebrate control programme was applied to all plots. For exam-
+ple, glyphosate (Clinic Ace 3.5 L/ha) was applied as a pre-­emergence 
+herbicide. Broad-­leaved weeds and grasses were controlled by a 
+late November tank-­mix application of diflufenican (Diflanil 500 
+SC 0.06 L/ha), diflufenican + flurtamone (Graduate 0.2 L/ha), pen-
+dimethalin (PDM 330 EC 1.5 L/ha), and flufenacet + pendimethalin 
+(Trooper 1.75 L/ha). A further herbicide application of pyroxsu-
+lam + florasulam (Broadway Star 0.265 L/ha) was made in March. The 
+insecticide lambda-­cyhalothrin (Markate 50 0.1 5 L/ha) was applied to 
+all plots in November and June, and molluscicide methiocarb (Decoy 
+Wetex 5 kg/ha) was applied in November.
+The yield of all plots was measured using a plot combine harvester 
+and grain yield was corrected to 85% dry matter. Yield data from 
+fungicide-­treated plots were used as measures of the fully protected 
+yields of the lines. GLAI was assessed as the planar green leaf area 
+per unit ground area on three occasions: GS59, GS59 + 14 days, and 
+GS59 + 28 days. Where the season was predicted to be shortened 
+due to very warm dry weather, the measurement interval was reduced 
+to every 10 days. The date of canopy senescence was recorded for 
+TA B LE 2 Number of wheat lines of crosses used in each site year, and commercially available cultivars used in each site year
+Year
+Site
+A × C
+C × L
+L14 × R
+L8 × R
+Xi19 × SHW
+Avalon
+Cadenza
+Lynx
+Option
+Xi19
+Rialto
+Malaca
+Claire
+2006
+Rosemaund
+12
+✔
+✔
+2012
+Panniers
+40
+10
+2012
+Gatley
+40
+9
+2012
+Rosemaund
+10
+38
+✔
+2013
+Rosemaund
+6
+30
+✔
+✔
+✔
+✔
+✔
+✔
+2014
+Rosemaund I
+2
+4
+8
+2
+✔
+✔
+✔
+✔
+✔
+✔
+✔
+✔
+2014
+Rosemaund II
+19
+✔
+✔
+✔
+✔
+✔
+2014
+Cardigan
+27
+✔
+✔
+✔
+✔
+✔
+Note: A × C: Avalon × Cadenza; C × L: Cadenza × Lynx; L14 × R: Line 14 × Rialto; Xi19 × SHW: Xi19 × synthetic hexaploid wheat; L8 × R: Line 8 × Rialto.
+
+4 |   
+VAN DEN BOSCH et al.
+each individual plot and was defined as being the date at which the 
+percentage green leaf area of the canopy was less than 15% of full 
+canopy size (equating to a GLAI of <1). This occurred at approximately 
+GS83 (early dough). Using these GLAI data, HAD was calculated using 
+the trapezium rule, over the top four leaves between GS59 and can-
+opy senescence. Note that this is a different time interval and number 
+of leaves than used by Parker et al. (2004) and Foulkes et al. (2006) 
+to calculate HAD. The reasons for this change is that previously we 
+have found little difference between fungicide treatments until GS39. 
+Combined with reduction of costs, this made us decide to work with 
+GS59. Plotting yield as a function of HAD (Figure 1) allowed the calcu-
+lation of tolerance as the slope of a straight line fitted to the data using 
+least squares. These methods generated fully protected yield and tol-
+erance measurements for 179 line-­site-­years.
+Steeper slopes are due to greater yield losses with decreasing 
+HAD, indicating a lower tolerance. This means that the larger the 
+value of the tolerance slope measure, the less tolerant the cultivar, 
+with tolerance slope measures of zero conferring absolute tolerance 
+to disease. For convenience of interpretation, we plot values of tol-
+erance in reverse order on the chart axes, so that points higher along 
+the axis have greater tolerance.
+2.3  |  Data on HAD-­loss
+Calculating the effect of tolerance on actual yield under field condi-
+tions requires data on HAD-­loss for a range of sites and seasons in 
+cases where a full fungicide treatment programme is applied. For 
+comparison we also calculated the HAD-­loss in the absence of fun-
+gicide treatments. These calculations were performed using the data 
+sets described in te Beest et al. (2009) on the epidemics of Z. tritici. 
+We refer the reader to that paper for details.
+The data set comprises 120 site-­years from experiments undertaken 
+in the UK between 1998 and 2002. Plots with commercially available 
+elite cultivars were grown in three replicates. Treatments were either 
+an intensive foliar applied fungicide programme or an untreated control. 
+We refer to Parker et al. (2004, Table 2) for the fungicide treatment pro-
+grammes used. Assessments were performed at 10-­day intervals from 
+GS31 until senescence. GLAI and diseased symptom area index (SAI) 
+were assessed, with the latter measured as the leaf area affected by Z. 
+tritici per unit ground area, excluding naturally senesced area.
+HAD-­loss in the presence of a fungicide treatment programme 
+was calculated in four steps: (a) scatter plots of treated and untreated 
+SAI versus GLAI were generated of all replicate values for each vari-
+ety and assessment date, (b) using least squares, a straight line was 
+fitted to the data, (c) extrapolating this line to SAI = 0 gives an esti-
+mate of the GLAI in the absence of disease, and (d) using these data, 
+HAD over the top four leaves from GS59 until senescence in the ab-
+sence of disease was calculated. HAD was also calculated using the 
+GLAI of the treated plots. The difference between the HAD in the 
+absence of disease and HAD of the treated plots gives an estimate of 
+the HAD-­loss when a full fungicide treatment programme was used.
+HAD in the absence of disease, as calculated above, gives the 
+absolute maximum HAD. The HAD in the untreated plots gives the 
+HAD under full disease exposure. The difference of these two quan-
+tities is the HAD-­loss when no fungicide treatments are applied.
+Exponential distributions, P(HADloss), were fitted to the HAD-­
+loss data using least squares, omitting the few negative values of 
+HAD-­loss.
+2.4  |  The model
+The 179 site-­year-­lines for which a tolerance value was derived were 
+used to generate a scatter plot of fully protected yield versus tol-
+erance. Data from lines with yields smaller than 7 t/ha were omit-
+ted, as lines with such low yields are not of practical relevance in 
+north-­west Europe. An enveloping line was fitted around the data 
+points describing the fully protected yield for each value of toler-
+ance (Figure 2) and forms the basis of our assessment of optimal fully 
+protected yield-­tolerance combinations.
+Published methods for fitting enveloping lines around data sets 
+(Lark & Milne, 2016; Milne & Lark, 2006) require a dense concen-
+tration of data points near the enveloping line. Our data set did not 
+meet this criterion. Therefore, an alternative method was applied. A 
+convex hull was constructed around the data using the Jarvis (1973) 
+algorithm. The points supporting the convex hull are removed and 
+those describing the relationship between tolerance and maximum 
+fully protected yield stored in a separate data set. The process is 
+repeated twice more, each time the data points supporting the re-
+lationship are added to the separate data set. A line is fitted to the 
+set of data points resulting from this process. The upper part of the 
+envelope was found to have a smaller slope than the lower part, and 
+to avoid negative values of the tolerance we fitted polynomials in 
+ln(tolerance) versus fully protected yield.
+FI G U R E 1 Linear regression of a set of field data on yield as 
+function of the Healthy Area Duration, HAD. The slope of the line 
+is the measure of tolerance. The larger the slope of the line the 
+lower the tolerance, the smaller the slope of the line the higher the 
+tolerance
+
+    |  5
+VAN DEN BOSCH et al.
+Referring to Figure 1, the relationship between actual yield, YA, 
+fully protected yield, YF, and HAD is given by
+where A is a constant and α is intolerance. When HAD equals the fully 
+protected HAD, HADF, the actual yield equals the fully protected yield, 
+YA = YF. Equation 1 then becomes
+Rewriting this relationship we find
+and HADF − HAD is the HAD-­loss due to disease, HADloss. Plotting 
+Equation 3 in Figure 3 gives lines of equal actual yield, YA. These lines 
+of equal YA and the enveloping line can be used to determine the opti-
+mal combination of fully protected yield, YF, and tolerance, α. See sec-
+tion 3 for a further explanation.
+Using the enveloping line fitted to the tolerance-­fully pro-
+tected yield data and Equation 3, we calculate the tolerance level 
+and the fully protected yield that leads to the maximum actual 
+yield for a given HAD-­loss, T(HADloss). Using the HAD-­loss prob-
+ability densities as derived from the data, as discussed above, 
+P(HADloss), the mean tolerance value that maximizes actual yield 
+is calculated from
+To further assess the effect of cultivar resistance on the optimal 
+tolerance, the HAD-­loss data were grouped according to the STB 
+resistance rating as published in the recommended list of winter 
+wheat cultivars. A function was fitted describing the effect of re-
+sistance rating on the mean HAD-­loss, both for the cases where no 
+fungicides are used and the cases where a full fungicide treatment 
+programme is applied.
+Finally, the optimal tolerance was compared to the experimen-
+tally estimated tolerance of the commercially available elite cultivars 
+included in the experiments. For each of these cultivars we calculate 
+the percentage difference in actual yield estimated in the field ex-
+periments and the yield the cultivar would give when it had the cal-
+culated optimal tolerance. This is done as follows. We calculate the 
+expectation of the difference in actual yield in the case the cultivar 
+would have the optimal tolerance level, YA, opt, and the case where 
+the cultivar has the field-­estimated tolerance level, YA, actual. Using 
+Equation 2 we find
+where αactual and αopt are the field-­estimated tolerance and the optimal 
+tolerance, respectively. The expected value is calculated from
+which, using the fact that the HADloss distribution is exponential and 
+expressing it as a percentage relative to the fully protected yield, we 
+find
+where E(HADloss) is the mean HADloss value. This percentage differ-
+ence in actual yield quantifies the extent to which breeding for toler-
+ance is a worthwhile breeding target even under a fungicide treatment 
+regime.
+(1)
+YA = YF (A + 훼HAD) .
+(2)
+YA = YF
+(1 −훼(HADF −HAD))
+.
+(3)
+훼=
+1
+HADF −HAD
+(
+1 −YA
+YF
+)
+.
+(4)
+E (훼) = ∫
+HADF
+0
+P (HADloss
+) T (HADloss
+) dHADloss.
+(5)
+YA,opt −YA,actual = YFHADloss
+(훼actual −훼opt
+) .
+(6)
+E
+(
+YA,opt −YA,actual
+) = ∫
+∞
+0
+P (HADloss
+) YFHADloss
+(훼actual −훼opt
+) dHADloss.
+(7)
+E
+(YA,opt −YA,actual
+YF
+)
+100 = 100 (훼actual −훼opt
+) E (HADloss
+)
+.
+FI G U R E 2 Tolerance as a function of fully protected yield, YF. 
+Note that the tolerance axis is inverted with smaller values above 
+larger values. This enables us to interpret the tolerance axis as 
+increasing tolerance higher-­up on the axis. Top left: Tolerance and 
+yield data of the near-­isogenic lines, NILs, assessed in the field 
+(Table 2). Only data points with fully protected yield >7 t/ha are 
+presented. Each dot is a NIL-­site-­year. The drawn line is the line 
+enveloping the data. The yield-­tolerance space inside the envelope 
+represents the combinations of yield and tolerance attainable by 
+breeding. Top right: The enveloping line and lines of equal actual 
+yield, YA. In this figure the HAD-­loss equals zero, meaning there 
+is no disease. The actual yield line touching the envelope, the 
+dashed line, is the line with the largest actual yield attainable by 
+breeding. The point where the envelope touches the line is the 
+combination of fully protected yield and tolerance that maximizes 
+the realized yield. Bottom left: The enveloping line and lines of 
+equal actual yield for a HAD-­loss of 10. The dashed line represents 
+the maximum actual yield line. The point where the line touches 
+the enveloping line is the breeding target (combination of yield and 
+tolerance) for which the actual yield is maximized. Bottom right: 
+Same as bottom left but then for a HAD-­loss of 25. In each panel 
+the breeding target, the optimal combination of tolerance and 
+yield, is marked with a dot and a number. These dots and numbers 
+reappear in Figure 3
+
+6 |   
+VAN DEN BOSCH et al.
+3  |  RESULTS
+Figure 
+2, 
+top 
+left 
+panel, 
+shows 
+that 
+the 
+function 
+YF = aln2 (x) + bln (x) + c, with parameter values a  =  −1.725, 
+b = −12.34, and c = −11.326, gives a good description of the outer 
+envelope of the data. Cultivars with combinations of tolerance and 
+fully protected yield inside the envelope are possible outcomes of a 
+breeding programme.
+Our breeding goal is to maximize actual yield, and Figure 2 will 
+tell us what combination of tolerance and fully protected yield max-
+imize actual yield. The contour lines for equal actual yield, Equation 
+3, are plotted together with the enveloping line in the other panels 
+of Figure 2. In the top right panel the HAD-­loss equals zero, mean-
+ing there is no disease. We see, for example, that breeding for an 
+actual yield of 9 t/ha is possible for tolerances between 0.012 and 
+>0.06, or it is possible to breed for an actual yield of 10 t/ha, with 
+a tolerance between 0.015 and 0.06. Because we aim for maximum 
+actual yield, the YA = 10 is a better aim than YA = 9. For an actual yield 
+of 10.74 t/ha the line just touches the tip of the envelope. At this 
+point the fully protected yield equals 10.74 t/ha and the matching 
+tolerance is 0.028. From this we conclude that if disease was absent 
+or could be controlled completely (i.e., HAD-­loss equals zero), the 
+target is to breed only for the maximum fully protected yield.
+For a HAD-­loss of 10 (Figure 2 bottom left panel) we can follow 
+the same reasoning, concluding that the maximum actual yield we can 
+breed for is 8.57, where the hatched line just touches the envelope. 
+For this HAD-­loss the yield and tolerance that maximizes the actual 
+yield is 10.1 t/ha and 0.015, respectively. For a HAD-­loss of 10 we do 
+not breed for the maximum possible fully protected yield but accept 
+a slightly smaller yield potential in order to gain a higher level of toler-
+ance. In the presence of disease, this results in the largest actual yield.
+The three panels with actual yield contour lines show that the 
+larger the HAD-­loss, that is, the higher the disease severity, the more 
+we need to target at breeding for tolerance and compromise on the 
+achievable yield. In each panel the optimal tolerance and fully pro-
+tected yield is marked with a dot and a number. These dots and num-
+bers reappear in Figure 3.
+Figure 3 shows that the tolerance that maximizes actual yield in-
+creases with increasing HAD-­loss, as we concluded from Figure 2. The 
+tolerance seems to level off at approximately 0.07 for larger values of 
+the HAD-­loss. The right-­hand panel of the figure shows the difference 
+between the fully protected yield that, together with the appropriate 
+tolerance, produces the maximum actual yield, and the associated ac-
+tual yield. The dashed line is the actual yield for a cultivar that was 
+bred to maximize actual yield in the absence of disease. Above a HAD-­
+loss of 5, the realized yield at optimal tolerance and the actual yield 
+for a cultivar bred to maximize fully protected yield in disease-­free 
+situations start to deviate. This shows that breeding for the optimal 
+level of tolerance starts to pay off for HAD-­losses above 5.
+As discussed earlier, there are year-­to-­year variations in ep-
+idemic severity and thus year-­to-­year variations in HAD-­loss. 
+Figure 4 shows HAD-­loss distributions for untreated fields and 
+for fields receiving a fungicide treatment programme. Some of the 
+estimated HAD-­losses are smaller than zero, probably due to mea-
+surement errors at sites and seasons with negligible disease. We 
+have omitted these results from the further analysis. Exponential 
+distributions fitted well to the data (R2 = 0.97 for the untreated 
+and 0.99 for the treated case). The bottom left panel shows the 
+dependence of the mean HAD-­loss on the resistance rating of the 
+cultivar. As expected, the mean HAD-­loss decreases with increas-
+ing disease resistance rating.
+The long-­term mean tolerance that maximizes actual yield, 
+Equation 4, is plotted in Figure 5 as a function of the cultivar resis-
+tance rating. These tolerance levels are the tolerance that, taking ac-
+count of year-­to-­year variation in HAD-­loss, maximizes actual yield. 
+These tolerance levels thus are the breeding target. In the left-­hand 
+panel of Figure 5, the tolerance breeding target is plotted for both 
+the untreated fields and fields receiving a fungicide treatment pro-
+gramme. In the right-­hand panel the left hand panel is plotted again, 
+but on a different y axis, enabling us to plot the tolerance of the 
+commercially available cultivars that were assessed in the experi-
+ments. From the figure we see that the tolerance of some commer-
+cially available cultivars agrees closely with the tolerance that results 
+in the maximum mean actual yield. These are Avalon, Cadenza, and 
+FI G U R E 3 Left: The tolerance breeding target that maximizes actual yield as a function of HAD-­loss due to disease. The dots with 
+numbers represent the same cases/breeding targets as in Figure 2. Right: Yield as function of HAD-­loss. Top line is the fully protected yield 
+that forms the breeding target maximizing actual yield. The dots and numbers represent the same cases/breeding targets as in Figure 2. 
+Lower drawn line is the actual yield as a function of HAD-­loss when the cultivar is bred for the optimal combination of yield and tolerance. 
+The lower dashed line is the actual yield for a cultivar that is bred to yield maximally under no disease intensity (Figure 2 top right)
+
+    |  7
+VAN DEN BOSCH et al.
+Lynx. The cultivars Option, Xi19, Rialto, Claire, and Malacca have in-
+adequate tolerance to ensure the maximum mean actual yield.
+Finally, in Table 3, the percentage yield difference is shown for all 
+the cultivars compared to a cultivar that would have had the optimal 
+tolerance. As expected from Figure 5, for Avalon, Cadenza, and Lynx 
+the difference is small. For the other five cultivars the yield loss 
+caused by the deviation from optimal tolerance varies from 5.4% to 
+8.3%.
+FI G U R E 4 The number of years where 
+a given HAD-­loss is observed. Left: 
+Crops not receiving a fungicide treatment 
+programme. Right: Crops receiving a fully 
+effective fungicide treatment. Each case 
+has a small number of negative HAD-­loss 
+values, these are omitted in the further 
+calculations. Bottom left: Mean HAD-­loss 
+over all observations in the top panels as a 
+function of resistance rating. Hashed line, 
+crops that do not receive any fungicide 
+treatments; solid line, crops that receive a 
+fully effective fungicide treatment
+FI G U R E 5 Breeding target for 
+tolerance to disease when the year to 
+year variation in HAD-­loss (Figure 4) is 
+taken into account, as a function of the 
+cultivar's resistance rating. Both panels 
+show the same lines, only the y axis is 
+scaled differently. This is done so that in 
+the right-­hand panel the field estimated 
+tolerance of commercially available 
+cultivars can be plotted
+Cultivar
+Resistance 
+ratinga
+Optimal 
+toleranceb
+Estimated 
+tolerancec
+Yield loss due to lack of 
+tolerance (%)d
+Avalon
+4
+0.0205
+0.0195
+0.4
+Cadenza
+5
+0.0218
+0.0235
+0.6
+Lynx
+6
+0.0228
+0.0207
+0.6
+Claire
+6
+0.0228
+0.0503
+8.3
+Malacca
+5
+0.0218
+0.0508
+8.1
+Option
+4
+0.0205
+0.0373
+7.6
+Rialto
+6
+0.0228
+0.0405
+5.4
+Xi19
+5
+0.0218
+0.0440
+7.6
+aThe resistance rating as given in the Recommended List (Anonymous, 2021).
+bThe optimal tolerance as calculated using the model developed in this paper.
+cThe field estimate of the tolerance of the cultivar.
+dThe percentage yield loss due to the difference between the optimal and the actual level of 
+tolerance.
+TA B LE 3 Cultivars and their resistance 
+rating and tolerance
+
+8 |   
+VAN DEN BOSCH et al.
+4  |  DISCUSSION
+The CIMMYT spring wheat Line 14 was crossed with the UK win-
+ter wheat cultivar Rialto to generate a DH population. The Line 14 
+advanced line contains the dominant spring wheat Vrn-­A1 allele for 
+vernalization response on chromosome 5A, whereas the winter 
+wheat Rialto contains the recessive vrn-­A1 allele; similarly Line 14 
+contains the dominant Ppd-­D1a allele for photoperiod insensitivity 
+on chromosome 2D, whereas Rialto contains the recessive Ppd-­D1b 
+allele for photoperiod sensitivity. The progeny thus segregated for 
+winter/spring vernalization and photoperiod sensitivity/insensitivity 
+characteristics. However, in the present experiments only lines ex-
+hibiting high vernalization requirement and photoperiod sensitivity 
+were used (i.e., winter types) so there would be no wide variation in 
+phenology and anthesis dates in the Line 14 × Rialto DH population. 
+The Cadenza × Lynx and Xi19 × SHW populations will have been 
+segregating for winter/spring Vrn-­A1 but in each case both parents 
+were photoperiod-­sensitive, so from mid-­October or later sowings 
+there would be no wide variation in anthesis dates as all lines will 
+still have been photoperiod-­sensitive, that is, floral initiation, switch 
+from leaf to spikelet primordia initiation at the apex, is under the 
+double lock of vernalization and photoperiod control, so even if 
+there are differences in the timing of the vernalization requirement 
+being satisfied these will have been overridden by the photoperiod 
+sensitivity maintaining similar flowering times in the DH lines.
+Some of the lines were omitted as described in section 2. By doing 
+so, highly resistant lines were omitted, as resistance is not a topic of 
+study and tolerance could not be quantified accurately on such lines. 
+Moreover, very tall, very low yielding, and out of season flowering, 
+and thus commercially irrelevant lines, were omitted. The fungicide 
+programme used in the experiments was carefully chosen to avoid 
+giving the protected plots an additional advantage over the untreated 
+control plots via possible beneficial physiological effects. Nontarget 
+diseases such as mildew, rusts, and eyespot were controlled in the ex-
+periments by applying the fungicides proquinazid, cyflufenamid, pyr-
+aclostrobin, and cyprodinil. The strobilurin (QoI) fungicides have been 
+widely reported to have direct effects on plant physiology that may 
+lead to enhanced yield in both the presence and absence of disease 
+challenge. Mechanisms responsible include decreased respiration, in-
+creased photosynthetic rate, effects on nitrogen uptake, increased 
+tolerance to stress, reduced ethylene production, and delayed leaf 
+senescence, which is often termed the “greening effect” (Amaro et al., 
+2020; Beck et al., 2002; Bertelsen et al., 2001; Grossmann et al., 
+1999; Ruske et al., 2003). However, these fungicides were applied to 
+all plots so any beneficial physiological effects would have occurred 
+equally across the whole experiment.
+The protected plots received azole fungicides (epoxiconazole 
+and metconazole), which are not reported to enhance yield or delay 
+senescence through direct physiological effects on the plant, but 
+rather through robust control of visible disease symptoms, which in 
+turn results in prolonged green leaf area and higher yields.
+The analysis of breeding for tolerance quantified the extent 
+to which disease tolerance is a relevant breeding target when the 
+breeding goal is to develop cultivars with maximum actual yields. 
+Even when an effective fungicide treatment programme is applied, 
+some level of tolerance can increase the mean actual yield. For ex-
+isting cultivars, the actual yield gain that could be obtained was esti-
+mated to be between 3.4% and 8.3%. Gains may also be obtainable 
+from tolerance to other foliar pathogens that cause damage predom-
+inantly through loss of HAD.
+The findings have implications for the methods used to assess 
+the value of new cultivars and recommend their use to growers. 
+Field experiments for the UK Recommended List system for cereals 
+(Anonymous, 2021) use fungicide programmes that are more inten-
+sive than those used in commercial practice. This creates competi-
+tion between breeders for cultivars with the highest treated yield 
+under intensive inputs. Our analysis suggests that creating compe-
+tition for the highest achievable yield would be more productive.
+The HAD-­loss distribution used to characterize the year-­to-­year 
+variation in HAD-­loss was based on data gathered in field exper-
+iments where fungicide applications were generally well timed. In 
+farm fields the timeliness of fungicide treatments can be affected by 
+the large area that needs to be treated and scarcity of good weather 
+conditions for spraying (Anonymous, 2009), so it is likely that HAD-­
+losses occur in practice that are larger than those in well-­controlled 
+experiments. The estimates of the yield losses of the eight commer-
+cial cultivars, caused by lack of tolerance, may therefore be under-
+estimates. Hence, the optimal tolerance that maximizes actual yields 
+may be higher than our calculations show.
+Even when tolerance is optimized and in balance with fully pro-
+tected yield, there is a difference between the fully protected yield 
+of a cultivar and the actual yield. This yield gap cannot be reduced by 
+agronomic measures because the yield gap is caused by the trade-­
+off between tolerance and fully protected yield. This trade-­off may 
+be caused by random chance of genetic linkage or, more likely, by 
+pleiotropic effects. For example, van den Berg et al. (2017), in a 
+model study, and Foulkes et al. (2006), in a field study, both found 
+that tolerance increases with decreasing number of grains per ear 
+and number of grains per square metre of ground. Decreasing grains 
+per ear increases source availability in relation to grain sink size. A 
+lower number of grains per ear is likely to decrease yield potential, 
+suggesting that genes that control yield potential are also affect-
+ing tolerance. Minimizing such trade-­offs depends on identifying 
+traits where the effects on yield and tolerance are not negatively 
+associated.
+The experiments on which the analysis was based used DH 
+mapping populations derived from crosses of elite cultivars. These 
+experiments resulted in the combinations of tolerance and fully pro-
+tected yield available to breeding programmes in the progeny from 
+which future cultivars could be selected. The possible breeding 
+space is changing constantly—­the varieties used as the parents in 
+the crosses are already superseded by better cultivars. Further im-
+provements in actual yield require the upper boundary of the breed-
+ing envelope of tolerance by fully protected yield to be shifted. 
+Greater emphasis on selection for tolerance, across generations of 
+a breeding programme, would change the boundary. Initiatives to 
+
+    |  9
+VAN DEN BOSCH et al.
+increase access to diverse germplasm (Moore, 2015) and new tech-
+niques (Juliana et al., 2020; van de Wiel et al., 2017) in breeding 
+programmes should increase the scope for gains in actual yield.
+ACKNOWLEDGEMENTS
+Funding of the experimental work by the Department for 
+Environment, Food and Rural Affairs of the United Kingdom is grate-
+fully acknowledged. Rothamsted Research receives support from the 
+Biotechnology and Biological Sciences Research Council (BBSRC) 
+of the United Kingdom. Thanks are due to colleagues in ADAS and 
+Teagasc for their help in conducting the field experiments.
+DATA AVAILABILITY STATEMENT
+The data that support the findings of this study are available from 
+the corresponding author upon reasonable request.
+ORCID
+Frank van den Bosch 
+ https://orcid.org/0000-0002-9225-7828 
+REFERENCES
+AHDB (2021) AHDB recommended lists for cereals and oilseeds 2021/22. 
+Available at: https://ahdb.org.uk/knowl​edge-­libra​ry/recom​mende​
+d-­lists​-­for-­cerea​ls-­and-­oilse​eds-­rl Accessed 3 November 2021.
+Amaro, A.C.E., Baron, D., Ono, E.O. & Rodrigues, J.D. (2020) Physiological 
+effects of strobilurin and carboxamides on plants: an overview. 
+Acta Physiolologiae Plantarum, 42, 4.
+BCPC (2009) During spraying: avoiding drift. Best practice guide. The 
+Voluntary Initiative. Available at: https://volun​taryi​nitia​tive.org.
+uk/media/​1272/bestp​racti​cegui​deavo​iding​drift.pdf [Accessed 3 
+November 2021].
+Beck, C., Oerke, E.C. & Dehne, H.W. (2002) Impact of strobilurins on phys-
+iology and yield formation of wheat. Mededelingen Rijksuniversiteit 
+te Gent Fakulteit van de Landbouwkundige en Toegepaste Biologische 
+Wetenschappen, 67, 181–­187.
+te Beest, D.E., Shaw, M.W. & van den Bosch, F. (2009) Evaluation of eco-
+nomic and environmental benefits of crop disease predictive mod-
+els. Plant Pathology, 58, 1001–­1009.
+van den Berg, F., Paveley, N.D., Bingham, I.J. & van den Bosch, F. (2017) 
+Physiological traits determining yield tolerance of wheat to foliar 
+diseases. Phytopathology, 107, 1468–­1478.
+Bertelsen, J.R., De Neergaard, E. & Smedegaard-­Petersen, V. (2001) 
+Fungicidal effects of azoxystrobin and epoxiconazole on phyllo-
+sphere fungi, senescence and yield of winter wheat. Plant Pathology, 
+50, 190–­205.
+Bingham, I.J. & Topp, C.F.E. (2009) Potential contribution of selected 
+canopy traits to the tolerance of foliar disease by spring barley. 
+Plant Pathology, 58, 1010–­1020.
+Braun, H.J., Ekiz, H., Eser, V., Keser, M., Ketata, H., Marcucci, G. et al. 
+(1997) Breeding priorities of winter wheat programs. In: Braun, H.J., 
+Altay, F., Kronstad, W.E., Beniwal, S.P.S. & McNab, A. (Eds.) Wheat: 
+prospects for global improvement. developments in plant breeding. 6, 
+Dordrecht: Springer, pp. 553–­560.
+Castro, A.C. & Simon, M.R. (2016) Effect of tolerance to Septoria trit-
+ici blotch on grain yield, yield components and grain quality in 
+Argentinean wheat cultivars. Crop Protection, 90, 66–­76.
+Collin, F., Bancal, P., Spink, J., Kock-­Appelgren, P., Smith, J., Paveley, 
+N.D. et al. (2018) Wheat lines exhibiting variation in tolerance of 
+septoria tritici blotch differentiated by grain source limitation. Field 
+Crops Research, 217, 1–­10.
+Foulkes, M.J., Paveley, N.D., Worland, A., Welham, S.J., Thomas, J. & 
+Snape, J.W. (2006) Major genetic changes in wheat with potential 
+to affect disease tolerance. Phytopathology, 96, 680–­688.
+Grossmann, K., Kwiatkowski, J. & Caspar, G. (1999) Regulation of phy-
+tohormone levels, leaf senescence and transpiration by the strobi-
+lurin kresoxim-­methyl in wheat (Triticum aestivum). Journal of Plant 
+Physiology, 154, 805–­808.
+Inglese, S.J. & Paul, N.D. (2006) Tolerance of Senecio vulgaris to infection 
+and disease caused by native and alien rust fungi. Phytopathology, 
+96, 718–­726.
+Jarvis, R.A. (1973) On the identification of the convex hull of a finite set 
+of points in the plane. Information Processing Letters, 2, 18–­21.
+Juliana, P., Singh, R.P., Braun, H.-­J., Huerta-­Espino, J., Crespo-­Herrera, 
+L., Govindan, V. et al. (2020) Genomic selection for grain yield in 
+the CIMMYT wheat breeding program—­status and perspectives. 
+Frontiers in Plant Science, 11, 564183.
+Kramer, T., Gildemacher, B.H., van der Ster, M. & Parlevliet, J.E. (1980) 
+Tolerance of spring barley cultivars to leaf rust, Puccinia hordei. 
+Euphythica, 29, 209–­216.
+Lark, R.M. & Milne, A.E. (2016) Boundary line analysis of the effect of 
+water-­filled pore space on nitrous oxide from cores of arable soil. 
+European Journal of Soil Science, 67, 148–­159.
+Milne, A.E., Ferguson, R.B. & Lark, R.M. (2006) Estimating a boundary 
+line model for a biological response by maximum likelihood. Annals 
+of Applied Biology, 149, 223–­234.
+Moore, G. (2015) Strategic pre-­breeding for wheat. Nature Plants, 1, 
+15018.
+Parker, S.R., Welham, S., Paveley, N.D., Foulkes, J. & Scott, R.K. (2004) 
+Tolerance of septoria leaf blotch in winter wheat. Plant Pathology, 
+53, 1–­10.
+Ruske, R.E., Gooding, M.J. & Jones, S.A. (2003) The effects of triazole 
+and strobilurin fungicide programmes on nitrogen uptake, parti-
+tioning, remobilization and grain N accumulation in winter wheat 
+cultivars. Journal of Agricultural Science, 140, 395–­407.
+Schafer, J. (1971) Tolerance to plant disease. Annual Review of 
+Phytopathology, 9, 235–­252.
+Senepati, N. & Semenov, M.A. (2020) Large genetic yield potential 
+and genetic yield gap estimated for wheat in Europe. Global Food 
+Security, 24, 100340.
+Singh, R.P., Singh, P.K., Rutkoski, J., Hodson, D.P., He, X., Jørgensen, L.N. 
+et al. (2016) Disease impact on wheat yield potential and prospects 
+for genetic control. Annual Review of Phytopathology, 54, 303–­322.
+van de Wiel, C.C.M., Schaart, J.G., Lotz, L.A.P. & Smulders, M.J.M. (2017) 
+New traits in crops produced by genome editing techniques based 
+on deletions. Plant Biotechnology Reports, 11, 1–­8.
+Ziv, O. & Eyal, Z. (1978) Assessment of yield component losses caused 
+in plants of spring wheat cultivars by selected isolates of Septoria 
+tritici. Phytopathology, 68, 791–­796.
+How to cite this article: van den Bosch, F., Smith, J., Wright, 
+P., Milne, A., van den Berg, F., Kock-­Appelgren, P., et al. 
+(2021) Maximizing realized yield by breeding for disease 
+tolerance: A case study for Septoria tritici blotch. Plant 
+Pathology, 00, 1–­9. Available from: https://doi.org/10.1111/
+ppa.13509

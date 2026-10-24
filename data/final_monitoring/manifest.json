@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "scope": "Saved manuscript monitoring folds and their exact replay dependencies; no refitting",
+  "files": [
+    {
+      "path": "data/final_monitoring/folds/spatial0_model.joblib",
+      "bytes": 16160522,
+      "sha256": "d1f49424b5be29e8220aae4304733ac53ed0dec644ec87a08aba526827fac575"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial10_model.joblib",
+      "bytes": 20010210,
+      "sha256": "a8478a0d8ab58267243ca4429e623082dc0cdfc6e35b203f4f823aea4b2bb5a4"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial11_model.joblib",
+      "bytes": 19906242,
+      "sha256": "b62ae25249f1859d3566ef4e490d5bfba45a28152dcafe32fffffc3cb8b3a9ec"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial12_model.joblib",
+      "bytes": 22368530,
+      "sha256": "5dc8a9c466ca6ea6703db48db0105c7dc190208df57bfc0bb1c2d36a499958f9"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial13_model.joblib",
+      "bytes": 20628170,
+      "sha256": "c3892292f28ea6a9609aec617a7013c1fecb7042071ef296a4b0ffccaa950fbb"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial14_model.joblib",
+      "bytes": 20395754,
+      "sha256": "64382d4814186241ad77de9bd3826068ae42856eb8bbaa0753d7a15094f5fb29"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial1_model.joblib",
+      "bytes": 14465706,
+      "sha256": "edecfb2c28f301d428bf50d3a118d90c74b11bca8d49fb363d08c0089b77aed3"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial2_model.joblib",
+      "bytes": 7823010,
+      "sha256": "6e632fa49216e430799d4c94e71d92f190f8ebb7a33fa7f782d427be75f4fecb"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial3_model.joblib",
+      "bytes": 18914226,
+      "sha256": "9713896321719984793b7190991c0c5029f21d8c8a43812971aa573ab7eacae1"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial4_model.joblib",
+      "bytes": 17181842,
+      "sha256": "d769178b784da753cfd2d9de3d1e29b3ec5e699801b79d56293a70cbbaeb459c"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial5_model.joblib",
+      "bytes": 15651858,
+      "sha256": "f2639026d2bfa3df4b711a3f35dd096348695af1acb371cab614cd748e08b663"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial6_model.joblib",
+      "bytes": 19715522,
+      "sha256": "48f5b07662e244adbb8f6ca9b306bc0f043c98f6ef83d78d500631398b5389c2"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial7_model.joblib",
+      "bytes": 19109586,
+      "sha256": "60618e928e2a1d6469fe9897de3cf66c72a0fc9300af7963af6b5faddbdbe43a"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial8_model.joblib",
+      "bytes": 18397858,
+      "sha256": "f2ecc3277ca97e74967e9ede8ed25152b654c24c2daf2cddf03a96da7397169f"
+    },
+    {
+      "path": "data/final_monitoring/folds/spatial9_model.joblib",
+      "bytes": 21622490,
+      "sha256": "8b0341c200c188f13e25bce0d549006fd10df3e98f294ae1506764baebba9fc1"
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2015_model.joblib",
+      "bytes": 16280794,
+      "sha256": "f585c2c0febacd485a4d7c652a3a69ef793dd9a6e91a01b4af9c15836663dd39"
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2016_model.joblib",
+      "bytes": 19873794,
+      "sha256": "139ba315d1b70492f8a433ac572740d6ba3ff1de7fffc9960cac40e987d0721a"
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2017_model.joblib",
+      "bytes": 21600930,
+      "sha256": "2378aa615293d430d4c55c2826ef2076fa2e1c426e87a5ac88eac37a86ef5b9e"
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2018_model.joblib",
+      "bytes": 22126354,
+      "sha256": "91fd9f95339448712404b5601e5e1b8722d01c4e78ece7e13b4a882501c8d53a"
+    },
+    {
+      "path": "data/final_monitoring/folds/temporal2019_model.joblib",
+      "bytes": 23481346,
+      "sha256": "88e9f80e910aaf00d9118e094407a55de2a8d221e6772087ebf91d3642980289"
+    },
+    {
+      "path": "data/final_monitoring/cohort/training_observation_ledger.csv",
+      "bytes": 1114296,
+      "sha256": "3f7702331f878f5fbe0adc5565f7b62c6f6fb158d5f8e98024aa10190ce37a36"
+    },
+    {
+      "path": "data/final_monitoring/cohort/predictors.npz",
+      "bytes": 492859,
+      "sha256": "21e19e7c44e0dcbde5b063010916164944f65e2c38c82547997a786a051fc748"
+    },
+    {
+      "path": "data/final_monitoring/cohort/fitted_candidate.joblib",
+      "bytes": 24107390,
+      "sha256": "d7068fcca2783996a889f830124a2f0b53d4bcecc721f1394b5f1f406a8f5518"
+    },
+    {
+      "path": "data/final_monitoring/cohort/split_membership.json",
+      "bytes": 218302,
+      "sha256": "d90660aee25b5566f8b55482614557d34df4e2f0fd61dcc87734b4ce540a36c0"
+    },
+    {
+      "path": "data/final_monitoring/reference/data/fig1/predictions.csv",
+      "bytes": 632620,
+      "sha256": "39b7f3b2135c09c9b60251eea06c08dbe0ee77043786c490c6c7ed135f180bc9"
+    }
+  ]
+}

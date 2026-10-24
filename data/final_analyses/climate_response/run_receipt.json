@@ -1,0 +1,87 @@
+{
+  "output_directory": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/outputs/gcb_response_insights_20261023",
+  "audit": {
+    "fixed_cells": 14941,
+    "calendar_valid_cells": 14932,
+    "fixed_harvested_area_ha": 54405001.12262583,
+    "members": 18,
+    "analysed_metrics": [
+      "GS65_85_lost_had3",
+      "F1_symptom_relative_anthesis_days",
+      "mean_temperature_grain_fill_c",
+      "rainfall_grain_fill_mm",
+      "grain_fill_days",
+      "GS65_85_functional_lost_fraction"
+    ],
+    "identical_complete_season_metric_year_pair_support": true,
+    "timing_associations_restricted_to_identical_complete_season_pairs": true,
+    "timing_pair_support_differs_cell_members": 24114,
+    "frozen_equal_gcm_arithmetic_verified": true,
+    "finite_cell_member_pairs": 268276,
+    "minimum_valid_pairs": 0,
+    "maximum_valid_pairs": 30,
+    "regional_arithmetic_matches_frozen_outputs": true,
+    "timing_subset_proof": {
+      "kernel": "analysis/final_climate/kernel.py:simulate_draw_seasons",
+      "logic": "F1 symptom date is NaT whenever the season is invalid or the symptom index is negative. Relative timing is NaN if that date is NaT or the modelled GS65 index is negative. Canopy loss is finite whenever the season is valid and its GS65 start index is nonnegative. Thus finite relative timing implies finite canopy loss within a year; joint reference/future timing-pair validity is a subset of joint canopy-pair validity. The summary uses the same year-index pairing for both metrics. Equal per-cell/member pair counts imply the exact same paired years.",
+      "scope": "Verified against retained frozen kernel and paired-summary source; not inferred from equal counts alone"
+    }
+  },
+  "findings": {
+    "late585_latitude50_60_fixed_area_share_percent": 44.342587643479156,
+    "late585_latitude50_60_increased_loss_contribution_share_percent_mean": 68.59231722935579,
+    "late585_latitude50_60_increased_loss_contribution_share_percent_gcm_range": [
+      66.14887409345839,
+      70.26600435819273
+    ],
+    "relative_timing_correlations_all18_range": [
+      -0.8253704394872808,
+      -0.35556078488297493
+    ],
+    "relative_timing_adjusted_slopes_all18_range": [
+      -0.9302203509916142,
+      -0.25233961693803714
+    ],
+    "timing_slopes_negative_members": 18,
+    "timing_slopes_block_bootstrap_upper_below_zero_members": 18,
+    "spatial5degree_primary_cv_climate_r2_range": [
+      -0.10259462713475442,
+      0.31482457716127576
+    ],
+    "spatial5degree_primary_cv_full_r2_range": [
+      0.248297067724486,
+      0.6934193923597898
+    ],
+    "spatial5degree_primary_cv_full_vs_climate_improved_members": 18,
+    "late585_less_window_rain_and_increased_loss_pair_area_shares": [
+      {
+        "model": "ACCESS-CM2",
+        "pair_area_share_percent": 68.91433706294967
+      },
+      {
+        "model": "MPI-ESM1-2-HR",
+        "pair_area_share_percent": 70.11787400680342
+      },
+      {
+        "model": "MRI-ESM2-0",
+        "pair_area_share_percent": 67.51026479960683
+      }
+    ],
+    "all_spatial_cv_designs_full_vs_climate_improved": 108,
+    "all_spatial_cv_designs_comparisons": 108,
+    "timing_matched_fixed_area_fraction_all18_range": [
+      0.8731823404955243,
+      0.9619829870017949
+    ],
+    "timing_matched_cells_all18_range": [
+      12886,
+      14082
+    ],
+    "spatial_cv_all_designs_median_r2": {
+      "window_climate": 0.04791275596027933,
+      "window_climate_duration": 0.13029456881980012,
+      "window_climate_duration_timing": 0.5067630619258618
+    },
+    "spatial_cv_all_designs_timing_addition_improved": 108
+  }
+}

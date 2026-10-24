@@ -1,0 +1,5 @@
+evaluation,model,reference,lower95,upper95,scope
+temporal,discrepancy_logit,irish_station_candidate,-0.31592854541616133,-0.09743321467424826,Descriptive site-resampling of fixed predictions after adaptive development; not external confirmation
+temporal,discrepancy_logit,reference_replay,-3.273089504510897,-1.286189881188979,Descriptive site-resampling of fixed predictions after adaptive development; not external confirmation
+spatial_50km,discrepancy_logit,irish_station_candidate,-0.5476110489749444,-0.13538011361876975,Descriptive site-resampling of fixed predictions after adaptive development; not external confirmation
+spatial_50km,discrepancy_logit,reference_replay,-3.9402779021523218,-1.872425099268294,Descriptive site-resampling of fixed predictions after adaptive development; not external confirmation

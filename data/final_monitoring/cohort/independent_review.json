@@ -1,0 +1,18 @@
+{
+  "reviewer": "/root/oob_blend_review independent agent",
+  "critical_findings": 0,
+  "important_findings_remaining": 0,
+  "read_only_review": true,
+  "new_history_members_independently_replayed": 840,
+  "original_process_identity_preserved": true,
+  "source_and_snapshot_hashes_match": true,
+  "whole_coordinate_year_sampling_verified": true,
+  "original_splits_and_training_cohorts_preserved": true,
+  "metrics_integrals_bootstrap_intervals_independently_recomputed": true,
+  "subgroup_rows_recomputed": 27,
+  "adoption_decisions_recomputed": 3,
+  "weather_quality_acceptance_independent_of_model_score": true,
+  "independent_external_validation": false,
+  "publication_model_promoted": false,
+  "verification_sha256": "7c55187e819610faac91980619f97363abbd6d9a7124691f1170504fa21ce5c1"
+}

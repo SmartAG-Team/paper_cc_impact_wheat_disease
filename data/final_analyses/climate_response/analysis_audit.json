@@ -1,0 +1,257 @@
+{
+  "fixed_cells": 14941,
+  "calendar_valid_cells": 14932,
+  "fixed_harvested_area_ha": 54405001.12262583,
+  "members": 18,
+  "analysed_metrics": [
+    "GS65_85_lost_had3",
+    "F1_symptom_relative_anthesis_days",
+    "mean_temperature_grain_fill_c",
+    "rainfall_grain_fill_mm",
+    "grain_fill_days",
+    "GS65_85_functional_lost_fraction"
+  ],
+  "identical_complete_season_metric_year_pair_support": true,
+  "timing_associations_restricted_to_identical_complete_season_pairs": true,
+  "timing_pair_support_differs_cell_members": 24114,
+  "frozen_equal_gcm_arithmetic_verified": true,
+  "finite_cell_member_pairs": 268276,
+  "minimum_valid_pairs": 0,
+  "maximum_valid_pairs": 30,
+  "regional_arithmetic_matches_frozen_outputs": true,
+  "timing_subset_proof": {
+    "kernel": "analysis/final_climate/kernel.py:simulate_draw_seasons",
+    "logic": "F1 symptom date is NaT whenever the season is invalid or the symptom index is negative. Relative timing is NaN if that date is NaT or the modelled GS65 index is negative. Canopy loss is finite whenever the season is valid and its GS65 start index is nonnegative. Thus finite relative timing implies finite canopy loss within a year; joint reference/future timing-pair validity is a subset of joint canopy-pair validity. The summary uses the same year-index pairing for both metrics. Equal per-cell/member pair counts imply the exact same paired years.",
+    "scope": "Verified against retained frozen kernel and paired-summary source; not inferred from equal counts alone"
+  },
+  "source_files": [
+    {
+      "path": "data/final_study/evidence/full_grid_climate/results/full_grid_paired_changes_by_gcm.parquet",
+      "sha256": "c9674bef176588736299dd19c18a299d4ecf0fdb724571cd3df2ca4f8e83c62e",
+      "bytes": 77382462
+    },
+    {
+      "path": "data/final_study/evidence/full_grid_climate/results/full_grid_ensemble_paired_changes.parquet",
+      "sha256": "8a0d3bcbee84d10bea49bde454acbf53f3dcf3d9c69db72d0fc49a7a29bcab94",
+      "bytes": 47967036
+    },
+    {
+      "path": "data/final_study/evidence/full_grid_climate/results/environmental_region_changes_by_gcm.csv",
+      "sha256": "8b1a8593406e528ad6aa5f699a6c7868bdb62e3dd8b19b63ad9fc181860772e1",
+      "bytes": 783340
+    },
+    {
+      "path": "data/final_climate/cells.parquet",
+      "sha256": "380833fc139e7c76adc274384f7175438b202b217cdb4194c439f4ea69af6c92",
+      "bytes": 933487
+    },
+    {
+      "path": "data/final_climate/scientific_manifest.json",
+      "sha256": "cd3fb7d002921c2a4b013ef763657329e8d78e9150fd98374e9ffebbfcbe21af",
+      "bytes": 665553
+    },
+    {
+      "path": "analysis/final_climate/kernel.py",
+      "sha256": "52a6d138826a455df9b5ce1c9dce794952065581af7c068351d3b40bbd2ad543",
+      "bytes": 8695
+    },
+    {
+      "path": "analysis/final_climate/summary.py",
+      "sha256": "b8646dd9c5cd761b4f216d883888cbd609774537344a3b900c4aa997296231ba",
+      "bytes": 11595
+    },
+    {
+      "path": "analysis/gcb_preparation/climate_response_insights.py",
+      "sha256": "61cdc12b594c09cfa75f35f025d01b548f75cad526e56cf49699c3531ad5a644",
+      "bytes": 46408
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/association_coefficients_spatial_bootstrap.csv",
+      "sha256": "074640f0f70a083a633d429db6c6d77088239fbda66b61f59d9fcc25c0945d80",
+      "bytes": 27520
+    },
+    {
+      "path": "data/association_spatial_cv.csv",
+      "sha256": "1e6c3a14f2809ea2e48c60a7bc364cb6b55b13a24fe2602347ebbea1e504a2d5",
+      "bytes": 72580
+    },
+    {
+      "path": "data/association_weighted_correlations.csv",
+      "sha256": "4969a1ab61141401e54051c7d32483e65d2426e61a39933e5f71c83566ba3ab0",
+      "bytes": 13991
+    },
+    {
+      "path": "data/climate_canopy_sign_cooccurrences.csv",
+      "sha256": "13babe6d37c6706e7daa78e4ed72f07448e77329db8537f1f8a2fc878794c9a1",
+      "bytes": 12478
+    },
+    {
+      "path": "data/data_dictionary.json",
+      "sha256": "cdc65db7228bbf3448f17c8f07fa37e4d491884c9a364f14955a7ad782bce959",
+      "bytes": 3884
+    },
+    {
+      "path": "data/environment_by_gcm.csv",
+      "sha256": "9228cdf975eb8bd7edefc46fd06d22c4a1220abe623cf4bff92f5351043af040",
+      "bytes": 167136
+    },
+    {
+      "path": "data/environment_contributions_by_gcm.csv",
+      "sha256": "ff39c4b55de143990ae62d06784a7f57b27b56599b14f6fc8f5f30eb63639301",
+      "bytes": 42444
+    },
+    {
+      "path": "data/environment_ensemble.csv",
+      "sha256": "80912a12d656ed307e36c40c3125f55276379eafe4d655ddb210f4fbe7a98c51",
+      "bytes": 70668
+    },
+    {
+      "path": "data/fig3/data_dictionary.json",
+      "sha256": "d3f07992e33759895f3e5cfb8dec36bcaf358fb057c9ba33458dd42d87118fa6",
+      "bytes": 4061
+    },
+    {
+      "path": "data/fig3/environment_contributions_by_gcm.csv",
+      "sha256": "ff39c4b55de143990ae62d06784a7f57b27b56599b14f6fc8f5f30eb63639301",
+      "bytes": 42444
+    },
+    {
+      "path": "data/fig3/latitude_by_gcm.csv",
+      "sha256": "17ef1bbc12abae8b0b54150db3e315d006268f58b77d90c2a3e9b3f243e3adfb",
+      "bytes": 531939
+    },
+    {
+      "path": "data/fig3/latitude_ensemble.csv",
+      "sha256": "1130e2d762f198793880a87d9e2cfc0a32e72ba43b1764dc61d035c5bd883ba2",
+      "bytes": 258337
+    },
+    {
+      "path": "data/fig4/data_dictionary.json",
+      "sha256": "1071cfc9595cd59dbc8ce7247d8c238bdf4bdfa57b9319b50c4c95d6ea720ced",
+      "bytes": 4093
+    },
+    {
+      "path": "data/fig4/response_regime_cells.csv",
+      "sha256": "7d8931a1b95976410e82bea1e8123297e5a10be04fed3beeef88fbd0402a4bc8",
+      "bytes": 3645922
+    },
+    {
+      "path": "data/fig4/response_regime_profiles_by_gcm.csv",
+      "sha256": "0612b3d04f61de7ea70bd2304ba00c8d7e44a2d3be1f4882b35d4b4da5322b6c",
+      "bytes": 67973
+    },
+    {
+      "path": "data/fig4/timing_cochange_bins_by_gcm.csv",
+      "sha256": "a472705fab262f71079a5ea22d8eccaf45d45a4764e427d99dfc2bc132a5b69b",
+      "bytes": 9988
+    },
+    {
+      "path": "data/fixed_latitude_area_support.csv",
+      "sha256": "7273e31157c26ba01cde67be7e3b538c6516c66000129ce874fbbea9b85b502c",
+      "bytes": 876
+    },
+    {
+      "path": "data/latitude_5degree_by_gcm.csv",
+      "sha256": "76ecb0491d8a1ed4de2eec2c42a6d6af3b58ca5b14e4e8499f8977eddb8bf635",
+      "bytes": 126894
+    },
+    {
+      "path": "data/latitude_5degree_ensemble.csv",
+      "sha256": "b449e19c8c5ff600c14bac17c7fd2cab5d05a8c0799bdbafafb1da321ae9c085",
+      "bytes": 54758
+    },
+    {
+      "path": "data/latitude_by_gcm.csv",
+      "sha256": "17ef1bbc12abae8b0b54150db3e315d006268f58b77d90c2a3e9b3f243e3adfb",
+      "bytes": 531939
+    },
+    {
+      "path": "data/latitude_contributions_by_gcm.csv",
+      "sha256": "47228eb0ccf4ad1ec3d160b311cd7985f44f64f3a570da60a6be917fa86859d0",
+      "bytes": 33280
+    },
+    {
+      "path": "data/latitude_ensemble.csv",
+      "sha256": "1130e2d762f198793880a87d9e2cfc0a32e72ba43b1764dc61d035c5bd883ba2",
+      "bytes": 258337
+    },
+    {
+      "path": "data/member_cell_cochanges.parquet",
+      "sha256": "57173785a1542ea8363c611aa250be95d7afb5311a88b2793a452ca7c320ee40",
+      "bytes": 21837023
+    },
+    {
+      "path": "data/response_regime_cells.csv",
+      "sha256": "7d8931a1b95976410e82bea1e8123297e5a10be04fed3beeef88fbd0402a4bc8",
+      "bytes": 3645922
+    },
+    {
+      "path": "data/response_regime_profiles_by_gcm.csv",
+      "sha256": "0612b3d04f61de7ea70bd2304ba00c8d7e44a2d3be1f4882b35d4b4da5322b6c",
+      "bytes": 67973
+    },
+    {
+      "path": "data/timing_cochange_bins_by_gcm.csv",
+      "sha256": "a472705fab262f71079a5ea22d8eccaf45d45a4764e427d99dfc2bc132a5b69b",
+      "bytes": 9988
+    },
+    {
+      "path": "data/timing_matched_support_environment.csv",
+      "sha256": "74a759c23935e987393cb9f646cc36d4c30b545fd03be03a445e3a7bff6b2067",
+      "bytes": 99098
+    },
+    {
+      "path": "data/timing_matched_support_latitude.csv",
+      "sha256": "3fd1f4c0a47908fe1935d38c91fead49188afe4ea0c233c9a93363ebba7c579d",
+      "bytes": 72787
+    },
+    {
+      "path": "data/timing_matched_support_overall.csv",
+      "sha256": "53cfae2442df726a4cd57a26ae2ceb19208e2d78bacb000099cfd229bdbb1bd7",
+      "bytes": 10564
+    },
+    {
+      "path": "fig3.png",
+      "sha256": "4ac2ce582f09437d814f3f7965df83f71f2139381191b06e1c39be19a1ab3b7f",
+      "bytes": 314855
+    },
+    {
+      "path": "fig4.png",
+      "sha256": "f8f18a65f9bb920de1c6b2d884ca1e9e755e486e06f74461ed1e0c10e7a54ab8",
+      "bytes": 231780
+    },
+    {
+      "path": "figure_captions.json",
+      "sha256": "3557c906fdab88abecb5d5549c26ca6c7d19759bb777c84644e11dc5b2a2cc6e",
+      "bytes": 3167
+    },
+    {
+      "path": "figure_verification.json",
+      "sha256": "151c17b644f2fd010831b52e3a148cc3d55cf0bbcda11e50e53483ddd7977c3a",
+      "bytes": 2728
+    },
+    {
+      "path": "numeric_findings.json",
+      "sha256": "fa5551aab666dced6e147576d956058019ff38bba90872ca4b35c7e6cbc2d31f",
+      "bytes": 1767
+    },
+    {
+      "path": "run_receipt.json",
+      "sha256": "726b82b40a589510ec1740f8574802deae72f1cf24117f822ccce94e3702c63e",
+      "bytes": 3620
+    },
+    {
+      "path": "scientific_findings.md",
+      "sha256": "a42392fdf929b511847d4959ff1ddf3bc715b9a9b92468aaec7023ee3a1f0ded",
+      "bytes": 3862
+    }
+  ],
+  "presentation_revision_verification": {
+    "numeric_files_compared_before_after": 27,
+    "changed_numeric_files": [],
+    "isolated_supported_latitude_marker": "63.5 degrees visible in all six curves;2.5pt circle markers on all supported means",
+    "latitude_line_and_ribbon_gaps": "Complete one-degree grid withNaN gaps retained;no line or ribbon bridges62.5degrees"
+  }
+}

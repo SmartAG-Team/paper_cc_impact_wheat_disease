@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from model.seasonal_septoria.core import Parameters, simulate_season
-from calibration.seasonal_septoria.field_data import FieldData
-from calibration.seasonal_septoria.refinement import map_observations, calibration_weights, fit_refinement, predict_refinement, blend_severity
+from models.seasonal_septoria.core import Parameters, simulate_season
+from models.calibration.seasonal_septoria.field_data import FieldData
+from models.calibration.seasonal_septoria.refinement import map_observations, calibration_weights, fit_refinement, predict_refinement, blend_severity
 
 
 def example_data():

@@ -1,0 +1,75 @@
+{
+  "rows": 71720,
+  "sites": 132,
+  "dataset_sha256": "de2168a2f8f614014cb6153f71164ab2500bd9d210a0f68eea2a046c7b0604f2",
+  "source_sha256": {
+    "data/final_study/inputs/paper_study/field_weather_completed/daily_weather.parquet": "fd4958400e2170aac957d78f98ad90c3f17f0cbd779a55068ff2e029e2afbb63",
+    "outputs/weather_validation_20261022/dwd/paired_daily.parquet": "848f3704670a29ed4c177555d9e80478ece33dbc14f1a801249e578e8925a70a",
+    "outputs/weather_validation_20261022/meteo_france/qualified_paired_daily.parquet": "eca38537de587d9b1ec6707fc8b4fe6ea10cd78cef508cbf785f65c61fe5b761",
+    "outputs/weather_validation_20261022/meteo_france/receipt.json": "88478525abc505c25d6d72c6ce0f226960c24e3ef8caed5e9f3f9273890edd73",
+    "outputs/weather_validation_20261022/meteo_france/timing_receipt.json": "3bac6732a29f4c39579a7203cb73ef35c8cc33072b0c7efe34a3e393e06a4f9f",
+    "outputs/disease_improvement/french_station_20261022/registration.json": "878c76dbbb7a79a3e49557aac3220a0744bffb214424204c04c709eac77b3c15",
+    "outputs/disease_improvement/french_station_20261022/verification.json": "4951a6e1270123fe0b952dcc51dd312461bde66f14628706d7bc92239f496c2c",
+    "outputs/disease_improvement/french_station_20261022/mf_all_history_split_daily_weather.parquet": "6c2dbbd1c1028f4be7316fe1178b080e3b11a96752fb1a8f4bd582890995498c",
+    "outputs/disease_improvement/french_station_20261022/spatial_refit_verification.json": "3676f7d81b8163dea05b152dfa3eff43ee098db96c49796044a0c619b2f3311d",
+    "outputs/disease_improvement/french_station_20261022/spatial_verification_code_snapshot.py": "83faa64bc17bc63af3b5c9a0bd4089cad6746848d3872b4e64c1f81f4b44cd48"
+  },
+  "origin_counts": {
+    "origin_precipitation_mm": {
+      "reanalysis": 41436,
+      "METEO_FRANCE": 15658,
+      "DWD": 14626
+    },
+    "origin_rain_mm": {
+      "reanalysis": 41983,
+      "METEO_FRANCE_phase_assisted": 15303,
+      "DWD_phase_assisted": 14434
+    },
+    "origin_rain_hours_gt_0_1mm": {
+      "reanalysis": 44042,
+      "METEO_FRANCE": 14574,
+      "DWD": 13104
+    },
+    "origin_tmean_c": {
+      "reanalysis": 41561,
+      "METEO_FRANCE": 15313,
+      "DWD": 14846
+    },
+    "origin_tmin_c": {
+      "reanalysis": 41561,
+      "METEO_FRANCE": 15313,
+      "DWD": 14846
+    },
+    "origin_tmax_c": {
+      "reanalysis": 41561,
+      "METEO_FRANCE": 15313,
+      "DWD": 14846
+    },
+    "origin_rh_mean_pct": {
+      "reanalysis": 50579,
+      "DWD": 14842,
+      "METEO_FRANCE": 6299
+    },
+    "origin_rh_hours_ge_90pct": {
+      "reanalysis": 50579,
+      "DWD": 14842,
+      "METEO_FRANCE": 6299
+    }
+  },
+  "rainfall": "Measured total precipitation; liquid phase remains estimated, with explicit warm-day or reanalysis phase assumptions",
+  "rain_hours": "Explicit origins; thresholded hourly precipitation on warm-liquid days, or measured dry total, otherwise original input",
+  "observed_canopy_leaf_wetness": false,
+  "feature_provenance_files_sha256": {
+    "mf_rain_history_split_feature_provenance.csv": "02c31b42e3073ca3b056a2cbbe440d23c4989f749f4fc5debeb5df888669e855",
+    "mf_all_history_split_feature_provenance.csv": "02c31b42e3073ca3b056a2cbbe440d23c4989f749f4fc5debeb5df888669e855"
+  },
+  "fallback": "Original reanalysis for missing or unqualified values; NOAA rainfall remains disabled",
+  "temporal_use": "Strictly earlier UTC calendar dates; historical final QC, not verified real-time publication latency",
+  "model_run_numerical_inputs_exactly_preserved": true,
+  "origin_annotations_added_after_model_run": true,
+  "source_preference": true,
+  "independent_external_validation": false,
+  "publication_model_promoted": false,
+  "export_code_sha256": "7716b401defad7e61f92dc117eb315be753e96acf170cd9f2f2dbeab0832fe9c",
+  "hybrid_code_sha256": "d41ce5eaea855b380ac3836e2da4d3c0575e5e14e733784565d4db4d979406bd"
+}

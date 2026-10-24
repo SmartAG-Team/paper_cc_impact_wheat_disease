@@ -1,0 +1,159 @@
+{
+  "name": "attribution_design",
+  "kind": "methods schematic",
+  "width_cm": 19.0,
+  "height_cm": 13.5,
+  "font_family": "DejaVu Sans",
+  "font_pt": 12,
+  "line_width_pt": 0.8,
+  "source_paths": [
+    "paper/Manuscript.md",
+    "paper/Mathematical_Model_Specification.md",
+    "paper/Supplementary_Information.md"
+  ],
+  "nodes": [
+    {
+      "id": "L00",
+      "bounds_axes": [
+        0.28,
+        0.53,
+        0.315,
+        0.24
+      ],
+      "label": "$L_{00}$\nHistorical weather\nHistorical host",
+      "fill": "#EAF2F6",
+      "edge": "#353B40",
+      "weather_index": 0,
+      "host_index": 0
+    },
+    {
+      "id": "L10",
+      "bounds_axes": [
+        0.645,
+        0.53,
+        0.315,
+        0.24
+      ],
+      "label": "$L_{10}$\nFuture weather\nHistorical host",
+      "fill": "#EAF2F6",
+      "edge": "#353B40",
+      "weather_index": 1,
+      "host_index": 0
+    },
+    {
+      "id": "L01",
+      "bounds_axes": [
+        0.28,
+        0.25,
+        0.315,
+        0.24
+      ],
+      "label": "$L_{01}$\nHistorical weather\nFuture host",
+      "fill": "#F7EEE7",
+      "edge": "#353B40",
+      "weather_index": 0,
+      "host_index": 1
+    },
+    {
+      "id": "L11",
+      "bounds_axes": [
+        0.645,
+        0.25,
+        0.315,
+        0.24
+      ],
+      "label": "$L_{11}$\nFuture weather\nFuture host",
+      "fill": "#F7EEE7",
+      "edge": "#353B40",
+      "weather_index": 1,
+      "host_index": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "elapsed_time_origin",
+      "target": "elapsed_time",
+      "route_axes": [
+        [
+          0.27,
+          0.315
+        ],
+        [
+          0.94,
+          0.315
+        ]
+      ],
+      "style": "solid dependency"
+    }
+  ],
+  "qualitative_positions": true,
+  "panels": {
+    "a": [
+      0.02,
+      0.45,
+      0.96,
+      0.53
+    ],
+    "b": [
+      0.02,
+      0.02,
+      0.96,
+      0.4
+    ]
+  },
+  "factorial": {
+    "column_variable": "disease weather w",
+    "row_variable": "host trajectory h",
+    "historical_index": 0,
+    "future_index": 1,
+    "first_index": "weather",
+    "second_index": "host",
+    "corners": {
+      "L00": [
+        0,
+        0
+      ],
+      "L10": [
+        1,
+        0
+      ],
+      "L01": [
+        0,
+        1
+      ],
+      "L11": [
+        1,
+        1
+      ]
+    },
+    "host_replacement": [
+      "tissue availability",
+      "area",
+      "renewal",
+      "window timing"
+    ],
+    "disease_parameters": "unchanged across all corners",
+    "disease_to_host_feedback": false
+  },
+  "integration_support": {
+    "coordinate": "elapsed days since sowing",
+    "schematic_units": "unitless display position; no observed or simulated dates",
+    "historical_interval_position": [
+      0.36,
+      0.91
+    ],
+    "future_interval_position": [
+      0.27,
+      0.76
+    ],
+    "common_interval_position": [
+      0.36,
+      0.76
+    ],
+    "whole_window_rule": "each Lwh uses its host-specific interval Ih",
+    "shared_time_rule": "all four corners use C = I0 intersect I1 in elapsed time",
+    "trajectory_rule": "neither host trajectory is extended beyond its reached window",
+    "interpretation": "different integration estimands; shared time does not identify a uniquely correct biological support",
+    "numeric_effect_results": false
+  }
+}

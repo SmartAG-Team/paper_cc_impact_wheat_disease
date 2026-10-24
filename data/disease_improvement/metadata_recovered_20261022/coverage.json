@@ -1,0 +1,95 @@
+{
+  "n_targets": 2286,
+  "n_fields": 216,
+  "n_treatment_verified": 2286,
+  "n_zero_sprays_verified": 2286,
+  "source_row_numbering": "physical TSV line number; header is line 1; repeated rows do not imply replicates",
+  "source_sha256": {
+    "outputs/disease_improvement/station_repairs_20261022_v4/observation_ledger.csv": "eb3f1f7bf4b5bc59784f91491c78ee4c223c8f6c4962261717c594c35a0f114f",
+    "/Users/gangzhao/Documents/workspace/data/zenodo-6521175/basf-wheat-diseases.txt": "7f3325fdf31261740e4988bbda8581ff3f2381e6c38d46947d374fad4b6af67a",
+    "data/final_study/inputs/stb_collection_20261009/sources/other_field_sources/corteva-2014-2018/corteva-wheat-diseases.txt": "d58a4a66639a4cdee2560ca53c38288cc4958b7b5d030370dbb403a91e4465f8"
+  },
+  "stage_policy": "Complete integer 0..99 ranges with from<=to only; differing same-field/date ranges are unusable; no endpoint completion, interpolation or extrapolation",
+  "prediction_policy": "Assessment-date stage is oracle diagnostic only; prospective history requires strictly earlier usable calendar dates",
+  "unresolved": [
+    "cultivar",
+    "resistance_class",
+    "observed_sowing_date",
+    "plot_id",
+    "replicate_id",
+    "severity_denominator",
+    "Corteva anatomical leaf reference"
+  ],
+  "source_coverage": {
+    "BASF": {
+      "n_targets": 584,
+      "own_assessment_stage_valid": 539,
+      "same_date_calendar_stage_usable": 528,
+      "strictly_prior_stage_available": 430,
+      "calendar_dates": 372,
+      "usable_calendar_dates": 336,
+      "conflicting_calendar_dates": 6
+    },
+    "Corteva": {
+      "n_targets": 1702,
+      "own_assessment_stage_valid": 0,
+      "same_date_calendar_stage_usable": 937,
+      "strictly_prior_stage_available": 1280,
+      "calendar_dates": 1107,
+      "usable_calendar_dates": 739,
+      "conflicting_calendar_dates": 21
+    }
+  },
+  "notable_targets": [
+    {
+      "global_target_index": 159,
+      "source": "BASF",
+      "field_id": "basf-wheat-diseases|28|2018",
+      "date": "2018-05-01",
+      "strictly_prior_stage_available": false,
+      "prior_stage_date": null,
+      "prior_stage_midpoint": null,
+      "prior_stage_age_days": null
+    },
+    {
+      "global_target_index": 413,
+      "source": "BASF",
+      "field_id": "basf-wheat-diseases|6|2017",
+      "date": "2017-04-20",
+      "strictly_prior_stage_available": false,
+      "prior_stage_date": null,
+      "prior_stage_midpoint": null,
+      "prior_stage_age_days": null
+    },
+    {
+      "global_target_index": 479,
+      "source": "BASF",
+      "field_id": "basf-wheat-diseases|67|2019",
+      "date": "2019-07-02",
+      "strictly_prior_stage_available": true,
+      "prior_stage_date": "2019-06-21",
+      "prior_stage_midpoint": 67.0,
+      "prior_stage_age_days": 11.0
+    },
+    {
+      "global_target_index": 1231,
+      "source": "Corteva",
+      "field_id": "corteva-2014-2018-external|2015-75|2015",
+      "date": "2015-05-16",
+      "strictly_prior_stage_available": true,
+      "prior_stage_date": "2015-05-05",
+      "prior_stage_midpoint": 33.0,
+      "prior_stage_age_days": 11.0
+    },
+    {
+      "global_target_index": 1750,
+      "source": "Corteva",
+      "field_id": "corteva-2014-2018-external|2017-119|2017",
+      "date": "2017-07-06",
+      "strictly_prior_stage_available": false,
+      "prior_stage_date": null,
+      "prior_stage_midpoint": null,
+      "prior_stage_age_days": null
+    }
+  ]
+}

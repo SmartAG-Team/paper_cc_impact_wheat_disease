@@ -1,0 +1,116 @@
+{
+  "status": "verified",
+  "scientific_manifest_sha256": "cd3fb7d002921c2a4b013ef763657329e8d78e9150fd98374e9ffebbfcbe21af",
+  "input_check": {
+    "status": "verified",
+    "forcing_files": 687,
+    "cells": 14941,
+    "calendar_eligible_cells": 14932,
+    "alignment_tables": 9,
+    "reference_monthly_statistics": 360,
+    "reference_source_receipts": 360,
+    "forcing_content_hashes_verified": false,
+    "forcing_receipts_and_sizes_verified": true,
+    "core_source_files": 8
+  },
+  "sample_replay": {
+    "status": "verified",
+    "model": "ACCESS-CM2",
+    "scenario": "ssp585",
+    "year": 2085,
+    "matches_frozen_final_census": true,
+    "maximum_numeric_difference": 0.0,
+    "cells": 62,
+    "calendar_eligible_cells": 62,
+    "maximum_mass_error": 4.440892098500626e-16
+  },
+  "alignment_reconstruction": {
+    "model": "ACCESS-CM2",
+    "scenario": "ssp585",
+    "cells": 14941,
+    "months": 12,
+    "coefficient_fields": 3,
+    "maximum_difference": 0,
+    "matches_original_alignment": true
+  },
+  "original_aggregation_comparison": [
+    {
+      "file": "annual_area_weighted_means.csv",
+      "rows": 12960,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "annual_status_and_area_coverage.csv",
+      "rows": 2389,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "canopy_change_sign_area_shares.csv",
+      "rows": 24,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "country_changes.csv",
+      "rows": 3936,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "country_changes_by_gcm.csv",
+      "rows": 11808,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "environmental_region_changes.csv",
+      "rows": 1056,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "environmental_region_changes_by_gcm.csv",
+      "rows": 3168,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "full_grid_canopy_scenario_changes.csv.gz",
+      "rows": 89646,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": false
+    },
+    {
+      "file": "full_grid_ensemble_paired_changes.parquet",
+      "rows": 1434336,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "full_grid_paired_changes_by_gcm.parquet",
+      "rows": 4303008,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    },
+    {
+      "file": "full_grid_symptoms_scenario_changes.csv.gz",
+      "rows": 89646,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": false
+    },
+    {
+      "file": "full_landuse_cell_registry.csv",
+      "rows": 14941,
+      "scientific_values_exact": true,
+      "bytes_sha256_equal": true
+    }
+  ],
+  "targeted_tests": {
+    "command": ".venv/bin/python -m pytest analysis/final_climate/test_final_climate.py -q",
+    "passed": 5
+  },
+  "full810_simulation_executed": false,
+  "python": "3.12.14"
+}

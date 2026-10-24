@@ -1,0 +1,129 @@
+support,environment_region,period,model,unique_cells,requested_draw_years,retained_draw_years,retained_weight_fraction,shared_endpoint_available
+complete_season,Mediterranean,reference,ACCESS-CM2,9,270,270,1.0,False
+complete_season,Continental,reference,ACCESS-CM2,18,540,540,1.0,False
+complete_season,Steppic,reference,ACCESS-CM2,12,360,358,0.9893058232987383,False
+complete_season,Atlantic,reference,ACCESS-CM2,8,270,270,1.0,False
+complete_season,Pannonian,reference,ACCESS-CM2,1,30,30,1.0,False
+complete_season,Boreal,reference,ACCESS-CM2,13,420,404,0.9911876229124477,False
+complete_season,Unassigned,reference,ACCESS-CM2,1,30,30,1.0,False
+complete_season,Mediterranean,future,ACCESS-CM2,9,270,270,1.0,False
+complete_season,Continental,future,ACCESS-CM2,18,540,540,1.0,False
+complete_season,Steppic,future,ACCESS-CM2,12,360,358,0.9893058232987383,False
+complete_season,Atlantic,future,ACCESS-CM2,8,270,270,1.0,False
+complete_season,Pannonian,future,ACCESS-CM2,1,30,30,1.0,False
+complete_season,Boreal,future,ACCESS-CM2,13,420,404,0.9911876229124477,False
+complete_season,Unassigned,future,ACCESS-CM2,1,30,30,1.0,False
+complete_season,Mediterranean,reference,MPI-ESM1-2-HR,9,270,270,1.0,False
+complete_season,Continental,reference,MPI-ESM1-2-HR,18,540,540,1.0,False
+complete_season,Steppic,reference,MPI-ESM1-2-HR,12,360,358,0.9893058232987383,False
+complete_season,Atlantic,reference,MPI-ESM1-2-HR,8,270,270,1.0,False
+complete_season,Pannonian,reference,MPI-ESM1-2-HR,1,30,30,1.0,False
+complete_season,Boreal,reference,MPI-ESM1-2-HR,13,420,404,0.9911876229124477,False
+complete_season,Unassigned,reference,MPI-ESM1-2-HR,1,30,30,1.0,False
+complete_season,Mediterranean,future,MPI-ESM1-2-HR,9,270,270,1.0,False
+complete_season,Continental,future,MPI-ESM1-2-HR,18,540,540,1.0,False
+complete_season,Steppic,future,MPI-ESM1-2-HR,12,360,358,0.9893058232987383,False
+complete_season,Atlantic,future,MPI-ESM1-2-HR,8,270,270,1.0,False
+complete_season,Pannonian,future,MPI-ESM1-2-HR,1,30,30,1.0,False
+complete_season,Boreal,future,MPI-ESM1-2-HR,13,420,404,0.9911876229124477,False
+complete_season,Unassigned,future,MPI-ESM1-2-HR,1,30,30,1.0,False
+complete_season,Mediterranean,reference,MRI-ESM2-0,9,270,270,1.0,False
+complete_season,Continental,reference,MRI-ESM2-0,18,540,540,1.0,False
+complete_season,Steppic,reference,MRI-ESM2-0,12,360,358,0.9893058232987383,False
+complete_season,Atlantic,reference,MRI-ESM2-0,8,270,270,1.0,False
+complete_season,Pannonian,reference,MRI-ESM2-0,1,30,30,1.0,False
+complete_season,Boreal,reference,MRI-ESM2-0,13,420,404,0.9911876229124477,False
+complete_season,Unassigned,reference,MRI-ESM2-0,1,30,30,1.0,False
+complete_season,Mediterranean,future,MRI-ESM2-0,9,270,270,1.0,False
+complete_season,Continental,future,MRI-ESM2-0,18,540,540,1.0,False
+complete_season,Steppic,future,MRI-ESM2-0,12,360,358,0.9893058232987383,False
+complete_season,Atlantic,future,MRI-ESM2-0,8,270,270,1.0,False
+complete_season,Pannonian,future,MRI-ESM2-0,1,30,30,1.0,False
+complete_season,Boreal,future,MRI-ESM2-0,13,420,404,0.9911876229124477,False
+complete_season,Unassigned,future,MRI-ESM2-0,1,30,30,1.0,False
+complete_season,Sampled design,reference,ACCESS-CM2,62,1920,1902,0.9964069766272323,False
+complete_season,Sampled design,future,ACCESS-CM2,62,1920,1902,0.9964069766272323,False
+complete_season,Sampled design,reference,MPI-ESM1-2-HR,62,1920,1902,0.9964069766272323,False
+complete_season,Sampled design,future,MPI-ESM1-2-HR,62,1920,1902,0.9964069766272323,False
+complete_season,Sampled design,reference,MRI-ESM2-0,62,1920,1902,0.9964069766272323,False
+complete_season,Sampled design,future,MRI-ESM2-0,62,1920,1902,0.9964069766272323,False
+common_calendar,Mediterranean,reference,ACCESS-CM2,7,270,192,0.749332332374694,True
+common_calendar,Continental,reference,ACCESS-CM2,18,540,470,0.8101315073119283,True
+common_calendar,Steppic,reference,ACCESS-CM2,9,360,261,0.5712904663295185,True
+common_calendar,Atlantic,reference,ACCESS-CM2,8,270,270,1.0,True
+common_calendar,Pannonian,reference,ACCESS-CM2,1,30,30,1.0,True
+common_calendar,Boreal,reference,ACCESS-CM2,13,420,403,0.9773052644626319,True
+common_calendar,Unassigned,reference,ACCESS-CM2,1,30,30,1.0,True
+common_calendar,Mediterranean,future,ACCESS-CM2,7,270,192,0.749332332374694,True
+common_calendar,Continental,future,ACCESS-CM2,18,540,470,0.8101315073119283,True
+common_calendar,Steppic,future,ACCESS-CM2,9,360,261,0.5712904663295185,True
+common_calendar,Atlantic,future,ACCESS-CM2,8,270,270,1.0,True
+common_calendar,Pannonian,future,ACCESS-CM2,1,30,30,1.0,True
+common_calendar,Boreal,future,ACCESS-CM2,13,420,403,0.9773052644626319,True
+common_calendar,Unassigned,future,ACCESS-CM2,1,30,30,1.0,True
+common_calendar,Mediterranean,reference,MPI-ESM1-2-HR,7,270,192,0.749332332374694,True
+common_calendar,Continental,reference,MPI-ESM1-2-HR,18,540,470,0.8101315073119283,True
+common_calendar,Steppic,reference,MPI-ESM1-2-HR,9,360,261,0.5712904663295185,True
+common_calendar,Atlantic,reference,MPI-ESM1-2-HR,8,270,270,1.0,True
+common_calendar,Pannonian,reference,MPI-ESM1-2-HR,1,30,30,1.0,True
+common_calendar,Boreal,reference,MPI-ESM1-2-HR,13,420,403,0.9773052644626319,True
+common_calendar,Unassigned,reference,MPI-ESM1-2-HR,1,30,30,1.0,True
+common_calendar,Mediterranean,future,MPI-ESM1-2-HR,7,270,192,0.749332332374694,True
+common_calendar,Continental,future,MPI-ESM1-2-HR,18,540,470,0.8101315073119283,True
+common_calendar,Steppic,future,MPI-ESM1-2-HR,9,360,261,0.5712904663295185,True
+common_calendar,Atlantic,future,MPI-ESM1-2-HR,8,270,270,1.0,True
+common_calendar,Pannonian,future,MPI-ESM1-2-HR,1,30,30,1.0,True
+common_calendar,Boreal,future,MPI-ESM1-2-HR,13,420,403,0.9773052644626319,True
+common_calendar,Unassigned,future,MPI-ESM1-2-HR,1,30,30,1.0,True
+common_calendar,Mediterranean,reference,MRI-ESM2-0,7,270,192,0.749332332374694,True
+common_calendar,Continental,reference,MRI-ESM2-0,18,540,470,0.8101315073119283,True
+common_calendar,Steppic,reference,MRI-ESM2-0,9,360,261,0.5712904663295185,True
+common_calendar,Atlantic,reference,MRI-ESM2-0,8,270,270,1.0,True
+common_calendar,Pannonian,reference,MRI-ESM2-0,1,30,30,1.0,True
+common_calendar,Boreal,reference,MRI-ESM2-0,13,420,403,0.9773052644626319,True
+common_calendar,Unassigned,reference,MRI-ESM2-0,1,30,30,1.0,True
+common_calendar,Mediterranean,future,MRI-ESM2-0,7,270,192,0.749332332374694,True
+common_calendar,Continental,future,MRI-ESM2-0,18,540,470,0.8101315073119283,True
+common_calendar,Steppic,future,MRI-ESM2-0,9,360,261,0.5712904663295185,True
+common_calendar,Atlantic,future,MRI-ESM2-0,8,270,270,1.0,True
+common_calendar,Pannonian,future,MRI-ESM2-0,1,30,30,1.0,True
+common_calendar,Boreal,future,MRI-ESM2-0,13,420,403,0.9773052644626319,True
+common_calendar,Unassigned,future,MRI-ESM2-0,1,30,30,1.0,True
+common_calendar,Sampled design,reference,ACCESS-CM2,57,1920,1656,0.7745514039864354,True
+common_calendar,Sampled design,future,ACCESS-CM2,57,1920,1656,0.7745514039864354,True
+common_calendar,Sampled design,reference,MPI-ESM1-2-HR,57,1920,1656,0.7745514039864354,True
+common_calendar,Sampled design,future,MPI-ESM1-2-HR,57,1920,1656,0.7745514039864354,True
+common_calendar,Sampled design,reference,MRI-ESM2-0,57,1920,1656,0.7745514039864354,True
+common_calendar,Sampled design,future,MRI-ESM2-0,57,1920,1656,0.7745514039864354,True
+complete_season,Mediterranean,reference,ensemble,9,810,810,1.0,False
+complete_season,Continental,reference,ensemble,18,1620,1620,1.0,False
+complete_season,Steppic,reference,ensemble,12,1080,1074,0.9893058232987383,False
+complete_season,Atlantic,reference,ensemble,8,810,810,1.0,False
+complete_season,Pannonian,reference,ensemble,1,90,90,1.0,False
+complete_season,Boreal,reference,ensemble,13,1260,1212,0.9911876229124476,False
+complete_season,Unassigned,reference,ensemble,1,90,90,1.0,False
+complete_season,Mediterranean,future,ensemble,9,810,810,1.0,False
+complete_season,Continental,future,ensemble,18,1620,1620,1.0,False
+complete_season,Steppic,future,ensemble,12,1080,1074,0.9893058232987383,False
+complete_season,Atlantic,future,ensemble,8,810,810,1.0,False
+complete_season,Pannonian,future,ensemble,1,90,90,1.0,False
+complete_season,Boreal,future,ensemble,13,1260,1212,0.9911876229124476,False
+complete_season,Unassigned,future,ensemble,1,90,90,1.0,False
+complete_season,Sampled design,reference,ensemble,62,5760,5706,0.9964069766272323,False
+complete_season,Sampled design,future,ensemble,62,5760,5706,0.9964069766272323,False
+common_calendar,Mediterranean,reference,ensemble,7,810,576,0.749332332374694,True
+common_calendar,Continental,reference,ensemble,18,1620,1410,0.8101315073119283,True
+common_calendar,Steppic,reference,ensemble,9,1080,783,0.5712904663295185,True
+common_calendar,Atlantic,reference,ensemble,8,810,810,1.0,True
+common_calendar,Pannonian,reference,ensemble,1,90,90,1.0,True
+common_calendar,Boreal,reference,ensemble,13,1260,1209,0.977305264462632,True
+common_calendar,Unassigned,reference,ensemble,1,90,90,1.0,True
+common_calendar,Mediterranean,future,ensemble,7,810,576,0.749332332374694,True
+common_calendar,Continental,future,ensemble,18,1620,1410,0.8101315073119283,True
+common_calendar,Steppic,future,ensemble,9,1080,783,0.5712904663295185,True
+common_calendar,Atlantic,future,ensemble,8,810,810,1.0,True
+common_calendar,Pannonian,future,ensemble,1,90,90,1.0,True
+common_calendar,Boreal,future,ensemble,13,1260,1209,0.977305264462632,True
+common_calendar,Unassigned,future,ensemble,1,90,90,1.0,True
+common_calendar,Sampled design,reference,ensemble,57,5760,4968,0.7745514039864355,True
+common_calendar,Sampled design,future,ensemble,57,5760,4968,0.7745514039864355,True

@@ -1,0 +1,7 @@
+{
+  "model": "MRI-ESM2-0",
+  "reference_year_completed": 2020,
+  "completed_kernel_batches": 900,
+  "elapsed_seconds": 125.17228316699038,
+  "model_elapsed_seconds": 39.36164695798652
+}

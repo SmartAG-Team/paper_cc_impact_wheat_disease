@@ -6,7 +6,7 @@ import pytest
 
 def helper():
     try:
-        return importlib.import_module('analysis.hafeez_metadata')
+        return importlib.import_module('paper.analyses.hafeez_metadata')
     except ModuleNotFoundError:
         pytest.fail('Assay metadata reconciliation is not implemented')
 

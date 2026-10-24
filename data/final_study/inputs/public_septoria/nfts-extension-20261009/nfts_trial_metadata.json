@@ -1,0 +1,1666 @@
+[
+  {
+    "record": "nfts_69306",
+    "registry_id": 69306,
+    "trial_name": "7-0116-2023-001",
+    "source_html": "nfts_69306.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=69306&applLangID=en",
+    "replicates": 4,
+    "design": "Complete block trial, 1 factor (Randomized)",
+    "latitude": 55.5350886197569,
+    "longitude": 14.0025237523899,
+    "crop": "Wtr",
+    "single_variety": null,
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Facility conditions OK"
+      ],
+      [
+        "OK",
+        "General treatment OK"
+      ],
+      [
+        "OK",
+        "Treatments OK"
+      ],
+      [
+        "OK",
+        "Registrations OK"
+      ],
+      [
+        "OK",
+        "Analyses OK"
+      ],
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Straw lenght, cm",
+        "P04",
+        "7/4/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Straw lenght, cm",
+        "P04",
+        "7/4/2023",
+        "Note 1",
+        "RESIDUAL CV = 4.011"
+      ],
+      [
+        "Yield, hkg grain",
+        "P06",
+        "8/22/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Yield, hkg grain",
+        "P06",
+        "8/22/2023",
+        "Note 1",
+        "RESIDUAL CV = 4.778"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P06",
+        "8/22/2023",
+        "Note 1",
+        "p1=0.060"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P06",
+        "8/22/2023",
+        "Note 1",
+        "RESIDUAL CV = 5.581"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P06",
+        "8/22/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P06",
+        "8/22/2023",
+        "Note 1",
+        "RESIDUAL CV = 4.778"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P06",
+        "8/22/2023",
+        "Note 1",
+        "p1=0.060"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P06",
+        "8/22/2023",
+        "Note 1",
+        "RESIDUAL CV = 5.581"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "RESIDUAL CV = 3.390"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "p1=0.003"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "RESIDUAL CV = 0.879"
+      ],
+      [
+        "Weight per litre, g",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Weight per litre, g",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "RESIDUAL CV = 1.111"
+      ],
+      [
+        "N, % in dry matter",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "N, % in dry matter",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "RESIDUAL CV = 3.390"
+      ],
+      [
+        "Purity, % in raw material",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "p1=0.051"
+      ],
+      [
+        "Purity, % in raw material",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "RESIDUAL CV = 0.527"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "p1=0.024"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "RESIDUAL CV = 1.247"
+      ],
+      [
+        "1000 kernel w., g",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "1000 kernel w., g",
+        "P06",
+        "8/30/2023",
+        "Note 1",
+        "RESIDUAL CV = 1.951"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_69306_sv.html"
+  },
+  {
+    "record": "nfts_69307",
+    "registry_id": 69307,
+    "trial_name": "7-0116-2023-002",
+    "source_html": "nfts_69307.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=69307&applLangID=en",
+    "replicates": 4,
+    "design": "Complete block trial, 1 factor (Randomized)",
+    "latitude": 58.47769066957,
+    "longitude": 15.5082166101574,
+    "crop": "Wtr",
+    "single_variety": null,
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Facility conditions OK"
+      ],
+      [
+        "OK",
+        "General treatment OK"
+      ],
+      [
+        "OK",
+        "Treatments OK"
+      ],
+      [
+        "OK",
+        "Registrations OK"
+      ],
+      [
+        "OK",
+        "Analyses OK"
+      ],
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Straw lenght, cm",
+        "P04",
+        "7/7/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Straw lenght, cm",
+        "P04",
+        "7/7/2023",
+        "Note 1",
+        "RESIDUAL CV = 2.641"
+      ],
+      [
+        "Yield, hkg grain",
+        "P06",
+        "8/15/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Yield, hkg grain",
+        "P06",
+        "8/15/2023",
+        "Note 1",
+        "RESIDUAL CV = 2.651"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P06",
+        "8/15/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P06",
+        "8/15/2023",
+        "Note 1",
+        "RESIDUAL CV = 3.554"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P06",
+        "8/15/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P06",
+        "8/15/2023",
+        "Note 1",
+        "RESIDUAL CV = 2.651"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P06",
+        "8/15/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P06",
+        "8/15/2023",
+        "Note 1",
+        "RESIDUAL CV = 3.554"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "RESIDUAL CV = 3.542"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "RESIDUAL CV = 0.513"
+      ],
+      [
+        "Weight per litre, g",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Weight per litre, g",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "RESIDUAL CV = 0.547"
+      ],
+      [
+        "N, % in dry matter",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "N, % in dry matter",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "RESIDUAL CV = 3.542"
+      ],
+      [
+        "Purity, % in raw material",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "p1=0.439"
+      ],
+      [
+        "Purity, % in raw material",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "RESIDUAL CV = 0.270"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "RESIDUAL CV = 0.711"
+      ],
+      [
+        "1000 kernel w., g",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "1000 kernel w., g",
+        "P06",
+        "8/23/2023",
+        "Note 1",
+        "RESIDUAL CV = 2.068"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_69307_sv.html"
+  },
+  {
+    "record": "nfts_71289",
+    "registry_id": 71289,
+    "trial_name": "L7-0101-2024-010",
+    "source_html": "nfts_71289.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=71289&applLangID=en",
+    "replicates": 3,
+    "design": "Alpha-design, 1 factor",
+    "latitude": 58.4296609434941,
+    "longitude": 15.5549743405349,
+    "crop": "Wtr",
+    "single_variety": null,
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Facility conditions OK"
+      ],
+      [
+        "OK",
+        "General treatment can cause reduced effect of treatments"
+      ],
+      [
+        "OK",
+        "Treatments OK"
+      ],
+      [
+        "OK",
+        "Registrations OK"
+      ],
+      [
+        "OK",
+        "Analyses OK"
+      ],
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Ear, /m2",
+        "P03",
+        "7/4/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Ear, /m2",
+        "P03",
+        "7/4/2024",
+        "Note 1",
+        "RESIDUAL CV = 7.379"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/12/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/12/2024",
+        "Note 1",
+        "RESIDUAL CV = 2.589"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P05",
+        "8/12/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P05",
+        "8/12/2024",
+        "Note 1",
+        "RESIDUAL CV = 2.513"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P05",
+        "8/12/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P05",
+        "8/12/2024",
+        "Note 1",
+        "RESIDUAL CV = 2.589"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P05",
+        "8/12/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P05",
+        "8/12/2024",
+        "Note 1",
+        "RESIDUAL CV = 2.513"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "RESIDUAL CV = 1.356"
+      ],
+      [
+        "Gluten 14, %",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Gluten 14, %",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "RESIDUAL CV = 2.126"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "RESIDUAL CV = 0.479"
+      ],
+      [
+        "Weight per litre, g",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Weight per litre, g",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "RESIDUAL CV = 1.071"
+      ],
+      [
+        "N, % in dry matter",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "N, % in dry matter",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "RESIDUAL CV = 1.356"
+      ],
+      [
+        "Purity, % in raw material",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Purity, % in raw material",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "RESIDUAL CV = 0.367"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "RESIDUAL CV = 0.620"
+      ],
+      [
+        "1000 kernel w., g",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "1000 kernel w., g",
+        "P05",
+        "8/15/2024",
+        "Note 1",
+        "RESIDUAL CV = 3.104"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_71289_sv.html"
+  },
+  {
+    "record": "nfts_71300",
+    "registry_id": 71300,
+    "trial_name": "7-0116-2024-003",
+    "source_html": "nfts_71300.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=71300&applLangID=en",
+    "replicates": 4,
+    "design": "Complete block trial, 1 factor (Randomized)",
+    "latitude": 59.8293327613207,
+    "longitude": 17.8007977604303,
+    "crop": "Wtr",
+    "single_variety": null,
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Facility conditions OK"
+      ],
+      [
+        "OK",
+        "General treatment OK"
+      ],
+      [
+        "OK",
+        "Treatments OK"
+      ],
+      [
+        "OK",
+        "Registrations OK"
+      ],
+      [
+        "OK",
+        "Analyses OK"
+      ],
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Weed, % of soil covered",
+        "P04",
+        "5/31/2024",
+        "Note 1",
+        "p1=0.024"
+      ],
+      [
+        "Weed, % of soil covered",
+        "P04",
+        "5/31/2024",
+        "Note 1",
+        "RESIDUAL CV = 35.793"
+      ],
+      [
+        "Cropheight, cm",
+        "P05",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Cropheight, cm",
+        "P05",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 1.452"
+      ],
+      [
+        "Yield, hkg grain",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.001"
+      ],
+      [
+        "Yield, hkg grain",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 4.211"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.001"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 4.687"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.001"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 4.211"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.001"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 4.687"
+      ],
+      [
+        "1000 kernel w., g",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "1000 kernel w., g",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 2.247"
+      ],
+      [
+        "Weight per litre, g",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Weight per litre, g",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 0.436"
+      ],
+      [
+        "Purity, % in raw material",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.008"
+      ],
+      [
+        "Purity, % in raw material",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 0.315"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 1.533"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 1.473"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.004"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 0.305"
+      ],
+      [
+        "N, % in dry matter",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "N, % in dry matter",
+        "P08",
+        "8/6/2024",
+        "Note 1",
+        "RESIDUAL CV = 1.619"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_71300_sv.html"
+  },
+  {
+    "record": "nfts_71999",
+    "registry_id": 71999,
+    "trial_name": "090872424-001",
+    "source_html": "nfts_71999.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=71999&applLangID=en",
+    "replicates": 4,
+    "design": "Alpha-design, 1 factor",
+    "latitude": 55.5349895227642,
+    "longitude": 10.2449613488858,
+    "crop": "Wtr",
+    "single_variety": "NOS Sortsblanding ",
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/14/2024",
+        "Note 1",
+        "Lsd1 er tilnærmet"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/14/2024",
+        "Note 1",
+        "RESIDUAL CV = 1.487"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_71999_sv.html"
+  },
+  {
+    "record": "nfts_72044",
+    "registry_id": 72044,
+    "trial_name": "090872424-003",
+    "source_html": "nfts_72044.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=72044&applLangID=en",
+    "replicates": 4,
+    "design": "Alpha-design, 1 factor",
+    "latitude": 55.4933597588756,
+    "longitude": 8.58629993187388,
+    "crop": "Wtr",
+    "single_variety": "NOS Hvede Mix 2220",
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/19/2024",
+        "Note 1",
+        "Lsd1 er tilnærmet"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/19/2024",
+        "Note 1",
+        "RESIDUAL CV = 3.357"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_72044_sv.html"
+  },
+  {
+    "record": "nfts_73257",
+    "registry_id": 73257,
+    "trial_name": "010062525-002",
+    "source_html": "nfts_73257.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=73257&applLangID=en",
+    "replicates": 4,
+    "design": "Complete block trial, 1 factor (Randomized)",
+    "latitude": 56.998415449425,
+    "longitude": 10.0449209935098,
+    "crop": "Wtr",
+    "single_variety": null,
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Yield, hkg grain",
+        "P07",
+        "8/12/2025",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Yield, hkg grain",
+        "P07",
+        "8/12/2025",
+        "Note 1",
+        "RESIDUAL CV = 2.462"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_73257_sv.html"
+  },
+  {
+    "record": "nfts_73363",
+    "registry_id": 73363,
+    "trial_name": "021022525-001",
+    "source_html": "nfts_73363.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=73363&applLangID=en",
+    "replicates": 4,
+    "design": "Alpha-design, 1 factor",
+    "latitude": 54.8627562572463,
+    "longitude": 11.3568339641425,
+    "crop": "Wtr",
+    "single_variety": null,
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Yield, hkg grain",
+        "P07",
+        "8/16/2025",
+        "Note 1",
+        "Lsd1 er tilnærmet"
+      ],
+      [
+        "Yield, hkg grain",
+        "P07",
+        "8/16/2025",
+        "Note 1",
+        "RESIDUAL CV = 8.268"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_73363_sv.html"
+  },
+  {
+    "record": "nfts_73438",
+    "registry_id": 73438,
+    "trial_name": "7-0116-2025-001",
+    "source_html": "nfts_73438.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=73438&applLangID=en",
+    "replicates": 4,
+    "design": "Complete block trial, 1 factor (Randomized)",
+    "latitude": 55.4372746029057,
+    "longitude": 14.2106086202285,
+    "crop": "Wtr",
+    "single_variety": null,
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK, separate statistical report",
+        "Facility conditions OK"
+      ],
+      [
+        "OK, separate statistical report",
+        "General treatment OK"
+      ],
+      [
+        "OK, separate statistical report",
+        "Treatments OK"
+      ],
+      [
+        "OK, separate statistical report",
+        "Certainty in yield OK"
+      ],
+      [
+        "OK, separate statistical report",
+        "OK, separate statistical report"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Cropheight, cm",
+        "P03",
+        "4/30/2024",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Cropheight, cm",
+        "P03",
+        "4/30/2024",
+        "Note 1",
+        "RESIDUAL CV = 6.586"
+      ],
+      [
+        "Soil cover, spring, %",
+        "P03",
+        "4/30/2024",
+        "Note 1",
+        "p1=0.002"
+      ],
+      [
+        "Soil cover, spring, %",
+        "P03",
+        "4/30/2024",
+        "Note 1",
+        "RESIDUAL CV = 2.901"
+      ],
+      [
+        "Plant population spring, %",
+        "P02",
+        "3/27/2025",
+        "Note 1",
+        "p1=0.070"
+      ],
+      [
+        "Plant population spring, %",
+        "P02",
+        "3/27/2025",
+        "Note 1",
+        ""
+      ],
+      [
+        "Cropheight, cm",
+        "P04",
+        "5/26/2025",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Cropheight, cm",
+        "P04",
+        "5/26/2025",
+        "Note 1",
+        "RESIDUAL CV = 3.395"
+      ],
+      [
+        "Soil cover, spring, %",
+        "P04",
+        "5/26/2025",
+        "Note 1",
+        "p1=0.001"
+      ],
+      [
+        "Soil cover, spring, %",
+        "P04",
+        "5/26/2025",
+        "Note 1",
+        "RESIDUAL CV = 2.479"
+      ],
+      [
+        "Weed, % of soil covered",
+        "P04",
+        "5/26/2025",
+        "Note 1",
+        "p1=0.015"
+      ],
+      [
+        "Weed, % of soil covered",
+        "P04",
+        "5/26/2025",
+        "Note 1",
+        "RESIDUAL CV = 19.793"
+      ],
+      [
+        "Cropheight, cm",
+        "P05",
+        "7/3/2025",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Cropheight, cm",
+        "P05",
+        "7/3/2025",
+        "Note 1",
+        "RESIDUAL CV = 3.457"
+      ],
+      [
+        "Brown rust,cer., % covered",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        "p1=0.000"
+      ],
+      [
+        "Brown rust,cer., % covered",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        ""
+      ],
+      [
+        "Wheat leaf blotch, % covered",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        "p1=0.001"
+      ],
+      [
+        "Wheat leaf blotch, % covered",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        ""
+      ],
+      [
+        "Yellow rust, % covered",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        "p1=0.576"
+      ],
+      [
+        "Yellow rust, % covered",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        ""
+      ],
+      [
+        "Powdery mildew, % covered",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        "p1=0.461"
+      ],
+      [
+        "Powdery mildew, % covered",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        ""
+      ],
+      [
+        "Leaf spot disease DRECSP, % covering",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        "p1=0.301"
+      ],
+      [
+        "Leaf spot disease DRECSP, % covering",
+        "P06",
+        "7/3/2025",
+        "Note 1",
+        ""
+      ],
+      [
+        "Straw strength, %",
+        "P08",
+        "8/18/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Straw strength, %",
+        "P08",
+        "8/18/2025",
+        "Note 1",
+        ""
+      ],
+      [
+        "Straw breaking, %, winter wheat",
+        "P08",
+        "8/18/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Straw breaking, %, winter wheat",
+        "P08",
+        "8/18/2025",
+        "Note 1",
+        ""
+      ],
+      [
+        "Yield, hkg grain",
+        "P08",
+        "8/21/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Yield, hkg grain",
+        "P08",
+        "8/21/2025",
+        "Note 1",
+        "RESIDUAL CV = 9.661"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P08",
+        "8/21/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Yield, hkg raw protein",
+        "P08",
+        "8/21/2025",
+        "Note 1",
+        "RESIDUAL CV = 10.254"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P08",
+        "8/21/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Yield, hkg dry matter",
+        "P08",
+        "8/21/2025",
+        "Note 1",
+        "RESIDUAL CV = 9.661"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P08",
+        "8/21/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Yield, kg N in grain",
+        "P08",
+        "8/21/2025",
+        "Note 1",
+        "RESIDUAL CV = 10.254"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Crude protein, % in dry matter",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "RESIDUAL CV = 1.847"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Starch, % in dry matter",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "RESIDUAL CV = 0.478"
+      ],
+      [
+        "Weight per litre, g",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Weight per litre, g",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "RESIDUAL CV = 0.948"
+      ],
+      [
+        "N, % in dry matter",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "N, % in dry matter",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "RESIDUAL CV = 1.847"
+      ],
+      [
+        "Purity, % in raw material",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Purity, % in raw material",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "RESIDUAL CV = 0.280"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "Water, % in grain/seeds",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "RESIDUAL CV = 0.361"
+      ],
+      [
+        "1000 kernel w., g",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "Lsd1 är ungefärligt"
+      ],
+      [
+        "1000 kernel w., g",
+        "P08",
+        "8/29/2025",
+        "Note 1",
+        "RESIDUAL CV = 13.229"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_73438_sv.html"
+  },
+  {
+    "record": "nfts_74100",
+    "registry_id": 74100,
+    "trial_name": "090872525-002",
+    "source_html": "nfts_74100.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=74100&applLangID=en",
+    "replicates": 4,
+    "design": "Alpha-design, 1 factor",
+    "latitude": 55.2396144254915,
+    "longitude": 9.68032023036738,
+    "crop": "Wtr",
+    "single_variety": "KWS Dawsum",
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/14/2025",
+        "Note 1",
+        "Lsd1 er tilnærmet"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/14/2025",
+        "Note 1",
+        "RESIDUAL CV = 2.030"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_74100_sv.html"
+  },
+  {
+    "record": "nfts_74300",
+    "registry_id": 74300,
+    "trial_name": "090832525-006",
+    "source_html": "nfts_74300.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=74300&applLangID=en",
+    "replicates": 4,
+    "design": "Alpha-design, 1 factor",
+    "latitude": 56.4432233771694,
+    "longitude": 10.701481084723,
+    "crop": "Wtr",
+    "single_variety": "Guinness",
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/14/2025",
+        "Note 1",
+        "Lsd1 er tilnærmet"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/14/2025",
+        "Note 1",
+        "RESIDUAL CV = 2.329"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_74300_sv.html"
+  },
+  {
+    "record": "nfts_74660",
+    "registry_id": 74660,
+    "trial_name": "090872525-006",
+    "source_html": "nfts_74660.html",
+    "source_url": "https://nfts.dlbr.dk/Forms/Dokumentation.aspx?KardexID=74660&applLangID=en",
+    "replicates": 4,
+    "design": "Alpha-design, 1 factor",
+    "latitude": 56.5070666582081,
+    "longitude": 10.4669318697661,
+    "crop": "Wtr",
+    "single_variety": "Pacman",
+    "cultivar_factor_labels": {},
+    "validation": [
+      [
+        "OK",
+        "Certainty in yield OK"
+      ]
+    ],
+    "statistical_notes": [
+      [
+        "Måleparameter",
+        "Assessm. time",
+        "Date",
+        "Type",
+        "Free Text"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/1/2025",
+        "Note 1",
+        "Lsd1 er tilnærmet"
+      ],
+      [
+        "Yield, hkg grain",
+        "P05",
+        "8/1/2025",
+        "Note 1",
+        "RESIDUAL CV = 4.021"
+      ]
+    ],
+    "source_mean_status": "Published treatment means; arithmetic or model-adjusted status must follow registry notes, not raw plot observations.",
+    "native_yield_label": "Yield hkg grain",
+    "absolute_yield_conversion": "Native yield multiplied by 0.1 gives t/ha at the same 15% moisture.",
+    "native_swedish_yield_label": "Skörd dt/ha kärna 15%",
+    "native_yield_unit": "dt/ha (= hkg/ha), grain at 15% moisture",
+    "native_unit_source": "nfts_native_74660_sv.html"
+  }
+]

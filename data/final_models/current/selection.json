@@ -1,0 +1,21 @@
+{
+  "selected": "phase_stage_horizon_floor_e0.5_h0.75_t0.5",
+  "adopted": true,
+  "recipe": {
+    "candidate": "phase_stage",
+    "coupled": false,
+    "variant": "horizon_floor",
+    "mask": [
+      0.5,
+      0.5,
+      0.75,
+      0.5
+    ],
+    "strength": 1.0
+  },
+  "model": {
+    "path": "data/final_models/current/phase_heads.joblib",
+    "sha256": "c7974c4f6a78d9bd531dee9260a671ac405e331893035e13ec29b4cf620ccabc"
+  },
+  "original_selection_sha256": "daf984cc408c8f371c62c120507f7807d00c35f602a42699d41555540bc46cce"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "census": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/final_study/evidence/full_grid_climate/results",
+  "analysis": "Recomputed from cell/member paired changes",
+  "source_audit": "/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease/data/reproductions/complete_reproduction_20261024/analyses/climate_response/analysis_audit.json",
+  "bootstrap_replicates": 500
+}

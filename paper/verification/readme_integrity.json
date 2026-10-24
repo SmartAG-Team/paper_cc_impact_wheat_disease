@@ -1,0 +1,313 @@
+{
+  "status": "passed",
+  "README_sha256": "80f4dbf99c398a46070b629910637e3d256d9749088d520ee03bdd49e9a9dbd1",
+  "linked_local_targets_checked": 61,
+  "links": [
+    {
+      "document": "README.md",
+      "target": "docs/model_engine.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Manuscript.docx",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Manuscript.pdf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Manuscript.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Supplementary_Information.docx",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Supplementary_Information.pdf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Supplementary_Information.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Mathematical_Model_Specification.docx",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Mathematical_Model_Specification.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Cover_Letter.docx",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/Cover_Letter.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figure_index.csv",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figure_index.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/publication_manifest.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "repository_manifest.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/exports/GCB_Submission_20261024.zip",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/final_climate/scientific_manifest.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig1.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig1/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_methods.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig2.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig2/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_data_overview.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig3.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig3/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_methods.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig4.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig4/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_validation_onset.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig5.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig5/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_maps_v2.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig6.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig6/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/climate_response_insights.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig7.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig7/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/climate_response_insights.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig8.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig8/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_results.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig9.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig9/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_results.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/fig10.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/fig10/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/adaptation_results_figure.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/figs1.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/figs1/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_validation_v2.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/figs2.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/figs2/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_results.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/figs3.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/figs3/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/yield_evidence_extension.py",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/figures/graphical_abstract.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "data/paper/graphical_abstract/",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "paper/scripts/figure_results.py",
+      "exists": true
+    }
+  ],
+  "canonical_paper": "paper"
+}

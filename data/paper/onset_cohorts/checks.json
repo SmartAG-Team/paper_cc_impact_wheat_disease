@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "field_seasons": 55,
+  "positive_field_seasons": 52,
+  "calibration_fields": 22,
+  "evaluation_fields": 33,
+  "calibration_bracketed_histories": 3,
+  "evaluation_bracketed_histories": 4,
+  "archived_onset_days_reproduced": 55,
+  "bracketed_causal_prefix_maximum_state_error": 0.0,
+  "original_four_evaluation_dates_and_errors_unchanged": true,
+  "parameters_modified": false,
+  "fitting_performed": false,
+  "phase_metrics": [
+    {
+      "phase": "calibration",
+      "field_seasons": 22,
+      "positive_field_seasons": 21,
+      "positive_at_first": 18,
+      "no_positive": 1,
+      "bracketed_histories": 3,
+      "inside_bracket": 2,
+      "mean_interval_excess_days": 1.0,
+      "root_mean_square_interval_excess_days": 1.7320508075688772,
+      "minimum_bracket_width_days": 12.0,
+      "maximum_bracket_width_days": 29.0,
+      "calibration_is_validation": false,
+      "exact_onset_MAE_identified": false
+    },
+    {
+      "phase": "evaluation",
+      "field_seasons": 33,
+      "positive_field_seasons": 31,
+      "positive_at_first": 27,
+      "no_positive": 2,
+      "bracketed_histories": 4,
+      "inside_bracket": 2,
+      "mean_interval_excess_days": 3.75,
+      "root_mean_square_interval_excess_days": 5.408326913195984,
+      "minimum_bracket_width_days": 8.0,
+      "maximum_bracket_width_days": 18.0,
+      "calibration_is_validation": false,
+      "exact_onset_MAE_identified": false
+    }
+  ],
+  "one_sided_records": "coverage and constraints only; not exact-date timing precision",
+  "source_sha256": {
+    "data/process_f1/all115_F1_records_with_replay.csv": "60e947c099809184b9d8302130e5b5b2ced302728e24099d80aa7265904bf6e6",
+    "data/process_f1/field55_calendar_membership.csv": "a4f2b74d33252f5678cc309d919c0fe0a188a48751d994958cacf61878920d31",
+    "data/process_f1/four_weather_forcing.csv": "f44531ed7956dc5db62d7209d0007712c4a58cb0eb4761df70d0143423a5b63c",
+    "data/onset_evaluation/onset_records.csv": "09e441ce453a1bf2a3fcde7dff2f0e9ea753082cdb7aaa2078c5e7dfb2a62efe",
+    "parameters/phenology_parameters.json": "71f5388f5fac90dcc09666eaad43bfea54a1d91b866d6568f1b2538952cc5a2a",
+    "parameters/disease_parameters.json": "6505cea7fbbdf743fe9269c89c089710b58569178e4bc956242403ef79b20540",
+    "parameters/stage_thresholds.json": "9948aad3473eb17d9f37f09b2b05f8ba4feddcd1031bbf47d067a783beebffb4"
+  },
+  "replay_code_sha256": "cea8cdf25b260679c43b7793904f5dd7b5cd72ed92aff2456acdb5e8a4f1e2e6"
+}

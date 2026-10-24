@@ -6,7 +6,7 @@ import pytest
 
 def core():
     try:
-        return importlib.import_module('model.primary_secondary.core')
+        return importlib.import_module('models.primary_secondary.core')
     except ModuleNotFoundError:
         pytest.fail('Primary-secondary simulator is not implemented')
 
