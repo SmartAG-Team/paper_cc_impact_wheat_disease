@@ -8,6 +8,25 @@
   ],
   "sites_retained": 128,
   "geographical_scale": false,
+  "background_legend": {
+    "No mapped wheat": "#cccccc",
+    "Water": "#eaf2f8"
+  },
+  "land_use": {
+    "source": "SPAM2020 physical wheat area",
+    "reference_year": 2020,
+    "variable": "wheat_cropland_percent",
+    "unit": "percent of geometric cell area",
+    "native_grid_degrees": 0.25,
+    "source_cells": 14941,
+    "visible_cells": 7704,
+    "colour_limits_percent": [
+      0,
+      50
+    ],
+    "interpolation": false,
+    "scope": "wheat cropland only; not all cropland or field boundaries"
+  },
   "coordinates": "original retained source locations; no interpolation or jitter",
   "panels": {
     "a": "all retained source locations",

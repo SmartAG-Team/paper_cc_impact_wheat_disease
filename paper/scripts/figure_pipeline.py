@@ -14,7 +14,7 @@ from models.monitoring.inputs import sha
 from models.monitoring.innovation_common import ROOT
 from .figure_registry import MAIN_ROLES, SUPPLEMENT_ROLES, ROLE_NAMES, figure_number
 from .figure_methods import build_workflow, build_attribution_design
-from .figure_data_overview import prepare_overview,overview_figure
+from .figure_data_overview import prepare_cropland,prepare_overview,overview_figure
 from .figure_validation_v2 import (prepare_validation, density_figure,
     diagnostic_figure, STYLE)
 from .figure_validation_onset import validation_onset_figure,onset_eligibility
@@ -30,15 +30,16 @@ OLD=ROOT/'data/final_monitoring/reference'
 CHRONOLOGY=ROOT/'data/final_monitoring/cohort/training_observation_ledger.csv'
 
 CAPTIONS={
- 'data_overview': 'Retained field observations and sampling characteristics. (a) All 128 original source '
-    'locations; circles denote BASF and triangles denote Corteva. (b) Assessment counts by season and source. '
+ 'data_overview': 'Retained field observations and sampling characteristics. (a) All 128 source locations '
+    'over SPAM2020 physical wheat area, expressed as a percentage of native 0.25° cell area (IFPRI, 2026). '
+    'Circles denote BASF and triangles denote Corteva. Grey land is outside mapped wheat support; pale blue denotes water. '
+    '(b) Assessment counts by season and source. '
     '(c) Recorded disease-score distributions in 10-percentage-point bins; the final bin includes 100%. '
-    '(d) Unique assessment dates per field-season. The cohort contains 2,304 assessments from 218 '
-    'field-seasons during 2014–2019. One assessment represents a field, date and source-native leaf category '
-    'after source-row aggregation. Each is counted once, without evaluation weighting or duplication between '
-    'validation designs. All retained observations are explicitly untreated, zero-spray controls. Raw source '
-    'rows and field-seasons are distinct populations; independent biological replicates cannot be identified. '
-    'Native score and anatomical definitions remain qualified. Natural Earth outlines are geographic references (Natural Earth, n.d.). Map lines delineate study areas and do not necessarily depict accepted national boundaries.',
+    '(d) Unique assessment dates per field-season. The 2,304 assessments represent 218 field-seasons '
+    'during 2014–2019 and explicitly untreated, zero-spray controls. Each assessment aggregates one '
+    'field, date and source-native leaf category. Native score and anatomical definitions remain qualified. '
+    'Natural Earth outlines provide geographic context (Natural Earth, n.d.). '
+    'Map lines delineate study areas and do not necessarily depict accepted national boundaries.',
  'workflow': 'Study workflow and information settings. (a) Historical observation-conditioned monitoring uses dated '
     'untreated BASF/Corteva assessments and qualified station/reanalysis weather. Outer statistical fits use earlier '
     'seasons; query context admits strictly earlier disease from the same field and weather through the preceding day. '
@@ -71,13 +72,13 @@ CAPTIONS={
     'climate projections.',
  'diagnostics': 'Error concentration and field-scale heterogeneity. (a) Prediction bias within observed-disease bands, positioned at their weighted mean observed value; this outcome-conditioned diagnostic differs from forecast calibration. (b) Cumulative percentage of 192 field-seasons per design at or below each RMSE. Each field-season has one vote and retains original relative assessment weights internally; pooled RMSE is not their arithmetic mean. (c) Paired temporal and spatial RMSE by visit context; the focused 14–22-pp axis includes all estimates. Labels give assessment counts. First and last categories also include only-visit fields. Blue circles/solid lines and orange squares/dashed lines denote temporal and spatial designs; grey segments join estimates for the same context. Visit groups differ in case mix and do not identify the causal value of an extra visit.',
  'climate_change': 'Climate-response magnitude and direction agreement. (a) SSP1–2.6; (b) SSP2–4.5; '
-    '(c) SSP5–8.5: equal three-model mean change in normalized affected-tissue duration by 2071–2100 relative to '
-    '1991–2020 on valid historical–future paired seasons. (d) Agreement on an increase, decrease or mixed/zero '
-    'signs under SSP5–8.5; fewer than three model estimates are unavailable. All panels retain 14,941 native '
-    'cell footprints, EPSG3035 and identical extent. Values describe the wheat component of each mixed-land-use cell. The continuous colour scale is shared by (a)–(c); triangular '
-    'ends retain values beyond ±12 days. Agreement among selected models is not a probability or independent '
-    'verification. The output is a normalized symptom-tissue proxy, not measured physiological loss or grain '
-    'loss. Natural Earth outlines do not enter the model. Map lines delineate study areas and do not '
+    '(c) SSP5–8.5: equal-three-model mean change in normalized affected-tissue duration, 2071–2100 relative to '
+    '1991–2020. (d) Three-model direction agreement under SSP5–8.5. Coloured cells represent wheat within '
+    '14,941 native 0.25° footprints, with common EPSG:3035 extent. Grey land is outside mapped wheat '
+    'support; pale blue denotes water. Dark grey denotes unavailable responses. In (a)–(c), white is zero '
+    'disease change within wheat cells. The shared colour bar retains changes beyond ±12 days through its '
+    'triangular ends. Model agreement is not a probability; affected-tissue duration is a symptom-tissue '
+    'proxy. Natural Earth outlines provide geographic context (Natural Earth, n.d.). Map lines delineate study areas and do not '
     'necessarily depict accepted national boundaries.',
  'attribution_results': 'Weather, host and net attribution under eight settings on exactly 4,117 common '
     'model–draw–year pairs. Small points represent three climate models, diamonds their equally weighted mean, '
@@ -156,6 +157,8 @@ def build(output=None, inputs=None):
     CHRONOLOGY=inputs.get('chronology',globals()['CHRONOLOGY'])
     attribution_inputs=inputs.get('attribution',EXT/'data/attribution')
     exposure_inputs=inputs.get('exposure',EXT/'data/exposure')
+    from paper.analyses.food_security.exposure import write_economic_sensitivity
+    write_economic_sensitivity(exposure_inputs/'europe_thresholds.csv',OUT/'data/economic_sensitivity')
     plt.rcParams.update(STYLE)
     (OUT/'figure_inputs.json').write_text(json.dumps({key:str(value.relative_to(ROOT)) for key,value in inputs.items()},indent=2)+'\n')
     (OUT/'data').mkdir(exist_ok=True);(OUT/'figures').mkdir(exist_ok=True)
@@ -184,14 +187,19 @@ def build(output=None, inputs=None):
     corteva_source=ROOT/'data/final_study/inputs/stb_collection_20261009/sources/other_field_sources/corteva-2014-2018/corteva-wheat-diseases.txt'
     overview=prepare_overview(pd.read_csv(CHRONOLOGY),pd.read_csv(basf_source,sep='\t'),
         pd.read_csv(corteva_source,sep='\t',low_memory=False))
+    landuse_source=ROOT/'data/final_study/evidence/full_grid_climate/results/full_landuse_cell_registry.csv'
+    overview['cropland']=prepare_cropland(pd.read_csv(landuse_source))
     for name,table in overview.items():frame('data_overview',name,table)
     fig,geometry=overview_figure(overview);payload('data_overview','map_geometry',geometry)
-    emit('data_overview',fig,[CHRONOLOGY,basf_source,corteva_source,
+    emit('data_overview',fig,[CHRONOLOGY,basf_source,corteva_source,landuse_source,
         Path(__file__).with_name('figure_data_overview.py'),Path(__file__).with_name('figure_maps_v2.py')],
         dict(assessments='count of aggregated field-date-native-code records',field_seasons='distinct field-season identities',
         visits='unique assessment dates per field-season',recorded_disease='native recorded disease percent',
         raw_leaf_INFECT_rows='original source rows; not independent biological replicates',num_sprays='source reported fungicide applications',
-        treatment_eligibility='explicit Untreated label AND zero sprays; treated/unknown labels excluded'))
+        treatment_eligibility='explicit Untreated label AND zero sprays; treated/unknown labels excluded',
+        wheat_cropland_percent='physical wheat area / geometric cell area × 100; percent; panel (a)',
+        physical_total_ha='SPAM2020 physical wheat area, hectares; panel (a)',
+        grid_cell_geometric_area_ha='geometric native cell area, hectares; panel (a)'))
     validation=prepare_validation(pd.read_csv(OLD/'data/fig1/predictions.csv'),pd.read_csv(CHRONOLOGY))
     v_sources=[Path(__file__).with_name('figure_validation_v2.py'),Path(__file__).with_name('figure_validation.py'),
         OLD/'figure_manifest.json',CHRONOLOGY]
@@ -350,7 +358,8 @@ def build(output=None, inputs=None):
     (OUT/'verification/figure_data_cleanup.json').write_text(json.dumps(dict(
         prior_layout_archived='/Users/gangzhao/Documents/workspace/paper_cc_impact_wheat_disease_intermediates_20261023/publication/gcb_before_methods_validation_visuals',
         role_to_name=ROLE_NAMES,allowed_files_by_figure=mapping),indent=2)+'\n')
-    roots=[OUT/'figures',auxiliary,climate_evidence,yield_evidence,*[folder(r) for r in ROLE_NAMES]]
+    roots=[OUT/'figures',auxiliary,climate_evidence,yield_evidence,OUT/'data/economic_sensitivity',
+        *[folder(r) for r in ROLE_NAMES]]
     manifest=dict(figures=records,main_figures=[ROLE_NAMES[r] for r in MAIN_ROLES],
         supplementary_figures=[ROLE_NAMES[r] for r in SUPPLEMENT_ROLES],role_to_name=ROLE_NAMES,
         builder_path=str(Path(__file__).relative_to(ROOT)),code_sha256=sha(Path(__file__)),

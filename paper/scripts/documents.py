@@ -7,6 +7,7 @@ import re
 
 from docx import Document
 from docx.enum.section import WD_SECTION
+from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT
 from docx.oxml import OxmlElement, parse_xml
 from docx.shared import Cm, Pt
 from latex2mathml.converter import convert as latex_to_mathml
@@ -54,6 +55,44 @@ def math_lines(latex):
     lines=[s.strip().rstrip(',') for s in latex.splitlines() if s.strip()]
     if len(lines)==3 and lines[1].startswith('='): return [lines[0]+lines[1],lines[2]]
     return [' '.join(lines)]
+
+
+def numbered_equation(latex, index, prefix=''):
+    """Separate the reference label from the mathematical expression."""
+    tags=re.findall(r'\\tag\{([^{}]+)\}',latex)
+    if len(tags)>1:raise ValueError('A displayed equation must have one number')
+    label=tags[0] if tags else f'{prefix}{index}'
+    expression=re.sub(r'\\tag\{[^{}]+\}','',latex).strip()
+    return math_lines(expression),label
+
+
+def word_equation(document,lines,label):
+    """Keep native editable mathematics and its right-margin number together."""
+    table=document.add_table(rows=1,cols=2)
+    table.autofit=False
+    for column,width in zip(table.columns,[14.8,1.2]):column.width=Cm(width)
+    properties=table._tbl.tblPr
+    borders=OxmlElement('w:tblBorders')
+    for edge in ['top','left','bottom','right','insideH','insideV']:
+        node=OxmlElement('w:'+edge);node.set('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val','nil');borders.append(node)
+    properties.append(borders)
+    margins=OxmlElement('w:tblCellMar')
+    for edge in ['top','left','bottom','right']:
+        node=OxmlElement('w:'+edge)
+        node.set('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}w','0')
+        node.set('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}type','dxa');margins.append(node)
+    properties.append(margins)
+    table.rows[0]._tr.get_or_add_trPr().append(OxmlElement('w:cantSplit'))
+    for cell,width in zip(table.rows[0].cells,[14.8,1.2]):
+        cell.width=Cm(width);cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
+    equation_cell,number_cell=table.rows[0].cells
+    for index,line in enumerate(lines):
+        p=equation_cell.paragraphs[0] if index==0 else equation_cell.add_paragraph()
+        p.alignment=1;p.paragraph_format.line_spacing=1.15
+        p.paragraph_format.space_after=Pt(4);p.paragraph_format.keep_together=True
+        p._p.append(omml(line))
+    p=number_cell.paragraphs[0];p.alignment=2;p.paragraph_format.line_spacing=1.15
+    p.paragraph_format.space_after=Pt(4);p.add_run(f'({label})')
 
 
 def omml(latex):
@@ -112,7 +151,7 @@ def render_word(source,destination,figures=()):
         doc.styles[style].font.bold=True;doc.styles[style].paragraph_format.keep_with_next=True
     footer=section.footer.paragraphs[0];footer.alignment=1
     field=OxmlElement('w:fldSimple');field.set('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}instr','PAGE');footer._p.append(field)
-    skip=False;equations=0;inline=[]
+    skip=False;equations=0;equation_labels=[];inline=[]
     def add_figure(name,caption):
         p=doc.add_paragraph();p.alignment=1;p.paragraph_format.line_spacing=1
         p.paragraph_format.keep_with_next=True
@@ -130,8 +169,10 @@ def render_word(source,destination,figures=()):
             section=doc.add_section(WD_SECTION.NEW_PAGE);section.left_margin=section.right_margin=Cm(2.5)
         elif block.startswith('@@MATH@@'):
             latex=block[len('@@MATH@@'):-len('@@ENDMATH@@')]
-            for line in math_lines(latex):
-                p=doc.add_paragraph();p.alignment=1;p._p.append(omml(line));equations+=1
+            lines,label=numbered_equation(latex,len(equation_labels)+1,
+                'S' if destination.stem=='Mathematical_Model_Specification' else '')
+            word_equation(doc,lines,label)
+            equations+=len(lines);equation_labels.append(label)
         elif block.startswith('|'):
             rows=[[c.strip() for c in line.strip().strip('|').split('|')] for line in block.splitlines()]
             rows=[row for row in rows if not all(re.fullmatch(r':?-+:?',c) for c in row)]
@@ -171,6 +212,7 @@ def render_word(source,destination,figures=()):
             section._sectPr.append(node)
     doc.save(destination)
     return dict(path=str(destination.relative_to(OUT)),native_equation_blocks=equations,
+        numbered_equations=len(equation_labels),equation_labels=equation_labels,
         figures=len(figures),inline_figures=inline,appended_figures=[n for n,_ in appended])
 
 
@@ -209,7 +251,8 @@ def render_pdf(source,destination,figures=()):
                 label,level,key=flowable.supplement_outline
                 document.canv.bookmarkPage(key);document.canv.addOutlineEntry(label,key,level=level,closed=False)
         document.afterFlowable=after_flowable
-    story=[];skip=False;inline=[]
+    story=[];skip=False;inline=[];equations=0
+    equation_number=ParagraphStyle('equation_number',parent=compact,alignment=2,spaceAfter=0)
     for block in blocks(source):
         if block=='## Figure captions':skip=True;continue
         if skip and block.startswith('## '):skip=False
@@ -226,7 +269,19 @@ def render_pdf(source,destination,figures=()):
                 KeepTogether([Image(str(path),width=19*cm,height=image_height),Spacer(1,10),caption_paragraph]),
                 NextPageTemplate('text'),PageBreak()])
         elif block.startswith('@@MATH@@'):
-            for line in math_lines(block[len('@@MATH@@'):-len('@@ENDMATH@@')]):story.extend([equation_image(line),Spacer(1,8)])
+            equations+=1
+            lines,label=numbered_equation(block[len('@@MATH@@'):-len('@@ENDMATH@@')],equations)
+            images=[]
+            for line in lines:
+                picture=equation_image(line)
+                if picture.drawWidth>14.8*cm:raise ValueError('Equation overlaps its number: '+label)
+                images.extend([picture,Spacer(1,4)])
+            table=Table([[images,Paragraph(f'({label})',equation_number)]],colWidths=[14.8*cm,1.2*cm])
+            table.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'MIDDLE'),
+                ('ALIGN',(0,0),(0,-1),'CENTER'),
+                ('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),
+                ('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),0)]))
+            story.extend([table,Spacer(1,8)])
         elif block.startswith('|'):
             rows=[[c.strip() for c in line.strip().strip('|').split('|')] for line in block.splitlines()]
             rows=[row for row in rows if not all(re.fullmatch(r':?-+:?',c) for c in row)]

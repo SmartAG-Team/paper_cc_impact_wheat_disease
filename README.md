@@ -12,9 +12,12 @@ The principal findings are:
 
 - Late-century SSP5–8.5 increases the European harvested-area-weighted normalized affected-tissue integral by **2.66 days** relative to 1991–2020. The **50–60°N** belt contains **44.3%** of fixed wheat area and contributes **68.6%** of the positive change.
 - Host attribution depends on temporal support: the host contribution changes from **−5.30 days** over whole developmental windows to **+0.57 days** over their shared elapsed time, using identical season pairs.
+- Under late-century SSP5–8.5, all three climate models project increases in areas representing **162.2 million tonnes (67.1%)** of fixed annual reference wheat production. This quantity describes production exposure.
 - Regional sowing choices selected on two climate models and evaluated on the third reduce the future own-window integral by **1.89 days** on complete-season support. A uniform 14-day delay reduces the disease proxy but increases exposure to maximum temperatures above 30°C by **2.05 days**.
 
 The affected-tissue integral is a normalized symptom-tissue proxy. It does not measure physiological canopy-function loss or grain-yield loss. Sowing responses are bounded model sensitivities; their local feasibility and yield benefits remain unverified.
+
+Supplementary Table S6 reports conditional production-value sensitivities for assumed additional yield losses of 0.5–2% and illustrative constant prices of €150–250/t. The assumptions and calculation data are in [data/paper/economic_sensitivity](data/paper/economic_sensitivity/). These scenarios do not estimate disease-induced grain losses or future market prices.
 
 The separate observation-conditioned monitoring evaluation contains **2,017 assessments per design**, from **192 field-seasons at 121 sites**. Temporal RMSE is **17.15 percentage points** with predictive R² **0.625**; chronology-plus-50-km spatial RMSE is **17.31 percentage points** with R² **0.618**. Query context admits only strictly earlier disease observations from the same field and weather through the preceding day. These are adaptive retrospective comparisons; their skill does not validate autonomous climate projections.
 

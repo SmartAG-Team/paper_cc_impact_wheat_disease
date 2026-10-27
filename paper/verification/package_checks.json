@@ -1,8 +1,8 @@
 {
   "status": "passed",
   "text": {
-    "main_words": 6418,
-    "abstract_words": 256,
+    "main_words": 6545,
+    "abstract_words": 218,
     "counted_sections": "Introduction, Materials and Methods, Results, Discussion, Acknowledgements",
     "running_title_characters": 44,
     "keywords": 9,
@@ -21,7 +21,7 @@
       "pdf_text_within_page": true
     },
     "Supplementary_Information": {
-      "pages": 22,
+      "pages": 24,
       "embedded_word_figures": 3,
       "pdf_text_within_page": true
     },
@@ -52,6 +52,47 @@
     "Recent relevant papers": 43,
     "Potential reviewers": 32
   },
+  "equation_numbering_verified": {
+    "Manuscript": [
+      "1",
+      "2",
+      "3"
+    ],
+    "Mathematical_Model_Specification": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28",
+      "S29"
+    ]
+  },
+  "conditional_economics_scenario_rows_verified": 9,
+  "production_exposure_distinguished_from_grain_loss": true,
+  "unmapped_wheat_water_missing_and_zero_change_distinguished": true,
   "submission_ready": true,
   "author_items_pending": [],
   "raw_source_disease_scores_and_untreated_eligibility_verified": 2304,

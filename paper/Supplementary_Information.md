@@ -20,9 +20,11 @@ S5. External yield evidence
 
 S6. Parameters and equations
 
-S7. Reproducibility
+S7. Conditional production-value sensitivity
 
-Tables S1–S5; Figures S1–S3.
+S8. Reproducibility
+
+Tables S1–S6; Figures S1–S3.
 
 ## S1. Field data and endpoint evaluations
 
@@ -129,7 +131,7 @@ Figure S2 reports design-weighted area–time support by climate model, distinct
 
 ### S2.2. Integration and structural settings
 
-Whole-window losses use each host trajectory's own start and terminal dates. Shared-time losses use their elapsed-since-sowing intersection for all four corners, without extending either host beyond its terminal event; empty overlaps remain unavailable. The diagonal difference equals common-time response plus future-only and historical-only exposure, as defined in the main-text equation. The partition also applies to every factorial contrast. Reversal between these estimands cannot be attributed solely to window length because host area, tissue states and weather alignment also vary within common time.
+Whole-window losses use each host trajectory's own start and terminal dates. Shared-time losses use their elapsed-since-sowing intersection for all four corners, without extending either host beyond its terminal event; empty overlaps remain unavailable. The diagonal difference equals common-time response plus future-only and historical-only exposure, as defined in Equation 3 of the main text. The partition also applies to every factorial contrast. Reversal between these estimands cannot be attributed solely to window length because host area, tissue states and weather alignment also vary within common time.
 
 The eight settings are baseline, separate ±5% start/terminal-clock thresholds, reference-only linear senescence, removal of the symptom-detection gate and shared elapsed-time integration. Reference senescence changes reference area, not disease states; disease parameters remain fixed throughout. On identical pairs, the host contribution changes from negative over whole windows to positive over shared elapsed time. Other threshold/accounting settings retain negative ensemble host contributions on this common population. Whole-window and shared-time contrasts describe complementary modelled exposure quantities rather than a uniquely correct physiological endpoint or adaptation benefit. Settings are structural diagnostics, without calibrated uncertainty probabilities. Independent pair-level recomputation gives maximum additive-balance error 1.07×10⁻¹⁴ days, establishing reproducibility rather than physiological accuracy.
 
@@ -246,13 +248,35 @@ Table S5. Retained developmental thresholds, in effective TPV units. Stage codes
 
 Mathematical_Model_Specification.docx and its Markdown source contain the retained crop, tissue-state, source-pressure and weather-exposure equations. Copied numerical code and exact JSON parameters accompany the review package. Current measurements do not support natural senescence, actual maximum canopy area or physiological conversion of visible disease to photosynthetic-function loss.
 
-## S7. Reproducibility
+## S7. Conditional production-value sensitivity
 
-### S7.1. Numerical provenance
+### S7.1. Scope and assumptions
+
+The exposure basis is the 162.2115 million tonnes of fixed annual reference wheat production in cells where all three climate models project a positive affected-tissue change under SSP5–8.5 in 2071–2100 relative to 1991–2020. The complete 241.8449-million-tonne reference denominator includes production with unavailable responses. The all-wheat production weights and imposed rainfed winter-wheat calendar retain the representation limits in Section S3.3.
+
+Additional proportional yield losses of 0.5%, 1% and 2% and constant wheat prices of €150, €200 and €250 per tonne define illustrative sensitivity scenarios. These values are specified assumptions, without fitted effects, probability distributions or calendar-year price forecasts. Conditional grain loss equals exposed reference production multiplied by the assumed additional yield-loss fraction. Conditional gross-value loss equals that tonnage multiplied by the assumed price. The exposure criterion supplies no calibrated conversion from affected-tissue days to grain yield.
+
+### S7.2. Conditional quantities and economic boundaries
+
+The 1% yield-loss assumption corresponds to 1.622 million tonnes per reference-production year; at the illustrative €200 per tonne price, its gross production-value equivalent is €324.4 million. Alternative assumptions are reported in Table S6. Annual equivalents retain fixed baseline production and constant prices; they do not describe a cumulative 30-year loss or a discounted present value. Gross values exclude treatment and adaptation costs, quality premiums, trade responses and endogenous prices. Disease-specific realized grain losses, net welfare impacts and economic benefits of sowing adaptation remain unestimated.
+
+Table S6. Conditional annual production-value sensitivity for late-century SSP5–8.5 consensus-increase exposure. Additional yield-loss percentages and wheat prices are assumed scenario inputs. Conditional grain loss is expressed in million tonnes (Mt); the three price columns report gross-value equivalents in million euros (€ million). Calculations use the unrounded exposed reference production. Displayed values are rounded after calculation.
+
+| Assumed yield loss (%) | Conditional grain loss (Mt) | €150/t | €200/t | €250/t |
+| --- | --- | --- | --- | --- |
+| 0.5 | 0.811 | 121.7 | 162.2 | 202.8 |
+| 1 | 1.622 | 243.3 | 324.4 | 405.5 |
+| 2 | 3.244 | 486.6 | 648.8 | 811.1 |
+
+Machine-readable scenarios, assumptions and source hashes are retained in data/economic_sensitivity/. The exposure analysis stage reproduces these records from the fixed-production results.
+
+## S8. Reproducibility
+
+### S8.1. Numerical provenance
 
 Numbered plotting-data folders retain point identities, panels, variables and units. F1 records preserve original/current identifiers, calibration/evaluation membership, weather endpoints and weights. Source/output hashes distinguish copies from recomputation. Externalized caches retain compatibility paths and recoverable archive manifests; relocation changes no values. The reduced package supplies figure data and direct F1 replay, without establishing independent field validity.
 
-### S7.2. Support and source records
+### S8.2. Support and source records
 
 Latitude, developmental-window, sowing and yield records preserve populations, definitions and file identities. Both complete-season and common-calendar adaptation populations retain support selection and regional choices; missing shared intervals differ from zero response. Public-source annual yield labels and chart provenance remain separate from simulated tissue outputs.
 

@@ -2,13 +2,35 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.collections import PolyCollection
+from matplotlib.colors import LinearSegmentedColormap, Normalize
 from matplotlib.patches import Patch
 from pyproj import Transformer
 
-from .figure_maps_v2 import _map_axes,_country_boundaries,STYLE
+from .figure_maps_v2 import (_map_axes,_country_boundaries,_style_colourbar,STYLE,
+    LAND,OCEAN,LAND_LABEL,WATER_LABEL)
 
 SOURCES=('BASF','Corteva')
 COLORS={'BASF':'#A65893','Corteva':'#009E73'}
+
+
+def prepare_cropland(landuse):
+    """Retain native SPAM2020 physical wheat area as a fraction of cell area."""
+    columns=['cell_id','west','east','south','north','physical_total_ha',
+        'grid_cell_geometric_area_ha','area_reference_year','source_crop']
+    frame=landuse[columns].copy()
+    if not frame.cell_id.is_unique:raise ValueError('Land-use cells must be unique')
+    numeric=frame[['west','east','south','north','physical_total_ha','grid_cell_geometric_area_ha']]
+    if not np.isfinite(numeric.to_numpy(float)).all():raise ValueError('Land-use values must be finite')
+    if not ((frame.east>frame.west)&(frame.north>frame.south)&
+            (frame.grid_cell_geometric_area_ha>0)&(frame.physical_total_ha>0)).all():
+        raise ValueError('Land-use cell bounds and areas must be positive')
+    if set(frame.area_reference_year)!={2020} or set(frame.source_crop)!={'WHEA_all_wheat'}:
+        raise ValueError('The background requires SPAM2020 physical wheat area')
+    frame['wheat_cropland_percent']=100*frame.physical_total_ha/frame.grid_cell_geometric_area_ha
+    if not frame.wheat_cropland_percent.between(0,100).all():raise ValueError('Invalid physical wheat-area fraction')
+    frame['panel']='a'
+    return frame
 
 
 def prepare_overview(observations,basf_raw,corteva_raw):
@@ -64,7 +86,22 @@ def overview_figure(data):
         dx=max(dx,dy/aspect);dy=dx*aspect;cx=(max(x)+min(x))/2;cy=(max(y)+min(y))/2
         extent=[cx-dx/2,cx+dx/2,cy-dy/2,cy+dy/2]
         a=_map_axes(fig,(.6,10.3,8.2,6.1),(width,height),extent,'a')
+        cropland=data['cropland']
+        longitude=cropland[['west','east','east','west']].to_numpy(float)
+        latitude=cropland[['south','south','north','north']].to_numpy(float)
+        xx,yy=tr.transform(longitude,latitude)
+        visible=(xx.max(axis=1)>=extent[0])&(xx.min(axis=1)<=extent[1])&\
+            (yy.max(axis=1)>=extent[2])&(yy.min(axis=1)<=extent[3])
+        cmap=LinearSegmentedColormap.from_list('wheat_cropland',['#f4f5ed','#a9ba8c'])
+        background=PolyCollection(np.stack([xx[visible],yy[visible]],axis=-1),
+            array=cropland.loc[visible,'wheat_cropland_percent'].to_numpy(),
+            cmap=cmap,norm=Normalize(0,50),edgecolors='none',linewidths=0,
+            antialiased=False,rasterized=True,zorder=1)
+        a.add_collection(background)
         _country_boundaries(a)
+        colour_axes=fig.add_axes([1.4/width,9.55/height,6.6/width,.28/height])
+        bar=fig.colorbar(background,cax=colour_axes,orientation='horizontal',ticks=[0,10,20,30,40,50])
+        bar.set_label('Wheat cropland (%)',labelpad=3);_style_colourbar(bar)
         for source,marker in [('BASF','o'),('Corteva','^')]:
             part=sites[sites.source.eq(source)];xx,yy=tr.transform(part.longitude.to_numpy(),part.latitude.to_numpy())
             a.scatter(xx,yy,s=17,color=COLORS[source],marker=marker,edgecolors='white',linewidths=.3,zorder=5,rasterized=True)
@@ -85,9 +122,17 @@ def overview_figure(data):
             d.bar(numbers,part,bottom=bottom,color=COLORS[source],width=.72);bottom+=part.to_numpy()
         d.set(xlabel='Visits per field-season',ylabel='Field-seasons',xticks=numbers,ylim=(0,float(bottom.max())*1.12))
         handles=[Patch(facecolor=COLORS[s],edgecolor='none',label=s) for s in SOURCES]
-        fig.legend(handles=handles,loc='upper center',bbox_to_anchor=(.5,.995),ncol=2,frameon=False,
-            handlelength=1.2,columnspacing=1.5)
+        handles.extend([Patch(facecolor=LAND,edgecolor='#353b40',linewidth=.45,label=LAND_LABEL),
+            Patch(facecolor=OCEAN,edgecolor='#353b40',linewidth=.45,label=WATER_LABEL)])
+        fig.legend(handles=handles,loc='upper center',bbox_to_anchor=(.5,.995),ncol=4,frameon=False,
+            handlelength=1.2,columnspacing=1.2)
     geometry=dict(projection='EPSG3035',extent=extent,sites_retained=128,geographical_scale=False,
+        background_legend={LAND_LABEL:LAND,WATER_LABEL:OCEAN},
+        land_use=dict(source='SPAM2020 physical wheat area',reference_year=2020,
+            variable='wheat_cropland_percent',unit='percent of geometric cell area',
+            native_grid_degrees=.25,source_cells=len(cropland),visible_cells=int(visible.sum()),
+            colour_limits_percent=[0,50],interpolation=False,
+            scope='wheat cropland only; not all cropland or field boundaries'),
         coordinates='original retained source locations; no interpolation or jitter',
         panels=dict(a='all retained source locations',b='assessment counts by season and source',
             c='native disease-score distribution; counts',d='unique assessment dates per field-season'),

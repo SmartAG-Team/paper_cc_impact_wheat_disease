@@ -414,8 +414,11 @@ class Workflow:
                               summary.members.eq("|".join(MODELS)) &
                               summary.minimum_paired_seasons.eq(1)]
         primary.to_csv(out / "europe_thresholds.csv", index=False)
+        economic = implementation.write_economic_sensitivity(
+            out / "europe_thresholds.csv", out / "economic_sensitivity")
         result = dict(status="passed", recalculated_rows=len(summary), census=source,
                       fixed_production=True, grain_loss_estimated=False,
+                      conditional_economic_sensitivity=economic,
                       maximum_mass_balance_error_tonnes=float(summary.mass_balance_error_tonnes.abs().max()))
         write_json(out / "checks.json", result)
         return result

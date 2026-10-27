@@ -1,0 +1,26 @@
+{
+  "assumed_additional_yield_loss_fractions": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "assumed_prices_eur_t": [
+    150.0,
+    200.0,
+    250.0
+  ],
+  "illustrative_case": {
+    "loss_fraction": 0.01,
+    "price_eur_t": 200.0
+  },
+  "scenario": "ssp585",
+  "period": "2071-2100",
+  "threshold_days": 0,
+  "exposure": "baseline production in cells with increases in all three models",
+  "temporal_basis": "annual reference-production equivalent; fixed baseline production",
+  "currency": "illustrative constant EUR; no market-price or future-price estimate",
+  "assumptions_basis": "analyst-specified scenarios; no fitted yield response or probability distribution",
+  "calculation": "exposed production \u00d7 assumed yield-loss fraction \u00d7 assumed price",
+  "scope": "gross farm-gate production value; costs, quality changes, adaptation, market feedbacks and discounting excluded",
+  "disease_to_yield_conversion_estimated": false
+}

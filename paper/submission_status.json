@@ -19,7 +19,7 @@
   "journal_references_total": 45,
   "gcb_journal_references": 10,
   "initial_submission_free_format": true,
-  "citation_style": "consistentauthor\u2013year,chronologicalwithineachgroup;alphabeticalbibliography",
+  "citation_style": "consistentauthor–year,chronologicalwithineachgroup;alphabeticalbibliography",
   "new_endpoint_candidates_tested": 3,
   "candidate_promoted": false,
   "endpoint_precision_objective_achieved": false,
@@ -72,7 +72,7 @@
     "separate process onset"
   ],
   "forecast_calibration_display": "Figure4b only",
-  "error_coverage_weighting": "original evaluation weights; full0\u2013100pp error range",
+  "error_coverage_weighting": "original evaluation weights; full0–100pp error range",
   "onset_coverage_display": "Methods and machine-readable ledger",
   "journal_guidelines_last_checked": "2026-10-24",
   "initial_checklist_updated": "2025-12-01",
@@ -99,5 +99,14 @@
   "pre_publication_items": [
     "Public data/code archive with persistent identifier",
     "Higher-resolution line art if requested in production"
-  ]
+  ],
+  "funding_program": "Shaanxi Provincial Key R&D Programme",
+  "funding_project": "AI diagnosis and early warning of crop pests and diseases",
+  "funding_project_chinese": "农作物病虫害人工智能诊断预警研究与示范",
+  "funding_statement": "This work was supported by the Shaanxi Provincial Key R&D Programme through the project “AI diagnosis and early warning of crop pests and diseases”.",
+  "funding_confirmation_date": "2026-10-25",
+  "acknowledgements_statement": "AI-assisted tools were used for grammar checking and language refinement. The author reviewed and approved the final manuscript and takes full responsibility for its content.",
+  "data_availability_repository": "https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease",
+  "code_availability_repository": "https://github.com/SmartAG-Team/paper_cc_impact_wheat_disease",
+  "availability_statements_updated": "2026-10-25"
 }

@@ -24,10 +24,12 @@ SCENARIOS = ("ssp126", "ssp245", "ssp585")
 EVALUATIONS = ("temporal", "spatial_50km")
 FONT_SIZE = 12
 FRAME = "#353b40"
-OCEAN = "#edf3f6"
-LAND = "#f0efeb"
+OCEAN = "#eaf2f8"
+LAND = "#cccccc"
 COUNTRY_LINE = "#82878a"
-MISSING = "#d4d7da"
+MISSING = "#737373"
+LAND_LABEL = "No mapped wheat"
+WATER_LABEL = "Water"
 AGREEMENT_CATEGORIES = (
     ("all_3_increase", "All 3 increase", "#b2182b"),
     ("all_3_decrease", "All 3 decrease", "#2166ac"),
@@ -225,10 +227,15 @@ def build_climate_map(grid):
         bar.ax.xaxis.label.set_linespacing(1.0)
         # Matplotlib fills legend columns first. This ordering presents the
         # increasing/decreasing categories together on the first visual row.
-        legend_order = (0, 2, 1, 3)
-        handles = [Patch(facecolor=AGREEMENT_CATEGORIES[i][2], edgecolor=FRAME,
-                         linewidth=0.45, label=AGREEMENT_CATEGORIES[i][1])
-                   for i in legend_order]
+        def category_key(index):
+            return Patch(facecolor=AGREEMENT_CATEGORIES[index][2],edgecolor=FRAME,
+                linewidth=.45,label=AGREEMENT_CATEGORIES[index][1])
+        # Fill the two columns to read by rows: increase/decrease,
+        # mixed/unavailable, then the land-use and water backgrounds.
+        handles = [category_key(0),category_key(2),
+            Patch(facecolor=LAND,edgecolor=FRAME,linewidth=.45,label=LAND_LABEL),
+            category_key(1),category_key(3),
+            Patch(facecolor=OCEAN,edgecolor=FRAME,linewidth=.45,label=WATER_LABEL)]
         fig.legend(handles=handles, loc="center", bbox_to_anchor=(0.754, 0.065),
                    ncol=2, frameon=False, fontsize=FONT_SIZE, columnspacing=0.8,
                    handlelength=0.9, handleheight=0.85, handletextpad=0.4,
@@ -250,6 +257,9 @@ def build_climate_map(grid):
         "agreement_category_counts": {entry[0]: int(agreement.agreement_category.eq(entry[0]).sum())
                                       for entry in AGREEMENT_CATEGORIES},
         "agreement_is_probability": False, "interpolation": "none",
+        "background_legend": {LAND_LABEL:LAND,WATER_LABEL:OCEAN,"Unavailable":MISSING},
+        "background_scope": "Land outside mapped wheat support; no assertion about other crops",
+        "zero_change_colour": "white midpoint within wheat cells",
     }
     fig.gcb_map_geometry = geometry
     return fig, agreement, geometry

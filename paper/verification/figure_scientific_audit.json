@@ -56,12 +56,17 @@
       "assessments": 2304,
       "field_seasons": 218,
       "sites": 128,
+      "cropland_cells": 14941,
+      "cropland_variable": "physical wheat area / geometric cell area \u00d7 100",
       "checks": [
         "unique retained identities",
         "source/year counts",
         "native-score histogram",
         "unique dates per field-season",
-        "original coordinates"
+        "original coordinates",
+        "SPAM2020 native cell boundaries and physical wheat areas",
+        "cropland fractions recomputed from source areas",
+        "colour scale includes every background value"
       ],
       "qualification": "descriptive sample counts; native endpoint differences retained; only untreated zero-spray controls"
     },
@@ -160,7 +165,7 @@
   "raw_Corteva_assessments_reconstructed": 1720,
   "raw_BASF_assessments_reconstructed": 584,
   "treatment_eligibility_verified_for_all_retained_records": true,
-  "auditor_sha256": "beac867c462f18f67497e889a296923d5213124824a842d1ab6bb2e2e6bf419e",
+  "auditor_sha256": "60c75f746ef27981300f00cc21b9a9b6d7f3b3ed9262f65d6f5b925a4e74cc5f",
   "source_row_convention": "one-based physical text line including header; pandas row index = source line minus two",
   "source_sha256": {
     "data/derived/paper_20261024/analyses/attribution/attribution_pairs.parquet": "08f7675c38a9bd898cc6d488f646e92198a0453c3d6a451b51f3072e75c62f8d",
@@ -192,6 +197,7 @@
     "paper/data/fig10/support_sensitivity_policy_selection.csv": "33bf75bbb6869d6125cbb9146f4dfda611e62855ddf7aa2472c6943860c35a74",
     "paper/data/fig10/support_sensitivity_same_policy.csv": "4df0e560277163906be54a014750676ae48d620a9d252d993744e456ce768a05",
     "paper/data/fig2/assessments.csv": "3f7702331f878f5fbe0adc5565f7b62c6f6fb158d5f8e98024aa10190ce37a36",
+    "paper/data/fig2/cropland.csv": "841d3d8d03adc17e917c4ad4dfd86fed3184a2f31a41e392cbf4874ae68c6d89",
     "paper/data/fig2/fields.csv": "3a2a82c2a3b7bd2fcff4595a5c27dcc06f1c23fffec23bb61bf16383a78d528d",
     "paper/data/fig2/severity.csv": "4377a75a9752498ea74058593403108509b13eb083a27e5204de98aeaf974f59",
     "paper/data/fig2/sites.csv": "c65da31cd99c2d08249e6ac9d8719731ba4d233f06477f632ece8d53ab8fb0bf",

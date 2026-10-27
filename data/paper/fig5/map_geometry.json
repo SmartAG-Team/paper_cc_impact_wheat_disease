@@ -40,5 +40,12 @@
     "unavailable": 36
   },
   "agreement_is_probability": false,
-  "interpolation": "none"
+  "interpolation": "none",
+  "background_legend": {
+    "No mapped wheat": "#cccccc",
+    "Water": "#eaf2f8",
+    "Unavailable": "#737373"
+  },
+  "background_scope": "Land outside mapped wheat support; no assertion about other crops",
+  "zero_change_colour": "white midpoint within wheat cells"
 }

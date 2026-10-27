@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "regenerated_utc": "2026-10-27T04:42:04.311998+00:00",
+  "scope": "All fourteen figures re-rendered; Figures 2 and 5 distinguish land outside mapped wheat, water, missing responses and zero change",
+  "renderer": "paper/scripts/figure_pipeline.py",
+  "renderer_sha256": "e28bd9bfec84e7a518abcdfee4e714ccfa49cdba02216230cc9315fbd7d490c9",
+  "figure_manifest_sha256": "f1b657021908438fd1d1175d972c88f16a510793a8043df5554f9d1eda4d8d6c",
+  "main_figures": 10,
+  "supplementary_figures": 3,
+  "graphical_abstract": 1,
+  "raw_climate_simulations_rerun": false,
+  "numerical_results_changed": false,
+  "land_use_mask": "SPAM2020 positive harvested wheat area",
+  "climate_cells_per_scenario": 14941,
+  "figure_width_cm": 19,
+  "font_pt": 12,
+  "dpi": 300,
+  "format": "png",
+  "figures": [
+    {
+      "name": "fig1",
+      "role": "workflow",
+      "sha256": "8af2ed573f0b28463b3b6def124fb7ce1cabed35f4134ca019383554c4a8ee47",
+      "source_files": 4,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "fig3",
+      "role": "attribution_design",
+      "sha256": "c3c2684cff9cce610ebea504d12062b2666e83d5433774e3850cce3ab106906a",
+      "source_files": 4,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "fig2",
+      "role": "data_overview",
+      "sha256": "08deb068fe27b562dabd3be4caa809343de26d38605c32131bcaf00b34fb8669",
+      "source_files": 6,
+      "pixels_changed_from_previous": true
+    },
+    {
+      "name": "fig4",
+      "role": "monitoring",
+      "sha256": "b1656d31ef256d48d3486cd2c3a55e0ca597fd432b94d64f4109ec5180ce7572",
+      "source_files": 14,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "figs1",
+      "role": "diagnostics",
+      "sha256": "7535e8a5bd1daba0b6bb811645181912065f7c47044344a55a1e8b0b0562461b",
+      "source_files": 4,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "fig5",
+      "role": "climate_change",
+      "sha256": "efb482cb9ab07784299e4b80e76fb117068191fdfccc68d2e76105d6b3d98ae1",
+      "source_files": 4,
+      "pixels_changed_from_previous": true
+    },
+    {
+      "name": "fig8",
+      "role": "attribution_results",
+      "sha256": "4e0f383e3c32d8a41ce9007a80254852cf811d962450aeb9edb90260df22b7d5",
+      "source_files": 3,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "fig9",
+      "role": "production_exposure",
+      "sha256": "a439e91412b07e75665535174633245044ac66a8a33612bc552b2a2d23414f2c",
+      "source_files": 3,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "figs2",
+      "role": "support",
+      "sha256": "bdb2744decb25bc9c26981b6fbb174b808782beaf85d0154ec87aae9f0dfed8f",
+      "source_files": 2,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "fig6",
+      "role": "latitude_environment",
+      "sha256": "488b6c01f22576bd3bd80e120d894027a1080e9a9371a2f946d6ba38a0b6992f",
+      "source_files": 9,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "fig7",
+      "role": "climate_phenology",
+      "sha256": "58d09f1203d46f750623f5939a1c8907a379ebace77b549d61aa6e6f9538a1f3",
+      "source_files": 9,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "fig10",
+      "role": "adaptation",
+      "sha256": "d94956938acc9f57b743593ac59d9d6ebc82fbd8e118a5412ceaa3cd3b28c5e6",
+      "source_files": 5,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "figs3",
+      "role": "yield_context",
+      "sha256": "7926753b66dd9bef1168395b1720ff2e4d7cf22c1764aa91b000ee68874a1a3a",
+      "source_files": 4,
+      "pixels_changed_from_previous": false
+    },
+    {
+      "name": "graphical_abstract",
+      "role": "graphical_abstract",
+      "sha256": "32a9e0546d44aca1e52a6ba1fb3a16904dadb66d5cc163b7e3fa187e2dafe422",
+      "source_files": 2,
+      "pixels_changed_from_previous": false
+    }
+  ]
+}

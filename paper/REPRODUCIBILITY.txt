@@ -21,3 +21,5 @@ The repository README.md documents installation, saved monitoring-fold replay, f
 
 Unified repository workflow
 From the repository root, python paper/run.py --output data/reproductions/my_run replays the shared models, recomputes analyses and regenerates all figures and documents. --full-climate --deep-process additionally rebuilds the continental and sampled process simulations from daily forcing. paper/figure_index.csv maps every figure to its plotting data, rendering script and upstream analysis. All model code is under models/ and all numerical inputs/assets under data/.
+
+The exposure stage also reproduces Supplementary Table S6. data/economic_sensitivity/ in the paper package retains the assumed yield-loss fractions, illustrative constant prices, all nine conditional scenarios and source hashes. The standalone command is python -m paper.analyses.food_security.exposure --economic-sensitivity data/derived/paper_20261024/analyses/exposure/europe_thresholds.csv --output data/reproductions/economic_sensitivity. Conditional grain and gross-value quantities are scenario calculations, without a fitted disease-to-yield conversion or market-price forecast.

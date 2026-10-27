@@ -1,15 +1,75 @@
 """Independent fixed-baseline production exposure; no grain-loss conversion."""
 from itertools import combinations
+import json
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-from .provenance import ROOT, auth_source, output_hashes, prepare_destination, write_json
+from .provenance import ROOT, auth_source, digest, output_hashes, prepare_destination, write_json
 
 MODELS = ['ACCESS-CM2', 'MPI-ESM1-2-HR', 'MRI-ESM2-0']
 METRIC = 'GS65_85_lost_had3'
 WEIGHTS = {'total': 'production_total_tonnes', 'rainfed': 'production_rainfed_tonnes'}
+
+
+def economic_sensitivity(exposure, *, loss_fractions=(.005,.01,.02), prices_eur_t=(150.,200.,250.)):
+    """Apply explicit hypothetical yield losses to agreed-increase exposure."""
+    loss=np.asarray(loss_fractions,dtype=float);price=np.asarray(prices_eur_t,dtype=float)
+    if loss.ndim!=1 or price.ndim!=1 or not len(loss) or not len(price):
+        raise ValueError('Nonempty one-dimensional assumptions required')
+    if not np.isfinite(loss).all() or not ((loss>=0)&(loss<=1)).all():
+        raise ValueError('Assumed yield-loss fractions must lie in zero to one')
+    if not np.isfinite(price).all() or not (price>0).all():
+        raise ValueError('Assumed prices must be finite positive EUR per tonne')
+    selected=exposure.loc[exposure.domain_type.eq('Europe')&exposure.domain.eq('Europe')&
+        exposure.scenario.eq('ssp585')&exposure.period.eq('2071-2100')&
+        exposure.weight_basis.eq('total')&exposure.member_count.eq(3)&
+        exposure.threshold_days.eq(0)&exposure.minimum_paired_seasons.eq(1)]
+    if len(selected)!=1:raise ValueError('Expected exactly one primary consensus exposure record')
+    row=selected.iloc[0];baseline=float(row.baseline_production_tonnes);exposed=float(row.unanimous_increase_tonnes)
+    if not np.isfinite([baseline,exposed]).all() or not 0<=exposed<=baseline or baseline<=0:
+        raise ValueError('Invalid exposed or baseline production')
+    share=100*exposed/baseline
+    if not np.isclose(share,row.unanimous_increase_share_percent,rtol=0,atol=1e-8):
+        raise ValueError('Exposed production share disagrees with baseline denominator')
+    return pd.DataFrame([dict(scenario='ssp585',period='2071-2100',
+        exposure_definition='positive affected-tissue change in all three climate models',
+        baseline_production_tonnes=baseline,exposed_baseline_production_tonnes=exposed,
+        exposed_baseline_production_share_percent=share,
+        assumed_additional_yield_loss_fraction=float(fraction),
+        assumed_additional_yield_loss_percent=float(100*fraction),
+        assumed_price_eur_t=float(value),conditional_grain_loss_tonnes=float(exposed*fraction),
+        conditional_gross_value_loss_eur=float(exposed*fraction*value))
+        for fraction in loss for value in price])
+
+
+def write_economic_sensitivity(source,output):
+    """Write reproducible scenarios with explicit assumptions and provenance."""
+    source,output=Path(source),Path(output);output.mkdir(parents=True,exist_ok=True)
+    scenarios=economic_sensitivity(pd.read_csv(source,float_precision='round_trip'))
+    assumptions=dict(assumed_additional_yield_loss_fractions=[.005,.01,.02],
+        assumed_prices_eur_t=[150.,200.,250.],illustrative_case=dict(loss_fraction=.01,price_eur_t=200.),
+        scenario='ssp585',period='2071-2100',threshold_days=0,
+        exposure='baseline production in cells with increases in all three models',
+        temporal_basis='annual reference-production equivalent; fixed baseline production',
+        currency='illustrative constant EUR; no market-price or future-price estimate',
+        assumptions_basis='analyst-specified scenarios; no fitted yield response or probability distribution',
+        calculation='exposed production × assumed yield-loss fraction × assumed price',
+        scope='gross farm-gate production value; costs, quality changes, adaptation, market feedbacks and discounting excluded',
+        disease_to_yield_conversion_estimated=False)
+    scenarios.to_csv(output/'scenarios.csv',index=False)
+    write_json(output/'assumptions.json',assumptions)
+    case=scenarios.loc[scenarios.assumed_additional_yield_loss_percent.eq(1)&scenarios.assumed_price_eur_t.eq(200)].iloc[0]
+    source_name=source.resolve().relative_to(ROOT).as_posix() if source.resolve().is_relative_to(ROOT) else source.as_posix()
+    receipt=dict(status='passed',source_path=source_name,source_sha256=digest(source),
+        implementation_sha256=digest(Path(__file__)),
+        scenario_rows=len(scenarios),grain_loss_predicted=False,economic_loss_predicted=False,
+        illustrative_grain_loss_tonnes=float(case.conditional_grain_loss_tonnes),
+        illustrative_gross_value_loss_eur=float(case.conditional_gross_value_loss_eur),
+        outputs_sha256=output_hashes(output))
+    write_json(output/'receipt.json',receipt)
+    return receipt
 
 
 def _production(frame):
@@ -138,6 +198,7 @@ def run(output, *, root=ROOT):
     primary = summary.loc[summary.domain_type.eq('Europe') & summary.members.eq('|'.join(MODELS))
                           & summary.minimum_paired_seasons.eq(1)]
     primary.to_csv(output / 'europe_thresholds.csv', index=False)
+    write_economic_sensitivity(output/'europe_thresholds.csv',output/'economic_sensitivity')
     headline = primary.loc[primary.scenario.eq('ssp585') & primary.period.eq('2071-2100')
                           & primary.weight_basis.eq('total') & primary.threshold_days.eq(0)].iloc[0]
     result = dict(status='calculated', metric=METRIC, sources=sources, rows=len(summary),
@@ -151,3 +212,12 @@ def run(output, *, root=ROOT):
                   outputs_sha256=output_hashes(output))
     write_json(output / 'receipt.json', result)
     return result
+
+
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser(description='Conditional production-value sensitivity from fixed consensus exposure')
+    parser.add_argument('--economic-sensitivity',type=Path,required=True,metavar='EXPOSURE_CSV')
+    parser.add_argument('--output',type=Path,required=True)
+    arguments=parser.parse_args()
+    print(json.dumps(write_economic_sensitivity(arguments.economic_sensitivity,arguments.output),indent=2))

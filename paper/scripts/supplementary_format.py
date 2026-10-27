@@ -3,6 +3,7 @@ import re
 
 
 def table_layout(headers):
+    if headers[0]=='Assumed yield loss (%)':return [3.,4.,3.,3.,3.],{0,1,2,3,4}
     if headers[0]=='Component':return [3.1,6.4,6.5],set()
     if headers[0]=='Endpoint':return [2.6,3.3,3.7,2.1,2.1,2.2],{3,4,5}
     if headers[0]=='Candidate':return [4.4,2.3,2.6,3.35,3.35],{2,3,4}

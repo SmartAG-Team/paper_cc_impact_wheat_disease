@@ -224,8 +224,20 @@ def run():
         assert row.visits==group.date.nunique() and row.assessments==len(group)
     for key,group in overview_fields.groupby(['source','visits']):
         assert overview_visits.loc[key,'field_seasons']==len(group)
+    cropland=data('fig2/cropland.csv')
+    landuse=csv('data/final_study/evidence/full_grid_climate/results/full_landuse_cell_registry.csv')
+    assert cropland.cell_id.is_unique and len(cropland)==len(landuse)==14941
+    landuse=landuse.set_index('cell_id').loc[cropland.cell_id]
+    for column in ['west','east','south','north','physical_total_ha','grid_cell_geometric_area_ha']:
+        close(cropland[column],landuse[column])
+    close(cropland.wheat_cropland_percent,100*landuse.physical_total_ha/landuse.grid_cell_geometric_area_ha)
+    assert cropland.wheat_cropland_percent.between(0,50).all()
+    assert set(cropland.area_reference_year)=={2020} and set(cropland.source_crop)=={'WHEA_all_wheat'}
+    assert set(cropland.panel)=={'a'}
     records['fig2']=dict(status='passed',assessments=2304,field_seasons=218,sites=128,
-        checks=['unique retained identities','source/year counts','native-score histogram','unique dates per field-season','original coordinates'],
+        cropland_cells=14941,cropland_variable='physical wheat area / geometric cell area × 100',
+        checks=['unique retained identities','source/year counts','native-score histogram','unique dates per field-season','original coordinates',
+            'SPAM2020 native cell boundaries and physical wheat areas','cropland fractions recomputed from source areas','colour scale includes every background value'],
         qualification='descriptive sample counts; native endpoint differences retained; only untreated zero-spray controls')
     dates=pd.to_datetime(chronology.date);start=dates.groupby(chronology.field_id).min();end=dates.groupby(chronology.field_id).max()
     close(p.first_visit,pd.to_datetime(p.date).eq(p.field_id.map(start)))

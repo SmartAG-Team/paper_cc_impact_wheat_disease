@@ -23,6 +23,7 @@
     ],
     "fig2": [
       "assessments.csv",
+      "cropland.csv",
       "fields.csv",
       "map_geometry.json",
       "severity.csv",

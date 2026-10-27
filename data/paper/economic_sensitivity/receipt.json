@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_path": "data/derived/paper_20261024/analyses/exposure/europe_thresholds.csv",
+  "source_sha256": "141966f161fd32a307824cd96a4a2a6abe264c30c41da6dcf79575a5755aa1cb",
+  "implementation_sha256": "15e5af1bdd2d86dff05c5978a4c87d072c8f6bf2c150a95ba418e53494f462a9",
+  "scenario_rows": 9,
+  "grain_loss_predicted": false,
+  "economic_loss_predicted": false,
+  "illustrative_grain_loss_tonnes": 1622115.1367879817,
+  "illustrative_gross_value_loss_eur": 324423027.35759634,
+  "outputs_sha256": {
+    "assumptions.json": "9f7829f50a536477a5eeda0751e42564272716d220f98bce8baed8442a35c359",
+    "scenarios.csv": "2613ffc4c38533c7fea9ea93cc5c86e73b397f206302ca6ada6e3a0269686015"
+  }
+}

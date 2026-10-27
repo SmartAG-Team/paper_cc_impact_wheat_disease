@@ -126,23 +126,63 @@ def validate(write_manifest=False):
         assert not record['appended_figures']
     assert rendered['documents'][0]['inline_figures']==[ROLE_NAMES[r] for r in MAIN_ROLES]
     assert rendered['documents'][1]['inline_figures']==[ROLE_NAMES[r] for r in SUPPLEMENT_ROLES]
+    equation_numbering={}
+    for stem,prefix in [('Manuscript',''),('Mathematical_Model_Specification','S')]:
+        equation_source=(p/f'{stem}.md').read_text()
+        displays=re.findall(r'\\\[(.*?)\\\]',equation_source,re.S)
+        expected=[f'{prefix}{i}' for i in range(1,len(displays)+1)]
+        assert [re.findall(r'\\tag\{([^{}]+)\}',value) for value in displays]==[[label] for label in expected]
+        doc=Document(p/f'{stem}.docx')
+        numbered=[table for table in doc.tables if re.fullmatch(r'\(S?\d+\)',table.rows[0].cells[-1].text)]
+        assert [table.rows[0].cells[-1].text for table in numbered]==[f'({label})' for label in expected]
+        for table in numbered:
+            assert table.rows[0]._tr.xpath('./w:trPr/w:cantSplit')
+            assert table.rows[0].cells[0]._tc.xpath('.//m:oMath')
+            assert table.rows[0].cells[-1].paragraphs[0].alignment==2
+        record=next(row for row in rendered['documents'] if row['path']==f'{stem}.docx')
+        assert record['equation_labels']==expected and record['numbered_equations']==len(expected)
+        equation_numbering[stem]=expected
     docs = {}
     for name, count in [('Manuscript',len(MAIN_ROLES)),('Supplementary_Information',len(SUPPLEMENT_ROLES)),('Cover_Letter',0)]:
         doc = Document(p/f'{name}.docx')
         assert len(doc.inline_shapes) == count
         assert all(abs(shape.width-Cm(19)) < 10 for shape in doc.inline_shapes)
         if name=='Supplementary_Information':
-            assert len(doc.tables)==5
-            assert [len(table.rows) for table in doc.tables]==[7,9,7,17,10]
+            assert len(doc.tables)==6
+            assert [len(table.rows) for table in doc.tables]==[7,9,7,17,10,4]
             assert doc.styles['Normal'].paragraph_format.line_spacing==1.25
-            assert len([q for q in doc.paragraphs if q.style.name=='Heading 1' and re.match(r'S[1-7]\.',q.text)])==7
+            assert len([q for q in doc.paragraphs if q.style.name=='Heading 1' and re.match(r'S[1-8]\.',q.text)])==8
             for table in doc.tables:
                 assert table.rows[0]._tr.xpath('./w:trPr/w:tblHeader')
                 assert all(row._tr.xpath('./w:trPr/w:cantSplit') for row in table.rows)
                 assert all(run.font.size.pt==12 for row in table.rows for cell in row.cells for paragraph in cell.paragraphs for run in paragraph.runs)
             provenance=json.loads((p/'data/supplementary_tables/parameter_provenance.json').read_text())
-            displayed=[row.cells[1].text for table in doc.tables[3:] for row in table.rows[1:]]
+            displayed=[row.cells[1].text for table in doc.tables[3:5] for row in table.rows[1:]]
             assert displayed==[row['value_exact_from_current_table'] for row in provenance]
+            scenarios=pd.read_csv(p/'data/economic_sensitivity/scenarios.csv')
+            assert len(scenarios)==9 and not scenarios.duplicated(['assumed_additional_yield_loss_percent','assumed_price_eur_t']).any()
+            assert set(scenarios.assumed_additional_yield_loss_percent)=={.5,1.,2.}
+            assert set(scenarios.assumed_price_eur_t)=={150.,200.,250.}
+            primary=pd.read_csv(p/'data/fig9/thresholds.csv')
+            primary=primary.loc[primary.scenario.eq('ssp585')&primary.threshold_days.eq(0)].iloc[0]
+            np.testing.assert_allclose(scenarios.exposed_baseline_production_tonnes,primary.unanimous_increase_tonnes,rtol=1e-12)
+            np.testing.assert_allclose(scenarios.conditional_grain_loss_tonnes,
+                primary.unanimous_increase_tonnes*scenarios.assumed_additional_yield_loss_percent/100,rtol=1e-12)
+            np.testing.assert_allclose(scenarios.conditional_gross_value_loss_eur,
+                scenarios.conditional_grain_loss_tonnes*scenarios.assumed_price_eur_t,rtol=1e-12)
+            for row,(_,part) in zip(doc.tables[5].rows[1:],scenarios.groupby('assumed_additional_yield_loss_percent')):
+                values=part.set_index('assumed_price_eur_t')
+                expected=[f'{part.assumed_additional_yield_loss_percent.iloc[0]:g}',
+                    f'{part.conditional_grain_loss_tonnes.iloc[0]/1e6:.3f}',
+                    *[f'{values.loc[price,"conditional_gross_value_loss_eur"]/1e6:.1f}' for price in [150.,200.,250.]]]
+                assert [cell.text for cell in row.cells]==expected
+            economics=json.loads((p/'data/economic_sensitivity/receipt.json').read_text())
+            assert economics['status']=='passed' and not economics['grain_loss_predicted'] and not economics['economic_loss_predicted']
+            assert digest(ROOT/economics['source_path'])==economics['source_sha256']
+            assert digest(ROOT/'paper/analyses/food_security/exposure.py')==economics['implementation_sha256']
+            for path,value in economics['outputs_sha256'].items():assert digest(p/'data/economic_sensitivity'/path)==value
+            assumptions=json.loads((p/'data/economic_sensitivity/assumptions.json').read_text())
+            assert not assumptions['disease_to_yield_conversion_estimated']
         if name=='Manuscript':
             assert len(doc._element.xpath('.//w:lnNumType'))==len(doc.sections)
             assert all(node.get('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}restart')=='continuous'
@@ -162,6 +202,11 @@ def validate(write_manifest=False):
         if name=='Manuscript':
             rendered_text=' '.join(' '.join(page.get_text().split()) for page in pdf)
             assert 'References' in rendered_text
+            labels=[span for page in pdf for block in page.get_text('dict')['blocks'] if block['type']==0
+                for line in block['lines'] for span in line['spans']
+                if re.fullmatch(r'\(\d+\)',span['text'])]
+            assert [span['text'] for span in labels]==['(1)','(2)','(3)']
+            assert all(abs(span['bbox'][2]-(pdf[0].rect.width-2.5*72/2.54))<1 for span in labels)
             for title in ['Defoliation, disease, and growth.',
                     'Velocity of temperature and flowering time in wheat']:
                 assert title in rendered_text,title
@@ -236,6 +281,12 @@ def validate(write_manifest=False):
             expected_rmse=scores.set_index('evaluation').loc[design,'rmse']
             assert abs(np.sqrt(np.average(part.rmse**2,weights=part.weight_sum))-expected_rmse)<1e-10
     geometry=json.loads((figure_data('climate_change')/'map_geometry.json').read_text())
+    background=geometry['background_legend']
+    assert set(background)=={'No mapped wheat','Water','Unavailable'}
+    assert len(set(background.values()))==3 and '#ffffff' not in background.values()
+    overview_geometry=json.loads((figure_data('data_overview')/'map_geometry.json').read_text())
+    assert overview_geometry['background_legend']=={key:background[key] for key in ['No mapped wheat','Water']}
+    assert geometry['zero_change_colour']=='white midpoint within wheat cells'
     assert geometry['cells_per_scenario']==14941 and geometry['shared_geographical_scales']==0
     assert geometry['map_axes']==4 and geometry['cell_footprints_inside_extent']==14941
     agreement=pd.read_csv(figure_data('climate_change')/'direction_agreement.csv')
@@ -306,6 +357,9 @@ def validate(write_manifest=False):
         figure_role_numbering_verified=True,all_figures_embedded_after_first_citation=True,continuous_manuscript_line_numbers=True,methods_figures_embedded_in_Methods=3,
         figure_scientific_audits_verified=len(scientific_audit['figures']),
         journal_format_checks_passed=True,cover_answers_words=dict(answers),
+        equation_numbering_verified=equation_numbering,
+        conditional_economics_scenario_rows_verified=9,production_exposure_distinguished_from_grain_loss=True,
+        unmapped_wheat_water_missing_and_zero_change_distinguished=True,
         submission_ready=status['submission_ready'],author_items_pending=status['author_submission_items'],
         raw_source_disease_scores_and_untreated_eligibility_verified=2304,
         weighted_density_mass_verified=True,field_and_site_MSE_aggregation_verified=True,
